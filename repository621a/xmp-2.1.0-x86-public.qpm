@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageSize>121659</QPM:PackageSize>
+            <QPM:PackageReleaseDate>2003/09/29</QPM:PackageReleaseDate>
+            <QPM:PackageName>xmp</QPM:PackageName>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageRepository>http://qnx.org.ru/repository</QPM:PackageRepository>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>281218</QPM:ProductSize>
+            <QPM:InstallPath>public/xmp/core-2.1.0/x86</QPM:InstallPath>
+            <QPM:ProductName>Extended Module Player (XMP) for x86</QPM:ProductName>
+            <QPM:ProductIdentifier>xmp-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail>claudio@helllabs.org</QPM:ProductEmail>
+            <QPM:VendorName>public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://xmp.sourceforge.net</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail>claudio@helllabs.org</QPM:VendorEmail>
+            <QPM:AuthorName>Claudio Matsuoka</QPM:AuthorName>
+            <QPM:AuthorURL>http://xmp.sourceforge.net</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail>claudio@helllabs.org</QPM:AuthorEmail>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Extended Module Player - an open source module player for UNIX distributed under the terms of the GNU GPL.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Extended Module Player - an open source module player for UNIX distributed under the terms of the GNU GPL. XMP currently runs on several platforms, including Linux with ALSA and OSS, SunOS, NetBSD, HP-UX, OS/2, FreeBSD and Solaris. Using software mixing, xmp plays at rates up to 48 kHz with 32 bit linear interpolation.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://xmp.sourceforge.net</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/09/29</QPM:ReleaseDate>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseVersion>2.1.0</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>High</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>xmp</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:RequiresLibrary>libm.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libasound.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+            <QPM:ContentTopic>Multimedia/Music and Audio/Audio Media Players</QPM:ContentTopic>
+            <QPM:ContentKeyword>FM, Tracker, Music, Adlib, OPL2, Player, Module, MOD, XM, STM, S3M</QPM:ContentKeyword>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:LicenseUrl>rep://xmp-2.1.0-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="bin">
+                     <QPM:File>xmp</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

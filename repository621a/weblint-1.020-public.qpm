@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>weblint-1.020-public</QPM:PackageName>
+            <QPM:PackageSize>22541</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>2</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseNotes/>
+            <QPM:PackageReleaseUrgency>Medium</QPM:PackageReleaseUrgency>
+            <QPM:PackageReleaseDate>2002/06/02</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>1.9</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Web Lint</QPM:ProductName>
+            <QPM:ProductSize>76781</QPM:ProductSize>
+            <QPM:ProductIdentifier>weblint</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Neil Bowers</QPM:AuthorName>
+            <QPM:AuthorURL/>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>validates html</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>This is a perl script that validates the contents of an html file.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL/>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/weblint/core-1.020</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/06/02</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>1.020</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>Artistic License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl/>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>World Wide Web/Authoring Tools/HTML Authoring Tools</QPM:ContentTopic>
+            <QPM:ContentKeyword>weblint</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>any</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements>Requires Perl</QPM:ProductRequirements>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="bin">
+                     <QPM:File>weblint</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="man">
+                     <QPM:Dir name="man1">
+                        <QPM:File>weblint.1</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="man">
+                     <QPM:Union link="../../opt/man/man1">man1</QPM:Union>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageSize>110354</QPM:PackageSize>
+            <QPM:PackageReleaseDate>2003/10/01</QPM:PackageReleaseDate>
+            <QPM:PackageName>SDL</QPM:PackageName>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageRepository>http://qnx.org.ru/repository</QPM:PackageRepository>
+            <QPM:FileVersion>1.01</QPM:FileVersion>
+            <QPM:PackageDefaultState>hidden</QPM:PackageDefaultState>
+            <QPM:PackageModel>slib</QPM:PackageModel>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>272412</QPM:ProductSize>
+            <QPM:InstallPath>public/SDL/slib-1.2.6-bld2/x86</QPM:InstallPath>
+            <QPM:ProductName>Simple DirectMedia Layer (SDL) shared libraries for x86</QPM:ProductName>
+            <QPM:ProductIdentifier>SDL-slib-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail>slouken@libsdl.org</QPM:ProductEmail>
+            <QPM:VendorName>public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.libsdl.org</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail>slouken@libsdl.org</QPM:VendorEmail>
+            <QPM:AuthorName>Sam Lantinga</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.libsdl.org</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail>slouken@libsdl.org</QPM:AuthorEmail>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>This is the Simple DirectMedia Layer (SDL), a generic API that provides low level access to audio, keyboard, mouse, and display framebuffer across multiple platforms.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>This is the Simple DirectMedia Layer (SDL), a generic API that provides low level access to audio, keyboard, mouse, and display framebuffer across multiple platforms. This is the libraries, include files and other resources you can use to develop and run SDL applications.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.libsdl.org</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/10/01</QPM:ReleaseDate>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseVersion>1.2.6</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>High</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>2</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>GNU Lesser General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>SDL-slib</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:RequiresLibrary>libm.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libph.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libGL.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libasound.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+            <QPM:ContainsLibrary>libSDL-1.2.so.0</QPM:ContainsLibrary>
+            <QPM:ProvidesLibrary>libSDL-1.2.so.0</QPM:ProvidesLibrary>
+            <QPM:ContentTopic>System/Shared Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>SDL, audio, graphics, demos, games, emulators, direct, media, layer</QPM:ContentKeyword>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Photon</QPM:DisplayEnvironment>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:LicenseUrl>rep://SDL-1.2.6-bld2-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="lib">
+                     <QPM:File>libSDL-1.2.so.0</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageSize>14381</QPM:PackageSize>
+            <QPM:PackageReleaseDate>2003/04/19</QPM:PackageReleaseDate>
+            <QPM:PackageName>cmpci</QPM:PackageName>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageRepository>http://mike.qnx.org.ru/repository</QPM:PackageRepository>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>46701</QPM:ProductSize>
+            <QPM:InstallPath>public/cmpci/core-0.83b/x86</QPM:InstallPath>
+            <QPM:ProductName>C-Media 8338/8738 Audio Driver for x86</QPM:ProductName>
+            <QPM:ProductIdentifier>cmpci-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail>mike@malva.ua</QPM:ProductEmail>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://mike.qnx.org.ru/cmi</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail>mike@malva.ua</QPM:VendorEmail>
+            <QPM:AuthorName>Mike Gorchak</QPM:AuthorName>
+            <QPM:AuthorURL>http://mike.qnx.org.ru</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>C-Media 8338/8738 Audio Driver.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>C-Media C3DX 4ch/6ch 8338/8738 Audio Driver.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://mike.qnx.org.ru/cmi</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/04/19</QPM:ReleaseDate>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseVersion>0.83b</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>cmpci</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+            <QPM:ContainsLibrary>deva-ctrl-cmpci.so</QPM:ContainsLibrary>
+            <QPM:ContentTopic>System/Device Specific/Sound and Multimedia</QPM:ContentTopic>
+            <QPM:ContentKeyword>CMedia, 8338, 8738, Audio, Driver, C3DX</QPM:ContentKeyword>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Administrator</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationProcedure/>
+         <QPM:LicenseUrl>rep://cmpci-0.83b-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="lib">
+                  <QPM:Dir name="dll">
+                     <QPM:File>deva-ctrl-cmpci.so</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

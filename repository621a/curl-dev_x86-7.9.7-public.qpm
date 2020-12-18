@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>curl-dev_x86-7.9.7-public</QPM:PackageName>
+            <QPM:PackageSize>595146</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2002/05/16</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:PackageModel>dev</QPM:PackageModel>
+            <QPM:FileVersion>1.01</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>cURL Development</QPM:ProductName>
+            <QPM:ProductSize>1833382</QPM:ProductSize>
+            <QPM:ProductIdentifier>curl-dev-target_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Daniel Stenberg</QPM:AuthorName>
+            <QPM:AuthorURL/>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Curl is a command line tool for transfering data specified with URL syntax.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Curl is a command line tool for transfering data specified with URL syntax. libcurl is a library that Curl is using to do its job. It is readily  available to be used by your software.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://curl.haxx.se/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/curl/dev_x86-7.9.7</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/05/15</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>7.9.7</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Low</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+            <QPM:ReleaseCopyright>MIT License</QPM:ReleaseCopyright>
+            <QPM:ReleaseCopyright>Mozilla Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://curl-7.9.7-public.repdata/LicenseUrl/LEGAL</QPM:LicenseUrl>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>System/Network and Data Transmission/Download and Data Transfer/File Transfer Protocols</QPM:ContentTopic>
+            <QPM:ContentKeyword>curl</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor>x86</QPM:TargetProcessor>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>Requires the core development package (Packager-generated dependency).</QPM:Notes>
+               <QPM:Product>curl-dev</QPM:Product>
+            </QPM:Dependency>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Union link="$(PROCESSOR)/opt">opt</QPM:Union>
+               <QPM:Dir name="x86">
+                  <QPM:Dir name="opt">
+                     <QPM:Dir name="lib">
+                        <QPM:File>libcurl.a</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

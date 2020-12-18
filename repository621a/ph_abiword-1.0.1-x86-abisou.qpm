@@ -1,0 +1,122 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageName>ph_abiword-1.0.1-x86-abisou</QPM:PackageName>
+            <QPM:PackageSize>1836992</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2002/05/05</QPM:PackageReleaseDate>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>1.01</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>5509395</QPM:ProductSize>
+            <QPM:InstallPath>abisou/ph_abiword/core-1.0.1/x86</QPM:InstallPath>
+            <QPM:ProductName>AbiWord for x86</QPM:ProductName>
+            <QPM:ProductIdentifier>ph_abiword-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>abisource</QPM:VendorName>
+            <QPM:VendorInstallName>abisource</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.abisource.com</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>AbiSource</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.abisource.com</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>This is a full featured Word-like editor.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong/>
+            <QPM:ProductDescriptionURL>http://www.abisource.com</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/05/05</QPM:ReleaseDate>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ReleaseVersion>1.0.1</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Beta</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>ph_abiword</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:RequiresLibrary>libph.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libphrender.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libm.so.2</QPM:RequiresLibrary>
+            <QPM:ContentTopic>Home and Personal/Office Suites</QPM:ContentTopic>
+            <QPM:ContentKeyword>abiword,word,editor,abisource</QPM:ContentKeyword>
+            <QPM:DisplayEnvironment>Photon</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Use</QPM:ScriptType>
+            </QPM:Script>
+
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Unuse</QPM:ScriptType>
+            </QPM:Script>
+
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/font_install</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Unuse</QPM:ScriptType>
+            </QPM:Script>
+
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/font_install</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Use</QPM:ScriptType>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="usr">
+                  <QPM:Dir name="photon">
+                     <QPM:Dir name="bin">
+                        <QPM:File>AbiWord_d</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+
+      <QPM:Launch name="AbiWord">
+         <QPM:String name="Topic" value="Applications/Editors"/>
+         <QPM:String name="Command" value="/bin/ksh -c /usr/photon/bin/abiword"/>
+         <QPM:String name="Icon" value="/usr/share/icons/topics/document_letter_office_suite.gif"/>
+      </QPM:Launch>
+   </RDF:Description>
+</RDF:RDF>

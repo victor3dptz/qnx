@@ -1,0 +1,299 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:PackageName>libsdl-1.2.5-bld3-public</QPM:PackageName>
+            <QPM:PackageSize>57575</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/01/16</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Simple DirectMedia Layer (libSDL)</QPM:ProductName>
+            <QPM:ProductSize>227763</QPM:ProductSize>
+            <QPM:ProductIdentifier>libsdl</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Sam Lantiga and many many others</QPM:AuthorName>
+            <QPM:AuthorURL/>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>The Simple DirectMedia Layer is the open source answer to DirectX</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Simple DirectMedia Layer is a cross-platform multimedia library designed  to provide fast access to the graphics framebuffer and audio device. It  is used by MPEG playback software, emulators, and many popular games,  including the award winning Linux port of &quot;Civilization: Call To Power.&quot;  Simple DirectMedia Layer supports Linux, Win32, BeOS, MacOS, Solaris,  IRIX, and FreeBSD.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.libsdl.org</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/libsdl/core-1.2.5-bld3</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/12/26</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>1.2.5</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>3</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU Lesser General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://libsdl-1.2.5-bld3-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Software Development/Libraries and Extensions/C Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>sdl</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Photon</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/lib">lib</QPM:Union>
+                  <QPM:Dir name="bin">
+                     <QPM:File>sdl-config</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="lib">
+                     <QPM:File>libSDL.la</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="man">
+                     <QPM:Dir name="man3">
+                        <QPM:File>SDLKey.3</QPM:File>
+                        <QPM:File>SDL_ActiveEvent.3</QPM:File>
+                        <QPM:File>SDL_AddTimer.3</QPM:File>
+                        <QPM:File>SDL_AudioCVT.3</QPM:File>
+                        <QPM:File>SDL_AudioSpec.3</QPM:File>
+                        <QPM:File>SDL_BlitSurface.3</QPM:File>
+                        <QPM:File>SDL_BuildAudioCVT.3</QPM:File>
+                        <QPM:File>SDL_CD.3</QPM:File>
+                        <QPM:File>SDL_CDClose.3</QPM:File>
+                        <QPM:File>SDL_CDEject.3</QPM:File>
+                        <QPM:File>SDL_CDName.3</QPM:File>
+                        <QPM:File>SDL_CDNumDrives.3</QPM:File>
+                        <QPM:File>SDL_CDOpen.3</QPM:File>
+                        <QPM:File>SDL_CDPause.3</QPM:File>
+                        <QPM:File>SDL_CDPlay.3</QPM:File>
+                        <QPM:File>SDL_CDPlayTracks.3</QPM:File>
+                        <QPM:File>SDL_CDResume.3</QPM:File>
+                        <QPM:File>SDL_CDStatus.3</QPM:File>
+                        <QPM:File>SDL_CDStop.3</QPM:File>
+                        <QPM:File>SDL_CDtrack.3</QPM:File>
+                        <QPM:File>SDL_CloseAudio.3</QPM:File>
+                        <QPM:File>SDL_Color.3</QPM:File>
+                        <QPM:File>SDL_CondBroadcast.3</QPM:File>
+                        <QPM:File>SDL_CondSignal.3</QPM:File>
+                        <QPM:File>SDL_CondWait.3</QPM:File>
+                        <QPM:File>SDL_CondWaitTimeout.3</QPM:File>
+                        <QPM:File>SDL_ConvertAudio.3</QPM:File>
+                        <QPM:File>SDL_ConvertSurface.3</QPM:File>
+                        <QPM:File>SDL_CreateCond.3</QPM:File>
+                        <QPM:File>SDL_CreateCursor.3</QPM:File>
+                        <QPM:File>SDL_CreateMutex.3</QPM:File>
+                        <QPM:File>SDL_CreateRGBSurface.3</QPM:File>
+                        <QPM:File>SDL_CreateRGBSurfaceFrom.3</QPM:File>
+                        <QPM:File>SDL_CreateSemaphore.3</QPM:File>
+                        <QPM:File>SDL_CreateThread.3</QPM:File>
+                        <QPM:File>SDL_CreateYUVOverlay.3</QPM:File>
+                        <QPM:File>SDL_Delay.3</QPM:File>
+                        <QPM:File>SDL_DestroyCond.3</QPM:File>
+                        <QPM:File>SDL_DestroyMutex.3</QPM:File>
+                        <QPM:File>SDL_DestroySemaphore.3</QPM:File>
+                        <QPM:File>SDL_DisplayFormat.3</QPM:File>
+                        <QPM:File>SDL_DisplayFormatAlpha.3</QPM:File>
+                        <QPM:File>SDL_DisplayYUVOverlay.3</QPM:File>
+                        <QPM:File>SDL_EnableKeyRepeat.3</QPM:File>
+                        <QPM:File>SDL_EnableUNICODE.3</QPM:File>
+                        <QPM:File>SDL_Event.3</QPM:File>
+                        <QPM:File>SDL_EventState.3</QPM:File>
+                        <QPM:File>SDL_ExposeEvent.3</QPM:File>
+                        <QPM:File>SDL_FillRect.3</QPM:File>
+                        <QPM:File>SDL_Flip.3</QPM:File>
+                        <QPM:File>SDL_FreeCursor.3</QPM:File>
+                        <QPM:File>SDL_FreeSurface.3</QPM:File>
+                        <QPM:File>SDL_FreeWAV.3</QPM:File>
+                        <QPM:File>SDL_FreeYUVOverlay.3</QPM:File>
+                        <QPM:File>SDL_GL_GetAttribute.3</QPM:File>
+                        <QPM:File>SDL_GL_GetProcAddress.3</QPM:File>
+                        <QPM:File>SDL_GL_LoadLibrary.3</QPM:File>
+                        <QPM:File>SDL_GL_SetAttribute.3</QPM:File>
+                        <QPM:File>SDL_GL_SwapBuffers.3</QPM:File>
+                        <QPM:File>SDL_GLattr.3</QPM:File>
+                        <QPM:File>SDL_GetAppState.3</QPM:File>
+                        <QPM:File>SDL_GetAudioStatus.3</QPM:File>
+                        <QPM:File>SDL_GetClipRect.3</QPM:File>
+                        <QPM:File>SDL_GetCursor.3</QPM:File>
+                        <QPM:File>SDL_GetError.3</QPM:File>
+                        <QPM:File>SDL_GetEventFilter.3</QPM:File>
+                        <QPM:File>SDL_GetGamma.3</QPM:File>
+                        <QPM:File>SDL_GetGammaRamp.3</QPM:File>
+                        <QPM:File>SDL_GetKeyName.3</QPM:File>
+                        <QPM:File>SDL_GetKeyState.3</QPM:File>
+                        <QPM:File>SDL_GetModState.3</QPM:File>
+                        <QPM:File>SDL_GetMouseState.3</QPM:File>
+                        <QPM:File>SDL_GetRGB.3</QPM:File>
+                        <QPM:File>SDL_GetRGBA.3</QPM:File>
+                        <QPM:File>SDL_GetRelativeMouseState.3</QPM:File>
+                        <QPM:File>SDL_GetThreadID.3</QPM:File>
+                        <QPM:File>SDL_GetTicks.3</QPM:File>
+                        <QPM:File>SDL_GetVideoInfo.3</QPM:File>
+                        <QPM:File>SDL_GetVideoSurface.3</QPM:File>
+                        <QPM:File>SDL_Init.3</QPM:File>
+                        <QPM:File>SDL_InitSubSystem.3</QPM:File>
+                        <QPM:File>SDL_JoyAxisEvent.3</QPM:File>
+                        <QPM:File>SDL_JoyBallEvent.3</QPM:File>
+                        <QPM:File>SDL_JoyButtonEvent.3</QPM:File>
+                        <QPM:File>SDL_JoyHatEvent.3</QPM:File>
+                        <QPM:File>SDL_JoystickClose.3</QPM:File>
+                        <QPM:File>SDL_JoystickEventState.3</QPM:File>
+                        <QPM:File>SDL_JoystickGetAxis.3</QPM:File>
+                        <QPM:File>SDL_JoystickGetBall.3</QPM:File>
+                        <QPM:File>SDL_JoystickGetButton.3</QPM:File>
+                        <QPM:File>SDL_JoystickGetHat.3</QPM:File>
+                        <QPM:File>SDL_JoystickIndex.3</QPM:File>
+                        <QPM:File>SDL_JoystickName.3</QPM:File>
+                        <QPM:File>SDL_JoystickNumAxes.3</QPM:File>
+                        <QPM:File>SDL_JoystickNumBalls.3</QPM:File>
+                        <QPM:File>SDL_JoystickNumButtons.3</QPM:File>
+                        <QPM:File>SDL_JoystickNumHats.3</QPM:File>
+                        <QPM:File>SDL_JoystickOpen.3</QPM:File>
+                        <QPM:File>SDL_JoystickOpened.3</QPM:File>
+                        <QPM:File>SDL_JoystickUpdate.3</QPM:File>
+                        <QPM:File>SDL_KeyboardEvent.3</QPM:File>
+                        <QPM:File>SDL_KillThread.3</QPM:File>
+                        <QPM:File>SDL_ListModes.3</QPM:File>
+                        <QPM:File>SDL_LoadBMP.3</QPM:File>
+                        <QPM:File>SDL_LoadWAV.3</QPM:File>
+                        <QPM:File>SDL_LockAudio.3</QPM:File>
+                        <QPM:File>SDL_LockSurface.3</QPM:File>
+                        <QPM:File>SDL_LockYUVOverlay.3</QPM:File>
+                        <QPM:File>SDL_MapRGB.3</QPM:File>
+                        <QPM:File>SDL_MapRGBA.3</QPM:File>
+                        <QPM:File>SDL_MixAudio.3</QPM:File>
+                        <QPM:File>SDL_MouseButtonEvent.3</QPM:File>
+                        <QPM:File>SDL_MouseMotionEvent.3</QPM:File>
+                        <QPM:File>SDL_NumJoysticks.3</QPM:File>
+                        <QPM:File>SDL_OpenAudio.3</QPM:File>
+                        <QPM:File>SDL_Overlay.3</QPM:File>
+                        <QPM:File>SDL_Palette.3</QPM:File>
+                        <QPM:File>SDL_PauseAudio.3</QPM:File>
+                        <QPM:File>SDL_PeepEvents.3</QPM:File>
+                        <QPM:File>SDL_PixelFormat.3</QPM:File>
+                        <QPM:File>SDL_PollEvent.3</QPM:File>
+                        <QPM:File>SDL_PumpEvents.3</QPM:File>
+                        <QPM:File>SDL_PushEvent.3</QPM:File>
+                        <QPM:File>SDL_Quit.3</QPM:File>
+                        <QPM:File>SDL_QuitEvent.3</QPM:File>
+                        <QPM:File>SDL_QuitSubSystem.3</QPM:File>
+                        <QPM:File>SDL_RWFromFile.3</QPM:File>
+                        <QPM:File>SDL_Rect.3</QPM:File>
+                        <QPM:File>SDL_RemoveTimer.3</QPM:File>
+                        <QPM:File>SDL_ResizeEvent.3</QPM:File>
+                        <QPM:File>SDL_SaveBMP.3</QPM:File>
+                        <QPM:File>SDL_SemPost.3</QPM:File>
+                        <QPM:File>SDL_SemTryWait.3</QPM:File>
+                        <QPM:File>SDL_SemValue.3</QPM:File>
+                        <QPM:File>SDL_SemWait.3</QPM:File>
+                        <QPM:File>SDL_SemWaitTimeout.3</QPM:File>
+                        <QPM:File>SDL_SetAlpha.3</QPM:File>
+                        <QPM:File>SDL_SetClipRect.3</QPM:File>
+                        <QPM:File>SDL_SetColorKey.3</QPM:File>
+                        <QPM:File>SDL_SetColors.3</QPM:File>
+                        <QPM:File>SDL_SetCursor.3</QPM:File>
+                        <QPM:File>SDL_SetEventFilter.3</QPM:File>
+                        <QPM:File>SDL_SetGamma.3</QPM:File>
+                        <QPM:File>SDL_SetGammaRamp.3</QPM:File>
+                        <QPM:File>SDL_SetModState.3</QPM:File>
+                        <QPM:File>SDL_SetPalette.3</QPM:File>
+                        <QPM:File>SDL_SetTimer.3</QPM:File>
+                        <QPM:File>SDL_SetVideoMode.3</QPM:File>
+                        <QPM:File>SDL_ShowCursor.3</QPM:File>
+                        <QPM:File>SDL_Surface.3</QPM:File>
+                        <QPM:File>SDL_SysWMEvent.3</QPM:File>
+                        <QPM:File>SDL_ThreadID.3</QPM:File>
+                        <QPM:File>SDL_UnlockAudio.3</QPM:File>
+                        <QPM:File>SDL_UnlockSurface.3</QPM:File>
+                        <QPM:File>SDL_UnlockYUVOverlay.3</QPM:File>
+                        <QPM:File>SDL_UpdateRect.3</QPM:File>
+                        <QPM:File>SDL_UpdateRects.3</QPM:File>
+                        <QPM:File>SDL_UserEvent.3</QPM:File>
+                        <QPM:File>SDL_VideoDriverName.3</QPM:File>
+                        <QPM:File>SDL_VideoInfo.3</QPM:File>
+                        <QPM:File>SDL_VideoModeOK.3</QPM:File>
+                        <QPM:File>SDL_WM_GetCaption.3</QPM:File>
+                        <QPM:File>SDL_WM_GrabInput.3</QPM:File>
+                        <QPM:File>SDL_WM_IconifyWindow.3</QPM:File>
+                        <QPM:File>SDL_WM_SetCaption.3</QPM:File>
+                        <QPM:File>SDL_WM_SetIcon.3</QPM:File>
+                        <QPM:File>SDL_WM_ToggleFullScreen.3</QPM:File>
+                        <QPM:File>SDL_WaitEvent.3</QPM:File>
+                        <QPM:File>SDL_WaitThread.3</QPM:File>
+                        <QPM:File>SDL_WarpMouse.3</QPM:File>
+                        <QPM:File>SDL_WasInit.3</QPM:File>
+                        <QPM:File>SDL_keysym.3</QPM:File>
+                        <QPM:File>SDL_mutexP.3</QPM:File>
+                        <QPM:File>SDL_mutexV.3</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="aclocal">
+                        <QPM:File>sdl.m4</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../opt/lib">lib</QPM:Union>
+                  <QPM:Union link="../opt/bin">bin</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/lib">lib</QPM:Union>
+                  <QPM:Dir name="man">
+                     <QPM:Union link="../../opt/man/man3">man3</QPM:Union>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Union link="../../opt/share/aclocal">aclocal</QPM:Union>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

@@ -1,0 +1,295 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:PackageName>openh323-dev-1.11.3-public</QPM:PackageName>
+            <QPM:PackageSize>555198</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>3</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseNotes/>
+            <QPM:PackageReleaseUrgency>Medium</QPM:PackageReleaseUrgency>
+            <QPM:PackageReleaseDate>2003/01/27</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:PackageModel>dev</QPM:PackageModel>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>openh323 Development</QPM:ProductName>
+            <QPM:ProductSize>3317084</QPM:ProductSize>
+            <QPM:ProductIdentifier>openh323-dev</QPM:ProductIdentifier>
+            <QPM:ProductEmail>xtang@canada.com</QPM:ProductEmail>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.openh323.org/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Equivalence Pty Ltd.</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.equival.com/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail>equival@equival.net</QPM:AuthorEmail>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>ITU H.323 teleconferencing protocol stack</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>The OpenH323 project aims to create a full featured, interoperable, Open  Source implementation of the ITU H.323 teleconferencing protocol that  can be used by personal developers and commercial users without charge.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.openh323.org/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/openh323/dev-1.11.3</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/01/16</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>1.11.3</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>Mozilla Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://openh323-1.11.3-public.repdata/LicenseUrl/mpl-1.0.txt</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Communication and Connectivity/Telephony</QPM:ContentTopic>
+            <QPM:ContentKeyword>openh323, h323, netmeeting</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>Must include at least one development package targeting a specific processor (Packager-generated dependency).</QPM:Notes>
+               <QPM:Filter>
+                  <QPM:FilterType>StringExpression</QPM:FilterType>
+                  <ProductIdentifier>openh323-dev-target*</ProductIdentifier>
+               </QPM:Filter>
+            </QPM:Dependency>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="include">
+                     <QPM:Dir name="openh323">
+                        <QPM:File>QTIoctl.h</QPM:File>
+                        <QPM:File>channels.h</QPM:File>
+                        <QPM:File>codecs.h</QPM:File>
+                        <QPM:File>cu30codec.h</QPM:File>
+                        <QPM:File>g7231codec.h</QPM:File>
+                        <QPM:File>g726codec.h</QPM:File>
+                        <QPM:File>g729codec.h</QPM:File>
+                        <QPM:File>gccpdu.h</QPM:File>
+                        <QPM:File>gkclient.h</QPM:File>
+                        <QPM:File>gkserver.h</QPM:File>
+                        <QPM:File>gsmcodec.h</QPM:File>
+                        <QPM:File>guid.h</QPM:File>
+                        <QPM:File>h225.h</QPM:File>
+                        <QPM:File>h225ras.h</QPM:File>
+                        <QPM:File>h235.h</QPM:File>
+                        <QPM:File>h235auth.h</QPM:File>
+                        <QPM:File>h245.h</QPM:File>
+                        <QPM:File>h261codec.h</QPM:File>
+                        <QPM:File>h263codec.h</QPM:File>
+                        <QPM:File>h323.h</QPM:File>
+                        <QPM:File>h323caps.h</QPM:File>
+                        <QPM:File>h323con.h</QPM:File>
+                        <QPM:File>h323ep.h</QPM:File>
+                        <QPM:File>h323neg.h</QPM:File>
+                        <QPM:File>h323pdu.h</QPM:File>
+                        <QPM:File>h323rtp.h</QPM:File>
+                        <QPM:File>h323t120.h</QPM:File>
+                        <QPM:File>h323t38.h</QPM:File>
+                        <QPM:File>h4501.h</QPM:File>
+                        <QPM:File>h45010.h</QPM:File>
+                        <QPM:File>h45011.h</QPM:File>
+                        <QPM:File>h4502.h</QPM:File>
+                        <QPM:File>h4504.h</QPM:File>
+                        <QPM:File>h4506.h</QPM:File>
+                        <QPM:File>h450pdu.h</QPM:File>
+                        <QPM:File>ixjDefs.h</QPM:File>
+                        <QPM:File>ixjidb.h</QPM:File>
+                        <QPM:File>ixjlid.h</QPM:File>
+                        <QPM:File>jitter.h</QPM:File>
+                        <QPM:File>ldap_asn.h</QPM:File>
+                        <QPM:File>ldapapi.h</QPM:File>
+                        <QPM:File>lid.h</QPM:File>
+                        <QPM:File>lpc10codec.h</QPM:File>
+                        <QPM:File>mcspdu.h</QPM:File>
+                        <QPM:File>mediafmt.h</QPM:File>
+                        <QPM:File>mscodecs.h</QPM:File>
+                        <QPM:File>opalvxml.h</QPM:File>
+                        <QPM:File>opalwavfile.h</QPM:File>
+                        <QPM:File>q931.h</QPM:File>
+                        <QPM:File>rfc2833.h</QPM:File>
+                        <QPM:File>rtp.h</QPM:File>
+                        <QPM:File>rtp2wav.h</QPM:File>
+                        <QPM:File>speexcodec.h</QPM:File>
+                        <QPM:File>t120proto.h</QPM:File>
+                        <QPM:File>t38.h</QPM:File>
+                        <QPM:File>t38proto.h</QPM:File>
+                        <QPM:File>transports.h</QPM:File>
+                        <QPM:File>vblasterlid.h</QPM:File>
+                        <QPM:File>videoio.h</QPM:File>
+                        <QPM:File>vpblid.h</QPM:File>
+                        <QPM:File>x224.h</QPM:File>
+                        <QPM:File>x880.h</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="ptclib">
+                        <QPM:File>asner.h</QPM:File>
+                        <QPM:File>cypher.h</QPM:File>
+                        <QPM:File>delaychan.h</QPM:File>
+                        <QPM:File>dtmf.h</QPM:File>
+                        <QPM:File>ftp.h</QPM:File>
+                        <QPM:File>html.h</QPM:File>
+                        <QPM:File>http.h</QPM:File>
+                        <QPM:File>httpform.h</QPM:File>
+                        <QPM:File>httpsvc.h</QPM:File>
+                        <QPM:File>inetmail.h</QPM:File>
+                        <QPM:File>inetprot.h</QPM:File>
+                        <QPM:File>ipacl.h</QPM:File>
+                        <QPM:File>memfile.h</QPM:File>
+                        <QPM:File>mime.h</QPM:File>
+                        <QPM:File>modem.h</QPM:File>
+                        <QPM:File>pasn.h</QPM:File>
+                        <QPM:File>psnmp.h</QPM:File>
+                        <QPM:File>pssl.h</QPM:File>
+                        <QPM:File>ptts.h</QPM:File>
+                        <QPM:File>pwavfile.h</QPM:File>
+                        <QPM:File>pxml.h</QPM:File>
+                        <QPM:File>pxmlrpc.h</QPM:File>
+                        <QPM:File>pxmlrpcs.h</QPM:File>
+                        <QPM:File>qchannel.h</QPM:File>
+                        <QPM:File>random.h</QPM:File>
+                        <QPM:File>shttpsvc.h</QPM:File>
+                        <QPM:File>socks.h</QPM:File>
+                        <QPM:File>telnet.h</QPM:File>
+                        <QPM:File>url.h</QPM:File>
+                        <QPM:File>vxml.h</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="ptlib">
+                        <QPM:File>MacMainIf.h</QPM:File>
+                        <QPM:File>args.h</QPM:File>
+                        <QPM:File>array.h</QPM:File>
+                        <QPM:File>channel.h</QPM:File>
+                        <QPM:File>conchan.h</QPM:File>
+                        <QPM:File>config.h</QPM:File>
+                        <QPM:File>contain.h</QPM:File>
+                        <QPM:File>dict.h</QPM:File>
+                        <QPM:File>dynalink.h</QPM:File>
+                        <QPM:File>ethsock.h</QPM:File>
+                        <QPM:File>file.h</QPM:File>
+                        <QPM:File>filepath.h</QPM:File>
+                        <QPM:File>icmpsock.h</QPM:File>
+                        <QPM:File>indchan.h</QPM:File>
+                        <QPM:File>ipdsock.h</QPM:File>
+                        <QPM:File>ipsock.h</QPM:File>
+                        <QPM:File>ipxsock.h</QPM:File>
+                        <QPM:File>lists.h</QPM:File>
+                        <QPM:File>mail.h</QPM:File>
+                        <QPM:File>mutex.h</QPM:File>
+                        <QPM:File>object.h</QPM:File>
+                        <QPM:File>pdirect.h</QPM:File>
+                        <QPM:File>pipechan.h</QPM:File>
+                        <QPM:File>pprocess.h</QPM:File>
+                        <QPM:File>pstring.h</QPM:File>
+                        <QPM:File>ptime.h</QPM:File>
+                        <QPM:File>remconn.h</QPM:File>
+                        <QPM:File>safecoll.h</QPM:File>
+                        <QPM:File>semaphor.h</QPM:File>
+                        <QPM:File>serchan.h</QPM:File>
+                        <QPM:File>sfile.h</QPM:File>
+                        <QPM:File>socket.h</QPM:File>
+                        <QPM:File>sockets.h</QPM:File>
+                        <QPM:File>sound.h</QPM:File>
+                        <QPM:File>spxsock.h</QPM:File>
+                        <QPM:File>svcproc.h</QPM:File>
+                        <QPM:File>syncpoint.h</QPM:File>
+                        <QPM:File>syncthrd.h</QPM:File>
+                        <QPM:File>tcpsock.h</QPM:File>
+                        <QPM:File>textfile.h</QPM:File>
+                        <QPM:File>thread.h</QPM:File>
+                        <QPM:File>timeint.h</QPM:File>
+                        <QPM:File>timer.h</QPM:File>
+                        <QPM:File>udpsock.h</QPM:File>
+                        <QPM:Dir name="unix">
+                           <QPM:Dir name="ptlib">
+                              <QPM:File>channel.h</QPM:File>
+                              <QPM:File>conchan.h</QPM:File>
+                              <QPM:File>config.h</QPM:File>
+                              <QPM:File>contain.h</QPM:File>
+                              <QPM:File>dynalink.h</QPM:File>
+                              <QPM:File>ethsock.h</QPM:File>
+                              <QPM:File>file.h</QPM:File>
+                              <QPM:File>filepath.h</QPM:File>
+                              <QPM:File>icmpsock.h</QPM:File>
+                              <QPM:File>ipdsock.h</QPM:File>
+                              <QPM:File>ipsock.h</QPM:File>
+                              <QPM:File>mutex.h</QPM:File>
+                              <QPM:File>pdirect.h</QPM:File>
+                              <QPM:File>pipechan.h</QPM:File>
+                              <QPM:File>pmachdep.h</QPM:File>
+                              <QPM:File>pprocess.h</QPM:File>
+                              <QPM:File>ptime.h</QPM:File>
+                              <QPM:File>remconn.h</QPM:File>
+                              <QPM:File>semaphor.h</QPM:File>
+                              <QPM:File>serchan.h</QPM:File>
+                              <QPM:File>sfile.h</QPM:File>
+                              <QPM:File>socket.h</QPM:File>
+                              <QPM:File>sound.h</QPM:File>
+                              <QPM:File>svcproc.h</QPM:File>
+                              <QPM:File>syncpoint.h</QPM:File>
+                              <QPM:File>tcpsock.h</QPM:File>
+                              <QPM:File>textfile.h</QPM:File>
+                              <QPM:File>thread.h</QPM:File>
+                              <QPM:File>timeint.h</QPM:File>
+                              <QPM:File>timer.h</QPM:File>
+                              <QPM:File>udpsock.h</QPM:File>
+                              <QPM:File>video.h</QPM:File>
+                              <QPM:File>videoio.h</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:File>vconvert.h</QPM:File>
+                        <QPM:File>vfakeio.h</QPM:File>
+                        <QPM:File>video.h</QPM:File>
+                        <QPM:File>videoio.h</QPM:File>
+                        <QPM:File>videoio1394dc.h</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:File>ptlib.h</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../opt/include">include</QPM:Union>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

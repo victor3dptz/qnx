@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>ltris-1.0.4-bld2-x86-public</QPM:PackageName>
+            <QPM:PackageSize>41923</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseNotes/>
+            <QPM:PackageReleaseDate>2003/01/27</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>LTris for x86</QPM:ProductName>
+            <QPM:ProductSize>289876</QPM:ProductSize>
+            <QPM:ProductIdentifier>ltris-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Michael Speck</QPM:AuthorName>
+            <QPM:AuthorURL/>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>SDL based Tetris clone</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>LTris is a very polished Tetris clone and highly configurable due to  it&apos;s menu. It offers you the well-known gametype Classic, a funny gametype Figures  (new figure each level, suddenly appearing tiles and lines) and  Multiplayer with up to three players either controlled by human or  CPU(!). In fact, even if you don&apos;t like Tetris you should download this just to  see your CPU in action in mode Demo! 
+</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL/>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/ltris/core-1.0.4-bld2/x86</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/01/14</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>1.0.4</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>2</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://ltris-1.0.4-bld2-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>ltris</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Games and Diversions/Puzzles and Card Games</QPM:ContentTopic>
+            <QPM:ContentKeyword>tetris, sdl</QPM:ContentKeyword>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+            <QPM:RequiresLibrary>libSDL_mixer-1.2.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libm.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libSDL-1.2.so.0</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure/>
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="bin">
+                     <QPM:File>ltris</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

@@ -1,0 +1,552 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Development</QPM:PackageType>
+            <QPM:PackageName>doxygen-1.3.4-public</QPM:PackageName>
+            <QPM:PackageSize>277232</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/10/03</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Doxygen</QPM:ProductName>
+            <QPM:ProductSize>1025704</QPM:ProductSize>
+            <QPM:ProductIdentifier>doxygen</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Dimitri Van Heesch</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.doxygen.org</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Generates documentation from source code</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Doxygen is a documentation system for C++, C, Java, IDL (Corba,  Microsoft, and KDE-DCOP flavors) and to some extent PHP and C#.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.doxygen.org</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/doxygen/core-1.3.4</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/10/03</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>1.3.4</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://doxygen-1.3.4-public.repdata/LicenseUrl/LICENSE</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Software Development</QPM:ContentTopic>
+            <QPM:ContentKeyword>source, documentation, generation</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="help">
+                     <QPM:Dir name="product">
+                        <QPM:Dir name="doxygen_en">
+                           <QPM:File>_formulas.tex</QPM:File>
+                           <QPM:File>arch.html</QPM:File>
+                           <QPM:File>archoverview.gif</QPM:File>
+                           <QPM:File>autolink.html</QPM:File>
+                           <QPM:File>commands.html</QPM:File>
+                           <QPM:File>config.html</QPM:File>
+                           <QPM:File>diagrams.html</QPM:File>
+                           <QPM:File>docblocks.html</QPM:File>
+                           <QPM:File>doxygen.css</QPM:File>
+                           <QPM:File>doxygen.png</QPM:File>
+                           <QPM:File>doxygen_logo.gif</QPM:File>
+                           <QPM:File>doxygen_logo_low.gif</QPM:File>
+                           <QPM:File>doxygen_usage.html</QPM:File>
+                           <QPM:File>doxytag_usage.html</QPM:File>
+                           <QPM:File>doxywizard.gif</QPM:File>
+                           <QPM:File>doxywizard_usage.html</QPM:File>
+                           <QPM:Dir name="examples">
+                              <QPM:File>Makefile</QPM:File>
+                              <QPM:File>Makefile.in</QPM:File>
+                              <QPM:File>Makefile.win.in</QPM:File>
+                              <QPM:Dir name="afterdoc">
+                                 <QPM:Dir name="html">
+                                    <QPM:File>afterdoc_8h-source.html</QPM:File>
+                                    <QPM:File>annotated.html</QPM:File>
+                                    <QPM:File>class_test-members.html</QPM:File>
+                                    <QPM:File>class_test.html</QPM:File>
+                                    <QPM:File>doxygen.css</QPM:File>
+                                    <QPM:File>doxygen.png</QPM:File>
+                                    <QPM:File>files.html</QPM:File>
+                                    <QPM:File>functions.html</QPM:File>
+                                    <QPM:File>functions_enum.html</QPM:File>
+                                    <QPM:File>functions_eval.html</QPM:File>
+                                    <QPM:File>functions_func.html</QPM:File>
+                                    <QPM:File>functions_vars.html</QPM:File>
+                                    <QPM:File>index.html</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:File>afterdoc.cfg</QPM:File>
+                              <QPM:File>afterdoc.h</QPM:File>
+                              <QPM:Dir name="author">
+                                 <QPM:Dir name="html">
+                                    <QPM:File>annotated.html</QPM:File>
+                                    <QPM:File>bug.html</QPM:File>
+                                    <QPM:File>class_windows_n_t.html</QPM:File>
+                                    <QPM:File>doxygen.css</QPM:File>
+                                    <QPM:File>doxygen.png</QPM:File>
+                                    <QPM:File>index.html</QPM:File>
+                                    <QPM:File>pages.html</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:File>author.cfg</QPM:File>
+                              <QPM:File>author.cpp</QPM:File>
+                              <QPM:Dir name="autolink">
+                                 <QPM:Dir name="html">
+                                    <QPM:File>annotated.html</QPM:File>
+                                    <QPM:File>autolink_8cpp.html</QPM:File>
+                                    <QPM:File>class_test-members.html</QPM:File>
+                                    <QPM:File>class_test.html</QPM:File>
+                                    <QPM:File>doxygen.css</QPM:File>
+                                    <QPM:File>doxygen.png</QPM:File>
+                                    <QPM:File>files.html</QPM:File>
+                                    <QPM:File>functions.html</QPM:File>
+                                    <QPM:File>functions_enum.html</QPM:File>
+                                    <QPM:File>functions_eval.html</QPM:File>
+                                    <QPM:File>functions_func.html</QPM:File>
+                                    <QPM:File>functions_vars.html</QPM:File>
+                                    <QPM:File>globals.html</QPM:File>
+                                    <QPM:File>globals_defs.html</QPM:File>
+                                    <QPM:File>globals_enum.html</QPM:File>
+                                    <QPM:File>globals_eval.html</QPM:File>
+                                    <QPM:File>globals_type.html</QPM:File>
+                                    <QPM:File>globals_vars.html</QPM:File>
+                                    <QPM:File>index.html</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:File>autolink.cfg</QPM:File>
+                              <QPM:File>autolink.cpp</QPM:File>
+                              <QPM:Dir name="class">
+                                 <QPM:Dir name="html">
+                                    <QPM:File>annotated.html</QPM:File>
+                                    <QPM:File>class_8h-source.html</QPM:File>
+                                    <QPM:File>class_test.html</QPM:File>
+                                    <QPM:File>doxygen.css</QPM:File>
+                                    <QPM:File>doxygen.png</QPM:File>
+                                    <QPM:File>files.html</QPM:File>
+                                    <QPM:File>index.html</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:File>class.cfg</QPM:File>
+                              <QPM:File>class.h</QPM:File>
+                              <QPM:Dir name="define">
+                                 <QPM:Dir name="html">
+                                    <QPM:File>define_8h-source.html</QPM:File>
+                                    <QPM:File>define_8h.html</QPM:File>
+                                    <QPM:File>doxygen.css</QPM:File>
+                                    <QPM:File>doxygen.png</QPM:File>
+                                    <QPM:File>files.html</QPM:File>
+                                    <QPM:File>globals.html</QPM:File>
+                                    <QPM:File>globals_defs.html</QPM:File>
+                                    <QPM:File>index.html</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:File>define.cfg</QPM:File>
+                              <QPM:File>define.h</QPM:File>
+                              <QPM:File>diagrams.cfg</QPM:File>
+                              <QPM:File>diagrams_a.h</QPM:File>
+                              <QPM:File>diagrams_b.h</QPM:File>
+                              <QPM:File>diagrams_c.h</QPM:File>
+                              <QPM:File>diagrams_d.h</QPM:File>
+                              <QPM:File>diagrams_e.h</QPM:File>
+                              <QPM:Dir name="enum">
+                                 <QPM:Dir name="html">
+                                    <QPM:File>annotated.html</QPM:File>
+                                    <QPM:File>class_test-members.html</QPM:File>
+                                    <QPM:File>class_test.html</QPM:File>
+                                    <QPM:File>doxygen.css</QPM:File>
+                                    <QPM:File>doxygen.png</QPM:File>
+                                    <QPM:File>enum_8h-source.html</QPM:File>
+                                    <QPM:File>files.html</QPM:File>
+                                    <QPM:File>functions.html</QPM:File>
+                                    <QPM:File>functions_enum.html</QPM:File>
+                                    <QPM:File>functions_eval.html</QPM:File>
+                                    <QPM:File>index.html</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:File>enum.cfg</QPM:File>
+                              <QPM:File>enum.h</QPM:File>
+                              <QPM:Dir name="example">
+                                 <QPM:Dir name="html">
+                                    <QPM:File>annotated.html</QPM:File>
+                                    <QPM:File>class_test-members.html</QPM:File>
+                                    <QPM:File>class_test.html</QPM:File>
+                                    <QPM:File>doxygen.css</QPM:File>
+                                    <QPM:File>doxygen.png</QPM:File>
+                                    <QPM:File>example__test_8cpp-example.html</QPM:File>
+                                    <QPM:File>examples.html</QPM:File>
+                                    <QPM:File>functions.html</QPM:File>
+                                    <QPM:File>functions_func.html</QPM:File>
+                                    <QPM:File>index.html</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:File>example.cfg</QPM:File>
+                              <QPM:File>example.cpp</QPM:File>
+                              <QPM:File>example.tag</QPM:File>
+                              <QPM:File>example_test.cpp</QPM:File>
+                              <QPM:Dir name="file">
+                                 <QPM:Dir name="html">
+                                    <QPM:File>doxygen.css</QPM:File>
+                                    <QPM:File>doxygen.png</QPM:File>
+                                    <QPM:File>file_8h-source.html</QPM:File>
+                                    <QPM:File>file_8h.html</QPM:File>
+                                    <QPM:File>files.html</QPM:File>
+                                    <QPM:File>globals.html</QPM:File>
+                                    <QPM:File>globals_vars.html</QPM:File>
+                                    <QPM:File>index.html</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:File>file.cfg</QPM:File>
+                              <QPM:File>file.h</QPM:File>
+                              <QPM:Dir name="func">
+                                 <QPM:Dir name="html">
+                                    <QPM:File>annotated.html</QPM:File>
+                                    <QPM:File>class_test-members.html</QPM:File>
+                                    <QPM:File>class_test.html</QPM:File>
+                                    <QPM:File>doxygen.css</QPM:File>
+                                    <QPM:File>doxygen.png</QPM:File>
+                                    <QPM:File>files.html</QPM:File>
+                                    <QPM:File>func_8h-source.html</QPM:File>
+                                    <QPM:File>functions.html</QPM:File>
+                                    <QPM:File>functions_func.html</QPM:File>
+                                    <QPM:File>index.html</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:File>func.cfg</QPM:File>
+                              <QPM:File>func.h</QPM:File>
+                              <QPM:Dir name="group">
+                                 <QPM:Dir name="html">
+                                    <QPM:File>annotated.html</QPM:File>
+                                    <QPM:File>class_c1.html</QPM:File>
+                                    <QPM:File>class_c2.html</QPM:File>
+                                    <QPM:File>class_c3.html</QPM:File>
+                                    <QPM:File>class_c4.html</QPM:File>
+                                    <QPM:File>class_c5.html</QPM:File>
+                                    <QPM:File>doxygen.css</QPM:File>
+                                    <QPM:File>doxygen.png</QPM:File>
+                                    <QPM:File>files.html</QPM:File>
+                                    <QPM:File>globals.html</QPM:File>
+                                    <QPM:File>globals_func.html</QPM:File>
+                                    <QPM:File>group_8cpp.html</QPM:File>
+                                    <QPM:File>group__group1.html</QPM:File>
+                                    <QPM:File>group__group2.html</QPM:File>
+                                    <QPM:File>group__group3.html</QPM:File>
+                                    <QPM:File>group__group4.html</QPM:File>
+                                    <QPM:File>group__group5.html</QPM:File>
+                                    <QPM:File>index.html</QPM:File>
+                                    <QPM:File>modules.html</QPM:File>
+                                    <QPM:File>namespace_n1.html</QPM:File>
+                                    <QPM:File>namespaces.html</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:File>group.cfg</QPM:File>
+                              <QPM:File>group.cpp</QPM:File>
+                              <QPM:Dir name="include">
+                                 <QPM:Dir name="html">
+                                    <QPM:File>annotated.html</QPM:File>
+                                    <QPM:File>class_test-members.html</QPM:File>
+                                    <QPM:File>class_test.html</QPM:File>
+                                    <QPM:File>doxygen.css</QPM:File>
+                                    <QPM:File>doxygen.png</QPM:File>
+                                    <QPM:File>example.html</QPM:File>
+                                    <QPM:File>functions.html</QPM:File>
+                                    <QPM:File>functions_func.html</QPM:File>
+                                    <QPM:File>index.html</QPM:File>
+                                    <QPM:File>pages.html</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:File>include.cfg</QPM:File>
+                              <QPM:File>include.cpp</QPM:File>
+                              <QPM:Dir name="jdstyle">
+                                 <QPM:Dir name="html">
+                                    <QPM:File>annotated.html</QPM:File>
+                                    <QPM:File>class_test-members.html</QPM:File>
+                                    <QPM:File>class_test.html</QPM:File>
+                                    <QPM:File>doxygen.css</QPM:File>
+                                    <QPM:File>doxygen.png</QPM:File>
+                                    <QPM:File>functions.html</QPM:File>
+                                    <QPM:File>functions_enum.html</QPM:File>
+                                    <QPM:File>functions_eval.html</QPM:File>
+                                    <QPM:File>functions_func.html</QPM:File>
+                                    <QPM:File>functions_vars.html</QPM:File>
+                                    <QPM:File>index.html</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:File>jdstyle.cfg</QPM:File>
+                              <QPM:File>jdstyle.cpp</QPM:File>
+                              <QPM:Dir name="memgrp">
+                                 <QPM:Dir name="html">
+                                    <QPM:File>annotated.html</QPM:File>
+                                    <QPM:File>class_test-members.html</QPM:File>
+                                    <QPM:File>class_test.html</QPM:File>
+                                    <QPM:File>doxygen.css</QPM:File>
+                                    <QPM:File>doxygen.png</QPM:File>
+                                    <QPM:File>files.html</QPM:File>
+                                    <QPM:File>functions.html</QPM:File>
+                                    <QPM:File>functions_func.html</QPM:File>
+                                    <QPM:File>globals.html</QPM:File>
+                                    <QPM:File>globals_defs.html</QPM:File>
+                                    <QPM:File>globals_func.html</QPM:File>
+                                    <QPM:File>index.html</QPM:File>
+                                    <QPM:File>memgrp_8cpp.html</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:File>memgrp.cfg</QPM:File>
+                              <QPM:File>memgrp.cpp</QPM:File>
+                              <QPM:Dir name="overload">
+                                 <QPM:Dir name="html">
+                                    <QPM:File>annotated.html</QPM:File>
+                                    <QPM:File>class_test-members.html</QPM:File>
+                                    <QPM:File>class_test.html</QPM:File>
+                                    <QPM:File>doxygen.css</QPM:File>
+                                    <QPM:File>doxygen.png</QPM:File>
+                                    <QPM:File>functions.html</QPM:File>
+                                    <QPM:File>functions_func.html</QPM:File>
+                                    <QPM:File>index.html</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:File>overload.cfg</QPM:File>
+                              <QPM:File>overload.cpp</QPM:File>
+                              <QPM:Dir name="page">
+                                 <QPM:Dir name="html">
+                                    <QPM:File>doxygen.css</QPM:File>
+                                    <QPM:File>doxygen.png</QPM:File>
+                                    <QPM:File>index.html</QPM:File>
+                                    <QPM:File>page1.html</QPM:File>
+                                    <QPM:File>page2.html</QPM:File>
+                                    <QPM:File>pages.html</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:File>page.cfg</QPM:File>
+                              <QPM:File>page.doc</QPM:File>
+                              <QPM:Dir name="par">
+                                 <QPM:Dir name="html">
+                                    <QPM:File>annotated.html</QPM:File>
+                                    <QPM:File>class_test.html</QPM:File>
+                                    <QPM:File>doxygen.css</QPM:File>
+                                    <QPM:File>doxygen.png</QPM:File>
+                                    <QPM:File>index.html</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:File>par.cfg</QPM:File>
+                              <QPM:File>par.cpp</QPM:File>
+                              <QPM:Dir name="qtstyle">
+                                 <QPM:Dir name="html">
+                                    <QPM:File>annotated.html</QPM:File>
+                                    <QPM:File>class_test-members.html</QPM:File>
+                                    <QPM:File>class_test.html</QPM:File>
+                                    <QPM:File>doxygen.css</QPM:File>
+                                    <QPM:File>doxygen.png</QPM:File>
+                                    <QPM:File>functions.html</QPM:File>
+                                    <QPM:File>functions_enum.html</QPM:File>
+                                    <QPM:File>functions_eval.html</QPM:File>
+                                    <QPM:File>functions_func.html</QPM:File>
+                                    <QPM:File>functions_vars.html</QPM:File>
+                                    <QPM:File>index.html</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:File>qtstyle.cfg</QPM:File>
+                              <QPM:File>qtstyle.cpp</QPM:File>
+                              <QPM:Dir name="relates">
+                                 <QPM:Dir name="html">
+                                    <QPM:File>annotated.html</QPM:File>
+                                    <QPM:File>class_string-members.html</QPM:File>
+                                    <QPM:File>class_string.html</QPM:File>
+                                    <QPM:File>doxygen.css</QPM:File>
+                                    <QPM:File>doxygen.png</QPM:File>
+                                    <QPM:File>functions.html</QPM:File>
+                                    <QPM:File>functions_func.html</QPM:File>
+                                    <QPM:File>functions_rela.html</QPM:File>
+                                    <QPM:File>index.html</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:File>relates.cfg</QPM:File>
+                              <QPM:File>relates.cpp</QPM:File>
+                              <QPM:Dir name="restypedef">
+                                 <QPM:Dir name="html">
+                                    <QPM:File>annotated.html</QPM:File>
+                                    <QPM:File>doxygen.css</QPM:File>
+                                    <QPM:File>doxygen.png</QPM:File>
+                                    <QPM:File>files.html</QPM:File>
+                                    <QPM:File>functions.html</QPM:File>
+                                    <QPM:File>functions_vars.html</QPM:File>
+                                    <QPM:File>globals.html</QPM:File>
+                                    <QPM:File>globals_func.html</QPM:File>
+                                    <QPM:File>globals_type.html</QPM:File>
+                                    <QPM:File>index.html</QPM:File>
+                                    <QPM:File>restypedef_8cpp.html</QPM:File>
+                                    <QPM:File>struct_coord_struct-members.html</QPM:File>
+                                    <QPM:File>struct_coord_struct.html</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:File>restypedef.cfg</QPM:File>
+                              <QPM:File>restypedef.cpp</QPM:File>
+                              <QPM:Dir name="structcmd">
+                                 <QPM:Dir name="html">
+                                    <QPM:File>doxygen.css</QPM:File>
+                                    <QPM:File>doxygen.png</QPM:File>
+                                    <QPM:File>files.html</QPM:File>
+                                    <QPM:File>globals.html</QPM:File>
+                                    <QPM:File>globals_defs.html</QPM:File>
+                                    <QPM:File>globals_func.html</QPM:File>
+                                    <QPM:File>globals_type.html</QPM:File>
+                                    <QPM:File>globals_vars.html</QPM:File>
+                                    <QPM:File>index.html</QPM:File>
+                                    <QPM:File>structcmd_8h-source.html</QPM:File>
+                                    <QPM:File>structcmd_8h.html</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:File>structcmd.cfg</QPM:File>
+                              <QPM:File>structcmd.h</QPM:File>
+                              <QPM:Dir name="tag">
+                                 <QPM:Dir name="html">
+                                    <QPM:File>annotated.html</QPM:File>
+                                    <QPM:File>class_tag-members.html</QPM:File>
+                                    <QPM:File>class_tag.html</QPM:File>
+                                    <QPM:File>class_tag.png</QPM:File>
+                                    <QPM:File>doxygen.css</QPM:File>
+                                    <QPM:File>doxygen.png</QPM:File>
+                                    <QPM:File>functions.html</QPM:File>
+                                    <QPM:File>functions_func.html</QPM:File>
+                                    <QPM:File>hierarchy.html</QPM:File>
+                                    <QPM:File>index.html</QPM:File>
+                                    <QPM:File>installdox</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:File>tag.cfg</QPM:File>
+                              <QPM:File>tag.cpp</QPM:File>
+                              <QPM:File>templ.cfg</QPM:File>
+                              <QPM:File>templ.cpp</QPM:File>
+                              <QPM:Dir name="template">
+                                 <QPM:Dir name="html">
+                                    <QPM:File>annotated.html</QPM:File>
+                                    <QPM:File>class_test-members.html</QPM:File>
+                                    <QPM:File>class_test.html</QPM:File>
+                                    <QPM:File>class_test_3_01_t_01_5_01_4-members.html</QPM:File>
+                                    <QPM:File>class_test_3_01_t_01_5_01_4.html</QPM:File>
+                                    <QPM:File>class_test_3_01_t_01_5_01_4.png</QPM:File>
+                                    <QPM:File>class_test_3_01void_01_5_00_01200_01_4-m.html</QPM:File>
+                                    <QPM:File>class_test_3_01void_01_5_00_01200_01_4.html</QPM:File>
+                                    <QPM:File>class_test_3_01void_01_5_00_01200_01_4.png</QPM:File>
+                                    <QPM:File>doxygen.css</QPM:File>
+                                    <QPM:File>doxygen.png</QPM:File>
+                                    <QPM:File>functions.html</QPM:File>
+                                    <QPM:File>functions_func.html</QPM:File>
+                                    <QPM:File>hierarchy.html</QPM:File>
+                                    <QPM:File>index.html</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:File>external.html</QPM:File>
+                           <QPM:File>faq.html</QPM:File>
+                           <QPM:File>features.html</QPM:File>
+                           <QPM:File>formulas.html</QPM:File>
+                           <QPM:File>grouping.html</QPM:File>
+                           <QPM:File>history.html</QPM:File>
+                           <QPM:File>htmlcmds.html</QPM:File>
+                           <QPM:File>index.hhc</QPM:File>
+                           <QPM:File>index.hhk</QPM:File>
+                           <QPM:File>index.hhp</QPM:File>
+                           <QPM:File>index.html</QPM:File>
+                           <QPM:File>infoflow.gif</QPM:File>
+                           <QPM:File>install.html</QPM:File>
+                           <QPM:File>installdox_usage.html</QPM:File>
+                           <QPM:File>langhowto.html</QPM:File>
+                           <QPM:File>lists.html</QPM:File>
+                           <QPM:File>output.html</QPM:File>
+                           <QPM:File>pages.html</QPM:File>
+                           <QPM:File>perlmod.html</QPM:File>
+                           <QPM:File>perlmod_tree.html</QPM:File>
+                           <QPM:File>preprocessing.html</QPM:File>
+                           <QPM:File>starting.html</QPM:File>
+                           <QPM:File>trouble.html</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>doxygen_en.toc</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="help">
+                     <QPM:Union link="../../opt/help/product">product</QPM:Union>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

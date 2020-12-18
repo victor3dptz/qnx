@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>bash-2.05a-x86-public</QPM:PackageName>
+            <QPM:PackageSize>220017</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2002/05/23</QPM:PackageReleaseDate>
+            <QPM:PackageRepository>http://www.qnx.com</QPM:PackageRepository>
+            <QPM:FileVersion>1.01</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>GNU bash for x86</QPM:ProductName>
+            <QPM:ProductSize>471580</QPM:ProductSize>
+            <QPM:ProductIdentifier>bash-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>GNU</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.gnu.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>bash is the GNU shell.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Bash is the GNU Bourne Again SHell.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.gnu.org/bash/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/bash/core-2.05a/x86</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/05/23</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>2.05a</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Low</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://bash-2.05a-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>bash</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>System/Console/Shells</QPM:ContentTopic>
+            <QPM:ContentKeyword>bash,sh,ksh</QPM:ContentKeyword>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="bin">
+                     <QPM:File>bash</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

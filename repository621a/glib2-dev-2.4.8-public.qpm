@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageName>glib2-dev-2.4.8-public</QPM:PackageName>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2005/02/13</QPM:PackageReleaseDate>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:FileVersion>2.6</QPM:FileVersion>
+            <QPM:PackageModel>dev</QPM:PackageModel>
+            <QPM:DateCode>420eedff</QPM:DateCode>
+            <QPM:PackageSize>72126</QPM:PackageSize>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>378222</QPM:ProductSize>
+            <QPM:InstallPath>public/glib2/dev-2.4.8</QPM:InstallPath>
+            <QPM:ProductName>Glib2 Development</QPM:ProductName>
+            <QPM:ProductIdentifier>glib2-dev</QPM:ProductIdentifier>
+            <QPM:ProductEmail>gtk-list-request@gnome.org</QPM:ProductEmail>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.gtk.org</QPM:VendorURL>
+            <QPM:VendorEmail>gtk-list-request@gnome.org</QPM:VendorEmail>
+            <QPM:AuthorName>Glib2 Team</QPM:AuthorName>
+            <QPM:ProductDescriptionShort>GLib is the low-level core library that forms the basis for projects such as GTK+ and GNOME.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>GLib is the low-level core library that forms the basis for projects such as GTK+ and GNOME. It provides data structure handling for C, portability wrappers, and interfaces for such runtime functionality as an event loop, threads, dynamic loading, and an object system.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.gtk.org</QPM:ProductDescriptionURL>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2005/02/13</QPM:ReleaseDate>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ReleaseVersion>2.4.8</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseCopyright>GNU Lesser General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Software Development/Libraries and Extensions/C Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>GNOME,glib,glib2,tree,hash,list</QPM:ContentKeyword>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:LicenseUrl>rep://glib2-2.4.8-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PackageDate>420eedff</QPM:PackageDate>
+         <QPM:Listing>
+            <QPM:Dir name="" dt="420eedff">
+               <QPM:Dir name="usr">
+                  <QPM:Dir name="include">
+                     <QPM:Dir name="glib-2.0">
+                        <QPM:Dir name="glib">
+                           <QPM:File sum="441bec5d1090791ad11d469ec8c5f185" size="1989">galloca.h</QPM:File>
+                           <QPM:File sum="c3ace2fb674169a550709ad97d4c00dd" size="6442">garray.h</QPM:File>
+                           <QPM:File sum="55cc423a31a137446d9e01f504da604c" size="4022">gasyncqueue.h</QPM:File>
+                           <QPM:File sum="6db58074c356e6a858a3a7f7667dbb7b" size="2284">gatomic.h</QPM:File>
+                           <QPM:File sum="ee7753b3bf729ab00340fc7971a6040d" size="2503">gbacktrace.h</QPM:File>
+                           <QPM:File sum="f7d6e9b7989c523b4cf2603102ad4536" size="2646">gcache.h</QPM:File>
+                           <QPM:File sum="359047359367e14f5f7ac2f84c064ab5" size="2583">gcompletion.h</QPM:File>
+                           <QPM:File sum="fee62c6e68541a7ad9cd140d850a1ee6" size="3887">gconvert.h</QPM:File>
+                           <QPM:File sum="c0cbe9696ad9602f5a71ee424ac7fbc1" size="4863">gdataset.h</QPM:File>
+                           <QPM:File sum="f3da1e4de5186a28af6b94ced7a3464b" size="10277">gdate.h</QPM:File>
+                           <QPM:File sum="55a1c4b8f00988d2ad6ea0a8f868bd48" size="1420">gdir.h</QPM:File>
+                           <QPM:File sum="e7a19916f9fde5b31a90694a64b71792" size="2398">gerror.h</QPM:File>
+                           <QPM:File sum="926732d54df508d969b84448ff93f3e7" size="2859">gfileutils.h</QPM:File>
+                           <QPM:File sum="ada31b699d972f2919e00b32e4df8ae5" size="4067">ghash.h</QPM:File>
+                           <QPM:File sum="fcf5f828e5162a3c8f8e759a7dd4dec6" size="5808">ghook.h</QPM:File>
+                           <QPM:File sum="0371a06f865448172159cd5d483fb3a4" size="1684">gi18n-lib.h</QPM:File>
+                           <QPM:File sum="fc8230bf99fd36d09e77d57cde291d25" size="1534">gi18n.h</QPM:File>
+                           <QPM:File sum="9d53f241c755f2a6dbd7d20b5a5fa4f1" size="12310">giochannel.h</QPM:File>
+                           <QPM:File sum="8347cb39c5f260a4bba26434b87d9c6f" size="3955">glist.h</QPM:File>
+                           <QPM:File sum="4f0a495dfff4113f0dae3c7b10e3c72a" size="8197">gmacros.h</QPM:File>
+                           <QPM:File sum="c87f9ef5b1be7acfca31aadb46891bfe" size="10707">gmain.h</QPM:File>
+                           <QPM:File sum="c4e245ea83e9d4fc9236ea14d46bc8f6" size="5175">gmarkup.h</QPM:File>
+                           <QPM:File sum="85129e28f9e8832afb4e2aa281e84fe3" size="5900">gmem.h</QPM:File>
+                           <QPM:File sum="31fb059d62902393d12f62668380d168" size="11505">gmessages.h</QPM:File>
+                           <QPM:File sum="f4fb47e0e5939d2e2da90780823aeb3c" size="5610">gnode.h</QPM:File>
+                           <QPM:File sum="2df4e1ef0bd94d386abba219c184a0a2" size="1598">gpattern.h</QPM:File>
+                           <QPM:File sum="e68d609b3de6ea79e802c059f61b4f3e" size="1622">gprimes.h</QPM:File>
+                           <QPM:File sum="f487959072c134d162834694187d5374" size="2128">gprintf.h</QPM:File>
+                           <QPM:File sum="0c3454dc3a99012af5c618fefebb0322" size="1429">gqsort.h</QPM:File>
+                           <QPM:File sum="bd0be7cf6e956de55533ac7516034c14" size="1619">gquark.h</QPM:File>
+                           <QPM:File sum="444b7286c84cc61e6dda65ff6ddafba8" size="4478">gqueue.h</QPM:File>
+                           <QPM:File sum="36da00c2c50a5dded6b3f1c3c6cc8b9f" size="2775">grand.h</QPM:File>
+                           <QPM:File sum="880fd68b86be5781c80045e0b0e14c46" size="3370">grel.h</QPM:File>
+                           <QPM:File sum="d4c2bc0122ee5b7de94b140900f6ea69" size="8066">gscanner.h</QPM:File>
+                           <QPM:File sum="078e9322558dba0638576990caa8d933" size="1618">gshell.h</QPM:File>
+                           <QPM:File sum="3b24ecba56abf92259cdcbf362fc7a55" size="3793">gslist.h</QPM:File>
+                           <QPM:File sum="7e326c6102cbed2a1c81be6d5e6aa7c6" size="5415">gspawn.h</QPM:File>
+                           <QPM:File sum="dc36c99d3f61f6ee175f8a6c520ffa63" size="8905">gstrfuncs.h</QPM:File>
+                           <QPM:File sum="6f1fa11927c72d965961681828249c51" size="5573">gstring.h</QPM:File>
+                           <QPM:File sum="924420567c6578f676e4250a8cc6d6da" size="15717">gthread.h</QPM:File>
+                           <QPM:File sum="2dd0ecce57fa3e2a1e29cadfeb8f2079" size="4440">gthreadpool.h</QPM:File>
+                           <QPM:File sum="fc94be582ba8f7d07129c29b7838c369" size="1800">gtimer.h</QPM:File>
+                           <QPM:File sum="66109a2e5cd240bc4232b49ea5bdf44d" size="3726">gtree.h</QPM:File>
+                           <QPM:File sum="4026dad3e6b796df7c015f6538dd6283" size="14948">gtypes.h</QPM:File>
+                           <QPM:File sum="82af1ef4e61a868e514d67069ee74c10" size="9739">gunicode.h</QPM:File>
+                           <QPM:File sum="5c3f5ea7c42d655b38c29c27946010f4" size="11132">gutils.h</QPM:File>
+                           <QPM:File sum="dead6e988aa600016d775f24134fedaa" size="3147">gwin32.h</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File sum="e313287e639e51f4809832c02eed7b12" size="1474">glib-object.h</QPM:File>
+                        <QPM:File sum="95f11a90f301d360d40ed17c059a9aaf" size="2360">glib.h</QPM:File>
+                        <QPM:File sum="ec3b2547c556ec7e3986185dedb27d4a" size="4967">glibconfig.h</QPM:File>
+                        <QPM:File sum="8204aa27a594e961dc5e1e282f7c88dc" size="3505">gmodule.h</QPM:File>
+                        <QPM:Dir name="gobject">
+                           <QPM:File sum="84453948936d3815592cb510b8bdcdfb" size="2778">gboxed.h</QPM:File>
+                           <QPM:File sum="5c54503f1f528094c761a7105c54f933" size="5890">gclosure.h</QPM:File>
+                           <QPM:File sum="061d032665571e3219fd554bccc55307" size="4433">genums.h</QPM:File>
+                           <QPM:File sum="9ff3a733a8d8c9f5420b8117b2f8a731" size="9763">gmarshal.h</QPM:File>
+                           <QPM:File sum="64a8531c2089efccbe62b06441c8fd8b" size="11112">gobject.h</QPM:File>
+                           <QPM:File sum="999112aa3fe8db8e93f6d0a9a3f694ea" size="8319">gparam.h</QPM:File>
+                           <QPM:File sum="9fc6c23249e1f5142e97cb66f76fe885" size="16010">gparamspecs.h</QPM:File>
+                           <QPM:File sum="4f12fa0c16bc2d6dad45f33770bde782" size="10427">gsignal.h</QPM:File>
+                           <QPM:File sum="d09f30aa5584f087bb0dd1a931a3dda6" size="1395">gsourceclosure.h</QPM:File>
+                           <QPM:File sum="259daf1d611fefe6df351e1f682c6b00" size="20732">gtype.h</QPM:File>
+                           <QPM:File sum="2d4aaa296fe993e0fe2f682f094f418d" size="3029">gtypemodule.h</QPM:File>
+                           <QPM:File sum="84e34ee64b343c9a7f96a7dfc737329f" size="3120">gtypeplugin.h</QPM:File>
+                           <QPM:File sum="ff8ecfa5c0f6950301c86342eb89f2b3" size="2969">gvalue.h</QPM:File>
+                           <QPM:File sum="7e8f125e6081c652590b9e1616fe6845" size="2418">gvaluearray.h</QPM:File>
+                           <QPM:File sum="3039edee0c6dfec0c115117240cd71a0" size="5783">gvaluecollector.h</QPM:File>
+                           <QPM:File sum="2aea7cda47f3464c290d87d0b18d0206" size="4895">gvaluetypes.h</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

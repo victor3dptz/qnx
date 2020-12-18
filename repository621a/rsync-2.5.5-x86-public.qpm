@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>rsync-2.5.5-x86-public</QPM:PackageName>
+            <QPM:PackageSize>88612</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2002/05/22</QPM:PackageReleaseDate>
+            <QPM:PackageRepository>http://www.qnx.com</QPM:PackageRepository>
+            <QPM:FileVersion>1.01</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Rsync for x86</QPM:ProductName>
+            <QPM:ProductSize>214419</QPM:ProductSize>
+            <QPM:ProductIdentifier>rsync-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>RSync</QPM:AuthorName>
+            <QPM:AuthorURL>http://rsync.samba.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>sync is a replacement for rcp that has many more features.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>rsync is a replacement for rcp that has many more features.
+ rsync uses the &quot;rsync algorithm&quot; which provides a very fast method for bringing remote files into sync. It does this by sending just the differences in the files across the link, without requiring that both sets of files are present at one of the ends of the link beforehand. At first glance this may seem impossible because the calculation of diffs between two files normally requires local access to both files.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://rsync.samba.org/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/rsync/core-2.5.5/x86</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/05/22</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>2.5.5</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Low</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://rsync-2.5.5-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>rsync</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>System/Network and Data Transmission/Download and Data Transfer/File Transfer Protocols</QPM:ContentTopic>
+            <QPM:ContentKeyword>rsync</QPM:ContentKeyword>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+            <QPM:RequiresLibrary>libsocket.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="bin">
+                     <QPM:File>rsync</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

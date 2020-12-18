@@ -1,0 +1,112 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageName>killerAudio-0.1.0-kstuff</QPM:PackageName>
+            <QPM:PackageSize>1415</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/02/18</QPM:PackageReleaseDate>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageRepository>http://killerstuff.net/repository/</QPM:PackageRepository>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>5014</QPM:ProductSize>
+            <QPM:InstallPath>kstuff/killerAudio/core-0.1.0</QPM:InstallPath>
+            <QPM:ProductName>killerAudio</QPM:ProductName>
+            <QPM:ProductIdentifier>killerAudio</QPM:ProductIdentifier>
+            <QPM:ProductEmail>info@killerstuff.net</QPM:ProductEmail>
+            <QPM:VendorName>killerstuff.net</QPM:VendorName>
+            <QPM:VendorInstallName>kstuff</QPM:VendorInstallName>
+            <QPM:VendorURL>http://killerstuff.net/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail>info@killerstuff.net</QPM:VendorEmail>
+            <QPM:AuthorName>Chris McKillop</QPM:AuthorName>
+            <QPM:AuthorURL>http://killerstuff.net/cdm/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail>cdm@killerstuff.net</QPM:AuthorEmail>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>killerAudio is a media player.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>This package contains killerAudio, a Photon based audio player.  Built using the new QNX Multimedia system, it supports all the features you would expect from a moderm audio player.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://killerstuff.net/killerAudio/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/02/18</QPM:ReleaseDate>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ReleaseVersion>0.1.0</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>No License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:ContentTopic>Multimedia/Music and Audio/Audio Media Players</QPM:ContentTopic>
+            <QPM:ContentKeyword>killerAudio,winamp,xmms,mp3,ogg</QPM:ContentKeyword>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Photon</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Use</QPM:ScriptType>
+            </QPM:Script>
+
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Unuse</QPM:ScriptType>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../$(PROCESSOR)/usr/bin">bin</QPM:Union>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+
+      <QPM:Launch name="killerAudio">
+         <QPM:String name="Topic" value="Applications/MultiMedia"/>
+         <QPM:String name="Command" value="killerAudio"/>
+      </QPM:Launch>
+   </RDF:Description>
+</RDF:RDF>

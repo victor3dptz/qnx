@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>kobodeluxe-0.4pre8-x86-public</QPM:PackageName>
+            <QPM:PackageSize>130171</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>2</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseNotes/>
+            <QPM:PackageReleaseUrgency>Medium</QPM:PackageReleaseUrgency>
+            <QPM:PackageReleaseDate>2003/09/29</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Kobo Deluxe for x86</QPM:ProductName>
+            <QPM:ProductSize>1502037</QPM:ProductSize>
+            <QPM:ProductIdentifier>kobodeluxe-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>David Olofson</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.olofson.net</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail>david@olofson.net</QPM:AuthorEmail>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Kobo Deluxe is a 3rd person space shooter</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Kobo Deluxe is an enhanced version of Akira Higuchi&apos;s game XKobo. It adds sound, smoother animation, high resolution support, an intuitive menu driven user interface, and other features.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.olofson.net/kobodl/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/kobodeluxe/core-0.4pre8/x86</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/09/29</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>0.4pre8</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://kobodeluxe-0.4pre8-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>kobodeluxe</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Games and Diversions/Arcade Shoot &apos;em Ups</QPM:ContentTopic>
+            <QPM:ContentKeyword>xkobo, sdl, games</QPM:ContentKeyword>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+            <QPM:RequiresLibrary>libSDL_image-1.2.so.1</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libSDL-1.2.so.0</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libm.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libph.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libGL.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libasound.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libstdc++.so.2.2.10.0</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="bin">
+                     <QPM:File>kobodl</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

@@ -1,0 +1,248 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageName>hafta-dev-1.00b2-bld173-astra</QPM:PackageName>
+            <QPM:PackageSize>13557</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/01/03</QPM:PackageReleaseDate>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>1.01</QPM:FileVersion>
+            <QPM:PackageModel>dev</QPM:PackageModel>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>70389</QPM:ProductSize>
+            <QPM:InstallPath>astra/hafta/dev-1.00b2-bld173</QPM:InstallPath>
+            <QPM:ProductName>HAFTA Development</QPM:ProductName>
+            <QPM:ProductIdentifier>hafta-dev</QPM:ProductIdentifier>
+            <QPM:ProductEmail>info@astranetwork.com</QPM:ProductEmail>
+            <QPM:VendorName>Astra Network Inc.</QPM:VendorName>
+            <QPM:VendorInstallName>astra</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.astranetwork.com</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail>info@astranetwork.com</QPM:VendorEmail>
+            <QPM:AuthorName>Astra Network Inc.</QPM:AuthorName>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Toolkit for developing High Availabilty and Fault Tolerant systems.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>The HAFTA Toolkit is a development and runtime system used in implementing complex High Availability and Fault Tolerant systems. It is provided in source form and supports most Unix like operating systems.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL/>
+            <QPM:ProductDescriptionEmbedURL/>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/01/03</QPM:ReleaseDate>
+            <QPM:ReleaseBuild>173</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseVersion>1.00b2</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Low</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Experimental</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:ContentTopic>System</QPM:ContentTopic>
+            <QPM:ContentKeyword>guardian,fault,tolerant,availability</QPM:ContentKeyword>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:LicenseUrl>rep://hafta-1.00b2-bld173-astra.repdata/LicenseUrl/license.txt</QPM:LicenseUrl>
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>Must include at least one development package targeting a specific processor (Packager-generated dependency).</QPM:Notes>
+               <QPM:Filter>
+                  <QPM:FilterType>StringExpression</QPM:FilterType>
+                  <ProductIdentifier>hafta-dev-target*</ProductIdentifier>
+               </QPM:Filter>
+            </QPM:Dependency>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="hafta">
+                     <QPM:Dir name="src">
+                        <QPM:Dir name="checkpoint">
+                           <QPM:Dir name="lib">
+                              <QPM:File>checkpoint_int.h</QPM:File>
+                              <QPM:File>version.h</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="overlord">
+                           <QPM:Dir name="lib">
+                              <QPM:Dir name="sharedvar">
+                                 <QPM:File>sharedvar.h</QPM:File>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="include">
+                              <QPM:File>bytes.h</QPM:File>
+                              <QPM:File>olmod.h</QPM:File>
+                              <QPM:File>pcode.h</QPM:File>
+                              <QPM:File>plat.h</QPM:File>
+                              <QPM:File>quad.h</QPM:File>
+                              <QPM:File>sixfourbit.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="ola">
+                              <QPM:File>tables.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="olc">
+                              <QPM:File>defines.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="olrt">
+                              <QPM:File>global_bits.h</QPM:File>
+                              <QPM:File>loop.h</QPM:File>
+                              <QPM:File>module_load.h</QPM:File>
+                              <QPM:Dir name="modules">
+                                 <QPM:Dir name="mod_alive">
+                                    <QPM:File>alive.h</QPM:File>
+                                    <QPM:File>alive_proto.h</QPM:File>
+                                    <QPM:File>alive_struct.h</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="mod_cpu">
+                                    <QPM:File>cpu.h</QPM:File>
+                                    <QPM:File>cpu_proto.h</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="mod_curtime">
+                                    <QPM:File>curtime.h</QPM:File>
+                                    <QPM:File>curtime_proto.h</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="mod_email">
+                                    <QPM:File>email.h</QPM:File>
+                                    <QPM:File>email_proto.h</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="mod_exec">
+                                    <QPM:File>exec.h</QPM:File>
+                                    <QPM:File>exec_proto.h</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="mod_exit">
+                                    <QPM:File>exit.h</QPM:File>
+                                    <QPM:File>exit_proto.h</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="mod_fd">
+                                    <QPM:File>fd.h</QPM:File>
+                                    <QPM:File>fd_proto.h</QPM:File>
+                                    <QPM:File>fd_struct.h</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="mod_getpidbyname">
+                                    <QPM:File>getpidbyname.h</QPM:File>
+                                    <QPM:File>getpidbyname_proto.h</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="mod_kill">
+                                    <QPM:File>kill.h</QPM:File>
+                                    <QPM:File>kill_proto.h</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="mod_log">
+                                    <QPM:File>log.h</QPM:File>
+                                    <QPM:File>log_proto.h</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="mod_logf1">
+                                    <QPM:File>logf1.h</QPM:File>
+                                    <QPM:File>logf1_proto.h</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="mod_maxmem">
+                                    <QPM:File>maxmem.h</QPM:File>
+                                    <QPM:File>maxmem_proto.h</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="mod_mem">
+                                    <QPM:File>mem.h</QPM:File>
+                                    <QPM:File>mem_proto.h</QPM:File>
+                                    <QPM:File>mem_struct.h</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="mod_null">
+                                    <QPM:File>null.h</QPM:File>
+                                    <QPM:File>null_proto.h</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="mod_sh">
+                                    <QPM:File>sh.h</QPM:File>
+                                    <QPM:File>sh_proto.h</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="mod_sharedvar">
+                                    <QPM:File>sharedvar.h</QPM:File>
+                                    <QPM:File>sharedvar_proto.h</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="mod_template">
+                                    <QPM:File>template.h</QPM:File>
+                                    <QPM:File>template_proto.h</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="mod_test">
+                                    <QPM:File>test.h</QPM:File>
+                                    <QPM:File>test_proto.h</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="mod_var">
+                                    <QPM:File>var.h</QPM:File>
+                                    <QPM:File>var_proto.h</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:File>read_pcode.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>version.h</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="include">
+                     <QPM:File>checkpoint.h</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../opt/include">include</QPM:Union>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

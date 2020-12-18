@@ -1,0 +1,217 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>pachi-DEMO-1-public</QPM:PackageName>
+            <QPM:PackageSize>2039037</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/10/07</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Pachi el marciano</QPM:ProductName>
+            <QPM:ProductSize>10603659</QPM:ProductSize>
+            <QPM:ProductIdentifier>pachi</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Santiago Radeff</QPM:AuthorName>
+            <QPM:AuthorURL>http://dragontech.sourceforge.net</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Platform game where you guide a martian around collecting items</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Pachi el marciano is a platforms game inspired in games like Manic Miner and Jet Set Willy from the master Mathew Smith. The goal of the game is to collect all the objects of each level, when this is made, the exit gate to the next stage will appear and you can pass through.  Pachi el marciano is a comics character created by Nicolas Radeff in 2001. In March of 2002 the idea of making a platforms game borns but not taking the Pachi character as star. Later, the game was taking shape, and i started to use a scanned image of a pachi comic just to test it, this was used a while until the idea of making the game fully ambiented in a fantastic world where mix the classic playability and a touch of humour... This is how the game of Pachi el marciano born. The version is called DEMO because it is not finished yet.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://dragontech.sourceforge.net/index.php?main=pachi&amp;lang=en</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/pachi/core-DEMO-1</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/10/07</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>DEMO-1</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Beta</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://pachi-DEMO-1-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Games and Diversions/Action Adventure Games</QPM:ContentTopic>
+            <QPM:ContentKeyword>manic, miner, dragontech, sdl, games</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Use</QPM:ScriptType>
+            </QPM:Script>
+
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Unuse</QPM:ScriptType>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="doc">
+                        <QPM:Dir name="pachi">
+                           <QPM:File>AUTHORS</QPM:File>
+                           <QPM:File>ChangeLog</QPM:File>
+                           <QPM:File>License.txt</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="pachi">
+                        <QPM:Dir name="Tgfx">
+                           <QPM:File>backgrounds.T8</QPM:File>
+                           <QPM:File>bright.T8</QPM:File>
+                           <QPM:File>castle.T8</QPM:File>
+                           <QPM:File>cave.T8</QPM:File>
+                           <QPM:File>cemetery.T8</QPM:File>
+                           <QPM:File>comic_01.T8</QPM:File>
+                           <QPM:File>comic_02.T8</QPM:File>
+                           <QPM:File>comic_03.T8</QPM:File>
+                           <QPM:File>comic_04.T8</QPM:File>
+                           <QPM:File>dragontech.T8</QPM:File>
+                           <QPM:File>endcredits.T8</QPM:File>
+                           <QPM:File>gameover.T8</QPM:File>
+                           <QPM:File>gamepanel.T8</QPM:File>
+                           <QPM:File>help.T8</QPM:File>
+                           <QPM:File>icon.bmp</QPM:File>
+                           <QPM:File>intro.T8</QPM:File>
+                           <QPM:File>left.T8</QPM:File>
+                           <QPM:File>line1.T8</QPM:File>
+                           <QPM:File>line2.T8</QPM:File>
+                           <QPM:File>monsters.T8</QPM:File>
+                           <QPM:File>pachi.T8</QPM:File>
+                           <QPM:File>right.T8</QPM:File>
+                           <QPM:File>tiles.T8</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="data">
+                           <QPM:File>backs.dat</QPM:File>
+                           <QPM:File>monsters.dat</QPM:File>
+                           <QPM:File>objects_v2.dat</QPM:File>
+                           <QPM:File>rooms_v2.dat</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="fonts">
+                           <QPM:File>font1.T</QPM:File>
+                           <QPM:File>font16a.T</QPM:File>
+                           <QPM:File>font16b.T</QPM:File>
+                           <QPM:File>font16c.T</QPM:File>
+                           <QPM:File>font16d.T</QPM:File>
+                           <QPM:File>font32_menu.T</QPM:File>
+                           <QPM:File>font32_menu1.T</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="music">
+                           <QPM:File>credits.s3m</QPM:File>
+                           <QPM:File>menu.s3m</QPM:File>
+                           <QPM:File>stage1.s3m</QPM:File>
+                           <QPM:File>stage2.stm</QPM:File>
+                           <QPM:File>stage3.s3m</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="sounds">
+                           <QPM:File>die.wav</QPM:File>
+                           <QPM:File>exit.wav</QPM:File>
+                           <QPM:File>jump.wav</QPM:File>
+                           <QPM:File>obj.wav</QPM:File>
+                           <QPM:File>objseq.wav</QPM:File>
+                           <QPM:File>option.wav</QPM:File>
+                           <QPM:File>respawn.wav</QPM:File>
+                           <QPM:File>stageready.wav</QPM:File>
+                           <QPM:File>storm.wav</QPM:File>
+                           <QPM:File>timer.wav</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="var">
+                  <QPM:Dir name="lib">
+                     <QPM:Dir name="games">
+                        <QPM:Dir name="pachi">
+                           <QPM:Dir name="data">
+                              <QPM:File>scores.dat</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="doc">
+                        <QPM:Union link="../../../opt/share/doc/pachi">pachi</QPM:Union>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="pachi">
+                        <QPM:Union link="../../../opt/share/pachi/sounds">sounds</QPM:Union>
+                        <QPM:Union link="../../../opt/share/pachi/music">music</QPM:Union>
+                        <QPM:Union link="../../../opt/share/pachi/fonts">fonts</QPM:Union>
+                        <QPM:Union link="../../../opt/share/pachi/data">data</QPM:Union>
+                        <QPM:Union link="../../../opt/share/pachi/Tgfx">Tgfx</QPM:Union>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+
+      <QPM:Launch name="Pachi el marciano">
+         <QPM:String name="Topic" value="Applications/Games"/>
+         <QPM:String name="Command" value="/opt/bin/pachi"/>
+      </QPM:Launch>
+   </RDF:Description>
+</RDF:RDF>

@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:PackageName>openssl_x86-0.9.6c-public</QPM:PackageName>
+            <QPM:PackageSize>458659</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2002/05/27</QPM:PackageReleaseDate>
+            <QPM:PackageRepository>http://www.qnx.com</QPM:PackageRepository>
+            <QPM:FileVersion>1.01</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>OpenSSL</QPM:ProductName>
+            <QPM:ProductSize>1500000</QPM:ProductSize>
+            <QPM:ProductIdentifier>openssl-target_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.openssl.org/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>OpenSSL</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.openssl.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>OpenSSL is a free SSL.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>The OpenSSL Project is a collaborative effort to develop a robust, commercial-grade, fully featured, and Open Source toolkit implementing the Secure Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well as a full-strength general purpose cryptography library. The project is managed by a worldwide community of volunteers that use the Internet to communicate, plan, and develop the OpenSSL toolkit and its related documentation.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.openssl.org/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/openssl/_x86-0.9.6c</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/05/15</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>0.9.6c</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>High</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://openssl-0.9.6c-public.repdata/LicenseUrl/LICENSE</QPM:LicenseUrl>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Software Development/Libraries and Extensions/C Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>ssl,openssl,security</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor>x86</QPM:TargetProcessor>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Union link="$(PROCESSOR)/opt">opt</QPM:Union>
+               <QPM:Dir name="x86">
+                  <QPM:Dir name="opt">
+                     <QPM:Dir name="lib">
+                        <QPM:File>libcrypto.a</QPM:File>
+                        <QPM:File>libssl.a</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

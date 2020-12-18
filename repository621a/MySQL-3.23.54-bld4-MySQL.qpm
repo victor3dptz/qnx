@@ -1,0 +1,304 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageName>MySQL-3.23.54-bld4-MySQL</QPM:PackageName>
+            <QPM:PackageSize>908209</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/01/24</QPM:PackageReleaseDate>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageRepository>ftp://24.112.178.91/pub/qnxrtp/repository</QPM:PackageRepository>
+            <QPM:PackageModel>app</QPM:PackageModel>
+            <QPM:FileVersion>1.9</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>3281977</QPM:ProductSize>
+            <QPM:InstallPath>MySQL/MySQL/core-3.23.54-bld4</QPM:InstallPath>
+            <QPM:ProductName>MySQL</QPM:ProductName>
+            <QPM:ProductIdentifier>MySQL</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:ProductURL>www.mysql.com</QPM:ProductURL>
+            <QPM:VendorName>MySQL</QPM:VendorName>
+            <QPM:VendorInstallName>MySQL</QPM:VendorInstallName>
+            <QPM:VendorURL>www.mysql.com</QPM:VendorURL>
+            <QPM:VendorEmbedURL>www.mysql.com</QPM:VendorEmbedURL>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>MySQL</QPM:AuthorName>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>MySQL</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>MySQL-3.23.54a ported by Andrew Thomas, Cogent Real-Time Systems Inc.  This port includes support for UNIX-domain socket connections.  If you receive a dependency error while installing this application, select &quot;ignore the error&quot; and continue with the installation.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>www.mysql.com</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL>www.mysql.com</QPM:ProductDescriptionEmbedURL>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/01/24</QPM:ReleaseDate>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseVersion>3.23.54a</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor>QNX6 Port</QPM:ReleaseNoteMinor>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>4</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>GPL</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:ContentTopic>Public Software/System/Services, Servers and Daemons/Database Servers</QPM:ContentTopic>
+            <QPM:ContentKeyword/>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:LicenseUrl/>
+         <QPM:ProductInstallationProcedure/>
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Union link="$(PROCESSOR)/opt">opt</QPM:Union>
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="bin">
+                     <QPM:File>msql2mysql</QPM:File>
+                     <QPM:File>mysql_config</QPM:File>
+                     <QPM:File>mysql_convert_table_format</QPM:File>
+                     <QPM:File>mysql_find_rows</QPM:File>
+                     <QPM:File>mysql_fix_privilege_tables</QPM:File>
+                     <QPM:File>mysql_install_db</QPM:File>
+                     <QPM:File>mysql_setpermission</QPM:File>
+                     <QPM:File>mysql_zap</QPM:File>
+                     <QPM:File>mysqlaccess</QPM:File>
+                     <QPM:File>mysqlbug</QPM:File>
+                     <QPM:File>mysqld_multi</QPM:File>
+                     <QPM:File>mysqldumpslow</QPM:File>
+                     <QPM:File>mysqlhotcopy</QPM:File>
+                     <QPM:File>safe_mysqld</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="info">
+                     <QPM:File>mysql.info</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="lib">
+                     <QPM:File>libmysqlclient.la</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="man">
+                     <QPM:Dir name="man1">
+                        <QPM:File>isamchk.1</QPM:File>
+                        <QPM:File>isamlog.1</QPM:File>
+                        <QPM:File>mysql.1</QPM:File>
+                        <QPM:File>mysql_zap.1</QPM:File>
+                        <QPM:File>mysqlaccess.1</QPM:File>
+                        <QPM:File>mysqladmin.1</QPM:File>
+                        <QPM:File>mysqld.1</QPM:File>
+                        <QPM:File>mysqld_multi.1</QPM:File>
+                        <QPM:File>mysqldump.1</QPM:File>
+                        <QPM:File>mysqlshow.1</QPM:File>
+                        <QPM:File>perror.1</QPM:File>
+                        <QPM:File>replace.1</QPM:File>
+                        <QPM:File>safe_mysqld.1</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="mysql-test">
+                     <QPM:File>README</QPM:File>
+                     <QPM:Dir name="include">
+                        <QPM:File>have_bdb.inc</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:File>install_test_db</QPM:File>
+                     <QPM:File>mysql-test-run</QPM:File>
+                     <QPM:Dir name="r">
+                        <QPM:File>alias.result</QPM:File>
+                        <QPM:File>have_bdb.require</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="std_data">
+                        <QPM:File>gemini.dat</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="t">
+                        <QPM:File>alias.test</QPM:File>
+                        <QPM:File>rpl000007-slave.opt</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="mysql">
+                        <QPM:File>binary-configure</QPM:File>
+                        <QPM:Dir name="charsets">
+                           <QPM:File>Index</QPM:File>
+                           <QPM:File>README</QPM:File>
+                           <QPM:File>cp1251.conf</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="czech">
+                           <QPM:File>errmsg.sys</QPM:File>
+                           <QPM:File>errmsg.txt</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="danish">
+                           <QPM:File>errmsg.sys</QPM:File>
+                           <QPM:File>errmsg.txt</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="dutch">
+                           <QPM:File>errmsg.sys</QPM:File>
+                           <QPM:File>errmsg.txt</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="english">
+                           <QPM:File>errmsg.sys</QPM:File>
+                           <QPM:File>errmsg.txt</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="estonian">
+                           <QPM:File>errmsg.sys</QPM:File>
+                           <QPM:File>errmsg.txt</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="french">
+                           <QPM:File>errmsg.sys</QPM:File>
+                           <QPM:File>errmsg.txt</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="german">
+                           <QPM:File>errmsg.sys</QPM:File>
+                           <QPM:File>errmsg.txt</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="greek">
+                           <QPM:File>errmsg.sys</QPM:File>
+                           <QPM:File>errmsg.txt</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="hungarian">
+                           <QPM:File>errmsg.sys</QPM:File>
+                           <QPM:File>errmsg.txt</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="italian">
+                           <QPM:File>errmsg.sys</QPM:File>
+                           <QPM:File>errmsg.txt</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="japanese">
+                           <QPM:File>errmsg.sys</QPM:File>
+                           <QPM:File>errmsg.txt</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="korean">
+                           <QPM:File>errmsg.sys</QPM:File>
+                           <QPM:File>errmsg.txt</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>make_binary_distribution</QPM:File>
+                        <QPM:File>mi_test_all</QPM:File>
+                        <QPM:File>mi_test_all.res</QPM:File>
+                        <QPM:File>my-huge.cnf</QPM:File>
+                        <QPM:File>my-large.cnf</QPM:File>
+                        <QPM:File>my-medium.cnf</QPM:File>
+                        <QPM:File>my-small.cnf</QPM:File>
+                        <QPM:File>mysql-3.23.54.spec</QPM:File>
+                        <QPM:File>mysql-log-rotate</QPM:File>
+                        <QPM:File>mysql.server</QPM:File>
+                        <QPM:Dir name="norwegian">
+                           <QPM:File>errmsg.sys</QPM:File>
+                           <QPM:File>errmsg.txt</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="norwegian-ny">
+                           <QPM:File>errmsg.sys</QPM:File>
+                           <QPM:File>errmsg.txt</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="polish">
+                           <QPM:File>errmsg.sys</QPM:File>
+                           <QPM:File>errmsg.txt</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="portuguese">
+                           <QPM:File>errmsg.sys</QPM:File>
+                           <QPM:File>errmsg.txt</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="romanian">
+                           <QPM:File>errmsg.sys</QPM:File>
+                           <QPM:File>errmsg.txt</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="russian">
+                           <QPM:File>errmsg.sys</QPM:File>
+                           <QPM:File>errmsg.txt</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="slovak">
+                           <QPM:File>errmsg.sys</QPM:File>
+                           <QPM:File>errmsg.txt</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="spanish">
+                           <QPM:File>errmsg.sys</QPM:File>
+                           <QPM:File>errmsg.txt</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="swedish">
+                           <QPM:File>errmsg.sys</QPM:File>
+                           <QPM:File>errmsg.txt</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ukrainian">
+                           <QPM:File>errmsg.sys</QPM:File>
+                           <QPM:File>errmsg.txt</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../opt/lib">lib</QPM:Union>
+                  <QPM:Union link="../opt/info">info</QPM:Union>
+                  <QPM:Union link="../opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="man">
+                     <QPM:Union link="../../opt/man/man1">man1</QPM:Union>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Union link="../../opt/share/mysql">mysql</QPM:Union>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

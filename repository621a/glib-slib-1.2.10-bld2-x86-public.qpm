@@ -1,0 +1,103 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:PackageName>glib-slib-1.2.10-bld2-x86-public</QPM:PackageName>
+            <QPM:PackageSize>69629</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2002/12/31</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:PackageDefaultState>hidden</QPM:PackageDefaultState>
+            <QPM:PackageModel>slib</QPM:PackageModel>
+            <QPM:FileVersion>1.01</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>GNU glib shared libraries for x86</QPM:ProductName>
+            <QPM:ProductSize>514849</QPM:ProductSize>
+            <QPM:ProductIdentifier>glib-slib-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>GNU</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.gnu.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>glib is a wrapper library.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>glib is a set of libraries for covering up OS specific function calls.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.gtk.org/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/glib/slib-1.2.10-bld2/x86</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/12/31</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>1.2.10</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>2</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU Lesser General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://glib-1.2.10-bld2-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>glib-slib</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>System/Shared Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>gnu,glib,gtk</QPM:ContentKeyword>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+            <QPM:ContainsLibrary>libglib-1.2.so.0</QPM:ContainsLibrary>
+            <QPM:ProvidesLibrary>libglib-1.2.so.0</QPM:ProvidesLibrary>
+            <QPM:ContainsLibrary>libgmodule-1.2.so.0</QPM:ContainsLibrary>
+            <QPM:ProvidesLibrary>libgmodule-1.2.so.0</QPM:ProvidesLibrary>
+            <QPM:ContainsLibrary>libgthread-1.2.so.0</QPM:ContainsLibrary>
+            <QPM:ProvidesLibrary>libgthread-1.2.so.0</QPM:ProvidesLibrary>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="lib">
+                     <QPM:File>libglib-1.2.so.0</QPM:File>
+                     <QPM:File>libgmodule-1.2.so.0</QPM:File>
+                     <QPM:File>libgthread-1.2.so.0</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

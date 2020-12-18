@@ -1,0 +1,146 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>prjstrfghter-1.1-1-public</QPM:PackageName>
+            <QPM:PackageSize>2451304</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/10/03</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Project: Starfighter</QPM:ProductName>
+            <QPM:ProductSize>3993434</QPM:ProductSize>
+            <QPM:ProductIdentifier>prjstrfghter</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Parallel Realities</QPM:AuthorName>
+            <QPM:AuthorURL>www.parallelrealities.co.uk</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail>stephen.sweeny@parallelrealities.co.uk</QPM:AuthorEmail>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Mission based space side scroller shoot-em up</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>After decades of war one company, who had gained powerful supplying both sides with weaponary, steps forwards and crushes both warring factions in one swift movement. Using far superior weaponary and AI craft, the company was completely unstoppable and now no one can stand in their way. Thousands began to perish under the iron fist of the company. The people cried out for a saviour, for someone to light this dark hour... and someone did.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.parallelrealities.co.uk/starfighter.php</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/prjstrfghter/core-1.1-1</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/10/03</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>1.1-1</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://prjstrfghter-1.1-1-public.repdata/LicenseUrl/LICENSE</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Games and Diversions/Arcade Shoot &apos;em Ups</QPM:ContentTopic>
+            <QPM:ContentKeyword>starfighter, sdl, games</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Use</QPM:ScriptType>
+            </QPM:Script>
+
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Unuse</QPM:ScriptType>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="doc">
+                     <QPM:Dir name="starfighter">
+                        <QPM:File>LICENSE</QPM:File>
+                        <QPM:File>ammo.gif</QPM:File>
+                        <QPM:File>cash.gif</QPM:File>
+                        <QPM:File>index.html</QPM:File>
+                        <QPM:File>plasmaAmmo.png</QPM:File>
+                        <QPM:File>plasmaDamage.png</QPM:File>
+                        <QPM:File>plasmaRate.png</QPM:File>
+                        <QPM:File>rocketAmmo.png</QPM:File>
+                        <QPM:File>sflogo.gif</QPM:File>
+                        <QPM:File>shield.gif</QPM:File>
+                        <QPM:File>superCharge.png</QPM:File>
+                        <QPM:File>targetArrow.png</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="games">
+                        <QPM:Dir name="parallelrealities">
+                           <QPM:File>starfighter.pak</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="games">
+                        <QPM:Union link="../../../opt/share/games/parallelrealities">parallelrealities</QPM:Union>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+
+      <QPM:Launch name="Project: Starfighter">
+         <QPM:String name="Topic" value="Applications/Games"/>
+         <QPM:String name="Command" value="/opt/bin/starfighter"/>
+      </QPM:Launch>
+   </RDF:Description>
+</RDF:RDF>

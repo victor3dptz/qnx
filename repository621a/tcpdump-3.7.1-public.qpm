@@ -1,0 +1,118 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>tcpdump-3.7.1-public</QPM:PackageName>
+            <QPM:PackageSize>28788</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>3</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseNotes/>
+            <QPM:PackageReleaseUrgency>Medium</QPM:PackageReleaseUrgency>
+            <QPM:PackageReleaseDate>2003/01/16</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>tcpdump</QPM:ProductName>
+            <QPM:ProductSize>87977</QPM:ProductSize>
+            <QPM:ProductIdentifier>tcpdump</QPM:ProductIdentifier>
+            <QPM:ProductEmail>xtang@canada.com</QPM:ProductEmail>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail>xtang@canada.com</QPM:VendorEmail>
+            <QPM:AuthorName>The Tcpdump Group</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.tcpdump.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>tcp and other protocol dumping.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong/>
+            <QPM:ProductDescriptionURL>http://www.tcpdump.org/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/tcpdump/core-3.7.1</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/01/16</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>3.7.1</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>High</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>BSD License</QPM:ReleaseCopyright>
+            <QPM:ReleaseCopyright>QNX Open Community License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://tcpdump-3.7.1-public.repdata/LicenseUrl/LICENSE</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>System/Network and Data Transmission</QPM:ContentTopic>
+            <QPM:ContentKeyword>tcpdump,bpf,pcap</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/sbin">sbin</QPM:Union>
+                  <QPM:Dir name="man">
+                     <QPM:Dir name="man1">
+                        <QPM:File>tcpdump.1</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="man3">
+                        <QPM:File>pcap.3</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="lib">
+                  <QPM:Union link="../$(PROCESSOR)/lib/dll">dll</QPM:Union>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../$(PROCESSOR)/opt/sbin">sbin</QPM:Union>
+                  <QPM:Dir name="man">
+                     <QPM:Union link="../../opt/man/man3">man3</QPM:Union>
+                     <QPM:Union link="../../opt/man/man1">man1</QPM:Union>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

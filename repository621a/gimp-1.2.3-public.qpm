@@ -1,0 +1,1432 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>gimp-1.2.3-public</QPM:PackageName>
+            <QPM:PackageSize>2577702</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2002/05/21</QPM:PackageReleaseDate>
+            <QPM:PackageRepository>http://www.qnx.com</QPM:PackageRepository>
+            <QPM:FileVersion>1.01</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>The Gimp</QPM:ProductName>
+            <QPM:ProductSize>8222797</QPM:ProductSize>
+            <QPM:ProductIdentifier>gimp</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>GNU</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.gnu.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Gimp is an image editor.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>The GIMP is designed to be a professional image manipulation program suitable for such tasks as photo retouching, image composition and image authoring.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.gimp.org/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/gimp/core-1.2.3</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/05/21</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>1.2.3</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Low</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://gimp-1.2.3-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Multimedia/Graphics/Graphics Editing/Paint and Bitmap Editors</QPM:ContentTopic>
+            <QPM:ContentKeyword>gimp,photoshop</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:DisplayEnvironment>X11R6</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>gimp needs gtk.</QPM:Notes>
+               <QPM:Product>gtk</QPM:Product>
+               <QPM:Vendor>public</QPM:Vendor>
+               <QPM:ProductHomeRepository/>
+            </QPM:Dependency>
+
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>gimp needs glib.</QPM:Notes>
+               <QPM:Product>glib</QPM:Product>
+               <QPM:Vendor>public</QPM:Vendor>
+               <QPM:ProductHomeRepository/>
+            </QPM:Dependency>
+
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>gimp needs png.</QPM:Notes>
+               <QPM:Product>libpng</QPM:Product>
+               <QPM:Vendor>public</QPM:Vendor>
+               <QPM:ProductHomeRepository/>
+            </QPM:Dependency>
+
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>gimp need libtiff.</QPM:Notes>
+               <QPM:Product>libtiff</QPM:Product>
+               <QPM:Vendor>public</QPM:Vendor>
+               <QPM:ProductHomeRepository/>
+            </QPM:Dependency>
+
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>gimp needs x11.</QPM:Notes>
+               <QPM:Product>xfree86</QPM:Product>
+               <QPM:Vendor>public</QPM:Vendor>
+               <QPM:ProductHomeRepository/>
+            </QPM:Dependency>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Use</QPM:ScriptType>
+            </QPM:Script>
+
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Unuse</QPM:ScriptType>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/lib">lib</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="bin">
+                     <QPM:Link link="gimptool-1.2">gimp-config</QPM:Link>
+                     <QPM:Link link="gimptool-1.2">gimptool</QPM:Link>
+                     <QPM:File>gimptool-1.2</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="etc">
+                     <QPM:Dir name="gimp">
+                        <QPM:Dir name="1.2">
+                           <QPM:File>gimprc</QPM:File>
+                           <QPM:File>gimprc_user</QPM:File>
+                           <QPM:File>gtkrc</QPM:File>
+                           <QPM:File>gtkrc_user</QPM:File>
+                           <QPM:File>ps-menurc</QPM:File>
+                           <QPM:File>unitrc</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="lib">
+                     <QPM:Dir name="gimp">
+                        <QPM:Dir name="1.2">
+                           <QPM:Dir name="modules">
+                              <QPM:File>libcolorsel_gtk.la</QPM:File>
+                              <QPM:File>libcolorsel_triangle.la</QPM:File>
+                              <QPM:File>libcolorsel_water.la</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+
+                     <QPM:File>libgck.la</QPM:File>
+                     <QPM:File>libgimp.la</QPM:File>
+                     <QPM:File>libgimpui.la</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="man">
+                     <QPM:Dir name="man1">
+                        <QPM:File>escputil-1.2.1</QPM:File>
+                        <QPM:Link link="escputil-1.2.1">escputil.1</QPM:Link>
+                        <QPM:File>gimp-1.2.1</QPM:File>
+                        <QPM:File>gimp-remote-1.2.1</QPM:File>
+                        <QPM:Link link="gimp-remote-1.2.1">gimp-remote.1</QPM:Link>
+                        <QPM:Link link="gimp-1.2.1">gimp.1</QPM:Link>
+                        <QPM:File>gimptool-1.2.1</QPM:File>
+                        <QPM:Link link="gimptool-1.2.1">gimptool.1</QPM:Link>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="man5">
+                        <QPM:File>gimprc-1.2.5</QPM:File>
+                        <QPM:Link link="gimprc-1.2.5">gimprc.5</QPM:Link>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="aclocal">
+                        <QPM:File>gimp.m4</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="gimp">
+                        <QPM:Dir name="1.2">
+                           <QPM:Dir name="brushes">
+                              <QPM:File>10x10square.gbr</QPM:File>
+                              <QPM:File>10x10squareBlur.gbr</QPM:File>
+                              <QPM:File>11circle.gbr</QPM:File>
+                              <QPM:File>11fcircle.gbr</QPM:File>
+                              <QPM:File>13circle.gbr</QPM:File>
+                              <QPM:File>13fcircle.gbr</QPM:File>
+                              <QPM:File>15circle.gbr</QPM:File>
+                              <QPM:File>15fcircle.gbr</QPM:File>
+                              <QPM:File>17circle.gbr</QPM:File>
+                              <QPM:File>17fcircle.gbr</QPM:File>
+                              <QPM:File>19circle.gbr</QPM:File>
+                              <QPM:File>19fcircle.gbr</QPM:File>
+                              <QPM:File>1circle.gbr</QPM:File>
+                              <QPM:File>20x20square.gbr</QPM:File>
+                              <QPM:File>20x20squareBlur.gbr</QPM:File>
+                              <QPM:File>3circle.gbr</QPM:File>
+                              <QPM:File>3fcircle.gbr</QPM:File>
+                              <QPM:File>5circle.gbr</QPM:File>
+                              <QPM:File>5fcircle.gbr</QPM:File>
+                              <QPM:File>5x5square.gbr</QPM:File>
+                              <QPM:File>5x5squareBlur.gbr</QPM:File>
+                              <QPM:File>7circle.gbr</QPM:File>
+                              <QPM:File>7fcircle.gbr</QPM:File>
+                              <QPM:File>9circle.gbr</QPM:File>
+                              <QPM:File>9fcircle.gbr</QPM:File>
+                              <QPM:File>DStar11.gbr</QPM:File>
+                              <QPM:File>DStar17.gbr</QPM:File>
+                              <QPM:File>DStar25.gbr</QPM:File>
+                              <QPM:File>SketchBrush-16.gih</QPM:File>
+                              <QPM:File>SketchBrush-32.gih</QPM:File>
+                              <QPM:File>SketchBrush-64.gih</QPM:File>
+                              <QPM:File>callig1.gbr</QPM:File>
+                              <QPM:File>callig2.gbr</QPM:File>
+                              <QPM:File>callig3.gbr</QPM:File>
+                              <QPM:File>callig4.gbr</QPM:File>
+                              <QPM:File>confetti.gbr</QPM:File>
+                              <QPM:File>confetti.gih</QPM:File>
+                              <QPM:File>dunes.gbr</QPM:File>
+                              <QPM:File>feltpen.gih</QPM:File>
+                              <QPM:File>galaxy.gbr</QPM:File>
+                              <QPM:File>galaxy_big.gbr</QPM:File>
+                              <QPM:File>galaxy_small.gbr</QPM:File>
+                              <QPM:File>hsparks.gih</QPM:File>
+                              <QPM:File>pepper.gbr</QPM:File>
+                              <QPM:File>pixel.gbr</QPM:File>
+                              <QPM:File>thegimp.gbr</QPM:File>
+                              <QPM:File>vine.gih</QPM:File>
+                              <QPM:File>xcf.gbr</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="devel-docs">
+                              <QPM:Dir name="html">
+                                 <QPM:Dir name="libgimp">
+                                    <QPM:File>gimpchainbutton.html</QPM:File>
+                                    <QPM:File>gimpcolorbutton.html</QPM:File>
+                                    <QPM:File>gimpdefinitions.html</QPM:File>
+                                    <QPM:File>gimpfileselection.html</QPM:File>
+                                    <QPM:File>gimpmodule.html</QPM:File>
+                                    <QPM:File>gimppatheditor.html</QPM:File>
+                                    <QPM:File>gimppixmap.html</QPM:File>
+                                    <QPM:File>gimpsizeentry.html</QPM:File>
+                                    <QPM:File>gimpunitmenu.html</QPM:File>
+                                    <QPM:File>index.html</QPM:File>
+                                    <QPM:File>index.sgml</QPM:File>
+                                    <QPM:File>libgimp-gimp.html</QPM:File>
+                                    <QPM:File>libgimp-gimpbrushes.html</QPM:File>
+                                    <QPM:File>libgimp-gimpchannel.html</QPM:File>
+                                    <QPM:File>libgimp-gimpchannelops.html</QPM:File>
+                                    <QPM:File>libgimp-gimpcolor.html</QPM:File>
+                                    <QPM:File>libgimp-gimpcolordisplay.html</QPM:File>
+                                    <QPM:File>libgimp-gimpcolorselector.html</QPM:File>
+                                    <QPM:File>libgimp-gimpcolorspace.html</QPM:File>
+                                    <QPM:File>libgimp-gimpcompat.html</QPM:File>
+                                    <QPM:File>libgimp-gimpconvert.html</QPM:File>
+                                    <QPM:File>libgimp-gimpdialog.html</QPM:File>
+                                    <QPM:File>libgimp-gimpdisplay.html</QPM:File>
+                                    <QPM:File>libgimp-gimpdrawable.html</QPM:File>
+                                    <QPM:File>libgimp-gimpedit.html</QPM:File>
+                                    <QPM:File>libgimp-gimpenums.html</QPM:File>
+                                    <QPM:File>libgimp-gimpenv.html</QPM:File>
+                                    <QPM:File>libgimp-gimpexport.html</QPM:File>
+                                    <QPM:File>libgimp-gimpfeatures.html</QPM:File>
+                                    <QPM:File>libgimp-gimpfileops.html</QPM:File>
+                                    <QPM:File>libgimp-gimpfloatingsel.html</QPM:File>
+                                    <QPM:File>libgimp-gimpgimprc.html</QPM:File>
+                                    <QPM:File>libgimp-gimpgradients.html</QPM:File>
+                                    <QPM:File>libgimp-gimpguides.html</QPM:File>
+                                    <QPM:File>libgimp-gimphelp.html</QPM:File>
+                                    <QPM:File>libgimp-gimphelpui.html</QPM:File>
+                                    <QPM:File>libgimp-gimpimage.html</QPM:File>
+                                    <QPM:File>libgimp-gimplayer.html</QPM:File>
+                                    <QPM:File>libgimp-gimplimits.html</QPM:File>
+                                    <QPM:File>libgimp-gimpmath.html</QPM:File>
+                                    <QPM:File>libgimp-gimpmatrix.html</QPM:File>
+                                    <QPM:File>libgimp-gimpmenu.html</QPM:File>
+                                    <QPM:File>libgimp-gimpmessage.html</QPM:File>
+                                    <QPM:File>libgimp-gimpmisc.html</QPM:File>
+                                    <QPM:File>libgimp-gimpmodule.html</QPM:File>
+                                    <QPM:File>libgimp-gimppalette.html</QPM:File>
+                                    <QPM:File>libgimp-gimpparasite.html</QPM:File>
+                                    <QPM:File>libgimp-gimpparasiteio.html</QPM:File>
+                                    <QPM:File>libgimp-gimppatterns.html</QPM:File>
+                                    <QPM:File>libgimp-gimppixelrgn.html</QPM:File>
+                                    <QPM:File>libgimp-gimpplugin.html</QPM:File>
+                                    <QPM:File>libgimp-gimpproceduraldb.html</QPM:File>
+                                    <QPM:File>libgimp-gimpprotocol.html</QPM:File>
+                                    <QPM:File>libgimp-gimpquerybox.html</QPM:File>
+                                    <QPM:File>libgimp-gimpselection.html</QPM:File>
+                                    <QPM:File>libgimp-gimpsignal.html</QPM:File>
+                                    <QPM:File>libgimp-gimptexttool.html</QPM:File>
+                                    <QPM:File>libgimp-gimptile.html</QPM:File>
+                                    <QPM:File>libgimp-gimptools.html</QPM:File>
+                                    <QPM:File>libgimp-gimpui.html</QPM:File>
+                                    <QPM:File>libgimp-gimpundo.html</QPM:File>
+                                    <QPM:File>libgimp-gimpunit.html</QPM:File>
+                                    <QPM:File>libgimp-gimputils.html</QPM:File>
+                                    <QPM:File>libgimp-gimpvector.html</QPM:File>
+                                    <QPM:File>libgimp-gimpwidgets.html</QPM:File>
+                                    <QPM:File>libgimp-gimpwire.html</QPM:File>
+                                    <QPM:File>libgimp.html</QPM:File>
+                                    <QPM:File>libgimpui.html</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="fractalexplorer">
+                              <QPM:File>Asteroid_Field</QPM:File>
+                              <QPM:File>Bar_Code_Label</QPM:File>
+                              <QPM:File>Beauty_of_Nature</QPM:File>
+                              <QPM:File>Blue_Curtain</QPM:File>
+                              <QPM:File>Car_Track</QPM:File>
+                              <QPM:File>Energetic_Diamond</QPM:File>
+                              <QPM:File>Explosive</QPM:File>
+                              <QPM:File>Flower</QPM:File>
+                              <QPM:File>Fragments</QPM:File>
+                              <QPM:File>Hemp</QPM:File>
+                              <QPM:File>High_Voltage</QPM:File>
+                              <QPM:File>Hoops</QPM:File>
+                              <QPM:File>Ice_Crystal</QPM:File>
+                              <QPM:File>Leaves</QPM:File>
+                              <QPM:File>Lightning</QPM:File>
+                              <QPM:File>Mandelbrot</QPM:File>
+                              <QPM:File>Marble</QPM:File>
+                              <QPM:File>Marble2</QPM:File>
+                              <QPM:File>Medusa</QPM:File>
+                              <QPM:File>Nautilus</QPM:File>
+                              <QPM:File>Nebula</QPM:File>
+                              <QPM:File>Plant</QPM:File>
+                              <QPM:File>Rose</QPM:File>
+                              <QPM:File>Saturn</QPM:File>
+                              <QPM:File>Snow_Crystal</QPM:File>
+                              <QPM:File>Soma</QPM:File>
+                              <QPM:File>Spark</QPM:File>
+                              <QPM:File>Suns</QPM:File>
+                              <QPM:File>Tentacles</QPM:File>
+                              <QPM:File>The_Green_Place</QPM:File>
+                              <QPM:File>Wave</QPM:File>
+                              <QPM:File>Wood</QPM:File>
+                              <QPM:File>Zooming_Circle</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="gfig">
+                              <QPM:File>A_star</QPM:File>
+                              <QPM:File>curves</QPM:File>
+                              <QPM:File>polys</QPM:File>
+                              <QPM:File>ring</QPM:File>
+                              <QPM:File>ring+star</QPM:File>
+                              <QPM:File>simily</QPM:File>
+                              <QPM:File>spirals_and_stars</QPM:File>
+                              <QPM:File>sprial</QPM:File>
+                              <QPM:File>star2</QPM:File>
+                              <QPM:File>stars</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="gflare">
+                              <QPM:File>Bright_Star</QPM:File>
+                              <QPM:File>Classic</QPM:File>
+                              <QPM:File>Default</QPM:File>
+                              <QPM:File>Distant_Sun</QPM:File>
+                              <QPM:File>GFlare_101</QPM:File>
+                              <QPM:File>GFlare_102</QPM:File>
+                              <QPM:File>Hidden_Planet</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>gimp_logo.ppm</QPM:File>
+                           <QPM:File>gimp_splash.ppm</QPM:File>
+                           <QPM:Dir name="gimpressionist">
+                              <QPM:Dir name="Brushes">
+                                 <QPM:File>arrow01.pgm</QPM:File>
+                                 <QPM:File>ball.ppm</QPM:File>
+                                 <QPM:File>blob.ppm</QPM:File>
+                                 <QPM:File>box.ppm</QPM:File>
+                                 <QPM:File>chalk01.pgm</QPM:File>
+                                 <QPM:File>cone.ppm</QPM:File>
+                                 <QPM:File>crayon01.pgm</QPM:File>
+                                 <QPM:File>crayon02.pgm</QPM:File>
+                                 <QPM:File>crayon03.pgm</QPM:File>
+                                 <QPM:File>crayon04.pgm</QPM:File>
+                                 <QPM:File>crayon05.pgm</QPM:File>
+                                 <QPM:File>crayon06.pgm</QPM:File>
+                                 <QPM:File>crayon07.pgm</QPM:File>
+                                 <QPM:File>crayon08.pgm</QPM:File>
+                                 <QPM:File>defaultbrush.pgm</QPM:File>
+                                 <QPM:File>dribble.pgm</QPM:File>
+                                 <QPM:File>fabric.pgm</QPM:File>
+                                 <QPM:File>fabric01.pgm</QPM:File>
+                                 <QPM:File>fabric02.pgm</QPM:File>
+                                 <QPM:File>fabric03.pgm</QPM:File>
+                                 <QPM:File>flower01.pgm</QPM:File>
+                                 <QPM:File>flower02.pgm</QPM:File>
+                                 <QPM:File>flower03.pgm</QPM:File>
+                                 <QPM:File>flower04.pgm</QPM:File>
+                                 <QPM:File>grad01.pgm</QPM:File>
+                                 <QPM:File>grad02.pgm</QPM:File>
+                                 <QPM:File>grad03.pgm</QPM:File>
+                                 <QPM:File>heart.ppm</QPM:File>
+                                 <QPM:File>leaf01.pgm</QPM:File>
+                                 <QPM:File>paintbrush.pgm</QPM:File>
+                                 <QPM:File>paintbrush01.pgm</QPM:File>
+                                 <QPM:File>paintbrush02.pgm</QPM:File>
+                                 <QPM:File>paintbrush03.pgm</QPM:File>
+                                 <QPM:File>paintbrush04.pgm</QPM:File>
+                                 <QPM:File>paper01.pgm</QPM:File>
+                                 <QPM:File>paper02.pgm</QPM:File>
+                                 <QPM:File>paper03.pgm</QPM:File>
+                                 <QPM:File>paper04.pgm</QPM:File>
+                                 <QPM:File>pentagram.pgm</QPM:File>
+                                 <QPM:File>scribble.pgm</QPM:File>
+                                 <QPM:File>shape01.pgm</QPM:File>
+                                 <QPM:File>shape02.pgm</QPM:File>
+                                 <QPM:File>shape03.pgm</QPM:File>
+                                 <QPM:File>shape04.pgm</QPM:File>
+                                 <QPM:File>snow1.pgm</QPM:File>
+                                 <QPM:File>sphere.ppm</QPM:File>
+                                 <QPM:File>splat1.pgm</QPM:File>
+                                 <QPM:File>splat2.pgm</QPM:File>
+                                 <QPM:File>splat3.pgm</QPM:File>
+                                 <QPM:File>spunge01.pgm</QPM:File>
+                                 <QPM:File>spunge02.pgm</QPM:File>
+                                 <QPM:File>spunge03.pgm</QPM:File>
+                                 <QPM:File>spunge04.pgm</QPM:File>
+                                 <QPM:File>spunge05.pgm</QPM:File>
+                                 <QPM:File>strange01.pgm</QPM:File>
+                                 <QPM:File>thegimp.pgm</QPM:File>
+                                 <QPM:File>torus.ppm</QPM:File>
+                                 <QPM:File>wavy.pgm</QPM:File>
+                                 <QPM:File>weave.pgm</QPM:File>
+                                 <QPM:File>worm.pgm</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="Paper">
+                                 <QPM:File>bricks.pgm</QPM:File>
+                                 <QPM:File>bricks2.pgm</QPM:File>
+                                 <QPM:File>burlap.pgm</QPM:File>
+                                 <QPM:File>canvas2.pgm</QPM:File>
+                                 <QPM:File>defaultpaper.pgm</QPM:File>
+                                 <QPM:File>marble.pgm</QPM:File>
+                                 <QPM:File>marble2.pgm</QPM:File>
+                                 <QPM:File>stone.pgm</QPM:File>
+                                 <QPM:File>struc.pgm</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="Presets">
+                                 <QPM:File>ApplyCanvas</QPM:File>
+                                 <QPM:File>Ballpark</QPM:File>
+                                 <QPM:File>Canvas</QPM:File>
+                                 <QPM:File>Crosshatch</QPM:File>
+                                 <QPM:File>Cubism</QPM:File>
+                                 <QPM:File>Dotify</QPM:File>
+                                 <QPM:File>Embroidery</QPM:File>
+                                 <QPM:File>Feathers</QPM:File>
+                                 <QPM:File>Felt-marker</QPM:File>
+                                 <QPM:File>Flowerbed</QPM:File>
+                                 <QPM:File>Furry</QPM:File>
+                                 <QPM:File>Line-art</QPM:File>
+                                 <QPM:File>Line-art-2</QPM:File>
+                                 <QPM:File>Maggot-invasion</QPM:File>
+                                 <QPM:File>MarbleMadness</QPM:File>
+                                 <QPM:File>Mossy</QPM:File>
+                                 <QPM:File>Painted_Rock</QPM:File>
+                                 <QPM:File>Parquette</QPM:File>
+                                 <QPM:File>Patchwork</QPM:File>
+                                 <QPM:File>Ringworks</QPM:File>
+                                 <QPM:File>Sample</QPM:File>
+                                 <QPM:File>Smash</QPM:File>
+                                 <QPM:File>Straws</QPM:File>
+                                 <QPM:File>Weave</QPM:File>
+                                 <QPM:File>Wormcan</QPM:File>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="gradients">
+                              <QPM:File>Abstract_1</QPM:File>
+                              <QPM:File>Abstract_2</QPM:File>
+                              <QPM:File>Abstract_3</QPM:File>
+                              <QPM:File>Aneurism</QPM:File>
+                              <QPM:File>Blinds</QPM:File>
+                              <QPM:File>Blue_Green</QPM:File>
+                              <QPM:File>Browns</QPM:File>
+                              <QPM:File>Brushed_Aluminium</QPM:File>
+                              <QPM:File>Burning_Paper</QPM:File>
+                              <QPM:File>Burning_Transparency</QPM:File>
+                              <QPM:File>CD</QPM:File>
+                              <QPM:File>CD_Half</QPM:File>
+                              <QPM:File>Caribbean_Blues</QPM:File>
+                              <QPM:File>Coffee</QPM:File>
+                              <QPM:File>Cold_Steel</QPM:File>
+                              <QPM:File>Cold_Steel_2</QPM:File>
+                              <QPM:File>Crown_molding</QPM:File>
+                              <QPM:File>Danish_flag</QPM:File>
+                              <QPM:File>Dark_1</QPM:File>
+                              <QPM:File>Deep_Sea</QPM:File>
+                              <QPM:File>Default</QPM:File>
+                              <QPM:File>Flare_Glow_Angular_1</QPM:File>
+                              <QPM:File>Flare_Glow_Radial_1</QPM:File>
+                              <QPM:File>Flare_Glow_Radial_2</QPM:File>
+                              <QPM:File>Flare_Glow_Radial_3</QPM:File>
+                              <QPM:File>Flare_Glow_Radial_4</QPM:File>
+                              <QPM:File>Flare_Radial_101</QPM:File>
+                              <QPM:File>Flare_Radial_102</QPM:File>
+                              <QPM:File>Flare_Radial_103</QPM:File>
+                              <QPM:File>Flare_Rays_Radial_1</QPM:File>
+                              <QPM:File>Flare_Rays_Radial_2</QPM:File>
+                              <QPM:File>Flare_Rays_Size_1</QPM:File>
+                              <QPM:File>Flare_Sizefac_101</QPM:File>
+                              <QPM:File>Four_bars</QPM:File>
+                              <QPM:File>French_flag</QPM:File>
+                              <QPM:File>French_flag_smooth</QPM:File>
+                              <QPM:File>Full_saturation_spectrum_CCW</QPM:File>
+                              <QPM:File>Full_saturation_spectrum_CW</QPM:File>
+                              <QPM:File>German_flag</QPM:File>
+                              <QPM:File>German_flag_smooth</QPM:File>
+                              <QPM:File>Golden</QPM:File>
+                              <QPM:File>Greens</QPM:File>
+                              <QPM:File>Horizon_1</QPM:File>
+                              <QPM:File>Horizon_2</QPM:File>
+                              <QPM:File>Incandescent</QPM:File>
+                              <QPM:File>Land_1</QPM:File>
+                              <QPM:File>Land_and_Sea</QPM:File>
+                              <QPM:File>Metallic_Something</QPM:File>
+                              <QPM:File>Mexican_flag</QPM:File>
+                              <QPM:File>Mexican_flag_smooth</QPM:File>
+                              <QPM:File>Nauseating_Headache</QPM:File>
+                              <QPM:File>Neon_Cyan</QPM:File>
+                              <QPM:File>Neon_Green</QPM:File>
+                              <QPM:File>Neon_Yellow</QPM:File>
+                              <QPM:File>Pastel_Rainbow</QPM:File>
+                              <QPM:File>Pastels</QPM:File>
+                              <QPM:File>Purples</QPM:File>
+                              <QPM:File>Radial_Eyeball_Blue</QPM:File>
+                              <QPM:File>Radial_Eyeball_Brown</QPM:File>
+                              <QPM:File>Radial_Eyeball_Green</QPM:File>
+                              <QPM:File>Radial_Glow_1</QPM:File>
+                              <QPM:File>Radial_Rainbow_Hoop</QPM:File>
+                              <QPM:File>Romanian_flag</QPM:File>
+                              <QPM:File>Romanian_flag_smooth</QPM:File>
+                              <QPM:File>Rounded_edge</QPM:File>
+                              <QPM:File>Shadows_1</QPM:File>
+                              <QPM:File>Shadows_2</QPM:File>
+                              <QPM:File>Shadows_3</QPM:File>
+                              <QPM:File>Skyline</QPM:File>
+                              <QPM:File>Skyline_polluted</QPM:File>
+                              <QPM:File>Square_Wood_Frame</QPM:File>
+                              <QPM:File>Sunrise</QPM:File>
+                              <QPM:File>Three_bars_sin</QPM:File>
+                              <QPM:File>Tropical_Colors</QPM:File>
+                              <QPM:File>Tube_Red</QPM:File>
+                              <QPM:File>Wood_1</QPM:File>
+                              <QPM:File>Wood_2</QPM:File>
+                              <QPM:File>Yellow_Contrast</QPM:File>
+                              <QPM:File>Yellow_Orange</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="help">
+                              <QPM:Dir name="C">
+                                 <QPM:File>bug_submission.html</QPM:File>
+                                 <QPM:Dir name="channels">
+                                    <QPM:File>channel_to_selection.html</QPM:File>
+                                    <QPM:File>delete_channel.html</QPM:File>
+                                    <QPM:Link link="../dialogs/channels">dialogs</QPM:Link>
+                                    <QPM:File>duplicate_channel.html</QPM:File>
+                                    <QPM:File>index.html</QPM:File>
+                                    <QPM:File>lower_channel.html</QPM:File>
+                                    <QPM:File>raise_channel.html</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:File>command_line.html</QPM:File>
+                                 <QPM:File>contents.html</QPM:File>
+                                 <QPM:Dir name="dialogs">
+                                    <QPM:File>about.html</QPM:File>
+                                    <QPM:File>border_selection.html</QPM:File>
+                                    <QPM:File>brush_editor.html</QPM:File>
+                                    <QPM:File>brush_selection.html</QPM:File>
+                                    <QPM:Dir name="channels">
+                                       <QPM:File>channels.html</QPM:File>
+                                       <QPM:File>edit_channel_attributes.html</QPM:File>
+                                       <QPM:File>new_channel.html</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="color_selectors">
+                                       <QPM:File>built_in.html</QPM:File>
+                                       <QPM:File>gtk.html</QPM:File>
+                                       <QPM:File>triangle.html</QPM:File>
+                                       <QPM:File>watercolor.html</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:File>confirm_save.html</QPM:File>
+                                    <QPM:File>convert_to_indexed.html</QPM:File>
+                                    <QPM:File>copy_named.html</QPM:File>
+                                    <QPM:File>cut_named.html</QPM:File>
+                                    <QPM:File>device_status.html</QPM:File>
+                                    <QPM:File>document_index.html</QPM:File>
+                                    <QPM:File>edit_qmask_attributes.html</QPM:File>
+                                    <QPM:File>error_console.html</QPM:File>
+                                    <QPM:File>export_file.html</QPM:File>
+                                    <QPM:File>feather_selection.html</QPM:File>
+                                    <QPM:File>file_new.html</QPM:File>
+                                    <QPM:File>file_open.html</QPM:File>
+                                    <QPM:File>file_save.html</QPM:File>
+                                    <QPM:Dir name="gradient_editor">
+                                       <QPM:File>copy_gradient.html</QPM:File>
+                                       <QPM:File>delete_gradient.html</QPM:File>
+                                       <QPM:File>gradient_editor.html</QPM:File>
+                                       <QPM:File>new_gradient.html</QPM:File>
+                                       <QPM:File>rename_gradient.html</QPM:File>
+                                       <QPM:File>replicate_segment.html</QPM:File>
+                                       <QPM:File>save_as_povray.html</QPM:File>
+                                       <QPM:File>split_segments_uniformly.html</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:File>gradient_selection.html</QPM:File>
+                                    <QPM:File>grow_selection.html</QPM:File>
+                                    <QPM:File>help.html</QPM:File>
+                                    <QPM:File>index.html</QPM:File>
+                                    <QPM:File>indexed_palette.html</QPM:File>
+                                    <QPM:File>info_window.html</QPM:File>
+                                    <QPM:File>input_devices.html</QPM:File>
+                                    <QPM:Dir name="layers">
+                                       <QPM:File>add_layer_mask.html</QPM:File>
+                                       <QPM:File>edit_layer_attributes.html</QPM:File>
+                                       <QPM:File>layer_boundary_size.html</QPM:File>
+                                       <QPM:File>layers.html</QPM:File>
+                                       <QPM:File>merge_visible_layers.html</QPM:File>
+                                       <QPM:File>new_layer.html</QPM:File>
+                                       <QPM:File>scale_layer.html</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:File>layers_and_channels.html</QPM:File>
+                                    <QPM:File>module_browser.html</QPM:File>
+                                    <QPM:File>navigation_window.html</QPM:File>
+                                    <QPM:File>offset.html</QPM:File>
+                                    <QPM:Dir name="palette_editor">
+                                       <QPM:File>delete_palette.html</QPM:File>
+                                       <QPM:File>import_palette.html</QPM:File>
+                                       <QPM:File>merge_palette.html</QPM:File>
+                                       <QPM:File>new_palette.html</QPM:File>
+                                       <QPM:File>palette_editor.html</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:File>palette_selection.html</QPM:File>
+                                    <QPM:File>paste_named.html</QPM:File>
+                                    <QPM:Dir name="paths">
+                                       <QPM:File>edit_path_attributes.html</QPM:File>
+                                       <QPM:File>export_path.html</QPM:File>
+                                       <QPM:File>import_path.html</QPM:File>
+                                       <QPM:File>paths.html</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:File>pattern_selection.html</QPM:File>
+                                    <QPM:Dir name="preferences">
+                                       <QPM:File>directories.html</QPM:File>
+                                       <QPM:File>display.html</QPM:File>
+                                       <QPM:File>environment.html</QPM:File>
+                                       <QPM:File>interface.html</QPM:File>
+                                       <QPM:File>monitor.html</QPM:File>
+                                       <QPM:File>new_file.html</QPM:File>
+                                       <QPM:File>preferences.html</QPM:File>
+                                       <QPM:File>session.html</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:File>really_close.html</QPM:File>
+                                    <QPM:File>really_quit.html</QPM:File>
+                                    <QPM:File>scale_image.html</QPM:File>
+                                    <QPM:File>scale_layer_warn.html</QPM:File>
+                                    <QPM:File>set_canvas_size.html</QPM:File>
+                                    <QPM:File>shrink_selection.html</QPM:File>
+                                    <QPM:File>tip_of_the_day.html</QPM:File>
+                                    <QPM:File>tool_options.html</QPM:File>
+                                    <QPM:File>undo_history.html</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="file">
+                                    <QPM:File>close.html</QPM:File>
+                                    <QPM:Link link="../dialogs">dialogs</QPM:Link>
+                                    <QPM:Link link="../filters">filters</QPM:Link>
+                                    <QPM:File>index.html</QPM:File>
+                                    <QPM:File>last_opened.html</QPM:File>
+                                    <QPM:Link link="../open">open</QPM:Link>
+                                    <QPM:File>quit.html</QPM:File>
+                                    <QPM:File>revert.html</QPM:File>
+                                    <QPM:Link link="../save">save</QPM:Link>
+                                 </QPM:Dir>
+
+                                 <QPM:File>file_formats.html</QPM:File>
+                                 <QPM:Dir name="filters">
+                                    <QPM:File>alienmap.html</QPM:File>
+                                    <QPM:File>alienmap2.html</QPM:File>
+                                    <QPM:File>align_layers.html</QPM:File>
+                                    <QPM:File>animate_cells.html</QPM:File>
+                                    <QPM:File>animationplay.html</QPM:File>
+                                    <QPM:File>animoptimize.html</QPM:File>
+                                    <QPM:File>apply_lens.html</QPM:File>
+                                    <QPM:File>applycanvas.html</QPM:File>
+                                    <QPM:File>autocrop.html</QPM:File>
+                                    <QPM:File>autostretch_hsv.html</QPM:File>
+                                    <QPM:File>blended2.html</QPM:File>
+                                    <QPM:File>blinds.html</QPM:File>
+                                    <QPM:File>blowinout.html</QPM:File>
+                                    <QPM:File>blur.html</QPM:File>
+                                    <QPM:File>border.html</QPM:File>
+                                    <QPM:File>borderaverage.html</QPM:File>
+                                    <QPM:File>bumpmap.html</QPM:File>
+                                    <QPM:File>burst.html</QPM:File>
+                                    <QPM:File>bz2.html</QPM:File>
+                                    <QPM:File>c_astretch.html</QPM:File>
+                                    <QPM:File>centerguide.html</QPM:File>
+                                    <QPM:File>checkerboard.html</QPM:File>
+                                    <QPM:File>cml_explorer.html</QPM:File>
+                                    <QPM:File>color_enhance.html</QPM:File>
+                                    <QPM:File>colorify.html</QPM:File>
+                                    <QPM:File>colortoalpha.html</QPM:File>
+                                    <QPM:File>compose.html</QPM:File>
+                                    <QPM:File>convmatrix.html</QPM:File>
+                                    <QPM:File>cubism.html</QPM:File>
+                                    <QPM:File>curve_bend.html</QPM:File>
+                                    <QPM:File>decompose.html</QPM:File>
+                                    <QPM:File>deinterlace.html</QPM:File>
+                                    <QPM:File>depthmerge.html</QPM:File>
+                                    <QPM:File>despeckle.html</QPM:File>
+                                    <QPM:File>destripe.html</QPM:File>
+                                    <QPM:File>diffraction.html</QPM:File>
+                                    <QPM:File>displace.html</QPM:File>
+                                    <QPM:File>ditherize.html</QPM:File>
+                                    <QPM:File>dust.html</QPM:File>
+                                    <QPM:File>edge.html</QPM:File>
+                                    <QPM:File>emboss.html</QPM:File>
+                                    <QPM:File>engrave.html</QPM:File>
+                                    <QPM:File>exchange.html</QPM:File>
+                                    <QPM:File>fade-alpha.html</QPM:File>
+                                    <QPM:File>film.html</QPM:File>
+                                    <QPM:File>fire.html</QPM:File>
+                                    <QPM:File>fit-text.html</QPM:File>
+                                    <QPM:File>fits.html</QPM:File>
+                                    <QPM:File>flame.html</QPM:File>
+                                    <QPM:File>flarefx.html</QPM:File>
+                                    <QPM:File>fp.html</QPM:File>
+                                    <QPM:File>fractalexplorer.html</QPM:File>
+                                    <QPM:File>fractaltrace.html</QPM:File>
+                                    <QPM:File>frame_filter.html</QPM:File>
+                                    <QPM:File>gap_filter.html</QPM:File>
+                                    <QPM:File>gap_frontends.html</QPM:File>
+                                    <QPM:File>gap_navigator_dialog.html</QPM:File>
+                                    <QPM:File>gap_plugins.html</QPM:File>
+                                    <QPM:File>gauss_iir.html</QPM:File>
+                                    <QPM:File>gauss_rle.html</QPM:File>
+                                    <QPM:File>gdyntext.html</QPM:File>
+                                    <QPM:File>gee_zoom.html</QPM:File>
+                                    <QPM:File>gfig.html</QPM:File>
+                                    <QPM:File>gflare.html</QPM:File>
+                                    <QPM:File>gih.html</QPM:File>
+                                    <QPM:File>gimpressionist.html</QPM:File>
+                                    <QPM:File>glasstile.html</QPM:File>
+                                    <QPM:File>glowing_steel.html</QPM:File>
+                                    <QPM:File>gouge.html</QPM:File>
+                                    <QPM:File>gqbist.html</QPM:File>
+                                    <QPM:File>gradmap.html</QPM:File>
+                                    <QPM:File>grid.html</QPM:File>
+                                    <QPM:File>gtm.html</QPM:File>
+                                    <QPM:File>guide_remove.html</QPM:File>
+                                    <QPM:File>guidegrid.html</QPM:File>
+                                    <QPM:File>guides_to_selection.html</QPM:File>
+                                    <QPM:File>guillotine.html</QPM:File>
+                                    <QPM:File>gz.html</QPM:File>
+                                    <QPM:File>hot.html</QPM:File>
+                                    <QPM:File>hrz.html</QPM:File>
+                                    <QPM:File>ifscompose.html</QPM:File>
+                                    <QPM:File>illusion.html</QPM:File>
+                                    <QPM:File>image_tile.html</QPM:File>
+                                    <QPM:File>imagemap.html</QPM:File>
+                                    <QPM:File>index.html</QPM:File>
+                                    <QPM:File>iwarp.html</QPM:File>
+                                    <QPM:File>jigsaw.html</QPM:File>
+                                    <QPM:File>jpeg.html</QPM:File>
+                                    <QPM:File>laplace.html</QPM:File>
+                                    <QPM:File>layerfuncs.html</QPM:File>
+                                    <QPM:File>lic.html</QPM:File>
+                                    <QPM:File>lighting.html</QPM:File>
+                                    <QPM:File>logulator.html</QPM:File>
+                                    <QPM:File>mail.html</QPM:File>
+                                    <QPM:File>map_to_gradient.html</QPM:File>
+                                    <QPM:File>mapcolor.html</QPM:File>
+                                    <QPM:File>mapobject.html</QPM:File>
+                                    <QPM:File>max_rgb.html</QPM:File>
+                                    <QPM:File>maze.html</QPM:File>
+                                    <QPM:File>mblur.html</QPM:File>
+                                    <QPM:File>miff.html</QPM:File>
+                                    <QPM:File>mirrorsplit.html</QPM:File>
+                                    <QPM:File>mosaic.html</QPM:File>
+                                    <QPM:File>newsprint.html</QPM:File>
+                                    <QPM:File>nlfilt.html</QPM:File>
+                                    <QPM:File>noisify.html</QPM:File>
+                                    <QPM:File>none.html</QPM:File>
+                                    <QPM:File>normalize.html</QPM:File>
+                                    <QPM:File>nova.html</QPM:File>
+                                    <QPM:File>oilify.html</QPM:File>
+                                    <QPM:File>pagecurl.html</QPM:File>
+                                    <QPM:File>papertile.html</QPM:File>
+                                    <QPM:File>pat.html</QPM:File>
+                                    <QPM:File>perlotine.html</QPM:File>
+                                    <QPM:File>pixelize.html</QPM:File>
+                                    <QPM:File>pixelmap.html</QPM:File>
+                                    <QPM:File>plasma.html</QPM:File>
+                                    <QPM:File>png.html</QPM:File>
+                                    <QPM:File>pnm.html</QPM:File>
+                                    <QPM:File>polar.html</QPM:File>
+                                    <QPM:File>prep4gif.html</QPM:File>
+                                    <QPM:File>print.html</QPM:File>
+                                    <QPM:File>psd.html</QPM:File>
+                                    <QPM:File>psp.html</QPM:File>
+                                    <QPM:File>randomblends.html</QPM:File>
+                                    <QPM:File>randomize.html</QPM:File>
+                                    <QPM:File>rcm.html</QPM:File>
+                                    <QPM:File>repdup.html</QPM:File>
+                                    <QPM:File>repeat_last.html</QPM:File>
+                                    <QPM:File>reshow_last.html</QPM:File>
+                                    <QPM:File>resynth.html</QPM:File>
+                                    <QPM:File>ripple.html</QPM:File>
+                                    <QPM:File>rotate.html</QPM:File>
+                                    <QPM:File>roundsel.html</QPM:File>
+                                    <QPM:File>sample_colorize.html</QPM:File>
+                                    <QPM:File>scatter_hsv.html</QPM:File>
+                                    <QPM:File>scratches.html</QPM:File>
+                                    <QPM:File>sel2path.html</QPM:File>
+                                    <QPM:File>sel_gauss.html</QPM:File>
+                                    <QPM:File>semiflatten.html</QPM:File>
+                                    <QPM:File>sgi.html</QPM:File>
+                                    <QPM:File>sharpen.html</QPM:File>
+                                    <QPM:File>shift.html</QPM:File>
+                                    <QPM:File>sinus.html</QPM:File>
+                                    <QPM:File>smooth_palette.html</QPM:File>
+                                    <QPM:File>snoise.html</QPM:File>
+                                    <QPM:File>sobel.html</QPM:File>
+                                    <QPM:File>sparkle.html</QPM:File>
+                                    <QPM:File>spread.html</QPM:File>
+                                    <QPM:File>stampify.html</QPM:File>
+                                    <QPM:File>struc.html</QPM:File>
+                                    <QPM:File>sunras.html</QPM:File>
+                                    <QPM:File>terral_text.html</QPM:File>
+                                    <QPM:File>tex-to-float.html</QPM:File>
+                                    <QPM:File>tga.html</QPM:File>
+                                    <QPM:File>threshold_alpha.html</QPM:File>
+                                    <QPM:File>tiff.html</QPM:File>
+                                    <QPM:File>tile.html</QPM:File>
+                                    <QPM:File>tileable_blur.html</QPM:File>
+                                    <QPM:File>tileit.html</QPM:File>
+                                    <QPM:File>tiler.html</QPM:File>
+                                    <QPM:File>translogo.html</QPM:File>
+                                    <QPM:File>unsharp.html</QPM:File>
+                                    <QPM:File>url.html</QPM:File>
+                                    <QPM:File>video.html</QPM:File>
+                                    <QPM:File>vinvert.html</QPM:File>
+                                    <QPM:File>vpropagate.html</QPM:File>
+                                    <QPM:File>warp-sharp.html</QPM:File>
+                                    <QPM:File>warp.html</QPM:File>
+                                    <QPM:File>waves.html</QPM:File>
+                                    <QPM:File>webify.html</QPM:File>
+                                    <QPM:File>whirlpinch.html</QPM:File>
+                                    <QPM:File>wind.html</QPM:File>
+                                    <QPM:File>windify.html</QPM:File>
+                                    <QPM:File>wmf.html</QPM:File>
+                                    <QPM:File>xachlego.html</QPM:File>
+                                    <QPM:File>xachshadow.html</QPM:File>
+                                    <QPM:File>xachvision.html</QPM:File>
+                                    <QPM:File>xwd.html</QPM:File>
+                                    <QPM:File>zealouscrop.html</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:File>gimp_license.html</QPM:File>
+                                 <QPM:File>gimp_remote.html</QPM:File>
+                                 <QPM:File>gimptool.html</QPM:File>
+                                 <QPM:File>glossary.html</QPM:File>
+                                 <QPM:Dir name="image">
+                                    <QPM:Link link="../dialogs">dialogs</QPM:Link>
+                                    <QPM:Dir name="edit">
+                                       <QPM:File>clear.html</QPM:File>
+                                       <QPM:File>copy.html</QPM:File>
+                                       <QPM:File>cut.html</QPM:File>
+                                       <QPM:Link link="../../dialogs">dialogs</QPM:Link>
+                                       <QPM:File>fill.html</QPM:File>
+                                       <QPM:File>paste.html</QPM:File>
+                                       <QPM:File>paste_as_new.html</QPM:File>
+                                       <QPM:File>paste_into.html</QPM:File>
+                                       <QPM:File>redo.html</QPM:File>
+                                       <QPM:File>stroke.html</QPM:File>
+                                       <QPM:File>undo.html</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:Link link="../file">file</QPM:Link>
+                                    <QPM:Link link="../filters">filters</QPM:Link>
+                                    <QPM:Dir name="image">
+                                       <QPM:Dir name="colors">
+                                          <QPM:Dir name="auto">
+                                             <QPM:File>equalize.html</QPM:File>
+                                          </QPM:Dir>
+
+                                          <QPM:File>desaturate.html</QPM:File>
+                                          <QPM:File>invert.html</QPM:File>
+                                       </QPM:Dir>
+
+                                       <QPM:Link link="../../dialogs">dialogs</QPM:Link>
+                                       <QPM:File>duplicate.html</QPM:File>
+                                       <QPM:Dir name="mode">
+                                          <QPM:File>convert_to_grayscale.html</QPM:File>
+                                          <QPM:File>convert_to_rgb.html</QPM:File>
+                                          <QPM:Link link="../../../dialogs">dialogs</QPM:Link>
+                                       </QPM:Dir>
+
+                                       <QPM:Dir name="transforms">
+                                          <QPM:Link link="../../../dialogs">dialogs</QPM:Link>
+                                       </QPM:Dir>
+                                    </QPM:Dir>
+
+                                    <QPM:File>image_window.html</QPM:File>
+                                    <QPM:File>index.html</QPM:File>
+                                    <QPM:Link link="../layers">layers</QPM:Link>
+                                    <QPM:Dir name="select">
+                                       <QPM:File>all.html</QPM:File>
+                                       <QPM:Link link="../../dialogs">dialogs</QPM:Link>
+                                       <QPM:File>float.html</QPM:File>
+                                       <QPM:File>invert.html</QPM:File>
+                                       <QPM:File>none.html</QPM:File>
+                                       <QPM:File>save_to_channel.html</QPM:File>
+                                       <QPM:File>sharpen.html</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:Link link="../toolbox">toolbox</QPM:Link>
+                                    <QPM:Link link="../tools">tools</QPM:Link>
+                                    <QPM:Dir name="view">
+                                       <QPM:Link link="../../dialogs">dialogs</QPM:Link>
+                                       <QPM:File>dot_for_dot.html</QPM:File>
+                                       <QPM:File>new_view.html</QPM:File>
+                                       <QPM:File>shrink_wrap.html</QPM:File>
+                                       <QPM:File>snap_to_guides.html</QPM:File>
+                                       <QPM:File>toggle_guides.html</QPM:File>
+                                       <QPM:File>toggle_rulers.html</QPM:File>
+                                       <QPM:File>toggle_selection.html</QPM:File>
+                                       <QPM:File>toggle_statusbar.html</QPM:File>
+                                       <QPM:File>zoom.html</QPM:File>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="images">
+                                    <QPM:File>add_point.png</QPM:File>
+                                    <QPM:File>anchor_layer.png</QPM:File>
+                                    <QPM:File>channel_to_selection.png</QPM:File>
+                                    <QPM:File>delete_channel.png</QPM:File>
+                                    <QPM:File>delete_directory.png</QPM:File>
+                                    <QPM:File>delete_layer.png</QPM:File>
+                                    <QPM:File>delete_path.png</QPM:File>
+                                    <QPM:File>dotted_square.png</QPM:File>
+                                    <QPM:File>duplicate_channel.png</QPM:File>
+                                    <QPM:File>duplicate_layer.png</QPM:File>
+                                    <QPM:File>duplicate_path.png</QPM:File>
+                                    <QPM:File>edit_point.png</QPM:File>
+                                    <QPM:Dir name="examples">
+                                       <QPM:File>border-selection-01.png</QPM:File>
+                                       <QPM:File>border-selection-02.png</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:File>eye.png</QPM:File>
+                                    <QPM:File>geezoom.png</QPM:File>
+                                    <QPM:Dir name="glossary">
+                                       <QPM:File>modes-addition.png</QPM:File>
+                                       <QPM:File>modes-color.png</QPM:File>
+                                       <QPM:File>modes-darken.png</QPM:File>
+                                       <QPM:File>modes-difference.png</QPM:File>
+                                       <QPM:File>modes-dissolve.png</QPM:File>
+                                       <QPM:File>modes-divide.png</QPM:File>
+                                       <QPM:File>modes-hue.png</QPM:File>
+                                       <QPM:File>modes-lighten.png</QPM:File>
+                                       <QPM:File>modes-multiply.png</QPM:File>
+                                       <QPM:File>modes-normal.png</QPM:File>
+                                       <QPM:File>modes-normal2.png</QPM:File>
+                                       <QPM:File>modes-overlay.png</QPM:File>
+                                       <QPM:File>modes-saturation.png</QPM:File>
+                                       <QPM:File>modes-screen.png</QPM:File>
+                                       <QPM:File>modes-subtract.png</QPM:File>
+                                       <QPM:File>modes-value.png</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:File>image_menu.png</QPM:File>
+                                    <QPM:File>image_window.png</QPM:File>
+                                    <QPM:File>layers_dialog.png</QPM:File>
+                                    <QPM:File>layers_example.png</QPM:File>
+                                    <QPM:File>layers_menu.png</QPM:File>
+                                    <QPM:File>layers_overview.png</QPM:File>
+                                    <QPM:File>lower_channel.png</QPM:File>
+                                    <QPM:File>lower_directory.png</QPM:File>
+                                    <QPM:File>lower_layer.png</QPM:File>
+                                    <QPM:File>new_channel.png</QPM:File>
+                                    <QPM:File>new_directory.png</QPM:File>
+                                    <QPM:File>new_path.png</QPM:File>
+                                    <QPM:File>new_point.png</QPM:File>
+                                    <QPM:File>path_to_selection.png</QPM:File>
+                                    <QPM:File>preview_box.png</QPM:File>
+                                    <QPM:File>print_color.png</QPM:File>
+                                    <QPM:File>print_main.png</QPM:File>
+                                    <QPM:File>print_setup.png</QPM:File>
+                                    <QPM:File>raise_channel.png</QPM:File>
+                                    <QPM:File>raise_directory.png</QPM:File>
+                                    <QPM:File>raise_layer.png</QPM:File>
+                                    <QPM:File>red_square.png</QPM:File>
+                                    <QPM:File>remove_point.png</QPM:File>
+                                    <QPM:File>selection_to_path.png</QPM:File>
+                                    <QPM:File>stroke_path.png</QPM:File>
+                                    <QPM:File>tool_options.png</QPM:File>
+                                    <QPM:File>toolbox.png</QPM:File>
+                                    <QPM:Dir name="tools">
+                                       <QPM:File>tool-opt-increment.png</QPM:File>
+                                       <QPM:File>tool-opt-nonincrement.png</QPM:File>
+                                       <QPM:File>tool_airbrush.png</QPM:File>
+                                       <QPM:File>tool_apartheid.png</QPM:File>
+                                       <QPM:File>tool_bezier.png</QPM:File>
+                                       <QPM:File>tool_blend.png</QPM:File>
+                                       <QPM:File>tool_burndodge.png</QPM:File>
+                                       <QPM:File>tool_convolver.png</QPM:File>
+                                       <QPM:File>tool_crop.png</QPM:File>
+                                       <QPM:File>tool_dodgeburn.png</QPM:File>
+                                       <QPM:File>tool_ellipse_sel.png</QPM:File>
+                                       <QPM:File>tool_eraser.png</QPM:File>
+                                       <QPM:File>tool_fill.png</QPM:File>
+                                       <QPM:File>tool_flip.png</QPM:File>
+                                       <QPM:File>tool_free_sel.png</QPM:File>
+                                       <QPM:File>tool_fuzzy_sel.png</QPM:File>
+                                       <QPM:File>tool_gradient.png</QPM:File>
+                                       <QPM:File>tool_ink.png</QPM:File>
+                                       <QPM:File>tool_measure.png</QPM:File>
+                                       <QPM:File>tool_move.png</QPM:File>
+                                       <QPM:File>tool_paintbrush.png</QPM:File>
+                                       <QPM:File>tool_pencil.png</QPM:File>
+                                       <QPM:File>tool_picker.png</QPM:File>
+                                       <QPM:File>tool_rect_sel.png</QPM:File>
+                                       <QPM:File>tool_scissors.png</QPM:File>
+                                       <QPM:File>tool_smudge.png</QPM:File>
+                                       <QPM:File>tool_smuge.png</QPM:File>
+                                       <QPM:File>tool_text.png</QPM:File>
+                                       <QPM:File>tool_transform.png</QPM:File>
+                                       <QPM:File>tool_zoom.png</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:File>triangle.png</QPM:File>
+                                    <QPM:File>wilber.png</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:File>index.html</QPM:File>
+                                 <QPM:File>introduction.html</QPM:File>
+                                 <QPM:File>keyboard_shortcuts.html</QPM:File>
+                                 <QPM:Dir name="layers">
+                                    <QPM:File>add_alpha_channel.html</QPM:File>
+                                    <QPM:File>alpha_to_selection.html</QPM:File>
+                                    <QPM:File>anchor_layer.html</QPM:File>
+                                    <QPM:File>apply_mask.html</QPM:File>
+                                    <QPM:File>delete_layer.html</QPM:File>
+                                    <QPM:File>delete_mask.html</QPM:File>
+                                    <QPM:Link link="../dialogs/layers">dialogs</QPM:Link>
+                                    <QPM:File>duplicate_layer.html</QPM:File>
+                                    <QPM:File>flatten_image.html</QPM:File>
+                                    <QPM:File>index.html</QPM:File>
+                                    <QPM:File>layer_to_image_size.html</QPM:File>
+                                    <QPM:File>mask_to_selection.html</QPM:File>
+                                    <QPM:File>merge_down.html</QPM:File>
+                                    <QPM:Dir name="stack">
+                                       <QPM:File>stack.html</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:File>using_layers.html</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:File>ln7.html</QPM:File>
+                                 <QPM:File>main_interface.html</QPM:File>
+                                 <QPM:Dir name="open">
+                                    <QPM:Link link="../dialogs">dialogs</QPM:Link>
+                                    <QPM:Link link="../filters">filters</QPM:Link>
+                                    <QPM:File>index.html</QPM:File>
+                                    <QPM:File>open_by_extension.html</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="paths">
+                                    <QPM:File>copy_path.html</QPM:File>
+                                    <QPM:File>delete_path.html</QPM:File>
+                                    <QPM:Link link="../dialogs/paths">dialogs</QPM:Link>
+                                    <QPM:File>duplicate_path.html</QPM:File>
+                                    <QPM:Link link="../filters">filters</QPM:Link>
+                                    <QPM:File>index.html</QPM:File>
+                                    <QPM:File>new_path.html</QPM:File>
+                                    <QPM:File>paste_path.html</QPM:File>
+                                    <QPM:File>path_to_selection.html</QPM:File>
+                                    <QPM:File>stroke_path.html</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="save">
+                                    <QPM:Link link="../dialogs">dialogs</QPM:Link>
+                                    <QPM:Link link="../filters">filters</QPM:Link>
+                                    <QPM:File>index.html</QPM:File>
+                                    <QPM:File>save_by_extension.html</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="stylesheet-images">
+                                    <QPM:File>note.gif</QPM:File>
+                                    <QPM:File>tip.gif</QPM:File>
+                                    <QPM:File>warning.gif</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="toolbox">
+                                    <QPM:Link link="../dialogs">dialogs</QPM:Link>
+                                    <QPM:Link link="../file">file</QPM:Link>
+                                    <QPM:Link link="../filters">filters</QPM:Link>
+                                    <QPM:Dir name="help">
+                                       <QPM:File>context_help.html</QPM:File>
+                                       <QPM:Link link="../../dialogs">dialogs</QPM:Link>
+                                       <QPM:Link link="../../filters">filters</QPM:Link>
+                                    </QPM:Dir>
+
+                                    <QPM:File>index.html</QPM:File>
+                                    <QPM:File>toolbox.html</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="tools">
+                                    <QPM:File>airbrush.html</QPM:File>
+                                    <QPM:File>bezier_select.html</QPM:File>
+                                    <QPM:File>blend.html</QPM:File>
+                                    <QPM:File>brightness_contrast.html</QPM:File>
+                                    <QPM:File>bucket_fill.html</QPM:File>
+                                    <QPM:File>by_color_select.html</QPM:File>
+                                    <QPM:File>clone.html</QPM:File>
+                                    <QPM:File>color_balance.html</QPM:File>
+                                    <QPM:File>color_picker.html</QPM:File>
+                                    <QPM:File>convolve.html</QPM:File>
+                                    <QPM:File>crop.html</QPM:File>
+                                    <QPM:File>curves.html</QPM:File>
+                                    <QPM:File>dodgeburn.html</QPM:File>
+                                    <QPM:File>ellipse_select.html</QPM:File>
+                                    <QPM:File>eraser.html</QPM:File>
+                                    <QPM:File>flip.html</QPM:File>
+                                    <QPM:File>free_select.html</QPM:File>
+                                    <QPM:File>fuzzy_select.html</QPM:File>
+                                    <QPM:File>histogram.html</QPM:File>
+                                    <QPM:File>hue_saturation.html</QPM:File>
+                                    <QPM:File>index.html</QPM:File>
+                                    <QPM:File>ink.html</QPM:File>
+                                    <QPM:File>intelligent_scissors.html</QPM:File>
+                                    <QPM:File>levels.html</QPM:File>
+                                    <QPM:File>magnify.html</QPM:File>
+                                    <QPM:File>measure.html</QPM:File>
+                                    <QPM:File>move.html</QPM:File>
+                                    <QPM:File>paintbrush.html</QPM:File>
+                                    <QPM:File>pencil.html</QPM:File>
+                                    <QPM:File>posterize.html</QPM:File>
+                                    <QPM:File>rect_select.html</QPM:File>
+                                    <QPM:File>smudge.html</QPM:File>
+                                    <QPM:File>text.html</QPM:File>
+                                    <QPM:File>threshold.html</QPM:File>
+                                    <QPM:File>transform.html</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:File>using_gimp.html</QPM:File>
+                                 <QPM:File>why_gimp.html</QPM:File>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="palettes">
+                              <QPM:File>Bears</QPM:File>
+                              <QPM:File>Bgold</QPM:File>
+                              <QPM:File>Blues</QPM:File>
+                              <QPM:File>Borders</QPM:File>
+                              <QPM:File>Browns_And_Yellows</QPM:File>
+                              <QPM:File>Caramel</QPM:File>
+                              <QPM:File>Cascade</QPM:File>
+                              <QPM:File>China</QPM:File>
+                              <QPM:File>Coldfire</QPM:File>
+                              <QPM:File>Cool_Colors</QPM:File>
+                              <QPM:File>Cranes</QPM:File>
+                              <QPM:File>Dark_pastels</QPM:File>
+                              <QPM:File>Default</QPM:File>
+                              <QPM:File>Ega</QPM:File>
+                              <QPM:File>Firecode</QPM:File>
+                              <QPM:File>Gold</QPM:File>
+                              <QPM:File>GrayViolet</QPM:File>
+                              <QPM:File>Grayblue</QPM:File>
+                              <QPM:File>Grays</QPM:File>
+                              <QPM:File>Greens</QPM:File>
+                              <QPM:File>Hilite</QPM:File>
+                              <QPM:File>Kahki</QPM:File>
+                              <QPM:File>Lights</QPM:File>
+                              <QPM:File>Muted</QPM:File>
+                              <QPM:File>Named_Colors</QPM:File>
+                              <QPM:File>News3</QPM:File>
+                              <QPM:File>Op2</QPM:File>
+                              <QPM:File>Paintjet</QPM:File>
+                              <QPM:File>Pastels</QPM:File>
+                              <QPM:File>Plasma</QPM:File>
+                              <QPM:File>Reds</QPM:File>
+                              <QPM:File>Reds_And_Purples</QPM:File>
+                              <QPM:File>Royal</QPM:File>
+                              <QPM:File>Topographic</QPM:File>
+                              <QPM:File>Visibone</QPM:File>
+                              <QPM:File>Visibone2</QPM:File>
+                              <QPM:File>Volcano</QPM:File>
+                              <QPM:File>Warm_Colors</QPM:File>
+                              <QPM:File>Web</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="patterns">
+                              <QPM:File>3dgreen.pat</QPM:File>
+                              <QPM:File>Craters.pat</QPM:File>
+                              <QPM:File>Moonfoot.pat</QPM:File>
+                              <QPM:File>amethyst.pat</QPM:File>
+                              <QPM:File>bark.pat</QPM:File>
+                              <QPM:File>blue.pat</QPM:File>
+                              <QPM:File>bluegrid.pat</QPM:File>
+                              <QPM:File>bluesquares.pat</QPM:File>
+                              <QPM:File>blueweb.pat</QPM:File>
+                              <QPM:File>brick.pat</QPM:File>
+                              <QPM:File>burlap.pat</QPM:File>
+                              <QPM:File>burlwood.pat</QPM:File>
+                              <QPM:File>choc_swirl.pat</QPM:File>
+                              <QPM:File>corkboard.pat</QPM:File>
+                              <QPM:File>cracked.pat</QPM:File>
+                              <QPM:File>crinklepaper.pat</QPM:File>
+                              <QPM:File>electric.pat</QPM:File>
+                              <QPM:File>fibers.pat</QPM:File>
+                              <QPM:File>granite1.pat</QPM:File>
+                              <QPM:File>ground1.pat</QPM:File>
+                              <QPM:File>ice.pat</QPM:File>
+                              <QPM:File>java.pat</QPM:File>
+                              <QPM:File>leather.pat</QPM:File>
+                              <QPM:File>leaves.pat</QPM:File>
+                              <QPM:File>leopard.pat</QPM:File>
+                              <QPM:File>lightning.pat</QPM:File>
+                              <QPM:File>marble1.pat</QPM:File>
+                              <QPM:File>marble2.pat</QPM:File>
+                              <QPM:File>marble3.pat</QPM:File>
+                              <QPM:File>nops.pat</QPM:File>
+                              <QPM:File>paper.pat</QPM:File>
+                              <QPM:File>parque1.pat</QPM:File>
+                              <QPM:File>parque2.pat</QPM:File>
+                              <QPM:File>parque3.pat</QPM:File>
+                              <QPM:File>pastel.pat</QPM:File>
+                              <QPM:File>pine.pat</QPM:File>
+                              <QPM:File>pink_marble.pat</QPM:File>
+                              <QPM:File>pool.pat</QPM:File>
+                              <QPM:File>qube1.pat</QPM:File>
+                              <QPM:File>rain.pat</QPM:File>
+                              <QPM:File>recessed.pat</QPM:File>
+                              <QPM:File>redcube.pat</QPM:File>
+                              <QPM:File>rock.pat</QPM:File>
+                              <QPM:File>sky.pat</QPM:File>
+                              <QPM:File>slate.pat</QPM:File>
+                              <QPM:File>sm_squares.pat</QPM:File>
+                              <QPM:File>starfield.pat</QPM:File>
+                              <QPM:File>stone33.pat</QPM:File>
+                              <QPM:File>terra.pat</QPM:File>
+                              <QPM:File>walnut.pat</QPM:File>
+                              <QPM:File>warning.pat</QPM:File>
+                              <QPM:File>wood1.pat</QPM:File>
+                              <QPM:File>wood2.pat</QPM:File>
+                              <QPM:File>wood3.pat</QPM:File>
+                              <QPM:File>wood4.pat</QPM:File>
+                              <QPM:File>wood5.pat</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="scripts">
+                              <QPM:File>3d-outline.scm</QPM:File>
+                              <QPM:File>3dTruchet.scm</QPM:File>
+                              <QPM:File>add-bevel.scm</QPM:File>
+                              <QPM:File>addborder.scm</QPM:File>
+                              <QPM:File>alien-glow-arrow.scm</QPM:File>
+                              <QPM:File>alien-glow-bar.scm</QPM:File>
+                              <QPM:File>alien-glow-bullet.scm</QPM:File>
+                              <QPM:File>alien-glow-button.scm</QPM:File>
+                              <QPM:File>alien-glow-logo.scm</QPM:File>
+                              <QPM:File>alien-neon-logo.scm</QPM:File>
+                              <QPM:File>asc2img.scm</QPM:File>
+                              <QPM:File>basic1-logo.scm</QPM:File>
+                              <QPM:File>basic2-logo.scm</QPM:File>
+                              <QPM:File>beavis.jpg</QPM:File>
+                              <QPM:File>beveled-button.scm</QPM:File>
+                              <QPM:File>beveled-pattern-arrow.scm</QPM:File>
+                              <QPM:File>beveled-pattern-bullet.scm</QPM:File>
+                              <QPM:File>beveled-pattern-button.scm</QPM:File>
+                              <QPM:File>beveled-pattern-heading.scm</QPM:File>
+                              <QPM:File>beveled-pattern-hrule.scm</QPM:File>
+                              <QPM:File>blend-anim.scm</QPM:File>
+                              <QPM:File>blended-logo.scm</QPM:File>
+                              <QPM:File>bovinated-logo.scm</QPM:File>
+                              <QPM:File>camo.scm</QPM:File>
+                              <QPM:File>carve-it.scm</QPM:File>
+                              <QPM:File>carved-logo.scm</QPM:File>
+                              <QPM:File>chalk.scm</QPM:File>
+                              <QPM:File>chip-away.scm</QPM:File>
+                              <QPM:File>chrome-it.scm</QPM:File>
+                              <QPM:File>chrome-logo.scm</QPM:File>
+                              <QPM:File>circuit.scm</QPM:File>
+                              <QPM:File>clothify.scm</QPM:File>
+                              <QPM:File>coffee.scm</QPM:File>
+                              <QPM:File>comic-logo.scm</QPM:File>
+                              <QPM:File>coolmetal-logo.scm</QPM:File>
+                              <QPM:File>copy-visible.scm</QPM:File>
+                              <QPM:File>crystal-logo.scm</QPM:File>
+                              <QPM:File>distress_selection.scm</QPM:File>
+                              <QPM:File>drop-shadow.scm</QPM:File>
+                              <QPM:File>erase-rows.scm</QPM:File>
+                              <QPM:File>fade-outline.scm</QPM:File>
+                              <QPM:File>flatland.scm</QPM:File>
+                              <QPM:File>font-map.scm</QPM:File>
+                              <QPM:File>frosty-logo.scm</QPM:File>
+                              <QPM:File>fuzzyborder.scm</QPM:File>
+                              <QPM:File>gimp-headers.scm</QPM:File>
+                              <QPM:File>gimp-labels.scm</QPM:File>
+                              <QPM:File>glossy.scm</QPM:File>
+                              <QPM:File>glowing-logo.scm</QPM:File>
+                              <QPM:File>gradient-bevel-logo.scm</QPM:File>
+                              <QPM:File>gradient-example.scm</QPM:File>
+                              <QPM:File>grid-system.scm</QPM:File>
+                              <QPM:File>hsv-graph.scm</QPM:File>
+                              <QPM:File>i26-gunya2.scm</QPM:File>
+                              <QPM:File>image-structure.scm</QPM:File>
+                              <QPM:File>land.scm</QPM:File>
+                              <QPM:File>lava.scm</QPM:File>
+                              <QPM:File>line-nova.scm</QPM:File>
+                              <QPM:File>mkbrush.scm</QPM:File>
+                              <QPM:File>neon-logo.scm</QPM:File>
+                              <QPM:File>news-text.scm</QPM:File>
+                              <QPM:File>old_photo.scm</QPM:File>
+                              <QPM:File>perspective-shadow.scm</QPM:File>
+                              <QPM:File>predator.scm</QPM:File>
+                              <QPM:File>pupi-button.scm</QPM:File>
+                              <QPM:File>rendermap.scm</QPM:File>
+                              <QPM:File>ripply-anim.scm</QPM:File>
+                              <QPM:File>round-corners.scm</QPM:File>
+                              <QPM:File>sel-to-anim-img.scm</QPM:File>
+                              <QPM:File>select_to_brush.scm</QPM:File>
+                              <QPM:File>select_to_image.scm</QPM:File>
+                              <QPM:File>selection-round.scm</QPM:File>
+                              <QPM:File>slide.scm</QPM:File>
+                              <QPM:File>sota-chrome-logo.scm</QPM:File>
+                              <QPM:File>speed-text.scm</QPM:File>
+                              <QPM:File>sphere.scm</QPM:File>
+                              <QPM:File>spinning_globe.scm</QPM:File>
+                              <QPM:File>starburst-logo.scm</QPM:File>
+                              <QPM:File>starscape-logo.scm</QPM:File>
+                              <QPM:File>swirltile.scm</QPM:File>
+                              <QPM:File>swirly-pattern.scm</QPM:File>
+                              <QPM:File>t-o-p-logo.scm</QPM:File>
+                              <QPM:File>text-circle.scm</QPM:File>
+                              <QPM:File>texture.jpg</QPM:File>
+                              <QPM:File>texture1.jpg</QPM:File>
+                              <QPM:File>texture2.jpg</QPM:File>
+                              <QPM:File>texture3.jpg</QPM:File>
+                              <QPM:File>textured-logo.scm</QPM:File>
+                              <QPM:File>tileblur.scm</QPM:File>
+                              <QPM:File>title-header.scm</QPM:File>
+                              <QPM:File>trochoid.scm</QPM:File>
+                              <QPM:File>truchet.scm</QPM:File>
+                              <QPM:File>unsharp-mask.scm</QPM:File>
+                              <QPM:File>waves-anim.scm</QPM:File>
+                              <QPM:File>weave.scm</QPM:File>
+                              <QPM:File>web-browser.scm</QPM:File>
+                              <QPM:File>xach-effect.scm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="tips">
+                              <QPM:File>gimp_conseils.fr.txt</QPM:File>
+                              <QPM:File>gimp_tips.cs.txt</QPM:File>
+                              <QPM:File>gimp_tips.da.txt</QPM:File>
+                              <QPM:File>gimp_tips.de.txt</QPM:File>
+                              <QPM:File>gimp_tips.es.txt</QPM:File>
+                              <QPM:File>gimp_tips.hu.txt</QPM:File>
+                              <QPM:File>gimp_tips.it.txt</QPM:File>
+                              <QPM:File>gimp_tips.ja.txt</QPM:File>
+                              <QPM:File>gimp_tips.ko.txt</QPM:File>
+                              <QPM:File>gimp_tips.lt.txt</QPM:File>
+                              <QPM:File>gimp_tips.pl.txt</QPM:File>
+                              <QPM:File>gimp_tips.ru.txt</QPM:File>
+                              <QPM:File>gimp_tips.tr.txt</QPM:File>
+                              <QPM:File>gimp_tips.txt</QPM:File>
+                              <QPM:File>gimp_tips.uk.txt</QPM:File>
+                              <QPM:File>gimp_tips.zh_CN.txt</QPM:File>
+                              <QPM:File>gimp_tips.zh_TW.txt</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>user_install</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../opt/lib">lib</QPM:Union>
+                  <QPM:Union link="../opt/bin">bin</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/lib">lib</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="man">
+                     <QPM:Union link="../../opt/man/man5">man5</QPM:Union>
+                     <QPM:Union link="../../opt/man/man1">man1</QPM:Union>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Union link="../../opt/share/aclocal">aclocal</QPM:Union>
+                     <QPM:Dir name="gimp">
+                        <QPM:Union link="../../../opt/share/gimp/1.2">1.2</QPM:Union>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+
+      <QPM:Launch name="The Gimp">
+         <QPM:String name="Topic" value="Applications/Multimedia"/>
+         <QPM:String name="Command" value="gimp"/>
+         <QPM:String name="Icon" value="/usr/share/icons/topics/graphics_paint_edit.gif"/>
+      </QPM:Launch>
+   </RDF:Description>
+</RDF:RDF>

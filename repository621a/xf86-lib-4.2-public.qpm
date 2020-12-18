@@ -1,0 +1,212 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:PackageName>xf86-lib-4.2-public</QPM:PackageName>
+            <QPM:PackageSize>37044</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/02/16</QPM:PackageReleaseDate>
+            <QPM:PackageRepository>http://qnx.wox.org/qnxpub621/</QPM:PackageRepository>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>XFree86 Libs</QPM:ProductName>
+            <QPM:ProductSize>240859</QPM:ProductSize>
+            <QPM:ProductIdentifier>xf86-lib</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>XFree86</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.xfree86.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>XFree86 libraries.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>This package contains the standard X11R6 and XFree86 runtime and development libraries.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.xfree86.org/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/xf86-lib/core-4.2</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/02/16</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>4.2</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>MIT License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl/>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>System/Services, Servers and Daemons/X Servers</QPM:ContentTopic>
+            <QPM:ContentKeyword>xfree86,X11R6,X11</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="X11R6">
+                     <QPM:Union link="../../$(PROCESSOR)/opt/X11R6/lib">lib</QPM:Union>
+                     <QPM:Dir name="include">
+                        <QPM:Dir name="X11">
+                           <QPM:Dir name="Xaw">
+                              <QPM:File>Template.c</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="bitmaps">
+                              <QPM:File>1x1</QPM:File>
+                              <QPM:File>2x2</QPM:File>
+                              <QPM:File>Dashes</QPM:File>
+                              <QPM:File>Down</QPM:File>
+                              <QPM:File>Excl</QPM:File>
+                              <QPM:File>FlipHoriz</QPM:File>
+                              <QPM:File>FlipVert</QPM:File>
+                              <QPM:File>Fold</QPM:File>
+                              <QPM:File>Left</QPM:File>
+                              <QPM:File>Right</QPM:File>
+                              <QPM:File>RotateLeft</QPM:File>
+                              <QPM:File>RotateRight</QPM:File>
+                              <QPM:File>Stipple</QPM:File>
+                              <QPM:File>Term</QPM:File>
+                              <QPM:File>Up</QPM:File>
+                              <QPM:File>black</QPM:File>
+                              <QPM:File>black6</QPM:File>
+                              <QPM:File>box6</QPM:File>
+                              <QPM:File>boxes</QPM:File>
+                              <QPM:File>calculator</QPM:File>
+                              <QPM:File>card.xbm</QPM:File>
+                              <QPM:File>cntr_ptr</QPM:File>
+                              <QPM:File>cntr_ptrmsk</QPM:File>
+                              <QPM:File>cross_weave</QPM:File>
+                              <QPM:File>dimple1</QPM:File>
+                              <QPM:File>dimple3</QPM:File>
+                              <QPM:File>dot</QPM:File>
+                              <QPM:File>down.xbm</QPM:File>
+                              <QPM:File>dropbar7</QPM:File>
+                              <QPM:File>dropbar8</QPM:File>
+                              <QPM:File>escherknot</QPM:File>
+                              <QPM:File>flagdown</QPM:File>
+                              <QPM:File>flagup</QPM:File>
+                              <QPM:File>flipped_gray</QPM:File>
+                              <QPM:File>gray</QPM:File>
+                              <QPM:File>gray1</QPM:File>
+                              <QPM:File>gray3</QPM:File>
+                              <QPM:File>grid16</QPM:File>
+                              <QPM:File>grid2</QPM:File>
+                              <QPM:File>grid4</QPM:File>
+                              <QPM:File>grid8</QPM:File>
+                              <QPM:File>hlines2</QPM:File>
+                              <QPM:File>hlines3</QPM:File>
+                              <QPM:File>icon</QPM:File>
+                              <QPM:File>keyboard.xbm</QPM:File>
+                              <QPM:File>keyboard16</QPM:File>
+                              <QPM:File>ldblarrow</QPM:File>
+                              <QPM:File>left.xbm</QPM:File>
+                              <QPM:File>left_ptr</QPM:File>
+                              <QPM:File>left_ptrmsk</QPM:File>
+                              <QPM:File>letters</QPM:File>
+                              <QPM:File>light_gray</QPM:File>
+                              <QPM:File>mailempty</QPM:File>
+                              <QPM:File>mailemptymsk</QPM:File>
+                              <QPM:File>mailfull</QPM:File>
+                              <QPM:File>mailfullmsk</QPM:File>
+                              <QPM:File>mensetmanus</QPM:File>
+                              <QPM:File>menu10</QPM:File>
+                              <QPM:File>menu12</QPM:File>
+                              <QPM:File>menu16</QPM:File>
+                              <QPM:File>menu6</QPM:File>
+                              <QPM:File>menu8</QPM:File>
+                              <QPM:File>monitor.xbm</QPM:File>
+                              <QPM:File>mouse.xbm</QPM:File>
+                              <QPM:File>narrower.xbm</QPM:File>
+                              <QPM:File>noletters</QPM:File>
+                              <QPM:File>opendot</QPM:File>
+                              <QPM:File>opendotMask</QPM:File>
+                              <QPM:File>plaid</QPM:File>
+                              <QPM:File>rdblarrow</QPM:File>
+                              <QPM:File>right.xbm</QPM:File>
+                              <QPM:File>right_ptr</QPM:File>
+                              <QPM:File>right_ptrmsk</QPM:File>
+                              <QPM:File>root_weave</QPM:File>
+                              <QPM:File>scales</QPM:File>
+                              <QPM:File>shorter.xbm</QPM:File>
+                              <QPM:File>sipb</QPM:File>
+                              <QPM:File>star</QPM:File>
+                              <QPM:File>starMask</QPM:File>
+                              <QPM:File>stipple</QPM:File>
+                              <QPM:File>taller.xbm</QPM:File>
+                              <QPM:File>target</QPM:File>
+                              <QPM:File>terminal</QPM:File>
+                              <QPM:File>tie_fighter</QPM:File>
+                              <QPM:File>up.xbm</QPM:File>
+                              <QPM:File>vlines2</QPM:File>
+                              <QPM:File>vlines3</QPM:File>
+                              <QPM:File>weird_size</QPM:File>
+                              <QPM:File>wide_weave</QPM:File>
+                              <QPM:File>wider.xbm</QPM:File>
+                              <QPM:File>wingdogs</QPM:File>
+                              <QPM:File>woman</QPM:File>
+                              <QPM:File>xfd_icon</QPM:File>
+                              <QPM:File>xlogo11</QPM:File>
+                              <QPM:File>xlogo16</QPM:File>
+                              <QPM:File>xlogo32</QPM:File>
+                              <QPM:File>xlogo64</QPM:File>
+                              <QPM:File>xsnow</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="pixmaps">
+                              <QPM:File>card.xpm</QPM:File>
+                              <QPM:File>computer.xpm</QPM:File>
+                              <QPM:File>keyboard.xpm</QPM:File>
+                              <QPM:File>monitor.xpm</QPM:File>
+                              <QPM:File>mouse.xpm</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

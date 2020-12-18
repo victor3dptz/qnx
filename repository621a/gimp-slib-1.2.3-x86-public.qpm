@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:PackageName>gimp-slib-1.2.3-x86-public</QPM:PackageName>
+            <QPM:PackageSize>1575804</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2002/05/21</QPM:PackageReleaseDate>
+            <QPM:PackageRepository>http://www.qnx.com</QPM:PackageRepository>
+            <QPM:PackageDefaultState>hidden</QPM:PackageDefaultState>
+            <QPM:PackageModel>slib</QPM:PackageModel>
+            <QPM:FileVersion>1.00</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>The Gimp shared libraries for x86</QPM:ProductName>
+            <QPM:ProductSize>5371480</QPM:ProductSize>
+            <QPM:ProductIdentifier>gimp-slib-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>GNU</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.gnu.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Gimp is an image editor.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>The GIMP is designed to be a professional image manipulation program suitable for such tasks as photo retouching, image composition and image authoring.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.gimp.org/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/gimp/slib-1.2.3/x86</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/05/21</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>1.2.3</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Low</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://gimp-1.2.3-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>gimp-slib</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>System/Shared Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>gimp,photoshop</QPM:ContentKeyword>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:DisplayEnvironment>X11R6</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+            <QPM:ProvidesLibrary>libgck-1.2.so.0</QPM:ProvidesLibrary>
+            <QPM:ProvidesLibrary>libgimp-1.2.so.0</QPM:ProvidesLibrary>
+            <QPM:ProvidesLibrary>libgimpui-1.2.so.0</QPM:ProvidesLibrary>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="lib">
+                     <QPM:File>libgck-1.2.so.0</QPM:File>
+                     <QPM:File>libgimp-1.2.so.0</QPM:File>
+                     <QPM:File>libgimpui-1.2.so.0</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

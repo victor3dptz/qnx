@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageName>libao-dev-0.8.5-public</QPM:PackageName>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2005/01/22</QPM:PackageReleaseDate>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:FileVersion>2.6</QPM:FileVersion>
+            <QPM:PackageModel>dev</QPM:PackageModel>
+            <QPM:DateCode>41f182fa</QPM:DateCode>
+            <QPM:PackageSize>3280</QPM:PackageSize>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>10822</QPM:ProductSize>
+            <QPM:InstallPath>public/libao/dev-0.8.5</QPM:InstallPath>
+            <QPM:ProductName>Libao Development</QPM:ProductName>
+            <QPM:ProductIdentifier>libao-dev</QPM:ProductIdentifier>
+            <QPM:ProductEmail>team@xiph.org</QPM:ProductEmail>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.xiph.org/ogg/</QPM:VendorURL>
+            <QPM:VendorEmail>team@xiph.org</QPM:VendorEmail>
+            <QPM:AuthorName>Xiph.org Foundation</QPM:AuthorName>
+            <QPM:ProductDescriptionShort>Libao is a cross-platform audio output library.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Libao is a cross-platform audio output library. It currently supports ESD, aRts, ALSA, OSS, *BSD, QSA and Solaris.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.xiph.org/ogg/</QPM:ProductDescriptionURL>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2005/01/22</QPM:ReleaseDate>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ReleaseVersion>0.8.5</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Software Development/Libraries and Extensions/C Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>audio,sound</QPM:ContentKeyword>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:LicenseUrl>rep://libao-0.8.5-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PackageDate>41f182fa</QPM:PackageDate>
+         <QPM:Listing>
+            <QPM:Dir name="" dt="41f182fa">
+               <QPM:Dir name="usr">
+                  <QPM:Dir name="include">
+                     <QPM:Dir name="ao">
+                        <QPM:File sum="7eb6d970897eef7d8354b1982595af74" size="4148">ao.h</QPM:File>
+                        <QPM:File sum="2c6a25b4765fe8dc800e0c9e278ee517" size="1298">os_types.h</QPM:File>
+                        <QPM:File sum="703f4d81c8d2dd48f858e144780bb219" size="1618">plugin.h</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

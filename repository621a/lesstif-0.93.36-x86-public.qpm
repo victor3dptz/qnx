@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:PackageName>lesstif-0.93.36-x86-public</QPM:PackageName>
+            <QPM:PackageSize>771455</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>3</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseNotes/>
+            <QPM:PackageReleaseUrgency>Medium</QPM:PackageReleaseUrgency>
+            <QPM:PackageReleaseDate>2002/12/26</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Lesstif for x86</QPM:ProductName>
+            <QPM:ProductSize>5798522</QPM:ProductSize>
+            <QPM:ProductIdentifier>lesstif-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Danny Backx, Rick Scott, Alexander Mai</QPM:AuthorName>
+            <QPM:AuthorURL>www.lesstif.org</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Free implementation of Motif</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong/>
+            <QPM:ProductDescriptionURL>www.lesstif.org</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/lesstif/core-0.93.36/x86</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/05/15</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>0.93.36</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU Lesser General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://lesstif-0.93.36-public.repdata/LicenseUrl/COPYING.LIB</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>lesstif</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>System/Libraries and Extensions/C Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>Motif, Lesstif</QPM:ContentKeyword>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>X11R6</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+            <QPM:RequiresLibrary>libXext.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libXp.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libXt.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libSM.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libICE.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libX11.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libsocket.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+            <QPM:ContainsLibrary>libDtPrint.so.1</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libMrm.so.2</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libUil.so.2</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libXm.so.2</QPM:ContainsLibrary>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure/>
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="bin">
+                     <QPM:File>mwm</QPM:File>
+                     <QPM:File>uil</QPM:File>
+                     <QPM:File>xmbind</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="lib">
+                     <QPM:Link link="libDtPrint.so.1">libDtPrint.so</QPM:Link>
+                     <QPM:File>libDtPrint.so.1</QPM:File>
+                     <QPM:Link link="libMrm.so.2">libMrm.so</QPM:Link>
+                     <QPM:File>libMrm.so.2</QPM:File>
+                     <QPM:Link link="libUil.so.2">libUil.so</QPM:Link>
+                     <QPM:File>libUil.so.2</QPM:File>
+                     <QPM:Link link="libXm.so.2">libXm.so</QPM:Link>
+                     <QPM:File>libXm.so.2</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

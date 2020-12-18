@@ -1,0 +1,232 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>lmarbles-1.0.6-public</QPM:PackageName>
+            <QPM:PackageSize>750752</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/09/29</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>LMarbles</QPM:ProductName>
+            <QPM:ProductSize>1502425</QPM:ProductSize>
+            <QPM:ProductIdentifier>lmarbles</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Michael Speck</QPM:AuthorName>
+            <QPM:AuthorURL>http://lgames.sourceforge.net/about.php</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail>kulkanie@gmx.net</QPM:AuthorEmail>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Very pretty Atomix clone</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>A challenging puzzle game in the manner of Atomix.  Assemble marbles in the required configuration.
+</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://lgames.sourceforge.net/index.php?project=LMarbles</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/lmarbles/core-1.0.6</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/09/29</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>1.0.6</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://lmarbles-1.0.6-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Games and Diversions/Puzzles and Card Games</QPM:ContentTopic>
+            <QPM:ContentKeyword>atomix, lgames, sdl, games</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Use</QPM:ScriptType>
+            </QPM:Script>
+
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Unuse</QPM:ScriptType>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="man">
+                     <QPM:Dir name="man6">
+                        <QPM:File>lmarbles.6</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="games">
+                        <QPM:Dir name="lmarbles">
+                           <QPM:Dir name="gfx">
+                              <QPM:File>board.bmp</QPM:File>
+                              <QPM:File>f_red.bmp</QPM:File>
+                              <QPM:File>f_small.bmp</QPM:File>
+                              <QPM:File>f_white.bmp</QPM:File>
+                              <QPM:File>f_yellow.bmp</QPM:File>
+                              <QPM:File>figure.bmp</QPM:File>
+                              <QPM:File>lights.bmp</QPM:File>
+                              <QPM:File>logo.bmp</QPM:File>
+                              <QPM:File>m_frame.bmp</QPM:File>
+                              <QPM:File>m_sframe.bmp</QPM:File>
+                              <QPM:File>marbles.bmp</QPM:File>
+                              <QPM:Dir name="metal">
+                                 <QPM:File>arrow_d.bmp</QPM:File>
+                                 <QPM:File>arrow_l.bmp</QPM:File>
+                                 <QPM:File>arrow_r.bmp</QPM:File>
+                                 <QPM:File>arrow_u.bmp</QPM:File>
+                                 <QPM:File>background.bmp</QPM:File>
+                                 <QPM:File>barrier_lr.bmp</QPM:File>
+                                 <QPM:File>barrier_ud.bmp</QPM:File>
+                                 <QPM:File>floor.bmp</QPM:File>
+                                 <QPM:File>teleport0.bmp</QPM:File>
+                                 <QPM:File>teleport1.bmp</QPM:File>
+                                 <QPM:File>teleport2.bmp</QPM:File>
+                                 <QPM:File>teleport3.bmp</QPM:File>
+                                 <QPM:File>wall.bmp</QPM:File>
+                                 <QPM:File>wall_crumble.bmp</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="stone">
+                                 <QPM:File>arrow_d.bmp</QPM:File>
+                                 <QPM:File>arrow_l.bmp</QPM:File>
+                                 <QPM:File>arrow_r.bmp</QPM:File>
+                                 <QPM:File>arrow_u.bmp</QPM:File>
+                                 <QPM:File>background.bmp</QPM:File>
+                                 <QPM:File>barrier_lr.bmp</QPM:File>
+                                 <QPM:File>barrier_ud.bmp</QPM:File>
+                                 <QPM:File>floor.bmp</QPM:File>
+                                 <QPM:File>teleport0.bmp</QPM:File>
+                                 <QPM:File>teleport1.bmp</QPM:File>
+                                 <QPM:File>teleport2.bmp</QPM:File>
+                                 <QPM:File>teleport3.bmp</QPM:File>
+                                 <QPM:File>wall.bmp</QPM:File>
+                                 <QPM:File>wall_crumble.bmp</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>tiny.sdlfnt</QPM:File>
+                              <QPM:File>title.bmp</QPM:File>
+                              <QPM:File>win_icon.bmp</QPM:File>
+                              <QPM:Dir name="wood">
+                                 <QPM:File>arrow_d.bmp</QPM:File>
+                                 <QPM:File>arrow_l.bmp</QPM:File>
+                                 <QPM:File>arrow_r.bmp</QPM:File>
+                                 <QPM:File>arrow_u.bmp</QPM:File>
+                                 <QPM:File>background.bmp</QPM:File>
+                                 <QPM:File>barrier_lr.bmp</QPM:File>
+                                 <QPM:File>barrier_ud.bmp</QPM:File>
+                                 <QPM:File>floor.bmp</QPM:File>
+                                 <QPM:File>teleport0.bmp</QPM:File>
+                                 <QPM:File>teleport1.bmp</QPM:File>
+                                 <QPM:File>teleport2.bmp</QPM:File>
+                                 <QPM:File>teleport3.bmp</QPM:File>
+                                 <QPM:File>wall.bmp</QPM:File>
+                                 <QPM:File>wall_crumble.bmp</QPM:File>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="levels">
+                              <QPM:File>Original</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="sounds">
+                              <QPM:File>alarm.wav</QPM:File>
+                              <QPM:File>arrow.wav</QPM:File>
+                              <QPM:File>click.wav</QPM:File>
+                              <QPM:File>explode.wav</QPM:File>
+                              <QPM:File>score.wav</QPM:File>
+                              <QPM:File>select.wav</QPM:File>
+                              <QPM:File>stop.wav</QPM:File>
+                              <QPM:File>teleport.wav</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="var">
+                  <QPM:Dir name="lib">
+                     <QPM:Dir name="games">
+                        <QPM:File>marbles.prfs</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="man">
+                     <QPM:Union link="../../opt/man/man6">man6</QPM:Union>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="games">
+                        <QPM:Dir name="lmarbles">
+                           <QPM:Union link="../../../../opt/share/games/lmarbles/sounds">sounds</QPM:Union>
+                           <QPM:Union link="../../../../opt/share/games/lmarbles/levels">levels</QPM:Union>
+                           <QPM:Union link="../../../../opt/share/games/lmarbles/gfx">gfx</QPM:Union>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+
+      <QPM:Launch name="LMarbles">
+         <QPM:String name="Topic" value="Applications/Games"/>
+         <QPM:String name="Command" value="/opt/bin/lmarbles"/>
+      </QPM:Launch>
+   </RDF:Description>
+</RDF:RDF>

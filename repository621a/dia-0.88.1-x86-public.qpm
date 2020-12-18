@@ -1,0 +1,128 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>dia-0.88.1-x86-public</QPM:PackageName>
+            <QPM:PackageSize>506566</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2002/05/20</QPM:PackageReleaseDate>
+            <QPM:PackageRepository>http://www.qnx.com</QPM:PackageRepository>
+            <QPM:FileVersion>1.01</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Dia for x86</QPM:ProductName>
+            <QPM:ProductSize>38085517</QPM:ProductSize>
+            <QPM:ProductIdentifier>dia-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Dia</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.lysator.liu.se/~alla/dia/dia.html</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Dia is a drawing program.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Dia is a program for drawing structured diagrams, much like Visio or XFig.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.lysator.liu.se/~alla/dia/dia.html</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/dia/core-0.88.1/x86</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/05/20</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>0.88.1</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Low</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://dia-0.88.1-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>dia</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Multimedia/Graphics/Graphics Editing/Draw and Vector Editors</QPM:ContentTopic>
+            <QPM:ContentKeyword>dia,visio,xfig</QPM:ContentKeyword>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:DisplayEnvironment>X11R6</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+            <QPM:RequiresLibrary>libxml2.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libz.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libm.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libsocket.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libiconv.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libXext.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libX11.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libart_lgpl.so.5</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libpng10.so.0</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libgdk_pixbuf.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libtiff.so.3</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libjpeg.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libgtk-1.2.so.9</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libgdk-1.2.so.9</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libgmodule-1.2.so.0</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libglib-1.2.so.0</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="bin">
+                     <QPM:File>dia</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="lib">
+                     <QPM:Dir name="dia">
+                        <QPM:File>libcgm_filter.so</QPM:File>
+                        <QPM:File>libchronogram_objects.so</QPM:File>
+                        <QPM:File>libcustom_objects.so</QPM:File>
+                        <QPM:File>libdxf_filter.so</QPM:File>
+                        <QPM:File>libeml_objects.so</QPM:File>
+                        <QPM:File>liber_objects.so</QPM:File>
+                        <QPM:File>libflowchart_objects.so</QPM:File>
+                        <QPM:File>libfs_objects.so</QPM:File>
+                        <QPM:File>libgrafcet_objects.so</QPM:File>
+                        <QPM:File>libhpgl_filter.so</QPM:File>
+                        <QPM:File>libnetwork_objects.so</QPM:File>
+                        <QPM:File>libpstricks_filter.so</QPM:File>
+                        <QPM:File>libsadt_objects.so</QPM:File>
+                        <QPM:File>libshape_filter.so</QPM:File>
+                        <QPM:File>libstandard_objects.so</QPM:File>
+                        <QPM:File>libsvg_filter.so</QPM:File>
+                        <QPM:File>libsybase_objects.so</QPM:File>
+                        <QPM:File>libuml_objects.so</QPM:File>
+                        <QPM:File>libwpg_filter.so</QPM:File>
+                        <QPM:File>libxfig_filter.so</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

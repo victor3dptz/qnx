@@ -1,0 +1,142 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:PackageName>Qt-X11-free-3.1.0-x86-public</QPM:PackageName>
+            <QPM:PackageSize>7366351</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>2</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseNotes/>
+            <QPM:PackageReleaseUrgency>Medium</QPM:PackageReleaseUrgency>
+            <QPM:PackageReleaseDate>2002/12/16</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>1.9</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Qt/X11-free for x86</QPM:ProductName>
+            <QPM:ProductSize>22248983</QPM:ProductSize>
+            <QPM:ProductIdentifier>Qt-X11-free-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://sourceforge.net/projects/openqnx</QPM:VendorURL>
+            <QPM:VendorEmbedURL>http://sourceforge.net/projects/openqnx</QPM:VendorEmbedURL>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Trolltech</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.trolltech.com</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL>http://www.trolltech.com</QPM:AuthorEmbedURL>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>QNX 6.2 port of Qt/X11-f1.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong/>
+            <QPM:ProductDescriptionURL>http://www.trolltech.com</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL>http://www.trolltech.com</QPM:ProductDescriptionEmbedURL>
+            <QPM:InstallPath>public/Qt-X11-free/core-3.1.0/x86</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/12/16</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>3.1.0</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>http://www.trolltech.com/developer/licensing/index.html</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>Qt-X11-free</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Software Development/Libraries and Extensions/C++ Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>GUI, QT, C++, user-interface</QPM:ContentKeyword>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>qnx6</QPM:HostOS>
+            <QPM:DisplayEnvironment>X11R6</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+            <QPM:RequiresLibrary>libXext.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libX11.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libsocket.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libstdc++.so.2.2.10.0</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libm.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+            <QPM:ContainsLibrary>libqt-mt.so.3</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libqui.so.1</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libcppeditor.so.1</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libdlgplugin.so.1</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libkdevdlgplugin.so.1</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>librcplugin.so.1</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libqjpeg.so.1</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libqmng.so.1</QPM:ContainsLibrary>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="X11R6">
+                     <QPM:Dir name="qt3">
+                        <QPM:Dir name="bin">
+                           <QPM:File>assistant</QPM:File>
+                           <QPM:File>designer</QPM:File>
+                           <QPM:File>linguist</QPM:File>
+                           <QPM:File>lrelease</QPM:File>
+                           <QPM:File>lupdate</QPM:File>
+                           <QPM:File>moc</QPM:File>
+                           <QPM:File>qm2ts</QPM:File>
+                           <QPM:File>qmake</QPM:File>
+                           <QPM:File>qtconfig</QPM:File>
+                           <QPM:File>uic</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="lib">
+                           <QPM:Link link="libqt-mt.so.3.1.0">libqt-mt.so</QPM:Link>
+                           <QPM:Link link="libqt-mt.so.3.1.0">libqt-mt.so.3</QPM:Link>
+                           <QPM:Link link="libqt-mt.so.3.1.0">libqt-mt.so.3.1</QPM:Link>
+                           <QPM:File>libqt-mt.so.3.1.0</QPM:File>
+                           <QPM:File>libqui.so.1.0.0</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="plugins">
+                           <QPM:Dir name="designer">
+                              <QPM:Dir name="do_not_use">
+                                 <QPM:File>libcppeditor.so</QPM:File>
+                                 <QPM:File>libdlgplugin.so</QPM:File>
+                                 <QPM:File>libkdevdlgplugin.so</QPM:File>
+                                 <QPM:File>librcplugin.so</QPM:File>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="imageformats">
+                              <QPM:File>libqjpeg.so</QPM:File>
+                              <QPM:File>libqmng.so</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

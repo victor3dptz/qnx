@@ -1,0 +1,139 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:PackageName>xfree86-slib-4.2-x86-public</QPM:PackageName>
+            <QPM:PackageSize>2082768</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2002/05/16</QPM:PackageReleaseDate>
+            <QPM:PackageRepository>http://www.qnx.com</QPM:PackageRepository>
+            <QPM:PackageDefaultState>hidden</QPM:PackageDefaultState>
+            <QPM:PackageModel>slib</QPM:PackageModel>
+            <QPM:FileVersion>1.00</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>XFree86 (with XPhoton) shared libraries for x86</QPM:ProductName>
+            <QPM:ProductSize>4782498</QPM:ProductSize>
+            <QPM:ProductIdentifier>xfree86-slib-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>XFree86</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.xfree86.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>XFree86 is X11R6</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>XFree86 is X11R6 for PCs.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.xfree86.org/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/xfree86/slib-4.2/x86</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/05/16</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>4.2</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Low</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>MIT License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>xfree86-slib</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>System/Shared Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>xfree86,x11r6</QPM:ContentKeyword>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+            <QPM:ProvidesLibrary>libGL.so.1</QPM:ProvidesLibrary>
+            <QPM:ProvidesLibrary>libGLU.so.1</QPM:ProvidesLibrary>
+            <QPM:ProvidesLibrary>libICE.so.6</QPM:ProvidesLibrary>
+            <QPM:ProvidesLibrary>libSM.so.6</QPM:ProvidesLibrary>
+            <QPM:ProvidesLibrary>libX11.so.6</QPM:ProvidesLibrary>
+            <QPM:ProvidesLibrary>libXTrap.so.6</QPM:ProvidesLibrary>
+            <QPM:ProvidesLibrary>libXaw.so.6</QPM:ProvidesLibrary>
+            <QPM:ProvidesLibrary>libXaw.so.7</QPM:ProvidesLibrary>
+            <QPM:ProvidesLibrary>libXext.so.6</QPM:ProvidesLibrary>
+            <QPM:ProvidesLibrary>libXfont.so.1</QPM:ProvidesLibrary>
+            <QPM:ProvidesLibrary>libXft.so.1</QPM:ProvidesLibrary>
+            <QPM:ProvidesLibrary>libXi.so.6</QPM:ProvidesLibrary>
+            <QPM:ProvidesLibrary>libXmu.so.6</QPM:ProvidesLibrary>
+            <QPM:ProvidesLibrary>libXmuu.so.1</QPM:ProvidesLibrary>
+            <QPM:ProvidesLibrary>libXp.so.6</QPM:ProvidesLibrary>
+            <QPM:ProvidesLibrary>libXpm.so.4</QPM:ProvidesLibrary>
+            <QPM:ProvidesLibrary>libXrandr.so.1</QPM:ProvidesLibrary>
+            <QPM:ProvidesLibrary>libXrender.so.1</QPM:ProvidesLibrary>
+            <QPM:ProvidesLibrary>libXt.so.6</QPM:ProvidesLibrary>
+            <QPM:ProvidesLibrary>libXtst.so.6</QPM:ProvidesLibrary>
+            <QPM:ProvidesLibrary>libdps.so.1</QPM:ProvidesLibrary>
+            <QPM:ProvidesLibrary>libdpstk.so.1</QPM:ProvidesLibrary>
+            <QPM:ProvidesLibrary>libfreetype.so.8</QPM:ProvidesLibrary>
+            <QPM:ProvidesLibrary>liboldX.so.6</QPM:ProvidesLibrary>
+            <QPM:ProvidesLibrary>libpsres.so.1</QPM:ProvidesLibrary>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="X11R6">
+                     <QPM:Dir name="lib">
+                        <QPM:File>libGL.so.1.2</QPM:File>
+                        <QPM:File>libGLU.so.1.3</QPM:File>
+                        <QPM:File>libICE.so.6.3</QPM:File>
+                        <QPM:File>libSM.so.6.0</QPM:File>
+                        <QPM:File>libX11.so.6.2</QPM:File>
+                        <QPM:File>libXTrap.so.6.4</QPM:File>
+                        <QPM:File>libXaw.so.6.1</QPM:File>
+                        <QPM:File>libXaw.so.7.0</QPM:File>
+                        <QPM:File>libXext.so.6.4</QPM:File>
+                        <QPM:File>libXfont.so.1.4</QPM:File>
+                        <QPM:File>libXft.so.1.1</QPM:File>
+                        <QPM:File>libXi.so.6.0</QPM:File>
+                        <QPM:File>libXmu.so.6.2</QPM:File>
+                        <QPM:File>libXmuu.so.1.0</QPM:File>
+                        <QPM:File>libXp.so.6.2</QPM:File>
+                        <QPM:File>libXpm.so.4.11</QPM:File>
+                        <QPM:File>libXrandr.so.1.0</QPM:File>
+                        <QPM:File>libXrender.so.1.1</QPM:File>
+                        <QPM:File>libXt.so.6.0</QPM:File>
+                        <QPM:File>libXtst.so.6.1</QPM:File>
+                        <QPM:File>libdps.so.1.0</QPM:File>
+                        <QPM:File>libdpstk.so.1.0</QPM:File>
+                        <QPM:File>libfreetype.so.8.0</QPM:File>
+                        <QPM:File>liboldX.so.6.0</QPM:File>
+                        <QPM:File>libpsres.so.1.0</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

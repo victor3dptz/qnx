@@ -1,0 +1,127 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:PackageName>libxml-dev-1.8.17-public</QPM:PackageName>
+            <QPM:PackageSize>25306</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/01/02</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:PackageModel>dev</QPM:PackageModel>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>libxml Development</QPM:ProductName>
+            <QPM:ProductSize>112841</QPM:ProductSize>
+            <QPM:ProductIdentifier>libxml-dev</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>libxml.org</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.libxml.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>libxml is an XML library.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>libxml is an XML library.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.libxml.org/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/libxml/dev-1.8.17</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/01/02</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>1.8.17</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://libxml-1.8.17-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Software Development/Libraries and Extensions/C Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>libxml,xml,SAX</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Administrator</QPM:TargetAudience>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>Must include at least one development package targeting a specific processor (Packager-generated dependency).</QPM:Notes>
+               <QPM:Filter>
+                  <QPM:FilterType>StringExpression</QPM:FilterType>
+                  <ProductIdentifier>libxml-dev-target*</ProductIdentifier>
+               </QPM:Filter>
+            </QPM:Dependency>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="include">
+                     <QPM:Dir name="gnome-xml">
+                        <QPM:File>HTMLparser.h</QPM:File>
+                        <QPM:File>HTMLtree.h</QPM:File>
+                        <QPM:File>SAX.h</QPM:File>
+                        <QPM:File>debugXML.h</QPM:File>
+                        <QPM:File>encoding.h</QPM:File>
+                        <QPM:File>entities.h</QPM:File>
+                        <QPM:File>nanoftp.h</QPM:File>
+                        <QPM:File>nanohttp.h</QPM:File>
+                        <QPM:File>parser.h</QPM:File>
+                        <QPM:File>parserInternals.h</QPM:File>
+                        <QPM:File>tree.h</QPM:File>
+                        <QPM:File>uri.h</QPM:File>
+                        <QPM:File>valid.h</QPM:File>
+                        <QPM:File>xlink.h</QPM:File>
+                        <QPM:File>xml-error.h</QPM:File>
+                        <QPM:File>xmlIO.h</QPM:File>
+                        <QPM:File>xmlmemory.h</QPM:File>
+                        <QPM:File>xpath.h</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Dir name="include">
+                     <QPM:Union link="../../opt/include/gnome-xml">gnome-xml</QPM:Union>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

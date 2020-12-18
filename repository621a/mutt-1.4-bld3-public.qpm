@@ -1,0 +1,199 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>mutt-1.4-bld3-public</QPM:PackageName>
+            <QPM:PackageSize>212839</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/01/21</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Mutt</QPM:ProductName>
+            <QPM:ProductSize>741072</QPM:ProductSize>
+            <QPM:ProductIdentifier>mutt</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>mutt.org</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.mutt.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Mutt is a mail client.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Mutt is a text based mail client.  Supports SSL, IMAP, POP, etc.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.mutt.org/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/mutt/core-1.4-bld3</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/01/16</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>1.4</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>3</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://mutt-1.4-bld3-public.repdata/LicenseUrl/COPYRIGHT</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Communication and Connectivity/Email Clients</QPM:ContentTopic>
+            <QPM:ContentKeyword>mutt,elm,pine</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Administrator</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Use</QPM:ScriptType>
+            </QPM:Script>
+
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Unuse</QPM:ScriptType>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="etc">
+                  <QPM:Dir name="mutt">
+                     <QPM:File>Muttrc</QPM:File>
+                     <QPM:File>mime.types</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="bin">
+                     <QPM:File>flea</QPM:File>
+                     <QPM:File>muttbug</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="doc">
+                     <QPM:Dir name="mutt">
+                        <QPM:File>COPYRIGHT</QPM:File>
+                        <QPM:File>ChangeLog</QPM:File>
+                        <QPM:File>GPL</QPM:File>
+                        <QPM:File>INSTALL</QPM:File>
+                        <QPM:File>NEWS</QPM:File>
+                        <QPM:File>PGP-Notes.txt</QPM:File>
+                        <QPM:File>README</QPM:File>
+                        <QPM:File>README.SECURITY</QPM:File>
+                        <QPM:File>README.SSL</QPM:File>
+                        <QPM:File>TODO</QPM:File>
+                        <QPM:File>applying-patches.txt</QPM:File>
+                        <QPM:File>devel-notes.txt</QPM:File>
+                        <QPM:Dir name="html"/>
+                        <QPM:File>patch-notes.txt</QPM:File>
+                        <QPM:Dir name="samples">
+                           <QPM:File>Mush.rc</QPM:File>
+                           <QPM:File>Pine.rc</QPM:File>
+                           <QPM:File>Tin.rc</QPM:File>
+                           <QPM:File>gpg.rc</QPM:File>
+                           <QPM:Dir name="iconv">
+                              <QPM:File>iconv.aix-3.2.5.rc</QPM:File>
+                              <QPM:File>iconv.aix-4.1.5.rc</QPM:File>
+                              <QPM:File>iconv.aix-4.2.0.rc</QPM:File>
+                              <QPM:File>iconv.aix-4.3.2.rc</QPM:File>
+                              <QPM:File>iconv.freebsd-3.3.rc</QPM:File>
+                              <QPM:File>iconv.glibc-2.1.3.rc</QPM:File>
+                              <QPM:File>iconv.glibc-2.1.90.rc</QPM:File>
+                              <QPM:File>iconv.hpux-10.01.rc</QPM:File>
+                              <QPM:File>iconv.hpux-10.20.rc</QPM:File>
+                              <QPM:File>iconv.hpux-11.00.rc</QPM:File>
+                              <QPM:File>iconv.irix-6.5.rc</QPM:File>
+                              <QPM:File>iconv.osf1-4.0a.rc</QPM:File>
+                              <QPM:File>iconv.osf1-4.0d.rc</QPM:File>
+                              <QPM:File>iconv.solaris-2.4.rc</QPM:File>
+                              <QPM:File>iconv.solaris-2.5.1.rc</QPM:File>
+                              <QPM:File>iconv.solaris-2.6-cjk.rc</QPM:File>
+                              <QPM:File>iconv.solaris-2.6.rc</QPM:File>
+                              <QPM:File>iconv.solaris-2.7.rc</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>pgp2.rc</QPM:File>
+                           <QPM:File>pgp5.rc</QPM:File>
+                           <QPM:File>pgp6.rc</QPM:File>
+                           <QPM:File>sample.mailcap</QPM:File>
+                           <QPM:File>sample.muttrc</QPM:File>
+                           <QPM:File>sample.muttrc-tlr</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="man">
+                     <QPM:Dir name="man1">
+                        <QPM:File>flea.1</QPM:File>
+                        <QPM:File>mutt.1</QPM:File>
+                        <QPM:File>mutt_dotlock.1</QPM:File>
+                        <QPM:File>muttbug.1</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="man5">
+                        <QPM:File>mbox.5</QPM:File>
+                        <QPM:File>muttrc.5</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../opt/bin">bin</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="man">
+                     <QPM:Union link="../../opt/man/man5">man5</QPM:Union>
+                     <QPM:Union link="../../opt/man/man1">man1</QPM:Union>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+
+      <QPM:Launch name="Mutt">
+         <QPM:String name="Topic" value="Applications/Internet"/>
+         <QPM:String name="Command" value="pterm -q -t Mutt mutt"/>
+      </QPM:Launch>
+   </RDF:Description>
+</RDF:RDF>

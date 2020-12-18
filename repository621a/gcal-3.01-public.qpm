@@ -1,0 +1,343 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>gcal-3.01-public</QPM:PackageName>
+            <QPM:PackageSize>612466</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>8</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseNotes>Remove all references to /home/drempel in links and scripts</QPM:PackageReleaseNotes>
+            <QPM:PackageReleaseUrgency>Medium</QPM:PackageReleaseUrgency>
+            <QPM:PackageReleaseDate>2002/06/06</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>1.9</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>GNU Cal</QPM:ProductName>
+            <QPM:ProductSize>2326507</QPM:ProductSize>
+            <QPM:ProductIdentifier>gcal</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Thomas Esken</QPM:AuthorName>
+            <QPM:AuthorURL/>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>calendar generation utility</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>GNU&apos;s version of the unix utility &apos;cal&apos;</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.gnu.org</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/gcal/core-3.01</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/05/25</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>3.01</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://gcal-3.01-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Home and Personal/Clocks, Calendars and Planners</QPM:ContentTopic>
+            <QPM:ContentKeyword>cal, calendar, gcal</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements>Some of the utilities in this package require perl to be active</QPM:ProductRequirements>
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>Some of the utilities in this package require perl</QPM:Notes>
+               <QPM:Product>perl</QPM:Product>
+               <QPM:Vendor>public</QPM:Vendor>
+               <QPM:ProductHomeRepository/>
+            </QPM:Dependency>
+
+            <QPM:Dependency>
+               <QPM:ProductHomeRepository/>
+               <QPM:ProductHomeRepository/>
+            </QPM:Dependency>
+
+            <QPM:Dependency>
+               <QPM:DependencyType>Activate</QPM:DependencyType>
+               <QPM:Notes>Some of the utilities in this package require perl.</QPM:Notes>
+               <QPM:Product>perl</QPM:Product>
+               <QPM:Vendor>public</QPM:Vendor>
+               <QPM:ProductHomeRepository/>
+            </QPM:Dependency>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="bin">
+                     <QPM:Link link="../share/gcal/misc/daily/daily">gcal-daily</QPM:Link>
+                     <QPM:Link link="../share/gcal/misc/ddiff/ddiff">gcal-ddiff</QPM:Link>
+                     <QPM:Link link="../share/gcal/misc/ddiff/ddiffdrv">gcal-ddiffdrv</QPM:Link>
+                     <QPM:Link link="../share/gcal/misc/dst/dst">gcal-dst</QPM:Link>
+                     <QPM:Link link="../share/gcal/misc/gcalltx/gcalltx">gcal-gcalltx</QPM:Link>
+                     <QPM:Link link="../share/gcal/misc/gcalltx/gcalltx.pl">gcal-gcalltx.pl</QPM:Link>
+                     <QPM:Link link="../share/gcal/misc/moon/moon">gcal-moon</QPM:Link>
+                     <QPM:Link link="../share/gcal/misc/mrms/mrms">gcal-mrms</QPM:Link>
+                     <QPM:Link link="../share/gcal/misc/srss/srss">gcal-srss</QPM:Link>
+                     <QPM:Link link="../share/gcal/misc/wloc/wlocdrv">gcal-wlocdrv</QPM:Link>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="info">
+                     <QPM:File>gcal.info</QPM:File>
+                     <QPM:File>gcal.info-1</QPM:File>
+                     <QPM:File>gcal.info-10</QPM:File>
+                     <QPM:File>gcal.info-11</QPM:File>
+                     <QPM:File>gcal.info-12</QPM:File>
+                     <QPM:File>gcal.info-13</QPM:File>
+                     <QPM:File>gcal.info-14</QPM:File>
+                     <QPM:File>gcal.info-2</QPM:File>
+                     <QPM:File>gcal.info-3</QPM:File>
+                     <QPM:File>gcal.info-4</QPM:File>
+                     <QPM:File>gcal.info-5</QPM:File>
+                     <QPM:File>gcal.info-6</QPM:File>
+                     <QPM:File>gcal.info-7</QPM:File>
+                     <QPM:File>gcal.info-8</QPM:File>
+                     <QPM:File>gcal.info-9</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="man">
+                     <QPM:Dir name="man1">
+                        <QPM:File>gcal.1</QPM:File>
+                        <QPM:File>gcal2txt.1</QPM:File>
+                        <QPM:File>tcal.1</QPM:File>
+                        <QPM:File>txt2gcal.1</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="gcal">
+                        <QPM:File>CREDITS.dates</QPM:File>
+                        <QPM:File>README</QPM:File>
+                        <QPM:File>README.dates</QPM:File>
+                        <QPM:File>ancient</QPM:File>
+                        <QPM:File>ansipic.rc</QPM:File>
+                        <QPM:File>birthday.rc</QPM:File>
+                        <QPM:File>bkk.rc</QPM:File>
+                        <QPM:File>calendar.birth</QPM:File>
+                        <QPM:File>calendar.chris</QPM:File>
+                        <QPM:File>calendar.compu</QPM:File>
+                        <QPM:File>calendar.histo</QPM:File>
+                        <QPM:File>calendar.holid</QPM:File>
+                        <QPM:File>calendar.judai</QPM:File>
+                        <QPM:File>calendar.music</QPM:File>
+                        <QPM:File>calendar.ushol</QPM:File>
+                        <QPM:File>can_holiday</QPM:File>
+                        <QPM:File>celtic</QPM:File>
+                        <QPM:File>computing</QPM:File>
+                        <QPM:File>de-mdata.rc</QPM:File>
+                        <QPM:File>de-sdata.rc</QPM:File>
+                        <QPM:File>events</QPM:File>
+                        <QPM:File>events1</QPM:File>
+                        <QPM:File>events2</QPM:File>
+                        <QPM:File>events3</QPM:File>
+                        <QPM:File>events4</QPM:File>
+                        <QPM:File>events5</QPM:File>
+                        <QPM:File>events6</QPM:File>
+                        <QPM:File>gdead</QPM:File>
+                        <QPM:File>hawaii</QPM:File>
+                        <QPM:File>literature</QPM:File>
+                        <QPM:File>lives</QPM:File>
+                        <QPM:File>lives1</QPM:File>
+                        <QPM:File>lives2</QPM:File>
+                        <QPM:File>lives3</QPM:File>
+                        <QPM:File>lives4</QPM:File>
+                        <QPM:File>lives5</QPM:File>
+                        <QPM:File>lives6</QPM:File>
+                        <QPM:File>lotr</QPM:File>
+                        <QPM:File>mdata.rc</QPM:File>
+                        <QPM:File>meteoric.rc</QPM:File>
+                        <QPM:Dir name="misc">
+                           <QPM:File>README</QPM:File>
+                           <QPM:Dir name="daily">
+                              <QPM:File>daily</QPM:File>
+                              <QPM:File>daily.awk</QPM:File>
+                              <QPM:File>daily.pl</QPM:File>
+                              <QPM:File>daily.rc</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="ddiff">
+                              <QPM:File>ddiff</QPM:File>
+                              <QPM:File>ddiff1.awk</QPM:File>
+                              <QPM:File>ddiff1.pl</QPM:File>
+                              <QPM:File>ddiff2.awk</QPM:File>
+                              <QPM:File>ddiff2.pl</QPM:File>
+                              <QPM:File>ddiffdrv</QPM:File>
+                              <QPM:File>ddiffdrv.awk</QPM:File>
+                              <QPM:File>ddiffdrv.pl</QPM:File>
+                              <QPM:File>zone.tab</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="dst">
+                              <QPM:File>dst</QPM:File>
+                              <QPM:File>dst.awk</QPM:File>
+                              <QPM:File>dst.pl</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="gcalltx">
+                              <QPM:File>gcalltx</QPM:File>
+                              <QPM:File>gcalltx.pl</QPM:File>
+                              <QPM:File>gcalltx.sed</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>gcalmagic.add</QPM:File>
+                           <QPM:Dir name="moon">
+                              <QPM:File>moon</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="mrms">
+                              <QPM:File>mrms</QPM:File>
+                              <QPM:File>mrms.awk</QPM:File>
+                              <QPM:File>mrms.pl</QPM:File>
+                              <QPM:File>mrms.rc</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="srss">
+                              <QPM:File>srss</QPM:File>
+                              <QPM:File>srss.awk</QPM:File>
+                              <QPM:File>srss.pl</QPM:File>
+                              <QPM:File>srss.rc</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="wloc">
+                              <QPM:File>wlocdrv</QPM:File>
+                              <QPM:File>wlocdrv1.awk</QPM:File>
+                              <QPM:File>wlocdrv1.pl</QPM:File>
+                              <QPM:File>wlocdrv2.awk</QPM:File>
+                              <QPM:File>wlocdrv2.pl</QPM:File>
+                              <QPM:File>zone.tab</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:File>movies</QPM:File>
+                        <QPM:File>ms.rc</QPM:File>
+                        <QPM:File>music</QPM:File>
+                        <QPM:File>radio</QPM:File>
+                        <QPM:Dir name="scripts">
+                           <QPM:File>cal2gcal.awk</QPM:File>
+                           <QPM:File>cal2gcal.pl</QPM:File>
+                           <QPM:File>ct2gcal.awk</QPM:File>
+                           <QPM:File>ct2gcal.pl</QPM:File>
+                           <QPM:File>old2v220.awk</QPM:File>
+                           <QPM:File>old2v220.pl</QPM:File>
+                           <QPM:File>v2x2v300.awk</QPM:File>
+                           <QPM:File>v2x2v300.pl</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>sdata.rc</QPM:File>
+                        <QPM:File>sfo</QPM:File>
+                        <QPM:File>space</QPM:File>
+                        <QPM:File>sports</QPM:File>
+                        <QPM:File>sun-moon.rc</QPM:File>
+                        <QPM:File>television</QPM:File>
+                        <QPM:File>textpic.rc</QPM:File>
+                        <QPM:File>usa_holiday</QPM:File>
+                        <QPM:File>usa_other</QPM:File>
+                        <QPM:File>usa_states</QPM:File>
+                        <QPM:File>witchcraft</QPM:File>
+                        <QPM:File>wloc.rc</QPM:File>
+                        <QPM:File>world</QPM:File>
+                        <QPM:File>wtt1.rc</QPM:File>
+                        <QPM:File>wtt2.rc</QPM:File>
+                        <QPM:File>wtt3.rc</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="locale">
+                        <QPM:Dir name="de">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>gcal.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="fr">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>gcal.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:File>locale.alias</QPM:File>
+                        <QPM:Dir name="nl">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>gcal.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="pl">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>gcal.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ru">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>gcal.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="sv">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>gcal.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../opt/info">info</QPM:Union>
+                  <QPM:Union link="../opt/bin">bin</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="man">
+                     <QPM:Union link="../../opt/man/man1">man1</QPM:Union>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Union link="../../opt/share/locale">locale</QPM:Union>
+                     <QPM:Union link="../../opt/share/gcal">gcal</QPM:Union>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

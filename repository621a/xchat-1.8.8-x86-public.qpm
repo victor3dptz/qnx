@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>xchat-1.8.8-x86-public</QPM:PackageName>
+            <QPM:PackageSize>854934</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2002/05/13</QPM:PackageReleaseDate>
+            <QPM:PackageRepository>http://www.qnx.com</QPM:PackageRepository>
+            <QPM:FileVersion>1.01</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>xchat for x86</QPM:ProductName>
+            <QPM:ProductSize>2090196</QPM:ProductSize>
+            <QPM:ProductIdentifier>xchat-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>GNU</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.gnu.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>xchat is an irc client.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>xchat is an X11 based irc client.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.x-chat.org/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/xchat/core-1.8.8/x86</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/05/13</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>1.8.8</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Low</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://xchat-1.8.8-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>xchat</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Communication and Connectivity/Chat and Messaging/Internet Relay Chat (IRC) Clients</QPM:ContentTopic>
+            <QPM:ContentKeyword>xchat,irc</QPM:ContentKeyword>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:DisplayEnvironment>X11R6</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+            <QPM:RequiresLibrary>libsocket.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libgmodule-1.2.so.0</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libglib-1.2.so.0</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libm.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libgtk-1.2.so.9</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libgdk-1.2.so.9</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libXext.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libX11.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libgdk_pixbuf.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libtiff.so.3</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libpng10.so.0</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libjpeg.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libz.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="usr">
+                  <QPM:Dir name="bin">
+                     <QPM:File>xchat</QPM:File>
+                     <QPM:File>xchat-text</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

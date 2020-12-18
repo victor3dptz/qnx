@@ -1,0 +1,20 @@
+ JFSolitaire - portable expandable solitaire game
+ Copyright (C) 2000-2002 John Fehr
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
+ 
+ You are permitted to use and distribute this entire package as long as you 
+ include this file unmodified in your distribution, and you distribute it for
+ absolutely no charge.
+ 
+ If you would like to negotiate alternate licensing terms, you may do
+ so by contacting the author: John Fehr <jfehr@altbits.com>
+
+ Click on the lower right corner of the game for extra options.
+
+ This program may send seed information about games you win to a server on the
+ internet.  No personal information whatsoever is sent with this game data. By
+ agreeing to this license and playing the game, you acknowledge and agree to
+ this collection of game data.

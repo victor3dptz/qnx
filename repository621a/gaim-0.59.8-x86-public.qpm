@@ -1,0 +1,134 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>gaim-0.59.8-x86-public</QPM:PackageName>
+            <QPM:PackageSize>654705</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/01/08</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Gaim for x86</QPM:ProductName>
+            <QPM:ProductSize>6263832</QPM:ProductSize>
+            <QPM:ProductIdentifier>gaim-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Gaim</QPM:AuthorName>
+            <QPM:AuthorURL>http://gaim.sf.net/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Gaim is a universal IM client.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Gaim is a universal IM client (icq, aim, msn, y!, irc, etc)</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://gaim.sf.net/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/gaim/core-0.59.8/x86</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/01/08</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>0.59.8</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://gaim-0.59.8-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>gaim</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Communication and Connectivity/Chat and Messaging/Instant Messenger Clients</QPM:ContentTopic>
+            <QPM:ContentKeyword>gaim,aim,icq,msn</QPM:ContentKeyword>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>X11R6</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+            <QPM:RequiresLibrary>libgdk_pixbuf.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libgtk-1.2.so.9</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libgdk-1.2.so.9</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libgmodule-1.2.so.0</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libglib-1.2.so.0</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libperl.so.5.8.0</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libm.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libsocket.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libiconv.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+            <QPM:ContainsLibrary>libtmpautorecon.so.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libtmpchatlist.so.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libtmpiconaway.so.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libgg.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libicq.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libirc.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libjabber.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libmsn.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libnapster.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libyahoo.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libzephyr.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libtmpnotify.so.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libtmpspellchk.so.so</QPM:ContainsLibrary>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure/>
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="bin">
+                     <QPM:File>gaim</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="lib">
+                     <QPM:Dir name="gaim">
+                        <QPM:File>autorecon.so</QPM:File>
+                        <QPM:File>chatlist.so</QPM:File>
+                        <QPM:File>iconaway.so</QPM:File>
+                        <QPM:File>libgg.so</QPM:File>
+                        <QPM:File>libicq.so</QPM:File>
+                        <QPM:File>libirc.so</QPM:File>
+                        <QPM:File>libjabber.so</QPM:File>
+                        <QPM:File>libmsn.so</QPM:File>
+                        <QPM:File>libnapster.so</QPM:File>
+                        <QPM:File>libyahoo.so</QPM:File>
+                        <QPM:File>libzephyr.so</QPM:File>
+                        <QPM:File>notify.so</QPM:File>
+                        <QPM:File>spellchk.so</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

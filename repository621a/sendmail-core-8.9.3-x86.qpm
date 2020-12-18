@@ -1,0 +1,125 @@
+<RDF:RDF xmlns:RDF="http://www.w3.org/TR/PR-rdf-syntax" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageName>sendmail-core-8.9.3-x86</QPM:PackageName>
+            <QPM:PackageSize>2M</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>2.0</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseNotes/>
+            <QPM:PackageReleaseUrgency>Low</QPM:PackageReleaseUrgency>
+            <QPM:PackageReleaseDate>2000/06/07</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>SendMail (x86)</QPM:ProductName>
+            <QPM:ProductSize>5M</QPM:ProductSize>
+            <QPM:ProductIdentifier>sendmail_x86</QPM:ProductIdentifier>
+            <QPM:ProductHomeURL/>
+            <QPM:VendorName>QNX Software Systems Ltd.</QPM:VendorName>
+            <QPM:VendorInstallName>qssl</QPM:VendorInstallName>
+            <QPM:VendorEmbedURL>www.qnx.com</QPM:VendorEmbedURL>
+            <QPM:VendorURL>www.qnx.com</QPM:VendorURL>
+            <QPM:VendorIdentifier>qssl</QPM:VendorIdentifier>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Sendmail&apos;s components for x86.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Sendmail is the Internet standard mail handling software for mail servers. It manages mail accounts, and sends and receives mail to and from other computers.</QPM:ProductDescriptionLong>
+<!--<QPM:ProductDescriptionEmbedURL>rep://html/sendmail-core-8.9.3-x86/index.html</QPM:ProductDescriptionEmbedURL>
+            <QPM:ProductDescriptionURL>http://install.qnx.com/html/sendmail-core-8.9.3-x86/index.html</QPM:ProductDescriptionURL>
+-->
+            <QPM:InstallPath>public/sendmail/core-8.9.3/x86</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseCopyright>Commercial License</QPM:ReleaseCopyright>
+            <QPM:ReleaseCopyrightURL/>
+            <QPM:ReleaseDate>2000/06/07</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>8.9.3</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Low</QPM:ReleaseUrgency>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseNoteMinor/>
+         </QPM:ReleaseDescription>
+
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:CoreSibling/>
+            <QPM:ComponentType>Recommended</QPM:ComponentType>
+            <QPM:ComponentTypeNotes>Install this if you want/need photon applications</QPM:ComponentTypeNotes>
+            <QPM:ComponentParent>sendmail_core</QPM:ComponentParent>
+            <QPM:ComponentAuthenticationKey/>
+            <QPM:ComponentSignature/>
+            <QPM:UpgradeParent/>
+            <QPM:UpgradeFromVersion/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentKeyword>email</QPM:ContentKeyword>
+            <QPM:ContentTopic>Communication and Connectivity/Email Clients</QPM:ContentTopic>
+            <QPM:ContentLanguage/>
+            <QPM:Contains>binary,library</QPM:Contains>
+            <QPM:ContainsLibraries/>
+            <QPM:Processor>x86</QPM:Processor>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:HardwareRequirement>
+               <QPM:MinimumRAM/>
+               <QPM:RecommendedRAM/>
+               <QPM:MinimumFreeStorage>5M</QPM:MinimumFreeStorage>
+               <QPM:RecommendedFreeStorage>10M</QPM:RecommendedFreeStorage>
+               <QPM:MinimumResolution/>
+               <QPM:RecommendedColorDepth/>
+               <QPM:AudioSupport/>
+               <QPM:PhotonDistribution/>
+            </QPM:HardwareRequirement>
+
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes/>
+               <QPM:Product/>
+               <QPM:ProductHomeRepository/>
+               <QPM:Filter>
+                  <QPM:FilterType/>
+               </QPM:Filter>
+            </QPM:Dependency>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName/>
+               <QPM:Timing/>
+               <QPM:Event/>
+               <QPM:Filter>
+                  <QPM:FilterType/>
+               </QPM:Filter>
+            </QPM:Script>
+
+            <QPM:OrderDependency>
+               <QPM:Order>InstallOver</QPM:Order>
+               <QPM:Product>sendmail_x86</QPM:Product>
+               <QPM:Filter>
+                  <QPM:FilterType/>
+               </QPM:Filter>
+            </QPM:OrderDependency>
+         </QPM:ProductInstallationProcedure>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude/>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="usr">
+                  <QPM:Dir name="bin">
+                     <QPM:Link link="sendmail">purgestat</QPM:Link>
+                     <QPM:Link link="sendmail">hoststat</QPM:Link>
+                     <QPM:Link link="sendmail">mailq</QPM:Link>
+                     <QPM:Link link="sendmail">newaliases</QPM:Link>
+                     <QPM:File>sendmail</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

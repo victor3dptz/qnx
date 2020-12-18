@@ -1,0 +1,394 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>netpbm-10.11.3-bld2-public</QPM:PackageName>
+            <QPM:PackageSize>38720</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/01/24</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>1.9</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Netpbm</QPM:ProductName>
+            <QPM:ProductSize>219895</QPM:ProductSize>
+            <QPM:ProductIdentifier>netpbm</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Many, maintainer is Bryan Henderson</QPM:AuthorName>
+            <QPM:AuthorURL/>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>A collection of command line utilities for manipulating graphic data</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Netpbm is a toolkit for manipulation of graphic images, including conversion of images between a variety of different formats.  There are over 220 separate tools in the package including converters for about 100 graphics formats.  Examples of the sort of image manipulation we&apos;re talking about are: Shrinking an image by 10%; Cutting the top half off of an image; Making a mirror image; Creating a sequence of images that fade from one image to another.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://netpbm.sourceforge.net/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/netpbm/core-10.11.3-bld2</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/12/27</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>10.11.3</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>2</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>Artistic License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl/>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Multimedia/Graphics/Gaphics Conversion</QPM:ContentTopic>
+            <QPM:ContentKeyword>netpbm, graphics</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/lib">lib</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="bin">
+                     <QPM:File>anytopnm</QPM:File>
+                     <QPM:File>manweb</QPM:File>
+                     <QPM:File>pamstretch-gen</QPM:File>
+                     <QPM:File>pcdovtoppm</QPM:File>
+                     <QPM:File>pnmindex</QPM:File>
+                     <QPM:File>pnmmargin</QPM:File>
+                     <QPM:File>pnmquant</QPM:File>
+                     <QPM:File>ppmfade</QPM:File>
+                     <QPM:File>ppmquantall</QPM:File>
+                     <QPM:File>ppmrainbow</QPM:File>
+                     <QPM:File>ppmshadow</QPM:File>
+                     <QPM:File>ppmtomap</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="lib">
+                     <QPM:Link link="libnetpbm.so.10">libnetpbm.so</QPM:Link>
+                     <QPM:File>palmcolor8.map</QPM:File>
+                     <QPM:File>palmgray1.map</QPM:File>
+                     <QPM:File>palmgray2.map</QPM:File>
+                     <QPM:File>palmgray4.map</QPM:File>
+                     <QPM:File>rgb.txt</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="man">
+                     <QPM:Dir name="man1">
+                        <QPM:File>411toppm.1</QPM:File>
+                        <QPM:File>anytopnm.1</QPM:File>
+                        <QPM:File>asciitopgm.1</QPM:File>
+                        <QPM:File>atktopbm.1</QPM:File>
+                        <QPM:File>bioradtopgm.1</QPM:File>
+                        <QPM:File>bmptopnm.1</QPM:File>
+                        <QPM:File>brushtopbm.1</QPM:File>
+                        <QPM:File>cmuwmtopbm.1</QPM:File>
+                        <QPM:File>eyuvtoppm.1</QPM:File>
+                        <QPM:File>fiascotopnm.1</QPM:File>
+                        <QPM:File>fitstopnm.1</QPM:File>
+                        <QPM:File>fstopgm.1</QPM:File>
+                        <QPM:File>g3topbm.1</QPM:File>
+                        <QPM:File>gemtopnm.1</QPM:File>
+                        <QPM:File>giftopnm.1</QPM:File>
+                        <QPM:File>gouldtoppm.1</QPM:File>
+                        <QPM:File>hdifftopam.1</QPM:File>
+                        <QPM:File>hipstopgm.1</QPM:File>
+                        <QPM:File>hpcdtoppm.1</QPM:File>
+                        <QPM:File>icontopbm.1</QPM:File>
+                        <QPM:File>ilbmtoppm.1</QPM:File>
+                        <QPM:File>imgtoppm.1</QPM:File>
+                        <QPM:File>jbigtopnm.1</QPM:File>
+                        <QPM:File>jpegtopnm.1</QPM:File>
+                        <QPM:File>leaftoppm.1</QPM:File>
+                        <QPM:File>lispmtopgm.1</QPM:File>
+                        <QPM:File>macptopbm.1</QPM:File>
+                        <QPM:File>manweb.1</QPM:File>
+                        <QPM:File>mdatopbm.1</QPM:File>
+                        <QPM:File>mgrtopbm.1</QPM:File>
+                        <QPM:File>mtvtoppm.1</QPM:File>
+                        <QPM:File>neotoppm.1</QPM:File>
+                        <QPM:File>palmtopnm.1</QPM:File>
+                        <QPM:File>pamarith.1</QPM:File>
+                        <QPM:File>pamchannel.1</QPM:File>
+                        <QPM:File>pamcut.1</QPM:File>
+                        <QPM:File>pamdeinterlace.1</QPM:File>
+                        <QPM:File>pamdice.1</QPM:File>
+                        <QPM:File>pamendian.1</QPM:File>
+                        <QPM:File>pamfile.1</QPM:File>
+                        <QPM:File>pamfunc.1</QPM:File>
+                        <QPM:File>pamoil.1</QPM:File>
+                        <QPM:File>pamseq.1</QPM:File>
+                        <QPM:File>pamslice.1</QPM:File>
+                        <QPM:File>pamstack.1</QPM:File>
+                        <QPM:File>pamstretch-gen.1</QPM:File>
+                        <QPM:File>pamstretch.1</QPM:File>
+                        <QPM:File>pamtohdiff.1</QPM:File>
+                        <QPM:File>pamtopnm.1</QPM:File>
+                        <QPM:File>pamtotga.1</QPM:File>
+                        <QPM:File>pamtouil.1</QPM:File>
+                        <QPM:File>pbmclean.1</QPM:File>
+                        <QPM:File>pbmlife.1</QPM:File>
+                        <QPM:File>pbmmake.1</QPM:File>
+                        <QPM:File>pbmmask.1</QPM:File>
+                        <QPM:File>pbmpage.1</QPM:File>
+                        <QPM:File>pbmpscale.1</QPM:File>
+                        <QPM:File>pbmreduce.1</QPM:File>
+                        <QPM:File>pbmtext.1</QPM:File>
+                        <QPM:File>pbmtextps.1</QPM:File>
+                        <QPM:File>pbmto10x.1</QPM:File>
+                        <QPM:File>pbmto4425.1</QPM:File>
+                        <QPM:File>pbmtoascii.1</QPM:File>
+                        <QPM:File>pbmtoatk.1</QPM:File>
+                        <QPM:File>pbmtobbnbg.1</QPM:File>
+                        <QPM:File>pbmtocmuwm.1</QPM:File>
+                        <QPM:File>pbmtoepsi.1</QPM:File>
+                        <QPM:File>pbmtoepson.1</QPM:File>
+                        <QPM:File>pbmtog3.1</QPM:File>
+                        <QPM:File>pbmtogem.1</QPM:File>
+                        <QPM:File>pbmtogo.1</QPM:File>
+                        <QPM:File>pbmtoicon.1</QPM:File>
+                        <QPM:File>pbmtolj.1</QPM:File>
+                        <QPM:File>pbmtoln03.1</QPM:File>
+                        <QPM:File>pbmtolps.1</QPM:File>
+                        <QPM:File>pbmtomacp.1</QPM:File>
+                        <QPM:File>pbmtomda.1</QPM:File>
+                        <QPM:File>pbmtomgr.1</QPM:File>
+                        <QPM:File>pbmtonokia.1</QPM:File>
+                        <QPM:File>pbmtopgm.1</QPM:File>
+                        <QPM:File>pbmtopi3.1</QPM:File>
+                        <QPM:File>pbmtopk.1</QPM:File>
+                        <QPM:File>pbmtoplot.1</QPM:File>
+                        <QPM:File>pbmtoppa.1</QPM:File>
+                        <QPM:File>pbmtopsg3.1</QPM:File>
+                        <QPM:File>pbmtoptx.1</QPM:File>
+                        <QPM:File>pbmtowbmp.1</QPM:File>
+                        <QPM:File>pbmtox10bm.1</QPM:File>
+                        <QPM:File>pbmtoxbm.1</QPM:File>
+                        <QPM:File>pbmtoybm.1</QPM:File>
+                        <QPM:File>pbmtozinc.1</QPM:File>
+                        <QPM:File>pbmupc.1</QPM:File>
+                        <QPM:File>pcdovtoppm.1</QPM:File>
+                        <QPM:File>pcxtoppm.1</QPM:File>
+                        <QPM:File>pgmabel.1</QPM:File>
+                        <QPM:File>pgmbentley.1</QPM:File>
+                        <QPM:File>pgmcrater.1</QPM:File>
+                        <QPM:File>pgmedge.1</QPM:File>
+                        <QPM:File>pgmenhance.1</QPM:File>
+                        <QPM:File>pgmhist.1</QPM:File>
+                        <QPM:File>pgmkernel.1</QPM:File>
+                        <QPM:File>pgmnoise.1</QPM:File>
+                        <QPM:File>pgmramp.1</QPM:File>
+                        <QPM:File>pgmtexture.1</QPM:File>
+                        <QPM:File>pgmtofs.1</QPM:File>
+                        <QPM:File>pgmtolispm.1</QPM:File>
+                        <QPM:File>pgmtopbm.1</QPM:File>
+                        <QPM:File>pgmtopgm.1</QPM:File>
+                        <QPM:File>pgmtoppm.1</QPM:File>
+                        <QPM:File>pi1toppm.1</QPM:File>
+                        <QPM:File>pi3topbm.1</QPM:File>
+                        <QPM:File>picttoppm.1</QPM:File>
+                        <QPM:File>pjtoppm.1</QPM:File>
+                        <QPM:File>pktopbm.1</QPM:File>
+                        <QPM:File>pngtopnm.1</QPM:File>
+                        <QPM:File>pnmalias.1</QPM:File>
+                        <QPM:File>pnmcat.1</QPM:File>
+                        <QPM:File>pnmcolormap.1</QPM:File>
+                        <QPM:File>pnmcomp.1</QPM:File>
+                        <QPM:File>pnmconvol.1</QPM:File>
+                        <QPM:File>pnmcrop.1</QPM:File>
+                        <QPM:File>pnmcut.1</QPM:File>
+                        <QPM:File>pnmdepth.1</QPM:File>
+                        <QPM:File>pnmenlarge.1</QPM:File>
+                        <QPM:File>pnmflip.1</QPM:File>
+                        <QPM:File>pnmgamma.1</QPM:File>
+                        <QPM:File>pnmhisteq.1</QPM:File>
+                        <QPM:File>pnmhistmap.1</QPM:File>
+                        <QPM:File>pnmindex.1</QPM:File>
+                        <QPM:File>pnminvert.1</QPM:File>
+                        <QPM:File>pnmmargin.1</QPM:File>
+                        <QPM:File>pnmmontage.1</QPM:File>
+                        <QPM:File>pnmnlfilt.1</QPM:File>
+                        <QPM:File>pnmnorm.1</QPM:File>
+                        <QPM:File>pnmpad.1</QPM:File>
+                        <QPM:File>pnmpaste.1</QPM:File>
+                        <QPM:File>pnmpsnr.1</QPM:File>
+                        <QPM:File>pnmquant.1</QPM:File>
+                        <QPM:File>pnmremap.1</QPM:File>
+                        <QPM:File>pnmrotate.1</QPM:File>
+                        <QPM:File>pnmscale.1</QPM:File>
+                        <QPM:File>pnmscalefixed.1</QPM:File>
+                        <QPM:File>pnmshear.1</QPM:File>
+                        <QPM:File>pnmsmooth.1</QPM:File>
+                        <QPM:File>pnmsplit.1</QPM:File>
+                        <QPM:File>pnmstitch.1</QPM:File>
+                        <QPM:File>pnmtile.1</QPM:File>
+                        <QPM:File>pnmtoddif.1</QPM:File>
+                        <QPM:File>pnmtofiasco.1</QPM:File>
+                        <QPM:File>pnmtofits.1</QPM:File>
+                        <QPM:File>pnmtojbig.1</QPM:File>
+                        <QPM:File>pnmtojpeg.1</QPM:File>
+                        <QPM:File>pnmtopalm.1</QPM:File>
+                        <QPM:File>pnmtopclxl.1</QPM:File>
+                        <QPM:File>pnmtoplainpnm.1</QPM:File>
+                        <QPM:File>pnmtopng.1</QPM:File>
+                        <QPM:File>pnmtops.1</QPM:File>
+                        <QPM:File>pnmtorast.1</QPM:File>
+                        <QPM:File>pnmtorle.1</QPM:File>
+                        <QPM:File>pnmtosgi.1</QPM:File>
+                        <QPM:File>pnmtosir.1</QPM:File>
+                        <QPM:File>pnmtotiff.1</QPM:File>
+                        <QPM:File>pnmtotiffcmyk.1</QPM:File>
+                        <QPM:File>pnmtoxwd.1</QPM:File>
+                        <QPM:File>ppm3d.1</QPM:File>
+                        <QPM:File>ppmbrighten.1</QPM:File>
+                        <QPM:File>ppmchange.1</QPM:File>
+                        <QPM:File>ppmcie.1</QPM:File>
+                        <QPM:File>ppmcolormask.1</QPM:File>
+                        <QPM:File>ppmcolors.1</QPM:File>
+                        <QPM:File>ppmdim.1</QPM:File>
+                        <QPM:File>ppmdist.1</QPM:File>
+                        <QPM:File>ppmdither.1</QPM:File>
+                        <QPM:File>ppmfade.1</QPM:File>
+                        <QPM:File>ppmflash.1</QPM:File>
+                        <QPM:File>ppmforge.1</QPM:File>
+                        <QPM:File>ppmhist.1</QPM:File>
+                        <QPM:File>ppmlabel.1</QPM:File>
+                        <QPM:File>ppmmake.1</QPM:File>
+                        <QPM:File>ppmmix.1</QPM:File>
+                        <QPM:File>ppmntsc.1</QPM:File>
+                        <QPM:File>ppmpat.1</QPM:File>
+                        <QPM:File>ppmquant.1</QPM:File>
+                        <QPM:File>ppmquantall.1</QPM:File>
+                        <QPM:File>ppmrainbow.1</QPM:File>
+                        <QPM:File>ppmrelief.1</QPM:File>
+                        <QPM:File>ppmrough.1</QPM:File>
+                        <QPM:File>ppmshadow.1</QPM:File>
+                        <QPM:File>ppmshift.1</QPM:File>
+                        <QPM:File>ppmspread.1</QPM:File>
+                        <QPM:File>ppmtoacad.1</QPM:File>
+                        <QPM:File>ppmtobmp.1</QPM:File>
+                        <QPM:File>ppmtoeyuv.1</QPM:File>
+                        <QPM:File>ppmtogif.1</QPM:File>
+                        <QPM:File>ppmtoicr.1</QPM:File>
+                        <QPM:File>ppmtoilbm.1</QPM:File>
+                        <QPM:File>ppmtoleaf.1</QPM:File>
+                        <QPM:File>ppmtolj.1</QPM:File>
+                        <QPM:File>ppmtomap.1</QPM:File>
+                        <QPM:File>ppmtomitsu.1</QPM:File>
+                        <QPM:File>ppmtompeg.1</QPM:File>
+                        <QPM:File>ppmtoneo.1</QPM:File>
+                        <QPM:File>ppmtopcx.1</QPM:File>
+                        <QPM:File>ppmtopgm.1</QPM:File>
+                        <QPM:File>ppmtopi1.1</QPM:File>
+                        <QPM:File>ppmtopict.1</QPM:File>
+                        <QPM:File>ppmtopj.1</QPM:File>
+                        <QPM:File>ppmtopjxl.1</QPM:File>
+                        <QPM:File>ppmtoppm.1</QPM:File>
+                        <QPM:File>ppmtopuzz.1</QPM:File>
+                        <QPM:File>ppmtorgb3.1</QPM:File>
+                        <QPM:File>ppmtosixel.1</QPM:File>
+                        <QPM:File>ppmtoterm.1</QPM:File>
+                        <QPM:File>ppmtowinicon.1</QPM:File>
+                        <QPM:File>ppmtoxpm.1</QPM:File>
+                        <QPM:File>ppmtoyuv.1</QPM:File>
+                        <QPM:File>ppmtoyuvsplit.1</QPM:File>
+                        <QPM:File>ppmtv.1</QPM:File>
+                        <QPM:File>psidtopgm.1</QPM:File>
+                        <QPM:File>pstopnm.1</QPM:File>
+                        <QPM:File>qrttoppm.1</QPM:File>
+                        <QPM:File>rasttopnm.1</QPM:File>
+                        <QPM:File>rawtopgm.1</QPM:File>
+                        <QPM:File>rawtoppm.1</QPM:File>
+                        <QPM:File>rgb3toppm.1</QPM:File>
+                        <QPM:File>rletopnm.1</QPM:File>
+                        <QPM:File>sbigtopgm.1</QPM:File>
+                        <QPM:File>sgitopnm.1</QPM:File>
+                        <QPM:File>sirtopnm.1</QPM:File>
+                        <QPM:File>sldtoppm.1</QPM:File>
+                        <QPM:File>spctoppm.1</QPM:File>
+                        <QPM:File>spottopgm.1</QPM:File>
+                        <QPM:File>sputoppm.1</QPM:File>
+                        <QPM:File>tgatoppm.1</QPM:File>
+                        <QPM:File>thinkjettopbm.1</QPM:File>
+                        <QPM:File>tifftopnm.1</QPM:File>
+                        <QPM:File>wbmptopbm.1</QPM:File>
+                        <QPM:File>winicontoppm.1</QPM:File>
+                        <QPM:File>xbmtopbm.1</QPM:File>
+                        <QPM:File>ximtoppm.1</QPM:File>
+                        <QPM:File>xpmtoppm.1</QPM:File>
+                        <QPM:File>xvminitoppm.1</QPM:File>
+                        <QPM:File>xwdtopnm.1</QPM:File>
+                        <QPM:File>ybmtopbm.1</QPM:File>
+                        <QPM:File>yuvsplittoppm.1</QPM:File>
+                        <QPM:File>yuvtoppm.1</QPM:File>
+                        <QPM:File>zeisstopnm.1</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="man3">
+                        <QPM:File>libnetpbm.3</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="man5">
+                        <QPM:File>pam.5</QPM:File>
+                        <QPM:File>pbm.5</QPM:File>
+                        <QPM:File>pgm.5</QPM:File>
+                        <QPM:File>pnm.5</QPM:File>
+                        <QPM:File>ppm.5</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../opt/lib">lib</QPM:Union>
+                  <QPM:Union link="../opt/bin">bin</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/lib">lib</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="man">
+                     <QPM:Union link="../../opt/man/man5">man5</QPM:Union>
+                     <QPM:Union link="../../opt/man/man3">man3</QPM:Union>
+                     <QPM:Union link="../../opt/man/man1">man1</QPM:Union>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

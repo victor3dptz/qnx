@@ -1,0 +1,128 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:PackageName>gettext-0.11.5-x86-public</QPM:PackageName>
+            <QPM:PackageSize>352519</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/01/06</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>GNU gettext for x86</QPM:ProductName>
+            <QPM:ProductSize>1921428</QPM:ProductSize>
+            <QPM:ProductIdentifier>gettext-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>GNU</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.gnu.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Language support utilities and libs.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Language support utilities and libs.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.gnu.org/projects/gettext/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/gettext/core-0.11.5/x86</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/01/06</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>0.11.5</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://gettext-0.11.5-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>gettext</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Software Development/Libraries and Extensions/C Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>gettext,libintl</QPM:ContentKeyword>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libiconv.so.2</QPM:RequiresLibrary>
+            <QPM:ContainsLibrary>libgettextlib-0.11.5.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libgettextsrc-0.11.5.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libintl.so.4</QPM:ContainsLibrary>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure/>
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="bin">
+                     <QPM:File>gettext</QPM:File>
+                     <QPM:File>msgattrib</QPM:File>
+                     <QPM:File>msgcat</QPM:File>
+                     <QPM:File>msgcmp</QPM:File>
+                     <QPM:File>msgcomm</QPM:File>
+                     <QPM:File>msgconv</QPM:File>
+                     <QPM:File>msgen</QPM:File>
+                     <QPM:File>msgexec</QPM:File>
+                     <QPM:File>msgfilter</QPM:File>
+                     <QPM:File>msgfmt</QPM:File>
+                     <QPM:File>msggrep</QPM:File>
+                     <QPM:File>msginit</QPM:File>
+                     <QPM:File>msgmerge</QPM:File>
+                     <QPM:File>msgunfmt</QPM:File>
+                     <QPM:File>msguniq</QPM:File>
+                     <QPM:File>ngettext</QPM:File>
+                     <QPM:File>xgettext</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="lib">
+                     <QPM:Dir name="gettext">
+                        <QPM:File>hostname</QPM:File>
+                        <QPM:File>urlget</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:File>libgettextlib-0.11.5.so</QPM:File>
+                     <QPM:Link link="libgettextlib-0.11.5.so">libgettextlib.so</QPM:Link>
+                     <QPM:File>libgettextsrc-0.11.5.so</QPM:File>
+                     <QPM:Link link="libgettextsrc-0.11.5.so">libgettextsrc.so</QPM:Link>
+                     <QPM:Link link="libintl.so.4">libintl.so</QPM:Link>
+                     <QPM:File>libintl.so.4</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

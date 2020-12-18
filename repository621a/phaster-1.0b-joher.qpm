@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>phaster-1.0b-joher</QPM:PackageName>
+            <QPM:PackageSize>114.9K</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2001/03/02</QPM:PackageReleaseDate>
+            <QPM:PackageRepository>http://www.joher.com/repository/</QPM:PackageRepository>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>PhAster</QPM:ProductName>
+            <QPM:ProductSize>130.8K</QPM:ProductSize>
+            <QPM:ProductIdentifier>phaster</QPM:ProductIdentifier>
+            <QPM:ProductEmail>phaster@joher.com</QPM:ProductEmail>
+            <QPM:VendorName>JoHeR</QPM:VendorName>
+            <QPM:VendorInstallName>joher</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.joher.com/</QPM:VendorURL>
+            <QPM:VendorEmbedURL>http://www.joher.com/pm_embed.shtml</QPM:VendorEmbedURL>
+            <QPM:VendorEmail>info@joher.com</QPM:VendorEmail>
+            <QPM:AuthorName>Jean-Hugues ROYER</QPM:AuthorName>
+            <QPM:ProductIconSmall>http://www.joher.com/phaster/pm_icons.gif</QPM:ProductIconSmall>
+            <QPM:ProductIconLarge>http://www.joher.com/phaster/pm_iconl.gif</QPM:ProductIconLarge>
+            <QPM:ProductDescriptionShort>Full Featured Photon Napster Client</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Full Featured Photon Napster Client</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.joher.com/phaster/pm_desc.shtml</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL>http://www.joher.com/phaster/pm_descembed.shtml</QPM:ProductDescriptionEmbedURL>
+            <QPM:InstallPath>joher/phaster/core-1.0b</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2001/02/17</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>1.0b</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>High</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://phaster-1.0b-joher.repdata/phaster.txt</QPM:LicenseUrl>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Multimedia/Music and Audio/Music Management</QPM:ContentTopic>
+            <QPM:ContentKeyword>napster,mp3,music</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:DisplayEnvironment>Photon</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Use</QPM:ScriptType>
+            </QPM:Script>
+
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Unuse</QPM:ScriptType>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+      </QPM:PackageManifest>
+
+      <QPM:Launch name="PhAster">
+         <QPM:String name="Topic" value="Applications/Multimedia"/>
+         <QPM:String name="Command" value="/usr/photon/bin/phaster"/>
+      </QPM:Launch>
+
+      <QPM:Launch name="PhAster">
+         <QPM:String name="Topic" value="Applications/Internet"/>
+         <QPM:String name="Command" value="/usr/photon/bin/phaster"/>
+      </QPM:Launch>
+   </RDF:Description>
+</RDF:RDF>

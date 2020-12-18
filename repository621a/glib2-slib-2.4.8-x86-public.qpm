@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageName>glib2-slib-2.4.8-x86-public</QPM:PackageName>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2005/02/13</QPM:PackageReleaseDate>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:FileVersion>1.01</QPM:FileVersion>
+            <QPM:PackageDefaultState>hidden</QPM:PackageDefaultState>
+            <QPM:PackageModel>slib</QPM:PackageModel>
+            <QPM:DateCode>420eedff</QPM:DateCode>
+            <QPM:PackageSize>308851</QPM:PackageSize>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>975256</QPM:ProductSize>
+            <QPM:InstallPath>public/glib2/slib-2.4.8/x86</QPM:InstallPath>
+            <QPM:ProductName>Glib2 shared libraries for x86</QPM:ProductName>
+            <QPM:ProductIdentifier>glib2-slib-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail>gtk-list-request@gnome.org</QPM:ProductEmail>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.gtk.org</QPM:VendorURL>
+            <QPM:VendorEmail>gtk-list-request@gnome.org</QPM:VendorEmail>
+            <QPM:AuthorName>Glib2 Team</QPM:AuthorName>
+            <QPM:ProductDescriptionShort>GLib is the low-level core library that forms the basis for projects such as GTK+ and GNOME.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>GLib is the low-level core library that forms the basis for projects such as GTK+ and GNOME. It provides data structure handling for C, portability wrappers, and interfaces for such runtime functionality as an event loop, threads, dynamic loading, and an object system.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.gtk.org</QPM:ProductDescriptionURL>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2005/02/13</QPM:ReleaseDate>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ReleaseVersion>2.4.8</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseCopyright>GNU Lesser General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>glib2-slib</QPM:ComponentParent>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:ProvidesLibrary>libglib-2.0.so.400</QPM:ProvidesLibrary>
+            <QPM:ProvidesLibrary>libgmodule-2.0.so.400</QPM:ProvidesLibrary>
+            <QPM:ProvidesLibrary>libgobject-2.0.so.400</QPM:ProvidesLibrary>
+            <QPM:ProvidesLibrary>libgthread-2.0.so.400</QPM:ProvidesLibrary>
+            <QPM:ContentTopic>System/Shared Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>GNOME,glib,glib2,tree,hash,list</QPM:ContentKeyword>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:LicenseUrl>rep://glib2-2.4.8-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PackageDate>420eedff</QPM:PackageDate>
+         <QPM:Listing>
+            <QPM:Dir name="" dt="420eedff">
+               <QPM:Dir name="usr">
+                  <QPM:Dir name="lib">
+                     <QPM:Link link="libglib-2.0.so.400">libglib-2.0.so</QPM:Link>
+                     <QPM:Link link="libgmodule-2.0.so.400">libgmodule-2.0.so</QPM:Link>
+                     <QPM:Link link="libgobject-2.0.so.400">libgobject-2.0.so</QPM:Link>
+                     <QPM:Link link="libgthread-2.0.so.400">libgthread-2.0.so</QPM:Link>
+                     <QPM:File sum="9223c37e9d6fb6aec7c596fcdd5a0fa2" size="638496">libglib-2.0.so.400</QPM:File>
+                     <QPM:File sum="a77c46f9ededb5f82383facf7cb2430a" size="13283">libgmodule-2.0.so.400</QPM:File>
+                     <QPM:File sum="16c0dfaaf52febdac5022f3a35503dab" size="300020">libgobject-2.0.so.400</QPM:File>
+                     <QPM:File sum="79613b8415cab36a7871176ca5c487f9" size="18548">libgthread-2.0.so.400</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageName>PGLib-1.1-ppcbe-JF</QPM:PackageName>
+            <QPM:PackageSize>30376</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>14</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2002/05/21</QPM:PackageReleaseDate>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:PackageReleaseNotes/>
+            <QPM:PackageReleaseUrgency>Medium</QPM:PackageReleaseUrgency>
+            <QPM:PackageRepository>http://www.altbits.com/PGLib/repository/</QPM:PackageRepository>
+            <QPM:FileVersion>1.01</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>79640</QPM:ProductSize>
+            <QPM:InstallPath>JF/PGLib/core-1.1/ppcbe</QPM:InstallPath>
+            <QPM:ProductName>Portable Games Library for ppcbe</QPM:ProductName>
+            <QPM:ProductIdentifier>PGLib-host_ppcbe</QPM:ProductIdentifier>
+            <QPM:ProductEmail>pglib@altbits.com</QPM:ProductEmail>
+            <QPM:VendorName>JF</QPM:VendorName>
+            <QPM:VendorInstallName>JF</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>JF</QPM:AuthorName>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Portable Games Library</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong/>
+            <QPM:ProductDescriptionURL/>
+            <QPM:ProductDescriptionEmbedURL/>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2001/08/02</QPM:ReleaseDate>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ReleaseVersion>1.1</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Low</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:QNXLicenseDescription/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>PGLib</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:Processor>ppcbe</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:ContainsLibrary>libPGA.so.1</QPM:ContainsLibrary>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+            <QPM:ContainsLibrary>libPGG.so.1</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libPGI.so.1</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libPGS.so.1</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libPGU.so.1</QPM:ContainsLibrary>
+            <QPM:ContentTopic>System/Libraries and Extensions/C Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>pglib,notsdl,portable,games</QPM:ContentKeyword>
+            <QPM:DisplayEnvironment>Photon</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:LicenseUrl>rep://PGLib-1.1-JF.repdata/LicenseUrl/PGLib_COPYRIGHT.txt</QPM:LicenseUrl>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="usr">
+                  <QPM:Dir name="lib">
+                     <QPM:File>libPGA.so.1</QPM:File>
+                     <QPM:Link link="libPGA.so.1">libPGA.so</QPM:Link>
+                     <QPM:File>libPGG.so.1</QPM:File>
+                     <QPM:Link link="libPGG.so.1">libPGG.so</QPM:Link>
+                     <QPM:File>libPGI.so.1</QPM:File>
+                     <QPM:Link link="libPGI.so.1">libPGI.so</QPM:Link>
+                     <QPM:File>libPGS.so.1</QPM:File>
+                     <QPM:Link link="libPGS.so.1">libPGS.so</QPM:Link>
+                     <QPM:File>libPGU.so.1</QPM:File>
+                     <QPM:Link link="libPGU.so.1">libPGU.so</QPM:Link>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

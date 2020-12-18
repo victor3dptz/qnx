@@ -1,0 +1,110 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageName>MySQL-dev_x86-4.0.9ga-bld2-MySQL</QPM:PackageName>
+            <QPM:PackageSize>315795</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/01/24</QPM:PackageReleaseDate>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageRepository>ftp://24.112.178.91/pub/qnxrtp/repository</QPM:PackageRepository>
+            <QPM:PackageModel>dev</QPM:PackageModel>
+            <QPM:FileVersion>1.9</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>929087</QPM:ProductSize>
+            <QPM:InstallPath>MySQL/MySQL/dev_x86-4.0.9ga-bld2</QPM:InstallPath>
+            <QPM:ProductName>MySQL Development</QPM:ProductName>
+            <QPM:ProductIdentifier>MySQL-dev-target_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:ProductURL>www.mysql.com</QPM:ProductURL>
+            <QPM:VendorName>MySQL</QPM:VendorName>
+            <QPM:VendorInstallName>MySQL</QPM:VendorInstallName>
+            <QPM:VendorURL>www.mysql.com</QPM:VendorURL>
+            <QPM:VendorEmbedURL>www.mysql.com</QPM:VendorEmbedURL>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>MySQL</QPM:AuthorName>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>MySQL</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>MySQL-4.0.9-gamma ported by Andrew Thomas, Cogent Real-Time Systems Inc.  This port includes support for UNIX-domain socket connections.  If you receive a dependency error while installing this application, select &quot;ignore the error&quot; and continue with the installation.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>www.mysql.com</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL>www.mysql.com</QPM:ProductDescriptionEmbedURL>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/01/24</QPM:ReleaseDate>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseVersion>4.0.9gamma</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor>QNX6 Port</QPM:ReleaseNoteMinor>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>2</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>GPL</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:Processor/>
+            <QPM:TargetProcessor>x86</QPM:TargetProcessor>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:RequiresLibrary>libmysqlclient.so.12</QPM:RequiresLibrary>
+            <QPM:ContentTopic>Public Software/System/Services, Servers and Daemons/Database Servers</QPM:ContentTopic>
+            <QPM:ContentKeyword/>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>Requires the core development package (Packager-generated dependency).</QPM:Notes>
+               <QPM:Product>MySQL-dev</QPM:Product>
+            </QPM:Dependency>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:LicenseUrl/>
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Union link="$(PROCESSOR)/opt">opt</QPM:Union>
+               <QPM:Dir name="x86">
+                  <QPM:Dir name="opt">
+                     <QPM:Dir name="lib">
+                        <QPM:File>libdbug.a</QPM:File>
+                        <QPM:File>libheap.a</QPM:File>
+                        <QPM:File>libmerge.a</QPM:File>
+                        <QPM:File>libmyisam.a</QPM:File>
+                        <QPM:File>libmyisammrg.a</QPM:File>
+                        <QPM:File>libmysqlclient.a</QPM:File>
+                        <QPM:File>libmystrings.a</QPM:File>
+                        <QPM:File>libmysys.a</QPM:File>
+                        <QPM:File>libnisam.a</QPM:File>
+                        <QPM:File>libvio.a</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

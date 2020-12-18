@@ -1,0 +1,171 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>curl-7.10.7-public</QPM:PackageName>
+            <QPM:PackageSize>142710</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>2</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseNotes/>
+            <QPM:PackageReleaseUrgency>Medium</QPM:PackageReleaseUrgency>
+            <QPM:PackageReleaseDate>2003/09/25</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>cURL</QPM:ProductName>
+            <QPM:ProductSize>411478</QPM:ProductSize>
+            <QPM:ProductIdentifier>curl</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Daniel Stenberg</QPM:AuthorName>
+            <QPM:AuthorURL/>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Curl is a command line tool for transfering data specified with URL syntax.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Curl is a command line tool for transfering data specified with URL syntax. libcurl is a library that Curl is using to do its job. It is readily  available to be used by your software.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://curl.haxx.se/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/curl/core-7.10.7</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/08/15</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>7.10.7</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>High</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://curl-7.10.7-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>System/Network and Data Transmission/Download and Data Transfer/File Transfer Protocols</QPM:ContentTopic>
+            <QPM:ContentKeyword>curl</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="bin">
+                     <QPM:File>curl-config</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="lib">
+                     <QPM:File>libcurl.la</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="man">
+                     <QPM:Dir name="man1">
+                        <QPM:File>curl-config.1</QPM:File>
+                        <QPM:File>curl.1</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="man3">
+                        <QPM:File>curl_easy_cleanup.3</QPM:File>
+                        <QPM:File>curl_easy_duphandle.3</QPM:File>
+                        <QPM:File>curl_easy_getinfo.3</QPM:File>
+                        <QPM:File>curl_easy_init.3</QPM:File>
+                        <QPM:File>curl_easy_perform.3</QPM:File>
+                        <QPM:File>curl_easy_setopt.3</QPM:File>
+                        <QPM:File>curl_escape.3</QPM:File>
+                        <QPM:File>curl_formadd.3</QPM:File>
+                        <QPM:File>curl_formfree.3</QPM:File>
+                        <QPM:File>curl_formparse.3</QPM:File>
+                        <QPM:File>curl_free.3</QPM:File>
+                        <QPM:File>curl_getdate.3</QPM:File>
+                        <QPM:File>curl_getenv.3</QPM:File>
+                        <QPM:File>curl_global_cleanup.3</QPM:File>
+                        <QPM:File>curl_global_init.3</QPM:File>
+                        <QPM:File>curl_mprintf.3</QPM:File>
+                        <QPM:File>curl_multi_add_handle.3</QPM:File>
+                        <QPM:File>curl_multi_cleanup.3</QPM:File>
+                        <QPM:File>curl_multi_fdset.3</QPM:File>
+                        <QPM:File>curl_multi_info_read.3</QPM:File>
+                        <QPM:File>curl_multi_init.3</QPM:File>
+                        <QPM:File>curl_multi_perform.3</QPM:File>
+                        <QPM:File>curl_multi_remove_handle.3</QPM:File>
+                        <QPM:File>curl_share_cleanup.3</QPM:File>
+                        <QPM:File>curl_share_init.3</QPM:File>
+                        <QPM:File>curl_share_setopt.3</QPM:File>
+                        <QPM:File>curl_slist_append.3</QPM:File>
+                        <QPM:File>curl_slist_free_all.3</QPM:File>
+                        <QPM:File>curl_strequal.3</QPM:File>
+                        <QPM:File>curl_strnequal.3</QPM:File>
+                        <QPM:File>curl_unescape.3</QPM:File>
+                        <QPM:File>curl_version.3</QPM:File>
+                        <QPM:File>curl_version_info.3</QPM:File>
+                        <QPM:File>libcurl-easy.3</QPM:File>
+                        <QPM:File>libcurl-errors.3</QPM:File>
+                        <QPM:File>libcurl-multi.3</QPM:File>
+                        <QPM:File>libcurl-share.3</QPM:File>
+                        <QPM:File>libcurl.3</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="curl">
+                        <QPM:File>curl-ca-bundle.crt</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../opt/lib">lib</QPM:Union>
+                  <QPM:Union link="../opt/bin">bin</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="man">
+                     <QPM:Union link="../../opt/man/man3">man3</QPM:Union>
+                     <QPM:Union link="../../opt/man/man1">man1</QPM:Union>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Union link="../../opt/share/curl">curl</QPM:Union>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

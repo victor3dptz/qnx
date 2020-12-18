@@ -1,0 +1,278 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>firebird-0.7-x86-public</QPM:PackageName>
+            <QPM:PackageSize>9385180</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/02/23</QPM:PackageReleaseDate>
+            <QPM:PackageRepository>http://www.mozilla.org/</QPM:PackageRepository>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>MozillaFirebird for x86</QPM:ProductName>
+            <QPM:ProductSize>28525568</QPM:ProductSize>
+            <QPM:ProductIdentifier>firebird-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail>adrianmardare@hotmail.com</QPM:ProductEmail>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.mozilla.org/</QPM:VendorURL>
+            <QPM:VendorEmbedURL>http://www.mozilla.org/</QPM:VendorEmbedURL>
+            <QPM:VendorEmail>adrianmardare@hotmail.com</QPM:VendorEmail>
+            <QPM:AuthorName>Adrian Mardare ( adrianmardare@hotmail.com )</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.mozilla.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL>http://www.mozilla.org/</QPM:AuthorEmbedURL>
+            <QPM:AuthorEmail>adrianmardare@hotmail.com</QPM:AuthorEmail>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>MozillaFirebird 0.7 for QNX Rtp</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>MozillaFirebird 0.7 for QNX Rtp</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.mozilla.org/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL>http://www.mozilla.org/</QPM:ProductDescriptionEmbedURL>
+            <QPM:InstallPath>public/firebird/core-0.7/x86</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/10/12</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>0.7</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor>No notes</QPM:ReleaseNoteMinor>
+            <QPM:ReleaseNoteMajor>No notes</QPM:ReleaseNoteMajor>
+            <QPM:ReleaseBuild>9</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>Mozilla Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl/>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>firebird</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>World Wide Web/Browser</QPM:ContentTopic>
+            <QPM:ContentKeyword>mozilla,firebird,web,www,browser</QPM:ContentKeyword>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Photon</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+            <QPM:RequiresLibrary>libsocket.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libm.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libstdc++.so.2.2.10.0</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+            <QPM:ContainsLibrary>libaccessibility.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libappcomps.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libautoconfig.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libcaps.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libchrome.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libcookie.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libdocshell.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libbrowsercomps.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libtoolkitcomps.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libeditor.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libembedcomponents.so</QPM:ContainsLibrary>
+            <QPM:RequiresLibrary>libph.so.2</QPM:RequiresLibrary>
+            <QPM:ContainsLibrary>libgfx_photon.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libgfxps.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libgklayout.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libgkplugin.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libhtmlpars.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libi18n.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libimglib2.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libjar50.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libjsd.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libjsdom.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libmork.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libmozfind.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libnecko.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libnecko2.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libnsappshell.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libnsprefm.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>liboji.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libpipboot.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libpipnss.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libpippki.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libpref.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libprofile.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>librdf.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libtransformiix.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libtxmgr.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libtypeaheadfind.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libuconv.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libucvmath.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libuniversalchardet.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libwallet.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libwalletviewers.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libwebbrwsr.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libwidget_photon.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libxmlextras.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libxpconnect.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libxpinstall.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libgkgfx.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libjsj.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libmozjs.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libmozz.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libnspr4.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libnss3.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libnssckbi.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libphembedmoz.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libplc4.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libplds4.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libsmime3.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libsoftokn3.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libssl3.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libxpcom.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libxpistub.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>liblockmodule.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libtransmngr.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libipcdc.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libp3p.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libwebsrvcs.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libxpcom_compat_c.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libxpcom_compat.so</QPM:ContainsLibrary>
+            <QPM:RequiresLibrary>libphexlib.so.2</QPM:RequiresLibrary>
+            <QPM:ContainsLibrary>vpi.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libmyspell.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libspellchecker.so</QPM:ContainsLibrary>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+            <QPM:Dependency>
+               <QPM:DependencyType>Unuse</QPM:DependencyType>
+               <QPM:Notes>Deactivate previous versions of MozillaFirebird</QPM:Notes>
+               <QPM:Filter>
+                  <QPM:FilterType>StringExpression</QPM:FilterType>
+                  <ProductIdentifier>firebird*</ProductIdentifier>
+               </QPM:Filter>
+            </QPM:Dependency>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure/>
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="Mozilla">
+                     <QPM:Dir name="firebird">
+                        <QPM:Dir name="components">
+                           <QPM:File>libaccessibility.so</QPM:File>
+                           <QPM:File>libappcomps.so</QPM:File>
+                           <QPM:File>libautoconfig.so</QPM:File>
+                           <QPM:File>libcaps.so</QPM:File>
+                           <QPM:File>libchrome.so</QPM:File>
+                           <QPM:File>libcookie.so</QPM:File>
+                           <QPM:File>libdocshell.so</QPM:File>
+                           <QPM:File>libeditor.so</QPM:File>
+                           <QPM:File>libembedcomponents.so</QPM:File>
+                           <QPM:File>libgfx_photon.so</QPM:File>
+                           <QPM:File>libgfxps.so</QPM:File>
+                           <QPM:File>libgklayout.so</QPM:File>
+                           <QPM:File>libgkplugin.so</QPM:File>
+                           <QPM:File>libhtmlpars.so</QPM:File>
+                           <QPM:File>libi18n.so</QPM:File>
+                           <QPM:File>libimglib2.so</QPM:File>
+                           <QPM:File>libjar50.so</QPM:File>
+                           <QPM:File>libjsd.so</QPM:File>
+                           <QPM:File>libjsdom.so</QPM:File>
+                           <QPM:File>libmork.so</QPM:File>
+                           <QPM:File>libmozfind.so</QPM:File>
+                           <QPM:File>libnecko.so</QPM:File>
+                           <QPM:File>libnecko2.so</QPM:File>
+                           <QPM:File>libnsappshell.so</QPM:File>
+                           <QPM:File>libnsprefm.so</QPM:File>
+                           <QPM:File>liboji.so</QPM:File>
+                           <QPM:File>libpipboot.so</QPM:File>
+                           <QPM:File>libpipnss.so</QPM:File>
+                           <QPM:File>libpippki.so</QPM:File>
+                           <QPM:File>libpref.so</QPM:File>
+                           <QPM:File>libprofile.so</QPM:File>
+                           <QPM:File>librdf.so</QPM:File>
+                           <QPM:File>libtransformiix.so</QPM:File>
+                           <QPM:File>libtxmgr.so</QPM:File>
+                           <QPM:File>libtypeaheadfind.so</QPM:File>
+                           <QPM:File>libuconv.so</QPM:File>
+                           <QPM:File>libbrowsercomps.so</QPM:File>
+                           <QPM:File>libtoolkitcomps.so</QPM:File>
+                           <QPM:File>libucvmath.so</QPM:File>
+                           <QPM:File>libuniversalchardet.so</QPM:File>
+                           <QPM:File>libwallet.so</QPM:File>
+                           <QPM:File>libwalletviewers.so</QPM:File>
+                           <QPM:File>libwebbrwsr.so</QPM:File>
+                           <QPM:File>libwidget_photon.so</QPM:File>
+                           <QPM:File>libxmlextras.so</QPM:File>
+                           <QPM:File>libxpconnect.so</QPM:File>
+                           <QPM:File>libxpinstall.so</QPM:File>
+                           <QPM:File>libipcdc.so</QPM:File>
+                           <QPM:File>libp3p.so</QPM:File>
+                           <QPM:File>libwebsrvcs.so</QPM:File>
+                           <QPM:File>libxpcom_compat_c.so</QPM:File>
+                           <QPM:File>libmyspell.so</QPM:File>
+                           <QPM:File>libspellchecker.so</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ipc">
+                           <QPM:Dir name="modules">
+                              <QPM:File>liblockmodule.so</QPM:File>
+                              <QPM:File>libtransmngr.so</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:File>libgkgfx.so</QPM:File>
+                        <QPM:File>libjsj.so</QPM:File>
+                        <QPM:File>libmozjs.so</QPM:File>
+                        <QPM:File>libmozz.so</QPM:File>
+                        <QPM:File>libnspr4.so</QPM:File>
+                        <QPM:File>libnss3.so</QPM:File>
+                        <QPM:File>libnssckbi.so</QPM:File>
+                        <QPM:File>libphembedmoz.so</QPM:File>
+                        <QPM:File>libplc4.so</QPM:File>
+                        <QPM:File>libplds4.so</QPM:File>
+                        <QPM:File>libsmime3.so</QPM:File>
+                        <QPM:File>libsoftokn3.so</QPM:File>
+                        <QPM:File>libssl3.so</QPM:File>
+                        <QPM:File>libxpcom.so</QPM:File>
+                        <QPM:File>libxpistub.so</QPM:File>
+                        <QPM:File>libxpcom_compat.so</QPM:File>
+                        <QPM:File>MozillaFirebird-bin</QPM:File>
+                        <QPM:File>mozserver</QPM:File>
+                        <QPM:File>moznote</QPM:File>
+                        <QPM:File>wave</QPM:File>
+                        <QPM:File>nsinstall</QPM:File>
+                        <QPM:Dir name="plugins">
+                           <QPM:File>vpi.so</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>regchrome</QPM:File>
+                        <QPM:File>regxpcom</QPM:File>
+                        <QPM:File>xpcshell</QPM:File>
+                        <QPM:File>xpicleanup</QPM:File>
+                        <QPM:File>xpidl</QPM:File>
+                        <QPM:File>xpt_dump</QPM:File>
+                        <QPM:File>xpt_link</QPM:File>
+                        <QPM:File>mangle</QPM:File>
+                        <QPM:File>mozipcd</QPM:File>
+                        <QPM:File>shlibsign</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

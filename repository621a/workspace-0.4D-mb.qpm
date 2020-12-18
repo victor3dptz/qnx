@@ -1,0 +1,116 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageName>workspace-0.4D-mb</QPM:PackageName>
+            <QPM:PackageSize>34095</QPM:PackageSize>
+            <QPM:PackageReleaseDate>2002/05/20</QPM:PackageReleaseDate>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>1.01</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>150727</QPM:ProductSize>
+            <QPM:InstallPath>mb/workspace/core-0.4D</QPM:InstallPath>
+            <QPM:ProductName>Workspace</QPM:ProductName>
+            <QPM:ProductIdentifier>workspace</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Michel Belanger</QPM:VendorName>
+            <QPM:VendorInstallName>mb</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Michel Belanger</QPM:AuthorName>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Advanced Text Editor</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Workspace is a Photon native code editor. It provides a number of advanced features for developers, including syntax highlighting and advanced find/replace functionality.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL/>
+            <QPM:ProductDescriptionEmbedURL/>
+         </QPM:ProductDescription>
+
+         <QPM:QNXLicenseDescription/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/05/20</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>0.4D</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Low</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Beta</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>No License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Text Editing and Processing/Text Editors</QPM:ContentTopic>
+            <QPM:ContentKeyword>workspace</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:DisplayEnvironment>Photon</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements>No additional requirements.</QPM:ProductRequirements>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Unuse</QPM:ScriptType>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="workspace">
+                        <QPM:File>General.cfg</QPM:File>
+                        <QPM:File>Editor.cfg</QPM:File>
+                        <QPM:File>requirement.txt</QPM:File>
+                        <QPM:File>content.html</QPM:File>
+                        <QPM:File>notes.html</QPM:File>
+                        <QPM:File>history.html</QPM:File>
+                        <QPM:File>licenses.html</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="photon">
+                     <QPM:Union link="../../$(PROCESSOR)/usr/photon/bin">bin</QPM:Union>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+
+      <QPM:Launch name="Workspace">
+         <QPM:String name="Topic" value="Applications/Editors"/>
+         <QPM:String name="Command" value="/usr/photon/bin/ws"/>
+         <QPM:String name="Icon" value="/usr/share/icons/topics/document_letter_word-processor.gif"/>
+      </QPM:Launch>
+   </RDF:Description>
+</RDF:RDF>

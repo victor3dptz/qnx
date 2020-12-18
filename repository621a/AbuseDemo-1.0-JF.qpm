@@ -1,0 +1,407 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageName>AbuseDemo-1.0-JF</QPM:PackageName>
+            <QPM:PackageSize>1566229</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>17</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/01/24</QPM:PackageReleaseDate>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageReleaseNotes/>
+            <QPM:PackageReleaseUrgency>Medium</QPM:PackageReleaseUrgency>
+            <QPM:PackageRepository>http://staff.qnx.com/~jfehr/repository</QPM:PackageRepository>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>4534555</QPM:ProductSize>
+            <QPM:InstallPath>JF/AbuseDemo/core-1.0</QPM:InstallPath>
+            <QPM:ProductName>Abuse Demo</QPM:ProductName>
+            <QPM:ProductIdentifier>AbuseDemo</QPM:ProductIdentifier>
+            <QPM:ProductEmail>pglib@home.com</QPM:ProductEmail>
+            <QPM:VendorName>JF</QPM:VendorName>
+            <QPM:VendorInstallName>JF</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Crack dot Com</QPM:AuthorName>
+            <QPM:ProductIconSmall>rep://AbuseDemo-1.0-JF.repdata/ProductIconSmall/abuse_sicon.gif</QPM:ProductIconSmall>
+            <QPM:ProductIconLarge>rep://AbuseDemo-1.0-JF.repdata/ProductIconLarge/abuse_bicon.gif</QPM:ProductIconLarge>
+            <QPM:ProductDescriptionShort>Abuse Demo for QNX RTOS 6.0</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong/>
+            <QPM:ProductDescriptionURL>http://www.crack.com</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2001/04/03</QPM:ReleaseDate>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseVersion>1.0</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:ContentTopic>Games and Diversions/Arcade Shoot &apos;em Ups</QPM:ContentTopic>
+            <QPM:ContentKeyword>pglib,aglib,notsdl,abuse</QPM:ContentKeyword>
+            <QPM:DisplayEnvironment>Photon</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements>This package requires the PG Libraries.</QPM:ProductRequirements>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:LicenseUrl>rep://AbuseDemo-1.0-JF.repdata/LicenseUrl/README</QPM:LicenseUrl>
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Unuse</QPM:ScriptType>
+            </QPM:Script>
+
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Use</QPM:ScriptType>
+            </QPM:Script>
+
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Unuse</QPM:ScriptType>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="Abuse">
+                        <QPM:File>abuse.lsp</QPM:File>
+                        <QPM:Dir name="addon">
+                           <QPM:Dir name="deathmat">
+                              <QPM:File>cur_lev.lsp</QPM:File>
+                              <QPM:File>deathmat.lsp</QPM:File>
+                              <QPM:File>dstartup.lsp</QPM:File>
+                              <QPM:File>gamename.lsp</QPM:File>
+                              <QPM:File>large.lsp</QPM:File>
+                              <QPM:File>levelset.lsp</QPM:File>
+                              <QPM:File>medium.lsp</QPM:File>
+                              <QPM:File>small.lsp</QPM:File>
+                              <QPM:File>username.lsp</QPM:File>
+                              <QPM:File>version.lsp</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="example">
+                              <QPM:File>example.lsp</QPM:File>
+                              <QPM:File>example.lvl</QPM:File>
+                              <QPM:File>example.spe</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="art">
+                           <QPM:File>ant.spe</QPM:File>
+                           <QPM:Dir name="back">
+                              <QPM:File>backgrnd.spe</QPM:File>
+                              <QPM:File>cave.spe</QPM:File>
+                              <QPM:File>city.spe</QPM:File>
+                              <QPM:File>intro.spe</QPM:File>
+                              <QPM:File>tech.spe</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>ball.spe</QPM:File>
+                           <QPM:File>blowups.spe</QPM:File>
+                           <QPM:File>bold.spe</QPM:File>
+                           <QPM:Dir name="chars">
+                              <QPM:File>ammo.spe</QPM:File>
+                              <QPM:File>block.spe</QPM:File>
+                              <QPM:File>concus.spe</QPM:File>
+                              <QPM:File>door.spe</QPM:File>
+                              <QPM:File>lava.spe</QPM:File>
+                              <QPM:File>lavap.spe</QPM:File>
+                              <QPM:File>lightin.spe</QPM:File>
+                              <QPM:File>mine.spe</QPM:File>
+                              <QPM:File>platform.spe</QPM:File>
+                              <QPM:File>push.spe</QPM:File>
+                              <QPM:File>sect.spe</QPM:File>
+                              <QPM:File>step.spe</QPM:File>
+                              <QPM:File>tdoor.spe</QPM:File>
+                              <QPM:File>teleport.spe</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>cloud.spe</QPM:File>
+                           <QPM:File>compass.spe</QPM:File>
+                           <QPM:File>consfnt.spe</QPM:File>
+                           <QPM:File>cop.spe</QPM:File>
+                           <QPM:File>coptop.spe</QPM:File>
+                           <QPM:File>credit.spe</QPM:File>
+                           <QPM:File>dev.spe</QPM:File>
+                           <QPM:File>door.spe</QPM:File>
+                           <QPM:File>endgame.spe</QPM:File>
+                           <QPM:File>exp1.spe</QPM:File>
+                           <QPM:File>flyer.spe</QPM:File>
+                           <QPM:File>fonts.spe</QPM:File>
+                           <QPM:Dir name="fore">
+                              <QPM:File>cave.spe</QPM:File>
+                              <QPM:File>foregrnd.spe</QPM:File>
+                              <QPM:File>techno.spe</QPM:File>
+                              <QPM:File>techno2.spe</QPM:File>
+                              <QPM:File>techno3.spe</QPM:File>
+                              <QPM:File>techno4.spe</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>frame.spe</QPM:File>
+                           <QPM:File>gun2.spe</QPM:File>
+                           <QPM:File>help.spe</QPM:File>
+                           <QPM:File>icons.spe</QPM:File>
+                           <QPM:File>jug.spe</QPM:File>
+                           <QPM:File>letters.spe</QPM:File>
+                           <QPM:File>misc.spe</QPM:File>
+                           <QPM:File>missle.spe</QPM:File>
+                           <QPM:File>pform.spe</QPM:File>
+                           <QPM:File>rob1.spe</QPM:File>
+                           <QPM:File>rob2.spe</QPM:File>
+                           <QPM:File>screen11.spe</QPM:File>
+                           <QPM:File>smoke.spe</QPM:File>
+                           <QPM:File>statbar.spe</QPM:File>
+                           <QPM:Dir name="tints">
+                              <QPM:Dir name="ant">
+                                 <QPM:File>blue.spe</QPM:File>
+                                 <QPM:File>brown.spe</QPM:File>
+                                 <QPM:File>darkblue.spe</QPM:File>
+                                 <QPM:File>egg.spe</QPM:File>
+                                 <QPM:File>evil.spe</QPM:File>
+                                 <QPM:File>gray.spe</QPM:File>
+                                 <QPM:File>green.spe</QPM:File>
+                                 <QPM:File>mustard.spe</QPM:File>
+                                 <QPM:File>orange.spe</QPM:File>
+                                 <QPM:File>yellow.spe</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="cop">
+                                 <QPM:File>africa.spe</QPM:File>
+                                 <QPM:File>blue.spe</QPM:File>
+                                 <QPM:File>bright.spe</QPM:File>
+                                 <QPM:File>darkblue.spe</QPM:File>
+                                 <QPM:File>fire.spe</QPM:File>
+                                 <QPM:File>gold.spe</QPM:File>
+                                 <QPM:File>gray.spe</QPM:File>
+                                 <QPM:File>land.spe</QPM:File>
+                                 <QPM:File>normal.txt</QPM:File>
+                                 <QPM:File>olive.spe</QPM:File>
+                                 <QPM:File>pinkish.spe</QPM:File>
+                                 <QPM:File>purple.spe</QPM:File>
+                                 <QPM:File>yellow.spe</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="guns">
+                                 <QPM:File>blue.spe</QPM:File>
+                                 <QPM:File>green.spe</QPM:File>
+                                 <QPM:File>orange.spe</QPM:File>
+                                 <QPM:File>redish.spe</QPM:File>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:File>title.spe</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="levels">
+                           <QPM:File>demo1.dat</QPM:File>
+                           <QPM:File>level00.cpf</QPM:File>
+                           <QPM:File>level00.spe</QPM:File>
+                           <QPM:File>level01.cpf</QPM:File>
+                           <QPM:File>level01.spe</QPM:File>
+                           <QPM:File>level02.cpf</QPM:File>
+                           <QPM:File>level02.spe</QPM:File>
+                           <QPM:File>level03.cpf</QPM:File>
+                           <QPM:File>level03.spe</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>light.tbl</QPM:File>
+                        <QPM:Dir name="lisp">
+                           <QPM:File>ant.lsp</QPM:File>
+                           <QPM:File>chat.lsp</QPM:File>
+                           <QPM:File>common.lsp</QPM:File>
+                           <QPM:File>doors.lsp</QPM:File>
+                           <QPM:File>duong.lsp</QPM:File>
+                           <QPM:File>english.lsp</QPM:File>
+                           <QPM:File>explo.lsp</QPM:File>
+                           <QPM:File>flyer.lsp</QPM:File>
+                           <QPM:File>french.lsp</QPM:File>
+                           <QPM:File>gates.lsp</QPM:File>
+                           <QPM:File>general.lsp</QPM:File>
+                           <QPM:File>german.lsp</QPM:File>
+                           <QPM:File>guns.lsp</QPM:File>
+                           <QPM:File>input.lsp</QPM:File>
+                           <QPM:File>jugger.lsp</QPM:File>
+                           <QPM:File>ladder.lsp</QPM:File>
+                           <QPM:File>language.lsp</QPM:File>
+                           <QPM:File>light.lsp</QPM:File>
+                           <QPM:File>options.lsp</QPM:File>
+                           <QPM:File>people.lsp</QPM:File>
+                           <QPM:File>platform.lsp</QPM:File>
+                           <QPM:File>playwav.lsp</QPM:File>
+                           <QPM:File>powerup.lsp</QPM:File>
+                           <QPM:File>sfx.lsp</QPM:File>
+                           <QPM:File>share.lsp</QPM:File>
+                           <QPM:File>startup.lsp</QPM:File>
+                           <QPM:File>switch.lsp</QPM:File>
+                           <QPM:File>teleport.lsp</QPM:File>
+                           <QPM:File>upgrade.lsp</QPM:File>
+                           <QPM:File>userfuns.lsp</QPM:File>
+                           <QPM:File>version.lsp</QPM:File>
+                           <QPM:File>weapons.lsp</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="music">
+                           <QPM:File>abuse00.hmi</QPM:File>
+                           <QPM:File>abuse01.hmi</QPM:File>
+                           <QPM:File>abuse02.hmi</QPM:File>
+                           <QPM:File>abuse03.hmi</QPM:File>
+                           <QPM:File>abuse04.hmi</QPM:File>
+                           <QPM:File>abuse06.hmi</QPM:File>
+                           <QPM:File>abuse08.hmi</QPM:File>
+                           <QPM:File>abuse09.hmi</QPM:File>
+                           <QPM:File>abuse11.hmi</QPM:File>
+                           <QPM:File>abuse13.hmi</QPM:File>
+                           <QPM:File>abuse15.hmi</QPM:File>
+                           <QPM:File>abuse17.hmi</QPM:File>
+                           <QPM:File>intro.hmi</QPM:File>
+                           <QPM:File>playhmp.lsp</QPM:File>
+                           <QPM:File>victory.hmi</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="sfx">
+                           <QPM:File>abuse.wav</QPM:File>
+                           <QPM:File>adie02.wav</QPM:File>
+                           <QPM:File>adie03.wav</QPM:File>
+                           <QPM:File>adie05.wav</QPM:File>
+                           <QPM:File>ahit01.wav</QPM:File>
+                           <QPM:File>aland01.wav</QPM:File>
+                           <QPM:File>alien01.wav</QPM:File>
+                           <QPM:File>amb07.wav</QPM:File>
+                           <QPM:File>amb10.wav</QPM:File>
+                           <QPM:File>amb11.wav</QPM:File>
+                           <QPM:File>amb13.wav</QPM:File>
+                           <QPM:File>amb15.wav</QPM:File>
+                           <QPM:File>amb16.wav</QPM:File>
+                           <QPM:File>ambcave1.wav</QPM:File>
+                           <QPM:File>ambcave2.wav</QPM:File>
+                           <QPM:File>ambcave3.wav</QPM:File>
+                           <QPM:File>ambcave4.wav</QPM:File>
+                           <QPM:File>ambfrst2.wav</QPM:File>
+                           <QPM:File>ambtech1.wav</QPM:File>
+                           <QPM:File>ambtech2.wav</QPM:File>
+                           <QPM:File>ambtech3.wav</QPM:File>
+                           <QPM:File>ammo01.wav</QPM:File>
+                           <QPM:File>ammo02.wav</QPM:File>
+                           <QPM:File>apain01.wav</QPM:File>
+                           <QPM:File>aslash01.wav</QPM:File>
+                           <QPM:File>ball01.wav</QPM:File>
+                           <QPM:File>blkfoot4.wav</QPM:File>
+                           <QPM:File>button02.wav</QPM:File>
+                           <QPM:File>cleaner.wav</QPM:File>
+                           <QPM:File>crmble01.wav</QPM:File>
+                           <QPM:File>delobj01.wav</QPM:File>
+                           <QPM:File>doorup01.wav</QPM:File>
+                           <QPM:File>doorup02.wav</QPM:File>
+                           <QPM:File>eleacc01.wav</QPM:File>
+                           <QPM:File>elect02.wav</QPM:File>
+                           <QPM:File>eledec01.wav</QPM:File>
+                           <QPM:File>endlvl02.wav</QPM:File>
+                           <QPM:File>explod02.wav</QPM:File>
+                           <QPM:File>fadeon01.wav</QPM:File>
+                           <QPM:File>firebmb1.wav</QPM:File>
+                           <QPM:File>flamloop.wav</QPM:File>
+                           <QPM:File>fly03.wav</QPM:File>
+                           <QPM:File>force01.wav</QPM:File>
+                           <QPM:File>grenad01.wav</QPM:File>
+                           <QPM:File>health01.wav</QPM:File>
+                           <QPM:File>lasrmis2.wav</QPM:File>
+                           <QPM:File>lava01.wav</QPM:File>
+                           <QPM:File>link01.wav</QPM:File>
+                           <QPM:File>logo09.wav</QPM:File>
+                           <QPM:File>metal.wav</QPM:File>
+                           <QPM:File>mghit01.wav</QPM:File>
+                           <QPM:File>mghit02.wav</QPM:File>
+                           <QPM:File>pland01.wav</QPM:File>
+                           <QPM:File>plasma02.wav</QPM:File>
+                           <QPM:File>plasma03.wav</QPM:File>
+                           <QPM:File>pldeth02.wav</QPM:File>
+                           <QPM:File>pldeth04.wav</QPM:File>
+                           <QPM:File>pldeth05.wav</QPM:File>
+                           <QPM:File>pldeth07.wav</QPM:File>
+                           <QPM:File>plpain01.wav</QPM:File>
+                           <QPM:File>plpain02.wav</QPM:File>
+                           <QPM:File>plpain04.wav</QPM:File>
+                           <QPM:File>plpain10.wav</QPM:File>
+                           <QPM:File>poof05.wav</QPM:File>
+                           <QPM:File>poof06.wav</QPM:File>
+                           <QPM:File>robot02.wav</QPM:File>
+                           <QPM:File>rocket02.wav</QPM:File>
+                           <QPM:File>save01.wav</QPM:File>
+                           <QPM:File>save05.wav</QPM:File>
+                           <QPM:File>scream02.wav</QPM:File>
+                           <QPM:File>scream03.wav</QPM:File>
+                           <QPM:File>scream08.wav</QPM:File>
+                           <QPM:File>shotgn31.wav</QPM:File>
+                           <QPM:File>speed02.wav</QPM:File>
+                           <QPM:File>spring03.wav</QPM:File>
+                           <QPM:File>swish01.wav</QPM:File>
+                           <QPM:File>switch01.wav</QPM:File>
+                           <QPM:File>telept01.wav</QPM:File>
+                           <QPM:File>throw01.wav</QPM:File>
+                           <QPM:File>timerfst.wav</QPM:File>
+                           <QPM:File>zap2.wav</QPM:File>
+                           <QPM:File>zap3.wav</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../$(PROCESSOR)/usr/bin">bin</QPM:Union>
+                  <QPM:Dir name="share">
+                     <QPM:Union link="../../opt/share/Abuse">Abuse</QPM:Union>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+
+      <QPM:Launch name="Abuse Demo">
+         <QPM:String name="Topic" value="Applications/Games"/>
+         <QPM:String name="Command" value="/usr/bin/Abuse"/>
+      </QPM:Launch>
+   </RDF:Description>
+</RDF:RDF>

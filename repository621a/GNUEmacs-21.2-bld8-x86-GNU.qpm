@@ -1,0 +1,127 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageName>GNUEmacs-21.2-bld8-x86-GNU</QPM:PackageName>
+            <QPM:PackageSize>9315011</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2002/05/31</QPM:PackageReleaseDate>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageRepository>ftp://24.112.178.91/pub/qnxrtp/repository</QPM:PackageRepository>
+            <QPM:PackageModel>app</QPM:PackageModel>
+            <QPM:FileVersion>1.9</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>45463485</QPM:ProductSize>
+            <QPM:InstallPath>GNU/GNUEmacs/core-21.2-bld8/x86</QPM:InstallPath>
+            <QPM:ProductName>GNU Emacs for x86</QPM:ProductName>
+            <QPM:ProductIdentifier>GNUEmacs-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:ProductURL>www.gnu.org</QPM:ProductURL>
+            <QPM:VendorName>GNU</QPM:VendorName>
+            <QPM:VendorInstallName>GNU</QPM:VendorInstallName>
+            <QPM:VendorURL>www.gnu.org</QPM:VendorURL>
+            <QPM:VendorEmbedURL>www.gnu.org</QPM:VendorEmbedURL>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>GNU</QPM:AuthorName>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>GNU Emacs</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>GNU Emacs 21.2 ported by Andrew Thomas, Cogent Real-Time Systems Inc.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>www.gnu.org</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL>www.gnu.org</QPM:ProductDescriptionEmbedURL>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/05/31</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>21.2</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor>QNX6 Port</QPM:ReleaseNoteMinor>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>8</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>GPL</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>GNUEmacs</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:RequiresLibrary>libsocket.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libXaw.so.7</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libXmu.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libXt.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libSM.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libICE.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libXext.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libtiff.so.3</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libjpeg.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libpng10.so.0</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libz.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libm.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libXpm.so.4</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libX11.so.6</QPM:RequiresLibrary>
+            <QPM:ContentTopic>Text Editing and Processing/Text Editors/Emacs</QPM:ContentTopic>
+            <QPM:ContentKeyword/>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:LicenseUrl/>
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="bin">
+                     <QPM:File>b2m</QPM:File>
+                     <QPM:File>ctags</QPM:File>
+                     <QPM:File>ebrowse</QPM:File>
+                     <QPM:File>emacs</QPM:File>
+                     <QPM:File>emacs-21.2</QPM:File>
+                     <QPM:File>emacsclient</QPM:File>
+                     <QPM:File>etags</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="libexec">
+                     <QPM:Dir name="emacs">
+                        <QPM:Dir name="21.2">
+                           <QPM:Dir name="x86-pc-nto-qnx">
+                              <QPM:File>cvtmail</QPM:File>
+                              <QPM:File>digest-doc</QPM:File>
+                              <QPM:File>emacsserver</QPM:File>
+                              <QPM:File>fakemail</QPM:File>
+                              <QPM:File>hexl</QPM:File>
+                              <QPM:File>movemail</QPM:File>
+                              <QPM:File>profile</QPM:File>
+                              <QPM:File>sorted-doc</QPM:File>
+                              <QPM:File>yow</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

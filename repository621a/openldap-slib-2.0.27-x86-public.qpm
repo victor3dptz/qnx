@@ -1,0 +1,105 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:PackageName>openldap-slib-2.0.27-x86-public</QPM:PackageName>
+            <QPM:PackageSize>190496</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/01/15</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:PackageDefaultState>hidden</QPM:PackageDefaultState>
+            <QPM:PackageModel>slib</QPM:PackageModel>
+            <QPM:FileVersion>1.01</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Open LDAP shared libraries for x86</QPM:ProductName>
+            <QPM:ProductSize>1279795</QPM:ProductSize>
+            <QPM:ProductIdentifier>openldap-slib-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail>xtang@qnx.com</QPM:ProductEmail>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>OpenLDAP Foundation</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.openldap.org</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail>info@openldap.org</QPM:AuthorEmail>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Open source implemention of Lightweight Directory Access Protocol</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Open source implemention of Lightweight Directory Access Protocol</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.openldap.org/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/openldap/slib-2.0.27/x86</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/05/16</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>2.0.27</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Low</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://openldap-2.0.27-public.repdata/LicenseUrl/LICENSE</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>openldap-slib</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>System/Shared Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>ldap,openldap</QPM:ContentKeyword>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Administrator</QPM:TargetAudience>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+            <QPM:ContainsLibrary>liblber.so.2</QPM:ContainsLibrary>
+            <QPM:ProvidesLibrary>liblber.so.2</QPM:ProvidesLibrary>
+            <QPM:RequiresLibrary>libssl.so.0.9.7</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libcrypto.so.0.9.7</QPM:RequiresLibrary>
+            <QPM:ContainsLibrary>libldap.so.2</QPM:ContainsLibrary>
+            <QPM:ProvidesLibrary>libldap.so.2</QPM:ProvidesLibrary>
+            <QPM:ContainsLibrary>libldap_r.so.2</QPM:ContainsLibrary>
+            <QPM:ProvidesLibrary>libldap_r.so.2</QPM:ProvidesLibrary>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="lib">
+                     <QPM:File>liblber.so.2</QPM:File>
+                     <QPM:File>libldap.so.2</QPM:File>
+                     <QPM:File>libldap_r.so.2</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

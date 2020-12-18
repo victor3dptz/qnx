@@ -1,0 +1,182 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:PackageName>freetype-dev-2.1.2-public</QPM:PackageName>
+            <QPM:PackageSize>163095</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2002/12/26</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:PackageModel>dev</QPM:PackageModel>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>FreeType Development</QPM:ProductName>
+            <QPM:ProductSize>1206748</QPM:ProductSize>
+            <QPM:ProductIdentifier>freetype-dev</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>library for rendering true type fonts</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>library for rendering true type fonts</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL/>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/freetype/dev-2.1.2</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/12/26</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>2.1.2</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>No License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>System/Libraries and Extensions/C Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>freetype, ttf, truetype</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements>/</QPM:ProductRequirements>
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>Must include at least one development package targeting a specific processor (Packager-generated dependency).</QPM:Notes>
+               <QPM:Filter>
+                  <QPM:FilterType>StringExpression</QPM:FilterType>
+                  <ProductIdentifier>freetype-dev-target*</ProductIdentifier>
+               </QPM:Filter>
+            </QPM:Dependency>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="include">
+                     <QPM:Dir name="freetype2">
+                        <QPM:Dir name="freetype">
+                           <QPM:Dir name="cache">
+                              <QPM:File>ftccache.h</QPM:File>
+                              <QPM:File>ftccmap.h</QPM:File>
+                              <QPM:File>ftcglyph.h</QPM:File>
+                              <QPM:File>ftcimage.h</QPM:File>
+                              <QPM:File>ftcmanag.h</QPM:File>
+                              <QPM:File>ftcsbits.h</QPM:File>
+                              <QPM:File>ftlru.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="config">
+                              <QPM:File>ftconfig.h</QPM:File>
+                              <QPM:File>ftheader.h</QPM:File>
+                              <QPM:File>ftmodule.h</QPM:File>
+                              <QPM:File>ftoption.h</QPM:File>
+                              <QPM:File>ftstdlib.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>freetype.h</QPM:File>
+                           <QPM:File>ftbbox.h</QPM:File>
+                           <QPM:File>ftbdf.h</QPM:File>
+                           <QPM:File>ftcache.h</QPM:File>
+                           <QPM:File>ftchapters.h</QPM:File>
+                           <QPM:File>fterrdef.h</QPM:File>
+                           <QPM:File>fterrors.h</QPM:File>
+                           <QPM:File>ftglyph.h</QPM:File>
+                           <QPM:File>ftimage.h</QPM:File>
+                           <QPM:File>ftlist.h</QPM:File>
+                           <QPM:File>ftmac.h</QPM:File>
+                           <QPM:File>ftmm.h</QPM:File>
+                           <QPM:File>ftmoderr.h</QPM:File>
+                           <QPM:File>ftmodule.h</QPM:File>
+                           <QPM:File>ftoutln.h</QPM:File>
+                           <QPM:File>ftrender.h</QPM:File>
+                           <QPM:File>ftsizes.h</QPM:File>
+                           <QPM:File>ftsnames.h</QPM:File>
+                           <QPM:File>ftsynth.h</QPM:File>
+                           <QPM:File>ftsysio.h</QPM:File>
+                           <QPM:File>ftsysmem.h</QPM:File>
+                           <QPM:File>ftsystem.h</QPM:File>
+                           <QPM:File>fttrigon.h</QPM:File>
+                           <QPM:File>fttypes.h</QPM:File>
+                           <QPM:File>ftxf86.h</QPM:File>
+                           <QPM:Dir name="internal">
+                              <QPM:File>autohint.h</QPM:File>
+                              <QPM:File>bdftypes.h</QPM:File>
+                              <QPM:File>cfftypes.h</QPM:File>
+                              <QPM:File>fnttypes.h</QPM:File>
+                              <QPM:File>ftcalc.h</QPM:File>
+                              <QPM:File>ftcore.h</QPM:File>
+                              <QPM:File>ftdebug.h</QPM:File>
+                              <QPM:File>ftdriver.h</QPM:File>
+                              <QPM:File>ftexcept.h</QPM:File>
+                              <QPM:File>ftgloadr.h</QPM:File>
+                              <QPM:File>fthash.h</QPM:File>
+                              <QPM:File>ftmemory.h</QPM:File>
+                              <QPM:File>ftobject.h</QPM:File>
+                              <QPM:File>ftobjs.h</QPM:File>
+                              <QPM:File>ftstream.h</QPM:File>
+                              <QPM:File>fttrace.h</QPM:File>
+                              <QPM:File>internal.h</QPM:File>
+                              <QPM:File>pcftypes.h</QPM:File>
+                              <QPM:File>psaux.h</QPM:File>
+                              <QPM:File>pshints.h</QPM:File>
+                              <QPM:File>psnames.h</QPM:File>
+                              <QPM:File>sfnt.h</QPM:File>
+                              <QPM:File>t1types.h</QPM:File>
+                              <QPM:File>t42types.h</QPM:File>
+                              <QPM:File>tttypes.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>t1tables.h</QPM:File>
+                           <QPM:File>ttnameid.h</QPM:File>
+                           <QPM:File>tttables.h</QPM:File>
+                           <QPM:File>tttags.h</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+
+                     <QPM:File>ft2build.h</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../opt/include">include</QPM:Union>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

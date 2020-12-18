@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageName>zlib-1.2.2-public</QPM:PackageName>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2005/01/27</QPM:PackageReleaseDate>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:FileVersion>2.6</QPM:FileVersion>
+            <QPM:DateCode>41f8187b</QPM:DateCode>
+            <QPM:PackageSize>11003</QPM:PackageSize>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>29588</QPM:ProductSize>
+            <QPM:InstallPath>public/zlib/core-1.2.2</QPM:InstallPath>
+            <QPM:ProductName>zlib</QPM:ProductName>
+            <QPM:ProductIdentifier>zlib</QPM:ProductIdentifier>
+            <QPM:ProductEmail>alain.bonnefoy@icbt.com</QPM:ProductEmail>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.gzip.org/zlib/</QPM:VendorURL>
+            <QPM:AuthorName>Jean-Loup Gailly,Mark Adler</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.gzip.org/zlib/</QPM:AuthorURL>
+            <QPM:AuthorEmail>zlib@gzip.org</QPM:AuthorEmail>
+            <QPM:ProductDescriptionShort>A massively spiffy yet delicately unobtrusive compression library.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>zlib is designed to be a free, general-purpose, legally unencumbered, lossless data compression library for use on virtually any computer hardware and operating system.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.gzip.org/zlib/</QPM:ProductDescriptionURL>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2005/01/27</QPM:ReleaseDate>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ReleaseVersion>1.2.2</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Software Development/Libraries and Extensions/C Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>zlib,compression</QPM:ContentKeyword>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:LicenseUrl>rep://zlib-1.2.2-public.repdata/LicenseUrl/LICENSE</QPM:LicenseUrl>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:PackageDate>41f8187b</QPM:PackageDate>
+         <QPM:Listing>
+            <QPM:Dir name="" dt="41f8187b">
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../$(PROCESSOR)/usr/bin">bin</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/usr/lib">lib</QPM:Union>
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="doc">
+                        <QPM:Dir name="zlib-1.2.2">
+                           <QPM:File sum="755fcba43b4c71be8b1dee4e50519cb3" size="15050">FAQ</QPM:File>
+                           <QPM:File sum="68810b4333fd2942bdcf4b2f2ce21c43" size="5710">README</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="man">
+                        <QPM:Dir name="man3">
+                           <QPM:File sum="c1882d5a711158376a811b5ddac33d0f" size="4488">zlib.3</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

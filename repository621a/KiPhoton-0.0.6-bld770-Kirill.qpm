@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:PackageName>KiPhoton-0.0.6-bld770-Kirill</QPM:PackageName>
+            <QPM:PackageSize>1290</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2002/03/30</QPM:PackageReleaseDate>
+            <QPM:PackageRepository>http://www.kirilla.com/download</QPM:PackageRepository>
+            <QPM:FileVersion>1.01</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>KiPhoton</QPM:ProductName>
+            <QPM:ProductSize>0</QPM:ProductSize>
+            <QPM:ProductIdentifier>KiPhoton</QPM:ProductIdentifier>
+            <QPM:ProductEmail>jlv@kirilla.com</QPM:ProductEmail>
+            <QPM:VendorName>Kirilla</QPM:VendorName>
+            <QPM:VendorInstallName>Kirilla</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.kirilla.com</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail>jlv@kirilla.com</QPM:VendorEmail>
+            <QPM:AuthorName>Jean-Louis Villecroze</QPM:AuthorName>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Photon C++ layer</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong/>
+            <QPM:ProductDescriptionURL>http://www.kirilla.com/qnx/KiPhoton.html</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>Kirill/KiPhoton/core-0.0.6-bld770</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/03/30</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>0.0.6</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>High</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Beta</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>770</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>Demo License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Software Development/Libraries and Extensions/C++ Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>C++ layer</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:DisplayEnvironment>Photon</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName>echo &quot;Please delete any older version first&quot;</QPM:ScriptName>
+               <QPM:ScriptType>Install</QPM:ScriptType>
+               <QPM:ScriptTiming>Pre</QPM:ScriptTiming>
+               <QPM:ScriptBlocking>Yes</QPM:ScriptBlocking>
+               <QPM:ScriptResult>Ignore</QPM:ScriptResult>
+               <QPM:ShortDescription>Display warning</QPM:ShortDescription>
+               <QPM:UseBinaries>No</QPM:UseBinaries>
+               <QPM:Priority>Required</QPM:Priority>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+   </RDF:Description>
+</RDF:RDF>

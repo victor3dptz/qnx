@@ -1,0 +1,301 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>man-db-2.3.20-public</QPM:PackageName>
+            <QPM:PackageSize>106115</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2002/05/25</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>1.9</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>GNU Man DB</QPM:ProductName>
+            <QPM:ProductSize>379920</QPM:ProductSize>
+            <QPM:ProductIdentifier>man-db</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Free Software Foundation</QPM:AuthorName>
+            <QPM:AuthorURL>www.fsf.org</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>GNU&apos;s version of man</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>GNU&apos;s version of man.  Used to read documentation for many unix programs.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>www.gnu.org</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/man-db/core-2.3.20</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/05/25</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>2.3.20</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://man-db-2.3.20-public.repdata/LicenseUrl/LICENSE</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Text Editing and Processing/Viewing and Formatting</QPM:ContentTopic>
+            <QPM:ContentKeyword>man, man-db</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/sbin">sbin</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="etc">
+                     <QPM:File>man_db.conf</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="lib">
+                     <QPM:Dir name="man-db"/>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="locale">
+                        <QPM:Dir name="cs">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>man_db.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="de">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>man_db.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="es">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>man_db.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="fr">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>man_db.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="it">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>man_db.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ja">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>man_db.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="man">
+                        <QPM:Dir name="de_DE.88591">
+                           <QPM:Dir name="man1">
+                              <QPM:File>apropos.1</QPM:File>
+                              <QPM:File>man.1</QPM:File>
+                              <QPM:File>manpath.1</QPM:File>
+                              <QPM:File>whatis.1</QPM:File>
+                              <QPM:File>zsoelim.1</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="man5">
+                              <QPM:File>manpath.5</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="man8">
+                              <QPM:File>accessdb.8</QPM:File>
+                              <QPM:File>catman.8</QPM:File>
+                              <QPM:File>mandb.8</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="es_ES.88591">
+                           <QPM:Dir name="man1">
+                              <QPM:File>apropos.1</QPM:File>
+                              <QPM:File>man.1</QPM:File>
+                              <QPM:File>manpath.1</QPM:File>
+                              <QPM:File>whatis.1</QPM:File>
+                              <QPM:File>zsoelim.1</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="man5">
+                              <QPM:File>manpath.5</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="man8">
+                              <QPM:File>accessdb.8</QPM:File>
+                              <QPM:File>catman.8</QPM:File>
+                              <QPM:File>mandb.8</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="it_IT.88591">
+                           <QPM:Dir name="man1">
+                              <QPM:File>apropos.1</QPM:File>
+                              <QPM:File>man.1</QPM:File>
+                              <QPM:File>manpath.1</QPM:File>
+                              <QPM:File>whatis.1</QPM:File>
+                              <QPM:File>zsoelim.1</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="man5">
+                              <QPM:File>manpath.5</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="man8">
+                              <QPM:File>accessdb.8</QPM:File>
+                              <QPM:File>catman.8</QPM:File>
+                              <QPM:File>mandb.8</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ja_JP.eucJP">
+                           <QPM:Dir name="man1">
+                              <QPM:File>apropos.1</QPM:File>
+                              <QPM:File>man.1</QPM:File>
+                              <QPM:File>manpath.1</QPM:File>
+                              <QPM:File>whatis.1</QPM:File>
+                              <QPM:File>zsoelim.1</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="man5">
+                              <QPM:File>manpath.5</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="man8">
+                              <QPM:File>accessdb.8</QPM:File>
+                              <QPM:File>catman.8</QPM:File>
+                              <QPM:File>mandb.8</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="man1">
+                           <QPM:File>apropos.1</QPM:File>
+                           <QPM:File>lexgrog.1</QPM:File>
+                           <QPM:File>man.1</QPM:File>
+                           <QPM:File>manpath.1</QPM:File>
+                           <QPM:File>whatis.1</QPM:File>
+                           <QPM:File>zsoelim.1</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="man5">
+                           <QPM:File>manpath.5</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="man8">
+                           <QPM:File>accessdb.8</QPM:File>
+                           <QPM:File>catman.8</QPM:File>
+                           <QPM:File>mandb.8</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../$(PROCESSOR)/opt/sbin">sbin</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="locale">
+                        <QPM:Dir name="cs">
+                           <QPM:Union link="../../../../opt/share/locale/cs/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="de">
+                           <QPM:Union link="../../../../opt/share/locale/de/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="es">
+                           <QPM:Union link="../../../../opt/share/locale/es/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="fr">
+                           <QPM:Union link="../../../../opt/share/locale/fr/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="it">
+                           <QPM:Union link="../../../../opt/share/locale/it/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ja">
+                           <QPM:Union link="../../../../opt/share/locale/ja/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="man">
+                        <QPM:Union link="../../../opt/share/man/man8">man8</QPM:Union>
+                        <QPM:Union link="../../../opt/share/man/man5">man5</QPM:Union>
+                        <QPM:Union link="../../../opt/share/man/man1">man1</QPM:Union>
+                        <QPM:Dir name="de_DE.88591">
+                           <QPM:Union link="../../../../opt/share/man/de_DE.88591/man8">man8</QPM:Union>
+                           <QPM:Union link="../../../../opt/share/man/de_DE.88591/man5">man5</QPM:Union>
+                           <QPM:Union link="../../../../opt/share/man/de_DE.88591/man1">man1</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="es_ES.88591">
+                           <QPM:Union link="../../../../opt/share/man/es_ES.88591/man8">man8</QPM:Union>
+                           <QPM:Union link="../../../../opt/share/man/es_ES.88591/man5">man5</QPM:Union>
+                           <QPM:Union link="../../../../opt/share/man/es_ES.88591/man1">man1</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="it_IT.88591">
+                           <QPM:Union link="../../../../opt/share/man/it_IT.88591/man8">man8</QPM:Union>
+                           <QPM:Union link="../../../../opt/share/man/it_IT.88591/man5">man5</QPM:Union>
+                           <QPM:Union link="../../../../opt/share/man/it_IT.88591/man1">man1</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ja_JP.eucJP">
+                           <QPM:Union link="../../../../opt/share/man/ja_JP.eucJP/man8">man8</QPM:Union>
+                           <QPM:Union link="../../../../opt/share/man/ja_JP.eucJP/man5">man5</QPM:Union>
+                           <QPM:Union link="../../../../opt/share/man/ja_JP.eucJP/man1">man1</QPM:Union>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

@@ -1,0 +1,1347 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:PackageName>db-4.0.14-bld2-public</QPM:PackageName>
+            <QPM:PackageSize>832048</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/01/03</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Berkeley DB</QPM:ProductName>
+            <QPM:ProductSize>4753409</QPM:ProductSize>
+            <QPM:ProductIdentifier>db</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Sleepycat Software</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.sleepycat.com/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Berkeley DB</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Berkeley DB is a file based database system, very popular on UNIX systems.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.sleepycat.com/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/db/core-4.0.14-bld2</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/01/03</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>4.0.14</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>2</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://db-4.0.14-bld2-public.repdata/LicenseUrl/LICENSE</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Software Development/Libraries and Extensions/C Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>db,db-4.0,sleepycat</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/lib">lib</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="doc">
+                     <QPM:Dir name="db40">
+                        <QPM:Dir name="api_c">
+                           <QPM:Dir name="CVS">
+                              <QPM:File>Entries</QPM:File>
+                              <QPM:File>Repository</QPM:File>
+                              <QPM:File>Root</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>c_index.html</QPM:File>
+                           <QPM:File>c_pindex.html</QPM:File>
+                           <QPM:File>db_associate.html</QPM:File>
+                           <QPM:File>db_close.html</QPM:File>
+                           <QPM:File>db_create.html</QPM:File>
+                           <QPM:File>db_cursor.html</QPM:File>
+                           <QPM:File>db_del.html</QPM:File>
+                           <QPM:File>db_err.html</QPM:File>
+                           <QPM:File>db_fd.html</QPM:File>
+                           <QPM:File>db_get.html</QPM:File>
+                           <QPM:File>db_get_byteswapped.html</QPM:File>
+                           <QPM:File>db_get_type.html</QPM:File>
+                           <QPM:File>db_join.html</QPM:File>
+                           <QPM:File>db_key_range.html</QPM:File>
+                           <QPM:File>db_lsn.html</QPM:File>
+                           <QPM:File>db_open.html</QPM:File>
+                           <QPM:File>db_put.html</QPM:File>
+                           <QPM:File>db_remove.html</QPM:File>
+                           <QPM:File>db_rename.html</QPM:File>
+                           <QPM:File>db_set_alloc.html</QPM:File>
+                           <QPM:File>db_set_append_recno.html</QPM:File>
+                           <QPM:File>db_set_bt_compare.html</QPM:File>
+                           <QPM:File>db_set_bt_minkey.html</QPM:File>
+                           <QPM:File>db_set_bt_prefix.html</QPM:File>
+                           <QPM:File>db_set_cachesize.html</QPM:File>
+                           <QPM:File>db_set_dup_compare.html</QPM:File>
+                           <QPM:File>db_set_errcall.html</QPM:File>
+                           <QPM:File>db_set_errfile.html</QPM:File>
+                           <QPM:File>db_set_errpfx.html</QPM:File>
+                           <QPM:File>db_set_feedback.html</QPM:File>
+                           <QPM:File>db_set_flags.html</QPM:File>
+                           <QPM:File>db_set_h_ffactor.html</QPM:File>
+                           <QPM:File>db_set_h_hash.html</QPM:File>
+                           <QPM:File>db_set_h_nelem.html</QPM:File>
+                           <QPM:File>db_set_lorder.html</QPM:File>
+                           <QPM:File>db_set_pagesize.html</QPM:File>
+                           <QPM:File>db_set_paniccall.html</QPM:File>
+                           <QPM:File>db_set_q_extentsize.html</QPM:File>
+                           <QPM:File>db_set_re_delim.html</QPM:File>
+                           <QPM:File>db_set_re_len.html</QPM:File>
+                           <QPM:File>db_set_re_pad.html</QPM:File>
+                           <QPM:File>db_set_re_source.html</QPM:File>
+                           <QPM:File>db_stat.html</QPM:File>
+                           <QPM:File>db_sync.html</QPM:File>
+                           <QPM:File>db_truncate.html</QPM:File>
+                           <QPM:File>db_upgrade.html</QPM:File>
+                           <QPM:File>db_verify.html</QPM:File>
+                           <QPM:File>dbc_close.html</QPM:File>
+                           <QPM:File>dbc_count.html</QPM:File>
+                           <QPM:File>dbc_del.html</QPM:File>
+                           <QPM:File>dbc_dup.html</QPM:File>
+                           <QPM:File>dbc_get.html</QPM:File>
+                           <QPM:File>dbc_put.html</QPM:File>
+                           <QPM:File>dbm.html</QPM:File>
+                           <QPM:File>dbt.html</QPM:File>
+                           <QPM:File>dbt_bulk.html</QPM:File>
+                           <QPM:File>env_close.html</QPM:File>
+                           <QPM:File>env_create.html</QPM:File>
+                           <QPM:File>env_err.html</QPM:File>
+                           <QPM:File>env_open.html</QPM:File>
+                           <QPM:File>env_remove.html</QPM:File>
+                           <QPM:File>env_set_alloc.html</QPM:File>
+                           <QPM:File>env_set_cachesize.html</QPM:File>
+                           <QPM:File>env_set_data_dir.html</QPM:File>
+                           <QPM:File>env_set_errcall.html</QPM:File>
+                           <QPM:File>env_set_errfile.html</QPM:File>
+                           <QPM:File>env_set_errpfx.html</QPM:File>
+                           <QPM:File>env_set_feedback.html</QPM:File>
+                           <QPM:File>env_set_flags.html</QPM:File>
+                           <QPM:File>env_set_lg_bsize.html</QPM:File>
+                           <QPM:File>env_set_lg_dir.html</QPM:File>
+                           <QPM:File>env_set_lg_max.html</QPM:File>
+                           <QPM:File>env_set_lg_regionmax.html</QPM:File>
+                           <QPM:File>env_set_lk_conflicts.html</QPM:File>
+                           <QPM:File>env_set_lk_detect.html</QPM:File>
+                           <QPM:File>env_set_lk_max_lockers.html</QPM:File>
+                           <QPM:File>env_set_lk_max_locks.html</QPM:File>
+                           <QPM:File>env_set_lk_max_objects.html</QPM:File>
+                           <QPM:File>env_set_mp_mmapsize.html</QPM:File>
+                           <QPM:File>env_set_paniccall.html</QPM:File>
+                           <QPM:File>env_set_rec_init.html</QPM:File>
+                           <QPM:File>env_set_rpc_server.html</QPM:File>
+                           <QPM:File>env_set_shm_key.html</QPM:File>
+                           <QPM:File>env_set_tas_spins.html</QPM:File>
+                           <QPM:File>env_set_timeout.html</QPM:File>
+                           <QPM:File>env_set_tmp_dir.html</QPM:File>
+                           <QPM:File>env_set_tx_max.html</QPM:File>
+                           <QPM:File>env_set_tx_recover.html</QPM:File>
+                           <QPM:File>env_set_tx_timestamp.html</QPM:File>
+                           <QPM:File>env_set_verbose.html</QPM:File>
+                           <QPM:File>env_strerror.html</QPM:File>
+                           <QPM:File>env_version.html</QPM:File>
+                           <QPM:File>hsearch.html</QPM:File>
+                           <QPM:File>lock_detect.html</QPM:File>
+                           <QPM:File>lock_get.html</QPM:File>
+                           <QPM:File>lock_id.html</QPM:File>
+                           <QPM:File>lock_id_free.html</QPM:File>
+                           <QPM:File>lock_put.html</QPM:File>
+                           <QPM:File>lock_stat.html</QPM:File>
+                           <QPM:File>lock_vec.html</QPM:File>
+                           <QPM:File>log_archive.html</QPM:File>
+                           <QPM:File>log_compare.html</QPM:File>
+                           <QPM:File>log_cursor.html</QPM:File>
+                           <QPM:File>log_file.html</QPM:File>
+                           <QPM:File>log_flush.html</QPM:File>
+                           <QPM:File>log_put.html</QPM:File>
+                           <QPM:File>log_register.html</QPM:File>
+                           <QPM:File>log_stat.html</QPM:File>
+                           <QPM:File>log_unregister.html</QPM:File>
+                           <QPM:File>logc_close.html</QPM:File>
+                           <QPM:File>logc_get.html</QPM:File>
+                           <QPM:File>memp_fclose.html</QPM:File>
+                           <QPM:File>memp_fcreate.html</QPM:File>
+                           <QPM:File>memp_fget.html</QPM:File>
+                           <QPM:File>memp_fopen.html</QPM:File>
+                           <QPM:File>memp_fput.html</QPM:File>
+                           <QPM:File>memp_fset.html</QPM:File>
+                           <QPM:File>memp_fsync.html</QPM:File>
+                           <QPM:File>memp_register.html</QPM:File>
+                           <QPM:File>memp_set_clear_len.html</QPM:File>
+                           <QPM:File>memp_set_fileid.html</QPM:File>
+                           <QPM:File>memp_set_ftype.html</QPM:File>
+                           <QPM:File>memp_set_lsn_offset.html</QPM:File>
+                           <QPM:File>memp_set_pgcookie.html</QPM:File>
+                           <QPM:File>memp_stat.html</QPM:File>
+                           <QPM:File>memp_sync.html</QPM:File>
+                           <QPM:File>memp_trickle.html</QPM:File>
+                           <QPM:File>pindex.src</QPM:File>
+                           <QPM:File>rep_elect.html</QPM:File>
+                           <QPM:File>rep_message.html</QPM:File>
+                           <QPM:File>rep_start.html</QPM:File>
+                           <QPM:File>rep_transport.html</QPM:File>
+                           <QPM:File>set_func_close.html</QPM:File>
+                           <QPM:File>set_func_dirfree.html</QPM:File>
+                           <QPM:File>set_func_dirlist.html</QPM:File>
+                           <QPM:File>set_func_exists.html</QPM:File>
+                           <QPM:File>set_func_free.html</QPM:File>
+                           <QPM:File>set_func_fsync.html</QPM:File>
+                           <QPM:File>set_func_ioinfo.html</QPM:File>
+                           <QPM:File>set_func_malloc.html</QPM:File>
+                           <QPM:File>set_func_map.html</QPM:File>
+                           <QPM:File>set_func_open.html</QPM:File>
+                           <QPM:File>set_func_read.html</QPM:File>
+                           <QPM:File>set_func_realloc.html</QPM:File>
+                           <QPM:File>set_func_rename.html</QPM:File>
+                           <QPM:File>set_func_seek.html</QPM:File>
+                           <QPM:File>set_func_sleep.html</QPM:File>
+                           <QPM:File>set_func_unlink.html</QPM:File>
+                           <QPM:File>set_func_unmap.html</QPM:File>
+                           <QPM:File>set_func_write.html</QPM:File>
+                           <QPM:File>set_func_yield.html</QPM:File>
+                           <QPM:File>txn_abort.html</QPM:File>
+                           <QPM:File>txn_begin.html</QPM:File>
+                           <QPM:File>txn_checkpoint.html</QPM:File>
+                           <QPM:File>txn_commit.html</QPM:File>
+                           <QPM:File>txn_discard.html</QPM:File>
+                           <QPM:File>txn_id.html</QPM:File>
+                           <QPM:File>txn_prepare.html</QPM:File>
+                           <QPM:File>txn_recover.html</QPM:File>
+                           <QPM:File>txn_set_timeout.html</QPM:File>
+                           <QPM:File>txn_stat.html</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="api_cxx">
+                           <QPM:Dir name="CVS">
+                              <QPM:File>Entries</QPM:File>
+                              <QPM:File>Repository</QPM:File>
+                              <QPM:File>Root</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>c_index.html</QPM:File>
+                           <QPM:File>cxx_pindex.html</QPM:File>
+                           <QPM:File>db_associate.html</QPM:File>
+                           <QPM:File>db_class.html</QPM:File>
+                           <QPM:File>db_close.html</QPM:File>
+                           <QPM:File>db_cursor.html</QPM:File>
+                           <QPM:File>db_del.html</QPM:File>
+                           <QPM:File>db_err.html</QPM:File>
+                           <QPM:File>db_fd.html</QPM:File>
+                           <QPM:File>db_get.html</QPM:File>
+                           <QPM:File>db_get_byteswapped.html</QPM:File>
+                           <QPM:File>db_get_type.html</QPM:File>
+                           <QPM:File>db_join.html</QPM:File>
+                           <QPM:File>db_key_range.html</QPM:File>
+                           <QPM:File>db_open.html</QPM:File>
+                           <QPM:File>db_put.html</QPM:File>
+                           <QPM:File>db_remove.html</QPM:File>
+                           <QPM:File>db_rename.html</QPM:File>
+                           <QPM:File>db_set_alloc.html</QPM:File>
+                           <QPM:File>db_set_append_recno.html</QPM:File>
+                           <QPM:File>db_set_bt_compare.html</QPM:File>
+                           <QPM:File>db_set_bt_minkey.html</QPM:File>
+                           <QPM:File>db_set_bt_prefix.html</QPM:File>
+                           <QPM:File>db_set_cachesize.html</QPM:File>
+                           <QPM:File>db_set_dup_compare.html</QPM:File>
+                           <QPM:File>db_set_errcall.html</QPM:File>
+                           <QPM:File>db_set_errfile.html</QPM:File>
+                           <QPM:File>db_set_errpfx.html</QPM:File>
+                           <QPM:File>db_set_feedback.html</QPM:File>
+                           <QPM:File>db_set_flags.html</QPM:File>
+                           <QPM:File>db_set_h_ffactor.html</QPM:File>
+                           <QPM:File>db_set_h_hash.html</QPM:File>
+                           <QPM:File>db_set_h_nelem.html</QPM:File>
+                           <QPM:File>db_set_lorder.html</QPM:File>
+                           <QPM:File>db_set_pagesize.html</QPM:File>
+                           <QPM:File>db_set_paniccall.html</QPM:File>
+                           <QPM:File>db_set_q_extentsize.html</QPM:File>
+                           <QPM:File>db_set_re_delim.html</QPM:File>
+                           <QPM:File>db_set_re_len.html</QPM:File>
+                           <QPM:File>db_set_re_pad.html</QPM:File>
+                           <QPM:File>db_set_re_source.html</QPM:File>
+                           <QPM:File>db_stat.html</QPM:File>
+                           <QPM:File>db_sync.html</QPM:File>
+                           <QPM:File>db_truncate.html</QPM:File>
+                           <QPM:File>db_upgrade.html</QPM:File>
+                           <QPM:File>db_verify.html</QPM:File>
+                           <QPM:File>dbc_class.html</QPM:File>
+                           <QPM:File>dbc_close.html</QPM:File>
+                           <QPM:File>dbc_count.html</QPM:File>
+                           <QPM:File>dbc_del.html</QPM:File>
+                           <QPM:File>dbc_dup.html</QPM:File>
+                           <QPM:File>dbc_get.html</QPM:File>
+                           <QPM:File>dbc_put.html</QPM:File>
+                           <QPM:File>dbenv_class.html</QPM:File>
+                           <QPM:File>dbt_bulk.html</QPM:File>
+                           <QPM:File>dbt_class.html</QPM:File>
+                           <QPM:File>env_close.html</QPM:File>
+                           <QPM:File>env_err.html</QPM:File>
+                           <QPM:File>env_open.html</QPM:File>
+                           <QPM:File>env_remove.html</QPM:File>
+                           <QPM:File>env_set_alloc.html</QPM:File>
+                           <QPM:File>env_set_cachesize.html</QPM:File>
+                           <QPM:File>env_set_data_dir.html</QPM:File>
+                           <QPM:File>env_set_errcall.html</QPM:File>
+                           <QPM:File>env_set_errfile.html</QPM:File>
+                           <QPM:File>env_set_error_stream.html</QPM:File>
+                           <QPM:File>env_set_errpfx.html</QPM:File>
+                           <QPM:File>env_set_feedback.html</QPM:File>
+                           <QPM:File>env_set_flags.html</QPM:File>
+                           <QPM:File>env_set_lg_bsize.html</QPM:File>
+                           <QPM:File>env_set_lg_dir.html</QPM:File>
+                           <QPM:File>env_set_lg_max.html</QPM:File>
+                           <QPM:File>env_set_lg_regionmax.html</QPM:File>
+                           <QPM:File>env_set_lk_conflicts.html</QPM:File>
+                           <QPM:File>env_set_lk_detect.html</QPM:File>
+                           <QPM:File>env_set_lk_max_lockers.html</QPM:File>
+                           <QPM:File>env_set_lk_max_locks.html</QPM:File>
+                           <QPM:File>env_set_lk_max_objects.html</QPM:File>
+                           <QPM:File>env_set_mp_mmapsize.html</QPM:File>
+                           <QPM:File>env_set_paniccall.html</QPM:File>
+                           <QPM:File>env_set_rec_init.html</QPM:File>
+                           <QPM:File>env_set_rpc_server.html</QPM:File>
+                           <QPM:File>env_set_shm_key.html</QPM:File>
+                           <QPM:File>env_set_tas_spins.html</QPM:File>
+                           <QPM:File>env_set_timeout.html</QPM:File>
+                           <QPM:File>env_set_tmp_dir.html</QPM:File>
+                           <QPM:File>env_set_tx_max.html</QPM:File>
+                           <QPM:File>env_set_tx_recover.html</QPM:File>
+                           <QPM:File>env_set_tx_timestamp.html</QPM:File>
+                           <QPM:File>env_set_verbose.html</QPM:File>
+                           <QPM:File>env_strerror.html</QPM:File>
+                           <QPM:File>env_version.html</QPM:File>
+                           <QPM:File>except_class.html</QPM:File>
+                           <QPM:File>get_dbt.html</QPM:File>
+                           <QPM:File>get_errno.html</QPM:File>
+                           <QPM:File>lock_class.html</QPM:File>
+                           <QPM:File>lock_detect.html</QPM:File>
+                           <QPM:File>lock_get.html</QPM:File>
+                           <QPM:File>lock_id.html</QPM:File>
+                           <QPM:File>lock_id_free.html</QPM:File>
+                           <QPM:File>lock_put.html</QPM:File>
+                           <QPM:File>lock_stat.html</QPM:File>
+                           <QPM:File>lock_vec.html</QPM:File>
+                           <QPM:File>log_archive.html</QPM:File>
+                           <QPM:File>log_compare.html</QPM:File>
+                           <QPM:File>log_cursor.html</QPM:File>
+                           <QPM:File>log_file.html</QPM:File>
+                           <QPM:File>log_flush.html</QPM:File>
+                           <QPM:File>log_put.html</QPM:File>
+                           <QPM:File>log_register.html</QPM:File>
+                           <QPM:File>log_stat.html</QPM:File>
+                           <QPM:File>log_unregister.html</QPM:File>
+                           <QPM:File>logc_class.html</QPM:File>
+                           <QPM:File>logc_close.html</QPM:File>
+                           <QPM:File>logc_get.html</QPM:File>
+                           <QPM:File>lsn_class.html</QPM:File>
+                           <QPM:File>mem_class.html</QPM:File>
+                           <QPM:File>memp_fclose.html</QPM:File>
+                           <QPM:File>memp_fcreate.html</QPM:File>
+                           <QPM:File>memp_fget.html</QPM:File>
+                           <QPM:File>memp_fopen.html</QPM:File>
+                           <QPM:File>memp_fput.html</QPM:File>
+                           <QPM:File>memp_fset.html</QPM:File>
+                           <QPM:File>memp_fsync.html</QPM:File>
+                           <QPM:File>memp_register.html</QPM:File>
+                           <QPM:File>memp_set_clear_len.html</QPM:File>
+                           <QPM:File>memp_set_fileid.html</QPM:File>
+                           <QPM:File>memp_set_ftype.html</QPM:File>
+                           <QPM:File>memp_set_lsn_offset.html</QPM:File>
+                           <QPM:File>memp_set_pgcookie.html</QPM:File>
+                           <QPM:File>memp_stat.html</QPM:File>
+                           <QPM:File>memp_sync.html</QPM:File>
+                           <QPM:File>memp_trickle.html</QPM:File>
+                           <QPM:File>mempfile_class.html</QPM:File>
+                           <QPM:File>pindex.src</QPM:File>
+                           <QPM:File>rep_elect.html</QPM:File>
+                           <QPM:File>rep_message.html</QPM:File>
+                           <QPM:File>rep_start.html</QPM:File>
+                           <QPM:File>rep_transport.html</QPM:File>
+                           <QPM:File>txn_abort.html</QPM:File>
+                           <QPM:File>txn_begin.html</QPM:File>
+                           <QPM:File>txn_checkpoint.html</QPM:File>
+                           <QPM:File>txn_class.html</QPM:File>
+                           <QPM:File>txn_commit.html</QPM:File>
+                           <QPM:File>txn_discard.html</QPM:File>
+                           <QPM:File>txn_id.html</QPM:File>
+                           <QPM:File>txn_prepare.html</QPM:File>
+                           <QPM:File>txn_recover.html</QPM:File>
+                           <QPM:File>txn_set_timeout.html</QPM:File>
+                           <QPM:File>txn_stat.html</QPM:File>
+                           <QPM:File>what.html</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="api_java">
+                           <QPM:Dir name="CVS">
+                              <QPM:File>Entries</QPM:File>
+                              <QPM:File>Repository</QPM:File>
+                              <QPM:File>Root</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>c_index.html</QPM:File>
+                           <QPM:File>db_associate.html</QPM:File>
+                           <QPM:File>db_class.html</QPM:File>
+                           <QPM:File>db_close.html</QPM:File>
+                           <QPM:File>db_cursor.html</QPM:File>
+                           <QPM:File>db_del.html</QPM:File>
+                           <QPM:File>db_fd.html</QPM:File>
+                           <QPM:File>db_get.html</QPM:File>
+                           <QPM:File>db_get_byteswapped.html</QPM:File>
+                           <QPM:File>db_get_type.html</QPM:File>
+                           <QPM:File>db_join.html</QPM:File>
+                           <QPM:File>db_key_range.html</QPM:File>
+                           <QPM:File>db_open.html</QPM:File>
+                           <QPM:File>db_put.html</QPM:File>
+                           <QPM:File>db_remove.html</QPM:File>
+                           <QPM:File>db_rename.html</QPM:File>
+                           <QPM:File>db_set_append_recno.html</QPM:File>
+                           <QPM:File>db_set_bt_compare.html</QPM:File>
+                           <QPM:File>db_set_bt_minkey.html</QPM:File>
+                           <QPM:File>db_set_bt_prefix.html</QPM:File>
+                           <QPM:File>db_set_cachesize.html</QPM:File>
+                           <QPM:File>db_set_dup_compare.html</QPM:File>
+                           <QPM:File>db_set_errcall.html</QPM:File>
+                           <QPM:File>db_set_errpfx.html</QPM:File>
+                           <QPM:File>db_set_feedback.html</QPM:File>
+                           <QPM:File>db_set_flags.html</QPM:File>
+                           <QPM:File>db_set_h_ffactor.html</QPM:File>
+                           <QPM:File>db_set_h_hash.html</QPM:File>
+                           <QPM:File>db_set_h_nelem.html</QPM:File>
+                           <QPM:File>db_set_lorder.html</QPM:File>
+                           <QPM:File>db_set_pagesize.html</QPM:File>
+                           <QPM:File>db_set_q_extentsize.html</QPM:File>
+                           <QPM:File>db_set_re_delim.html</QPM:File>
+                           <QPM:File>db_set_re_len.html</QPM:File>
+                           <QPM:File>db_set_re_pad.html</QPM:File>
+                           <QPM:File>db_set_re_source.html</QPM:File>
+                           <QPM:File>db_stat.html</QPM:File>
+                           <QPM:File>db_sync.html</QPM:File>
+                           <QPM:File>db_truncate.html</QPM:File>
+                           <QPM:File>db_upgrade.html</QPM:File>
+                           <QPM:File>db_verify.html</QPM:File>
+                           <QPM:File>dbc_class.html</QPM:File>
+                           <QPM:File>dbc_close.html</QPM:File>
+                           <QPM:File>dbc_count.html</QPM:File>
+                           <QPM:File>dbc_del.html</QPM:File>
+                           <QPM:File>dbc_dup.html</QPM:File>
+                           <QPM:File>dbc_get.html</QPM:File>
+                           <QPM:File>dbc_put.html</QPM:File>
+                           <QPM:File>dbenv_class.html</QPM:File>
+                           <QPM:File>dbt_bulk_class.html</QPM:File>
+                           <QPM:File>dbt_class.html</QPM:File>
+                           <QPM:File>deadlock_class.html</QPM:File>
+                           <QPM:File>env_close.html</QPM:File>
+                           <QPM:File>env_open.html</QPM:File>
+                           <QPM:File>env_remove.html</QPM:File>
+                           <QPM:File>env_set_cachesize.html</QPM:File>
+                           <QPM:File>env_set_data_dir.html</QPM:File>
+                           <QPM:File>env_set_errcall.html</QPM:File>
+                           <QPM:File>env_set_error_stream.html</QPM:File>
+                           <QPM:File>env_set_errpfx.html</QPM:File>
+                           <QPM:File>env_set_feedback.html</QPM:File>
+                           <QPM:File>env_set_flags.html</QPM:File>
+                           <QPM:File>env_set_lg_bsize.html</QPM:File>
+                           <QPM:File>env_set_lg_dir.html</QPM:File>
+                           <QPM:File>env_set_lg_max.html</QPM:File>
+                           <QPM:File>env_set_lg_regionmax.html</QPM:File>
+                           <QPM:File>env_set_lk_conflicts.html</QPM:File>
+                           <QPM:File>env_set_lk_detect.html</QPM:File>
+                           <QPM:File>env_set_lk_max_lockers.html</QPM:File>
+                           <QPM:File>env_set_lk_max_locks.html</QPM:File>
+                           <QPM:File>env_set_lk_max_objects.html</QPM:File>
+                           <QPM:File>env_set_mp_mmapsize.html</QPM:File>
+                           <QPM:File>env_set_rec_init.html</QPM:File>
+                           <QPM:File>env_set_rpc_server.html</QPM:File>
+                           <QPM:File>env_set_shm_key.html</QPM:File>
+                           <QPM:File>env_set_tas_spins.html</QPM:File>
+                           <QPM:File>env_set_timeout.html</QPM:File>
+                           <QPM:File>env_set_tmp_dir.html</QPM:File>
+                           <QPM:File>env_set_tx_max.html</QPM:File>
+                           <QPM:File>env_set_tx_recover.html</QPM:File>
+                           <QPM:File>env_set_tx_timestamp.html</QPM:File>
+                           <QPM:File>env_set_verbose.html</QPM:File>
+                           <QPM:File>env_strerror.html</QPM:File>
+                           <QPM:File>env_version.html</QPM:File>
+                           <QPM:File>except_class.html</QPM:File>
+                           <QPM:File>get_dbt.html</QPM:File>
+                           <QPM:File>get_errno.html</QPM:File>
+                           <QPM:File>java_pindex.html</QPM:File>
+                           <QPM:File>lock_class.html</QPM:File>
+                           <QPM:File>lock_detect.html</QPM:File>
+                           <QPM:File>lock_get.html</QPM:File>
+                           <QPM:File>lock_id.html</QPM:File>
+                           <QPM:File>lock_id_free.html</QPM:File>
+                           <QPM:File>lock_put.html</QPM:File>
+                           <QPM:File>lock_stat.html</QPM:File>
+                           <QPM:File>lock_vec.html</QPM:File>
+                           <QPM:File>log_archive.html</QPM:File>
+                           <QPM:File>log_compare.html</QPM:File>
+                           <QPM:File>log_cursor.html</QPM:File>
+                           <QPM:File>log_file.html</QPM:File>
+                           <QPM:File>log_flush.html</QPM:File>
+                           <QPM:File>log_put.html</QPM:File>
+                           <QPM:File>log_register.html</QPM:File>
+                           <QPM:File>log_stat.html</QPM:File>
+                           <QPM:File>log_unregister.html</QPM:File>
+                           <QPM:File>logc_class.html</QPM:File>
+                           <QPM:File>logc_close.html</QPM:File>
+                           <QPM:File>logc_get.html</QPM:File>
+                           <QPM:File>lsn_class.html</QPM:File>
+                           <QPM:File>mem_class.html</QPM:File>
+                           <QPM:File>memp_fclose.html</QPM:File>
+                           <QPM:File>memp_fopen.html</QPM:File>
+                           <QPM:File>memp_fsync.html</QPM:File>
+                           <QPM:File>memp_register.html</QPM:File>
+                           <QPM:File>memp_stat.html</QPM:File>
+                           <QPM:File>memp_sync.html</QPM:File>
+                           <QPM:File>memp_trickle.html</QPM:File>
+                           <QPM:File>pindex.src</QPM:File>
+                           <QPM:File>rep_elect.html</QPM:File>
+                           <QPM:File>rep_message.html</QPM:File>
+                           <QPM:File>rep_start.html</QPM:File>
+                           <QPM:File>rep_transport.html</QPM:File>
+                           <QPM:File>runrec_class.html</QPM:File>
+                           <QPM:File>txn_abort.html</QPM:File>
+                           <QPM:File>txn_begin.html</QPM:File>
+                           <QPM:File>txn_checkpoint.html</QPM:File>
+                           <QPM:File>txn_class.html</QPM:File>
+                           <QPM:File>txn_commit.html</QPM:File>
+                           <QPM:File>txn_discard.html</QPM:File>
+                           <QPM:File>txn_id.html</QPM:File>
+                           <QPM:File>txn_prepare.html</QPM:File>
+                           <QPM:File>txn_recover.html</QPM:File>
+                           <QPM:File>txn_set_timeout.html</QPM:File>
+                           <QPM:File>txn_stat.html</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="api_tcl">
+                           <QPM:Dir name="CVS">
+                              <QPM:File>Entries</QPM:File>
+                              <QPM:File>Repository</QPM:File>
+                              <QPM:File>Root</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>db_close.html</QPM:File>
+                           <QPM:File>db_count.html</QPM:File>
+                           <QPM:File>db_cursor.html</QPM:File>
+                           <QPM:File>db_del.html</QPM:File>
+                           <QPM:File>db_get.html</QPM:File>
+                           <QPM:File>db_get_join.html</QPM:File>
+                           <QPM:File>db_get_type.html</QPM:File>
+                           <QPM:File>db_is_byteswapped.html</QPM:File>
+                           <QPM:File>db_join.html</QPM:File>
+                           <QPM:File>db_open.html</QPM:File>
+                           <QPM:File>db_put.html</QPM:File>
+                           <QPM:File>db_remove.html</QPM:File>
+                           <QPM:File>db_rename.html</QPM:File>
+                           <QPM:File>db_stat.html</QPM:File>
+                           <QPM:File>db_sync.html</QPM:File>
+                           <QPM:File>db_truncate.html</QPM:File>
+                           <QPM:File>dbc_close.html</QPM:File>
+                           <QPM:File>dbc_del.html</QPM:File>
+                           <QPM:File>dbc_dup.html</QPM:File>
+                           <QPM:File>dbc_get.html</QPM:File>
+                           <QPM:File>dbc_put.html</QPM:File>
+                           <QPM:File>env_close.html</QPM:File>
+                           <QPM:File>env_open.html</QPM:File>
+                           <QPM:File>env_remove.html</QPM:File>
+                           <QPM:File>pindex.src</QPM:File>
+                           <QPM:File>tcl_index.html</QPM:File>
+                           <QPM:File>tcl_pindex.html</QPM:File>
+                           <QPM:File>txn.html</QPM:File>
+                           <QPM:File>txn_abort.html</QPM:File>
+                           <QPM:File>txn_commit.html</QPM:File>
+                           <QPM:File>version.html</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="images">
+                           <QPM:Dir name="CVS">
+                              <QPM:File>Entries</QPM:File>
+                              <QPM:File>Repository</QPM:File>
+                              <QPM:File>Root</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>api.gif</QPM:File>
+                           <QPM:File>next.gif</QPM:File>
+                           <QPM:File>prev.gif</QPM:File>
+                           <QPM:File>ps.gif</QPM:File>
+                           <QPM:File>ref.gif</QPM:File>
+                           <QPM:File>sleepycat.gif</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>index.html</QPM:File>
+                        <QPM:Dir name="ref">
+                           <QPM:Dir name="CVS">
+                              <QPM:File>Entries</QPM:File>
+                              <QPM:File>Repository</QPM:File>
+                              <QPM:File>Root</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="am">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>close.html</QPM:File>
+                              <QPM:File>count.html</QPM:File>
+                              <QPM:File>curclose.html</QPM:File>
+                              <QPM:File>curdel.html</QPM:File>
+                              <QPM:File>curdup.html</QPM:File>
+                              <QPM:File>curget.html</QPM:File>
+                              <QPM:File>curput.html</QPM:File>
+                              <QPM:File>cursor.html</QPM:File>
+                              <QPM:File>delete.html</QPM:File>
+                              <QPM:File>get.html</QPM:File>
+                              <QPM:File>join.html</QPM:File>
+                              <QPM:File>open.html</QPM:File>
+                              <QPM:File>opensub.html</QPM:File>
+                              <QPM:File>ops.html</QPM:File>
+                              <QPM:File>put.html</QPM:File>
+                              <QPM:File>second.html</QPM:File>
+                              <QPM:File>stat.html</QPM:File>
+                              <QPM:File>sync.html</QPM:File>
+                              <QPM:File>truncate.html</QPM:File>
+                              <QPM:File>upgrade.html</QPM:File>
+                              <QPM:File>verify.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="am_conf">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>bt_compare.html</QPM:File>
+                              <QPM:File>bt_minkey.html</QPM:File>
+                              <QPM:File>bt_prefix.html</QPM:File>
+                              <QPM:File>bt_recnum.html</QPM:File>
+                              <QPM:File>byteorder.html</QPM:File>
+                              <QPM:File>cachesize.html</QPM:File>
+                              <QPM:File>dup.html</QPM:File>
+                              <QPM:File>extentsize.html</QPM:File>
+                              <QPM:File>h_ffactor.html</QPM:File>
+                              <QPM:File>h_hash.html</QPM:File>
+                              <QPM:File>h_nelem.html</QPM:File>
+                              <QPM:File>intro.html</QPM:File>
+                              <QPM:File>logrec.html</QPM:File>
+                              <QPM:File>malloc.html</QPM:File>
+                              <QPM:File>pagesize.html</QPM:File>
+                              <QPM:File>re_source.html</QPM:File>
+                              <QPM:File>recno.html</QPM:File>
+                              <QPM:File>renumber.html</QPM:File>
+                              <QPM:File>select.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="am_misc">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>align.html</QPM:File>
+                              <QPM:File>dbsizes.html</QPM:File>
+                              <QPM:File>diskspace.html</QPM:File>
+                              <QPM:File>error.html</QPM:File>
+                              <QPM:File>faq.html</QPM:File>
+                              <QPM:File>get_bulk.html</QPM:File>
+                              <QPM:File>partial.html</QPM:File>
+                              <QPM:File>perm.html</QPM:File>
+                              <QPM:File>stability.html</QPM:File>
+                              <QPM:File>tune.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="arch">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>apis.html</QPM:File>
+                              <QPM:File>bigpic.gif</QPM:File>
+                              <QPM:File>bigpic.html</QPM:File>
+                              <QPM:File>progmodel.html</QPM:File>
+                              <QPM:File>script.html</QPM:File>
+                              <QPM:File>smallpic.gif</QPM:File>
+                              <QPM:File>utilities.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="build_unix">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>aix.html</QPM:File>
+                              <QPM:File>conf.html</QPM:File>
+                              <QPM:File>embedix.html</QPM:File>
+                              <QPM:File>flags.html</QPM:File>
+                              <QPM:File>freebsd.html</QPM:File>
+                              <QPM:File>hpux.html</QPM:File>
+                              <QPM:File>install.html</QPM:File>
+                              <QPM:File>intro.html</QPM:File>
+                              <QPM:File>irix.html</QPM:File>
+                              <QPM:File>linux.html</QPM:File>
+                              <QPM:File>macosx.html</QPM:File>
+                              <QPM:File>notes.html</QPM:File>
+                              <QPM:File>osf1.html</QPM:File>
+                              <QPM:File>qnx.html</QPM:File>
+                              <QPM:File>sco.html</QPM:File>
+                              <QPM:File>shlib.html</QPM:File>
+                              <QPM:File>solaris.html</QPM:File>
+                              <QPM:File>sunos.html</QPM:File>
+                              <QPM:File>test.html</QPM:File>
+                              <QPM:File>ultrix.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="build_vxworks">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>faq.html</QPM:File>
+                              <QPM:File>intro.html</QPM:File>
+                              <QPM:File>introae.html</QPM:File>
+                              <QPM:File>notes.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="build_win">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>faq.html</QPM:File>
+                              <QPM:File>intro.html</QPM:File>
+                              <QPM:File>notes.html</QPM:File>
+                              <QPM:File>test.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="cam">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>intro.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="debug">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>common.html</QPM:File>
+                              <QPM:File>compile.html</QPM:File>
+                              <QPM:File>intro.html</QPM:File>
+                              <QPM:File>printlog.html</QPM:File>
+                              <QPM:File>runtime.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="distrib">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>layout.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="dumpload">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>format.html</QPM:File>
+                              <QPM:File>text.html</QPM:File>
+                              <QPM:File>utility.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="env">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>create.html</QPM:File>
+                              <QPM:File>error.html</QPM:File>
+                              <QPM:File>faq.html</QPM:File>
+                              <QPM:File>intro.html</QPM:File>
+                              <QPM:File>naming.html</QPM:File>
+                              <QPM:File>open.html</QPM:File>
+                              <QPM:File>region.html</QPM:File>
+                              <QPM:File>remote.html</QPM:File>
+                              <QPM:File>security.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="install">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>file.html</QPM:File>
+                              <QPM:File>magic.s5.be.txt</QPM:File>
+                              <QPM:File>magic.s5.le.txt</QPM:File>
+                              <QPM:File>magic.txt</QPM:File>
+                              <QPM:File>multiple.html</QPM:File>
+                              <QPM:File>rpm.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="intro">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>data.html</QPM:File>
+                              <QPM:File>dbis.html</QPM:File>
+                              <QPM:File>dbisnot.html</QPM:File>
+                              <QPM:File>distrib.html</QPM:File>
+                              <QPM:File>need.html</QPM:File>
+                              <QPM:File>products.html</QPM:File>
+                              <QPM:File>terrain.html</QPM:File>
+                              <QPM:File>what.html</QPM:File>
+                              <QPM:File>where.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="java">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>compat.html</QPM:File>
+                              <QPM:File>conf.html</QPM:File>
+                              <QPM:File>faq.html</QPM:File>
+                              <QPM:File>program.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="lock">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>am_conv.html</QPM:File>
+                              <QPM:File>cam_conv.html</QPM:File>
+                              <QPM:File>config.html</QPM:File>
+                              <QPM:File>dead.html</QPM:File>
+                              <QPM:File>intro.html</QPM:File>
+                              <QPM:File>max.html</QPM:File>
+                              <QPM:File>nondb.html</QPM:File>
+                              <QPM:File>notxn.html</QPM:File>
+                              <QPM:File>page.html</QPM:File>
+                              <QPM:File>stdmode.html</QPM:File>
+                              <QPM:File>timeout.html</QPM:File>
+                              <QPM:File>twopl.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="log">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>config.html</QPM:File>
+                              <QPM:File>intro.html</QPM:File>
+                              <QPM:File>limits.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="mp">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>config.html</QPM:File>
+                              <QPM:File>intro.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="perl">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>intro.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>pindex.src</QPM:File>
+                           <QPM:Dir name="program">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>appsignals.html</QPM:File>
+                              <QPM:File>compatible.html</QPM:File>
+                              <QPM:File>copy.html</QPM:File>
+                              <QPM:File>environ.html</QPM:File>
+                              <QPM:File>errorret.html</QPM:File>
+                              <QPM:File>extending.html</QPM:File>
+                              <QPM:File>mt.html</QPM:File>
+                              <QPM:File>namespace.html</QPM:File>
+                              <QPM:File>runtime.html</QPM:File>
+                              <QPM:File>scope.html</QPM:File>
+                              <QPM:File>solaris.txt</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="refs">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>bdb_usenix.html</QPM:File>
+                              <QPM:File>bdb_usenix.ps</QPM:File>
+                              <QPM:File>embedded.html</QPM:File>
+                              <QPM:File>hash_usenix.ps</QPM:File>
+                              <QPM:File>libtp_usenix.ps</QPM:File>
+                              <QPM:File>refs.html</QPM:File>
+                              <QPM:File>witold.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="rep">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>app.html</QPM:File>
+                              <QPM:File>comm.html</QPM:File>
+                              <QPM:File>elect.html</QPM:File>
+                              <QPM:File>ex.html</QPM:File>
+                              <QPM:File>ex_comm.html</QPM:File>
+                              <QPM:File>ex_rq.html</QPM:File>
+                              <QPM:File>faq.html</QPM:File>
+                              <QPM:File>id.html</QPM:File>
+                              <QPM:File>init.html</QPM:File>
+                              <QPM:File>intro.html</QPM:File>
+                              <QPM:File>logonly.html</QPM:File>
+                              <QPM:File>newsite.html</QPM:File>
+                              <QPM:File>partition.html</QPM:File>
+                              <QPM:File>pri.html</QPM:File>
+                              <QPM:File>trans.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="rpc">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>client.html</QPM:File>
+                              <QPM:File>intro.html</QPM:File>
+                              <QPM:File>server.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="sendmail">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>intro.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="simple_tut">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>close.html</QPM:File>
+                              <QPM:File>del.html</QPM:File>
+                              <QPM:File>errors.html</QPM:File>
+                              <QPM:File>example.cs</QPM:File>
+                              <QPM:File>get.html</QPM:File>
+                              <QPM:File>handles.html</QPM:File>
+                              <QPM:File>intro.html</QPM:File>
+                              <QPM:File>keydata.html</QPM:File>
+                              <QPM:File>open.html</QPM:File>
+                              <QPM:File>put.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="splash">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="tcl">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>error.html</QPM:File>
+                              <QPM:File>faq.html</QPM:File>
+                              <QPM:File>intro.html</QPM:File>
+                              <QPM:File>program.html</QPM:File>
+                              <QPM:File>using.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="test">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>faq.html</QPM:File>
+                              <QPM:File>run.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="transapp">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>admin.html</QPM:File>
+                              <QPM:File>app.html</QPM:File>
+                              <QPM:File>archival.html</QPM:File>
+                              <QPM:File>checkpoint.html</QPM:File>
+                              <QPM:File>cursor.html</QPM:File>
+                              <QPM:File>data_open.html</QPM:File>
+                              <QPM:File>deadlock.html</QPM:File>
+                              <QPM:File>env_open.html</QPM:File>
+                              <QPM:File>faq.html</QPM:File>
+                              <QPM:File>filesys.html</QPM:File>
+                              <QPM:File>hotfail.html</QPM:File>
+                              <QPM:File>inc.html</QPM:File>
+                              <QPM:File>intro.html</QPM:File>
+                              <QPM:File>logfile.html</QPM:File>
+                              <QPM:File>nested.html</QPM:File>
+                              <QPM:File>put.html</QPM:File>
+                              <QPM:File>read.html</QPM:File>
+                              <QPM:File>reclimit.html</QPM:File>
+                              <QPM:File>recovery.html</QPM:File>
+                              <QPM:File>term.html</QPM:File>
+                              <QPM:File>throughput.html</QPM:File>
+                              <QPM:File>transapp.cs</QPM:File>
+                              <QPM:File>tune.html</QPM:File>
+                              <QPM:File>why.html</QPM:File>
+                              <QPM:File>writetest.cs</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="txn">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>config.html</QPM:File>
+                              <QPM:File>intro.html</QPM:File>
+                              <QPM:File>limits.html</QPM:File>
+                              <QPM:File>other.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="upgrade">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>process.html</QPM:File>
+                              <QPM:File>version.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="upgrade.2.0">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>convert.html</QPM:File>
+                              <QPM:File>disk.html</QPM:File>
+                              <QPM:File>intro.html</QPM:File>
+                              <QPM:File>system.html</QPM:File>
+                              <QPM:File>toc.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="upgrade.3.0">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>close.html</QPM:File>
+                              <QPM:File>cxx.html</QPM:File>
+                              <QPM:File>db.html</QPM:File>
+                              <QPM:File>db_cxx.html</QPM:File>
+                              <QPM:File>dbenv.html</QPM:File>
+                              <QPM:File>dbenv_cxx.html</QPM:File>
+                              <QPM:File>dbinfo.html</QPM:File>
+                              <QPM:File>disk.html</QPM:File>
+                              <QPM:File>eacces.html</QPM:File>
+                              <QPM:File>eagain.html</QPM:File>
+                              <QPM:File>envopen.html</QPM:File>
+                              <QPM:File>func.html</QPM:File>
+                              <QPM:File>intro.html</QPM:File>
+                              <QPM:File>java.html</QPM:File>
+                              <QPM:File>join.html</QPM:File>
+                              <QPM:File>jump_set.html</QPM:File>
+                              <QPM:File>lock_detect.html</QPM:File>
+                              <QPM:File>lock_notheld.html</QPM:File>
+                              <QPM:File>lock_put.html</QPM:File>
+                              <QPM:File>lock_stat.html</QPM:File>
+                              <QPM:File>log_register.html</QPM:File>
+                              <QPM:File>log_stat.html</QPM:File>
+                              <QPM:File>memp_stat.html</QPM:File>
+                              <QPM:File>open.html</QPM:File>
+                              <QPM:File>rmw.html</QPM:File>
+                              <QPM:File>stat.html</QPM:File>
+                              <QPM:File>toc.html</QPM:File>
+                              <QPM:File>txn_begin.html</QPM:File>
+                              <QPM:File>txn_commit.html</QPM:File>
+                              <QPM:File>txn_stat.html</QPM:File>
+                              <QPM:File>value_set.html</QPM:File>
+                              <QPM:File>xa.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="upgrade.3.1">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>btstat.html</QPM:File>
+                              <QPM:File>config.html</QPM:File>
+                              <QPM:File>disk.html</QPM:File>
+                              <QPM:File>dup.html</QPM:File>
+                              <QPM:File>env.html</QPM:File>
+                              <QPM:File>intro.html</QPM:File>
+                              <QPM:File>log_register.html</QPM:File>
+                              <QPM:File>logalloc.html</QPM:File>
+                              <QPM:File>memp_register.html</QPM:File>
+                              <QPM:File>put.html</QPM:File>
+                              <QPM:File>set_feedback.html</QPM:File>
+                              <QPM:File>set_paniccall.html</QPM:File>
+                              <QPM:File>set_tx_recover.html</QPM:File>
+                              <QPM:File>sysmem.html</QPM:File>
+                              <QPM:File>tcl.html</QPM:File>
+                              <QPM:File>tmp.html</QPM:File>
+                              <QPM:File>toc.html</QPM:File>
+                              <QPM:File>txn_check.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="upgrade.3.2">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>callback.html</QPM:File>
+                              <QPM:File>db_dump.html</QPM:File>
+                              <QPM:File>disk.html</QPM:File>
+                              <QPM:File>handle.html</QPM:File>
+                              <QPM:File>incomplete.html</QPM:File>
+                              <QPM:File>intro.html</QPM:File>
+                              <QPM:File>mutexlock.html</QPM:File>
+                              <QPM:File>notfound.html</QPM:File>
+                              <QPM:File>renumber.html</QPM:File>
+                              <QPM:File>set_flags.html</QPM:File>
+                              <QPM:File>toc.html</QPM:File>
+                              <QPM:File>tx_recover.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="upgrade.3.3">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>alloc.html</QPM:File>
+                              <QPM:File>bigfile.html</QPM:File>
+                              <QPM:File>conflict.html</QPM:File>
+                              <QPM:File>disk.html</QPM:File>
+                              <QPM:File>getswap.html</QPM:File>
+                              <QPM:File>gettype.html</QPM:File>
+                              <QPM:File>intro.html</QPM:File>
+                              <QPM:File>memp_fget.html</QPM:File>
+                              <QPM:File>rpc.html</QPM:File>
+                              <QPM:File>shared.html</QPM:File>
+                              <QPM:File>toc.html</QPM:File>
+                              <QPM:File>txn_prepare.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="upgrade.4.0">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>asr.html</QPM:File>
+                              <QPM:File>cxx.html</QPM:File>
+                              <QPM:File>deadlock.html</QPM:File>
+                              <QPM:File>disk.html</QPM:File>
+                              <QPM:File>env.html</QPM:File>
+                              <QPM:File>intro.html</QPM:File>
+                              <QPM:File>java.html</QPM:File>
+                              <QPM:File>lock.html</QPM:File>
+                              <QPM:File>lock_id_free.html</QPM:File>
+                              <QPM:File>log.html</QPM:File>
+                              <QPM:File>mp.html</QPM:File>
+                              <QPM:File>rpc.html</QPM:File>
+                              <QPM:File>set_lk_max.html</QPM:File>
+                              <QPM:File>toc.html</QPM:File>
+                              <QPM:File>txn.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="xa">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>build.html</QPM:File>
+                              <QPM:File>faq.html</QPM:File>
+                              <QPM:File>intro.html</QPM:File>
+                              <QPM:File>xa_config.html</QPM:File>
+                              <QPM:File>xa_intro.html</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:File>reftoc.html</QPM:File>
+                        <QPM:Dir name="sleepycat">
+                           <QPM:Dir name="CVS">
+                              <QPM:File>Entries</QPM:File>
+                              <QPM:File>Repository</QPM:File>
+                              <QPM:File>Root</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>contact.html</QPM:File>
+                           <QPM:File>legal.html</QPM:File>
+                           <QPM:File>license.html</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="utility">
+                           <QPM:Dir name="CVS">
+                              <QPM:File>Entries</QPM:File>
+                              <QPM:File>Repository</QPM:File>
+                              <QPM:File>Root</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>berkeley_db_svc.html</QPM:File>
+                           <QPM:File>db_archive.html</QPM:File>
+                           <QPM:File>db_checkpoint.html</QPM:File>
+                           <QPM:File>db_deadlock.html</QPM:File>
+                           <QPM:File>db_dump.html</QPM:File>
+                           <QPM:File>db_load.html</QPM:File>
+                           <QPM:File>db_printlog.html</QPM:File>
+                           <QPM:File>db_recover.html</QPM:File>
+                           <QPM:File>db_stat.html</QPM:File>
+                           <QPM:File>db_upgrade.html</QPM:File>
+                           <QPM:File>db_verify.html</QPM:File>
+                           <QPM:File>index.html</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="lib">
+                     <QPM:File>libdb-4.0.la</QPM:File>
+                     <QPM:Link link="libdb-4.0.a">libdb.a</QPM:Link>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../opt/lib">lib</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/lib">lib</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

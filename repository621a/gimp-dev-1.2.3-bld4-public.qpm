@@ -1,0 +1,189 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>gimp-dev-1.2.3-bld4-public</QPM:PackageName>
+            <QPM:PackageSize>33105</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/02/17</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:PackageModel>dev</QPM:PackageModel>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Gimp Development</QPM:ProductName>
+            <QPM:ProductSize>226723</QPM:ProductSize>
+            <QPM:ProductIdentifier>gimp-dev</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Gimp</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.gimp.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Gimp is an image editing program.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Gimp is an image editing program.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.gimp.org/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/gimp/dev-1.2.3-bld4</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/02/17</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>1.2.3</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>4</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://gimp-1.2.3-bld4-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Multimedia/Graphics/Graphics Editing/Paint and Bitmap Editors</QPM:ContentTopic>
+            <QPM:ContentKeyword>gimp,photoshop</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>X11R6</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>Must include at least one development package targeting a specific processor (Packager-generated dependency).</QPM:Notes>
+               <QPM:Filter>
+                  <QPM:FilterType>StringExpression</QPM:FilterType>
+                  <ProductIdentifier>gimp-dev-target*</ProductIdentifier>
+               </QPM:Filter>
+            </QPM:Dependency>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="include">
+                     <QPM:Dir name="gck">
+                        <QPM:File>gck.h</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="libgimp">
+                        <QPM:File>gimp.h</QPM:File>
+                        <QPM:File>gimp_pdb.h</QPM:File>
+                        <QPM:File>gimpbrushes_pdb.h</QPM:File>
+                        <QPM:File>gimpbrushselect_pdb.h</QPM:File>
+                        <QPM:File>gimpchainbutton.h</QPM:File>
+                        <QPM:File>gimpchannel.h</QPM:File>
+                        <QPM:File>gimpchannel_pdb.h</QPM:File>
+                        <QPM:File>gimpchannelops_pdb.h</QPM:File>
+                        <QPM:File>gimpcolor_pdb.h</QPM:File>
+                        <QPM:File>gimpcolorbutton.h</QPM:File>
+                        <QPM:File>gimpcolordisplay.h</QPM:File>
+                        <QPM:File>gimpcolorselector.h</QPM:File>
+                        <QPM:File>gimpcolorspace.h</QPM:File>
+                        <QPM:File>gimpcompat.h</QPM:File>
+                        <QPM:File>gimpconvert_pdb.h</QPM:File>
+                        <QPM:File>gimpdialog.h</QPM:File>
+                        <QPM:File>gimpdisplay_pdb.h</QPM:File>
+                        <QPM:File>gimpdrawable.h</QPM:File>
+                        <QPM:File>gimpdrawable_pdb.h</QPM:File>
+                        <QPM:File>gimpedit_pdb.h</QPM:File>
+                        <QPM:File>gimpenums.h</QPM:File>
+                        <QPM:File>gimpenv.h</QPM:File>
+                        <QPM:File>gimpexport.h</QPM:File>
+                        <QPM:File>gimpfeatures.h</QPM:File>
+                        <QPM:File>gimpfileops_pdb.h</QPM:File>
+                        <QPM:File>gimpfileselection.h</QPM:File>
+                        <QPM:File>gimpfloatingsel_pdb.h</QPM:File>
+                        <QPM:File>gimpgimprc_pdb.h</QPM:File>
+                        <QPM:File>gimpgradients_pdb.h</QPM:File>
+                        <QPM:File>gimpgradientselect.h</QPM:File>
+                        <QPM:File>gimpgradientselect_pdb.h</QPM:File>
+                        <QPM:File>gimpguides_pdb.h</QPM:File>
+                        <QPM:File>gimphelp_pdb.h</QPM:File>
+                        <QPM:File>gimphelpui.h</QPM:File>
+                        <QPM:File>gimpimage.h</QPM:File>
+                        <QPM:File>gimpimage_pdb.h</QPM:File>
+                        <QPM:File>gimpintl.h</QPM:File>
+                        <QPM:File>gimplayer.h</QPM:File>
+                        <QPM:File>gimplayer_pdb.h</QPM:File>
+                        <QPM:File>gimplimits.h</QPM:File>
+                        <QPM:File>gimpmath.h</QPM:File>
+                        <QPM:File>gimpmatrix.h</QPM:File>
+                        <QPM:File>gimpmenu.h</QPM:File>
+                        <QPM:File>gimpmessage_pdb.h</QPM:File>
+                        <QPM:File>gimpmisc_pdb.h</QPM:File>
+                        <QPM:File>gimpmodule.h</QPM:File>
+                        <QPM:File>gimppalette_pdb.h</QPM:File>
+                        <QPM:File>gimpparasite.h</QPM:File>
+                        <QPM:File>gimpparasite_pdb.h</QPM:File>
+                        <QPM:File>gimpparasiteio.h</QPM:File>
+                        <QPM:File>gimppatheditor.h</QPM:File>
+                        <QPM:File>gimppaths_pdb.h</QPM:File>
+                        <QPM:File>gimppatterns_pdb.h</QPM:File>
+                        <QPM:File>gimppatternselect_pdb.h</QPM:File>
+                        <QPM:File>gimppixelrgn.h</QPM:File>
+                        <QPM:File>gimppixmap.h</QPM:File>
+                        <QPM:File>gimpplugin_pdb.h</QPM:File>
+                        <QPM:File>gimpproceduraldb.h</QPM:File>
+                        <QPM:File>gimpproceduraldb_pdb.h</QPM:File>
+                        <QPM:File>gimpquerybox.h</QPM:File>
+                        <QPM:File>gimpselection.h</QPM:File>
+                        <QPM:File>gimpselection_pdb.h</QPM:File>
+                        <QPM:File>gimpsignal.h</QPM:File>
+                        <QPM:File>gimpsizeentry.h</QPM:File>
+                        <QPM:File>gimptexttool_pdb.h</QPM:File>
+                        <QPM:File>gimptile.h</QPM:File>
+                        <QPM:File>gimptools_pdb.h</QPM:File>
+                        <QPM:File>gimptypes.h</QPM:File>
+                        <QPM:File>gimpui.h</QPM:File>
+                        <QPM:File>gimpundo_pdb.h</QPM:File>
+                        <QPM:File>gimpunit.h</QPM:File>
+                        <QPM:File>gimpunit_pdb.h</QPM:File>
+                        <QPM:File>gimpunitmenu.h</QPM:File>
+                        <QPM:File>gimputils.h</QPM:File>
+                        <QPM:File>gimpvector.h</QPM:File>
+                        <QPM:File>gimpwidgets.h</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Dir name="include">
+                     <QPM:Union link="../../opt/include/libgimp">libgimp</QPM:Union>
+                     <QPM:Union link="../../opt/include/gck">gck</QPM:Union>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

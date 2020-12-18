@@ -1,0 +1,145 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Development</QPM:PackageType>
+            <QPM:PackageName>libtool-1.4.3-bld2-public</QPM:PackageName>
+            <QPM:PackageSize>387719</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2002/12/31</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>GNU libtool</QPM:ProductName>
+            <QPM:ProductSize>1540431</QPM:ProductSize>
+            <QPM:ProductIdentifier>libtool</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>GNU</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.gnu.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>libtool is part of the GNU build tools.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Libtool is used to build shared libraries in a cross platform manner.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.gnu.org/projects/libtool/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/libtool/core-1.4.3-bld2</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/12/31</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>1.4.3</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>2</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://libtool-1.4.3-bld2-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Software Development/Build Tools</QPM:ContentTopic>
+            <QPM:ContentKeyword>gnu,automake,autoconf,libtool</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="bin">
+                     <QPM:File>libtool</QPM:File>
+                     <QPM:File>libtoolize</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="info">
+                     <QPM:File>libtool.info</QPM:File>
+                     <QPM:File>libtool.info-1</QPM:File>
+                     <QPM:File>libtool.info-2</QPM:File>
+                     <QPM:File>libtool.info-3</QPM:File>
+                     <QPM:File>libtool.info-4</QPM:File>
+                     <QPM:File>libtool.info-5</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="lib">
+                     <QPM:File>libltdl.la</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="aclocal">
+                        <QPM:File>libtool.m4</QPM:File>
+                        <QPM:File>ltdl.m4</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="libtool">
+                        <QPM:File>config.guess</QPM:File>
+                        <QPM:File>config.sub</QPM:File>
+                        <QPM:File>install-sh</QPM:File>
+                        <QPM:Dir name="libltdl">
+                           <QPM:File>COPYING.LIB</QPM:File>
+                           <QPM:File>Makefile.am</QPM:File>
+                           <QPM:File>Makefile.in</QPM:File>
+                           <QPM:File>README</QPM:File>
+                           <QPM:File>acinclude.m4</QPM:File>
+                           <QPM:File>aclocal.m4</QPM:File>
+                           <QPM:File>config-h.in</QPM:File>
+                           <QPM:File>configure</QPM:File>
+                           <QPM:File>configure.in</QPM:File>
+                           <QPM:File>ltdl.c</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>ltmain.sh</QPM:File>
+                        <QPM:File>missing</QPM:File>
+                        <QPM:File>mkinstalldirs</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../opt/lib">lib</QPM:Union>
+                  <QPM:Union link="../opt/info">info</QPM:Union>
+                  <QPM:Union link="../opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="share">
+                     <QPM:Union link="../../opt/share/libtool">libtool</QPM:Union>
+                     <QPM:Union link="../../opt/share/aclocal">aclocal</QPM:Union>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

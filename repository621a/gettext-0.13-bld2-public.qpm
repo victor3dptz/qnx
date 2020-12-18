@@ -1,0 +1,1268 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageName>gettext-0.13-bld2-public</QPM:PackageName>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2005/01/23</QPM:PackageReleaseDate>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:FileVersion>2.6</QPM:FileVersion>
+            <QPM:DateCode>41f400e5</QPM:DateCode>
+            <QPM:PackageSize>1587115</QPM:PackageSize>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>5499522</QPM:ProductSize>
+            <QPM:InstallPath>public/gettext/core-0.13-bld2</QPM:InstallPath>
+            <QPM:ProductName>GNU gettext</QPM:ProductName>
+            <QPM:ProductIdentifier>gettext</QPM:ProductIdentifier>
+            <QPM:ProductEmail>bug-gnu-gettext@gnu.org</QPM:ProductEmail>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.gnu.org/software/gettext/</QPM:VendorURL>
+            <QPM:VendorEmail>bug-gnu-gettext@gnu.org</QPM:VendorEmail>
+            <QPM:AuthorName>Gettext Team</QPM:AuthorName>
+            <QPM:ProductDescriptionShort>GNU gettext package.  It is interesting for authors or maintainers of other packages or programs which they want to see internationalized.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>GNU gettext package.  It is interesting for authors or maintainers of other packages or programs which they want to see internationalized. As one step the handling of messages in different languages should be implemented.  For this task GNU gettext provides the needed tools and library functions.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.gnu.org/software/gettext/</QPM:ProductDescriptionURL>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2005/01/23</QPM:ReleaseDate>
+            <QPM:ReleaseBuild>2</QPM:ReleaseBuild>
+            <QPM:ReleaseVersion>0.13</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Software Development/Libraries and Extensions/C Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>GNU,gettext,intl,libintl</QPM:ContentKeyword>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:LicenseUrl>rep://gettext-0.13-bld2-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:PackageDate>41f400e5</QPM:PackageDate>
+         <QPM:Listing>
+            <QPM:Dir name="" dt="41f400e5">
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../$(PROCESSOR)/usr/bin">bin</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/usr/lib">lib</QPM:Union>
+                  <QPM:Dir name="bin">
+                     <QPM:File sum="2827dc55852f1341b3241f24b7b1e564" size="15149">autopoint</QPM:File>
+                     <QPM:File sum="f23665b1f5b84fe8a4f688636ab4d4ea" size="2715">gettext.sh</QPM:File>
+                     <QPM:File sum="d1b8374e49515336356e0a52db7e5815" size="34447">gettextize</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="aclocal">
+                        <QPM:File sum="04bdbef77f5fd2e282f7dee0bde60444" size="894">codeset.m4</QPM:File>
+                        <QPM:File sum="4e5524bf75d5e8555e8d031e17a2c972" size="19032">gettext.m4</QPM:File>
+                        <QPM:File sum="29c9c3d57667bc9e6f14d625b2cd5894" size="983">glibc21.m4</QPM:File>
+                        <QPM:File sum="7cdde9f19fc614304e49342c660e2d47" size="1909">intdiv0.m4</QPM:File>
+                        <QPM:File sum="811ad124a7f9a0641eafaf3ecda54551" size="1146">intmax.m4</QPM:File>
+                        <QPM:File sum="e32906a3177f3b368bcd56f9e86a620c" size="1175">inttypes-pri.m4</QPM:File>
+                        <QPM:File sum="b17ad59a69316040fae6c3b09187bcbc" size="975">inttypes.m4</QPM:File>
+                        <QPM:File sum="0b63117973333c343e0d0819012b8187" size="1091">inttypes_h.m4</QPM:File>
+                        <QPM:File sum="e4326acdf6732093fac5fbc620d4dc92" size="1115">isc-posix.m4</QPM:File>
+                        <QPM:File sum="db111161c56fa9d53a03abfb188ad1d0" size="1422">lcmessage.m4</QPM:File>
+                        <QPM:File sum="763dd22077b3e9ea98fc8f81a84183a6" size="3566">lib-ld.m4</QPM:File>
+                        <QPM:File sum="50120e7fff340d87578219756e55a5e3" size="23267">lib-link.m4</QPM:File>
+                        <QPM:File sum="ec7c6b8de7e7f524ab1bb6d1eb0dd7ec" size="5447">lib-prefix.m4</QPM:File>
+                        <QPM:File sum="f72eca72db583c43737d6aba1d9db763" size="1216">longdouble.m4</QPM:File>
+                        <QPM:File sum="f9d4b5cc28b8767a2360cfa1dd85b81f" size="931">longlong.m4</QPM:File>
+                        <QPM:File sum="120ec56e3aa27739a2945bc1c8a2530a" size="1861">nls.m4</QPM:File>
+                        <QPM:File sum="031741dc0ed585b00b1554a3de93143f" size="16769">po.m4</QPM:File>
+                        <QPM:File sum="92e84fc1d1fa14dc72f15174ed5868d0" size="1582">printf-posix.m4</QPM:File>
+                        <QPM:File sum="d3cecf02bb97035177818aefbb0e0833" size="2972">progtest.m4</QPM:File>
+                        <QPM:File sum="9bb3a7f77bec7da4c70d245b53fd3837" size="769">signed.m4</QPM:File>
+                        <QPM:File sum="250d1c730b03d255a360c9687036f402" size="2106">size_max.m4</QPM:File>
+                        <QPM:File sum="761497fd3445beb86a90919955d5aa20" size="1067">stdint_h.m4</QPM:File>
+                        <QPM:File sum="5e1e75893989d0ae3c0452451cf80280" size="1256">uintmax_t.m4</QPM:File>
+                        <QPM:File sum="33a6de4b13c565bd758750f5c12e6392" size="1058">ulonglong.m4</QPM:File>
+                        <QPM:File sum="d98136ac7e27980e02fd62623e0dfdab" size="875">wchar_t.m4</QPM:File>
+                        <QPM:File sum="65f7be627faa911f7e87083ec06d00c6" size="857">wint_t.m4</QPM:File>
+                        <QPM:File sum="c7f7c4e1d8001c9d755aa09b3f1a302c" size="537">xsize.m4</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="doc">
+                        <QPM:Dir name="gettext">
+                           <QPM:File sum="d8d46eb50d07f93ad06308ddbd9815de" size="4998">autopoint.1.html</QPM:File>
+                           <QPM:File sum="7ec7ec8d3c6871a0d273d37da58fd332" size="5732">bind_textdomain_codeset.3.html</QPM:File>
+                           <QPM:File sum="002070e9f6f318c8b94f90a58b05cef1" size="5586">bindtextdomain.3.html</QPM:File>
+                           <QPM:File sum="d6206b0df468a45dc41db7b506e97061" size="5882">envsubst.1.html</QPM:File>
+                           <QPM:Dir name="examples">
+                              <QPM:File sum="98ed4267e0096d7323e39413d6563a78" size="1716">README</QPM:File>
+                              <QPM:Dir name="config">
+                                 <QPM:File sum="51cd7e1d25f2fda6b7c86198b0292323" size="2475">gcj.m4</QPM:File>
+                                 <QPM:File sum="884428bc4d64d073dae8050c94a0ca8c" size="3458">javacomp.m4</QPM:File>
+                                 <QPM:File sum="a5abacb7d5fbbb8a0dd6995cd01cd50c" size="2560">javacomp.sh.in</QPM:File>
+                                 <QPM:File sum="d941afd8ae6e79a1230508788558fb18" size="2703">javaexec.m4</QPM:File>
+                                 <QPM:File sum="2c68614986e5d24ebb64de5a1fb304c3" size="2272">javaexec.sh.in</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="hello-c">
+                                 <QPM:File sum="87bfa7a9c04571e7738d2ea8cd89a42c" size="67">INSTALL</QPM:File>
+                                 <QPM:File sum="97a4dc87c096565a286118186fa65b71" size="827">Makefile.am</QPM:File>
+                                 <QPM:File sum="ca2d367a80f0574c66cbda032e863f09" size="1073">autoclean.sh</QPM:File>
+                                 <QPM:File sum="364d5896c5f78f5b7b3df14072ef933a" size="667">autogen.sh</QPM:File>
+                                 <QPM:File sum="0b02b1ae9db3049fffbc55d39b6bc48b" size="448">configure.ac</QPM:File>
+                                 <QPM:File sum="45ba6234577f8fb6e949981fb168769a" size="771">hello.c</QPM:File>
+                                 <QPM:Dir name="m4">
+                                    <QPM:File sum="616365beee725b53e44d0709aaea9486" size="249">Makefile.am</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="po">
+                                    <QPM:File sum="d2f807fbceb7e7f65c9f171629fe0bba" size="185">LINGUAS</QPM:File>
+                                    <QPM:File sum="14c0fbdc16129bfc20c90b0b236d093d" size="1873">Makevars</QPM:File>
+                                    <QPM:File sum="4f6886819e8efa150df9096c605a204f" size="185">POTFILES.in</QPM:File>
+                                    <QPM:File sum="fd542e35a301b620739d5e85660ac195" size="832">ca.po</QPM:File>
+                                    <QPM:File sum="cf81fce48c4507aa8da318a542837e7d" size="840">de.po</QPM:File>
+                                    <QPM:File sum="31cc61c07170261f54641ae1c5c86403" size="801">es.po</QPM:File>
+                                    <QPM:File sum="89f3847dfa8ee202fde0c4b8d1deb408" size="807">fr.po</QPM:File>
+                                    <QPM:File sum="cd43ecc7e9fab248dc479bd2d715f0b5" size="737">ja.po</QPM:File>
+                                    <QPM:File sum="35612ff7f85b1d15196158daeab0f0d4" size="820">pl.po</QPM:File>
+                                    <QPM:File sum="b42b0a9583e4de4b5991c2ef75cd6638" size="839">ro.po</QPM:File>
+                                    <QPM:File sum="25b7a74f318314e60cfe8982f7015480" size="817">sr.po</QPM:File>
+                                    <QPM:File sum="93ade8c76427d80a28562955f67bc7e2" size="788">zh_CN.po</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="hello-c++">
+                                 <QPM:File sum="a54ae1c0a3f14ba852b16ec199af7bf6" size="51">INSTALL</QPM:File>
+                                 <QPM:File sum="fbda20bb559ee04aea453c1b10e9996e" size="842">Makefile.am</QPM:File>
+                                 <QPM:File sum="ca2d367a80f0574c66cbda032e863f09" size="1073">autoclean.sh</QPM:File>
+                                 <QPM:File sum="1e6582fec52f01f7e6395d2d4c54ced7" size="634">autogen.sh</QPM:File>
+                                 <QPM:File sum="b9d62ddc523a47c39ce313882e984b54" size="481">configure.ac</QPM:File>
+                                 <QPM:File sum="bc1bd8873d563e931928dc429bf9eafe" size="988">hello.cc</QPM:File>
+                                 <QPM:Dir name="m4">
+                                    <QPM:File sum="616365beee725b53e44d0709aaea9486" size="249">Makefile.am</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="po">
+                                    <QPM:File sum="d2f807fbceb7e7f65c9f171629fe0bba" size="185">LINGUAS</QPM:File>
+                                    <QPM:File sum="6853ccb7e23ccf98178a0ee255ec60ee" size="1907">Makevars</QPM:File>
+                                    <QPM:File sum="f6e13d21751af7e97c9a9de2c5a6209b" size="186">POTFILES.in</QPM:File>
+                                    <QPM:File sum="0b1ba849e8b5bd446f7d643b5b09c209" size="840">ca.po</QPM:File>
+                                    <QPM:File sum="ed97e697e135711329b3b4032e34118c" size="848">de.po</QPM:File>
+                                    <QPM:File sum="bcc3c7177afa34321128a05e878619b5" size="805">es.po</QPM:File>
+                                    <QPM:File sum="3f6ac4ccec419234b2a58b579c9304ba" size="811">fr.po</QPM:File>
+                                    <QPM:File sum="b8f2dc5468ccb2dcb55446d42e30fc0f" size="743">ja.po</QPM:File>
+                                    <QPM:File sum="87130445453645be09629faeaeae629f" size="826">pl.po</QPM:File>
+                                    <QPM:File sum="07e677a6de6de797a23731f76ce5fcde" size="847">ro.po</QPM:File>
+                                    <QPM:File sum="0423fa2d109686419e98d1a3d4889d8d" size="825">sr.po</QPM:File>
+                                    <QPM:File sum="029c961fcf36b617a64dd6533040dc26" size="796">zh_CN.po</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="hello-c++-gnome">
+                                 <QPM:File sum="a823f89fedd9671f8e84b7275d80e08e" size="451">INSTALL</QPM:File>
+                                 <QPM:File sum="7ae402a819992159f24520ecb11bfabd" size="882">Makefile.am</QPM:File>
+                                 <QPM:File sum="2f5c8fac86a95c3d24975ce19688f651" size="1025">autoclean.sh</QPM:File>
+                                 <QPM:File sum="ea5ce8dd7355afbf080e2757347dac43" size="551">autogen.sh</QPM:File>
+                                 <QPM:File sum="b62cbea437e36c8b4165a3e818421291" size="589">configure.ac</QPM:File>
+                                 <QPM:File sum="724222a33cb0ba8b2420ff9c87bbd657" size="2044">hello.cc</QPM:File>
+                                 <QPM:Dir name="m4">
+                                    <QPM:File sum="7fdff2aa3a0ed2e7842556ec9a18de6c" size="325">Makefile.am</QPM:File>
+                                    <QPM:File sum="edde5fe3481b5f126b7f8e1c8e42e03a" size="988">gnome-gnorba-check.m4</QPM:File>
+                                    <QPM:File sum="98b0b222dc5c3e9550a8fd46c1667b5b" size="909">gnome-orbit-check.m4</QPM:File>
+                                    <QPM:File sum="483ea8a2db7f9a6a46092dd703f35ad8" size="3618">gnome.m4</QPM:File>
+                                    <QPM:File sum="93e7995ae048ba66ad38c2f8719ca59b" size="8567">gtk--.m4</QPM:File>
+                                    <QPM:File sum="4bbe0df16259421ab575d1c987dfe16a" size="8285">gtk.m4</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="po">
+                                    <QPM:File sum="d2f807fbceb7e7f65c9f171629fe0bba" size="185">LINGUAS</QPM:File>
+                                    <QPM:File sum="3450f00523f6e7565f7f6acdc4b6e56c" size="2448">Makevars</QPM:File>
+                                    <QPM:File sum="f6e13d21751af7e97c9a9de2c5a6209b" size="186">POTFILES.in</QPM:File>
+                                    <QPM:File sum="4aea7a3c04ba5d5a8e680d3be3a4241a" size="858">ca.po</QPM:File>
+                                    <QPM:File sum="975824202fb204c7136dbefbf5086531" size="866">de.po</QPM:File>
+                                    <QPM:File sum="a49d5d774f2f3f22c93ccb075c06b60f" size="811">es.po</QPM:File>
+                                    <QPM:File sum="0d28616e8a64e5e69f4c5bf207379bed" size="817">fr.po</QPM:File>
+                                    <QPM:File sum="452fc7f8c64a367e19992bfe0bc15e27" size="755">ja.po</QPM:File>
+                                    <QPM:File sum="5cd1c1f996b0d6c111cd722eb6988b08" size="838">pl.po</QPM:File>
+                                    <QPM:File sum="2ad33fbfb7e48c40eeabc2e4b9c67686" size="865">ro.po</QPM:File>
+                                    <QPM:File sum="ecf4a98b3a462eb6256fae1e8f3ffbb8" size="843">sr.po</QPM:File>
+                                    <QPM:File sum="51a432de01da9222adfa72abcaf120af" size="814">zh_CN.po</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="hello-c++-kde">
+                                 <QPM:File sum="ea455f0923b0da968dfd69308ce9390a" size="191">INSTALL</QPM:File>
+                                 <QPM:File sum="6ae33e39c60b00dc2bbf751dd91c1fcc" size="1773">Makefile.am</QPM:File>
+                                 <QPM:File sum="06d86234f52db9770f5b91f031608988" size="1101">autoclean.sh</QPM:File>
+                                 <QPM:File sum="b4e630b8711a81b7ddd335dad15bd778" size="1164">autogen.sh</QPM:File>
+                                 <QPM:File sum="4423f7a3d2ba78a8ad8f3a050b176aac" size="134">configure.in.in</QPM:File>
+                                 <QPM:File sum="fe0089a11848a27f9da8c0e3100127cd" size="1921">hello.cc</QPM:File>
+                                 <QPM:File sum="ef596f8add4cc82013a1b127a6284407" size="1642">hellowindow.cc</QPM:File>
+                                 <QPM:Dir name="m4">
+                                    <QPM:File sum="616365beee725b53e44d0709aaea9486" size="249">Makefile.am</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="po">
+                                    <QPM:File sum="d2f807fbceb7e7f65c9f171629fe0bba" size="185">LINGUAS</QPM:File>
+                                    <QPM:File sum="d93e9cb16e58af5323451c43f4569a54" size="2561">Makevars</QPM:File>
+                                    <QPM:File sum="f7cc1a03edb258c767c5b284072f4a46" size="201">POTFILES.in</QPM:File>
+                                    <QPM:File sum="8ba0ff3e4faa00a1adeb9c6579813d7f" size="996">ca.po</QPM:File>
+                                    <QPM:File sum="3f988a34fbfcb30ee598941c3901d030" size="1008">de.po</QPM:File>
+                                    <QPM:File sum="f9ad37c88eff8115269323aa0baebf29" size="957">es.po</QPM:File>
+                                    <QPM:File sum="c3a62eeb1ca722faf3b71236ec8326ef" size="969">fr.po</QPM:File>
+                                    <QPM:File sum="93d17b3351c7be6a0b6fa99629947e86" size="910">ja.po</QPM:File>
+                                    <QPM:File sum="3d16c5ad609ec8db5a21216dc7fef3b0" size="1011">pl.po</QPM:File>
+                                    <QPM:File sum="db067bc32f97aaa63dc92c88e3662e27" size="1025">ro.po</QPM:File>
+                                    <QPM:File sum="8c8150614ee3dead2304b72f4fa8413e" size="1006">sr.po</QPM:File>
+                                    <QPM:File sum="0913c5d5cc861b5eb115a30781458490" size="959">zh_CN.po</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="hello-c++-qt">
+                                 <QPM:File sum="77a8d4a0c3785fd8ebf3974e99833025" size="139">INSTALL</QPM:File>
+                                 <QPM:File sum="7cc1273d86ce30066891e8d4ae29c6b5" size="896">Makefile.am</QPM:File>
+                                 <QPM:File sum="935aa5ddd8a8ac5b332240457460e1e9" size="630">autoclean.sh</QPM:File>
+                                 <QPM:File sum="529d5cebb2f30545dc071ade84db5ae1" size="642">autogen.sh</QPM:File>
+                                 <QPM:File sum="a380c03a8d71d2d69e82e3495aab7f13" size="541">configure.ac</QPM:File>
+                                 <QPM:File sum="b30f9ecf1d3c467c105a789a89e002bd" size="2057">hello.cc</QPM:File>
+                                 <QPM:Dir name="m4">
+                                    <QPM:File sum="a5ef73f8cf7d4dae9e00701d5f682c2b" size="40">Makefile.am</QPM:File>
+                                    <QPM:File sum="d6107e49785ca7b4ffe720011376361d" size="13049">qt.m4</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="po">
+                                    <QPM:File sum="d2f807fbceb7e7f65c9f171629fe0bba" size="185">LINGUAS</QPM:File>
+                                    <QPM:File sum="7c1c0270295989debfdcaaace4cf143e" size="8355">Makefile.am</QPM:File>
+                                    <QPM:File sum="64164e85687ed95ef9a7871f5df9bf30" size="850">ca.po</QPM:File>
+                                    <QPM:File sum="b2f01b4627587027aa71bbc33f4701d0" size="858">de.po</QPM:File>
+                                    <QPM:File sum="c8e5e20013e62d4a08282375386ef201" size="809">es.po</QPM:File>
+                                    <QPM:File sum="88072cfff538cd5aab9740dc8e057d8e" size="815">fr.po</QPM:File>
+                                    <QPM:File sum="7273132203290dcc1338089e3561affc" size="750">ja.po</QPM:File>
+                                    <QPM:File sum="e07005a5308e2ab836dbb267b9b2879c" size="833">pl.po</QPM:File>
+                                    <QPM:File sum="b707dad8c9f8a46cd6498d40396cdf6e" size="857">ro.po</QPM:File>
+                                    <QPM:File sum="d8640f282a84a481ceb724f0c384cda2" size="835">sr.po</QPM:File>
+                                    <QPM:File sum="87b4304717f5b04f6331cd29c1547fe0" size="806">zh_CN.po</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="hello-c-gnome">
+                                 <QPM:File sum="25165f9540309267b8ce80db369c0838" size="317">INSTALL</QPM:File>
+                                 <QPM:File sum="2bde95a6826e9fd37ce11d55a13c41ec" size="851">Makefile.am</QPM:File>
+                                 <QPM:File sum="2f5c8fac86a95c3d24975ce19688f651" size="1025">autoclean.sh</QPM:File>
+                                 <QPM:File sum="ea5ce8dd7355afbf080e2757347dac43" size="551">autogen.sh</QPM:File>
+                                 <QPM:File sum="6ecd4bd0e50ac329525d45b9bbe17190" size="465">configure.ac</QPM:File>
+                                 <QPM:File sum="b757b3fac9a9a5aca470c1acc00c5638" size="2367">hello.c</QPM:File>
+                                 <QPM:Dir name="m4">
+                                    <QPM:File sum="454f4a60c4afbf83b0a6a1fdd4cb9f18" size="305">Makefile.am</QPM:File>
+                                    <QPM:File sum="edde5fe3481b5f126b7f8e1c8e42e03a" size="988">gnome-gnorba-check.m4</QPM:File>
+                                    <QPM:File sum="98b0b222dc5c3e9550a8fd46c1667b5b" size="909">gnome-orbit-check.m4</QPM:File>
+                                    <QPM:File sum="483ea8a2db7f9a6a46092dd703f35ad8" size="3618">gnome.m4</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="po">
+                                    <QPM:File sum="d2f807fbceb7e7f65c9f171629fe0bba" size="185">LINGUAS</QPM:File>
+                                    <QPM:File sum="3450f00523f6e7565f7f6acdc4b6e56c" size="2448">Makevars</QPM:File>
+                                    <QPM:File sum="4f6886819e8efa150df9096c605a204f" size="185">POTFILES.in</QPM:File>
+                                    <QPM:File sum="a8f9df59aca1a8b33e0817b385e685a0" size="850">ca.po</QPM:File>
+                                    <QPM:File sum="060788f6e567edc5fe43afcb45e1e542" size="858">de.po</QPM:File>
+                                    <QPM:File sum="3cb6b0df8776e8ff013b8d26e6cde56c" size="807">es.po</QPM:File>
+                                    <QPM:File sum="38c52ff80723402af5612f351374de91" size="813">fr.po</QPM:File>
+                                    <QPM:File sum="17823ab7f9b318c09b05013119347570" size="749">ja.po</QPM:File>
+                                    <QPM:File sum="efa4f61d60c03fa4a5f9988ea3d57c41" size="832">pl.po</QPM:File>
+                                    <QPM:File sum="6d1933a9f03da60b5fa4621d66a6d928" size="857">ro.po</QPM:File>
+                                    <QPM:File sum="c8a4b35b071a3ecca3a6cafcd699d569" size="835">sr.po</QPM:File>
+                                    <QPM:File sum="ed19b7a55341f669bb8a97ea6d341e11" size="806">zh_CN.po</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="hello-clisp">
+                                 <QPM:File sum="4e14b58f1d8494f99af261e78905dea6" size="42">INSTALL</QPM:File>
+                                 <QPM:File sum="346924fa8804c3fe2e616e6d6c10785c" size="713">Makefile.am</QPM:File>
+                                 <QPM:File sum="4fff074c9e7fe49b1efac5208e0f99ee" size="595">autoclean.sh</QPM:File>
+                                 <QPM:File sum="5786525cafa46c558deb919dcddd5553" size="638">autogen.sh</QPM:File>
+                                 <QPM:File sum="ae384df325da401ce5747065f6db0ff2" size="1010">configure.ac</QPM:File>
+                                 <QPM:File sum="3d6369f024a564a3e28ae0c92d1800aa" size="452">hello.lisp.in</QPM:File>
+                                 <QPM:Dir name="m4">
+                                    <QPM:File sum="4ef4a15d0a465041e4e83cdb4d36448d" size="30">Makefile.am</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="po">
+                                    <QPM:File sum="d2f807fbceb7e7f65c9f171629fe0bba" size="185">LINGUAS</QPM:File>
+                                    <QPM:File sum="1f59e99efb1cc6d6b0d1fdab773f4e46" size="11092">Makefile.am</QPM:File>
+                                    <QPM:File sum="926b306ba82ca953c138b6b3052e9a8f" size="859">ca.po</QPM:File>
+                                    <QPM:File sum="a9b4f262cf1c640e010f14271faf7bf1" size="867">de.po</QPM:File>
+                                    <QPM:File sum="6ef19d6e3d2ed773e02ecd54cf6f7293" size="820">es.po</QPM:File>
+                                    <QPM:File sum="85ae2c71906e3a18ab0365c50312d9d1" size="826">fr.po</QPM:File>
+                                    <QPM:File sum="b320979e24abca9569b684ed33c9d808" size="760">ja.po</QPM:File>
+                                    <QPM:File sum="6a9c6fb0b55a27893ad097adb175e70b" size="843">pl.po</QPM:File>
+                                    <QPM:File sum="c7c90bb5f49f22ff00327249f8556e4e" size="866">ro.po</QPM:File>
+                                    <QPM:File sum="0a3f57612cfff1c978c2a6fa226f8279" size="844">sr.po</QPM:File>
+                                    <QPM:File sum="b40f729d259ad4f6409b8e23da808f75" size="815">zh_CN.po</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="hello-gawk">
+                                 <QPM:File sum="81e42fcfa4bc40597981a1bf900ef428" size="39">INSTALL</QPM:File>
+                                 <QPM:File sum="5863d027b832ac87a7291c3ab251bcf6" size="459">Makefile.am</QPM:File>
+                                 <QPM:File sum="4fff074c9e7fe49b1efac5208e0f99ee" size="595">autoclean.sh</QPM:File>
+                                 <QPM:File sum="5786525cafa46c558deb919dcddd5553" size="638">autogen.sh</QPM:File>
+                                 <QPM:File sum="d186ad65fa5348eb5f6714eae7fe2ec6" size="1035">configure.ac</QPM:File>
+                                 <QPM:File sum="992f4dc30bf84670f8b345f30bd1b978" size="356">hello.awk</QPM:File>
+                                 <QPM:Dir name="m4">
+                                    <QPM:File sum="4ef4a15d0a465041e4e83cdb4d36448d" size="30">Makefile.am</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="po">
+                                    <QPM:File sum="d2f807fbceb7e7f65c9f171629fe0bba" size="185">LINGUAS</QPM:File>
+                                    <QPM:File sum="cb8b9336eff64669a22e6bdcb57e8ee2" size="11048">Makefile.am</QPM:File>
+                                    <QPM:File sum="1512e89a200185b7df13c854fe5e572a" size="847">ca.po</QPM:File>
+                                    <QPM:File sum="8078b8d3aa0d0ed535a24ed049f24e87" size="855">de.po</QPM:File>
+                                    <QPM:File sum="241947eb4214cac4abd76c8c0053cf45" size="810">es.po</QPM:File>
+                                    <QPM:File sum="096253124b5a64dbbca3041d6da8148d" size="816">fr.po</QPM:File>
+                                    <QPM:File sum="e30c39cfaad1ba358db376a0948312ea" size="749">ja.po</QPM:File>
+                                    <QPM:File sum="b3b7f372adaafcb141dada23a39c198e" size="832">pl.po</QPM:File>
+                                    <QPM:File sum="4b93d7f733629586197c8fe2c6ac1e14" size="854">ro.po</QPM:File>
+                                    <QPM:File sum="84000fe39592fc5dddfdc1cd0ca30bf2" size="832">sr.po</QPM:File>
+                                    <QPM:File sum="76d27dc16ee36af292e06ba9dd3ccc0e" size="803">zh_CN.po</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="hello-java">
+                                 <QPM:File sum="d1652dc287f9a9c74e13233da7fba6d4" size="1160">Hello.java</QPM:File>
+                                 <QPM:File sum="f112aaf33793e349435b2bc3184e82d6" size="50">INSTALL</QPM:File>
+                                 <QPM:File sum="fdce7cc10174510f0e5f382f0a04ce44" size="5143">Makefile.am</QPM:File>
+                                 <QPM:File sum="8daf37dd30e5e4c70cd8747330b2b6d5" size="741">autoclean.sh</QPM:File>
+                                 <QPM:File sum="232970da62f8d7912bbac01384e39bf0" size="951">autogen.sh</QPM:File>
+                                 <QPM:File sum="65fb86e8ae71692187a496e5cc4c00d3" size="1844">configure.ac</QPM:File>
+                                 <QPM:Dir name="m4">
+                                    <QPM:File sum="cc14de11d6dc49e009cdfaff450235f7" size="65">Makefile.am</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="po">
+                                    <QPM:File sum="d2f807fbceb7e7f65c9f171629fe0bba" size="185">LINGUAS</QPM:File>
+                                    <QPM:File sum="24d59bd47338e07f276b08e7474af0ab" size="8301">Makefile.am</QPM:File>
+                                    <QPM:File sum="cb15bdb56c1964f6ec82d56c6517ed3e" size="852">ca.po</QPM:File>
+                                    <QPM:File sum="a1324169f3f74044caf731b4a43b06e8" size="860">de.po</QPM:File>
+                                    <QPM:File sum="d276cfcaf25864b4c3bc98fb151775dc" size="815">es.po</QPM:File>
+                                    <QPM:File sum="9c7aabcadc3e259f2f221215ebb59dee" size="821">fr.po</QPM:File>
+                                    <QPM:File sum="aca215f363c3c1d00175001bec6c7644" size="754">ja.po</QPM:File>
+                                    <QPM:File sum="69830ba8df478dbc772fa7723ef19e4b" size="837">pl.po</QPM:File>
+                                    <QPM:File sum="90cce7937d3017144f3c14b2e6daa2df" size="859">ro.po</QPM:File>
+                                    <QPM:File sum="dd28a5f589106ff5ca989256e89946e3" size="837">sr.po</QPM:File>
+                                    <QPM:File sum="b095eb2365847035adcb5bca9970a68b" size="808">zh_CN.po</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="hello-java-awt">
+                                 <QPM:File sum="becec03e4517655d63b4f49b8ebd1ed1" size="2094">Hello.java</QPM:File>
+                                 <QPM:File sum="2436d9a69499a68fd598e3905ab1a547" size="59">INSTALL</QPM:File>
+                                 <QPM:File sum="a4f64e977dbbd5e2c859a8c531a0211d" size="5151">Makefile.am</QPM:File>
+                                 <QPM:File sum="4c7b0827cd177168e7bf1464974649f2" size="745">autoclean.sh</QPM:File>
+                                 <QPM:File sum="232970da62f8d7912bbac01384e39bf0" size="951">autogen.sh</QPM:File>
+                                 <QPM:File sum="44cf80be32fcdaffbc0431e6c62ed550" size="1865">configure.ac</QPM:File>
+                                 <QPM:Dir name="m4">
+                                    <QPM:File sum="24760c4f34e10c8ac0710d9e7a0861c3" size="92">Makefile.am</QPM:File>
+                                    <QPM:File sum="97024d27d4accf34a753bb5218a78d31" size="449">TestAWT.class</QPM:File>
+                                    <QPM:File sum="474444d2be3deee89746ce5e48248a61" size="228">TestAWT.java</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="po">
+                                    <QPM:File sum="d2f807fbceb7e7f65c9f171629fe0bba" size="185">LINGUAS</QPM:File>
+                                    <QPM:File sum="24d59bd47338e07f276b08e7474af0ab" size="8301">Makefile.am</QPM:File>
+                                    <QPM:File sum="dce3e162ae809923e21b4d9e4c16d73a" size="864">ca.po</QPM:File>
+                                    <QPM:File sum="613fa6f7a759690a9859577a4f43354b" size="872">de.po</QPM:File>
+                                    <QPM:File sum="3800463db73889e42fc0fcd372f9cf6c" size="819">es.po</QPM:File>
+                                    <QPM:File sum="2733391c8a77149cc5aaa76de3ab6c7b" size="825">fr.po</QPM:File>
+                                    <QPM:File sum="0a91b0a36c1a046b1fc2bdce83e07de5" size="762">ja.po</QPM:File>
+                                    <QPM:File sum="6db1b96904ff3aaaf2c36c7cacd8356b" size="845">pl.po</QPM:File>
+                                    <QPM:File sum="719d6f552b71d435c13fd4d8c20456ab" size="871">ro.po</QPM:File>
+                                    <QPM:File sum="61213b3880791ebe1d108ee2870793d5" size="849">sr.po</QPM:File>
+                                    <QPM:File sum="3f55e7d4087b994dff5b85613e6aaf37" size="820">zh_CN.po</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="hello-java-swing">
+                                 <QPM:File sum="9b951ca060b7d2153966d1a9253b2341" size="2071">Hello.java</QPM:File>
+                                 <QPM:File sum="ab62c23a3ef8d334b86450e8bb9ec39a" size="119">INSTALL</QPM:File>
+                                 <QPM:File sum="ef2c2bf1192f968c86d7173262302cf0" size="5155">Makefile.am</QPM:File>
+                                 <QPM:File sum="4e72568fbda149f227c5158ea82ae697" size="747">autoclean.sh</QPM:File>
+                                 <QPM:File sum="232970da62f8d7912bbac01384e39bf0" size="951">autogen.sh</QPM:File>
+                                 <QPM:File sum="98225ab97cee9e202a8ee8bbba033d4a" size="1867">configure.ac</QPM:File>
+                                 <QPM:Dir name="m4">
+                                    <QPM:File sum="24760c4f34e10c8ac0710d9e7a0861c3" size="92">Makefile.am</QPM:File>
+                                    <QPM:File sum="97024d27d4accf34a753bb5218a78d31" size="449">TestAWT.class</QPM:File>
+                                    <QPM:File sum="474444d2be3deee89746ce5e48248a61" size="228">TestAWT.java</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="po">
+                                    <QPM:File sum="d2f807fbceb7e7f65c9f171629fe0bba" size="185">LINGUAS</QPM:File>
+                                    <QPM:File sum="24d59bd47338e07f276b08e7474af0ab" size="8301">Makefile.am</QPM:File>
+                                    <QPM:File sum="e7b5c1658b6c9ac81102ffef39ecd1dd" size="870">ca.po</QPM:File>
+                                    <QPM:File sum="e426c874f40e4e126f42b46aadfc1981" size="878">de.po</QPM:File>
+                                    <QPM:File sum="ef4425df2dae3355568eb1332a1e8bc7" size="821">es.po</QPM:File>
+                                    <QPM:File sum="d66b2b6feddf75b400771e84d432bdf8" size="827">fr.po</QPM:File>
+                                    <QPM:File sum="eeccd04b8ce923807197dba83f16bbd8" size="766">ja.po</QPM:File>
+                                    <QPM:File sum="28524a094d9ecc3e09c9f92ca6d18db1" size="849">pl.po</QPM:File>
+                                    <QPM:File sum="c2da588dec884054066b13c0d8964543" size="877">ro.po</QPM:File>
+                                    <QPM:File sum="57d8e1cb4a2dca0cdf148fe91f8e2997" size="855">sr.po</QPM:File>
+                                    <QPM:File sum="29b0894d8075dd2d5572a2787a8613b1" size="826">zh_CN.po</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="hello-librep">
+                                 <QPM:File sum="ee2d20c5fb4e588874d3f8c2f78ed13e" size="31">INSTALL</QPM:File>
+                                 <QPM:File sum="a126560fec09e98b1bcef5b1a67f3405" size="727">Makefile.am</QPM:File>
+                                 <QPM:File sum="4fff074c9e7fe49b1efac5208e0f99ee" size="595">autoclean.sh</QPM:File>
+                                 <QPM:File sum="5786525cafa46c558deb919dcddd5553" size="638">autogen.sh</QPM:File>
+                                 <QPM:File sum="adf2cabf9ceb927d664f19283730e1e3" size="1001">configure.ac</QPM:File>
+                                 <QPM:File sum="8f644cbdb99b24a1288cb493d66697d6" size="491">hello.jl.in</QPM:File>
+                                 <QPM:Dir name="m4">
+                                    <QPM:File sum="4ef4a15d0a465041e4e83cdb4d36448d" size="30">Makefile.am</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="po">
+                                    <QPM:File sum="d2f807fbceb7e7f65c9f171629fe0bba" size="185">LINGUAS</QPM:File>
+                                    <QPM:File sum="d7333fa4fcd7d4202d9899ce3904040e" size="11050">Makefile.am</QPM:File>
+                                    <QPM:File sum="fa4f3525a31547307d01a93d9ef2982d" size="860">ca.po</QPM:File>
+                                    <QPM:File sum="2a001c69d5965479ebebc920f9afcef3" size="868">de.po</QPM:File>
+                                    <QPM:File sum="9814031f96d1f2ef041da6b0419eff9b" size="819">es.po</QPM:File>
+                                    <QPM:File sum="151a52b4a5ecda9f2361c4782f460c7b" size="825">fr.po</QPM:File>
+                                    <QPM:File sum="1a41bd299883e0efec75f42ecf7058d2" size="760">ja.po</QPM:File>
+                                    <QPM:File sum="ea580a8a9075d54821a49826a32fc26d" size="843">pl.po</QPM:File>
+                                    <QPM:File sum="54f0bd66211c23e21e70ac1fc0c57023" size="867">ro.po</QPM:File>
+                                    <QPM:File sum="2472d9598a172c7d927fe9d17b3f1f05" size="845">sr.po</QPM:File>
+                                    <QPM:File sum="c62d8744a0957c9b3362709ed3adb327" size="816">zh_CN.po</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="hello-objc">
+                                 <QPM:File sum="fd8f00775dcb54c1d9817221971e527a" size="72">INSTALL</QPM:File>
+                                 <QPM:File sum="ea06a71350e402cdc4d31df8a167351c" size="827">Makefile.am</QPM:File>
+                                 <QPM:File sum="ca2d367a80f0574c66cbda032e863f09" size="1073">autoclean.sh</QPM:File>
+                                 <QPM:File sum="364d5896c5f78f5b7b3df14072ef933a" size="667">autogen.sh</QPM:File>
+                                 <QPM:File sum="f104c6eb4b15a9580cbbafebc2dfd717" size="477">configure.ac</QPM:File>
+                                 <QPM:File sum="da2712e52f0d0019e2a5b761b5a2e541" size="787">hello.m</QPM:File>
+                                 <QPM:Dir name="m4">
+                                    <QPM:File sum="616365beee725b53e44d0709aaea9486" size="249">Makefile.am</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="po">
+                                    <QPM:File sum="d2f807fbceb7e7f65c9f171629fe0bba" size="185">LINGUAS</QPM:File>
+                                    <QPM:File sum="14c0fbdc16129bfc20c90b0b236d093d" size="1873">Makevars</QPM:File>
+                                    <QPM:File sum="45b53fe09edec912ba1674b22d28ef6e" size="185">POTFILES.in</QPM:File>
+                                    <QPM:File sum="4cff32e7a31bbe604531a1b3a727edb7" size="841">ca.po</QPM:File>
+                                    <QPM:File sum="0184f3cbb48278a88970c279a6415132" size="849">de.po</QPM:File>
+                                    <QPM:File sum="dcd429377d0b6ca62b6c45c5401fbcda" size="804">es.po</QPM:File>
+                                    <QPM:File sum="77d356c3fa598c4d0cdb03e1e03ec59e" size="810">fr.po</QPM:File>
+                                    <QPM:File sum="0b76bedbb041e653c0530974176a0ec4" size="743">ja.po</QPM:File>
+                                    <QPM:File sum="d8f19124691df91d9a1a54d08f632c88" size="826">pl.po</QPM:File>
+                                    <QPM:File sum="a8126d574736656bea115a927dc16618" size="848">ro.po</QPM:File>
+                                    <QPM:File sum="42578fc08f44b1c5c43233350ed1ca08" size="826">sr.po</QPM:File>
+                                    <QPM:File sum="bc07be77cb643e518a0bd8a449472798" size="797">zh_CN.po</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="hello-objc-gnome">
+                                 <QPM:File sum="052e9eada66748775f22d4bc9938d8ed" size="461">INSTALL</QPM:File>
+                                 <QPM:File sum="07cf55720ea3ef2345a70bb595c3a500" size="896">Makefile.am</QPM:File>
+                                 <QPM:File sum="2f5c8fac86a95c3d24975ce19688f651" size="1025">autoclean.sh</QPM:File>
+                                 <QPM:File sum="ea5ce8dd7355afbf080e2757347dac43" size="551">autogen.sh</QPM:File>
+                                 <QPM:File sum="80ca3370e3d4af3246d9d703cc4ff044" size="710">configure.ac</QPM:File>
+                                 <QPM:File sum="8448066388964dba4af162d757e882db" size="2294">hello.m</QPM:File>
+                                 <QPM:Dir name="m4">
+                                    <QPM:File sum="454f4a60c4afbf83b0a6a1fdd4cb9f18" size="305">Makefile.am</QPM:File>
+                                    <QPM:File sum="edde5fe3481b5f126b7f8e1c8e42e03a" size="988">gnome-gnorba-check.m4</QPM:File>
+                                    <QPM:File sum="98b0b222dc5c3e9550a8fd46c1667b5b" size="909">gnome-orbit-check.m4</QPM:File>
+                                    <QPM:File sum="483ea8a2db7f9a6a46092dd703f35ad8" size="3618">gnome.m4</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="po">
+                                    <QPM:File sum="d2f807fbceb7e7f65c9f171629fe0bba" size="185">LINGUAS</QPM:File>
+                                    <QPM:File sum="3450f00523f6e7565f7f6acdc4b6e56c" size="2448">Makevars</QPM:File>
+                                    <QPM:File sum="45b53fe09edec912ba1674b22d28ef6e" size="185">POTFILES.in</QPM:File>
+                                    <QPM:File sum="124e660f0f0a1d42d4e99a27b79574c0" size="859">ca.po</QPM:File>
+                                    <QPM:File sum="465a2e1ff3d0b230462f770c5cacea42" size="867">de.po</QPM:File>
+                                    <QPM:File sum="599c55f00b1f86d8d229686ea0cd038d" size="810">es.po</QPM:File>
+                                    <QPM:File sum="62db3639b337fb5e36ad194b6e26c291" size="816">fr.po</QPM:File>
+                                    <QPM:File sum="e7b0a78e2edb0e6820dd89fa111a834d" size="755">ja.po</QPM:File>
+                                    <QPM:File sum="7baceff00e7eb416cd1a98a6704de32d" size="838">pl.po</QPM:File>
+                                    <QPM:File sum="ae6939c70ea5416c54b7dba52c7b12d2" size="866">ro.po</QPM:File>
+                                    <QPM:File sum="6c69c39142cbb4fef862591785834205" size="844">sr.po</QPM:File>
+                                    <QPM:File sum="3586bdc581d300c8a06d84f63b00bd40" size="815">zh_CN.po</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="hello-objc-gnustep">
+                                 <QPM:File sum="0c438254a7cb35085aaf4d7819677359" size="1483">AppController.m</QPM:File>
+                                 <QPM:File sum="08169f9addd01e401b2cdb8961a4e256" size="884">GNUmakefile</QPM:File>
+                                 <QPM:File sum="53460eb7b83b87d33ed9f76f5627d8c1" size="2612">Hello.m</QPM:File>
+                                 <QPM:File sum="c7c88054ccb57b1e2c121ad93d6641d1" size="384">INSTALL</QPM:File>
+                                 <QPM:File sum="364bef670e8fbc81e5111dd815927e2d" size="272">autoclean.sh</QPM:File>
+                                 <QPM:File sum="625ced760424070abb2a7c312033a9e7" size="328">autogen.sh</QPM:File>
+                                 <QPM:File sum="4e470db0973214d8e2213e3fefdc3f57" size="3343">main.m</QPM:File>
+                                 <QPM:Dir name="po">
+                                    <QPM:File sum="cf66d793fa51708a108317643863c6c2" size="6136">GNUmakefile</QPM:File>
+                                    <QPM:File sum="d2f807fbceb7e7f65c9f171629fe0bba" size="185">LINGUAS</QPM:File>
+                                    <QPM:File sum="3dec41385e8ea77f66dea57052c1ba53" size="4773">LocaleAliases</QPM:File>
+                                    <QPM:File sum="57ce16e0c175a99d55db7ff15e26aa70" size="868">ca.po</QPM:File>
+                                    <QPM:File sum="57d3f39e6c2d555c77237773e8c2860f" size="876">de.po</QPM:File>
+                                    <QPM:File sum="4b1b08ffb3e528a4b714b90a89aa801f" size="815">es.po</QPM:File>
+                                    <QPM:File sum="fcac533694256c7bc47de4c035de490f" size="821">fr.po</QPM:File>
+                                    <QPM:File sum="c558a42d977dcfbd60b5eb2ef5f18bbc" size="762">ja.po</QPM:File>
+                                    <QPM:File sum="846f3439e71f3a8a1a1966ff9b65e47b" size="845">pl.po</QPM:File>
+                                    <QPM:File sum="5972fedbe94f50e989b4dae75181e2a7" size="875">ro.po</QPM:File>
+                                    <QPM:File sum="170b586519a55d95eb5648764e416c92" size="853">sr.po</QPM:File>
+                                    <QPM:File sum="e57c16530a847370a19d515f3d23a290" size="824">zh_CN.po</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="hello-pascal">
+                                 <QPM:File sum="7cce23c550d3ecfec2e22d9afa644fbb" size="49">INSTALL</QPM:File>
+                                 <QPM:File sum="68145322589a508d9e9dc7a848b85e7f" size="1309">Makefile.am</QPM:File>
+                                 <QPM:File sum="4fff074c9e7fe49b1efac5208e0f99ee" size="595">autoclean.sh</QPM:File>
+                                 <QPM:File sum="5786525cafa46c558deb919dcddd5553" size="638">autogen.sh</QPM:File>
+                                 <QPM:File sum="53cd40242ddbe7ccaeb9011bdb621301" size="1001">configure.ac</QPM:File>
+                                 <QPM:File sum="34b93ab282c83771fdfc80a7171d3c91" size="561">hello.pas</QPM:File>
+                                 <QPM:File sum="b04aa92508fdfbde115a447b006148cd" size="151">hello.rst</QPM:File>
+                                 <QPM:Dir name="m4">
+                                    <QPM:File sum="4ef4a15d0a465041e4e83cdb4d36448d" size="30">Makefile.am</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="po">
+                                    <QPM:File sum="d2f807fbceb7e7f65c9f171629fe0bba" size="185">LINGUAS</QPM:File>
+                                    <QPM:File sum="4c6be87849442eb71ba8f39ff9453e27" size="11048">Makefile.am</QPM:File>
+                                    <QPM:File sum="e6f4baf52842910a1621a044811e80cf" size="872">ca.po</QPM:File>
+                                    <QPM:File sum="bd2d33b18857399eb9d31716325733bf" size="880">de.po</QPM:File>
+                                    <QPM:File sum="8ec20e6e3ac53458fdb83b944e7d96d3" size="831">es.po</QPM:File>
+                                    <QPM:File sum="591ff45854c08d5a46fa6af0e7fc9a28" size="837">fr.po</QPM:File>
+                                    <QPM:File sum="3e687c061b8c4b2309c7ddde374a4142" size="772">ja.po</QPM:File>
+                                    <QPM:File sum="f118e48ccc0a205eef807de6b6897655" size="855">pl.po</QPM:File>
+                                    <QPM:File sum="044417a3cd3aa6594363ffb063ffbfd2" size="879">ro.po</QPM:File>
+                                    <QPM:File sum="5cbc741f0170dbc8886a8ed5838c4e42" size="857">sr.po</QPM:File>
+                                    <QPM:File sum="f13fa117f95b51727bd61f5d6b1aa0f5" size="828">zh_CN.po</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="hello-perl">
+                                 <QPM:File sum="1e545e27b07f963e0567ab9968c37d0c" size="40">INSTALL</QPM:File>
+                                 <QPM:File sum="5863d027b832ac87a7291c3ab251bcf6" size="459">Makefile.am</QPM:File>
+                                 <QPM:File sum="4fff074c9e7fe49b1efac5208e0f99ee" size="595">autoclean.sh</QPM:File>
+                                 <QPM:File sum="5786525cafa46c558deb919dcddd5553" size="638">autogen.sh</QPM:File>
+                                 <QPM:File sum="3937238900eb5e85ef936c45ff89f5fb" size="1046">configure.ac</QPM:File>
+                                 <QPM:File sum="644c07bacc74824965e015a616e3a4a2" size="400">hello.pl</QPM:File>
+                                 <QPM:Dir name="m4">
+                                    <QPM:File sum="4ef4a15d0a465041e4e83cdb4d36448d" size="30">Makefile.am</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="po">
+                                    <QPM:File sum="d2f807fbceb7e7f65c9f171629fe0bba" size="185">LINGUAS</QPM:File>
+                                    <QPM:File sum="fb5a5918a91f7601373d562eae34c92c" size="11117">Makefile.am</QPM:File>
+                                    <QPM:File sum="50aa83ae0c04e162ea1c3e33fc3efb9b" size="846">ca.po</QPM:File>
+                                    <QPM:File sum="0f593b67ea9911b1b592fd064f0f593f" size="854">de.po</QPM:File>
+                                    <QPM:File sum="ae425da58143e7bfac8b72af76a91130" size="809">es.po</QPM:File>
+                                    <QPM:File sum="9f8ae22f299d89653fe0196e080f08f4" size="815">fr.po</QPM:File>
+                                    <QPM:File sum="c613d46245fab288c61a2854730d6244" size="748">ja.po</QPM:File>
+                                    <QPM:File sum="ccaa08c2a7f1d2056bb721da9e33e631" size="831">pl.po</QPM:File>
+                                    <QPM:File sum="94558bf768d786202d07a2027381d51f" size="853">ro.po</QPM:File>
+                                    <QPM:File sum="318cf06e956db23fc872d99b002f9098" size="831">sr.po</QPM:File>
+                                    <QPM:File sum="d74e95eee9f1b49ad91c9a3b39fe2b8b" size="802">zh_CN.po</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="hello-php">
+                                 <QPM:File sum="147064901df47880b96f53d36ce5acdc" size="28">INSTALL</QPM:File>
+                                 <QPM:File sum="5863d027b832ac87a7291c3ab251bcf6" size="459">Makefile.am</QPM:File>
+                                 <QPM:File sum="eb620cd93a8cffabbebdff13b3d215ce" size="346">README</QPM:File>
+                                 <QPM:File sum="4fff074c9e7fe49b1efac5208e0f99ee" size="595">autoclean.sh</QPM:File>
+                                 <QPM:File sum="5786525cafa46c558deb919dcddd5553" size="638">autogen.sh</QPM:File>
+                                 <QPM:File sum="739017cf976c1c564240e8b7bd3fa144" size="1036">configure.ac</QPM:File>
+                                 <QPM:File sum="a796a39677a77764452bb5d0e238bb68" size="446">hello.php</QPM:File>
+                                 <QPM:Dir name="m4">
+                                    <QPM:File sum="4ef4a15d0a465041e4e83cdb4d36448d" size="30">Makefile.am</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="po">
+                                    <QPM:File sum="d2f807fbceb7e7f65c9f171629fe0bba" size="185">LINGUAS</QPM:File>
+                                    <QPM:File sum="c46b3d53d38ce6166d486c37141b323c" size="11048">Makefile.am</QPM:File>
+                                    <QPM:File sum="29e702b94c8424ff07114e10daa6acf8" size="844">ca.po</QPM:File>
+                                    <QPM:File sum="d07cf1df4e390c5681ddc1696514f1e5" size="852">de.po</QPM:File>
+                                    <QPM:File sum="db136efdcb309f0e1ed8e87fe44d5868" size="809">es.po</QPM:File>
+                                    <QPM:File sum="fa7b330a704ca3fae6fd2d1d64adbedd" size="815">fr.po</QPM:File>
+                                    <QPM:File sum="571d6fb0986dfe902e28c27b5df325b7" size="747">ja.po</QPM:File>
+                                    <QPM:File sum="bf155412bd002cb8ec9b6e7b2c5e6fa5" size="830">pl.po</QPM:File>
+                                    <QPM:File sum="0908eaffbc53e532f2f8098bc1460cb0" size="851">ro.po</QPM:File>
+                                    <QPM:File sum="be067d9bcadb4903f0dc83271c912d4f" size="829">sr.po</QPM:File>
+                                    <QPM:File sum="ef48bea33c66338bf6a74137af0a2e25" size="800">zh_CN.po</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="hello-python">
+                                 <QPM:File sum="b33c2ae23b57e4320b593f8ae6b81637" size="44">INSTALL</QPM:File>
+                                 <QPM:File sum="d41efe87a263289ab97cc653b01323a1" size="711">Makefile.am</QPM:File>
+                                 <QPM:File sum="4fff074c9e7fe49b1efac5208e0f99ee" size="595">autoclean.sh</QPM:File>
+                                 <QPM:File sum="5786525cafa46c558deb919dcddd5553" size="638">autogen.sh</QPM:File>
+                                 <QPM:File sum="69882d08e7112ae3e4f931cf59d88bbb" size="988">configure.ac</QPM:File>
+                                 <QPM:File sum="e350351eb3ee86d063a5dd9a0e069a9b" size="427">hello.py.in</QPM:File>
+                                 <QPM:Dir name="m4">
+                                    <QPM:File sum="4ef4a15d0a465041e4e83cdb4d36448d" size="30">Makefile.am</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="po">
+                                    <QPM:File sum="d2f807fbceb7e7f65c9f171629fe0bba" size="185">LINGUAS</QPM:File>
+                                    <QPM:File sum="18109dd01c55a9b9206b949ed11e58ad" size="11050">Makefile.am</QPM:File>
+                                    <QPM:File sum="2648da0ce03e1db6ce5fef29dba66e1c" size="870">ca.po</QPM:File>
+                                    <QPM:File sum="2e26c04fe84c645a39aef32c98df4e64" size="878">de.po</QPM:File>
+                                    <QPM:File sum="67863f428ba1ba023d1fbfb850f78d3b" size="829">es.po</QPM:File>
+                                    <QPM:File sum="a958594939f79ef8abb4625f35274bc0" size="835">fr.po</QPM:File>
+                                    <QPM:File sum="481bcc57f6a15fe3a42a23a6a3f8f97d" size="770">ja.po</QPM:File>
+                                    <QPM:File sum="2cc62ce09c7cb7a167720048208c781e" size="853">pl.po</QPM:File>
+                                    <QPM:File sum="4139309eb56ed0774e1b62a11bdafa02" size="877">ro.po</QPM:File>
+                                    <QPM:File sum="b7494bbe9535cc2feae6f5e8bfe81c95" size="855">sr.po</QPM:File>
+                                    <QPM:File sum="3be48b21e4a27cb3361f09b866fb4b6a" size="826">zh_CN.po</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="hello-sh">
+                                 <QPM:File sum="eec06bec81833bc2d9019338f5d62be1" size="52">INSTALL</QPM:File>
+                                 <QPM:File sum="5863d027b832ac87a7291c3ab251bcf6" size="459">Makefile.am</QPM:File>
+                                 <QPM:File sum="4fff074c9e7fe49b1efac5208e0f99ee" size="595">autoclean.sh</QPM:File>
+                                 <QPM:File sum="5786525cafa46c558deb919dcddd5553" size="638">autogen.sh</QPM:File>
+                                 <QPM:File sum="775c693fd04483c43b91cde9a883aa4f" size="863">configure.ac</QPM:File>
+                                 <QPM:File sum="b2af88c5b6a1b8614d7f4ea82d5633d7" size="385">hello.sh</QPM:File>
+                                 <QPM:Dir name="m4">
+                                    <QPM:File sum="4ef4a15d0a465041e4e83cdb4d36448d" size="30">Makefile.am</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="po">
+                                    <QPM:File sum="d2f807fbceb7e7f65c9f171629fe0bba" size="185">LINGUAS</QPM:File>
+                                    <QPM:File sum="e4ada8c16ace74cf8ac0db12fe8ae2ec" size="11047">Makefile.am</QPM:File>
+                                    <QPM:File sum="2fbac0316d4e368ee11f4966c3f35a05" size="842">ca.po</QPM:File>
+                                    <QPM:File sum="529d628db717fa18183a8ed3d5353b5a" size="850">de.po</QPM:File>
+                                    <QPM:File sum="75f2b02c914a96b67515b64d64916731" size="809">es.po</QPM:File>
+                                    <QPM:File sum="f4971e6ed749115982150dc84edf3f97" size="815">fr.po</QPM:File>
+                                    <QPM:File sum="cb694ba0a13839d9f9859d7de4c61193" size="746">ja.po</QPM:File>
+                                    <QPM:File sum="b2f85fc545e036f76fbccb234473015d" size="829">pl.po</QPM:File>
+                                    <QPM:File sum="e7f57f1245a9269bb81638b331bf5af1" size="846">ro.po</QPM:File>
+                                    <QPM:File sum="ae275db0fd5e9197a8b0c9dceff268a3" size="827">sr.po</QPM:File>
+                                    <QPM:File sum="e4adf7f3d60ee30228afa919ac7c06a3" size="798">zh_CN.po</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="hello-smalltalk">
+                                 <QPM:File sum="ec04c21371dff26d2b2c08f698e09a0f" size="44">INSTALL</QPM:File>
+                                 <QPM:File sum="be36c2c807c3f8297c2d69b537995e2f" size="702">Makefile.am</QPM:File>
+                                 <QPM:File sum="4fff074c9e7fe49b1efac5208e0f99ee" size="595">autoclean.sh</QPM:File>
+                                 <QPM:File sum="5786525cafa46c558deb919dcddd5553" size="638">autogen.sh</QPM:File>
+                                 <QPM:File sum="5aa930c0ddc5ebed9a947c82157fcfb8" size="998">configure.ac</QPM:File>
+                                 <QPM:File sum="88cbbe70d60890e1c010df215e671a88" size="1062">hello.st.in</QPM:File>
+                                 <QPM:Dir name="m4">
+                                    <QPM:File sum="4ef4a15d0a465041e4e83cdb4d36448d" size="30">Makefile.am</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="po">
+                                    <QPM:File sum="d2f807fbceb7e7f65c9f171629fe0bba" size="185">LINGUAS</QPM:File>
+                                    <QPM:File sum="8979a7a363d98143a94d110824333d60" size="11050">Makefile.am</QPM:File>
+                                    <QPM:File sum="3086ee3c5fab65619a6c443d167c0ed4" size="872">ca.po</QPM:File>
+                                    <QPM:File sum="ed2e661a1ce57f2078ee541fe93c7737" size="880">de.po</QPM:File>
+                                    <QPM:File sum="45dd19f9f2055dbd88b36f858e7fd1e7" size="825">es.po</QPM:File>
+                                    <QPM:File sum="8028064114a837feaf6a85a923f8d81e" size="831">fr.po</QPM:File>
+                                    <QPM:File sum="e44fb5f7553b4202ac1a9aa783aae000" size="769">ja.po</QPM:File>
+                                    <QPM:File sum="e8a8aafec1f90a21d0b3269d24540f03" size="852">pl.po</QPM:File>
+                                    <QPM:File sum="b45331729fc1eac89f429b0f74e7981a" size="879">ro.po</QPM:File>
+                                    <QPM:File sum="ed24856c59e2476dc0a6a514ddfa9a12" size="857">sr.po</QPM:File>
+                                    <QPM:File sum="65184e0dfa74db7db2ffad43aaf994ad" size="828">zh_CN.po</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="hello-tcl">
+                                 <QPM:File sum="0a22cb7f2013eaee85262335ef5166ee" size="51">INSTALL</QPM:File>
+                                 <QPM:File sum="5863d027b832ac87a7291c3ab251bcf6" size="459">Makefile.am</QPM:File>
+                                 <QPM:File sum="d51bf17c6ef62fccfa6e2ac364d19b3a" size="595">autoclean.sh</QPM:File>
+                                 <QPM:File sum="34ba43d757f5c030d41378c813856804" size="645">autogen.sh</QPM:File>
+                                 <QPM:File sum="48e2d4bc65f766d17a10561baaec8e5c" size="1057">configure.ac</QPM:File>
+                                 <QPM:File sum="9fda0460de152a790dd0f37e1bb880d1" size="380">hello.tcl</QPM:File>
+                                 <QPM:Dir name="m4">
+                                    <QPM:File sum="4ef4a15d0a465041e4e83cdb4d36448d" size="30">Makefile.am</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="po">
+                                    <QPM:File sum="d2f807fbceb7e7f65c9f171629fe0bba" size="185">LINGUAS</QPM:File>
+                                    <QPM:File sum="46bf8e0f691833af5b943b6bbf767d14" size="7478">Makefile.am</QPM:File>
+                                    <QPM:File sum="43861972201a7fbe495a7c117de125f5" size="844">ca.po</QPM:File>
+                                    <QPM:File sum="f4900ed548fbadc92cdb782c87567ccb" size="852">de.po</QPM:File>
+                                    <QPM:File sum="8e1ceae0ec66e767e20dbbca784ec81e" size="809">es.po</QPM:File>
+                                    <QPM:File sum="3f60dfc8b880f1bdac8c59212c8bdd3d" size="815">fr.po</QPM:File>
+                                    <QPM:File sum="cb7e278fd0c0bc10cd8270604e4b907c" size="747">ja.po</QPM:File>
+                                    <QPM:File sum="3902a71842ec1855cfd6dd7014f8b527" size="830">pl.po</QPM:File>
+                                    <QPM:File sum="8f87bab4b83d37ed169227902c5f4ccd" size="851">ro.po</QPM:File>
+                                    <QPM:File sum="60c5f35ef3bbfe0035936389072fef28" size="829">sr.po</QPM:File>
+                                    <QPM:File sum="6e9442dcfa1d2e6b836c70a648dd68f8" size="800">zh_CN.po</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="hello-tcl-tk">
+                                 <QPM:File sum="3ec1b89a41c16a563546a95dd1937a55" size="75">INSTALL</QPM:File>
+                                 <QPM:File sum="5863d027b832ac87a7291c3ab251bcf6" size="459">Makefile.am</QPM:File>
+                                 <QPM:File sum="d51bf17c6ef62fccfa6e2ac364d19b3a" size="595">autoclean.sh</QPM:File>
+                                 <QPM:File sum="34ba43d757f5c030d41378c813856804" size="645">autogen.sh</QPM:File>
+                                 <QPM:File sum="1e8b68415a6714afd6b23fbdea7177ac" size="1058">configure.ac</QPM:File>
+                                 <QPM:File sum="300d9abf77be5fe4ae686efed5b15479" size="517">hello.tcl</QPM:File>
+                                 <QPM:Dir name="m4">
+                                    <QPM:File sum="4ef4a15d0a465041e4e83cdb4d36448d" size="30">Makefile.am</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="po">
+                                    <QPM:File sum="d2f807fbceb7e7f65c9f171629fe0bba" size="185">LINGUAS</QPM:File>
+                                    <QPM:File sum="46bf8e0f691833af5b943b6bbf767d14" size="7478">Makefile.am</QPM:File>
+                                    <QPM:File sum="4e798c6b7a1656daf9388f4003d8450e" size="853">ca.po</QPM:File>
+                                    <QPM:File sum="263ca0f66e9ab443b8a009fff0b89b11" size="861">de.po</QPM:File>
+                                    <QPM:File sum="3d956b473a84ee359eeecfce76743a9c" size="812">es.po</QPM:File>
+                                    <QPM:File sum="74f9b73119631a7280bc9a96fe10b31c" size="818">fr.po</QPM:File>
+                                    <QPM:File sum="be939df8fd8f42f95074fcf544f06fd6" size="753">ja.po</QPM:File>
+                                    <QPM:File sum="ea06fc8363f8ba05c0c5ce08ad05be40" size="836">pl.po</QPM:File>
+                                    <QPM:File sum="d189e1d0a501cf02d360f92a81931dc7" size="860">ro.po</QPM:File>
+                                    <QPM:File sum="7afafba8cd2464cc2a66ef74b7781299" size="838">sr.po</QPM:File>
+                                    <QPM:File sum="67b85878a9eb55faa52d2bbb697d1a74" size="809">zh_CN.po</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="hello-ycp">
+                                 <QPM:File sum="1f45547e2e6b55eb5f4394a12c605e18" size="63">INSTALL</QPM:File>
+                                 <QPM:File sum="c1c5ebd2355b1b8e9e0fdd90cbf307a9" size="865">Makefile.am</QPM:File>
+                                 <QPM:File sum="4fff074c9e7fe49b1efac5208e0f99ee" size="595">autoclean.sh</QPM:File>
+                                 <QPM:File sum="5786525cafa46c558deb919dcddd5553" size="638">autogen.sh</QPM:File>
+                                 <QPM:File sum="415510368734e0dce2d548b019eede15" size="771">configure.ac</QPM:File>
+                                 <QPM:File sum="8318e280bb1ae3909111073cb3c02b36" size="839">hello.ycp</QPM:File>
+                                 <QPM:Dir name="m4">
+                                    <QPM:File sum="4ef4a15d0a465041e4e83cdb4d36448d" size="30">Makefile.am</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="po">
+                                    <QPM:File sum="d2f807fbceb7e7f65c9f171629fe0bba" size="185">LINGUAS</QPM:File>
+                                    <QPM:File sum="9a657083516431e63f891d0281472cd1" size="11042">Makefile.am</QPM:File>
+                                    <QPM:File sum="fab4fd1edfc5a8b305f6a7a25542539c" size="844">ca.po</QPM:File>
+                                    <QPM:File sum="329db5f3d6d48ee18e28f0c70abc2f7c" size="852">de.po</QPM:File>
+                                    <QPM:File sum="0d4633ae50de492a34d45b56bd576a28" size="809">es.po</QPM:File>
+                                    <QPM:File sum="8682d80cee71005013baa816ffc92629" size="815">fr.po</QPM:File>
+                                    <QPM:File sum="6971a9779ed05c730a0cafe9a3555043" size="747">ja.po</QPM:File>
+                                    <QPM:File sum="97ace870de656d0f27380eb2858ac968" size="830">pl.po</QPM:File>
+                                    <QPM:File sum="61cd73e05b0ea5bed17005f940449db4" size="851">ro.po</QPM:File>
+                                    <QPM:File sum="177897dc8215b766791bad33ae5b460f" size="829">sr.po</QPM:File>
+                                    <QPM:File sum="ff55388f96d7169b477f65931d35c9a3" size="800">zh_CN.po</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:File sum="593b697e56fd95eef1a78e5fd943a55d" size="272">installpaths</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File sum="f0bd2676424e0fb366862ed865c65c20" size="7314">gettext.1.html</QPM:File>
+                           <QPM:File sum="1c9b333c183e6b301fb57ed806c5fa4c" size="7720">gettext.3.html</QPM:File>
+                           <QPM:File sum="735e2b571521d5617e0cf6dff08ce32f" size="29844">gettext_1.html</QPM:File>
+                           <QPM:File sum="6618b633d71bdcbf31cee5a525905353" size="48987">gettext_10.html</QPM:File>
+                           <QPM:File sum="9f84326c75890f696ca5586fdfa84ca2" size="24825">gettext_11.html</QPM:File>
+                           <QPM:File sum="c30feaa535e267301966575f4224d8fa" size="57819">gettext_12.html</QPM:File>
+                           <QPM:File sum="35ec58b5d0f71ac348703084c8406682" size="82265">gettext_13.html</QPM:File>
+                           <QPM:File sum="d4fa4312a081188487aaebd34f342825" size="7508">gettext_14.html</QPM:File>
+                           <QPM:File sum="0ba7835a2fe625260932604bd6de2354" size="8539">gettext_15.html</QPM:File>
+                           <QPM:File sum="c2f0f82c4ee10f177797c226fc997324" size="11695">gettext_16.html</QPM:File>
+                           <QPM:File sum="12ed5389ad24d9dc4b7882aa690cd3eb" size="2279">gettext_17.html</QPM:File>
+                           <QPM:File sum="be0074992a72702e5173da6a0f0b5779" size="43201">gettext_18.html</QPM:File>
+                           <QPM:File sum="fc07bdcb30e9b885c0befef18ae3e110" size="2309">gettext_19.html</QPM:File>
+                           <QPM:File sum="b67a7d8418fe70ef6fe9d6ca63a0c048" size="33993">gettext_2.html</QPM:File>
+                           <QPM:File sum="5d5898c55906827a50846f20b179915a" size="3889">gettext_20.html</QPM:File>
+                           <QPM:File sum="77f7345b2c7c38410f7332648b80f308" size="1075">gettext_21.html</QPM:File>
+                           <QPM:File sum="d69d6003364d0fd30d4979bf9d38a7c3" size="23645">gettext_22.html</QPM:File>
+                           <QPM:File sum="53ee670eb873de6b832c922b98a4834d" size="37478">gettext_3.html</QPM:File>
+                           <QPM:File sum="1207dbe8e30a26b514c8b017c4e9a1e8" size="17782">gettext_4.html</QPM:File>
+                           <QPM:File sum="1ef417b34e6bf9a18f0b2e87139f388e" size="13699">gettext_5.html</QPM:File>
+                           <QPM:File sum="f3a2701056a2305f0d7d5ed29c75faf1" size="54255">gettext_6.html</QPM:File>
+                           <QPM:File sum="0e3a8a72e04a52468c26b65ef0fd2516" size="69675">gettext_7.html</QPM:File>
+                           <QPM:File sum="d71322f3337453e232d1fdbb0492e3c9" size="24353">gettext_8.html</QPM:File>
+                           <QPM:File sum="b262bd10e1fb1ead8dc3f9f11bb6b8a3" size="5836">gettext_9.html</QPM:File>
+                           <QPM:File sum="d28a94a80c480e736a7e5202642ba5b4" size="1766">gettext_foot.html</QPM:File>
+                           <QPM:File sum="7c17321d35a83b5bfd3dc273950ab220" size="26426">gettext_toc.html</QPM:File>
+                           <QPM:File sum="f9763a1e458cd4fbf280f3741e3648f6" size="6314">gettextize.1.html</QPM:File>
+                           <QPM:Dir name="javadoc1">
+                              <QPM:File sum="14c20b33007c7f8701d9977efa4da15a" size="2903">AllNames.html</QPM:File>
+                              <QPM:File sum="35dd9e77e2ce951722d8934d6a15fa8f" size="6190">gnu.gettext.GettextResource.html</QPM:File>
+                              <QPM:Dir name="images">
+                                 <QPM:File sum="8003839f4d37ab8704ac82f7c1c5759a" size="255">blue-ball-small.gif</QPM:File>
+                                 <QPM:File sum="83fe83e454df03e0c4a0a1702c2ddd83" size="925">blue-ball.gif</QPM:File>
+                                 <QPM:File sum="92f65993dde23114e26a2390c867a8ec" size="1497">class-index.gif</QPM:File>
+                                 <QPM:File sum="07e9e06f54a0bcd8a0b71adde51f69dd" size="1711">constructor-index.gif</QPM:File>
+                                 <QPM:File sum="ce1c31e6ac429bca1b7c16a12ed95158" size="1565">constructors.gif</QPM:File>
+                                 <QPM:File sum="39b9024a806e4dc7063f77a689afc85f" size="255">cyan-ball-small.gif</QPM:File>
+                                 <QPM:File sum="0f5559af980538b2ccc60b6d0ada32cd" size="925">cyan-ball.gif</QPM:File>
+                                 <QPM:File sum="619b20a10502ade40e10a6b4a6074386" size="1438">error-index.gif</QPM:File>
+                                 <QPM:File sum="7d7ea01c769216d5d7cdaebfe7d1aead" size="1707">exception-index.gif</QPM:File>
+                                 <QPM:File sum="52fb6c4bba8c177287130dba706d29f1" size="102">green-ball-small.gif</QPM:File>
+                                 <QPM:File sum="87ad8fda887489ed606193ee91b1c72a" size="886">green-ball.gif</QPM:File>
+                                 <QPM:File sum="94e702ddef642be3b91a19120682592d" size="1648">interface-index.gif</QPM:File>
+                                 <QPM:File sum="cfef018c27067fb9c0341ae45d9d22a0" size="104">magenta-ball-small.gif</QPM:File>
+                                 <QPM:File sum="f062d5cc452ffd1817b54f72c1cf062a" size="896">magenta-ball.gif</QPM:File>
+                                 <QPM:File sum="ec49a23175114c458f3ac7dc3b4acdc4" size="1588">method-index.gif</QPM:File>
+                                 <QPM:File sum="4c272fe37c2a6f3daedaa384bda63f57" size="1403">methods.gif</QPM:File>
+                                 <QPM:File sum="2c63c872f9cedfdb0a07ce37a1b359bb" size="1607">package-index.gif</QPM:File>
+                                 <QPM:File sum="11062a2733e20b17a38c71a551c6aa08" size="255">red-ball-small.gif</QPM:File>
+                                 <QPM:File sum="6805369361a90a6c4181bad65539cfb2" size="527">red-ball.gif</QPM:File>
+                                 <QPM:File sum="047c3595eac6506c496427ce1002a57a" size="1576">variable-index.gif</QPM:File>
+                                 <QPM:File sum="a14408ffc6e29c92582c482d8c04094e" size="1380">variables.gif</QPM:File>
+                                 <QPM:File sum="9278c25c4cf52724d71d210e3f39d8d5" size="255">yellow-ball-small.gif</QPM:File>
+                                 <QPM:File sum="c07a466102656d006a116aa38214e095" size="925">yellow-ball.gif</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File sum="c78ee8186a77acf95706f7b53393291a" size="457">packages.html</QPM:File>
+                              <QPM:File sum="2dd1aa5e7c03c00b0e3e65647eb5b8c2" size="561">tree.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="javadoc2">
+                              <QPM:File sum="0c9f2beb0b98851f44bf9117b0f36114" size="616">allclasses-frame.html</QPM:File>
+                              <QPM:File sum="678c3f0f150801c7f8651047403fb250" size="3248">deprecated-list.html</QPM:File>
+                              <QPM:Dir name="gnu">
+                                 <QPM:Dir name="gettext">
+                                    <QPM:File sum="559764c5f067c4d200854aedc47dafb9" size="12936">GettextResource.html</QPM:File>
+                                    <QPM:File sum="e5cc9851106b6ea922334277c448433f" size="742">package-frame.html</QPM:File>
+                                    <QPM:File sum="ba0b825e8427650c735817a7c60d7280" size="4006">package-summary.html</QPM:File>
+                                    <QPM:File sum="9dfc58fceafd3c5ee7ff5fe387681982" size="3868">package-tree.html</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:File sum="e8686194da987ff1eff5248cd4546ec6" size="6438">help-doc.html</QPM:File>
+                              <QPM:File sum="7d6febe5a3798f7c4f12e9ce15810d3f" size="4769">index-all.html</QPM:File>
+                              <QPM:File sum="65c6b4a7b7bc3d2e06b437bb992d34d0" size="686">index.html</QPM:File>
+                              <QPM:File sum="d4d7b66af970014fc2603adb14bec176" size="3506">overview-tree.html</QPM:File>
+                              <QPM:File sum="d41d8cd98f00b204e9800998ecf8427e">package-list</QPM:File>
+                              <QPM:File sum="10bc80180c3a48ada1c86e01f8aa4deb" size="656">packages.html</QPM:File>
+                              <QPM:File sum="46e88998fd27289fe4f3695d7337cbcf" size="3292">serialized-form.html</QPM:File>
+                              <QPM:File sum="d782e23c2957890f111646b6a33c9a27" size="1240">stylesheet.css</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File sum="826c9371c6a1c135dd6a40cd6a18f122" size="20423">msgattrib.1.html</QPM:File>
+                           <QPM:File sum="fe996c8fa1d33d8da4236ad50aade3c6" size="17464">msgcat.1.html</QPM:File>
+                           <QPM:File sum="f6f92d964c68eab609959a4b6731322e" size="8187">msgcmp.1.html</QPM:File>
+                           <QPM:File sum="8663eafb801d68e72ffa2ab2b493c46b" size="16905">msgcomm.1.html</QPM:File>
+                           <QPM:File sum="1d61524d5212f27eeb982e20111aff2d" size="14714">msgconv.1.html</QPM:File>
+                           <QPM:File sum="23d18f72c0a7017017bfb5cdfbf18cd7" size="13943">msgen.1.html</QPM:File>
+                           <QPM:File sum="a339e10e9bb97f7abae824848a2d9a60" size="7625">msgexec.1.html</QPM:File>
+                           <QPM:File sum="7f83f47947be4b10d90ad23934b70af0" size="16258">msgfilter.1.html</QPM:File>
+                           <QPM:File sum="410467090b5dcadaf246cf6e26f99d3d" size="19069">msgfmt.1.html</QPM:File>
+                           <QPM:File sum="5da87924d528b37291afeeeb3e7b37a9" size="20455">msggrep.1.html</QPM:File>
+                           <QPM:File sum="c6c0f99e298dc14d46bc237f8ebb42aa" size="10500">msginit.1.html</QPM:File>
+                           <QPM:File sum="14a9578878118915478aff85ad1274b3" size="21184">msgmerge.1.html</QPM:File>
+                           <QPM:File sum="4b7d58f61b996e58ab0bdd6724573e44" size="15347">msgunfmt.1.html</QPM:File>
+                           <QPM:File sum="f94e356048e7bfca1a4330c27798164f" size="16400">msguniq.1.html</QPM:File>
+                           <QPM:File sum="b2c336c9ad9861ddf2239c922dc01319" size="7726">ngettext.1.html</QPM:File>
+                           <QPM:File sum="31e795bd7dd048948211beb190fff315" size="4917">ngettext.3.html</QPM:File>
+                           <QPM:File sum="f7e0d980183900aab34c0464cc61f1f6" size="4813">textdomain.3.html</QPM:File>
+                           <QPM:File sum="4adcedb1625a53933bfde501ef124900" size="24654">xgettext.1.html</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="libasprintf">
+                           <QPM:File sum="aad1af0d1e4ba46585d4712abba7afe2" size="3787">autosprintf.html</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="gettext">
+                        <QPM:File sum="8f2720dc473f76d476f7c4f1e79c4441" size="44373">ABOUT-NLS</QPM:File>
+                        <QPM:File sum="065045793a41ca8deb770884d4242096" size="209067">archive.tar.gz</QPM:File>
+                        <QPM:File sum="8c94a2343e484763cc1a03cff874e9f7" size="14987">config.rpath</QPM:File>
+                        <QPM:Dir name="intl">
+                           <QPM:File sum="f30a9716ef3762e3467a2f62bf790f0a" size="25283">COPYING.LIB-2.0</QPM:File>
+                           <QPM:File sum="d8045f3b8f929c1cb29a1e3fd737b499" size="26532">COPYING.LIB-2.1</QPM:File>
+                           <QPM:File sum="94afc3b01e5fb4ba25f3ca920353a979" size="71">ChangeLog</QPM:File>
+                           <QPM:File sum="f10c3b214a075200dd07ce083bb3b595" size="16278">Makefile.in</QPM:File>
+                           <QPM:File sum="08b6f225a3b5bf10a9448ca4353b85cb" size="38">VERSION</QPM:File>
+                           <QPM:File sum="aa3686e88b6b7d2ae719fb90bc6152a3" size="9808">bindtextdom.c</QPM:File>
+                           <QPM:File sum="edf60391a5e0f5e189fd0508b1089b20" size="17087">config.charset</QPM:File>
+                           <QPM:File sum="d7b18282e17cd7d7871e88e328ccb150" size="1805">dcgettext.c</QPM:File>
+                           <QPM:File sum="78ad1ec03047143bb265773258feb298" size="33451">dcigettext.c</QPM:File>
+                           <QPM:File sum="48f8feab0fd0c3f0733ddc5dbe8fc897" size="1848">dcngettext.c</QPM:File>
+                           <QPM:File sum="fca565c86e2a815975859c539df57857" size="1781">dgettext.c</QPM:File>
+                           <QPM:File sum="df020e25c6ab992f2d689f1e9858720c" size="1890">dngettext.c</QPM:File>
+                           <QPM:File sum="b6d4251d2233b6683a6032b02c647835" size="4515">explodename.c</QPM:File>
+                           <QPM:File sum="7b229132e5b6e4c4249ab654f22f07a2" size="5603">finddomain.c</QPM:File>
+                           <QPM:File sum="d62708edf4a50b2979410a6a5a846d92" size="1896">gettext.c</QPM:File>
+                           <QPM:File sum="b49ce3610ce10847635aaa508a2e9686" size="3363">intl-compat.c</QPM:File>
+                           <QPM:File sum="98bd4536f398311871faf4ddfb70c990" size="11992">l10nflist.c</QPM:File>
+                           <QPM:File sum="88bbc1bdc01e21eecf658a73c14ecbd5" size="12902">libgnuintl.h.in</QPM:File>
+                           <QPM:File sum="ea4523ba12a6561dfbb9fb569112e9e4" size="34178">loadmsgcat.c</QPM:File>
+                           <QPM:File sum="711e57868100b0faaa320754cfdae572" size="10479">localcharset.c</QPM:File>
+                           <QPM:File sum="487be754d7813d9e3671107c28a6b372" size="2657">locale.alias</QPM:File>
+                           <QPM:File sum="3566f39dca29e59f012ac0e2168814a7" size="9952">localealias.c</QPM:File>
+                           <QPM:File sum="34265b2f23644bdb40dc02f32e0d27b3" size="22580">localename.c</QPM:File>
+                           <QPM:File sum="3305edc133a9d65b5f550a6fce557d91" size="2755">log.c</QPM:File>
+                           <QPM:File sum="fe81b46d7f83565d6666a65d2fb25431" size="1976">ngettext.c</QPM:File>
+                           <QPM:File sum="a6a787e2fc0bd256aedf32737d62b6a0" size="2883">os2compat.c</QPM:File>
+                           <QPM:File sum="6110b08cb3fc89c95d23f487f2389b64" size="931">osdep.c</QPM:File>
+                           <QPM:File sum="ad2bb06ebbb0ef1bfe42309be0fca31b" size="4009">plural-exp.c</QPM:File>
+                           <QPM:File sum="729fda3d4e611357c8c66234daae54aa" size="37289">plural.c</QPM:File>
+                           <QPM:File sum="2e60334d20e15af19b0b155df30aa292" size="7353">plural.y</QPM:File>
+                           <QPM:File sum="8977d3ec5e5bb5a7e7431c0cf1c87b16" size="3243">printf-args.c</QPM:File>
+                           <QPM:File sum="3603e9045f60b2778bb3804b49dc23f5" size="11995">printf-parse.c</QPM:File>
+                           <QPM:File sum="7a30a1e69df9baa76556c532620a91ae" size="7807">printf.c</QPM:File>
+                           <QPM:File sum="016a8aca55fa579e9f8da70a11d6ac09" size="1089">ref-add.sin</QPM:File>
+                           <QPM:File sum="09f58fbd5f0f934b1b8d5c15d4ca2041" size="1044">ref-del.sin</QPM:File>
+                           <QPM:File sum="23e5fe9db2ad681559d265fdb0c28583" size="13040">relocatable.c</QPM:File>
+                           <QPM:File sum="4b0073da0e6e55ae91d22c266f0f8e71" size="4528">textdomain.c</QPM:File>
+                           <QPM:File sum="31b2d9c903768c93c1d7696c7b641d86" size="22052">vasnprintf.c</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File sum="792922784eade1d03ecb1b33ba8bb7c3" size="1988">mkinstalldirs</QPM:File>
+                        <QPM:File sum="90c76e81d80124b871e2934e754b7d66" size="2528">msgunfmt.tcl</QPM:File>
+                        <QPM:Dir name="po">
+                           <QPM:File sum="264b1829320b541c7b89e92d04382b8f" size="12090">Makefile.in.in</QPM:File>
+                           <QPM:File sum="fb5df0705e7fac8ddd9ac5128cb3a1f9" size="1806">Makevars.template</QPM:File>
+                           <QPM:File sum="0acd88c6ac79c87a5be26ad659fe7126" size="1689">Rules-quot</QPM:File>
+                           <QPM:File sum="9f72ef7fe3e7c7330c158be85dc1bd4c" size="217">boldquot.sed</QPM:File>
+                           <QPM:File sum="140858226cbabd8977f21e2f29168bb1" size="1337">en@boldquot.header</QPM:File>
+                           <QPM:File sum="4fab037eca87181f2066bda633c7aca7" size="1203">en@quot.header</QPM:File>
+                           <QPM:File sum="b8d349a13678a4e0e18c8ee06c1bebea" size="672">insert-header.sin</QPM:File>
+                           <QPM:File sum="f652c7cf9496049a47b091513f120a45" size="153">quot.sed</QPM:File>
+                           <QPM:File sum="ae2ad0156895c4461ca32fe0524ef902" size="432">remove-potcdate.sin</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="projects">
+                           <QPM:Dir name="GNOME">
+                              <QPM:File sum="b2caebf8e9a99d48bf740c0202de8f3b" size="2619">team-address</QPM:File>
+                              <QPM:File sum="56b138696aae7b4f90a797a0493649ab" size="37157">teams.html</QPM:File>
+                              <QPM:File sum="0e0e1f01575fd12053e7689d9261c9c7" size="51">teams.url</QPM:File>
+                              <QPM:File sum="21380f5817511faf7de41e39c144ece1" size="783">trigger</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="KDE">
+                              <QPM:File sum="014de27ab42705dd92013bed4b83c06b" size="3854">team-address</QPM:File>
+                              <QPM:File sum="efd4c8000788c247e90af1c42671cddd" size="81201">teams.html</QPM:File>
+                              <QPM:File sum="4e1421465eb9f66395e0cb629be0da63" size="38">teams.url</QPM:File>
+                              <QPM:File sum="b37439db8c10b70786fc3f209071d307" size="905">trigger</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="TP">
+                              <QPM:File sum="50216b17917aeb34827e73970b4ed6d7" size="3066">team-address</QPM:File>
+                              <QPM:File sum="30732ce1a3ae232062fea29a8bb3c9ea" size="13248">teams.html</QPM:File>
+                              <QPM:File sum="3936755d74f5a52283921812c54c544c" size="64">teams.url</QPM:File>
+                              <QPM:File sum="0bb713aa9daedab60388e883c926591b" size="89">trigger</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File sum="01b2f2426d7e272f1e6b62567315a969" size="13">index</QPM:File>
+                           <QPM:File sum="55428cddcde69a780d0a55ee408a590a" size="410">team-address</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="info">
+                        <QPM:File sum="c470e50d48796ef10288ffb3ae53242a" size="4202">autosprintf.info</QPM:File>
+                        <QPM:File sum="56c4a41a72a7f3f0a48e7ce89af917fd" size="7897">gettext.info</QPM:File>
+                        <QPM:File sum="2a72cb51bd5825898d87f76a0580953f" size="300490">gettext.info-1</QPM:File>
+                        <QPM:File sum="a72636bbda3c06e07aa727eed3f044ff" size="43321">gettext.info-10</QPM:File>
+                        <QPM:File sum="fc13df823f7af6cc698b91336cf3bb7d" size="20843">gettext.info-11</QPM:File>
+                        <QPM:File sum="d35d41b672718079009c8f7d323f9bd6" size="214080">gettext.info-2</QPM:File>
+                        <QPM:File sum="222ec04744d3ebee2fadb24ebcb32413" size="52140">gettext.info-3</QPM:File>
+                        <QPM:File sum="3eead82a4ff3ac90e338504c834382f6" size="51938">gettext.info-4</QPM:File>
+                        <QPM:File sum="8a3ff02b7580e32f7e607c1a810f671f" size="45528">gettext.info-5</QPM:File>
+                        <QPM:File sum="d315d53ddab1b4dc53c8c5747b8646e6" size="51010">gettext.info-6</QPM:File>
+                        <QPM:File sum="0e17aff32319a1377367d492c8997598" size="52195">gettext.info-7</QPM:File>
+                        <QPM:File sum="d0a22f8ff2e2825cd2ad4dc6d0f7f890" size="50625">gettext.info-8</QPM:File>
+                        <QPM:File sum="c6cd42904b3392b49937f7c2f857a526" size="33670">gettext.info-9</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="locale">
+                        <QPM:Dir name="be">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="4302575a71e68fe483dc1a58fcb387c9" size="7604">gettext-runtime.mo</QPM:File>
+                              <QPM:File sum="aed362caf8b3a60b3325fd31243b3f8c" size="38413">gettext-tools.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ca">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="38e04e4d0f89b280af5af952b25169ec" size="9213">gettext-runtime.mo</QPM:File>
+                              <QPM:File sum="73ee947e87a5d742b6e73e12f1623d59" size="90828">gettext-tools.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="cs">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="a685163bd09d492a7fd08102da135749" size="2582">gettext-runtime.mo</QPM:File>
+                              <QPM:File sum="4efb378fee552d66a8259be5f0649215" size="9806">gettext-tools.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="da">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="c5a18a16a72e944c19346eef76b93821" size="6867">gettext-runtime.mo</QPM:File>
+                              <QPM:File sum="64e086623bc6e084330c168ea12be133" size="37117">gettext-tools.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="de">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="0cfa5c79e6c4b331ce0a29ebfaafc9ab" size="9467">gettext-runtime.mo</QPM:File>
+                              <QPM:File sum="e03b57bd9ef2ad5eef36efdfcf06a24b" size="90888">gettext-tools.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="el">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="045b9769638b2b9d020ab4028a575fc8" size="2492">gettext-runtime.mo</QPM:File>
+                              <QPM:File sum="39b29334034aa0e9e274ecbf10bdfe3f" size="6527">gettext-tools.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="en@boldquot">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="0a770c8ca5e55c5c06cce83645375277" size="8977">gettext-runtime.mo</QPM:File>
+                              <QPM:File sum="8402591360a5ee34b61192f427f30632" size="85347">gettext-tools.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="en@quot">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="7c49b42fb15568015be9acaedb094765" size="8889">gettext-runtime.mo</QPM:File>
+                              <QPM:File sum="0b4cb3e846ca81d0e1f4ecd2a31f46dc" size="83947">gettext-tools.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="es">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="1ce5be5b0f2a50268304f52211ec22c5" size="9472">gettext-runtime.mo</QPM:File>
+                              <QPM:File sum="44587732297a025b643a4fcf03d34917" size="90342">gettext-tools.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="et">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="f91d44f68b69df23da5c061e2305d80e" size="2494">gettext-runtime.mo</QPM:File>
+                              <QPM:File sum="f0ffc2d6adbec40b1fdd23883bb900d4" size="9696">gettext-tools.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="fi">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="fa4fc1f06ff03545d3fe1dee67ab04b2" size="6969">gettext-runtime.mo</QPM:File>
+                              <QPM:File sum="a32747f5fcd1ce4e24856bacd0800220" size="6417">gettext-tools.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="fr">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="a44cf867bd49e783dd7c2ddf507e83e0" size="9307">gettext-runtime.mo</QPM:File>
+                              <QPM:File sum="183e06cc6adb99812ac40ced9808070f" size="88918">gettext-tools.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="gl">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="7c6563fefeaddaf11260f9e456c41c1a" size="2450">gettext-runtime.mo</QPM:File>
+                              <QPM:File sum="2b514827259315d31a19a1a146d8339b" size="9898">gettext-tools.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="id">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="eb88461c6c1c07ca2fb8aa97a8869a49" size="6947">gettext-runtime.mo</QPM:File>
+                              <QPM:File sum="439eeb13b043adf13bd7f33d4590beaf" size="6142">gettext-tools.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="it">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="82082243316cb823cdadc16ea70edff5" size="2433">gettext-runtime.mo</QPM:File>
+                              <QPM:File sum="5fb52aa92329be368da8a3d73b06343c" size="6403">gettext-tools.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ja">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="7fb2c2261885809707d7a1c6be6d770c" size="8743">gettext-runtime.mo</QPM:File>
+                              <QPM:File sum="dde6414a43b925702e88c170101e165d" size="82138">gettext-tools.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ko">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="2671567049f1a82074b7de03f7a5b80e" size="8493">gettext-runtime.mo</QPM:File>
+                              <QPM:File sum="4935a0154326372c90b5f94a14013135" size="81927">gettext-tools.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:File sum="6bae90ec7b4abc624632c38b633aeaf8" size="2687">locale.alias</QPM:File>
+                        <QPM:Dir name="nl">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="4939f3c7b13989a5088d6727e6afbde9" size="2369">gettext-runtime.mo</QPM:File>
+                              <QPM:File sum="580e7f218e200455caa6c47f9aa0216c" size="5987">gettext-tools.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="nn">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="df00c455104fc724b2d93634de328cc8" size="1064">gettext-runtime.mo</QPM:File>
+                              <QPM:File sum="d240f05a99b24c3f2a49be8a60219eb8" size="2660">gettext-tools.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="no">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="b5b66f37a69cfe5920ad8b69d3032e5e" size="2399">gettext-runtime.mo</QPM:File>
+                              <QPM:File sum="56dd7593a2117bfa57588bfa042e188f" size="9333">gettext-tools.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="pl">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="d626202473929851e734079c0b982c7f" size="9063">gettext-runtime.mo</QPM:File>
+                              <QPM:File sum="d4df9d9ea14aab36e08efc2973bbc93d" size="85693">gettext-tools.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="pt">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="edc476427189a93a1b23904e50138a2a" size="1558">gettext-runtime.mo</QPM:File>
+                              <QPM:File sum="ed6fba5a5cc4c86bc2d220c15564fe97" size="4290">gettext-tools.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="pt_BR">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="b156d78baac5b165d7ad402dae56f2e1" size="2444">gettext-runtime.mo</QPM:File>
+                              <QPM:File sum="73629ab04db9b3c5c9708578e063e159" size="8362">gettext-tools.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ro">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="8b704a9ac49e14f9252d88533f458f12" size="9101">gettext-runtime.mo</QPM:File>
+                              <QPM:File sum="1b49f969fa9c278962bf4f95854498d2" size="87407">gettext-tools.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ru">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="10094b850962798686cf71e127d5b47f" size="7113">gettext-runtime.mo</QPM:File>
+                              <QPM:File sum="ddfda7a13151588d54f79c5a72c3f913" size="39076">gettext-tools.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="sk">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="0ef56b2ac5f2fa9730ba1c0e1393f002" size="9513">gettext-runtime.mo</QPM:File>
+                              <QPM:File sum="ca77b3ec9a2ff92a41507b243b1d319b" size="87888">gettext-tools.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="sl">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="98b4f09792b6bbbca18ea148c359ee1b" size="6801">gettext-runtime.mo</QPM:File>
+                              <QPM:File sum="362283fcc8214895dc8e7d9be3fe71f6" size="64060">gettext-tools.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="sr">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="b923c35a1004db81b12cd692b0030507" size="11239">gettext-runtime.mo</QPM:File>
+                              <QPM:File sum="dd870160aca9de46e5bdb46fdaead775" size="105863">gettext-tools.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="sv">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="d60a2dcfbf8af2fae4d1f47be8ea68b8" size="8718">gettext-runtime.mo</QPM:File>
+                              <QPM:File sum="f05046ad5bc35ac44a457472d75d9f87" size="82875">gettext-tools.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="tr">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="fbb4c57963c3acfef43aef30486240e2" size="9071">gettext-runtime.mo</QPM:File>
+                              <QPM:File sum="d9d18c7860356676bc86c3cc7d098325" size="86075">gettext-tools.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="uk">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="c8c9d6348a879def6a7aa4566c2f52c0" size="6644">gettext-runtime.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="zh_CN">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="3c13e8a85fce892030528c6759ab0863" size="8710">gettext-runtime.mo</QPM:File>
+                              <QPM:File sum="341fc73504a0c7af8e17b5d27a195791" size="81370">gettext-tools.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="zh_TW">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="4af36fd5ed56c6d85027cc4e5dcf691d" size="6133">gettext-runtime.mo</QPM:File>
+                              <QPM:File sum="2dd0c6d5fbd8aebd3e1f4df65af01816" size="31275">gettext-tools.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="man">
+                        <QPM:Dir name="man1">
+                           <QPM:File sum="39e832796f1ad42bfb51026aa3123e4d" size="1200">autopoint.1</QPM:File>
+                           <QPM:File sum="c129699c0924f08ffe6ebc4dd23afa3b" size="1779">envsubst.1</QPM:File>
+                           <QPM:File sum="808d76e61025290b02da1f8d839e3917" size="2092">gettext.1</QPM:File>
+                           <QPM:File sum="2fba04acd155cb39e8c15dc820a2cbe0" size="1408">gettextize.1</QPM:File>
+                           <QPM:File sum="98dbefe5bba3064c659f27232dadf3f7" size="3797">msgattrib.1</QPM:File>
+                           <QPM:File sum="afcdd50f3d448b94e02d6158cda510ce" size="3955">msgcat.1</QPM:File>
+                           <QPM:File sum="11897d8fca0fb6a3fbf6fb287af92f54" size="2050">msgcmp.1</QPM:File>
+                           <QPM:File sum="20265e40e5a3c78b671141384066892f" size="3753">msgcomm.1</QPM:File>
+                           <QPM:File sum="a785e9753892d3ae293dea5c09d53f17" size="2861">msgconv.1</QPM:File>
+                           <QPM:File sum="342a36f2c63f02e8aee77e5a132d04ba" size="2833">msgen.1</QPM:File>
+                           <QPM:File sum="fcaffaf773c2911f3438622f588e8641" size="2025">msgexec.1</QPM:File>
+                           <QPM:File sum="17bb553917f861360fd281a1f0f3a68a" size="3295">msgfilter.1</QPM:File>
+                           <QPM:File sum="6cd1cf16bda58738ce5af346194d22b7" size="3893">msgfmt.1</QPM:File>
+                           <QPM:File sum="29eb8a07e1671b382b607d42397e9488" size="4361">msggrep.1</QPM:File>
+                           <QPM:File sum="354ae6c1cfe65bab1da5f1a55cb774e4" size="2335">msginit.1</QPM:File>
+                           <QPM:File sum="4c7bb77c717b7dffb9cca6b7436bb893" size="4535">msgmerge.1</QPM:File>
+                           <QPM:File sum="908fc75c2ff890edcf0777deea958082" size="3116">msgunfmt.1</QPM:File>
+                           <QPM:File sum="8036d8c40f109baeb9f18336ccab7dab" size="3634">msguniq.1</QPM:File>
+                           <QPM:File sum="d9de4521c2171f4b0a92473068be6f70" size="2138">ngettext.1</QPM:File>
+                           <QPM:File sum="d93a1d8f5852c16678722454cbcf6561" size="5203">xgettext.1</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="man3">
+                           <QPM:File sum="7f47a353ba045273432df49761435630" size="2863">bind_textdomain_codeset.3</QPM:File>
+                           <QPM:File sum="686d6da30b5f84db152f36bfba7ef678" size="2715">bindtextdomain.3</QPM:File>
+                           <QPM:File sum="20522f0b51fe61b1d40564dbfd679b1e" size="19">dcgettext.3</QPM:File>
+                           <QPM:File sum="94ad3622edac940d01fb28694f4dc1b5" size="20">dcngettext.3</QPM:File>
+                           <QPM:File sum="20522f0b51fe61b1d40564dbfd679b1e" size="19">dgettext.3</QPM:File>
+                           <QPM:File sum="94ad3622edac940d01fb28694f4dc1b5" size="20">dngettext.3</QPM:File>
+                           <QPM:File sum="60d701816b14cac031ff96173c2bf096" size="4777">gettext.3</QPM:File>
+                           <QPM:File sum="8b90c1f8a3b63b45c524b78206ac2ac1" size="2729">ngettext.3</QPM:File>
+                           <QPM:File sum="3a43463fcbe4783e1d90f055d4531005" size="2161">textdomain.3</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="lib">
+                     <QPM:Dir name="gettext">
+                        <QPM:File sum="fb21c08fda38fddab87fe7011e567623" size="2697">project-id</QPM:File>
+                        <QPM:File sum="7d4be8953e5f83331d8733428395acc4" size="13810">user-email</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:File sum="df50822c567042aaa9fa7dfe79f5a317" size="221">charset.alias</QPM:File>
+                     <QPM:File sum="cafaf51253c0fa30a4cbbc92e3c98c11" size="936">libasprintf.la</QPM:File>
+                     <QPM:File sum="b5c62f6d8416e21cda1de252be94928c" size="912">libintl.la</QPM:File>
+                     <QPM:File sum="711e5bb555366309474f87a7fbbff8c7" size="1019">libgettextpo.la</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

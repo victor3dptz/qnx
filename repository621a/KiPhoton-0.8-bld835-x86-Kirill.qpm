@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:PackageName>KiPhoton-0.8-bld835-x86-Kirill</QPM:PackageName>
+            <QPM:PackageSize>199862</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>0.8</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseNotes/>
+            <QPM:PackageReleaseUrgency>High</QPM:PackageReleaseUrgency>
+            <QPM:PackageReleaseDate>2002/09/21</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>1.9</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>KiPhoton for x86</QPM:ProductName>
+            <QPM:ProductSize>695657</QPM:ProductSize>
+            <QPM:ProductIdentifier>KiPhoton-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail>jlv@kirilla.com</QPM:ProductEmail>
+            <QPM:VendorName>Kirilla</QPM:VendorName>
+            <QPM:VendorInstallName>Kirilla</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.kirilla.com</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail>jlv@kirilla.com</QPM:VendorEmail>
+            <QPM:AuthorName>Jean-Louis Villecroze</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.kirilla.com</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail>jlv@kirilla.com</QPM:AuthorEmail>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>C++ layer for Photon</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong/>
+            <QPM:ProductDescriptionURL>http://www.kirilla.com/qnx/apps/KiPhoton/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>Kirill/KiPhoton/core-0.8-bld835/x86</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/09/21</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>0.8</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>High</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Beta</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>835</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>Demo License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl/>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>KiPhoton</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Software Development/Libraries and Extensions/C++ Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>C++,layer,Photon</QPM:ContentKeyword>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Photon</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+            <QPM:RequiresLibrary>libstdc++.so.2.2.10.0</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libm.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libz.so.2</QPM:RequiresLibrary>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="usr">
+                  <QPM:Dir name="lib">
+                     <QPM:Dir name="Kirilla">
+                        <QPM:Dir name="x86">
+                           <QPM:File>libKiNet.0.1.so</QPM:File>
+                           <QPM:File>libKiPhoton.0.0.7.so</QPM:File>
+                           <QPM:File>libKiPhoton.0.8.so</QPM:File>
+                           <QPM:File>libKirilla.0.0.6.so</QPM:File>
+                           <QPM:File>libKirilla.0.7.so</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

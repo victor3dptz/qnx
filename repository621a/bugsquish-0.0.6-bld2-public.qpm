@@ -1,0 +1,195 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>bugsquish-0.0.6-bld2-public</QPM:PackageName>
+            <QPM:PackageSize>615270</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/09/27</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Bugsquish</QPM:ProductName>
+            <QPM:ProductSize>855776</QPM:ProductSize>
+            <QPM:ProductIdentifier>bugsquish</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Bill Kendrick</QPM:AuthorName>
+            <QPM:AuthorURL/>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Squish the bugs before they drain you dry!</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Bugsquish is a game based on the shareware game &quot;Blood Suckers&quot; for MacOS.  In Bug Squish you must defend your arm from an onslaught of blood sucking insects.  Use your fly swatter to squish them before they suck you dry.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.newbreedsoftware.com/bugsquish/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/bugsquish/core-0.0.6-bld2</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/09/27</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>0.0.6</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>2</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://bugsquish-0.0.6-bld2-public.repdata/LicenseUrl/COPYING.txt</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Games and Diversions/Arcade Shoot &apos;em Ups</QPM:ContentTopic>
+            <QPM:ContentKeyword>sdl, bugsquish</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Use</QPM:ScriptType>
+            </QPM:Script>
+
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Unuse</QPM:ScriptType>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="bugsquish">
+                        <QPM:Dir name="images">
+                           <QPM:File>arm1.png</QPM:File>
+                           <QPM:File>arm2.png</QPM:File>
+                           <QPM:File>arm3.png</QPM:File>
+                           <QPM:File>arm4.png</QPM:File>
+                           <QPM:File>arm5.png</QPM:File>
+                           <QPM:File>blood-squished.png</QPM:File>
+                           <QPM:File>blood.png</QPM:File>
+                           <QPM:File>bonus.png</QPM:File>
+                           <QPM:File>bug0a.png</QPM:File>
+                           <QPM:File>bug0b.png</QPM:File>
+                           <QPM:File>bug0c.png</QPM:File>
+                           <QPM:File>bug1a.png</QPM:File>
+                           <QPM:File>bug1b.png</QPM:File>
+                           <QPM:File>bug1c.png</QPM:File>
+                           <QPM:File>bug2a.png</QPM:File>
+                           <QPM:File>bug2b.png</QPM:File>
+                           <QPM:File>bug2c.png</QPM:File>
+                           <QPM:File>bug3a.png</QPM:File>
+                           <QPM:File>bug3b.png</QPM:File>
+                           <QPM:File>bug3c.png</QPM:File>
+                           <QPM:File>bug4a.png</QPM:File>
+                           <QPM:File>bug4b.png</QPM:File>
+                           <QPM:File>bug4c.png</QPM:File>
+                           <QPM:File>bugsquish-icon.xpm</QPM:File>
+                           <QPM:File>flyswatter-mask.xbm</QPM:File>
+                           <QPM:File>flyswatter.xbm</QPM:File>
+                           <QPM:File>gauge-empty.png</QPM:File>
+                           <QPM:File>gauge-full.png</QPM:File>
+                           <QPM:File>highscore.png</QPM:File>
+                           <QPM:File>icon.png</QPM:File>
+                           <QPM:File>large0.png</QPM:File>
+                           <QPM:File>large1.png</QPM:File>
+                           <QPM:File>large2.png</QPM:File>
+                           <QPM:File>large3.png</QPM:File>
+                           <QPM:File>large4.png</QPM:File>
+                           <QPM:File>large5.png</QPM:File>
+                           <QPM:File>large6.png</QPM:File>
+                           <QPM:File>large7.png</QPM:File>
+                           <QPM:File>large8.png</QPM:File>
+                           <QPM:File>large9.png</QPM:File>
+                           <QPM:File>mult-squished.png</QPM:File>
+                           <QPM:File>mult.png</QPM:File>
+                           <QPM:File>numbers.png</QPM:File>
+                           <QPM:File>paused.png</QPM:File>
+                           <QPM:File>presents.png</QPM:File>
+                           <QPM:File>scorebox.png</QPM:File>
+                           <QPM:File>times2.png</QPM:File>
+                           <QPM:File>title.png</QPM:File>
+                           <QPM:File>wavebox.png</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="music">
+                           <QPM:File>adventures.mod</QPM:File>
+                           <QPM:File>corpses.mod</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="sounds">
+                           <QPM:File>ah.wav</QPM:File>
+                           <QPM:File>bonus.wav</QPM:File>
+                           <QPM:File>glug.wav</QPM:File>
+                           <QPM:File>highscore.wav</QPM:File>
+                           <QPM:File>ouch.wav</QPM:File>
+                           <QPM:File>squish1.wav</QPM:File>
+                           <QPM:File>squish2.wav</QPM:File>
+                           <QPM:File>ugh.wav</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="bugsquish">
+                        <QPM:Union link="../../../opt/share/bugsquish/sounds">sounds</QPM:Union>
+                        <QPM:Union link="../../../opt/share/bugsquish/music">music</QPM:Union>
+                        <QPM:Union link="../../../opt/share/bugsquish/images">images</QPM:Union>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+
+      <QPM:Launch name="Bug Squish">
+         <QPM:String name="Topic" value="Applications/Games"/>
+         <QPM:String name="Command" value="/opt/bin/bugsquish"/>
+      </QPM:Launch>
+   </RDF:Description>
+</RDF:RDF>

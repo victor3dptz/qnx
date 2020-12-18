@@ -1,0 +1,190 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>ddd-3.3.1-public</QPM:PackageName>
+            <QPM:PackageSize>229499</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2002/05/23</QPM:PackageReleaseDate>
+            <QPM:PackageRepository>http://www.qnx.com</QPM:PackageRepository>
+            <QPM:FileVersion>1.01</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>DDD (Data Display Debugger)</QPM:ProductName>
+            <QPM:ProductSize>974866</QPM:ProductSize>
+            <QPM:ProductIdentifier>ddd</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>GNU</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.gnu.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>ddd is a visual front end to gcc.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>DDD is a visual front-end to gdb.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.gnu.org/software/ddd/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/ddd/core-3.3.1</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/05/23</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>3.3.1</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Low</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://ddd-3.3.1-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Software Development/Debuggers and Dumpers</QPM:ContentTopic>
+            <QPM:ContentKeyword>gdb,ddd</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:DisplayEnvironment>X11R6</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>ddd needs lesstif</QPM:Notes>
+               <QPM:Product>lesstif</QPM:Product>
+               <QPM:Vendor>public</QPM:Vendor>
+               <QPM:ProductHomeRepository>http://www.qnx.com</QPM:ProductHomeRepository>
+            </QPM:Dependency>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Use</QPM:ScriptType>
+            </QPM:Script>
+
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Unuse</QPM:ScriptType>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="info">
+                     <QPM:File>ddd-themes.info</QPM:File>
+                     <QPM:File>ddd.info</QPM:File>
+                     <QPM:File>ddd.info-1</QPM:File>
+                     <QPM:File>ddd.info-10</QPM:File>
+                     <QPM:File>ddd.info-11</QPM:File>
+                     <QPM:File>ddd.info-2</QPM:File>
+                     <QPM:File>ddd.info-3</QPM:File>
+                     <QPM:File>ddd.info-4</QPM:File>
+                     <QPM:File>ddd.info-5</QPM:File>
+                     <QPM:File>ddd.info-6</QPM:File>
+                     <QPM:File>ddd.info-7</QPM:File>
+                     <QPM:File>ddd.info-8</QPM:File>
+                     <QPM:File>ddd.info-9</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="man">
+                     <QPM:Dir name="man1">
+                        <QPM:File>ddd.1</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="ddd-3.3.1">
+                        <QPM:File>COPYING</QPM:File>
+                        <QPM:File>NEWS</QPM:File>
+                        <QPM:Dir name="ddd">
+                           <QPM:File>Ddd</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="themes">
+                           <QPM:File>green.vsl</QPM:File>
+                           <QPM:File>red.vsl</QPM:File>
+                           <QPM:File>smalltitles.vsl</QPM:File>
+                           <QPM:File>smallvalues.vsl</QPM:File>
+                           <QPM:File>suppress.vsl</QPM:File>
+                           <QPM:File>tinyvalues.vsl</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="vsllib">
+                           <QPM:File>arcs.vsl</QPM:File>
+                           <QPM:File>builtin.vsl</QPM:File>
+                           <QPM:File>colors.vsl</QPM:File>
+                           <QPM:File>ctree.vsl</QPM:File>
+                           <QPM:File>ddd.vsl</QPM:File>
+                           <QPM:File>flow.vsl</QPM:File>
+                           <QPM:File>flowplus.vsl</QPM:File>
+                           <QPM:File>fonts.vsl</QPM:File>
+                           <QPM:File>linebreak.vsl</QPM:File>
+                           <QPM:File>list.vsl</QPM:File>
+                           <QPM:File>slopes.vsl</QPM:File>
+                           <QPM:File>std.vsl</QPM:File>
+                           <QPM:File>struct.vsl</QPM:File>
+                           <QPM:File>symbols.vsl</QPM:File>
+                           <QPM:File>tab.vsl</QPM:File>
+                           <QPM:File>tree.vsl</QPM:File>
+                           <QPM:File>verbose.vsl</QPM:File>
+                           <QPM:File>vsl.vsl</QPM:File>
+                           <QPM:File>vsldef.vsl</QPM:File>
+                           <QPM:File>vsllib.vsl</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../opt/info">info</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="man">
+                     <QPM:Union link="../../opt/man/man1">man1</QPM:Union>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Union link="../../opt/share/ddd-3.3.1">ddd-3.3.1</QPM:Union>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+
+      <QPM:Launch name="DDD">
+         <QPM:String name="Topic" value="Applications/Development"/>
+         <QPM:String name="Command" value="ddd"/>
+         <QPM:String name="Icon" value="/usr/share/icons/topics/bomb.gif"/>
+      </QPM:Launch>
+   </RDF:Description>
+</RDF:RDF>

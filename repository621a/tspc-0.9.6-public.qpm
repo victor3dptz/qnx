@@ -1,0 +1,123 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>tspc-0.9.6-public</QPM:PackageName>
+            <QPM:PackageSize>20981</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2002/05/08</QPM:PackageReleaseDate>
+            <QPM:PackageRepository>http://www.qnxzone.com/~xtang/repository/</QPM:PackageRepository>
+            <QPM:FileVersion>1.01</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Freenet6 TSP client</QPM:ProductName>
+            <QPM:ProductSize>79220</QPM:ProductSize>
+            <QPM:ProductIdentifier>tspc</QPM:ProductIdentifier>
+            <QPM:ProductEmail>xtang@qnx.com</QPM:ProductEmail>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnxzone.com/~xtang/repository/</QPM:VendorURL>
+            <QPM:VendorEmbedURL>http://www.qnxzone.com/~xtang/repository/</QPM:VendorEmbedURL>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Freenet6</QPM:AuthorName>
+            <QPM:AuthorURL>www.freenet6.net</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL>www.freenet6.net</QPM:AuthorEmbedURL>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Tunnel Setup Protocol client for freenet6</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>This is the TSP (tunnel setup protocol) client. It is used to establish a IPv6 through IPv4 tunnel with freenet6.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.freenet6.net/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL>http://www.freenet6.net/</QPM:ProductDescriptionEmbedURL>
+            <QPM:InstallPath>public/tspc/core-0.9.6</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/05/08</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>0.9.6</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Low</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://tspc-0.9.6-public.repdata/LicenseUrl/LEGAL</QPM:LicenseUrl>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>System/Network and Data Transmission</QPM:ContentTopic>
+            <QPM:ContentKeyword>ipv6, freenet6</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName>echo &quot;Installed into /opt/tsp, you will need to enable gif0 interface.&quot; | popup</QPM:ScriptName>
+               <QPM:ScriptType>Install</QPM:ScriptType>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptBlocking>No</QPM:ScriptBlocking>
+               <QPM:ScriptResult>Check</QPM:ScriptResult>
+               <QPM:ShortDescription>WhereTo</QPM:ShortDescription>
+               <QPM:UseBinaries>No</QPM:UseBinaries>
+               <QPM:Priority>Required</QPM:Priority>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="tsp">
+                     <QPM:Union link="../../$(PROCESSOR)/opt/tsp/bin">bin</QPM:Union>
+                     <QPM:File>LEGAL</QPM:File>
+                     <QPM:File>LEGAL.html</QPM:File>
+                     <QPM:Dir name="bin">
+                        <QPM:File>tspc.conf</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="man">
+                        <QPM:Dir name="man5">
+                           <QPM:File>tspc.conf.5</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="man8">
+                           <QPM:File>tspc.8</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="template">
+                        <QPM:File>checktunnel.sh</QPM:File>
+                        <QPM:File>qnx.sh</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

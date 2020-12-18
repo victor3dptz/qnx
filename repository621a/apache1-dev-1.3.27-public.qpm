@@ -1,0 +1,146 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>apache1-dev-1.3.27-public</QPM:PackageName>
+            <QPM:PackageSize>81969</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/01/17</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:PackageModel>dev</QPM:PackageModel>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Apache Development</QPM:ProductName>
+            <QPM:ProductSize>348364</QPM:ProductSize>
+            <QPM:ProductIdentifier>apache1-dev</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Apache.org</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.apache.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Apache is an HTTP server.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Apache is the world&apos;s leading http server.  Used by more then half of the site on the internet.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.apache.org/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/apache1/dev-1.3.27</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/01/17</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>1.3.27</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>Apache Software License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://apache1-1.3.27-public.repdata/LicenseUrl/LICENSE</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>System/Services, Servers and Daemons/Hypertext Transfer Protocol (HTTP) Servers</QPM:ContentTopic>
+            <QPM:ContentKeyword>apache,httpd,http</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Administrator</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="include">
+                     <QPM:Dir name="apache">
+                        <QPM:File>ap.h</QPM:File>
+                        <QPM:File>ap_alloc.h</QPM:File>
+                        <QPM:File>ap_compat.h</QPM:File>
+                        <QPM:File>ap_config.h</QPM:File>
+                        <QPM:File>ap_config_auto.h</QPM:File>
+                        <QPM:File>ap_ctype.h</QPM:File>
+                        <QPM:File>ap_ebcdic.h</QPM:File>
+                        <QPM:File>ap_md5.h</QPM:File>
+                        <QPM:File>ap_mmn.h</QPM:File>
+                        <QPM:File>ap_sha1.h</QPM:File>
+                        <QPM:File>buff.h</QPM:File>
+                        <QPM:File>compat.h</QPM:File>
+                        <QPM:File>conf.h</QPM:File>
+                        <QPM:File>explain.h</QPM:File>
+                        <QPM:File>fnmatch.h</QPM:File>
+                        <QPM:File>hsregex.h</QPM:File>
+                        <QPM:File>http_conf_globals.h</QPM:File>
+                        <QPM:File>http_config.h</QPM:File>
+                        <QPM:File>http_core.h</QPM:File>
+                        <QPM:File>http_log.h</QPM:File>
+                        <QPM:File>http_main.h</QPM:File>
+                        <QPM:File>http_protocol.h</QPM:File>
+                        <QPM:File>http_request.h</QPM:File>
+                        <QPM:File>http_vhost.h</QPM:File>
+                        <QPM:File>httpd.h</QPM:File>
+                        <QPM:File>multithread.h</QPM:File>
+                        <QPM:File>os.h</QPM:File>
+                        <QPM:File>rfc1413.h</QPM:File>
+                        <QPM:File>scoreboard.h</QPM:File>
+                        <QPM:File>util_date.h</QPM:File>
+                        <QPM:File>util_md5.h</QPM:File>
+                        <QPM:File>util_script.h</QPM:File>
+                        <QPM:File>util_uri.h</QPM:File>
+                        <QPM:Dir name="xml">
+                           <QPM:File>asciitab.h</QPM:File>
+                           <QPM:File>hashtable.h</QPM:File>
+                           <QPM:File>iasciitab.h</QPM:File>
+                           <QPM:File>latin1tab.h</QPM:File>
+                           <QPM:File>nametab.h</QPM:File>
+                           <QPM:File>utf8tab.h</QPM:File>
+                           <QPM:File>xmldef.h</QPM:File>
+                           <QPM:File>xmlparse.h</QPM:File>
+                           <QPM:File>xmlrole.h</QPM:File>
+                           <QPM:File>xmltok.h</QPM:File>
+                           <QPM:File>xmltok_impl.h</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Dir name="include">
+                     <QPM:Union link="../../opt/include/apache">apache</QPM:Union>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

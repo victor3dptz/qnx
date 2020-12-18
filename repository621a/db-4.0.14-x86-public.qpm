@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageName>db-4.0.14-x86-public</QPM:PackageName>
+            <QPM:PackageSize>278044</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2002/02/08</QPM:PackageReleaseDate>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>1.01</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>683580</QPM:ProductSize>
+            <QPM:InstallPath>public/db/core-4.0.14/x86</QPM:InstallPath>
+            <QPM:ProductName>Berkeley DB for x86</QPM:ProductName>
+            <QPM:ProductIdentifier>db-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail>xtang@canada.com</QPM:ProductEmail>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Sleepycat Software</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.sleepycat.com/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Berkeley DB from Sleepycat Software</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Berkeley DB from Sleepycat Software</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.sleepycat.com/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/02/08</QPM:ReleaseDate>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ReleaseVersion>4.0.14</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Low</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Experimental</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>db</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+            <QPM:ContainsLibrary>libdb-4.0.so</QPM:ContainsLibrary>
+            <QPM:ContentTopic>Office and Business/Database/Database Servers</QPM:ContentTopic>
+            <QPM:ContentKeyword>berkeley,db</QPM:ContentKeyword>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:LicenseUrl>rep://db-4.0.14-public.repdata/LicenseUrl/LICENSE</QPM:LicenseUrl>
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="bin">
+                     <QPM:File>db_archive</QPM:File>
+                     <QPM:File>db_checkpoint</QPM:File>
+                     <QPM:File>db_deadlock</QPM:File>
+                     <QPM:File>db_dump</QPM:File>
+                     <QPM:File>db_load</QPM:File>
+                     <QPM:File>db_printlog</QPM:File>
+                     <QPM:File>db_recover</QPM:File>
+                     <QPM:File>db_stat</QPM:File>
+                     <QPM:File>db_upgrade</QPM:File>
+                     <QPM:File>db_verify</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="lib">
+                     <QPM:File>libdb-4.0.so</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

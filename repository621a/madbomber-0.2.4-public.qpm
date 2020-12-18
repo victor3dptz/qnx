@@ -1,0 +1,290 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>madbomber-0.2.4-public</QPM:PackageName>
+            <QPM:PackageSize>2403832</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>2</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseNotes/>
+            <QPM:PackageReleaseUrgency>Medium</QPM:PackageReleaseUrgency>
+            <QPM:PackageReleaseDate>2002/12/27</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Mad Bomber</QPM:ProductName>
+            <QPM:ProductSize>3008734</QPM:ProductSize>
+            <QPM:ProductIdentifier>madbomber</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Bill Kendrick</QPM:AuthorName>
+            <QPM:AuthorURL/>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Stop the Mad Bombers bombs!</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Mad Bomber is a clone of the Atari 2600 game &quot;Kaboom!&quot;.  The Mad Bomber is loose in the city dropping bombs!  It&apos;s your job to catch them before they hit the ground and explode.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.newbreedsoftware.com/madbomber/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/madbomber/core-0.2.4</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/12/27</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>0.2.4</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://madbomber-0.2.4-public.repdata/LicenseUrl/COPYING.txt</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Games and Diversions</QPM:ContentTopic>
+            <QPM:ContentKeyword>kaboom, madbomber</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Use</QPM:ScriptType>
+            </QPM:Script>
+
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Unuse</QPM:ScriptType>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="madbomber">
+                        <QPM:Dir name="images">
+                           <QPM:File>bar.png</QPM:File>
+                           <QPM:Dir name="game">
+                              <QPM:File>background.png</QPM:File>
+                              <QPM:Dir name="bomb">
+                                 <QPM:File>bomb0.png</QPM:File>
+                                 <QPM:File>bomb1.png</QPM:File>
+                                 <QPM:File>bomb2.png</QPM:File>
+                                 <QPM:File>bomb3.png</QPM:File>
+                                 <QPM:File>explosion1.png</QPM:File>
+                                 <QPM:File>explosion2.png</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="bomber">
+                                 <QPM:File>bomber-amazed.png</QPM:File>
+                                 <QPM:File>bomber-happy.png</QPM:File>
+                                 <QPM:File>bomber-sad.png</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="bucket">
+                                 <QPM:File>bucket1.png</QPM:File>
+                                 <QPM:File>bucket1red.png</QPM:File>
+                                 <QPM:File>bucket2.png</QPM:File>
+                                 <QPM:File>bucket2red.png</QPM:File>
+                                 <QPM:File>bucket3.png</QPM:File>
+                                 <QPM:File>bucket3red.png</QPM:File>
+                                 <QPM:File>small-bucket1.png</QPM:File>
+                                 <QPM:File>small-bucket1red.png</QPM:File>
+                                 <QPM:File>small-bucket2.png</QPM:File>
+                                 <QPM:File>small-bucket2red.png</QPM:File>
+                                 <QPM:File>small-bucket3.png</QPM:File>
+                                 <QPM:File>small-bucket3red.png</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="drop">
+                                 <QPM:File>drop-down.png</QPM:File>
+                                 <QPM:File>drop-left-down.png</QPM:File>
+                                 <QPM:File>drop-left-up.png</QPM:File>
+                                 <QPM:File>drop-left.png</QPM:File>
+                                 <QPM:File>drop-right-down.png</QPM:File>
+                                 <QPM:File>drop-right-up.png</QPM:File>
+                                 <QPM:File>drop-right.png</QPM:File>
+                                 <QPM:File>drop-up.png</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>game-over.png</QPM:File>
+                              <QPM:File>highscore.png</QPM:File>
+                              <QPM:Dir name="numbers">
+                                 <QPM:File>0.png</QPM:File>
+                                 <QPM:File>0red.png</QPM:File>
+                                 <QPM:File>1.png</QPM:File>
+                                 <QPM:File>1red.png</QPM:File>
+                                 <QPM:File>2.png</QPM:File>
+                                 <QPM:File>2red.png</QPM:File>
+                                 <QPM:File>3.png</QPM:File>
+                                 <QPM:File>3red.png</QPM:File>
+                                 <QPM:File>4.png</QPM:File>
+                                 <QPM:File>4red.png</QPM:File>
+                                 <QPM:File>5.png</QPM:File>
+                                 <QPM:File>5red.png</QPM:File>
+                                 <QPM:File>6.png</QPM:File>
+                                 <QPM:File>6red.png</QPM:File>
+                                 <QPM:File>7.png</QPM:File>
+                                 <QPM:File>7red.png</QPM:File>
+                                 <QPM:File>8.png</QPM:File>
+                                 <QPM:File>8red.png</QPM:File>
+                                 <QPM:File>9.png</QPM:File>
+                                 <QPM:File>9red.png</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>paused.png</QPM:File>
+                              <QPM:File>press-escape.png</QPM:File>
+                              <QPM:File>press-fire.png</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="highscore">
+                              <QPM:File>highscore.png</QPM:File>
+                              <QPM:File>letters.png</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>icon.png</QPM:File>
+                           <QPM:File>loading.png</QPM:File>
+                           <QPM:File>make-offs.sh</QPM:File>
+                           <QPM:Dir name="options">
+                              <QPM:File>0percent-off.png</QPM:File>
+                              <QPM:File>0percent.png</QPM:File>
+                              <QPM:File>100percent-off.png</QPM:File>
+                              <QPM:File>100percent.png</QPM:File>
+                              <QPM:File>25percent-off.png</QPM:File>
+                              <QPM:File>25percent.png</QPM:File>
+                              <QPM:File>50percent-off.png</QPM:File>
+                              <QPM:File>50percent.png</QPM:File>
+                              <QPM:File>75percent-off.png</QPM:File>
+                              <QPM:File>75percent.png</QPM:File>
+                              <QPM:File>detail.png</QPM:File>
+                              <QPM:File>difficulty.png</QPM:File>
+                              <QPM:File>effects.png</QPM:File>
+                              <QPM:File>hard-off.png</QPM:File>
+                              <QPM:File>hard.png</QPM:File>
+                              <QPM:File>music.png</QPM:File>
+                              <QPM:File>normal-off.png</QPM:File>
+                              <QPM:File>normal.png</QPM:File>
+                              <QPM:File>ok-off.png</QPM:File>
+                              <QPM:File>ok.png</QPM:File>
+                              <QPM:File>options.png</QPM:File>
+                              <QPM:File>player-one.png</QPM:File>
+                              <QPM:File>player-two.png</QPM:File>
+                              <QPM:File>volume.png</QPM:File>
+                              <QPM:File>zen-off.png</QPM:File>
+                              <QPM:File>zen.png</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>spray-black.png</QPM:File>
+                           <QPM:File>spray-blue.png</QPM:File>
+                           <QPM:File>spray-cyan.png</QPM:File>
+                           <QPM:Dir name="title">
+                              <QPM:File>exit-off.png</QPM:File>
+                              <QPM:File>exit.png</QPM:File>
+                              <QPM:File>highscore-off.png</QPM:File>
+                              <QPM:File>highscore.png</QPM:File>
+                              <QPM:File>one-player-off.png</QPM:File>
+                              <QPM:File>one-player.png</QPM:File>
+                              <QPM:File>options-off.png</QPM:File>
+                              <QPM:File>options.png</QPM:File>
+                              <QPM:File>title.png</QPM:File>
+                              <QPM:File>two-player-vs-off.png</QPM:File>
+                              <QPM:File>two-player-vs.png</QPM:File>
+                              <QPM:File>two-players-off.png</QPM:File>
+                              <QPM:File>two-players.png</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="music">
+                           <QPM:File>astraltr.mod</QPM:File>
+                           <QPM:File>bizjung.it</QPM:File>
+                           <QPM:File>fdn-arab.s3m</QPM:File>
+                           <QPM:File>gluppobe.mod</QPM:File>
+                           <QPM:File>waterfal.mod</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="sounds">
+                           <QPM:File>bigexplosion.wav</QPM:File>
+                           <QPM:File>can-shake.wav</QPM:File>
+                           <QPM:File>confirm.wav</QPM:File>
+                           <QPM:File>explosion.wav</QPM:File>
+                           <QPM:File>fuse.wav</QPM:File>
+                           <QPM:File>highscore.wav</QPM:File>
+                           <QPM:File>level8.wav</QPM:File>
+                           <QPM:File>oneup.wav</QPM:File>
+                           <QPM:File>select.wav</QPM:File>
+                           <QPM:File>splash1.wav</QPM:File>
+                           <QPM:File>splash2.wav</QPM:File>
+                           <QPM:File>splash3.wav</QPM:File>
+                           <QPM:File>splash4.wav</QPM:File>
+                           <QPM:File>splash5.wav</QPM:File>
+                           <QPM:File>splash6.wav</QPM:File>
+                           <QPM:File>splash7.wav</QPM:File>
+                           <QPM:File>splash8.wav</QPM:File>
+                           <QPM:File>spray.wav</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="madbomber">
+                        <QPM:Union link="../../../opt/share/madbomber/sounds">sounds</QPM:Union>
+                        <QPM:Union link="../../../opt/share/madbomber/music">music</QPM:Union>
+                        <QPM:Union link="../../../opt/share/madbomber/images">images</QPM:Union>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+
+      <QPM:Launch name="Mad Bomber">
+         <QPM:String name="Topic" value="Applications/Games"/>
+         <QPM:String name="Command" value="/opt/bin/madbomber"/>
+      </QPM:Launch>
+   </RDF:Description>
+</RDF:RDF>

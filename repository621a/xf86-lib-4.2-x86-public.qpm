@@ -1,0 +1,170 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:PackageName>xf86-lib-4.2-x86-public</QPM:PackageName>
+            <QPM:PackageSize>2028273</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/02/16</QPM:PackageReleaseDate>
+            <QPM:PackageRepository>http://qnx.wox.org/qnxpub621/</QPM:PackageRepository>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>XFree86 Libs for x86</QPM:ProductName>
+            <QPM:ProductSize>4651155</QPM:ProductSize>
+            <QPM:ProductIdentifier>xf86-lib-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>XFree86</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.xfree86.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>XFree86 libraries.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>This package contains the standard X11R6 and XFree86 runtime and development libraries.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.xfree86.org/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/xf86-lib/core-4.2/x86</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/02/16</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>4.2</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>MIT License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl/>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>xf86-lib</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>System/Services, Servers and Daemons/X Servers</QPM:ContentTopic>
+            <QPM:ContentKeyword>xfree86,X11R6,X11</QPM:ContentKeyword>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+            <QPM:ContainsLibrary>libGL.so.1</QPM:ContainsLibrary>
+            <QPM:RequiresLibrary>libcpp.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libm.so.2</QPM:RequiresLibrary>
+            <QPM:ContainsLibrary>libGLU.so.1</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libICE.so.6</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libSM.so.6</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libX11.so.6</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libXTrap.so.6</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libXaw.so.6</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libXaw.so.7</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libXext.so.6</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libXfont.so.1</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libXft.so.1</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libXi.so.6</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libXmu.so.6</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libXmuu.so.1</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libXp.so.6</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libXpm.so.4</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libXrandr.so.1</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libXrender.so.1</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libXt.so.6</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libXtst.so.6</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libdps.so.1</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libdpstk.so.1</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libfreetype.so.8</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>liboldX.so.6</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libpsres.so.1</QPM:ContainsLibrary>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="X11R6">
+                     <QPM:Dir name="lib">
+                        <QPM:Link link="libGL.so.1">libGL.so</QPM:Link>
+                        <QPM:File>libGL.so.1</QPM:File>
+                        <QPM:Link link="libGLU.so.1">libGLU.so</QPM:Link>
+                        <QPM:File>libGLU.so.1</QPM:File>
+                        <QPM:Link link="libICE.so.6">libICE.so</QPM:Link>
+                        <QPM:File>libICE.so.6</QPM:File>
+                        <QPM:Link link="libSM.so.6">libSM.so</QPM:Link>
+                        <QPM:File>libSM.so.6</QPM:File>
+                        <QPM:Link link="libX11.so.6">libX11.so</QPM:Link>
+                        <QPM:File>libX11.so.6</QPM:File>
+                        <QPM:Link link="libXTrap.so.6">libXTrap.so</QPM:Link>
+                        <QPM:File>libXTrap.so.6</QPM:File>
+                        <QPM:Link link="libXaw.so.7">libXaw.so</QPM:Link>
+                        <QPM:File>libXaw.so.6</QPM:File>
+                        <QPM:File>libXaw.so.7</QPM:File>
+                        <QPM:Link link="libXext.so.6">libXext.so</QPM:Link>
+                        <QPM:File>libXext.so.6</QPM:File>
+                        <QPM:Link link="libXfont.so.1">libXfont.so</QPM:Link>
+                        <QPM:File>libXfont.so.1</QPM:File>
+                        <QPM:Link link="libXft.so.1">libXft.so</QPM:Link>
+                        <QPM:File>libXft.so.1</QPM:File>
+                        <QPM:Link link="libXi.so.6">libXi.so</QPM:Link>
+                        <QPM:File>libXi.so.6</QPM:File>
+                        <QPM:Link link="libXmu.so.6">libXmu.so</QPM:Link>
+                        <QPM:File>libXmu.so.6</QPM:File>
+                        <QPM:Link link="libXmuu.so.1">libXmuu.so</QPM:Link>
+                        <QPM:File>libXmuu.so.1</QPM:File>
+                        <QPM:Link link="libXp.so.6">libXp.so</QPM:Link>
+                        <QPM:File>libXp.so.6</QPM:File>
+                        <QPM:Link link="libXpm.so.4">libXpm.so</QPM:Link>
+                        <QPM:File>libXpm.so.4</QPM:File>
+                        <QPM:Link link="libXrandr.so.1">libXrandr.so</QPM:Link>
+                        <QPM:File>libXrandr.so.1</QPM:File>
+                        <QPM:Link link="libXrender.so.1">libXrender.so</QPM:Link>
+                        <QPM:File>libXrender.so.1</QPM:File>
+                        <QPM:Link link="libXt.so.6">libXt.so</QPM:Link>
+                        <QPM:File>libXt.so.6</QPM:File>
+                        <QPM:Link link="libXtst.so.6">libXtst.so</QPM:Link>
+                        <QPM:File>libXtst.so.6</QPM:File>
+                        <QPM:Link link="libdps.so.1">libdps.so</QPM:Link>
+                        <QPM:File>libdps.so.1</QPM:File>
+                        <QPM:Link link="libdpstk.so.1">libdpstk.so</QPM:Link>
+                        <QPM:File>libdpstk.so.1</QPM:File>
+                        <QPM:Link link="libfreetype.so.8">libfreetype.so</QPM:Link>
+                        <QPM:File>libfreetype.so.8</QPM:File>
+                        <QPM:Link link="liboldX.so.6">liboldX.so</QPM:Link>
+                        <QPM:File>liboldX.so.6</QPM:File>
+                        <QPM:Link link="libpsres.so.1">libpsres.so</QPM:Link>
+                        <QPM:File>libpsres.so.1</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

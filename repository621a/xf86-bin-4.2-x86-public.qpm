@@ -1,0 +1,243 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>xf86-bin-4.2-x86-public</QPM:PackageName>
+            <QPM:PackageSize>4998853</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/02/16</QPM:PackageReleaseDate>
+            <QPM:PackageRepository>http://qnx.wox.org/qnxpub621/</QPM:PackageRepository>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>XFree86 Binaries for x86</QPM:ProductName>
+            <QPM:ProductSize>12824532</QPM:ProductSize>
+            <QPM:ProductIdentifier>xf86-bin-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>XFree86</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.xfree86.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>XFree86 binaries.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>This packages contains the standard binaries (twm, xterm, xeyes, ...) that come with an X11R6 install.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL/>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/xf86-bin/core-4.2/x86</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/02/16</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>4.2</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>MIT License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl/>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>xf86-bin</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>System/Services, Servers and Daemons/X Servers</QPM:ContentTopic>
+            <QPM:ContentKeyword>xfree86,X11,X11R6</QPM:ContentKeyword>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>X11R6</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+            <QPM:RequiresLibrary>libsocket.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libXmu.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libXt.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libSM.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libICE.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libXpm.so.4</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libXext.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libX11.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libXfont.so.1</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libz.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libm.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libdps.so.1</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libGL.so.1</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libGLU.so.1</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libXft.so.1</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libfreetype.so.8</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libXrender.so.1</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libXmuu.so.1</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libXtst.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libXi.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libXrandr.so.1</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libXTrap.so.6</QPM:RequiresLibrary>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="etc">
+                  <QPM:Dir name="X11">
+                     <QPM:Dir name="rstart">
+                        <QPM:File>rstartd.real</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="xdm">
+                        <QPM:File>chooser</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="xkb">
+                        <QPM:File>xkbcomp</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="X11R6">
+                     <QPM:Dir name="bin">
+                        <QPM:File>appres</QPM:File>
+                        <QPM:File>atobm</QPM:File>
+                        <QPM:File>bdftopcf</QPM:File>
+                        <QPM:File>beforelight</QPM:File>
+                        <QPM:File>bitmap</QPM:File>
+                        <QPM:File>bmtoa</QPM:File>
+                        <QPM:File>cxpm</QPM:File>
+                        <QPM:File>dga</QPM:File>
+                        <QPM:File>dpsexec</QPM:File>
+                        <QPM:File>dpsinfo</QPM:File>
+                        <QPM:File>editres</QPM:File>
+                        <QPM:File>fslsfonts</QPM:File>
+                        <QPM:File>fstobdf</QPM:File>
+                        <QPM:File>glxgears</QPM:File>
+                        <QPM:File>glxinfo</QPM:File>
+                        <QPM:File>iceauth</QPM:File>
+                        <QPM:File>ico</QPM:File>
+                        <QPM:File>imake</QPM:File>
+                        <QPM:File>lbxproxy</QPM:File>
+                        <QPM:File>listres</QPM:File>
+                        <QPM:File>lndir</QPM:File>
+                        <QPM:File>luit</QPM:File>
+                        <QPM:File>makedepend</QPM:File>
+                        <QPM:File>makepsres</QPM:File>
+                        <QPM:File>makestrs</QPM:File>
+                        <QPM:File>mkcfm</QPM:File>
+                        <QPM:File>mkfontdir</QPM:File>
+                        <QPM:File>oclock</QPM:File>
+                        <QPM:File>pcitweak</QPM:File>
+                        <QPM:File>proxymngr</QPM:File>
+                        <QPM:File>pswrap</QPM:File>
+                        <QPM:File>resize</QPM:File>
+                        <QPM:File>revpath</QPM:File>
+                        <QPM:File>rman</QPM:File>
+                        <QPM:File>sessreg</QPM:File>
+                        <QPM:File>setxkbmap</QPM:File>
+                        <QPM:File>showfont</QPM:File>
+                        <QPM:File>showrgb</QPM:File>
+                        <QPM:File>smproxy</QPM:File>
+                        <QPM:File>sxpm</QPM:File>
+                        <QPM:File>texteroids</QPM:File>
+                        <QPM:File>twm</QPM:File>
+                        <QPM:File>viewres</QPM:File>
+                        <QPM:File>x11perf</QPM:File>
+                        <QPM:File>xauth</QPM:File>
+                        <QPM:File>xbiff</QPM:File>
+                        <QPM:File>xcalc</QPM:File>
+                        <QPM:File>xclipboard</QPM:File>
+                        <QPM:File>xclock</QPM:File>
+                        <QPM:File>xcmsdb</QPM:File>
+                        <QPM:File>xconsole</QPM:File>
+                        <QPM:File>xcutsel</QPM:File>
+                        <QPM:File>xditview</QPM:File>
+                        <QPM:File>xdm</QPM:File>
+                        <QPM:File>xdpyinfo</QPM:File>
+                        <QPM:File>xedit</QPM:File>
+                        <QPM:File>xev</QPM:File>
+                        <QPM:File>xeyes</QPM:File>
+                        <QPM:File>xf86cfg</QPM:File>
+                        <QPM:File>xf86config</QPM:File>
+                        <QPM:File>xfd</QPM:File>
+                        <QPM:File>xfindproxy</QPM:File>
+                        <QPM:File>xfontsel</QPM:File>
+                        <QPM:File>xfs</QPM:File>
+                        <QPM:File>xfsinfo</QPM:File>
+                        <QPM:File>xftcache</QPM:File>
+                        <QPM:File>xfwp</QPM:File>
+                        <QPM:File>xgamma</QPM:File>
+                        <QPM:File>xgc</QPM:File>
+                        <QPM:File>xhost</QPM:File>
+                        <QPM:File>xinit</QPM:File>
+                        <QPM:File>xkbbell</QPM:File>
+                        <QPM:File>xkbcomp</QPM:File>
+                        <QPM:File>xkbevd</QPM:File>
+                        <QPM:File>xkbprint</QPM:File>
+                        <QPM:File>xkbvleds</QPM:File>
+                        <QPM:File>xkbwatch</QPM:File>
+                        <QPM:File>xkill</QPM:File>
+                        <QPM:File>xload</QPM:File>
+                        <QPM:File>xlogo</QPM:File>
+                        <QPM:File>xlsatoms</QPM:File>
+                        <QPM:File>xlsclients</QPM:File>
+                        <QPM:File>xlsfonts</QPM:File>
+                        <QPM:File>xmag</QPM:File>
+                        <QPM:File>xman</QPM:File>
+                        <QPM:File>xmessage</QPM:File>
+                        <QPM:File>xmh</QPM:File>
+                        <QPM:File>xmodmap</QPM:File>
+                        <QPM:File>xprop</QPM:File>
+                        <QPM:File>xrandr</QPM:File>
+                        <QPM:File>xrdb</QPM:File>
+                        <QPM:File>xrefresh</QPM:File>
+                        <QPM:File>xset</QPM:File>
+                        <QPM:File>xsetmode</QPM:File>
+                        <QPM:File>xsetpointer</QPM:File>
+                        <QPM:File>xsetroot</QPM:File>
+                        <QPM:File>xsm</QPM:File>
+                        <QPM:File>xstdcmap</QPM:File>
+                        <QPM:File>xterm</QPM:File>
+                        <QPM:File>xtrapchar</QPM:File>
+                        <QPM:File>xtrapin</QPM:File>
+                        <QPM:File>xtrapinfo</QPM:File>
+                        <QPM:File>xtrapout</QPM:File>
+                        <QPM:File>xtrapproto</QPM:File>
+                        <QPM:File>xtrapreset</QPM:File>
+                        <QPM:File>xtrapstats</QPM:File>
+                        <QPM:File>xvidtune</QPM:File>
+                        <QPM:File>xvinfo</QPM:File>
+                        <QPM:File>xwd</QPM:File>
+                        <QPM:File>xwininfo</QPM:File>
+                        <QPM:File>xwud</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

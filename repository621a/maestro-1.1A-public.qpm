@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:PackageName>maestro-1.1A-public</QPM:PackageName>
+            <QPM:PackageSize>1930</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>2</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseNotes>Fix for subchannel mixer bugs, including inconsistent volume and non-working mute</QPM:PackageReleaseNotes>
+            <QPM:PackageReleaseUrgency>High</QPM:PackageReleaseUrgency>
+            <QPM:PackageReleaseDate>2003/03/07</QPM:PackageReleaseDate>
+            <QPM:PackageRepository>http://home.attbi.com/~kovalenko/qnx/ess/maestro-1.0-x86-public.qpr</QPM:PackageRepository>
+            <QPM:FileVersion>1.9</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>ESS Maestro 1/2/2E Driver</QPM:ProductName>
+            <QPM:ProductSize>5742</QPM:ProductSize>
+            <QPM:ProductIdentifier>maestro</QPM:ProductIdentifier>
+            <QPM:ProductEmail>kovalenko@attbi.com</QPM:ProductEmail>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://home.attbi.com/~kovalenko/qnx</QPM:VendorURL>
+            <QPM:VendorEmbedURL>http://home.attbi.com/~kovalenko/qnx</QPM:VendorEmbedURL>
+            <QPM:VendorEmail>kovalenko@attbi.com</QPM:VendorEmail>
+            <QPM:AuthorName>Igor Kovalenko</QPM:AuthorName>
+            <QPM:AuthorURL/>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>ESS Maestro-1/2x/Canyon-3D driver</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Audio driver for ESS Technology Maestro-1/2x and Canyon-3D family of chips (ES1968/ES1978)</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://home.attbi.com/~kovalenko/qnx/ess</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL>http://home.attbi.com/~kovalenko/qnx/ess</QPM:ProductDescriptionEmbedURL>
+            <QPM:InstallPath>public/maestro/core-1.1A</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/02/10</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>1.1A</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>High</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor>Fixed bugs with playback subchannel mixers. Capture subchannels are not supported.</QPM:ReleaseNoteMinor>
+            <QPM:ReleaseNoteMajor>This driver supports Maestro 1/2/2E and Canyon3D chipsets.</QPM:ReleaseNoteMajor>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://maestro-1.1A-public.repdata/LicenseUrl/LICENSE</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>System/Device Specific/Sound and Multimedia</QPM:ContentTopic>
+            <QPM:ContentKeyword>ESS,Maestro-1,Maestro-2,Canyon-3D,driver</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements>Maestro-1/2/2E or Canyon3D chip wired to an AC97-compliant codec. Chips with non-standard old ESS codecs won&apos;t work.</QPM:ProductRequirements>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="etc">
+                  <QPM:Dir name="system">
+                     <QPM:Dir name="enum">
+                        <QPM:Dir name="devices">
+                           <QPM:File>audio.ess-maestro</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="lib">
+                  <QPM:Union link="../$(PROCESSOR)/lib/dll">dll</QPM:Union>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

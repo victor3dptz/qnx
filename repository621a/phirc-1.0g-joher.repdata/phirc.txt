@@ -1,0 +1,14 @@
+PhIRC Licensing:
+
+PhIRC has no restriction, no nag screen, no time limit of any kind.
+
+. If you are a company or if you use PhIRC commercially: You must buy 
+  one license per concurent user. 
+. If you are an individual you can use PhIRC for free, if you like it 
+  and if you want to support it: You can buy one or more licenses.
+
+If you are an OEM and if you want to use PhIRC in your products we can 
+work on a custom version and a custom price, contact us at : sales@joher.com
+
+The price of PhIRC is $29.95 for one license.
+

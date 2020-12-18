@@ -1,0 +1,146 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Development</QPM:PackageType>
+            <QPM:PackageName>doxygen-1.2.18-public</QPM:PackageName>
+            <QPM:PackageSize>157934</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/01/15</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Doxygen</QPM:ProductName>
+            <QPM:ProductSize>412711</QPM:ProductSize>
+            <QPM:ProductIdentifier>doxygen</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Dimitri Van Heesch</QPM:AuthorName>
+            <QPM:AuthorURL>www.doxygen.org</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Generates documentation from source code</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Doxygen is a documentation system for C++, C, Java, IDL (Corba,  Microsoft, and KDE-DCOP flavors) and to some extent PHP and C#.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>www.doxygen.org</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/doxygen/core-1.2.18</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/04/29</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>1.2.18</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Low</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://doxygen-1.2.18-public.repdata/LicenseUrl/LICENSE</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Software Development</QPM:ContentTopic>
+            <QPM:ContentKeyword>doxygen</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="help">
+                     <QPM:Dir name="product">
+                        <QPM:Dir name="doxygen_en">
+                           <QPM:File>_formulas.tex</QPM:File>
+                           <QPM:File>arch.html</QPM:File>
+                           <QPM:File>archoverview.gif</QPM:File>
+                           <QPM:File>autolink.html</QPM:File>
+                           <QPM:File>commands.html</QPM:File>
+                           <QPM:File>config.html</QPM:File>
+                           <QPM:File>diagrams.html</QPM:File>
+                           <QPM:File>docblocks.html</QPM:File>
+                           <QPM:File>doxygen.css</QPM:File>
+                           <QPM:File>doxygen.png</QPM:File>
+                           <QPM:File>doxygen_logo.gif</QPM:File>
+                           <QPM:File>doxygen_logo_low.gif</QPM:File>
+                           <QPM:File>doxygen_usage.html</QPM:File>
+                           <QPM:File>doxysearch_usage.html</QPM:File>
+                           <QPM:File>doxytag_usage.html</QPM:File>
+                           <QPM:File>doxywizard.gif</QPM:File>
+                           <QPM:File>doxywizard_usage.html</QPM:File>
+                           <QPM:File>external.html</QPM:File>
+                           <QPM:File>faq.html</QPM:File>
+                           <QPM:File>features.html</QPM:File>
+                           <QPM:File>formulas.html</QPM:File>
+                           <QPM:File>grouping.html</QPM:File>
+                           <QPM:File>history.html</QPM:File>
+                           <QPM:File>htmlcmds.html</QPM:File>
+                           <QPM:File>index.hhc</QPM:File>
+                           <QPM:File>index.hhk</QPM:File>
+                           <QPM:File>index.hhp</QPM:File>
+                           <QPM:File>index.html</QPM:File>
+                           <QPM:File>install.html</QPM:File>
+                           <QPM:File>installdox_usage.html</QPM:File>
+                           <QPM:File>langhowto.html</QPM:File>
+                           <QPM:File>lists.html</QPM:File>
+                           <QPM:File>output.html</QPM:File>
+                           <QPM:File>pages.html</QPM:File>
+                           <QPM:File>preprocessing.html</QPM:File>
+                           <QPM:File>starting.html</QPM:File>
+                           <QPM:File>trouble.html</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>doxygen_en.toc</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="help">
+                     <QPM:Union link="../../opt/help/product">product</QPM:Union>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

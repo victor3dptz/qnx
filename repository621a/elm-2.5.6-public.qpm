@@ -1,0 +1,162 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>elm-2.5.6-public</QPM:PackageName>
+            <QPM:PackageSize>29585</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/01/17</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Elm</QPM:ProductName>
+            <QPM:ProductSize>98090</QPM:ProductSize>
+            <QPM:ProductIdentifier>elm</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Bill Pemberton, Dave Taylor, elm usenet group</QPM:AuthorName>
+            <QPM:AuthorURL/>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Popular console based email program</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Elm is a &quot;User Agent&quot; system, it&apos;s designed to run with &quot;sendmail&quot; or &quot;/bin/rmail&quot; or any other UNIX Mail Transport Agent (according to what&apos;s on your system) and is a full replacement of programs like &quot;/bin/mail&quot; and &quot;mailx&quot;. The system is more than just a single program, however, and  includes programs  like  &quot;frm&quot; to list a &apos;table of contents&apos; of your mail and &quot;printmail&quot; to quickly paginate mail files (to allow  &apos;clean&apos; printouts).</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL/>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/elm/core-2.5.6</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/01/17</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>2.5.6</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://elm-2.5.6-public.repdata/LicenseUrl/NOTICE</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Communication and Connectivity/Email Clients</QPM:ContentTopic>
+            <QPM:ContentKeyword>elm, email</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Use</QPM:ScriptType>
+            </QPM:Script>
+
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Unuse</QPM:ScriptType>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="bin">
+                     <QPM:File>checkalias</QPM:File>
+                     <QPM:File>listalias</QPM:File>
+                     <QPM:File>messages</QPM:File>
+                     <QPM:File>printmail</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="lib">
+                     <QPM:File>elmrc-info</QPM:File>
+                     <QPM:File>help-alias</QPM:File>
+                     <QPM:File>help-attach</QPM:File>
+                     <QPM:File>help-fbrowser</QPM:File>
+                     <QPM:File>help-main</QPM:File>
+                     <QPM:File>help-options</QPM:File>
+                     <QPM:File>help-pager</QPM:File>
+                     <QPM:File>help-selfolder</QPM:File>
+                     <QPM:File>help-status</QPM:File>
+                     <QPM:File>mime-types</QPM:File>
+                     <QPM:File>mlists.eg</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="man">
+                     <QPM:Dir name="man1">
+                        <QPM:File>answer.1</QPM:File>
+                        <QPM:File>checkalias.1</QPM:File>
+                        <QPM:File>elm.1</QPM:File>
+                        <QPM:File>elmalias.1</QPM:File>
+                        <QPM:File>fastmail.1</QPM:File>
+                        <QPM:File>frm.1</QPM:File>
+                        <QPM:File>listalias.1</QPM:File>
+                        <QPM:File>messages.1</QPM:File>
+                        <QPM:File>mmencode.1</QPM:File>
+                        <QPM:File>newalias.1</QPM:File>
+                        <QPM:File>newmail.1</QPM:File>
+                        <QPM:File>printmail.1</QPM:File>
+                        <QPM:File>readmsg.1</QPM:File>
+                        <QPM:File>wnewmail.1</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../opt/lib">lib</QPM:Union>
+                  <QPM:Union link="../opt/bin">bin</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="man">
+                     <QPM:Union link="../../opt/man/man1">man1</QPM:Union>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+
+      <QPM:Launch name="Elm">
+         <QPM:String name="Topic" value="Applications/Internet"/>
+         <QPM:String name="Command" value="pterm /opt/bin/elm"/>
+         <QPM:String name="Icon" value="/usr/share/icons/topics/mail_edit.gif"/>
+      </QPM:Launch>
+   </RDF:Description>
+</RDF:RDF>

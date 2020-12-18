@@ -1,0 +1,168 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>ltris-1.0.4-bld2-public</QPM:PackageName>
+            <QPM:PackageSize>441142</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseNotes/>
+            <QPM:PackageReleaseDate>2003/01/27</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>LTris</QPM:ProductName>
+            <QPM:ProductSize>863370</QPM:ProductSize>
+            <QPM:ProductIdentifier>ltris</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Michael Speck</QPM:AuthorName>
+            <QPM:AuthorURL/>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>SDL based Tetris clone</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>LTris is a very polished Tetris clone and highly configurable due to  it&apos;s menu. It offers you the well-known gametype Classic, a funny gametype Figures  (new figure each level, suddenly appearing tiles and lines) and  Multiplayer with up to three players either controlled by human or  CPU(!). In fact, even if you don&apos;t like Tetris you should download this just to  see your CPU in action in mode Demo! 
+</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL/>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/ltris/core-1.0.4-bld2</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/01/14</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>1.0.4</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>2</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://ltris-1.0.4-bld2-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Games and Diversions/Puzzles and Card Games</QPM:ContentTopic>
+            <QPM:ContentKeyword>tetris, sdl</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Use</QPM:ScriptType>
+            </QPM:Script>
+
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Unuse</QPM:ScriptType>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="games">
+                        <QPM:Dir name="ltris">
+                           <QPM:File>figures</QPM:File>
+                           <QPM:Dir name="gfx">
+                              <QPM:File>back0.bmp</QPM:File>
+                              <QPM:File>back1.bmp</QPM:File>
+                              <QPM:File>back2.bmp</QPM:File>
+                              <QPM:File>back3.bmp</QPM:File>
+                              <QPM:File>back4.bmp</QPM:File>
+                              <QPM:File>back5.bmp</QPM:File>
+                              <QPM:File>balloon.bmp</QPM:File>
+                              <QPM:File>balloon_peek.bmp</QPM:File>
+                              <QPM:File>blocks.bmp</QPM:File>
+                              <QPM:File>f_small_white.bmp</QPM:File>
+                              <QPM:File>f_small_yellow.bmp</QPM:File>
+                              <QPM:File>f_tiny_black.bmp</QPM:File>
+                              <QPM:File>f_white.bmp</QPM:File>
+                              <QPM:File>f_yellow.bmp</QPM:File>
+                              <QPM:File>logo.bmp</QPM:File>
+                              <QPM:File>menuback.bmp</QPM:File>
+                              <QPM:File>quest.bmp</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="sounds">
+                              <QPM:File>click.wav</QPM:File>
+                              <QPM:File>excellent.wav</QPM:File>
+                              <QPM:File>explosion.wav</QPM:File>
+                              <QPM:File>leftright.wav</QPM:File>
+                              <QPM:File>motion.wav</QPM:File>
+                              <QPM:File>nextlevel.wav</QPM:File>
+                              <QPM:File>stop.wav</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="var">
+                  <QPM:Dir name="lib">
+                     <QPM:Dir name="games">
+                        <QPM:File>ltris.hscr</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="games">
+                        <QPM:Union link="../../../opt/share/games/ltris">ltris</QPM:Union>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+
+      <QPM:Launch name="LTris">
+         <QPM:String name="Topic" value="Applications/Games"/>
+         <QPM:String name="Command" value="/opt/bin/ltris"/>
+      </QPM:Launch>
+   </RDF:Description>
+</RDF:RDF>

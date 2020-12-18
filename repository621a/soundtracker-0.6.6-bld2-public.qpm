@@ -1,0 +1,225 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>soundtracker-0.6.6-bld2-public</QPM:PackageName>
+            <QPM:PackageSize>71647</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>2</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseNotes/>
+            <QPM:PackageReleaseUrgency>Medium</QPM:PackageReleaseUrgency>
+            <QPM:PackageReleaseDate>2003/01/14</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Soundtracker</QPM:ProductName>
+            <QPM:ProductSize>231787</QPM:ProductSize>
+            <QPM:ProductIdentifier>soundtracker</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Michael Krause</QPM:AuthorName>
+            <QPM:AuthorURL>www.soundtracker.org</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Editor for music files on the Mod or XM format</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Soundtracker is an editor for MOD and XM formatted music</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>www.soundtracker.org</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/soundtracker/core-0.6.6-bld2</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/05/27</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>0.6.6</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>2</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://soundtracker-0.6.6-bld2-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Multimedia/Music and Audio/Audio Editing and Composition</QPM:ContentTopic>
+            <QPM:ContentKeyword>mod, xm, soundtracker, tracker</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>X11R6</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Use</QPM:ScriptType>
+            </QPM:Script>
+
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Unuse</QPM:ScriptType>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="locale">
+                        <QPM:Dir name="de">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>soundtracker.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="es">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>soundtracker.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="fr">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>soundtracker.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="gl">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>soundtracker.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="it">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>soundtracker.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ja">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>soundtracker.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="pl">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>soundtracker.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ru">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>soundtracker.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="sl">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>soundtracker.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="sv">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>soundtracker.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="locale">
+                        <QPM:Dir name="de">
+                           <QPM:Union link="../../../../opt/share/locale/de/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="es">
+                           <QPM:Union link="../../../../opt/share/locale/es/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="fr">
+                           <QPM:Union link="../../../../opt/share/locale/fr/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="gl">
+                           <QPM:Union link="../../../../opt/share/locale/gl/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="it">
+                           <QPM:Union link="../../../../opt/share/locale/it/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ja">
+                           <QPM:Union link="../../../../opt/share/locale/ja/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="pl">
+                           <QPM:Union link="../../../../opt/share/locale/pl/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ru">
+                           <QPM:Union link="../../../../opt/share/locale/ru/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="sl">
+                           <QPM:Union link="../../../../opt/share/locale/sl/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="sv">
+                           <QPM:Union link="../../../../opt/share/locale/sv/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+
+      <QPM:Launch name="Soundtracker">
+         <QPM:String name="Topic" value="Applications/Multimedia"/>
+         <QPM:String name="Command" value="/opt/bin/soundtracker"/>
+      </QPM:Launch>
+   </RDF:Description>
+</RDF:RDF>

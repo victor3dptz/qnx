@@ -1,0 +1,404 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:PackageName>lesstif-0.93.36-public</QPM:PackageName>
+            <QPM:PackageSize>370524</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>3</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseNotes/>
+            <QPM:PackageReleaseUrgency>Medium</QPM:PackageReleaseUrgency>
+            <QPM:PackageReleaseDate>2002/12/26</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Lesstif</QPM:ProductName>
+            <QPM:ProductSize>1410745</QPM:ProductSize>
+            <QPM:ProductIdentifier>lesstif</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Danny Backx, Rick Scott, Alexander Mai</QPM:AuthorName>
+            <QPM:AuthorURL>www.lesstif.org</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Free implementation of Motif</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong/>
+            <QPM:ProductDescriptionURL>www.lesstif.org</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/lesstif/core-0.93.36</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/05/15</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>0.93.36</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU Lesser General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://lesstif-0.93.36-public.repdata/LicenseUrl/COPYING.LIB</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>System/Libraries and Extensions/C Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>Motif, Lesstif</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>X11R6</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/lib">lib</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="LessTif">
+                     <QPM:File>AUTHORS</QPM:File>
+                     <QPM:File>BUG-REPORTING</QPM:File>
+                     <QPM:File>COPYING</QPM:File>
+                     <QPM:File>COPYING.LIB</QPM:File>
+                     <QPM:File>CREDITS</QPM:File>
+                     <QPM:File>FAQ</QPM:File>
+                     <QPM:File>INSTALL.txt</QPM:File>
+                     <QPM:File>README</QPM:File>
+                     <QPM:File>ReleaseNotes.html</QPM:File>
+                     <QPM:File>ReleaseNotes.txt</QPM:File>
+                     <QPM:Dir name="doc">
+                        <QPM:File>Advocacy.html</QPM:File>
+                        <QPM:File>All.html</QPM:File>
+                        <QPM:File>BUG-HUNTING.html</QPM:File>
+                        <QPM:File>COPYING.LIB.html</QPM:File>
+                        <QPM:File>Clipboard.txt</QPM:File>
+                        <QPM:File>DragAndDrop.txt</QPM:File>
+                        <QPM:File>FAQ.html</QPM:File>
+                        <QPM:File>Form.txt</QPM:File>
+                        <QPM:File>GeoUtils.txt</QPM:File>
+                        <QPM:File>Geometry.html</QPM:File>
+                        <QPM:File>INSTALL.html</QPM:File>
+                        <QPM:Link link="html">Lessdox</QPM:Link>
+                        <QPM:File>PROGRAMMING_TIPS.html</QPM:File>
+                        <QPM:File>ReleaseNotes.html</QPM:File>
+                        <QPM:File>SyntheticResources.txt</QPM:File>
+                        <QPM:File>UIL.txt</QPM:File>
+                        <QPM:File>XmStrings.txt</QPM:File>
+                        <QPM:File>XpREADME.html</QPM:File>
+                        <QPM:File>XprtConfig.html</QPM:File>
+                        <QPM:File>about.html</QPM:File>
+                        <QPM:File>apps.html</QPM:File>
+                        <QPM:File>bugs.html</QPM:File>
+                        <QPM:File>bugs_frame.html</QPM:File>
+                        <QPM:File>cdrom.html</QPM:File>
+                        <QPM:File>contents.html</QPM:File>
+                        <QPM:File>core.html</QPM:File>
+                        <QPM:File>cvs.html</QPM:File>
+                        <QPM:File>doc_frame.html</QPM:File>
+                        <QPM:File>download.html</QPM:File>
+                        <QPM:File>feedback.html</QPM:File>
+                        <QPM:File>frames.html</QPM:File>
+                        <QPM:File>future.html</QPM:File>
+                        <QPM:File>get_frame.html</QPM:File>
+                        <QPM:File>help.html</QPM:File>
+                        <QPM:Dir name="html">
+                           <QPM:File>ApplicationShell.html</QPM:File>
+                           <QPM:File>Composite.html</QPM:File>
+                           <QPM:File>Constraint.html</QPM:File>
+                           <QPM:File>Core.html</QPM:File>
+                           <QPM:File>LessTifInternals.html</QPM:File>
+                           <QPM:File>Object.html</QPM:File>
+                           <QPM:File>OverrideShell.html</QPM:File>
+                           <QPM:File>Rect.html</QPM:File>
+                           <QPM:File>Shell.html</QPM:File>
+                           <QPM:File>TopLevelShell.html</QPM:File>
+                           <QPM:File>TransientShell.html</QPM:File>
+                           <QPM:File>UnNamedObj.html</QPM:File>
+                           <QPM:File>VendorShell.html</QPM:File>
+                           <QPM:File>VirtualBindings.html</QPM:File>
+                           <QPM:File>WmShell.html</QPM:File>
+                           <QPM:File>XmArrowButton.html</QPM:File>
+                           <QPM:File>XmArrowButtonGadget.html</QPM:File>
+                           <QPM:File>XmBulletinBoard.html</QPM:File>
+                           <QPM:File>XmCascadeButton.html</QPM:File>
+                           <QPM:File>XmCascadeButtonGadget.html</QPM:File>
+                           <QPM:File>XmClipboard.html</QPM:File>
+                           <QPM:File>XmComboBox.html</QPM:File>
+                           <QPM:File>XmCommand.html</QPM:File>
+                           <QPM:File>XmDesktop.html</QPM:File>
+                           <QPM:File>XmDialogShell.html</QPM:File>
+                           <QPM:File>XmDialogShellExt.html</QPM:File>
+                           <QPM:File>XmDisplay.html</QPM:File>
+                           <QPM:File>XmDragContext.html</QPM:File>
+                           <QPM:File>XmDragIcon.html</QPM:File>
+                           <QPM:File>XmDragOverShell.html</QPM:File>
+                           <QPM:File>XmDrawingArea.html</QPM:File>
+                           <QPM:File>XmDrawnButton.html</QPM:File>
+                           <QPM:File>XmDropSiteManager.html</QPM:File>
+                           <QPM:File>XmDropTransfer.html</QPM:File>
+                           <QPM:File>XmFileSelectionBox.html</QPM:File>
+                           <QPM:File>XmForm.html</QPM:File>
+                           <QPM:File>XmFrame.html</QPM:File>
+                           <QPM:File>XmGadget.html</QPM:File>
+                           <QPM:File>XmGrabShell.html</QPM:File>
+                           <QPM:File>XmIconGadget.html</QPM:File>
+                           <QPM:File>XmLabel.html</QPM:File>
+                           <QPM:File>XmLabelGadget.html</QPM:File>
+                           <QPM:File>XmList.html</QPM:File>
+                           <QPM:File>XmMainWindow.html</QPM:File>
+                           <QPM:File>XmManager.html</QPM:File>
+                           <QPM:File>XmMenuShell.html</QPM:File>
+                           <QPM:File>XmMessageBox.html</QPM:File>
+                           <QPM:File>XmNotebook.html</QPM:File>
+                           <QPM:File>XmPanedWindow.html</QPM:File>
+                           <QPM:File>XmPrimitive.html</QPM:File>
+                           <QPM:File>XmProtocol.html</QPM:File>
+                           <QPM:File>XmPushButton.html</QPM:File>
+                           <QPM:File>XmPushButtonGadget.html</QPM:File>
+                           <QPM:File>XmRowColumn.html</QPM:File>
+                           <QPM:File>XmSash.html</QPM:File>
+                           <QPM:File>XmScale.html</QPM:File>
+                           <QPM:File>XmScreen.html</QPM:File>
+                           <QPM:File>XmScrollBar.html</QPM:File>
+                           <QPM:File>XmScrolledWindow.html</QPM:File>
+                           <QPM:File>XmSelectionBox.html</QPM:File>
+                           <QPM:File>XmSeparator.html</QPM:File>
+                           <QPM:File>XmSeparatorGadget.html</QPM:File>
+                           <QPM:File>XmSpinBox.html</QPM:File>
+                           <QPM:File>XmString.html</QPM:File>
+                           <QPM:File>XmTearOffButton.html</QPM:File>
+                           <QPM:File>XmText.html</QPM:File>
+                           <QPM:File>XmTextField.html</QPM:File>
+                           <QPM:File>XmToggleButton.html</QPM:File>
+                           <QPM:File>XmToggleButtonGadget.html</QPM:File>
+                           <QPM:File>XmVendorShell.html</QPM:File>
+                           <QPM:File>XmWorld.html</QPM:File>
+                           <QPM:File>lesstif.html</QPM:File>
+                           <QPM:File>mwm.html</QPM:File>
+                           <QPM:File>mwmrc.html</QPM:File>
+                           <QPM:File>uil.html</QPM:File>
+                           <QPM:File>xmbind.html</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="images">
+                           <QPM:File>hungry.png</QPM:File>
+                           <QPM:File>lesstif-realsmall.png</QPM:File>
+                           <QPM:File>lesstif-small.png</QPM:File>
+                           <QPM:File>lesstif.jpg</QPM:File>
+                           <QPM:File>lesstif.png</QPM:File>
+                           <QPM:File>ltsunlogo.jpg</QPM:File>
+                           <QPM:File>ltsunlogo.png</QPM:File>
+                           <QPM:File>vh32.jpg</QPM:File>
+                           <QPM:File>vh32.png</QPM:File>
+                           <QPM:File>vh40.jpg</QPM:File>
+                           <QPM:File>vh40.png</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>index.html</QPM:File>
+                        <QPM:File>known.html</QPM:File>
+                        <QPM:File>links.html</QPM:File>
+                        <QPM:File>lists.html</QPM:File>
+                        <QPM:File>mirrors.html</QPM:File>
+                        <QPM:File>misc_frame.html</QPM:File>
+                        <QPM:File>news.html</QPM:File>
+                        <QPM:File>news_frame.html</QPM:File>
+                        <QPM:File>platforms.html</QPM:File>
+                        <QPM:File>printing.html</QPM:File>
+                        <QPM:File>related_frame.html</QPM:File>
+                        <QPM:File>release-policy.html</QPM:File>
+                        <QPM:File>test_policy.html</QPM:File>
+                        <QPM:File>test_summary.html</QPM:File>
+                        <QPM:File>testers.html</QPM:File>
+                        <QPM:File>thread.html</QPM:File>
+                        <QPM:File>titlebar.html</QPM:File>
+                        <QPM:File>versions.html</QPM:File>
+                        <QPM:File>web_button.html</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="bin">
+                     <QPM:File>mxmkmf</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="include">
+                     <QPM:Dir name="uil">
+                        <QPM:File>XmAppl.uil</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="lib">
+                     <QPM:Dir name="X11">
+                        <QPM:Dir name="app-defaults">
+                           <QPM:File>Mwm</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="config">
+                           <QPM:File>LessTif.rules</QPM:File>
+                           <QPM:File>LessTif.tmpl</QPM:File>
+                           <QPM:File>host.def</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="mwm">
+                           <QPM:File>README</QPM:File>
+                           <QPM:File>alt.map</QPM:File>
+                           <QPM:File>system.mwmrc</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+
+                     <QPM:File>libDtPrint.la</QPM:File>
+                     <QPM:File>libMrm.la</QPM:File>
+                     <QPM:File>libUil.la</QPM:File>
+                     <QPM:File>libXm.la</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="man">
+                     <QPM:Dir name="man1">
+                        <QPM:File>lesstif.1</QPM:File>
+                        <QPM:File>ltversion.1</QPM:File>
+                        <QPM:File>mwm.1</QPM:File>
+                        <QPM:File>uil.1</QPM:File>
+                        <QPM:File>xmbind.1</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="man3">
+                        <QPM:File>ApplicationShell.3</QPM:File>
+                        <QPM:File>Composite.3</QPM:File>
+                        <QPM:File>Constraint.3</QPM:File>
+                        <QPM:File>Core.3</QPM:File>
+                        <QPM:File>LessTifInternals.3</QPM:File>
+                        <QPM:File>Object.3</QPM:File>
+                        <QPM:File>OverrideShell.3</QPM:File>
+                        <QPM:File>Rect.3</QPM:File>
+                        <QPM:File>Shell.3</QPM:File>
+                        <QPM:File>TopLevelShell.3</QPM:File>
+                        <QPM:File>TransientShell.3</QPM:File>
+                        <QPM:File>UnNamedObj.3</QPM:File>
+                        <QPM:File>VendorShell.3</QPM:File>
+                        <QPM:File>WmShell.3</QPM:File>
+                        <QPM:File>XmArrowButton.3</QPM:File>
+                        <QPM:File>XmArrowButtonGadget.3</QPM:File>
+                        <QPM:File>XmBulletinBoard.3</QPM:File>
+                        <QPM:File>XmCascadeButton.3</QPM:File>
+                        <QPM:File>XmCascadeButtonGadget.3</QPM:File>
+                        <QPM:File>XmClipboard.3</QPM:File>
+                        <QPM:File>XmComboBox.3</QPM:File>
+                        <QPM:File>XmCommand.3</QPM:File>
+                        <QPM:File>XmDesktop.3</QPM:File>
+                        <QPM:File>XmDialogShell.3</QPM:File>
+                        <QPM:File>XmDialogShellExt.3</QPM:File>
+                        <QPM:File>XmDisplay.3</QPM:File>
+                        <QPM:File>XmDragContext.3</QPM:File>
+                        <QPM:File>XmDragIcon.3</QPM:File>
+                        <QPM:File>XmDragOverShell.3</QPM:File>
+                        <QPM:File>XmDrawingArea.3</QPM:File>
+                        <QPM:File>XmDrawnButton.3</QPM:File>
+                        <QPM:File>XmDropSiteManager.3</QPM:File>
+                        <QPM:File>XmDropTransfer.3</QPM:File>
+                        <QPM:File>XmFileSelectionBox.3</QPM:File>
+                        <QPM:File>XmForm.3</QPM:File>
+                        <QPM:File>XmFrame.3</QPM:File>
+                        <QPM:File>XmGadget.3</QPM:File>
+                        <QPM:File>XmGrabShell.3</QPM:File>
+                        <QPM:File>XmIconGadget.3</QPM:File>
+                        <QPM:File>XmLabel.3</QPM:File>
+                        <QPM:File>XmLabelGadget.3</QPM:File>
+                        <QPM:File>XmList.3</QPM:File>
+                        <QPM:File>XmMainWindow.3</QPM:File>
+                        <QPM:File>XmManager.3</QPM:File>
+                        <QPM:File>XmMenuShell.3</QPM:File>
+                        <QPM:File>XmMessageBox.3</QPM:File>
+                        <QPM:File>XmNotebook.3</QPM:File>
+                        <QPM:File>XmPanedWindow.3</QPM:File>
+                        <QPM:File>XmPrimitive.3</QPM:File>
+                        <QPM:File>XmProtocol.3</QPM:File>
+                        <QPM:File>XmPushButton.3</QPM:File>
+                        <QPM:File>XmPushButtonGadget.3</QPM:File>
+                        <QPM:File>XmRowColumn.3</QPM:File>
+                        <QPM:File>XmSash.3</QPM:File>
+                        <QPM:File>XmScale.3</QPM:File>
+                        <QPM:File>XmScreen.3</QPM:File>
+                        <QPM:File>XmScrollBar.3</QPM:File>
+                        <QPM:File>XmScrolledWindow.3</QPM:File>
+                        <QPM:File>XmSelectionBox.3</QPM:File>
+                        <QPM:File>XmSeparator.3</QPM:File>
+                        <QPM:File>XmSeparatorGadget.3</QPM:File>
+                        <QPM:File>XmSpinBox.3</QPM:File>
+                        <QPM:File>XmString.3</QPM:File>
+                        <QPM:File>XmTearOffButton.3</QPM:File>
+                        <QPM:File>XmText.3</QPM:File>
+                        <QPM:File>XmTextField.3</QPM:File>
+                        <QPM:File>XmToggleButton.3</QPM:File>
+                        <QPM:File>XmToggleButtonGadget.3</QPM:File>
+                        <QPM:File>XmVendorShell.3</QPM:File>
+                        <QPM:File>XmWorld.3</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="man5">
+                        <QPM:File>VirtualBindings.5</QPM:File>
+                        <QPM:File>mwmrc.5</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../opt/lib">lib</QPM:Union>
+                  <QPM:Union link="../opt/bin">bin</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/lib">lib</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="help">
+                     <QPM:Dir name="product">
+                        <QPM:Link link="../../../../opt/LessTif/doc">lesstif_en</QPM:Link>
+                        <QPM:File>lesstif_en.toc</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="include">
+                     <QPM:Union link="../../opt/include/uil">uil</QPM:Union>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="man">
+                     <QPM:Union link="../../opt/man/man5">man5</QPM:Union>
+                     <QPM:Union link="../../opt/man/man3">man3</QPM:Union>
+                     <QPM:Union link="../../opt/man/man1">man1</QPM:Union>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

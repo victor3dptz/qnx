@@ -1,0 +1,307 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>bluefish-0.7-public</QPM:PackageName>
+            <QPM:PackageSize>334808</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>4</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseNotes/>
+            <QPM:PackageReleaseUrgency>Medium</QPM:PackageReleaseUrgency>
+            <QPM:PackageReleaseDate>2002/12/26</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Bluefish</QPM:ProductName>
+            <QPM:ProductSize>974655</QPM:ProductSize>
+            <QPM:ProductIdentifier>bluefish</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Olivier Sessink, Roland Steinbach, Gero Takke, Pablo De Napoli, Kai Lahmann, Chris Mazuc</QPM:AuthorName>
+            <QPM:AuthorURL/>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>html editor</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Bluefish is a web development application for experienced web designers and programmers. Bluefish has extended support for programming dynamic and interactive websites. Bluefish is released under the GPL licence.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://bluefish.openoffice.nl/index.php</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/bluefish/core-0.7</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/12/26</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>0.7</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://bluefish-0.7-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>World Wide Web/Authoring Tools/HTML Authoring Tools</QPM:ContentTopic>
+            <QPM:ContentKeyword>bluefish, html</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>X11R6</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Use</QPM:ScriptType>
+            </QPM:Script>
+
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Unuse</QPM:ScriptType>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="man">
+                     <QPM:Dir name="man1">
+                        <QPM:File>bluefish.1</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="bluefish">
+                        <QPM:File>loose.dtd</QPM:File>
+                        <QPM:Dir name="man1"/>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="locale">
+                        <QPM:Dir name="cs">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>bluefish.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="da">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>bluefish.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="de">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>bluefish.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="el">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>bluefish.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="en">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>bluefish.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="es">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>bluefish.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="fr">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>bluefish.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="hu">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>bluefish.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="it">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>bluefish.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ja">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>bluefish.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="nl">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>bluefish.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="pl">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>bluefish.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="pt_BR">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>bluefish.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ro">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>bluefish.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ru">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>bluefish.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="sv">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>bluefish.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="pixmaps">
+                        <QPM:File>bluefish_icon.xpm</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="man">
+                     <QPM:Union link="../../opt/man/man1">man1</QPM:Union>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Union link="../../opt/share/pixmaps">pixmaps</QPM:Union>
+                     <QPM:Union link="../../opt/share/bluefish">bluefish</QPM:Union>
+                     <QPM:Dir name="locale">
+                        <QPM:Dir name="cs">
+                           <QPM:Union link="../../../../opt/share/locale/cs/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="da">
+                           <QPM:Union link="../../../../opt/share/locale/da/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="de">
+                           <QPM:Union link="../../../../opt/share/locale/de/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="el">
+                           <QPM:Union link="../../../../opt/share/locale/el/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="en">
+                           <QPM:Union link="../../../../opt/share/locale/en/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="es">
+                           <QPM:Union link="../../../../opt/share/locale/es/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="fr">
+                           <QPM:Union link="../../../../opt/share/locale/fr/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="hu">
+                           <QPM:Union link="../../../../opt/share/locale/hu/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="it">
+                           <QPM:Union link="../../../../opt/share/locale/it/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ja">
+                           <QPM:Union link="../../../../opt/share/locale/ja/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="nl">
+                           <QPM:Union link="../../../../opt/share/locale/nl/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="pl">
+                           <QPM:Union link="../../../../opt/share/locale/pl/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="pt_BR">
+                           <QPM:Union link="../../../../opt/share/locale/pt_BR/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ro">
+                           <QPM:Union link="../../../../opt/share/locale/ro/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ru">
+                           <QPM:Union link="../../../../opt/share/locale/ru/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="sv">
+                           <QPM:Union link="../../../../opt/share/locale/sv/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+
+      <QPM:Launch name="Bluefish">
+         <QPM:String name="Topic" value="Applications/Development"/>
+         <QPM:String name="Command" value="/opt/bin/bluefish"/>
+      </QPM:Launch>
+   </RDF:Description>
+</RDF:RDF>

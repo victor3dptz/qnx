@@ -1,0 +1,143 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:PackageName>gdk-pixbuf-0.17.0-bld3-x86-public</QPM:PackageName>
+            <QPM:PackageSize>128580</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/01/04</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>gdk-pixbuf for x86</QPM:ProductName>
+            <QPM:ProductSize>1467170</QPM:ProductSize>
+            <QPM:ProductIdentifier>gdk-pixbuf-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>GNU</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.gnu.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>gdk-pixbuf is an image support library.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>gdk-pixbuf is used by GTK and Gnome applications for image support.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.gnome.org/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/gdk-pixbuf/core-0.17.0-bld3/x86</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/01/04</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>0.17.0</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>3</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://gdk-pixbuf-0.17.0-bld3-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>gdk-pixbuf</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Software Development/Libraries and Extensions/C Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>gdk,gtk,pixbuf</QPM:ContentKeyword>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>X11R6</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+            <QPM:RequiresLibrary>libgtk-1.2.so.9</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libgdk-1.2.so.9</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libgmodule-1.2.so.0</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libglib-1.2.so.0</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libm.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+            <QPM:ContainsLibrary>libpixbufloader-bmp.so.1</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libpixbufloader-gif.so.1</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libpixbufloader-ico.so.1</QPM:ContainsLibrary>
+            <QPM:RequiresLibrary>libjpeg.so.2</QPM:RequiresLibrary>
+            <QPM:ContainsLibrary>libpixbufloader-jpeg.so.1</QPM:ContainsLibrary>
+            <QPM:RequiresLibrary>libpng.so.3</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libz.so.2</QPM:RequiresLibrary>
+            <QPM:ContainsLibrary>libpixbufloader-png.so.1</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libpixbufloader-pnm.so.1</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libpixbufloader-ras.so.1</QPM:ContainsLibrary>
+            <QPM:RequiresLibrary>libtiff.so.3</QPM:RequiresLibrary>
+            <QPM:ContainsLibrary>libpixbufloader-tiff.so.1</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libpixbufloader-xbm.so.1</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libpixbufloader-xpm.so.1</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libgdk_pixbuf.so.2</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libgdk_pixbuf_xlib.so.2</QPM:ContainsLibrary>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure/>
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="lib">
+                     <QPM:Dir name="gdk-pixbuf">
+                        <QPM:Dir name="loaders">
+                           <QPM:Link link="libpixbufloader-bmp.so.1">libpixbufloader-bmp.so</QPM:Link>
+                           <QPM:File>libpixbufloader-bmp.so.1</QPM:File>
+                           <QPM:Link link="libpixbufloader-gif.so.1">libpixbufloader-gif.so</QPM:Link>
+                           <QPM:File>libpixbufloader-gif.so.1</QPM:File>
+                           <QPM:Link link="libpixbufloader-ico.so.1">libpixbufloader-ico.so</QPM:Link>
+                           <QPM:File>libpixbufloader-ico.so.1</QPM:File>
+                           <QPM:Link link="libpixbufloader-jpeg.so.1">libpixbufloader-jpeg.so</QPM:Link>
+                           <QPM:File>libpixbufloader-jpeg.so.1</QPM:File>
+                           <QPM:Link link="libpixbufloader-png.so.1">libpixbufloader-png.so</QPM:Link>
+                           <QPM:File>libpixbufloader-png.so.1</QPM:File>
+                           <QPM:Link link="libpixbufloader-pnm.so.1">libpixbufloader-pnm.so</QPM:Link>
+                           <QPM:File>libpixbufloader-pnm.so.1</QPM:File>
+                           <QPM:Link link="libpixbufloader-ras.so.1">libpixbufloader-ras.so</QPM:Link>
+                           <QPM:File>libpixbufloader-ras.so.1</QPM:File>
+                           <QPM:Link link="libpixbufloader-tiff.so.1">libpixbufloader-tiff.so</QPM:Link>
+                           <QPM:File>libpixbufloader-tiff.so.1</QPM:File>
+                           <QPM:Link link="libpixbufloader-xbm.so.1">libpixbufloader-xbm.so</QPM:Link>
+                           <QPM:File>libpixbufloader-xbm.so.1</QPM:File>
+                           <QPM:Link link="libpixbufloader-xpm.so.1">libpixbufloader-xpm.so</QPM:Link>
+                           <QPM:File>libpixbufloader-xpm.so.1</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+
+                     <QPM:Link link="libgdk_pixbuf.so.2">libgdk_pixbuf.so</QPM:Link>
+                     <QPM:File>libgdk_pixbuf.so.2</QPM:File>
+                     <QPM:Link link="libgdk_pixbuf_xlib.so.2">libgdk_pixbuf_xlib.so</QPM:Link>
+                     <QPM:File>libgdk_pixbuf_xlib.so.2</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

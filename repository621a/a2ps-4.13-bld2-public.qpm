@@ -1,0 +1,589 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>a2ps-4.13-bld2-public</QPM:PackageName>
+            <QPM:PackageSize>494850</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>2</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseNotes/>
+            <QPM:PackageReleaseUrgency>Medium</QPM:PackageReleaseUrgency>
+            <QPM:PackageReleaseDate>2003/03/13</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Anything to Postscript</QPM:ProductName>
+            <QPM:ProductSize>2211824</QPM:ProductSize>
+            <QPM:ProductIdentifier>a2ps</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Miguel Santana, Akim Demaille</QPM:AuthorName>
+            <QPM:AuthorURL/>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>converts &quot;anything&quot; to postscript files</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Converts various text formats to postscript files.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.infres.enst.fr/%7Edemaille/a2ps/ports.html</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/a2ps/core-4.13-bld2</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/05/25</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>4.13</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>2</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://a2ps-4.13-bld2-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Text Editing and Processing/Conversion and Translation</QPM:ContentTopic>
+            <QPM:ContentKeyword>a2ps, postscript, printers, printing</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="bin">
+                     <QPM:File>card</QPM:File>
+                     <QPM:File>composeglyphs</QPM:File>
+                     <QPM:File>fixps</QPM:File>
+                     <QPM:File>ogonkify</QPM:File>
+                     <QPM:File>pdiff</QPM:File>
+                     <QPM:File>psmandup</QPM:File>
+                     <QPM:File>psset</QPM:File>
+                     <QPM:File>texi2dvi4a2ps</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="etc">
+                     <QPM:File>a2ps-site.cfg</QPM:File>
+                     <QPM:File>a2ps.cfg</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="info">
+                     <QPM:File>a2ps.info</QPM:File>
+                     <QPM:File>a2ps.info-1</QPM:File>
+                     <QPM:File>a2ps.info-2</QPM:File>
+                     <QPM:File>a2ps.info-3</QPM:File>
+                     <QPM:File>a2ps.info-4</QPM:File>
+                     <QPM:File>a2ps.info-5</QPM:File>
+                     <QPM:File>a2ps.info-6</QPM:File>
+                     <QPM:File>ogonkify.info</QPM:File>
+                     <QPM:File>regex.info</QPM:File>
+                     <QPM:File>regex.info-1</QPM:File>
+                     <QPM:File>regex.info-2</QPM:File>
+                     <QPM:File>regex.info-3</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="lib">
+                     <QPM:File>liba2ps.la</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="man">
+                     <QPM:Dir name="man1">
+                        <QPM:File>a2ps.1</QPM:File>
+                        <QPM:File>card.1</QPM:File>
+                        <QPM:File>fixps.1</QPM:File>
+                        <QPM:File>ogonkify.1</QPM:File>
+                        <QPM:File>pdiff.1</QPM:File>
+                        <QPM:File>psmandup.1</QPM:File>
+                        <QPM:File>psset.1</QPM:File>
+                        <QPM:File>texi2dvi4a2ps.1</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="a2ps">
+                        <QPM:File>README</QPM:File>
+                        <QPM:Dir name="afm">
+                           <QPM:File>fonts.map</QPM:File>
+                           <QPM:File>make_fonts_map.sh</QPM:File>
+                           <QPM:File>pbkd.afm</QPM:File>
+                           <QPM:File>pbkdi.afm</QPM:File>
+                           <QPM:File>pbkl.afm</QPM:File>
+                           <QPM:File>pbkli.afm</QPM:File>
+                           <QPM:File>pcfont.afm</QPM:File>
+                           <QPM:File>pcrb.afm</QPM:File>
+                           <QPM:File>pcrbo.afm</QPM:File>
+                           <QPM:File>pcrr.afm</QPM:File>
+                           <QPM:File>pcrro.afm</QPM:File>
+                           <QPM:File>phvb.afm</QPM:File>
+                           <QPM:File>phvbo.afm</QPM:File>
+                           <QPM:File>phvbon.afm</QPM:File>
+                           <QPM:File>phvbrn.afm</QPM:File>
+                           <QPM:File>phvr.afm</QPM:File>
+                           <QPM:File>phvro.afm</QPM:File>
+                           <QPM:File>phvron.afm</QPM:File>
+                           <QPM:File>phvrrn.afm</QPM:File>
+                           <QPM:File>pncb.afm</QPM:File>
+                           <QPM:File>pncbi.afm</QPM:File>
+                           <QPM:File>pncr.afm</QPM:File>
+                           <QPM:File>pncri.afm</QPM:File>
+                           <QPM:File>pplb.afm</QPM:File>
+                           <QPM:File>pplbi.afm</QPM:File>
+                           <QPM:File>pplr.afm</QPM:File>
+                           <QPM:File>pplri.afm</QPM:File>
+                           <QPM:File>psyr.afm</QPM:File>
+                           <QPM:File>ptmb.afm</QPM:File>
+                           <QPM:File>ptmbi.afm</QPM:File>
+                           <QPM:File>ptmi.afm</QPM:File>
+                           <QPM:File>ptmr.afm</QPM:File>
+                           <QPM:File>pzcmi.afm</QPM:File>
+                           <QPM:File>pzdr.afm</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="encoding">
+                           <QPM:File>ascii.edf</QPM:File>
+                           <QPM:File>encoding.map</QPM:File>
+                           <QPM:File>hp.edf</QPM:File>
+                           <QPM:File>ibm-cp437.edf</QPM:File>
+                           <QPM:File>ibm-cp850.edf</QPM:File>
+                           <QPM:File>iso1.edf</QPM:File>
+                           <QPM:File>iso10.edf</QPM:File>
+                           <QPM:File>iso13.edf</QPM:File>
+                           <QPM:File>iso15.edf</QPM:File>
+                           <QPM:File>iso2.edf</QPM:File>
+                           <QPM:File>iso3.edf</QPM:File>
+                           <QPM:File>iso4.edf</QPM:File>
+                           <QPM:File>iso5.edf</QPM:File>
+                           <QPM:File>iso7.edf</QPM:File>
+                           <QPM:File>iso9.edf</QPM:File>
+                           <QPM:File>koi8.edf</QPM:File>
+                           <QPM:File>mac.edf</QPM:File>
+                           <QPM:File>ms-cp1250.edf</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="fonts">
+                           <QPM:File>pcfont.pfa</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ppd">
+                           <QPM:File>README</QPM:File>
+                           <QPM:File>level1.ppd</QPM:File>
+                           <QPM:File>level2.ppd</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ps">
+                           <QPM:File>a2ps.hdr</QPM:File>
+                           <QPM:File>base.ps</QPM:File>
+                           <QPM:File>bold.pro</QPM:File>
+                           <QPM:File>bw.pro</QPM:File>
+                           <QPM:File>color.hdr</QPM:File>
+                           <QPM:File>color.pro</QPM:File>
+                           <QPM:File>diff.pro</QPM:File>
+                           <QPM:File>ehandler.ps</QPM:File>
+                           <QPM:File>fixed.pro</QPM:File>
+                           <QPM:File>gray.pro</QPM:File>
+                           <QPM:File>gray2.pro</QPM:File>
+                           <QPM:File>matrix.pro</QPM:File>
+                           <QPM:File>ul.pro</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="sheets">
+                           <QPM:File>68000.ssh</QPM:File>
+                           <QPM:File>a2psrc.ssh</QPM:File>
+                           <QPM:File>ada.ssh</QPM:File>
+                           <QPM:File>asn1.ssh</QPM:File>
+                           <QPM:File>autoconf.ssh</QPM:File>
+                           <QPM:File>awk.ssh</QPM:File>
+                           <QPM:File>b.ssh</QPM:File>
+                           <QPM:File>bc.ssh</QPM:File>
+                           <QPM:File>c.ssh</QPM:File>
+                           <QPM:File>caml.ssh</QPM:File>
+                           <QPM:File>card.ssh</QPM:File>
+                           <QPM:File>chlog.ssh</QPM:File>
+                           <QPM:File>cidl.ssh</QPM:File>
+                           <QPM:File>claire.ssh</QPM:File>
+                           <QPM:File>clisp.ssh</QPM:File>
+                           <QPM:File>coqv.ssh</QPM:File>
+                           <QPM:File>cpp.ssh</QPM:File>
+                           <QPM:File>csh.ssh</QPM:File>
+                           <QPM:File>cxx.ssh</QPM:File>
+                           <QPM:File>dc_shell.ssh</QPM:File>
+                           <QPM:File>eiffel.ssh</QPM:File>
+                           <QPM:File>elisp.ssh</QPM:File>
+                           <QPM:File>eps.ssh</QPM:File>
+                           <QPM:File>for-fixed.ssh</QPM:File>
+                           <QPM:File>for-free.ssh</QPM:File>
+                           <QPM:File>for77-fixed.ssh</QPM:File>
+                           <QPM:File>for77-free.ssh</QPM:File>
+                           <QPM:File>for77kwds.ssh</QPM:File>
+                           <QPM:File>for90-fixed.ssh</QPM:File>
+                           <QPM:File>for90-free.ssh</QPM:File>
+                           <QPM:File>for90kwds.ssh</QPM:File>
+                           <QPM:File>fortran.ssh</QPM:File>
+                           <QPM:File>gmake.ssh</QPM:File>
+                           <QPM:File>gnuc.ssh</QPM:File>
+                           <QPM:File>haskell.ssh</QPM:File>
+                           <QPM:File>html.ssh</QPM:File>
+                           <QPM:File>idl.ssh</QPM:File>
+                           <QPM:File>initora.ssh</QPM:File>
+                           <QPM:File>is5rul.ssh</QPM:File>
+                           <QPM:File>java.ssh</QPM:File>
+                           <QPM:File>js.ssh</QPM:File>
+                           <QPM:File>lace.ssh</QPM:File>
+                           <QPM:File>lex.ssh</QPM:File>
+                           <QPM:File>lout.ssh</QPM:File>
+                           <QPM:File>mail.ssh</QPM:File>
+                           <QPM:File>make.ssh</QPM:File>
+                           <QPM:File>maple.ssh</QPM:File>
+                           <QPM:File>matlab4.ssh</QPM:File>
+                           <QPM:File>mib.ssh</QPM:File>
+                           <QPM:File>mly.ssh</QPM:File>
+                           <QPM:File>modula2.ssh</QPM:File>
+                           <QPM:File>modula3.ssh</QPM:File>
+                           <QPM:File>o2c.ssh</QPM:File>
+                           <QPM:File>oberon.ssh</QPM:File>
+                           <QPM:File>objc.ssh</QPM:File>
+                           <QPM:File>ocaml.ssh</QPM:File>
+                           <QPM:File>octave.ssh</QPM:File>
+                           <QPM:File>oracle.ssh</QPM:File>
+                           <QPM:File>pascal.ssh</QPM:File>
+                           <QPM:File>perl.ssh</QPM:File>
+                           <QPM:File>plsql.ssh</QPM:File>
+                           <QPM:File>pov.ssh</QPM:File>
+                           <QPM:File>ppd.ssh</QPM:File>
+                           <QPM:File>pre.ssh</QPM:File>
+                           <QPM:File>pretex.ssh</QPM:File>
+                           <QPM:File>prolog.ssh</QPM:File>
+                           <QPM:File>promela.ssh</QPM:File>
+                           <QPM:File>ps.ssh</QPM:File>
+                           <QPM:File>python.ssh</QPM:File>
+                           <QPM:File>rexx.ssh</QPM:File>
+                           <QPM:File>sather.ssh</QPM:File>
+                           <QPM:File>scheme.ssh</QPM:File>
+                           <QPM:File>sdl88.ssh</QPM:File>
+                           <QPM:File>sed.ssh</QPM:File>
+                           <QPM:File>sh.ssh</QPM:File>
+                           <QPM:File>sheets.map</QPM:File>
+                           <QPM:File>shell.ssh</QPM:File>
+                           <QPM:File>sml.ssh</QPM:File>
+                           <QPM:File>sql.ssh</QPM:File>
+                           <QPM:File>sql92.ssh</QPM:File>
+                           <QPM:File>ssh.ssh</QPM:File>
+                           <QPM:File>symbols.ssh</QPM:File>
+                           <QPM:File>tcl.ssh</QPM:File>
+                           <QPM:File>tclx.ssh</QPM:File>
+                           <QPM:File>tcsh.ssh</QPM:File>
+                           <QPM:File>tex.ssh</QPM:File>
+                           <QPM:File>texinfo.ssh</QPM:File>
+                           <QPM:File>texscript.ssh</QPM:File>
+                           <QPM:File>tiger.ssh</QPM:File>
+                           <QPM:File>tk.ssh</QPM:File>
+                           <QPM:File>udiff.ssh</QPM:File>
+                           <QPM:File>unity.ssh</QPM:File>
+                           <QPM:File>vba.ssh</QPM:File>
+                           <QPM:File>verilog.ssh</QPM:File>
+                           <QPM:File>vhdl.ssh</QPM:File>
+                           <QPM:File>vrml.ssh</QPM:File>
+                           <QPM:File>vtcl.ssh</QPM:File>
+                           <QPM:File>wdiff.ssh</QPM:File>
+                           <QPM:File>xs.ssh</QPM:File>
+                           <QPM:File>yacc.ssh</QPM:File>
+                           <QPM:File>zsh.ssh</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="locale">
+                        <QPM:Dir name="ca">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>a2ps.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="cs">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>a2ps.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="da">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>a2ps.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="de">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>a2ps.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="es">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>a2ps.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="et">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>a2ps.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="fr">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>a2ps.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="it">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>a2ps.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ko">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>a2ps.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="nl">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>a2ps.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="no">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>a2ps.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="pl">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>a2ps.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="pt">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>a2ps.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ru">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>a2ps.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="sl">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>a2ps.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="sv">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>a2ps.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="tr">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>a2ps.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="ogonkify">
+                        <QPM:File>README</QPM:File>
+                        <QPM:File>adobe.enc</QPM:File>
+                        <QPM:Dir name="afm">
+                           <QPM:File>pcrb-o.afm</QPM:File>
+                           <QPM:File>pcrbo-o.afm</QPM:File>
+                           <QPM:File>pcrr-o.afm</QPM:File>
+                           <QPM:File>pcrro-o.afm</QPM:File>
+                           <QPM:File>phvb-o.afm</QPM:File>
+                           <QPM:File>phvbo-o.afm</QPM:File>
+                           <QPM:File>phvr-o.afm</QPM:File>
+                           <QPM:File>phvro-o.afm</QPM:File>
+                           <QPM:File>ptmb-o.afm</QPM:File>
+                           <QPM:File>ptmbi-o.afm</QPM:File>
+                           <QPM:File>ptmr-o.afm</QPM:File>
+                           <QPM:File>ptmri-o.afm</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>allchars.ps</QPM:File>
+                        <QPM:File>ascii.enc</QPM:File>
+                        <QPM:File>compose.ps</QPM:File>
+                        <QPM:File>cp1250.enc</QPM:File>
+                        <QPM:Dir name="fonts">
+                           <QPM:File>pcrb-o.pfa</QPM:File>
+                           <QPM:File>pcrbo-o.pfa</QPM:File>
+                           <QPM:File>pcrr-o.pfa</QPM:File>
+                           <QPM:File>pcrro-o.pfa</QPM:File>
+                           <QPM:File>phvb-o.pfa</QPM:File>
+                           <QPM:File>phvbo-o.pfa</QPM:File>
+                           <QPM:File>phvr-o.pfa</QPM:File>
+                           <QPM:File>phvro-o.pfa</QPM:File>
+                           <QPM:File>ptmb-o.pfa</QPM:File>
+                           <QPM:File>ptmbi-o.pfa</QPM:File>
+                           <QPM:File>ptmr-o.pfa</QPM:File>
+                           <QPM:File>ptmri-o.pfa</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>helper.ps</QPM:File>
+                        <QPM:File>hp.enc</QPM:File>
+                        <QPM:File>ibmpc.enc</QPM:File>
+                        <QPM:File>latin1.enc</QPM:File>
+                        <QPM:File>latin2.enc</QPM:File>
+                        <QPM:File>latin3.enc</QPM:File>
+                        <QPM:File>latin4.enc</QPM:File>
+                        <QPM:File>latin5.enc</QPM:File>
+                        <QPM:File>latin6.enc</QPM:File>
+                        <QPM:File>latin7.enc</QPM:File>
+                        <QPM:File>latin9.enc</QPM:File>
+                        <QPM:File>mac.enc</QPM:File>
+                        <QPM:File>ogonki.enc</QPM:File>
+                        <QPM:File>pcrb-o.ps</QPM:File>
+                        <QPM:File>pcrbo-o.ps</QPM:File>
+                        <QPM:File>pcrr-o.ps</QPM:File>
+                        <QPM:File>pcrro-o.ps</QPM:File>
+                        <QPM:File>phvb-o.ps</QPM:File>
+                        <QPM:File>phvbo-o.ps</QPM:File>
+                        <QPM:File>phvr-o.ps</QPM:File>
+                        <QPM:File>phvro-o.ps</QPM:File>
+                        <QPM:File>printenc.ps</QPM:File>
+                        <QPM:File>ptmb-o.ps</QPM:File>
+                        <QPM:File>ptmbi-o.ps</QPM:File>
+                        <QPM:File>ptmr-o.ps</QPM:File>
+                        <QPM:File>ptmri-o.ps</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../opt/lib">lib</QPM:Union>
+                  <QPM:Union link="../opt/info">info</QPM:Union>
+                  <QPM:Union link="../opt/bin">bin</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="man">
+                     <QPM:Union link="../../opt/man/man1">man1</QPM:Union>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Union link="../../opt/share/ogonkify">ogonkify</QPM:Union>
+                     <QPM:Union link="../../opt/share/a2ps">a2ps</QPM:Union>
+                     <QPM:Dir name="locale">
+                        <QPM:Dir name="ca">
+                           <QPM:Union link="../../../../opt/share/locale/ca/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="cs">
+                           <QPM:Union link="../../../../opt/share/locale/cs/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="da">
+                           <QPM:Union link="../../../../opt/share/locale/da/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="de">
+                           <QPM:Union link="../../../../opt/share/locale/de/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="es">
+                           <QPM:Union link="../../../../opt/share/locale/es/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="et">
+                           <QPM:Union link="../../../../opt/share/locale/et/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="fr">
+                           <QPM:Union link="../../../../opt/share/locale/fr/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="it">
+                           <QPM:Union link="../../../../opt/share/locale/it/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ko">
+                           <QPM:Union link="../../../../opt/share/locale/ko/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="nl">
+                           <QPM:Union link="../../../../opt/share/locale/nl/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="no">
+                           <QPM:Union link="../../../../opt/share/locale/no/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="pl">
+                           <QPM:Union link="../../../../opt/share/locale/pl/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="pt">
+                           <QPM:Union link="../../../../opt/share/locale/pt/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ru">
+                           <QPM:Union link="../../../../opt/share/locale/ru/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="sl">
+                           <QPM:Union link="../../../../opt/share/locale/sl/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="sv">
+                           <QPM:Union link="../../../../opt/share/locale/sv/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="tr">
+                           <QPM:Union link="../../../../opt/share/locale/tr/LC_MESSAGES">LC_MESSAGES</QPM:Union>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

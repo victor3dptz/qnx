@@ -1,0 +1,193 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageName>Gamma-4.0-bld29-Cogent</QPM:PackageName>
+            <QPM:PackageSize>56821</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2002/05/27</QPM:PackageReleaseDate>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageRepository>http://developers.cogentrts.com/repository</QPM:PackageRepository>
+            <QPM:PackageModel>dev</QPM:PackageModel>
+            <QPM:FileVersion>1.01</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>216542</QPM:ProductSize>
+            <QPM:InstallPath>Cogent/Gamma/core-4.0-bld29</QPM:InstallPath>
+            <QPM:ProductName>Gamma Development Language</QPM:ProductName>
+            <QPM:ProductIdentifier>Gamma</QPM:ProductIdentifier>
+            <QPM:ProductEmail>support@cogent.ca</QPM:ProductEmail>
+            <QPM:ProductURL>http://www.cogent.ca/Software/Gamma.html</QPM:ProductURL>
+            <QPM:VendorName>Cogent Real-Time Systems Inc.</QPM:VendorName>
+            <QPM:VendorInstallName>Cogent</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.cogent.ca</QPM:VendorURL>
+            <QPM:VendorEmbedURL>http://www.cogent.ca/Software/Gamma.html</QPM:VendorEmbedURL>
+            <QPM:VendorEmail>info@cogent.ca</QPM:VendorEmail>
+            <QPM:AuthorName>Cogent Real-Time Systems Inc.</QPM:AuthorName>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Gamma</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>This is the Gamma development language. Gamma is designed for rapid development of control applications and Photon or GTK-based graphical user interface applications.  Gamma is an interpreted language very similar in syntax to C, with object oriented extensions and a number of specific enhancements making event-driven systems easier to develop.  Gamma works with Cogent&apos;s tools, including the Cascade DataHub, Cascade Connect, and the Hilscher CIF fieldbus driver.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.cogent.ca/Software/Gamma.html</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL>http://developers.cogentrts.com/repository/html/rep_gamma.html</QPM:ProductDescriptionEmbedURL>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/05/27</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>4.0</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor>QNX6 Port</QPM:ReleaseNoteMinor>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>29</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:ContentTopic>Cogent/Software Development/Programming Languages and Parsers</QPM:ContentTopic>
+            <QPM:ContentKeyword>cogent,api,cascade,gamma,driver,datahub</QPM:ContentKeyword>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:LicenseUrl>rep://Gamma-4.0-bld29-Cogent.repdata/LicenseUrl/COMBINE_LICENSE</QPM:LicenseUrl>
+         <QPM:ProductInstallationProcedure>
+            <QPM:OrderDependency>
+               <QPM:Order>InstallOver</QPM:Order>
+               <QPM:Product>CogentAPI-dev</QPM:Product>
+            </QPM:OrderDependency>
+
+            <QPM:Script>
+               <QPM:ScriptName>rep://Cogent/Gamma/core-4.0-bld29/setup.makelinks</QPM:ScriptName>
+               <QPM:ScriptType>Install</QPM:ScriptType>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptBlocking>Yes</QPM:ScriptBlocking>
+               <QPM:ShortDescription>Create Links</QPM:ShortDescription>
+               <QPM:UseBinaries>No</QPM:UseBinaries>
+               <QPM:Priority>Required</QPM:Priority>
+            </QPM:Script>
+
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Use</QPM:ScriptType>
+            </QPM:Script>
+
+            <QPM:Script>&gt;
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Unuse</QPM:ScriptType>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Union link="$(PROCESSOR)/usr">usr</QPM:Union>
+               <QPM:Dir name="usr">
+                  <QPM:Dir name="cogent">
+                     <QPM:Dir name="icons">
+                        <QPM:File>cogent.gif</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="require">
+                        <QPM:File>AutoLoad.g</QPM:File>
+                        <QPM:File>AutoLoadLib.g</QPM:File>
+                        <QPM:File>ClassMinWrite.lsp</QPM:File>
+                        <QPM:File>FileSelector.lsp</QPM:File>
+                        <QPM:File>Hooks.lsp</QPM:File>
+                        <QPM:File>ImageProc.lsp</QPM:File>
+                        <QPM:File>Modal.lsp</QPM:File>
+                        <QPM:File>MySQLSupport.g</QPM:File>
+                        <QPM:File>PhAB.g</QPM:File>
+                        <QPM:File>PhabLang.lsp</QPM:File>
+                        <QPM:File>PhabTemplate.lsp</QPM:File>
+                        <QPM:File>PhotonTemplate.lsp</QPM:File>
+                        <QPM:File>PhotonWidgets.lsp</QPM:File>
+                        <QPM:File>PhotonWindow.lsp</QPM:File>
+                        <QPM:File>Pipe.lsp</QPM:File>
+                        <QPM:File>PkKeyDef.lsp</QPM:File>
+                        <QPM:File>PopupMenu.g</QPM:File>
+                        <QPM:File>Profile.lsp</QPM:File>
+                        <QPM:File>Pty.lsp</QPM:File>
+                        <QPM:File>StateMachine.g</QPM:File>
+                        <QPM:File>StateMachine.lsp</QPM:File>
+                        <QPM:File>Usage.lsp</QPM:File>
+                        <QPM:File>WFileSelect.wgtw</QPM:File>
+                        <QPM:File>constants.g</QPM:File>
+                        <QPM:File>constants.lsp</QPM:File>
+                        <QPM:File>startup.g</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="src">
+                        <QPM:Dir name="cogentintro">
+                           <QPM:File>cogentintro</QPM:File>
+                           <QPM:File>datahub.g</QPM:File>
+                           <QPM:File>datahub.wgtw</QPM:File>
+                           <QPM:File>dialog.g</QPM:File>
+                           <QPM:File>gammaintro.g</QPM:File>
+                           <QPM:File>gammaintro.wgtw</QPM:File>
+                           <QPM:File>helptext.g</QPM:File>
+                           <QPM:File>mainwindow.g</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="tutorial">
+                           <QPM:File>README</QPM:File>
+                           <QPM:File>example01.g</QPM:File>
+                           <QPM:File>example02.g</QPM:File>
+                           <QPM:File>example03.g</QPM:File>
+                           <QPM:File>example04.g</QPM:File>
+                           <QPM:File>example05.g</QPM:File>
+                           <QPM:File>example06.g</QPM:File>
+                           <QPM:File>example07.g</QPM:File>
+                           <QPM:File>example08.g</QPM:File>
+                           <QPM:File>example09.g</QPM:File>
+                           <QPM:File>example10.g</QPM:File>
+                           <QPM:File>example11.g</QPM:File>
+                           <QPM:File>example12.doc</QPM:File>
+                           <QPM:File>example12.g</QPM:File>
+                           <QPM:Dir name="wgt">
+                              <QPM:File>example07.wgtw</QPM:File>
+                              <QPM:File>example08.wgtw</QPM:File>
+                              <QPM:File>example09.wgtw</QPM:File>
+                              <QPM:File>example10.wgtw</QPM:File>
+                              <QPM:File>example11.wgtw</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+
+      <QPM:Launch name="Cogent Tools">
+         <QPM:String name="Topic" value="Applications/Development"/>
+         <QPM:String name="Command" value="/usr/cogent/src/cogentintro/cogentintro"/>
+         <QPM:String name="Icon" value="/usr/cogent/icons/cogent.gif"/>
+      </QPM:Launch>
+   </RDF:Description>
+</RDF:RDF>

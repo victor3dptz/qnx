@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageName>mpg123-0.59s-x86-public</QPM:PackageName>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2005/01/20</QPM:PackageReleaseDate>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:FileVersion>2.6</QPM:FileVersion>
+            <QPM:DateCode>41eedaf5</QPM:DateCode>
+            <QPM:PackageSize>183021</QPM:PackageSize>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>483778</QPM:ProductSize>
+            <QPM:InstallPath>public/mpg123/core-0.59s/x86</QPM:InstallPath>
+            <QPM:ProductName>mpg123 for x86</QPM:ProductName>
+            <QPM:ProductIdentifier>mpg123-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail>hippm@informatik.uni-tuebingen.de</QPM:ProductEmail>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.mpg123.org</QPM:VendorURL>
+            <QPM:VendorEmail>hippm@informatik.uni-tuebingen.de</QPM:VendorEmail>
+            <QPM:AuthorName>Michael Hipp</QPM:AuthorName>
+            <QPM:ProductDescriptionShort>mpg123 - MPEG 1.0/2.0, Layer 1, 2 and 3 audio player.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>mpg123 - MPEG 1.0/2.0, Layer 1, 2 and 3 audio player.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.mpg123.org</QPM:ProductDescriptionURL>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2005/01/20</QPM:ReleaseDate>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ReleaseVersion>0.59s</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>mpg123</QPM:ComponentParent>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:RequiresLibrary>libm.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libasound.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libsocket.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+            <QPM:ContentTopic>Multimedia/Music and Audio/Audio Media Players</QPM:ContentTopic>
+            <QPM:ContentKeyword>mp3,mpeg,player</QPM:ContentKeyword>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:LicenseUrl>rep://mpg123-0.59s-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PackageDate>41eedaf5</QPM:PackageDate>
+         <QPM:Listing>
+            <QPM:Dir name="" dt="41eedaf5">
+               <QPM:Dir name="usr">
+                  <QPM:Dir name="bin">
+                     <QPM:File sum="18ca00616adf4e93360cd4a88dd11ca5" size="158276">mpg123</QPM:File>
+                     <QPM:File sum="c660e5f0e9e0a1b78df1af8cf4900590" size="156912">mpg123mmx</QPM:File>
+                     <QPM:File sum="2ac5988dd99e1cad43f10529a463828b" size="164612">mpg1233dnow</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

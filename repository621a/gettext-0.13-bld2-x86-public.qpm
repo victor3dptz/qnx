@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageName>gettext-0.13-bld2-x86-public</QPM:PackageName>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2005/01/23</QPM:PackageReleaseDate>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:FileVersion>2.6</QPM:FileVersion>
+            <QPM:DateCode>41f400e5</QPM:DateCode>
+            <QPM:PackageSize>433399</QPM:PackageSize>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>976871</QPM:ProductSize>
+            <QPM:InstallPath>public/gettext/core-0.13-bld2/x86</QPM:InstallPath>
+            <QPM:ProductName>GNU gettext for x86</QPM:ProductName>
+            <QPM:ProductIdentifier>gettext-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail>bug-gnu-gettext@gnu.org</QPM:ProductEmail>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.gnu.org/software/gettext/</QPM:VendorURL>
+            <QPM:VendorEmail>bug-gnu-gettext@gnu.org</QPM:VendorEmail>
+            <QPM:AuthorName>Gettext Team</QPM:AuthorName>
+            <QPM:ProductDescriptionShort>GNU gettext package.  It is interesting for authors or maintainers of other packages or programs which they want to see internationalized.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>GNU gettext package.  It is interesting for authors or maintainers of other packages or programs which they want to see internationalized. As one step the handling of messages in different languages should be implemented.  For this task GNU gettext provides the needed tools and library functions.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.gnu.org/software/gettext/</QPM:ProductDescriptionURL>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2005/01/23</QPM:ReleaseDate>
+            <QPM:ReleaseBuild>2</QPM:ReleaseBuild>
+            <QPM:ReleaseVersion>0.13</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>gettext</QPM:ComponentParent>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libstdc++.so.2.2.10.0</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libm.so.2</QPM:RequiresLibrary>
+            <QPM:ContainsLibrary>libasprintf.so.0</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libintl.so.6</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libgettextpo.so.1</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libgettextlib-0.13.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libgettextsrc-0.13.so</QPM:ContainsLibrary>
+            <QPM:ContentTopic>Software Development/Libraries and Extensions/C Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>GNU,gettext,intl,libintl</QPM:ContentKeyword>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:LicenseUrl>rep://gettext-0.13-bld2-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PackageDate>41f400e5</QPM:PackageDate>
+         <QPM:Listing>
+            <QPM:Dir name="" dt="41f400e5">
+               <QPM:Dir name="usr">
+                  <QPM:Dir name="lib">
+                     <QPM:Link link="libasprintf.so.0">libasprintf.so</QPM:Link>
+                     <QPM:Link link="libintl.so.6">libintl.so</QPM:Link>
+                     <QPM:Link link="libgettextpo.so.1">libgettextpo.so</QPM:Link>
+                     <QPM:Link link="libgettextlib-0.13.so.0">libgettextlib-0.13.so</QPM:Link>
+                     <QPM:Link link="libgettextlib-0.13.so.0">libgettextlib.so</QPM:Link>
+                     <QPM:Link link="libgettextsrc-0.13.so.0">libgettextsrc-0.13.so</QPM:Link>
+                     <QPM:Link link="libgettextsrc-0.13.so.0">libgettextsrc.so</QPM:Link>
+                     <QPM:Dir name="gettext">
+                        <QPM:File sum="3c3256a40a76a125f8525c8bff44926a" size="6064">hostname</QPM:File>
+                        <QPM:File sum="b4b3c3c42dc63c74fcaae7d799c2de64" size="6812">urlget</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:File sum="05f3cc249efec5e80c196873e5a8fab8" size="17886">libasprintf.so.0</QPM:File>
+                     <QPM:File sum="1b41177b5a7aaa75a2f48e8170b5f280" size="51516">libintl.so.6</QPM:File>
+                     <QPM:File sum="a2cd80edebbb481730287d62635e1ba3" size="7337">libgettextpo.so.1</QPM:File>
+                     <QPM:File sum="8045ca84e015c1cf4fc459841fea203d" size="78073">libgettextlib-0.13.so.0</QPM:File>
+                     <QPM:File sum="cdaae145004dead45f4122329b07a580" size="164026">libgettextsrc-0.13.so.0</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="bin">
+                     <QPM:File sum="9ddbedf5891b18e1325b844354916637" size="13724">envsubst</QPM:File>
+                     <QPM:File sum="3b3dc8cbafba110b5b85caf06c2edc07" size="13008">gettext</QPM:File>
+                     <QPM:File sum="ac2143a53d5fe9b4e25ef097ed4c0735" size="12792">ngettext</QPM:File>
+                     <QPM:File sum="b488762e51777eb460d3f24efc3e51b6" size="13412">msgattrib</QPM:File>
+                     <QPM:File sum="652c3f5dfa36866d0873d5c92be9b569" size="12936">msgcat</QPM:File>
+                     <QPM:File sum="6efb2ef4b7ed0d0739beae94a15cee9b" size="9596">msgcmp</QPM:File>
+                     <QPM:File sum="4a922a10ab933c44c94151bdf94a0697" size="12936">msgcomm</QPM:File>
+                     <QPM:File sum="dab3d98a644c02fce609a40710f2a4aa" size="10848">msgconv</QPM:File>
+                     <QPM:File sum="e18317d2eba8e8759d455790179d91d5" size="10620">msgen</QPM:File>
+                     <QPM:File sum="5ccd34d21e6041fa751f13dd12f8cdf7" size="8276">msgexec</QPM:File>
+                     <QPM:File sum="54ea50530311db099d956f98696e40bc" size="14324">msgfilter</QPM:File>
+                     <QPM:File sum="3ba6d22e0b21caebd38826c0f658feae" size="47420">msgfmt</QPM:File>
+                     <QPM:File sum="582d95c8f721cd2e55d0b52056c7897b" size="14868">msggrep</QPM:File>
+                     <QPM:File sum="76a15e3ba60e6f899de1e37f3bde7da9" size="25328">msginit</QPM:File>
+                     <QPM:File sum="c0a475000e5b48b2ef5aa0756a0a7168" size="21424">msgmerge</QPM:File>
+                     <QPM:File sum="8ffb707cc349c3bd0ea85b63ce71e395" size="16560">msgunfmt</QPM:File>
+                     <QPM:File sum="fc379d9571a81dd570fc989d545cd6a5" size="12164">msguniq</QPM:File>
+                     <QPM:File sum="1838eee7643ab754a3669b6b4dba2010" size="367192">xgettext</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

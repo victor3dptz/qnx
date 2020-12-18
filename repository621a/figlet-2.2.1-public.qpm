@@ -1,0 +1,178 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>figlet-2.2.1-public</QPM:PackageName>
+            <QPM:PackageSize>95564</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/01/16</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Figlet</QPM:ProductName>
+            <QPM:ProductSize>597802</QPM:ProductSize>
+            <QPM:ProductIdentifier>figlet</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>John Cowan</QPM:AuthorName>
+            <QPM:AuthorURL/>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>create ascii-art versions of text</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Figlet is a program to take plain-text words or phrases and create an ascii art version.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.figlet.org</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/figlet/core-2.2.1</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/01/16</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>2.2.1</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>Artistic License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://figlet-2.2.1-public.repdata/LicenseUrl/Artistic-license.txt</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Text Editing and Processing/Documentation and Typesetting</QPM:ContentTopic>
+            <QPM:ContentKeyword>figlet, ascii, art</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="bin">
+                     <QPM:File>figlist</QPM:File>
+                     <QPM:File>showfigfonts</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="man">
+                     <QPM:Dir name="man6">
+                        <QPM:File>figlet.6</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="figlet">
+                        <QPM:File>646-ca.flc</QPM:File>
+                        <QPM:File>646-ca2.flc</QPM:File>
+                        <QPM:File>646-cn.flc</QPM:File>
+                        <QPM:File>646-cu.flc</QPM:File>
+                        <QPM:File>646-de.flc</QPM:File>
+                        <QPM:File>646-dk.flc</QPM:File>
+                        <QPM:File>646-es.flc</QPM:File>
+                        <QPM:File>646-es2.flc</QPM:File>
+                        <QPM:File>646-fr.flc</QPM:File>
+                        <QPM:File>646-gb.flc</QPM:File>
+                        <QPM:File>646-hu.flc</QPM:File>
+                        <QPM:File>646-irv.flc</QPM:File>
+                        <QPM:File>646-it.flc</QPM:File>
+                        <QPM:File>646-jp.flc</QPM:File>
+                        <QPM:File>646-kr.flc</QPM:File>
+                        <QPM:File>646-no.flc</QPM:File>
+                        <QPM:File>646-no2.flc</QPM:File>
+                        <QPM:File>646-pt.flc</QPM:File>
+                        <QPM:File>646-pt2.flc</QPM:File>
+                        <QPM:File>646-se.flc</QPM:File>
+                        <QPM:File>646-se2.flc</QPM:File>
+                        <QPM:File>646-yu.flc</QPM:File>
+                        <QPM:File>8859-2.flc</QPM:File>
+                        <QPM:File>8859-3.flc</QPM:File>
+                        <QPM:File>8859-4.flc</QPM:File>
+                        <QPM:File>8859-5.flc</QPM:File>
+                        <QPM:File>8859-7.flc</QPM:File>
+                        <QPM:File>8859-8.flc</QPM:File>
+                        <QPM:File>8859-9.flc</QPM:File>
+                        <QPM:File>banner.flf</QPM:File>
+                        <QPM:File>big.flf</QPM:File>
+                        <QPM:File>block.flf</QPM:File>
+                        <QPM:File>bubble.flf</QPM:File>
+                        <QPM:File>digital.flf</QPM:File>
+                        <QPM:File>frango.flc</QPM:File>
+                        <QPM:File>hz.flc</QPM:File>
+                        <QPM:File>ilhebrew.flc</QPM:File>
+                        <QPM:File>ivrit.flf</QPM:File>
+                        <QPM:File>jis0201.flc</QPM:File>
+                        <QPM:File>koi8r.flc</QPM:File>
+                        <QPM:File>lean.flf</QPM:File>
+                        <QPM:File>mini.flf</QPM:File>
+                        <QPM:File>mnemonic.flf</QPM:File>
+                        <QPM:File>moscow.flc</QPM:File>
+                        <QPM:File>script.flf</QPM:File>
+                        <QPM:File>shadow.flf</QPM:File>
+                        <QPM:File>slant.flf</QPM:File>
+                        <QPM:File>small.flf</QPM:File>
+                        <QPM:File>smscript.flf</QPM:File>
+                        <QPM:File>smshadow.flf</QPM:File>
+                        <QPM:File>smslant.flf</QPM:File>
+                        <QPM:File>standard.flf</QPM:File>
+                        <QPM:File>term.flf</QPM:File>
+                        <QPM:File>upper.flc</QPM:File>
+                        <QPM:File>ushebrew.flc</QPM:File>
+                        <QPM:File>uskata.flc</QPM:File>
+                        <QPM:File>utf8.flc</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../opt/bin">bin</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="man">
+                     <QPM:Union link="../../opt/man/man6">man6</QPM:Union>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Union link="../../opt/share/figlet">figlet</QPM:Union>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

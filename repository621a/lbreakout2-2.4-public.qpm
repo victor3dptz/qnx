@@ -1,0 +1,399 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>lbreakout2-2.4-public</QPM:PackageName>
+            <QPM:PackageSize>2286371</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/01/27</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>LBreakout 2</QPM:ProductName>
+            <QPM:ProductSize>2947385</QPM:ProductSize>
+            <QPM:ProductIdentifier>lbreakout2</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Michael Speck</QPM:AuthorName>
+            <QPM:AuthorURL/>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Breakout/Arkanoid clone</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>The polished successor to LBreakout offers you a new challenge in more  than 50 levels with loads of new bonuses (goldshower, joker, explosive  balls, bonus magnet ...), maluses (chaos, darkness, weak balls, malus  magnet ...) and special bricks (growing bricks, explosive bricks,  regenerative bricks, indestructible bricks, chaotic bricks).
+</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://lgames.sourceforge.net/index.php?project=LBreakout2</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/lbreakout2/core-2.4</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/01/27</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>2.4</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://lbreakout2-2.4-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Games and Diversions</QPM:ContentTopic>
+            <QPM:ContentKeyword>breakout, arkanoid</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Use</QPM:ScriptType>
+            </QPM:Script>
+
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Unuse</QPM:ScriptType>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="doc">
+                     <QPM:Dir name="lbreakout2">
+                        <QPM:File>b0.jpg</QPM:File>
+                        <QPM:File>b1.jpg</QPM:File>
+                        <QPM:File>b2.jpg</QPM:File>
+                        <QPM:File>b3.jpg</QPM:File>
+                        <QPM:File>b4.jpg</QPM:File>
+                        <QPM:File>b5.jpg</QPM:File>
+                        <QPM:File>b6.jpg</QPM:File>
+                        <QPM:File>index.html</QPM:File>
+                        <QPM:File>screen.jpg</QPM:File>
+                        <QPM:File>x0.jpg</QPM:File>
+                        <QPM:File>x1.jpg</QPM:File>
+                        <QPM:File>x10.jpg</QPM:File>
+                        <QPM:File>x11.jpg</QPM:File>
+                        <QPM:File>x12.jpg</QPM:File>
+                        <QPM:File>x13.jpg</QPM:File>
+                        <QPM:File>x14.jpg</QPM:File>
+                        <QPM:File>x15.jpg</QPM:File>
+                        <QPM:File>x16.jpg</QPM:File>
+                        <QPM:File>x17.jpg</QPM:File>
+                        <QPM:File>x18.jpg</QPM:File>
+                        <QPM:File>x19.jpg</QPM:File>
+                        <QPM:File>x2.jpg</QPM:File>
+                        <QPM:File>x20.jpg</QPM:File>
+                        <QPM:File>x21.jpg</QPM:File>
+                        <QPM:File>x22.jpg</QPM:File>
+                        <QPM:File>x23.jpg</QPM:File>
+                        <QPM:File>x3.jpg</QPM:File>
+                        <QPM:File>x4.jpg</QPM:File>
+                        <QPM:File>x5.jpg</QPM:File>
+                        <QPM:File>x6.jpg</QPM:File>
+                        <QPM:File>x7.jpg</QPM:File>
+                        <QPM:File>x8.jpg</QPM:File>
+                        <QPM:File>x9.jpg</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="games">
+                        <QPM:Dir name="lbreakout2">
+                           <QPM:Dir name="gfx">
+                              <QPM:Dir name="AbsoluteB">
+                                 <QPM:File>ABOUT</QPM:File>
+                                 <QPM:File>README</QPM:File>
+                                 <QPM:File>back0.png</QPM:File>
+                                 <QPM:File>back1.png</QPM:File>
+                                 <QPM:File>back2.png</QPM:File>
+                                 <QPM:File>back3.png</QPM:File>
+                                 <QPM:File>back4.png</QPM:File>
+                                 <QPM:File>back5.png</QPM:File>
+                                 <QPM:File>bricks.png</QPM:File>
+                                 <QPM:File>extras.png</QPM:File>
+                                 <QPM:File>fr_left.png</QPM:File>
+                                 <QPM:File>fr_right.png</QPM:File>
+                                 <QPM:File>fr_top.png</QPM:File>
+                                 <QPM:File>life.png</QPM:File>
+                                 <QPM:File>menuback.png</QPM:File>
+                                 <QPM:File>paddle.png</QPM:File>
+                                 <QPM:File>shot.png</QPM:File>
+                                 <QPM:File>weapon.png</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="Classic">
+                                 <QPM:File>ABOUT</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="Moiree">
+                                 <QPM:File>ABOUT</QPM:File>
+                                 <QPM:File>back0.png</QPM:File>
+                                 <QPM:File>back1.png</QPM:File>
+                                 <QPM:File>back2.png</QPM:File>
+                                 <QPM:File>back3.png</QPM:File>
+                                 <QPM:File>back4.png</QPM:File>
+                                 <QPM:File>back5.png</QPM:File>
+                                 <QPM:File>bricks.png</QPM:File>
+                                 <QPM:File>extras.png</QPM:File>
+                                 <QPM:File>fr_left.png</QPM:File>
+                                 <QPM:File>fr_mp_left.png</QPM:File>
+                                 <QPM:File>fr_mp_right.png</QPM:File>
+                                 <QPM:File>fr_right.png</QPM:File>
+                                 <QPM:File>fr_top.png</QPM:File>
+                                 <QPM:File>life.png</QPM:File>
+                                 <QPM:File>paddle.png</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="Oz">
+                                 <QPM:File>README</QPM:File>
+                                 <QPM:File>back0.png</QPM:File>
+                                 <QPM:File>back1.png</QPM:File>
+                                 <QPM:File>back2.png</QPM:File>
+                                 <QPM:File>back3.png</QPM:File>
+                                 <QPM:File>back4.png</QPM:File>
+                                 <QPM:File>bricks.png</QPM:File>
+                                 <QPM:File>fr_left.png</QPM:File>
+                                 <QPM:File>fr_right.png</QPM:File>
+                                 <QPM:File>fr_top.png</QPM:File>
+                                 <QPM:File>life.png</QPM:File>
+                                 <QPM:File>paddle.png</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>back0.png</QPM:File>
+                              <QPM:File>back1.png</QPM:File>
+                              <QPM:File>back2.png</QPM:File>
+                              <QPM:File>back3.png</QPM:File>
+                              <QPM:File>back4.png</QPM:File>
+                              <QPM:File>back5.png</QPM:File>
+                              <QPM:File>ball.png</QPM:File>
+                              <QPM:File>balloon.png</QPM:File>
+                              <QPM:File>balloon_peek.png</QPM:File>
+                              <QPM:File>bricks.png</QPM:File>
+                              <QPM:File>buttons.png</QPM:File>
+                              <QPM:File>confirm_buttons.png</QPM:File>
+                              <QPM:File>cr_back.png</QPM:File>
+                              <QPM:File>explosions.png</QPM:File>
+                              <QPM:File>explosions_dark.png</QPM:File>
+                              <QPM:File>extras.png</QPM:File>
+                              <QPM:File>f_frame.png</QPM:File>
+                              <QPM:File>f_game.png</QPM:File>
+                              <QPM:File>f_small_red.png</QPM:File>
+                              <QPM:File>f_small_white.png</QPM:File>
+                              <QPM:File>f_small_yellow.png</QPM:File>
+                              <QPM:File>f_tiny_black.png</QPM:File>
+                              <QPM:File>f_white.png</QPM:File>
+                              <QPM:File>f_yellow.png</QPM:File>
+                              <QPM:File>fr_hori.png</QPM:File>
+                              <QPM:File>fr_left.png</QPM:File>
+                              <QPM:File>fr_llc.png</QPM:File>
+                              <QPM:File>fr_luc.png</QPM:File>
+                              <QPM:File>fr_mp_left.png</QPM:File>
+                              <QPM:File>fr_mp_right.png</QPM:File>
+                              <QPM:File>fr_right.png</QPM:File>
+                              <QPM:File>fr_rlc.png</QPM:File>
+                              <QPM:File>fr_ruc.png</QPM:File>
+                              <QPM:File>fr_top.png</QPM:File>
+                              <QPM:File>fr_vert.png</QPM:File>
+                              <QPM:File>life.png</QPM:File>
+                              <QPM:File>menuback.png</QPM:File>
+                              <QPM:File>nukeback.png</QPM:File>
+                              <QPM:File>paddle.png</QPM:File>
+                              <QPM:File>scroll_down.png</QPM:File>
+                              <QPM:File>scroll_track.png</QPM:File>
+                              <QPM:File>scroll_up.png</QPM:File>
+                              <QPM:File>sel_frame.png</QPM:File>
+                              <QPM:File>shine.png</QPM:File>
+                              <QPM:File>shot.png</QPM:File>
+                              <QPM:File>warp.png</QPM:File>
+                              <QPM:File>weapon.png</QPM:File>
+                              <QPM:File>win_icon.png</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="gui_theme">
+                              <QPM:File>box_frame.png</QPM:File>
+                              <QPM:File>box_wallpaper.png</QPM:File>
+                              <QPM:File>button_frame_clicked.png</QPM:File>
+                              <QPM:File>button_frame_normal.png</QPM:File>
+                              <QPM:File>button_wallpaper_focused.png</QPM:File>
+                              <QPM:File>button_wallpaper_normal.png</QPM:File>
+                              <QPM:File>checkbox.png</QPM:File>
+                              <QPM:File>click.wav</QPM:File>
+                              <QPM:File>edit.wav</QPM:File>
+                              <QPM:File>font.png</QPM:File>
+                              <QPM:File>list_item_color.png</QPM:File>
+                              <QPM:File>progress_high.png</QPM:File>
+                              <QPM:File>progress_low.png</QPM:File>
+                              <QPM:File>progress_medium.png</QPM:File>
+                              <QPM:File>scrollbar_arrows.png</QPM:File>
+                              <QPM:File>spinbutton_arrows.png</QPM:File>
+                              <QPM:File>wallpaper.png</QPM:File>
+                              <QPM:File>widget_frame.png</QPM:File>
+                              <QPM:File>widget_wallpaper.png</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="levels">
+                              <QPM:File>Abc</QPM:File>
+                              <QPM:File>AddOn-1</QPM:File>
+                              <QPM:File>AddOn-2</QPM:File>
+                              <QPM:File>Afl</QPM:File>
+                              <QPM:File>Arcade</QPM:File>
+                              <QPM:File>BeOS-4ever</QPM:File>
+                              <QPM:File>Bombs</QPM:File>
+                              <QPM:File>Chaos</QPM:File>
+                              <QPM:File>Color</QPM:File>
+                              <QPM:File>Composers</QPM:File>
+                              <QPM:File>Demons</QPM:File>
+                              <QPM:File>Flower</QPM:File>
+                              <QPM:File>Fly</QPM:File>
+                              <QPM:File>Freek</QPM:File>
+                              <QPM:File>Gatinha</QPM:File>
+                              <QPM:File>GreenWall</QPM:File>
+                              <QPM:File>GreenWall2</QPM:File>
+                              <QPM:File>HereWeGo</QPM:File>
+                              <QPM:File>HighBall</QPM:File>
+                              <QPM:File>Holidays</QPM:File>
+                              <QPM:File>Hommage</QPM:File>
+                              <QPM:File>Kazan-1</QPM:File>
+                              <QPM:File>Kevin</QPM:File>
+                              <QPM:File>Lapis</QPM:File>
+                              <QPM:File>Lattsville</QPM:File>
+                              <QPM:File>LinuxFun</QPM:File>
+                              <QPM:File>MP_Arenas</QPM:File>
+                              <QPM:File>MP_Snapshots</QPM:File>
+                              <QPM:File>Megadoomer</QPM:File>
+                              <QPM:File>OpenSource</QPM:File>
+                              <QPM:File>Original</QPM:File>
+                              <QPM:File>Pabelo</QPM:File>
+                              <QPM:File>Ph33r</QPM:File>
+                              <QPM:File>R-World</QPM:File>
+                              <QPM:File>Runes</QPM:File>
+                              <QPM:File>Shimitar</QPM:File>
+                              <QPM:File>TheGauntlet</QPM:File>
+                              <QPM:File>Twilight</QPM:File>
+                              <QPM:File>Wolvie</QPM:File>
+                              <QPM:File>Yexter</QPM:File>
+                              <QPM:File>Zufallswelt</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="sounds">
+                              <QPM:File>attach.wav</QPM:File>
+                              <QPM:File>bonus_magnet.wav</QPM:File>
+                              <QPM:File>chaos.wav</QPM:File>
+                              <QPM:File>click.wav</QPM:File>
+                              <QPM:File>dammit.wav</QPM:File>
+                              <QPM:File>damn.wav</QPM:File>
+                              <QPM:File>darkness.wav</QPM:File>
+                              <QPM:File>disable.wav</QPM:File>
+                              <QPM:File>excellent.wav</QPM:File>
+                              <QPM:File>exp.wav</QPM:File>
+                              <QPM:File>expand.wav</QPM:File>
+                              <QPM:File>expl_ball.wav</QPM:File>
+                              <QPM:File>extraball.wav</QPM:File>
+                              <QPM:File>freeze.wav</QPM:File>
+                              <QPM:File>gainlife.wav</QPM:File>
+                              <QPM:File>ghost.wav</QPM:File>
+                              <QPM:File>goldshower.wav</QPM:File>
+                              <QPM:File>joker.wav</QPM:File>
+                              <QPM:File>looselife.wav</QPM:File>
+                              <QPM:File>malus_magnet.wav</QPM:File>
+                              <QPM:File>menu_click.wav</QPM:File>
+                              <QPM:File>menu_motion.wav</QPM:File>
+                              <QPM:File>metal.wav</QPM:File>
+                              <QPM:File>reflect.wav</QPM:File>
+                              <QPM:File>score.wav</QPM:File>
+                              <QPM:File>shot.wav</QPM:File>
+                              <QPM:File>shrink.wav</QPM:File>
+                              <QPM:File>speeddown.wav</QPM:File>
+                              <QPM:File>speedup.wav</QPM:File>
+                              <QPM:File>standard.wav</QPM:File>
+                              <QPM:File>timeadd.wav</QPM:File>
+                              <QPM:File>verygood.wav</QPM:File>
+                              <QPM:File>wall.wav</QPM:File>
+                              <QPM:File>weak_ball.wav</QPM:File>
+                              <QPM:File>wontgiveup.wav</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="var">
+                  <QPM:Dir name="lib">
+                     <QPM:Dir name="games">
+                        <QPM:File>lbreakout2.hscr</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="games">
+                        <QPM:Dir name="lbreakout2">
+                           <QPM:Union link="../../../../opt/share/games/lbreakout2/sounds">sounds</QPM:Union>
+                           <QPM:Union link="../../../../opt/share/games/lbreakout2/levels">levels</QPM:Union>
+                           <QPM:Union link="../../../../opt/share/games/lbreakout2/gui_theme">gui_theme</QPM:Union>
+                           <QPM:Union link="../../../../opt/share/games/lbreakout2/gfx">gfx</QPM:Union>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+
+      <QPM:Launch name="LBreakout 2">
+         <QPM:String name="Topic" value="Applications/Games"/>
+         <QPM:String name="Command" value="/opt/bin/lbreakout2"/>
+         <QPM:String name="Icon" value="/usr/share/icons/topics/games_jesters-cap.gif"/>
+      </QPM:Launch>
+
+      <QPM:Launch name="LBreakout 2">
+         <QPM:String name="Topic" value="Applications/Documentation/LGames"/>
+         <QPM:String name="Command" value="voyager -u file:///opt/doc/lbreakout2/index.html"/>
+      </QPM:Launch>
+   </RDF:Description>
+</RDF:RDF>

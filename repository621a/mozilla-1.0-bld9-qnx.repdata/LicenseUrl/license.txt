@@ -1,0 +1,24 @@
+     QNX Momentics End User License Agreement
+
+Except for third party software that has its own end user license
+agreement terms (see references at the url below), all software
+and related documentation that you are about to access ("Software")
+is offered to you by QNX Software Systems Ltd. ("QSSL") of 175
+Terence Matthews Crescent, Ottawa, Ontario, Canada K2M 1W8 (voice:
+613-591-0931, fax: 613-591- 3579, email: licensing@qnx.com) only
+for use in accordance with the applicable terms of the QNX Momentics
+End User License Agreement ("EULA") found at the url below
+
+ http://licensing.qnx.com/published/eula/meula1_00.html
+
+Please read the EULA.   If you don't have access to the internet
+contact QSSL and we will send you a copy.  By answering in the
+affirmative below, you are representing that you have read and
+agree to be bound by the terms of the EULA found at the url above.
+
+If you can't agree, then you must answer in the negative below,
+and you have no right to install or use the Software.
+
+
+QNX and Momentics are trademarks of QNX Software Systems Ltd.
+

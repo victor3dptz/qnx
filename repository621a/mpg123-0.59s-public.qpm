@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageName>mpg123-0.59s-public</QPM:PackageName>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2005/01/20</QPM:PackageReleaseDate>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:FileVersion>2.6</QPM:FileVersion>
+            <QPM:DateCode>41eedaf5</QPM:DateCode>
+            <QPM:PackageSize>6328</QPM:PackageSize>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>15795</QPM:ProductSize>
+            <QPM:InstallPath>public/mpg123/core-0.59s</QPM:InstallPath>
+            <QPM:ProductName>mpg123</QPM:ProductName>
+            <QPM:ProductIdentifier>mpg123</QPM:ProductIdentifier>
+            <QPM:ProductEmail>hippm@informatik.uni-tuebingen.de</QPM:ProductEmail>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.mpg123.org</QPM:VendorURL>
+            <QPM:VendorEmail>hippm@informatik.uni-tuebingen.de</QPM:VendorEmail>
+            <QPM:AuthorName>Michael Hipp</QPM:AuthorName>
+            <QPM:ProductDescriptionShort>mpg123 - MPEG 1.0/2.0, Layer 1, 2 and 3 audio player.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>mpg123 - MPEG 1.0/2.0, Layer 1, 2 and 3 audio player.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.mpg123.org</QPM:ProductDescriptionURL>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2005/01/20</QPM:ReleaseDate>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ReleaseVersion>0.59s</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Multimedia/Music and Audio/Audio Media Players</QPM:ContentTopic>
+            <QPM:ContentKeyword>mp3,mpeg,player</QPM:ContentKeyword>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:LicenseUrl>rep://mpg123-0.59s-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:PackageDate>41eedaf5</QPM:PackageDate>
+         <QPM:Listing>
+            <QPM:Dir name="" dt="41eedaf5">
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../$(PROCESSOR)/usr/bin">bin</QPM:Union>
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="man">
+                        <QPM:Dir name="man1">
+                           <QPM:File sum="9bce4d46713f5486d1778777484f17af" size="12090">mpg123.1</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

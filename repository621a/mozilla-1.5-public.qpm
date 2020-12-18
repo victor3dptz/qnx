@@ -1,0 +1,1206 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>mozilla-1.5-public</QPM:PackageName>
+            <QPM:PackageSize>3857488</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/02/23</QPM:PackageReleaseDate>
+            <QPM:PackageRepository>http://www.mozilla.org/</QPM:PackageRepository>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Mozilla Browser</QPM:ProductName>
+            <QPM:ProductSize>16875520</QPM:ProductSize>
+            <QPM:ProductIdentifier>mozilla</QPM:ProductIdentifier>
+            <QPM:ProductEmail>adrianmardare@hotmail.com</QPM:ProductEmail>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.mozilla.org/</QPM:VendorURL>
+            <QPM:VendorEmbedURL>http://www.mozilla.org/</QPM:VendorEmbedURL>
+            <QPM:VendorEmail>adrianmardare@hotmail.com</QPM:VendorEmail>
+            <QPM:AuthorName>Adrian Mardare ( adrianmardare@hotmail.com )</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.mozilla.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL>http://www.mozilla.org/</QPM:AuthorEmbedURL>
+            <QPM:AuthorEmail>adrianmardare@hotmail.com</QPM:AuthorEmail>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Mozilla Browser 1.5 for QNX Rtp</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Mozilla Browser 1.5 for QNX Rtp</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.mozilla.org/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL>http://www.mozilla.org/</QPM:ProductDescriptionEmbedURL>
+            <QPM:InstallPath>public/mozilla/core-1.5</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/10/12</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>1.5</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor>No notes</QPM:ReleaseNoteMinor>
+            <QPM:ReleaseNoteMajor>No notes</QPM:ReleaseNoteMajor>
+            <QPM:ReleaseBuild>4</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>Mozilla Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl/>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>World Wide Web/Browser</QPM:ContentTopic>
+            <QPM:ContentKeyword>mozilla,web,www,browser</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Photon</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+            <QPM:Dependency>
+               <QPM:DependencyType>Uninstall</QPM:DependencyType>
+               <QPM:Notes>Uninstall old mozilla 1.0 if present</QPM:Notes>
+               <QPM:Filter>
+                  <QPM:FilterType>StringExpression</QPM:FilterType>
+                  <ProductIdentifier>mozilla*</ProductIdentifier>
+               </QPM:Filter>
+
+               <QPM:Filter>
+                  <QPM:FilterType>StringExpression</QPM:FilterType>
+                  <VendorInstallName>qnx</VendorInstallName>
+               </QPM:Filter>
+            </QPM:Dependency>
+
+            <QPM:Dependency>
+               <QPM:DependencyType>Deactivate</QPM:DependencyType>
+               <QPM:Notes>Deactivate previous versions of mozilla</QPM:Notes>
+               <QPM:Filter>
+                  <QPM:FilterType>StringExpression</QPM:FilterType>
+                  <ProductIdentifier>mozilla</ProductIdentifier>
+               </QPM:Filter>
+            </QPM:Dependency>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName>rep://public/mozilla/core-1.5/scripts/install.script</QPM:ScriptName>
+               <QPM:ScriptType>Install</QPM:ScriptType>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptBlocking>No</QPM:ScriptBlocking>
+               <QPM:ScriptResult>Ignore</QPM:ScriptResult>
+               <QPM:ShortDescription>Switch theme</QPM:ShortDescription>
+               <QPM:UseBinaries>No</QPM:UseBinaries>
+               <QPM:Priority>Required</QPM:Priority>
+            </QPM:Script>
+
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Use</QPM:ScriptType>
+            </QPM:Script>
+
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Unuse</QPM:ScriptType>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="Mozilla">
+                     <QPM:Union link="../../$(PROCESSOR)/opt/Mozilla/mozilla">mozilla</QPM:Union>
+                     <QPM:Dir name="mozilla">
+                        <QPM:File>bloaturls.txt</QPM:File>
+                        <QPM:File>LICENSE</QPM:File>
+                        <QPM:File>README.txt</QPM:File>
+                        <QPM:File>Note.txt</QPM:File>
+                        <QPM:File>libsoftokn3.chk</QPM:File>
+                        <QPM:Dir name="chrome">
+                           <QPM:Dir name="US">
+                              <QPM:Dir name="locale">
+                                 <QPM:Dir name="US">
+                                    <QPM:Dir name="communicator-region">
+                                       <QPM:Dir name="wallet"/>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="editor-region"/>
+                                    <QPM:Dir name="global-region"/>
+                                    <QPM:Dir name="messenger-region"/>
+                                    <QPM:Dir name="navigator-region"/>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:File>US.jar</QPM:File>
+                           <QPM:Dir name="chatzilla">
+                              <QPM:Dir name="content">
+                                 <QPM:Dir name="chatzilla">
+                                    <QPM:Dir name="lib">
+                                       <QPM:Dir name="js"/>
+                                       <QPM:Dir name="xul"/>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="prefpanel"/>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="locale">
+                                 <QPM:Dir name="en-US">
+                                    <QPM:Dir name="chatzilla"/>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="skin">
+                                 <QPM:Dir name="modern">
+                                    <QPM:Dir name="chatzilla">
+                                       <QPM:Dir name="images"/>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:File>chatzilla.jar</QPM:File>
+                           <QPM:File>chrome.rdf</QPM:File>
+                           <QPM:File>chromelist.txt</QPM:File>
+                           <QPM:Dir name="classic">
+                              <QPM:Dir name="skin">
+                                 <QPM:Dir name="classic">
+                                    <QPM:Dir name="communicator">
+                                       <QPM:Dir name="alerts"/>
+                                       <QPM:Dir name="bookmarks"/>
+                                       <QPM:Dir name="brand"/>
+                                       <QPM:Dir name="cookie"/>
+                                       <QPM:Dir name="directory"/>
+                                       <QPM:Dir name="icons"/>
+                                       <QPM:Dir name="profile"/>
+                                       <QPM:Dir name="related"/>
+                                       <QPM:Dir name="search"/>
+                                       <QPM:Dir name="sidebar"/>
+                                       <QPM:Dir name="taskbar"/>
+                                       <QPM:Dir name="xpinstall"/>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="editor">
+                                       <QPM:Dir name="icons"/>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="global">
+                                       <QPM:Dir name="arrow"/>
+                                       <QPM:Dir name="checkbox"/>
+                                       <QPM:Dir name="console"/>
+                                       <QPM:Dir name="filepicker"/>
+                                       <QPM:Dir name="icons"/>
+                                       <QPM:Dir name="menu"/>
+                                       <QPM:Dir name="progressmeter"/>
+                                       <QPM:Dir name="radio"/>
+                                       <QPM:Dir name="scrollbar"/>
+                                       <QPM:Dir name="splitter"/>
+                                       <QPM:Dir name="toolbar"/>
+                                       <QPM:Dir name="tree"/>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="messenger">
+                                       <QPM:Dir name="addressbook">
+                                          <QPM:Dir name="icons"/>
+                                       </QPM:Dir>
+
+                                       <QPM:Dir name="icons"/>
+                                       <QPM:Dir name="messengercompose"/>
+                                       <QPM:Dir name="smime">
+                                          <QPM:Dir name="icons"/>
+                                       </QPM:Dir>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="navigator">
+                                       <QPM:Dir name="btn1"/>
+                                       <QPM:Dir name="icons"/>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:File>classic.jar</QPM:File>
+                           <QPM:Dir name="comm">
+                              <QPM:Dir name="content">
+                                 <QPM:Dir name="autoconfig"/>
+                                 <QPM:Dir name="communicator">
+                                    <QPM:Dir name="alerts"/>
+                                    <QPM:Dir name="bookmarks"/>
+                                    <QPM:Dir name="directory"/>
+                                    <QPM:Dir name="downloadmanager"/>
+                                    <QPM:Dir name="history"/>
+                                    <QPM:Dir name="pref"/>
+                                    <QPM:Dir name="profile"/>
+                                    <QPM:Dir name="related"/>
+                                    <QPM:Dir name="search"/>
+                                    <QPM:Dir name="sidebar"/>
+                                    <QPM:Dir name="timebomb"/>
+                                    <QPM:Dir name="wallet"/>
+                                    <QPM:Dir name="xml"/>
+                                    <QPM:Dir name="p3p"/>
+                                    <QPM:Dir name="xpinstall"/>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="communicator-platform"/>
+                                 <QPM:Dir name="communicator-region"/>
+                                 <QPM:Dir name="cookie"/>
+                                 <QPM:Dir name="editor">
+                                    <QPM:Dir name="images"/>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="editor-region"/>
+                                 <QPM:Dir name="navigator"/>
+                                 <QPM:Dir name="navigator-platform"/>
+                                 <QPM:Dir name="navigator-region"/>
+                                 <QPM:Dir name="p3p"/>
+                                 <QPM:Dir name="necko"/>
+                                 <QPM:Dir name="wallet"/>
+                                 <QPM:Dir name="xbl-marquee"/>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:File>comm.jar</QPM:File>
+                           <QPM:Dir name="content-packs">
+                              <QPM:Dir name="content">
+                                 <QPM:Dir name="content-packs"/>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:File>content-packs.jar</QPM:File>
+                           <QPM:Dir name="embed-sample">
+                              <QPM:Dir name="content">
+                                 <QPM:Dir name="embed"/>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="locale">
+                                 <QPM:Dir name="en-US">
+                                    <QPM:Dir name="embed"/>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="skin">
+                                 <QPM:Dir name="classic">
+                                    <QPM:Dir name="embed"/>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:File>embed-sample.jar</QPM:File>
+                           <QPM:Dir name="en-US">
+                              <QPM:Dir name="locale">
+                                 <QPM:Dir name="en-US">
+                                    <QPM:Dir name="autoconfig"/>
+                                    <QPM:Dir name="communicator">
+                                       <QPM:Dir name="bookmarks"/>
+                                       <QPM:Dir name="directory"/>
+                                       <QPM:Dir name="dom"/>
+                                       <QPM:Dir name="downloadmanager"/>
+                                       <QPM:Dir name="history"/>
+                                       <QPM:Dir name="layout"/>
+                                       <QPM:Dir name="pref"/>
+                                       <QPM:Dir name="profile"/>
+                                       <QPM:Dir name="search"/>
+                                       <QPM:Dir name="security"/>
+                                       <QPM:Dir name="sidebar"/>
+                                       <QPM:Dir name="timebomb"/>
+                                       <QPM:Dir name="wallet"/>
+                                       <QPM:Dir name="xpinstall"/>
+                                       <QPM:Dir name="webservices"/>
+                                       <QPM:Dir name="xml"/>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="content-packs"/>
+                                    <QPM:Dir name="cookie"/>
+                                    <QPM:Dir name="editor"/>
+                                    <QPM:Dir name="global"/>
+                                    <QPM:Dir name="help">
+                                       <QPM:Dir name="images"/>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="messenger">
+                                       <QPM:Dir name="addressbook"/>
+                                       <QPM:Dir name="messengercompose"/>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="messenger-mdn"/>
+                                    <QPM:Dir name="messenger-smime"/>
+                                    <QPM:Dir name="navigator"/>
+                                    <QPM:Dir name="necko"/>
+                                    <QPM:Dir name="p3p"/>
+                                    <QPM:Dir name="pipnss"/>
+                                    <QPM:Dir name="pippki"/>
+                                    <QPM:Dir name="wallet"/>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:File>en-US.jar</QPM:File>
+                           <QPM:Dir name="en-mac">
+                              <QPM:Dir name="locale">
+                                 <QPM:Dir name="en-US">
+                                    <QPM:Dir name="communicator-platform">
+                                       <QPM:Dir name="pref"/>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="global-platform"/>
+                                    <QPM:Dir name="navigator-platform"/>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:File>en-mac.jar</QPM:File>
+                           <QPM:Dir name="en-unix">
+                              <QPM:Dir name="locale">
+                                 <QPM:Dir name="en-US">
+                                    <QPM:Dir name="communicator-platform">
+                                       <QPM:Dir name="pref"/>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="global-platform"/>
+                                    <QPM:Dir name="navigator-platform"/>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:File>en-unix.jar</QPM:File>
+                           <QPM:Dir name="en-win">
+                              <QPM:Dir name="locale">
+                                 <QPM:Dir name="en-US">
+                                    <QPM:Dir name="communicator-platform">
+                                       <QPM:Dir name="pref"/>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="global-platform"/>
+                                    <QPM:Dir name="messenger-mapi"/>
+                                    <QPM:Dir name="navigator-platform"/>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:File>en-win.jar</QPM:File>
+                           <QPM:Dir name="help">
+                              <QPM:Dir name="content">
+                                 <QPM:Dir name="help"/>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:File>help.jar</QPM:File>
+                           <QPM:Dir name="inspector">
+                              <QPM:Dir name="content">
+                                 <QPM:Dir name="inspector">
+                                    <QPM:Dir name="extensions"/>
+                                    <QPM:Dir name="jsutil">
+                                       <QPM:Dir name="events"/>
+                                       <QPM:Dir name="rdf"/>
+                                       <QPM:Dir name="system"/>
+                                       <QPM:Dir name="xpcom"/>
+                                       <QPM:Dir name="xul"/>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="prefs"/>
+                                    <QPM:Dir name="search">
+                                       <QPM:Dir name="modules">
+                                          <QPM:Dir name="findFiles"/>
+                                          <QPM:Dir name="junkImgs"/>
+                                       </QPM:Dir>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="tests"/>
+                                    <QPM:Dir name="viewers">
+                                       <QPM:Dir name="boxModel"/>
+                                       <QPM:Dir name="computedStyle"/>
+                                       <QPM:Dir name="dom"/>
+                                       <QPM:Dir name="domNode"/>
+                                       <QPM:Dir name="jsObject"/>
+                                       <QPM:Dir name="styleRules"/>
+                                       <QPM:Dir name="stylesheets"/>
+                                       <QPM:Dir name="xblBindings"/>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="locale">
+                                 <QPM:Dir name="en-US">
+                                    <QPM:Dir name="inspector">
+                                       <QPM:Dir name="search"/>
+                                       <QPM:Dir name="viewers"/>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="skin">
+                                 <QPM:Dir name="classic">
+                                    <QPM:Dir name="inspector">
+                                       <QPM:Dir name="viewers">
+                                          <QPM:Dir name="boxModel"/>
+                                          <QPM:Dir name="dom"/>
+                                          <QPM:Dir name="domNode"/>
+                                          <QPM:Dir name="styleRules"/>
+                                          <QPM:Dir name="xblBindings"/>
+                                       </QPM:Dir>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="modern">
+                                    <QPM:Dir name="inspector">
+                                       <QPM:Dir name="viewers">
+                                          <QPM:Dir name="boxModel"/>
+                                          <QPM:Dir name="dom"/>
+                                          <QPM:Dir name="domNode"/>
+                                          <QPM:Dir name="styleRules"/>
+                                          <QPM:Dir name="xblBindings"/>
+                                       </QPM:Dir>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:File>inspector.jar</QPM:File>
+                           <QPM:File>installed-chrome.txt</QPM:File>
+                           <QPM:Dir name="messenger">
+                              <QPM:Dir name="content">
+                                 <QPM:Dir name="messenger">
+                                    <QPM:Dir name="addressbook"/>
+                                    <QPM:Dir name="messengercompose"/>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="messenger-mdn"/>
+                                 <QPM:Dir name="messenger-region"/>
+                                 <QPM:Dir name="messenger-smime"/>
+                                 <QPM:Dir name="messenger-views"/>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:File>messenger.jar</QPM:File>
+                           <QPM:Dir name="modern">
+                              <QPM:Dir name="skin">
+                                 <QPM:Dir name="modern">
+                                    <QPM:Dir name="communicator">
+                                       <QPM:Dir name="alerts"/>
+                                       <QPM:Dir name="bookmarks"/>
+                                       <QPM:Dir name="brand"/>
+                                       <QPM:Dir name="cookie"/>
+                                       <QPM:Dir name="directory"/>
+                                       <QPM:Dir name="help"/>
+                                       <QPM:Dir name="icons"/>
+                                       <QPM:Dir name="profile"/>
+                                       <QPM:Dir name="related"/>
+                                       <QPM:Dir name="search"/>
+                                       <QPM:Dir name="sidebar"/>
+                                       <QPM:Dir name="taskbar"/>
+                                       <QPM:Dir name="toolbar"/>
+                                       <QPM:Dir name="xpinstall"/>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="editor">
+                                       <QPM:Dir name="icons"/>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="global">
+                                       <QPM:Dir name="arrow"/>
+                                       <QPM:Dir name="button"/>
+                                       <QPM:Dir name="checkbox"/>
+                                       <QPM:Dir name="console"/>
+                                       <QPM:Dir name="filepicker"/>
+                                       <QPM:Dir name="icons"/>
+                                       <QPM:Dir name="menu"/>
+                                       <QPM:Dir name="menulist"/>
+                                       <QPM:Dir name="progressmeter"/>
+                                       <QPM:Dir name="radio"/>
+                                       <QPM:Dir name="scrollbar"/>
+                                       <QPM:Dir name="splitter"/>
+                                       <QPM:Dir name="toolbar"/>
+                                       <QPM:Dir name="tree"/>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="messenger">
+                                       <QPM:Dir name="addressbook">
+                                          <QPM:Dir name="icons"/>
+                                       </QPM:Dir>
+
+                                       <QPM:Dir name="icons"/>
+                                       <QPM:Dir name="messengercompose">
+                                          <QPM:Dir name="icons"/>
+                                       </QPM:Dir>
+
+                                       <QPM:Dir name="smime">
+                                          <QPM:Dir name="icons"/>
+                                       </QPM:Dir>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="navigator">
+                                       <QPM:Dir name="btn1"/>
+                                       <QPM:Dir name="icons"/>
+                                       <QPM:Dir name="toolbar"/>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:File>modern.jar</QPM:File>
+                           <QPM:Dir name="overlayinfo">
+                              <QPM:Dir name="communicator">
+                                 <QPM:Dir name="content">
+                                    <QPM:File>overlays.rdf</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="cookie">
+                                 <QPM:Dir name="content">
+                                    <QPM:File>overlays.rdf</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="editor">
+                                 <QPM:Dir name="content">
+                                    <QPM:File>overlays.rdf</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="inspector">
+                                 <QPM:Dir name="content">
+                                    <QPM:File>overlays.rdf</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="messenger">
+                                 <QPM:Dir name="content">
+                                    <QPM:File>overlays.rdf</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="navigator">
+                                 <QPM:Dir name="content">
+                                    <QPM:File>overlays.rdf</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="pipnss">
+                              <QPM:Dir name="content">
+                                 <QPM:Dir name="pipnss"/>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:File>pipnss.jar</QPM:File>
+                           <QPM:Dir name="pippki">
+                              <QPM:Dir name="content">
+                                 <QPM:Dir name="pippki"/>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:File>pippki.jar</QPM:File>
+                           <QPM:Dir name="toolkit">
+                              <QPM:Dir name="content">
+                                 <QPM:Dir name="global">
+                                    <QPM:Dir name="bindings"/>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="global-platform"/>
+                                 <QPM:Dir name="global-region"/>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:File>toolkit.jar</QPM:File>
+                           <QPM:Dir name="venkman">
+                              <QPM:Dir name="content">
+                                 <QPM:Dir name="venkman">
+                                    <QPM:Dir name="tests"/>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="locale">
+                                 <QPM:Dir name="en-US">
+                                    <QPM:Dir name="venkman"/>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="skin">
+                                 <QPM:Dir name="modern">
+                                    <QPM:Dir name="venkman">
+                                       <QPM:Dir name="images"/>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:File>venkman.jar</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="components">
+                           <QPM:File>accessibility.xpt</QPM:File>
+                           <QPM:File>addrbook.xpt</QPM:File>
+                           <QPM:File>appshell.xpt</QPM:File>
+                           <QPM:File>autocomplete.xpt</QPM:File>
+                           <QPM:File>autoconfig.xpt</QPM:File>
+                           <QPM:File>bookmarks.xpt</QPM:File>
+                           <QPM:File>caps.xpt</QPM:File>
+                           <QPM:File>chardet.xpt</QPM:File>
+                           <QPM:File>chatzilla-service.js</QPM:File>
+                           <QPM:File>inspector-cmdline.js</QPM:File>
+                           <QPM:File>chrome.xpt</QPM:File>
+                           <QPM:File>commandhandler.xpt</QPM:File>
+                           <QPM:File>composer.xpt</QPM:File>
+                           <QPM:File>compreg.dat</QPM:File>
+                           <QPM:File>content_base.xpt</QPM:File>
+                           <QPM:File>content_html.xpt</QPM:File>
+                           <QPM:File>content_xslt.xpt</QPM:File>
+                           <QPM:File>cookie.xpt</QPM:File>
+                           <QPM:File>directory.xpt</QPM:File>
+                           <QPM:File>docshell.xpt</QPM:File>
+                           <QPM:File>dom.xpt</QPM:File>
+                           <QPM:File>dom_base.xpt</QPM:File>
+                           <QPM:File>dom_core.xpt</QPM:File>
+                           <QPM:File>dom_css.xpt</QPM:File>
+                           <QPM:File>dom_events.xpt</QPM:File>
+                           <QPM:File>dom_html.xpt</QPM:File>
+                           <QPM:File>dom_range.xpt</QPM:File>
+                           <QPM:File>dom_stylesheets.xpt</QPM:File>
+                           <QPM:File>dom_traversal.xpt</QPM:File>
+                           <QPM:File>dom_views.xpt</QPM:File>
+                           <QPM:File>dom_xbl.xpt</QPM:File>
+                           <QPM:File>dom_xpath.xpt</QPM:File>
+                           <QPM:File>dom_xul.xpt</QPM:File>
+                           <QPM:File>downloadmanager.xpt</QPM:File>
+                           <QPM:File>editor.xpt</QPM:File>
+                           <QPM:File>embed_base.xpt</QPM:File>
+                           <QPM:File>exthandler.xpt</QPM:File>
+                           <QPM:File>find.xpt</QPM:File>
+                           <QPM:File>gfx.xpt</QPM:File>
+                           <QPM:File>helperAppDlg.xpt</QPM:File>
+                           <QPM:File>history.xpt</QPM:File>
+                           <QPM:File>htmlparser.xpt</QPM:File>
+                           <QPM:File>imglib2.xpt</QPM:File>
+                           <QPM:File>impComm4xMail.xpt</QPM:File>
+                           <QPM:File>import.xpt</QPM:File>
+                           <QPM:File>inspector.xpt</QPM:File>
+                           <QPM:File>intl.xpt</QPM:File>
+                           <QPM:File>jar.xpt</QPM:File>
+                           <QPM:File>jsconsole-clhandler.js</QPM:File>
+                           <QPM:File>jsconsole.xpt</QPM:File>
+                           <QPM:File>jsdservice.xpt</QPM:File>
+                           <QPM:File>jsurl.xpt</QPM:File>
+                           <QPM:File>layout_base.xpt</QPM:File>
+                           <QPM:File>layout_xul.xpt</QPM:File>
+                           <QPM:File>layout_xul_tree.xpt</QPM:File>
+                           <QPM:File>locale.xpt</QPM:File>
+                           <QPM:File>lwbrk.xpt</QPM:File>
+                           <QPM:File>mailnews.xpt</QPM:File>
+                           <QPM:File>mailview.xpt</QPM:File>
+                           <QPM:File>mdn-service.js</QPM:File>
+                           <QPM:File>nsInterfaceInfoToIDL.js</QPM:File>
+                           <QPM:File>mime.xpt</QPM:File>
+                           <QPM:File>mimetype.xpt</QPM:File>
+                           <QPM:File>mozbrwsr.xpt</QPM:File>
+                           <QPM:File>mozfind.xpt</QPM:File>
+                           <QPM:File>msgbase.xpt</QPM:File>
+                           <QPM:File>msgcompose.xpt</QPM:File>
+                           <QPM:File>msgdb.xpt</QPM:File>
+                           <QPM:File>msgimap.xpt</QPM:File>
+                           <QPM:File>msglocal.xpt</QPM:File>
+                           <QPM:File>msgnews.xpt</QPM:File>
+                           <QPM:File>msgsearch.xpt</QPM:File>
+                           <QPM:File>msgsmime.xpt</QPM:File>
+                           <QPM:File>necko.xpt</QPM:File>
+                           <QPM:File>necko_about.xpt</QPM:File>
+                           <QPM:File>necko_cache.xpt</QPM:File>
+                           <QPM:File>necko_cookie.xpt</QPM:File>
+                           <QPM:File>necko_data.xpt</QPM:File>
+                           <QPM:File>necko_dns.xpt</QPM:File>
+                           <QPM:File>necko_file.xpt</QPM:File>
+                           <QPM:File>necko_ftp.xpt</QPM:File>
+                           <QPM:File>necko_http.xpt</QPM:File>
+                           <QPM:File>necko_jar.xpt</QPM:File>
+                           <QPM:File>necko_res.xpt</QPM:File>
+                           <QPM:File>necko_socket.xpt</QPM:File>
+                           <QPM:File>necko_strconv.xpt</QPM:File>
+                           <QPM:File>necko_viewsource.xpt</QPM:File>
+                           <QPM:File>content_htmldoc.xpt</QPM:File>
+                           <QPM:File>content_xmldoc.xpt</QPM:File>
+                           <QPM:File>ipcd.xpt</QPM:File>
+                           <QPM:File>p3p.xpt</QPM:File>
+                           <QPM:File>profilesharingsetup.xpt</QPM:File>
+                           <QPM:File>ucnative.xpt</QPM:File>
+                           <QPM:File>websrvcs.xpt</QPM:File>
+                           <QPM:File>xpcom_obsolete.xpt</QPM:File>
+                           <QPM:File>nsCloseAllWindows.js</QPM:File>
+                           <QPM:File>nsDictionary.js</QPM:File>
+                           <QPM:File>nsDownloadProgressListener.js</QPM:File>
+                           <QPM:File>nsHelperAppDlg.js</QPM:File>
+                           <QPM:File>nsKillAll.js</QPM:File>
+                           <QPM:File>nsProgressDialog.js</QPM:File>
+                           <QPM:File>nsProxyAutoConfig.js</QPM:File>
+                           <QPM:File>nsResetPref.js</QPM:File>
+                           <QPM:File>nsSidebar.js</QPM:File>
+                           <QPM:File>nsUpdateNotifier.js</QPM:File>
+                           <QPM:File>nsXmlRpcClient.js</QPM:File>
+                           <QPM:File>oji.xpt</QPM:File>
+                           <QPM:File>pipboot.xpt</QPM:File>
+                           <QPM:File>pipnss.xpt</QPM:File>
+                           <QPM:File>pippki.xpt</QPM:File>
+                           <QPM:File>plugin.xpt</QPM:File>
+                           <QPM:File>pref.xpt</QPM:File>
+                           <QPM:File>prefetch.xpt</QPM:File>
+                           <QPM:File>prefmigr.xpt</QPM:File>
+                           <QPM:File>profile.xpt</QPM:File>
+                           <QPM:File>progressDlg.xpt</QPM:File>
+                           <QPM:File>proxyObjInst.xpt</QPM:File>
+                           <QPM:File>rdf.xpt</QPM:File>
+                           <QPM:File>related.xpt</QPM:File>
+                           <QPM:File>search.xpt</QPM:File>
+                           <QPM:File>shistory.xpt</QPM:File>
+                           <QPM:File>sidebar.xpt</QPM:File>
+                           <QPM:File>signonviewer.xpt</QPM:File>
+                           <QPM:File>smime-service.js</QPM:File>
+                           <QPM:File>timebomb.xpt</QPM:File>
+                           <QPM:File>txmgr.xpt</QPM:File>
+                           <QPM:File>txtsvc.xpt</QPM:File>
+                           <QPM:File>typeaheadfind.xpt</QPM:File>
+                           <QPM:File>uconv.xpt</QPM:File>
+                           <QPM:File>unicharutil.xpt</QPM:File>
+                           <QPM:File>uriloader.xpt</QPM:File>
+                           <QPM:File>urlbarhistory.xpt</QPM:File>
+                           <QPM:File>util.xpt</QPM:File>
+                           <QPM:File>venkman-service.js</QPM:File>
+                           <QPM:File>wallet.xpt</QPM:File>
+                           <QPM:File>walleteditor.xpt</QPM:File>
+                           <QPM:File>walletpreview.xpt</QPM:File>
+                           <QPM:File>webBrowser_core.xpt</QPM:File>
+                           <QPM:File>webbrowserpersist.xpt</QPM:File>
+                           <QPM:File>webshell_idls.xpt</QPM:File>
+                           <QPM:File>widget.xpt</QPM:File>
+                           <QPM:File>windowds.xpt</QPM:File>
+                           <QPM:File>windowwatcher.xpt</QPM:File>
+                           <QPM:File>xml-rpc.xpt</QPM:File>
+                           <QPM:File>xmlextras.xpt</QPM:File>
+                           <QPM:File>xpcom_base.xpt</QPM:File>
+                           <QPM:File>xpcom_components.xpt</QPM:File>
+                           <QPM:File>xpcom_ds.xpt</QPM:File>
+                           <QPM:File>xpcom_io.xpt</QPM:File>
+                           <QPM:File>xpcom_threads.xpt</QPM:File>
+                           <QPM:File>xpcom_xpti.xpt</QPM:File>
+                           <QPM:File>xpconnect.xpt</QPM:File>
+                           <QPM:File>xpinstall.xpt</QPM:File>
+                           <QPM:File>xpti.dat</QPM:File>
+                           <QPM:File>xuldoc.xpt</QPM:File>
+                           <QPM:File>xultmpl.xpt</QPM:File>
+                           <QPM:File>spellchecker.xpt</QPM:File>
+                           <QPM:File>xremoteservice.xpt</QPM:File>
+                           <QPM:Dir name="myspell">
+                              <QPM:File>en-US.aff</QPM:File>
+                              <QPM:File>en-US.dic</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="defaults">
+                           <QPM:Dir name="autoconfig">
+                              <QPM:File>platform.js</QPM:File>
+                              <QPM:File>prefcalls.js</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="messenger">
+                              <QPM:Dir name="US">
+                                 <QPM:File>mailViews.dat</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>mailViews.dat</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="isp">
+                              <QPM:File>movemail.rdf</QPM:File>
+                              <QPM:Dir name="US">
+                                 <QPM:File>movemail.rdf</QPM:File>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="pref">
+                              <QPM:File>all.js</QPM:File>
+                              <QPM:File>editor.js</QPM:File>
+                              <QPM:File>inspector.js</QPM:File>
+                              <QPM:File>mailnews.js</QPM:File>
+                              <QPM:File>mdn.js</QPM:File>
+                              <QPM:File>photon.js</QPM:File>
+                              <QPM:File>security-prefs.js</QPM:File>
+                              <QPM:File>smime.js</QPM:File>
+                              <QPM:File>unix.js</QPM:File>
+                              <QPM:File>xpinstall.js</QPM:File>
+                              <QPM:File>non-shared.txt</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="profile">
+                              <QPM:Dir name="US">
+                                 <QPM:File>bookmarks.html</QPM:File>
+                                 <QPM:Dir name="chrome">
+                                    <QPM:File>userChrome-example.css</QPM:File>
+                                    <QPM:File>userContent-example.css</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:File>localstore.rdf</QPM:File>
+                                 <QPM:File>mimeTypes.rdf</QPM:File>
+                                 <QPM:File>panels.rdf</QPM:File>
+                                 <QPM:File>search.rdf</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>bookmarks.html</QPM:File>
+                              <QPM:Dir name="chrome">
+                                 <QPM:File>userChrome-example.css</QPM:File>
+                                 <QPM:File>userContent-example.css</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>localstore.rdf</QPM:File>
+                              <QPM:File>mimeTypes.rdf</QPM:File>
+                              <QPM:File>panels.rdf</QPM:File>
+                              <QPM:File>search.rdf</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="wallet">
+                              <QPM:File>DistinguishedSchema.tbl</QPM:File>
+                              <QPM:File>FieldSchema.tbl</QPM:File>
+                              <QPM:File>PositionalSchema.tbl</QPM:File>
+                              <QPM:File>SchemaConcat.tbl</QPM:File>
+                              <QPM:File>SchemaStrings.tbl</QPM:File>
+                              <QPM:File>StateSchema.tbl</QPM:File>
+                              <QPM:File>VcardSchema.tbl</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:File>mozilla</QPM:File>
+                        <QPM:File>mozilla-config</QPM:File>
+                        <QPM:Dir name="res">
+                           <QPM:File>bloatcycle.html</QPM:File>
+                           <QPM:File>grabber.gif</QPM:File>
+                           <QPM:File>table-add-column-after-active.gif</QPM:File>
+                           <QPM:File>table-add-column-after-hover.gif</QPM:File>
+                           <QPM:File>table-add-column-after.gif</QPM:File>
+                           <QPM:File>table-add-column-before-active.gif</QPM:File>
+                           <QPM:File>table-add-column-before-hover.gif</QPM:File>
+                           <QPM:File>table-add-column-before.gif</QPM:File>
+                           <QPM:File>table-add-row-after-active.gif</QPM:File>
+                           <QPM:File>table-add-row-after-hover.gif</QPM:File>
+                           <QPM:File>table-add-row-after.gif</QPM:File>
+                           <QPM:File>table-add-row-before-active.gif</QPM:File>
+                           <QPM:File>table-add-row-before-hover.gif</QPM:File>
+                           <QPM:File>table-add-row-before.gif</QPM:File>
+                           <QPM:File>table-remove-column-active.gif</QPM:File>
+                           <QPM:File>table-remove-column-hover.gif</QPM:File>
+                           <QPM:File>table-remove-column.gif</QPM:File>
+                           <QPM:File>table-remove-row-active.gif</QPM:File>
+                           <QPM:File>table-remove-row-hover.gif</QPM:File>
+                           <QPM:File>table-remove-row.gif</QPM:File>
+                           <QPM:File>arrow.gif</QPM:File>
+                           <QPM:File>arrowd.gif</QPM:File>
+                           <QPM:File>broken-image.gif</QPM:File>
+                           <QPM:Dir name="builtin">
+                              <QPM:File>htmlBindings.xml</QPM:File>
+                              <QPM:File>platformHTMLBindings.xml</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>EditorOverride.css</QPM:File>
+                           <QPM:File>platform-forms.css</QPM:File>
+                           <QPM:File>charsetData.properties</QPM:File>
+                           <QPM:File>charsetalias.properties</QPM:File>
+                           <QPM:File>cmessage.txt</QPM:File>
+                           <QPM:Dir name="dtd">
+                              <QPM:File>mathml.dtd</QPM:File>
+                              <QPM:File>xhtml11.dtd</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="entityTables">
+                              <QPM:File>html40Latin1.properties</QPM:File>
+                              <QPM:File>html40Special.properties</QPM:File>
+                              <QPM:File>html40Symbols.properties</QPM:File>
+                              <QPM:File>htmlEntityVersions.properties</QPM:File>
+                              <QPM:File>mathml20.properties</QPM:File>
+                              <QPM:File>transliterate.properties</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="fonts">
+                              <QPM:File>mathfont.properties</QPM:File>
+                              <QPM:File>mathfontCMEX10.properties</QPM:File>
+                              <QPM:File>mathfontCMSY10.properties</QPM:File>
+                              <QPM:File>mathfontMTExtra.properties</QPM:File>
+                              <QPM:File>mathfontMath1.properties</QPM:File>
+                              <QPM:File>mathfontMath2.properties</QPM:File>
+                              <QPM:File>mathfontMath4.properties</QPM:File>
+                              <QPM:File>mathfontPUA.properties</QPM:File>
+                              <QPM:File>mathfontSymbol.properties</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>forms.css</QPM:File>
+                           <QPM:Dir name="html">
+                              <QPM:File>gopher-audio.gif</QPM:File>
+                              <QPM:File>gopher-binary.gif</QPM:File>
+                              <QPM:File>gopher-find.gif</QPM:File>
+                              <QPM:File>gopher-image.gif</QPM:File>
+                              <QPM:File>gopher-menu.gif</QPM:File>
+                              <QPM:File>gopher-movie.gif</QPM:File>
+                              <QPM:File>gopher-sound.gif</QPM:File>
+                              <QPM:File>gopher-telnet.gif</QPM:File>
+                              <QPM:File>gopher-text.gif</QPM:File>
+                              <QPM:File>gopher-unknown.gif</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>html.css</QPM:File>
+                           <QPM:Dir name="inspector">
+                              <QPM:File>search-registry.rdf</QPM:File>
+                              <QPM:File>viewer-registry.rdf</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>langGroups.properties</QPM:File>
+                           <QPM:File>language.properties</QPM:File>
+                           <QPM:File>loading-image.gif</QPM:File>
+                           <QPM:File>mathml.css</QPM:File>
+                           <QPM:File>quirk.css</QPM:File>
+                           <QPM:Dir name="rdf">
+                              <QPM:File>article.gif</QPM:File>
+                              <QPM:File>document.gif</QPM:File>
+                              <QPM:File>dom-test-1.xul</QPM:File>
+                              <QPM:File>dom-test-2.xul</QPM:File>
+                              <QPM:File>dom-test-3.xul</QPM:File>
+                              <QPM:File>dom-test-4.css</QPM:File>
+                              <QPM:File>dom-test-4.xul</QPM:File>
+                              <QPM:File>dom-test-5.xul</QPM:File>
+                              <QPM:File>dom-test-6.xul</QPM:File>
+                              <QPM:File>dom-test-7.xul</QPM:File>
+                              <QPM:File>dom-test-8.xul</QPM:File>
+                              <QPM:File>folder-closed.gif</QPM:File>
+                              <QPM:File>folder-open.gif</QPM:File>
+                              <QPM:File>ignore-test.xul</QPM:File>
+                              <QPM:File>loading.gif</QPM:File>
+                              <QPM:File>xpidl-test-1.xul</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>sample.unixpsfonts.properties</QPM:File>
+                           <QPM:Dir name="samples">
+                              <QPM:File>Anieyes.gif</QPM:File>
+                              <QPM:File>aform.css</QPM:File>
+                              <QPM:File>beeptest.html</QPM:File>
+                              <QPM:File>bform.css</QPM:File>
+                              <QPM:File>bg.jpg</QPM:File>
+                              <QPM:File>cform.css</QPM:File>
+                              <QPM:File>checkboxTest.xul</QPM:File>
+                              <QPM:File>colorpicker.xul</QPM:File>
+                              <QPM:File>demoform.css</QPM:File>
+                              <QPM:File>dexopenchrome.xul</QPM:File>
+                              <QPM:File>dexparamdialog.html</QPM:File>
+                              <QPM:File>dexparamdialog.xul</QPM:File>
+                              <QPM:File>find.html</QPM:File>
+                              <QPM:File>gear1.gif</QPM:File>
+                              <QPM:File>hidetoolicon.css</QPM:File>
+                              <QPM:File>hidetoolicon.xul</QPM:File>
+                              <QPM:File>image_props.html</QPM:File>
+                              <QPM:File>mozform.css</QPM:File>
+                              <QPM:File>printsetup.html</QPM:File>
+                              <QPM:File>raptor.jpg</QPM:File>
+                              <QPM:File>rock_gra.gif</QPM:File>
+                              <QPM:Dir name="sampleimages">
+                                 <QPM:File>bongo.gif</QPM:File>
+                                 <QPM:File>down.gif</QPM:File>
+                                 <QPM:File>left.gif</QPM:File>
+                                 <QPM:File>right.gif</QPM:File>
+                                 <QPM:File>up.gif</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>scrollbarTest1.xul</QPM:File>
+                              <QPM:File>scrollbarTest2.xul</QPM:File>
+                              <QPM:File>sliderTest1.xul</QPM:File>
+                              <QPM:File>soundtest.html</QPM:File>
+                              <QPM:File>tab.xul</QPM:File>
+                              <QPM:File>test.wav</QPM:File>
+                              <QPM:File>test0.html</QPM:File>
+                              <QPM:File>test1.html</QPM:File>
+                              <QPM:File>test10.html</QPM:File>
+                              <QPM:File>test11.html</QPM:File>
+                              <QPM:File>test12.html</QPM:File>
+                              <QPM:File>test13.html</QPM:File>
+                              <QPM:File>test14.html</QPM:File>
+                              <QPM:File>test15.html</QPM:File>
+                              <QPM:File>test16.html</QPM:File>
+                              <QPM:File>test2.html</QPM:File>
+                              <QPM:File>test3.html</QPM:File>
+                              <QPM:File>test4.html</QPM:File>
+                              <QPM:File>test5.html</QPM:File>
+                              <QPM:File>test6.html</QPM:File>
+                              <QPM:File>test7.html</QPM:File>
+                              <QPM:File>test8-1.html</QPM:File>
+                              <QPM:File>test8.html</QPM:File>
+                              <QPM:File>test8dom.html</QPM:File>
+                              <QPM:File>test8sca.html</QPM:File>
+                              <QPM:File>test8siz.html</QPM:File>
+                              <QPM:File>test8tab.html</QPM:File>
+                              <QPM:File>test9.html</QPM:File>
+                              <QPM:File>test9a.html</QPM:File>
+                              <QPM:File>test9b.html</QPM:File>
+                              <QPM:File>test_ed.html</QPM:File>
+                              <QPM:File>test_form.html</QPM:File>
+                              <QPM:File>test_gfx.html</QPM:File>
+                              <QPM:File>test_lbox.html</QPM:File>
+                              <QPM:File>test_pr.html</QPM:File>
+                              <QPM:File>test_weight.html</QPM:File>
+                              <QPM:File>toolbarTest1.xul</QPM:File>
+                              <QPM:File>treeTest1.css</QPM:File>
+                              <QPM:File>treeTest1.xul</QPM:File>
+                              <QPM:File>widgets.xul</QPM:File>
+                              <QPM:File>xpmenu.xul</QPM:File>
+                              <QPM:File>xulTest.css</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="throbber">
+                              <QPM:File>anim.gif</QPM:File>
+                              <QPM:File>anims00.gif</QPM:File>
+                              <QPM:File>anims01.gif</QPM:File>
+                              <QPM:File>anims02.gif</QPM:File>
+                              <QPM:File>anims03.gif</QPM:File>
+                              <QPM:File>anims04.gif</QPM:File>
+                              <QPM:File>anims05.gif</QPM:File>
+                              <QPM:File>anims06.gif</QPM:File>
+                              <QPM:File>anims07.gif</QPM:File>
+                              <QPM:File>anims08.gif</QPM:File>
+                              <QPM:File>anims09.gif</QPM:File>
+                              <QPM:File>anims10.gif</QPM:File>
+                              <QPM:File>anims11.gif</QPM:File>
+                              <QPM:File>anims12.gif</QPM:File>
+                              <QPM:File>anims13.gif</QPM:File>
+                              <QPM:File>anims14.gif</QPM:File>
+                              <QPM:File>anims15.gif</QPM:File>
+                              <QPM:File>anims16.gif</QPM:File>
+                              <QPM:File>anims17.gif</QPM:File>
+                              <QPM:File>anims18.gif</QPM:File>
+                              <QPM:File>anims19.gif</QPM:File>
+                              <QPM:File>anims20.gif</QPM:File>
+                              <QPM:File>anims21.gif</QPM:File>
+                              <QPM:File>anims22.gif</QPM:File>
+                              <QPM:File>anims23.gif</QPM:File>
+                              <QPM:File>anims24.gif</QPM:File>
+                              <QPM:File>anims25.gif</QPM:File>
+                              <QPM:File>anims26.gif</QPM:File>
+                              <QPM:File>anims27.gif</QPM:File>
+                              <QPM:File>anims28.gif</QPM:File>
+                              <QPM:File>anims29.gif</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>ua.css</QPM:File>
+                           <QPM:File>unixcharset.properties</QPM:File>
+                           <QPM:File>viewer.properties</QPM:File>
+                           <QPM:File>viewsource.css</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>run-mozilla.sh</QPM:File>
+                        <QPM:Dir name="searchplugins">
+                           <QPM:File>NetscapeSearch.gif</QPM:File>
+                           <QPM:File>NetscapeSearch.src</QPM:File>
+                           <QPM:File>bugzilla.gif</QPM:File>
+                           <QPM:File>bugzilla.src</QPM:File>
+                           <QPM:File>dmoz.gif</QPM:File>
+                           <QPM:File>dmoz.src</QPM:File>
+                           <QPM:File>google.gif</QPM:File>
+                           <QPM:File>google.src</QPM:File>
+                           <QPM:File>lxrmozilla.gif</QPM:File>
+                           <QPM:File>lxrmozilla.src</QPM:File>
+                           <QPM:File>mozilla.gif</QPM:File>
+                           <QPM:File>mozilla.src</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>splash.bmp</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Dir name="src">
+                     <QPM:Dir name="mozilla">
+                        <QPM:Dir name="embedmozilla">
+                           <QPM:File>abapp.dfn</QPM:File>
+                           <QPM:File>abapp.wsp</QPM:File>
+                           <QPM:Dir name="src">
+                              <QPM:File>abmulticpu</QPM:File>
+                              <QPM:File>Usemsg</QPM:File>
+                              <QPM:File>Makefile</QPM:File>
+                              <QPM:File>indHfiles</QPM:File>
+                              <QPM:File>indSfiles</QPM:File>
+                              <QPM:File>indOfiles</QPM:File>
+                              <QPM:File>abplatform</QPM:File>
+                              <QPM:File>abLfiles</QPM:File>
+                              <QPM:File>component.reg</QPM:File>
+                              <QPM:File>abHfiles</QPM:File>
+                              <QPM:File>abmain.c</QPM:File>
+                              <QPM:File>abWfiles</QPM:File>
+                              <QPM:File>setup.c</QPM:File>
+                              <QPM:File>fcallback.c</QPM:File>
+                              <QPM:File>ablinks.h</QPM:File>
+                              <QPM:File>ablibs.h</QPM:File>
+                              <QPM:File>abevents.h</QPM:File>
+                              <QPM:File>abwidgets.h</QPM:File>
+                              <QPM:File>abimport.h</QPM:File>
+                              <QPM:File>abdefine.h</QPM:File>
+                              <QPM:File>abvars.h</QPM:File>
+                              <QPM:File>abSfiles</QPM:File>
+                              <QPM:File>abOfiles</QPM:File>
+                              <QPM:Dir name="gcc_ntox86">
+                                 <QPM:File>Makefile</QPM:File>
+                                 <QPM:File>proto.h</QPM:File>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="wgt">
+                              <QPM:File>base.wgtw</QPM:File>
+                              <QPM:File>print_win.wgtw</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="mozilla">
+                        <QPM:File>mozilla_icon.gif</QPM:File>
+                        <QPM:File>gotmail.wav</QPM:File>
+                        <QPM:File>rest.wav</QPM:File>
+                        <QPM:File>system_fonts</QPM:File>
+                        <QPM:File>system_fonts.README</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+
+      <QPM:Launch name="Mozilla">
+         <QPM:String name="Topic" value="Applications/Internet"/>
+         <QPM:String name="Command" value="/usr/photon/bin/mozilla"/>
+         <QPM:String name="Icon" value="/usr/share/mozilla/mozilla_icon.gif"/>
+      </QPM:Launch>
+
+      <QPM:Launch name="Mail-News">
+         <QPM:String name="Topic" value="Applications/Internet"/>
+         <QPM:String name="Command" value="/usr/photon/bin/mozilla -m"/>
+         <QPM:String name="Icon" value="/usr/share/mozilla/mozilla_icon.gif"/>
+      </QPM:Launch>
+   </RDF:Description>
+</RDF:RDF>

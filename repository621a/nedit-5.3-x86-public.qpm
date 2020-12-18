@@ -1,0 +1,105 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>nedit-5.3-x86-public</QPM:PackageName>
+            <QPM:PackageSize>360426</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/01/29</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>1185880</QPM:ProductSize>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName/>
+            <QPM:InstallPath>public/nedit/core-5.3/x86</QPM:InstallPath>
+            <QPM:ProductEmail/>
+            <QPM:ProductName>NEdit for x86</QPM:ProductName>
+            <QPM:ProductIdentifier>nedit-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductHomeURL>http://www.nedit.org</QPM:ProductHomeURL>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>NEdit is a standard GUI (Graphical User Interface) style text editor for programs and plain-text files.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>NEdit is a standard GUI (Graphical User Interface) style text editor for programs and plain-text files. Users of Macintosh and MS Windows based text editors should find NEdit a familiar and comfortable environment.  NEdit provides all of the standard menu, dialog, editing, and mouse support, as well as all of the standard shortcuts to which the users of modern GUI based environments are accustomed. For users of older style Unix editors, welcome to the world of mouse-based editing! </QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.nedit.org/about/features.shtml</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:VendorName>NEdit.org</QPM:VendorName>
+            <QPM:VendorEmbedURL>www.nedit.org</QPM:VendorEmbedURL>
+            <QPM:VendorURL>www.nedit.org</QPM:VendorURL>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/01/29</QPM:ReleaseDate>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseVersion>5.3</QPM:ReleaseVersion>
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+            <QPM:ReleaseCopyrightURL>rep://LicenseUrl/LICENSE.txt</QPM:ReleaseCopyrightURL>
+         </QPM:ReleaseDescription>
+
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>nedit</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:TargetProcessor/>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:RequiresLibrary>libm.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libsocket.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libXext.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libXp.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libXm.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libXt.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libICE.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libSM.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libX11.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+            <QPM:ContentKeyword/>
+            <QPM:ContentTopic>Text Editing and Processing/Text Editors</QPM:ContentTopic>
+            <QPM:ContentLanguage/>
+            <QPM:Contains/>
+            <QPM:ContainsLibraries/>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:LicenseUrl>rep://nedit-5.3-public.repdata/LicenseUrl/COPYRIGHT</QPM:LicenseUrl>
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="bin">
+                     <QPM:File>nc</QPM:File>
+                     <QPM:File>nedit</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

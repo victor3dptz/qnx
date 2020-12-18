@@ -1,0 +1,115 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>gnutextutils-2.0-x86-public</QPM:PackageName>
+            <QPM:PackageSize>307463</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2002/05/27</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>1.9</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>GNU Text Utils for x86</QPM:ProductName>
+            <QPM:ProductSize>7996273</QPM:ProductSize>
+            <QPM:ProductIdentifier>gnutextutils-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Free Software Foundation</QPM:AuthorName>
+            <QPM:AuthorURL>www.fsf.org</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>various text utilities</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>GNU versions of cat, cksum, comm, csplit, cut, expand, fmt, fold, head, join, md5usm, nl, od, paste, pr, ptx, sort, split, sum, tac, tail, tr, tsort, unexpand, uniq, wc</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>www.gnu.org</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/gnutextutils/core-2.0/x86</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/05/27</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>2.0</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://gnutextutils-2.0-public.repdata/LicenseUrl/LICENSE</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>gnutextutils</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Text Editing and Processing</QPM:ContentTopic>
+            <QPM:ContentKeyword>cat, cksum, comm, csplit, cut, expand, fmt, fold, head, join, md5sum, nl, od, paste, pr, ptx, sort, split, sum, tac, tail, tr, tsort, unexpand, uniq, wc</QPM:ContentKeyword>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="bin">
+                     <QPM:File>cat</QPM:File>
+                     <QPM:File>cksum</QPM:File>
+                     <QPM:File>comm</QPM:File>
+                     <QPM:File>csplit</QPM:File>
+                     <QPM:File>cut</QPM:File>
+                     <QPM:File>expand</QPM:File>
+                     <QPM:File>fmt</QPM:File>
+                     <QPM:File>fold</QPM:File>
+                     <QPM:File>head</QPM:File>
+                     <QPM:File>join</QPM:File>
+                     <QPM:File>md5sum</QPM:File>
+                     <QPM:File>nl</QPM:File>
+                     <QPM:File>od</QPM:File>
+                     <QPM:File>paste</QPM:File>
+                     <QPM:File>pr</QPM:File>
+                     <QPM:File>ptx</QPM:File>
+                     <QPM:File>sort</QPM:File>
+                     <QPM:File>split</QPM:File>
+                     <QPM:File>sum</QPM:File>
+                     <QPM:File>tac</QPM:File>
+                     <QPM:File>tail</QPM:File>
+                     <QPM:File>tr</QPM:File>
+                     <QPM:File>tsort</QPM:File>
+                     <QPM:File>unexpand</QPM:File>
+                     <QPM:File>uniq</QPM:File>
+                     <QPM:File>wc</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

@@ -1,0 +1,803 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>apache1-1.3.27-public</QPM:PackageName>
+            <QPM:PackageSize>998470</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/01/17</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Apache</QPM:ProductName>
+            <QPM:ProductSize>4133018</QPM:ProductSize>
+            <QPM:ProductIdentifier>apache1</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Apache.org</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.apache.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Apache is an HTTP server.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Apache is the world&apos;s leading http server.  Used by more then half of the site on the internet.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.apache.org/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/apache1/core-1.3.27</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/01/17</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>1.3.27</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>Apache Software License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://apache1-1.3.27-public.repdata/LicenseUrl/LICENSE</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>System/Services, Servers and Daemons/Hypertext Transfer Protocol (HTTP) Servers</QPM:ContentTopic>
+            <QPM:ContentKeyword>apache,httpd,http</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Administrator</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="etc">
+                  <QPM:Dir name="apache">
+                     <QPM:File>access.conf</QPM:File>
+                     <QPM:File>access.conf.default</QPM:File>
+                     <QPM:File>httpd.conf</QPM:File>
+                     <QPM:File>httpd.conf.default</QPM:File>
+                     <QPM:File>magic</QPM:File>
+                     <QPM:File>magic.default</QPM:File>
+                     <QPM:File>mime.types</QPM:File>
+                     <QPM:File>mime.types.default</QPM:File>
+                     <QPM:File>srm.conf</QPM:File>
+                     <QPM:File>srm.conf.default</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/sbin">sbin</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="bin">
+                     <QPM:File>dbmmanage</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="include">
+                     <QPM:Dir name="apache">
+                        <QPM:File>os-inline.c</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="lib">
+                     <QPM:Union link="../../$(PROCESSOR)/opt/lib/apache">apache</QPM:Union>
+                     <QPM:Dir name="apache">
+                        <QPM:File>httpd.exp</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="man">
+                     <QPM:Dir name="man1">
+                        <QPM:File>dbmmanage.1</QPM:File>
+                        <QPM:File>htdigest.1</QPM:File>
+                        <QPM:File>htpasswd.1</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="man8">
+                        <QPM:File>ab.8</QPM:File>
+                        <QPM:File>apachectl.8</QPM:File>
+                        <QPM:File>apxs.8</QPM:File>
+                        <QPM:File>httpd.8</QPM:File>
+                        <QPM:File>logresolve.8</QPM:File>
+                        <QPM:File>rotatelogs.8</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="sbin">
+                     <QPM:File>apachectl</QPM:File>
+                     <QPM:File>apxs</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="apache">
+                        <QPM:Dir name="cgi-bin">
+                           <QPM:File>printenv</QPM:File>
+                           <QPM:File>test-cgi</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="htdocs">
+                           <QPM:File>apache_pb.gif</QPM:File>
+                           <QPM:File>index.html.ca</QPM:File>
+                           <QPM:File>index.html.cz</QPM:File>
+                           <QPM:File>index.html.de</QPM:File>
+                           <QPM:File>index.html.dk</QPM:File>
+                           <QPM:File>index.html.ee</QPM:File>
+                           <QPM:File>index.html.el</QPM:File>
+                           <QPM:File>index.html.en</QPM:File>
+                           <QPM:File>index.html.es</QPM:File>
+                           <QPM:File>index.html.fr</QPM:File>
+                           <QPM:File>index.html.he.iso8859-8</QPM:File>
+                           <QPM:File>index.html.it</QPM:File>
+                           <QPM:File>index.html.ja.jis</QPM:File>
+                           <QPM:File>index.html.kr.iso-kr</QPM:File>
+                           <QPM:File>index.html.lb.utf8</QPM:File>
+                           <QPM:File>index.html.nl</QPM:File>
+                           <QPM:File>index.html.nn</QPM:File>
+                           <QPM:File>index.html.no</QPM:File>
+                           <QPM:File>index.html.po.iso-pl</QPM:File>
+                           <QPM:File>index.html.pt</QPM:File>
+                           <QPM:File>index.html.pt-br</QPM:File>
+                           <QPM:File>index.html.ru.cp-1251</QPM:File>
+                           <QPM:File>index.html.ru.cp866</QPM:File>
+                           <QPM:File>index.html.ru.iso-ru</QPM:File>
+                           <QPM:File>index.html.ru.koi8-r</QPM:File>
+                           <QPM:File>index.html.ru.ucs2</QPM:File>
+                           <QPM:File>index.html.ru.ucs4</QPM:File>
+                           <QPM:File>index.html.ru.utf8</QPM:File>
+                           <QPM:File>index.html.se</QPM:File>
+                           <QPM:File>index.html.zh</QPM:File>
+                           <QPM:Dir name="manual">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>LICENSE</QPM:File>
+                              <QPM:File>bind.html.en</QPM:File>
+                              <QPM:File>bind.html.fr</QPM:File>
+                              <QPM:File>bind.html.html</QPM:File>
+                              <QPM:File>bind.html.ja.jis</QPM:File>
+                              <QPM:File>cgi_path.html.en</QPM:File>
+                              <QPM:File>cgi_path.html.fr</QPM:File>
+                              <QPM:File>cgi_path.html.html</QPM:File>
+                              <QPM:File>cgi_path.html.ja.jis</QPM:File>
+                              <QPM:File>configuring.html.en</QPM:File>
+                              <QPM:File>configuring.html.fr</QPM:File>
+                              <QPM:File>configuring.html.html</QPM:File>
+                              <QPM:File>configuring.html.ja.jis</QPM:File>
+                              <QPM:File>content-negotiation.html</QPM:File>
+                              <QPM:File>custom-error.html.en</QPM:File>
+                              <QPM:File>custom-error.html.fr</QPM:File>
+                              <QPM:File>custom-error.html.html</QPM:File>
+                              <QPM:File>custom-error.html.ja.jis</QPM:File>
+                              <QPM:File>cygwin.html</QPM:File>
+                              <QPM:File>dns-caveats.html.en</QPM:File>
+                              <QPM:File>dns-caveats.html.fr</QPM:File>
+                              <QPM:File>dns-caveats.html.html</QPM:File>
+                              <QPM:File>dso.html</QPM:File>
+                              <QPM:File>ebcdic.html</QPM:File>
+                              <QPM:File>env.html.en</QPM:File>
+                              <QPM:File>env.html.html</QPM:File>
+                              <QPM:File>env.html.ja.jis</QPM:File>
+                              <QPM:File>footer.html</QPM:File>
+                              <QPM:File>handler.html.en</QPM:File>
+                              <QPM:File>handler.html.html</QPM:File>
+                              <QPM:File>handler.html.ja.jis</QPM:File>
+                              <QPM:File>header.html</QPM:File>
+                              <QPM:Dir name="howto">
+                                 <QPM:Dir name="CVS">
+                                    <QPM:File>Entries</QPM:File>
+                                    <QPM:File>Repository</QPM:File>
+                                    <QPM:File>Root</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:File>auth.html</QPM:File>
+                                 <QPM:File>cgi.html.en</QPM:File>
+                                 <QPM:File>cgi.html.html</QPM:File>
+                                 <QPM:File>cgi.html.ja.jis</QPM:File>
+                                 <QPM:File>footer.html</QPM:File>
+                                 <QPM:File>header.html</QPM:File>
+                                 <QPM:File>htaccess.html</QPM:File>
+                                 <QPM:File>ssi.html.en</QPM:File>
+                                 <QPM:File>ssi.html.html</QPM:File>
+                                 <QPM:File>ssi.html.ja.jis</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="images">
+                                 <QPM:Dir name="CVS">
+                                    <QPM:File>Entries</QPM:File>
+                                    <QPM:File>Repository</QPM:File>
+                                    <QPM:File>Root</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:File>apache_header.gif</QPM:File>
+                                 <QPM:File>custom_errordocs.gif</QPM:File>
+                                 <QPM:File>home.gif</QPM:File>
+                                 <QPM:File>index.gif</QPM:File>
+                                 <QPM:File>mod_rewrite_fig1.fig</QPM:File>
+                                 <QPM:File>mod_rewrite_fig1.gif</QPM:File>
+                                 <QPM:File>mod_rewrite_fig2.fig</QPM:File>
+                                 <QPM:File>mod_rewrite_fig2.gif</QPM:File>
+                                 <QPM:File>pixel.gif</QPM:File>
+                                 <QPM:File>sub.gif</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>index.html.en</QPM:File>
+                              <QPM:File>index.html.fr</QPM:File>
+                              <QPM:File>index.html.html</QPM:File>
+                              <QPM:File>index.html.ja.jis</QPM:File>
+                              <QPM:File>install-tpf.html</QPM:File>
+                              <QPM:File>install.html.en</QPM:File>
+                              <QPM:File>install.html.es</QPM:File>
+                              <QPM:File>install.html.fr</QPM:File>
+                              <QPM:File>install.html.html</QPM:File>
+                              <QPM:File>install.html.ja.jis</QPM:File>
+                              <QPM:File>invoking.html.en</QPM:File>
+                              <QPM:File>invoking.html.fr</QPM:File>
+                              <QPM:File>invoking.html.html</QPM:File>
+                              <QPM:File>keepalive.html.en</QPM:File>
+                              <QPM:File>keepalive.html.html</QPM:File>
+                              <QPM:File>keepalive.html.ja.jis</QPM:File>
+                              <QPM:File>location.html</QPM:File>
+                              <QPM:File>logs.html</QPM:File>
+                              <QPM:File>man-template.html</QPM:File>
+                              <QPM:Dir name="misc">
+                                 <QPM:File>API.html</QPM:File>
+                                 <QPM:Dir name="CVS">
+                                    <QPM:File>Entries</QPM:File>
+                                    <QPM:File>Repository</QPM:File>
+                                    <QPM:File>Root</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:File>FAQ.html</QPM:File>
+                                 <QPM:File>HTTP_Features.tsv</QPM:File>
+                                 <QPM:File>client_block_api.html</QPM:File>
+                                 <QPM:File>compat_notes.html</QPM:File>
+                                 <QPM:File>custom_errordocs.html</QPM:File>
+                                 <QPM:File>descriptors.html</QPM:File>
+                                 <QPM:File>fin_wait_2.html</QPM:File>
+                                 <QPM:File>footer.html</QPM:File>
+                                 <QPM:File>header.html</QPM:File>
+                                 <QPM:File>howto.html</QPM:File>
+                                 <QPM:File>index.html</QPM:File>
+                                 <QPM:File>known_client_problems.html</QPM:File>
+                                 <QPM:File>nopgp.html</QPM:File>
+                                 <QPM:File>perf-bsd44.html</QPM:File>
+                                 <QPM:File>perf-dec.html</QPM:File>
+                                 <QPM:File>perf-hp.html</QPM:File>
+                                 <QPM:File>perf-tuning.html</QPM:File>
+                                 <QPM:File>perf.html</QPM:File>
+                                 <QPM:File>rewriteguide.html</QPM:File>
+                                 <QPM:File>security_tips.html</QPM:File>
+                                 <QPM:File>tutorials.html</QPM:File>
+                                 <QPM:File>vif-info.html</QPM:File>
+                                 <QPM:File>windoz_keepalive.html</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="mod">
+                                 <QPM:Dir name="CVS">
+                                    <QPM:File>Entries</QPM:File>
+                                    <QPM:File>Repository</QPM:File>
+                                    <QPM:File>Root</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:File>core.html.en</QPM:File>
+                                 <QPM:File>core.html.fr</QPM:File>
+                                 <QPM:File>core.html.html</QPM:File>
+                                 <QPM:File>directive-dict.html.en</QPM:File>
+                                 <QPM:File>directive-dict.html.fr</QPM:File>
+                                 <QPM:File>directive-dict.html.html</QPM:File>
+                                 <QPM:File>directive-dict.html.ja.jis</QPM:File>
+                                 <QPM:File>directives.html.de</QPM:File>
+                                 <QPM:File>directives.html.en</QPM:File>
+                                 <QPM:File>directives.html.fr</QPM:File>
+                                 <QPM:File>directives.html.html</QPM:File>
+                                 <QPM:File>directives.html.ja.jis</QPM:File>
+                                 <QPM:File>footer.html</QPM:File>
+                                 <QPM:File>header.html</QPM:File>
+                                 <QPM:File>index-bytype.html.en</QPM:File>
+                                 <QPM:File>index-bytype.html.fr</QPM:File>
+                                 <QPM:File>index-bytype.html.html</QPM:File>
+                                 <QPM:File>index-bytype.html.ja.jis</QPM:File>
+                                 <QPM:File>index.html.en</QPM:File>
+                                 <QPM:File>index.html.fr</QPM:File>
+                                 <QPM:File>index.html.html</QPM:File>
+                                 <QPM:File>index.html.ja.jis</QPM:File>
+                                 <QPM:File>mod_access.html.en</QPM:File>
+                                 <QPM:File>mod_access.html.html</QPM:File>
+                                 <QPM:File>mod_access.html.ja.jis</QPM:File>
+                                 <QPM:File>mod_actions.html.en</QPM:File>
+                                 <QPM:File>mod_actions.html.html</QPM:File>
+                                 <QPM:File>mod_actions.html.ja.jis</QPM:File>
+                                 <QPM:File>mod_alias.html.en</QPM:File>
+                                 <QPM:File>mod_alias.html.ja.jis</QPM:File>
+                                 <QPM:File>mod_asis.html.en</QPM:File>
+                                 <QPM:File>mod_asis.html.html</QPM:File>
+                                 <QPM:File>mod_asis.html.ja.jis</QPM:File>
+                                 <QPM:File>mod_auth.html.en</QPM:File>
+                                 <QPM:File>mod_auth.html.ja.jis</QPM:File>
+                                 <QPM:File>mod_auth_anon.html</QPM:File>
+                                 <QPM:File>mod_auth_db.html</QPM:File>
+                                 <QPM:File>mod_auth_dbm.html</QPM:File>
+                                 <QPM:File>mod_auth_digest.html</QPM:File>
+                                 <QPM:File>mod_autoindex.html</QPM:File>
+                                 <QPM:File>mod_browser.html</QPM:File>
+                                 <QPM:File>mod_cern_meta.html</QPM:File>
+                                 <QPM:File>mod_cgi.html.en</QPM:File>
+                                 <QPM:File>mod_cgi.html.html</QPM:File>
+                                 <QPM:File>mod_cgi.html.ja.jis</QPM:File>
+                                 <QPM:File>mod_cookies.html</QPM:File>
+                                 <QPM:File>mod_digest.html</QPM:File>
+                                 <QPM:File>mod_dir.html.en</QPM:File>
+                                 <QPM:File>mod_dir.html.html</QPM:File>
+                                 <QPM:File>mod_dir.html.ja.jis</QPM:File>
+                                 <QPM:File>mod_dld.html</QPM:File>
+                                 <QPM:File>mod_env.html.en</QPM:File>
+                                 <QPM:File>mod_env.html.html</QPM:File>
+                                 <QPM:File>mod_env.html.ja.jis</QPM:File>
+                                 <QPM:File>mod_example.html</QPM:File>
+                                 <QPM:File>mod_expires.html</QPM:File>
+                                 <QPM:File>mod_headers.html</QPM:File>
+                                 <QPM:File>mod_imap.html</QPM:File>
+                                 <QPM:File>mod_include.html</QPM:File>
+                                 <QPM:File>mod_info.html.en</QPM:File>
+                                 <QPM:File>mod_info.html.html</QPM:File>
+                                 <QPM:File>mod_info.html.ja.jis</QPM:File>
+                                 <QPM:File>mod_isapi.html</QPM:File>
+                                 <QPM:File>mod_log_agent.html</QPM:File>
+                                 <QPM:File>mod_log_common.html</QPM:File>
+                                 <QPM:File>mod_log_config.html</QPM:File>
+                                 <QPM:File>mod_log_referer.html</QPM:File>
+                                 <QPM:File>mod_mime.html.en</QPM:File>
+                                 <QPM:File>mod_mime.html.html</QPM:File>
+                                 <QPM:File>mod_mime.html.ja.jis</QPM:File>
+                                 <QPM:File>mod_mime_magic.html</QPM:File>
+                                 <QPM:File>mod_mmap_static.html</QPM:File>
+                                 <QPM:File>mod_negotiation.html.en</QPM:File>
+                                 <QPM:File>mod_negotiation.html.html</QPM:File>
+                                 <QPM:File>mod_negotiation.html.ja.jis</QPM:File>
+                                 <QPM:File>mod_proxy.html</QPM:File>
+                                 <QPM:File>mod_rewrite.html</QPM:File>
+                                 <QPM:File>mod_setenvif.html.en</QPM:File>
+                                 <QPM:File>mod_setenvif.html.html</QPM:File>
+                                 <QPM:File>mod_setenvif.html.ja.jis</QPM:File>
+                                 <QPM:File>mod_so.html.en</QPM:File>
+                                 <QPM:File>mod_so.html.html</QPM:File>
+                                 <QPM:File>mod_so.html.ja.jis</QPM:File>
+                                 <QPM:File>mod_speling.html.en</QPM:File>
+                                 <QPM:File>mod_speling.html.html</QPM:File>
+                                 <QPM:File>mod_speling.html.ja.jis</QPM:File>
+                                 <QPM:File>mod_status.html</QPM:File>
+                                 <QPM:File>mod_unique_id.html.en</QPM:File>
+                                 <QPM:File>mod_unique_id.html.html</QPM:File>
+                                 <QPM:File>mod_unique_id.html.ja.jis</QPM:File>
+                                 <QPM:File>mod_userdir.html.en</QPM:File>
+                                 <QPM:File>mod_userdir.html.html</QPM:File>
+                                 <QPM:File>mod_userdir.html.ja.jis</QPM:File>
+                                 <QPM:File>mod_usertrack.html</QPM:File>
+                                 <QPM:File>mod_vhost_alias.html</QPM:File>
+                                 <QPM:File>module-dict.html.en</QPM:File>
+                                 <QPM:File>module-dict.html.html</QPM:File>
+                                 <QPM:File>module-dict.html.ja.jis</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>mpeix.html</QPM:File>
+                              <QPM:File>multilogs.html</QPM:File>
+                              <QPM:File>netware.html</QPM:File>
+                              <QPM:File>new_features_1_0.html</QPM:File>
+                              <QPM:File>new_features_1_1.html</QPM:File>
+                              <QPM:File>new_features_1_2.html</QPM:File>
+                              <QPM:File>new_features_1_3.html.en</QPM:File>
+                              <QPM:File>new_features_1_3.html.html</QPM:File>
+                              <QPM:File>new_features_1_3.html.ja.jis</QPM:File>
+                              <QPM:File>new_features_2_0.html</QPM:File>
+                              <QPM:File>process-model.html.en</QPM:File>
+                              <QPM:File>process-model.html.html</QPM:File>
+                              <QPM:File>process-model.html.ja.jis</QPM:File>
+                              <QPM:Dir name="programs">
+                                 <QPM:Dir name="CVS">
+                                    <QPM:File>Entries</QPM:File>
+                                    <QPM:File>Repository</QPM:File>
+                                    <QPM:File>Root</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:File>ab.html</QPM:File>
+                                 <QPM:File>apachectl.html.en</QPM:File>
+                                 <QPM:File>apachectl.html.html</QPM:File>
+                                 <QPM:File>apachectl.html.ja.jis</QPM:File>
+                                 <QPM:File>apxs.html</QPM:File>
+                                 <QPM:File>dbmmanage.html</QPM:File>
+                                 <QPM:File>footer.html</QPM:File>
+                                 <QPM:File>header.html</QPM:File>
+                                 <QPM:File>htdigest.html</QPM:File>
+                                 <QPM:File>htpasswd.html.en</QPM:File>
+                                 <QPM:File>htpasswd.html.html</QPM:File>
+                                 <QPM:File>htpasswd.html.ja.jis</QPM:File>
+                                 <QPM:File>httpd.html.en</QPM:File>
+                                 <QPM:File>httpd.html.html</QPM:File>
+                                 <QPM:File>httpd.html.ja.jis</QPM:File>
+                                 <QPM:File>index.html.en</QPM:File>
+                                 <QPM:File>index.html.html</QPM:File>
+                                 <QPM:File>index.html.ja.jis</QPM:File>
+                                 <QPM:File>logresolve.html</QPM:File>
+                                 <QPM:File>other.html</QPM:File>
+                                 <QPM:File>rotatelogs.html</QPM:File>
+                                 <QPM:File>suexec.html.en</QPM:File>
+                                 <QPM:File>suexec.html.html</QPM:File>
+                                 <QPM:File>suexec.html.ja.jis</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>readme-tpf.html</QPM:File>
+                              <QPM:Dir name="search">
+                                 <QPM:Dir name="CVS">
+                                    <QPM:File>Entries</QPM:File>
+                                    <QPM:File>Repository</QPM:File>
+                                    <QPM:File>Root</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:File>manual-index.cgi</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>sections.html.en</QPM:File>
+                              <QPM:File>sections.html.html</QPM:File>
+                              <QPM:File>sections.html.ja.jis</QPM:File>
+                              <QPM:File>server-wide.html.en</QPM:File>
+                              <QPM:File>server-wide.html.fr</QPM:File>
+                              <QPM:File>server-wide.html.html</QPM:File>
+                              <QPM:File>server-wide.html.ja.jis</QPM:File>
+                              <QPM:File>sitemap.html</QPM:File>
+                              <QPM:File>sourcereorg.html</QPM:File>
+                              <QPM:File>stopping.html.en</QPM:File>
+                              <QPM:File>stopping.html.fr</QPM:File>
+                              <QPM:File>stopping.html.html</QPM:File>
+                              <QPM:File>suexec.html.en</QPM:File>
+                              <QPM:File>suexec.html.html</QPM:File>
+                              <QPM:File>suexec.html.ja.jis</QPM:File>
+                              <QPM:File>suexec_1_2.html</QPM:File>
+                              <QPM:File>unixware.html</QPM:File>
+                              <QPM:File>upgrading_to_1_3.html</QPM:File>
+                              <QPM:File>urlmapping.html</QPM:File>
+                              <QPM:Dir name="vhosts">
+                                 <QPM:Dir name="CVS">
+                                    <QPM:File>Entries</QPM:File>
+                                    <QPM:File>Repository</QPM:File>
+                                    <QPM:File>Root</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:File>details.html</QPM:File>
+                                 <QPM:File>details_1_2.html</QPM:File>
+                                 <QPM:File>examples.html</QPM:File>
+                                 <QPM:File>fd-limits.html.en</QPM:File>
+                                 <QPM:File>fd-limits.html.html</QPM:File>
+                                 <QPM:File>fd-limits.html.ja.jis</QPM:File>
+                                 <QPM:File>footer.html</QPM:File>
+                                 <QPM:File>header.html</QPM:File>
+                                 <QPM:File>host.html</QPM:File>
+                                 <QPM:File>index.html.en</QPM:File>
+                                 <QPM:File>index.html.html</QPM:File>
+                                 <QPM:File>index.html.ja.jis</QPM:File>
+                                 <QPM:File>ip-based.html</QPM:File>
+                                 <QPM:File>mass.html</QPM:File>
+                                 <QPM:File>name-based.html.en</QPM:File>
+                                 <QPM:File>name-based.html.html</QPM:File>
+                                 <QPM:File>name-based.html.ja.jis</QPM:File>
+                                 <QPM:File>vhosts-in-depth.html</QPM:File>
+                                 <QPM:File>virtual-host.html</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>win_compiling.html.en</QPM:File>
+                              <QPM:File>win_compiling.html.html</QPM:File>
+                              <QPM:File>win_compiling.html.ja.jis</QPM:File>
+                              <QPM:File>win_service.html.en</QPM:File>
+                              <QPM:File>win_service.html.html</QPM:File>
+                              <QPM:File>win_service.html.ja.jis</QPM:File>
+                              <QPM:File>windows.html.en</QPM:File>
+                              <QPM:File>windows.html.ja.jis</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="icons">
+                           <QPM:Dir name="CVS">
+                              <QPM:File>Entries</QPM:File>
+                              <QPM:File>Repository</QPM:File>
+                              <QPM:File>Root</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>README</QPM:File>
+                           <QPM:File>a.gif</QPM:File>
+                           <QPM:File>a.png</QPM:File>
+                           <QPM:File>alert.black.gif</QPM:File>
+                           <QPM:File>alert.black.png</QPM:File>
+                           <QPM:File>alert.red.gif</QPM:File>
+                           <QPM:File>alert.red.png</QPM:File>
+                           <QPM:File>apache_pb.gif</QPM:File>
+                           <QPM:File>apache_pb.png</QPM:File>
+                           <QPM:File>back.gif</QPM:File>
+                           <QPM:File>back.png</QPM:File>
+                           <QPM:File>ball.gray.gif</QPM:File>
+                           <QPM:File>ball.gray.png</QPM:File>
+                           <QPM:File>ball.red.gif</QPM:File>
+                           <QPM:File>ball.red.png</QPM:File>
+                           <QPM:File>binary.gif</QPM:File>
+                           <QPM:File>binary.png</QPM:File>
+                           <QPM:File>binhex.gif</QPM:File>
+                           <QPM:File>binhex.png</QPM:File>
+                           <QPM:File>blank.gif</QPM:File>
+                           <QPM:File>blank.png</QPM:File>
+                           <QPM:File>bomb.gif</QPM:File>
+                           <QPM:File>bomb.png</QPM:File>
+                           <QPM:File>box1.gif</QPM:File>
+                           <QPM:File>box1.png</QPM:File>
+                           <QPM:File>box2.gif</QPM:File>
+                           <QPM:File>box2.png</QPM:File>
+                           <QPM:File>broken.gif</QPM:File>
+                           <QPM:File>broken.png</QPM:File>
+                           <QPM:File>burst.gif</QPM:File>
+                           <QPM:File>burst.png</QPM:File>
+                           <QPM:File>c.gif</QPM:File>
+                           <QPM:File>c.png</QPM:File>
+                           <QPM:File>comp.blue.gif</QPM:File>
+                           <QPM:File>comp.blue.png</QPM:File>
+                           <QPM:File>comp.gray.gif</QPM:File>
+                           <QPM:File>comp.gray.png</QPM:File>
+                           <QPM:File>compressed.gif</QPM:File>
+                           <QPM:File>compressed.png</QPM:File>
+                           <QPM:File>continued.gif</QPM:File>
+                           <QPM:File>continued.png</QPM:File>
+                           <QPM:File>dir.gif</QPM:File>
+                           <QPM:File>dir.png</QPM:File>
+                           <QPM:File>diskimg.gif</QPM:File>
+                           <QPM:File>diskimg.png</QPM:File>
+                           <QPM:File>down.gif</QPM:File>
+                           <QPM:File>down.png</QPM:File>
+                           <QPM:File>dvi.gif</QPM:File>
+                           <QPM:File>dvi.png</QPM:File>
+                           <QPM:File>f.gif</QPM:File>
+                           <QPM:File>f.png</QPM:File>
+                           <QPM:File>folder.gif</QPM:File>
+                           <QPM:File>folder.open.gif</QPM:File>
+                           <QPM:File>folder.open.png</QPM:File>
+                           <QPM:File>folder.png</QPM:File>
+                           <QPM:File>folder.sec.gif</QPM:File>
+                           <QPM:File>folder.sec.png</QPM:File>
+                           <QPM:File>forward.gif</QPM:File>
+                           <QPM:File>forward.png</QPM:File>
+                           <QPM:File>generic.gif</QPM:File>
+                           <QPM:File>generic.png</QPM:File>
+                           <QPM:File>generic.red.gif</QPM:File>
+                           <QPM:File>generic.red.png</QPM:File>
+                           <QPM:File>generic.sec.gif</QPM:File>
+                           <QPM:File>generic.sec.png</QPM:File>
+                           <QPM:File>hand.right.gif</QPM:File>
+                           <QPM:File>hand.right.png</QPM:File>
+                           <QPM:File>hand.up.gif</QPM:File>
+                           <QPM:File>hand.up.png</QPM:File>
+                           <QPM:File>icon.sheet.gif</QPM:File>
+                           <QPM:File>icon.sheet.png</QPM:File>
+                           <QPM:File>image1.gif</QPM:File>
+                           <QPM:File>image1.png</QPM:File>
+                           <QPM:File>image2.gif</QPM:File>
+                           <QPM:File>image2.png</QPM:File>
+                           <QPM:File>image3.gif</QPM:File>
+                           <QPM:File>image3.png</QPM:File>
+                           <QPM:File>index.gif</QPM:File>
+                           <QPM:File>index.png</QPM:File>
+                           <QPM:File>layout.gif</QPM:File>
+                           <QPM:File>layout.png</QPM:File>
+                           <QPM:File>left.gif</QPM:File>
+                           <QPM:File>left.png</QPM:File>
+                           <QPM:File>link.gif</QPM:File>
+                           <QPM:File>link.png</QPM:File>
+                           <QPM:File>movie.gif</QPM:File>
+                           <QPM:File>movie.png</QPM:File>
+                           <QPM:File>p.gif</QPM:File>
+                           <QPM:File>p.png</QPM:File>
+                           <QPM:File>patch.gif</QPM:File>
+                           <QPM:File>patch.png</QPM:File>
+                           <QPM:File>pdf.gif</QPM:File>
+                           <QPM:File>pdf.png</QPM:File>
+                           <QPM:File>pie0.gif</QPM:File>
+                           <QPM:File>pie0.png</QPM:File>
+                           <QPM:File>pie1.gif</QPM:File>
+                           <QPM:File>pie1.png</QPM:File>
+                           <QPM:File>pie2.gif</QPM:File>
+                           <QPM:File>pie2.png</QPM:File>
+                           <QPM:File>pie3.gif</QPM:File>
+                           <QPM:File>pie3.png</QPM:File>
+                           <QPM:File>pie4.gif</QPM:File>
+                           <QPM:File>pie4.png</QPM:File>
+                           <QPM:File>pie5.gif</QPM:File>
+                           <QPM:File>pie5.png</QPM:File>
+                           <QPM:File>pie6.gif</QPM:File>
+                           <QPM:File>pie6.png</QPM:File>
+                           <QPM:File>pie7.gif</QPM:File>
+                           <QPM:File>pie7.png</QPM:File>
+                           <QPM:File>pie8.gif</QPM:File>
+                           <QPM:File>pie8.png</QPM:File>
+                           <QPM:File>portal.gif</QPM:File>
+                           <QPM:File>portal.png</QPM:File>
+                           <QPM:File>ps.gif</QPM:File>
+                           <QPM:File>ps.png</QPM:File>
+                           <QPM:File>quill.gif</QPM:File>
+                           <QPM:File>quill.png</QPM:File>
+                           <QPM:File>right.gif</QPM:File>
+                           <QPM:File>right.png</QPM:File>
+                           <QPM:File>screw1.gif</QPM:File>
+                           <QPM:File>screw1.png</QPM:File>
+                           <QPM:File>screw2.gif</QPM:File>
+                           <QPM:File>screw2.png</QPM:File>
+                           <QPM:File>script.gif</QPM:File>
+                           <QPM:File>script.png</QPM:File>
+                           <QPM:Dir name="small">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>README.txt</QPM:File>
+                              <QPM:File>back.gif</QPM:File>
+                              <QPM:File>back.png</QPM:File>
+                              <QPM:File>binary.gif</QPM:File>
+                              <QPM:File>binary.png</QPM:File>
+                              <QPM:File>binhex.gif</QPM:File>
+                              <QPM:File>binhex.png</QPM:File>
+                              <QPM:File>blank.gif</QPM:File>
+                              <QPM:File>blank.png</QPM:File>
+                              <QPM:File>broken.gif</QPM:File>
+                              <QPM:File>broken.png</QPM:File>
+                              <QPM:File>burst.gif</QPM:File>
+                              <QPM:File>burst.png</QPM:File>
+                              <QPM:File>comp1.gif</QPM:File>
+                              <QPM:File>comp1.png</QPM:File>
+                              <QPM:File>comp2.gif</QPM:File>
+                              <QPM:File>comp2.png</QPM:File>
+                              <QPM:File>compressed.gif</QPM:File>
+                              <QPM:File>compressed.png</QPM:File>
+                              <QPM:File>continued.gif</QPM:File>
+                              <QPM:File>continued.png</QPM:File>
+                              <QPM:File>dir.gif</QPM:File>
+                              <QPM:File>dir.png</QPM:File>
+                              <QPM:File>dir2.gif</QPM:File>
+                              <QPM:File>dir2.png</QPM:File>
+                              <QPM:File>doc.gif</QPM:File>
+                              <QPM:File>doc.png</QPM:File>
+                              <QPM:File>forward.gif</QPM:File>
+                              <QPM:File>forward.png</QPM:File>
+                              <QPM:File>generic.gif</QPM:File>
+                              <QPM:File>generic.png</QPM:File>
+                              <QPM:File>generic2.gif</QPM:File>
+                              <QPM:File>generic2.png</QPM:File>
+                              <QPM:File>generic3.gif</QPM:File>
+                              <QPM:File>generic3.png</QPM:File>
+                              <QPM:File>image.gif</QPM:File>
+                              <QPM:File>image.png</QPM:File>
+                              <QPM:File>image2.gif</QPM:File>
+                              <QPM:File>image2.png</QPM:File>
+                              <QPM:File>index.gif</QPM:File>
+                              <QPM:File>index.png</QPM:File>
+                              <QPM:File>key.gif</QPM:File>
+                              <QPM:File>key.png</QPM:File>
+                              <QPM:File>movie.gif</QPM:File>
+                              <QPM:File>movie.png</QPM:File>
+                              <QPM:File>patch.gif</QPM:File>
+                              <QPM:File>patch.png</QPM:File>
+                              <QPM:File>ps.gif</QPM:File>
+                              <QPM:File>ps.png</QPM:File>
+                              <QPM:File>rainbow.gif</QPM:File>
+                              <QPM:File>rainbow.png</QPM:File>
+                              <QPM:File>sound.gif</QPM:File>
+                              <QPM:File>sound.png</QPM:File>
+                              <QPM:File>sound2.gif</QPM:File>
+                              <QPM:File>sound2.png</QPM:File>
+                              <QPM:File>tar.gif</QPM:File>
+                              <QPM:File>tar.png</QPM:File>
+                              <QPM:File>text.gif</QPM:File>
+                              <QPM:File>text.png</QPM:File>
+                              <QPM:File>transfer.gif</QPM:File>
+                              <QPM:File>transfer.png</QPM:File>
+                              <QPM:File>unknown.gif</QPM:File>
+                              <QPM:File>unknown.png</QPM:File>
+                              <QPM:File>uu.gif</QPM:File>
+                              <QPM:File>uu.png</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>sound1.gif</QPM:File>
+                           <QPM:File>sound1.png</QPM:File>
+                           <QPM:File>sound2.gif</QPM:File>
+                           <QPM:File>sound2.png</QPM:File>
+                           <QPM:File>sphere1.gif</QPM:File>
+                           <QPM:File>sphere1.png</QPM:File>
+                           <QPM:File>sphere2.gif</QPM:File>
+                           <QPM:File>sphere2.png</QPM:File>
+                           <QPM:File>tar.gif</QPM:File>
+                           <QPM:File>tar.png</QPM:File>
+                           <QPM:File>tex.gif</QPM:File>
+                           <QPM:File>tex.png</QPM:File>
+                           <QPM:File>text.gif</QPM:File>
+                           <QPM:File>text.png</QPM:File>
+                           <QPM:File>transfer.gif</QPM:File>
+                           <QPM:File>transfer.png</QPM:File>
+                           <QPM:File>unknown.gif</QPM:File>
+                           <QPM:File>unknown.png</QPM:File>
+                           <QPM:File>up.gif</QPM:File>
+                           <QPM:File>up.png</QPM:File>
+                           <QPM:File>uu.gif</QPM:File>
+                           <QPM:File>uu.png</QPM:File>
+                           <QPM:File>uuencoded.gif</QPM:File>
+                           <QPM:File>uuencoded.png</QPM:File>
+                           <QPM:File>world1.gif</QPM:File>
+                           <QPM:File>world1.png</QPM:File>
+                           <QPM:File>world2.gif</QPM:File>
+                           <QPM:File>world2.png</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../opt/sbin">sbin</QPM:Union>
+                  <QPM:Union link="../opt/bin">bin</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/sbin">sbin</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="lib">
+                     <QPM:Union link="../../opt/lib/apache">apache</QPM:Union>
+                     <QPM:Union link="../../$(PROCESSOR)/opt/lib/apache">apache</QPM:Union>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="include">
+                     <QPM:Union link="../../opt/include/apache">apache</QPM:Union>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="man">
+                     <QPM:Union link="../../opt/man/man8">man8</QPM:Union>
+                     <QPM:Union link="../../opt/man/man1">man1</QPM:Union>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="apache">
+                        <QPM:Union link="../../../opt/share/apache/icons">icons</QPM:Union>
+                        <QPM:Union link="../../../opt/share/apache/htdocs">htdocs</QPM:Union>
+                        <QPM:Union link="../../../opt/share/apache/cgi-bin">cgi-bin</QPM:Union>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

@@ -1,0 +1,203 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>xf86-bin-4.2-public</QPM:PackageName>
+            <QPM:PackageSize>35661</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/02/16</QPM:PackageReleaseDate>
+            <QPM:PackageRepository>http://qnx.wox.org/qnxpub621/</QPM:PackageRepository>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>XFree86 Binaries</QPM:ProductName>
+            <QPM:ProductSize>157919</QPM:ProductSize>
+            <QPM:ProductIdentifier>xf86-bin</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>XFree86</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.xfree86.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>XFree86 binaries.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>This packages contains the standard binaries (twm, xterm, xeyes, ...) that come with an X11R6 install.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL/>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/xf86-bin/core-4.2</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/02/16</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>4.2</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>MIT License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl/>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>System/Services, Servers and Daemons/X Servers</QPM:ContentTopic>
+            <QPM:ContentKeyword>xfree86,X11,X11R6</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>X11R6</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>Needs the base package.</QPM:Notes>
+               <QPM:Product>xf86-base</QPM:Product>
+               <QPM:Vendor>public</QPM:Vendor>
+               <QPM:ProductHomeRepository/>
+            </QPM:Dependency>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Use</QPM:ScriptType>
+            </QPM:Script>
+
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Unuse</QPM:ScriptType>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="etc">
+                  <QPM:Dir name="X11">
+                     <QPM:Union link="../../$(PROCESSOR)/etc/X11/xkb">xkb</QPM:Union>
+                     <QPM:Union link="../../$(PROCESSOR)/etc/X11/xdm">xdm</QPM:Union>
+                     <QPM:Union link="../../$(PROCESSOR)/etc/X11/rstart">rstart</QPM:Union>
+                     <QPM:Dir name="rstart">
+                        <QPM:Dir name="commands">
+                           <QPM:File>@List</QPM:File>
+                           <QPM:File>ListContexts</QPM:File>
+                           <QPM:File>ListGenericCommands</QPM:File>
+                           <QPM:Link link="x11r6">x</QPM:Link>
+                           <QPM:Link link="x11r6">x11</QPM:Link>
+                           <QPM:Dir name="x11r6">
+                              <QPM:File>@List</QPM:File>
+                              <QPM:File>LoadMonitor</QPM:File>
+                              <QPM:File>Terminal</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:File>config</QPM:File>
+                        <QPM:Dir name="contexts">
+                           <QPM:File>@List</QPM:File>
+                           <QPM:File>default</QPM:File>
+                           <QPM:Link link="x11r6">x</QPM:Link>
+                           <QPM:Link link="x11r6">x11</QPM:Link>
+                           <QPM:File>x11r6</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="xdm">
+                        <QPM:File>GiveConsole</QPM:File>
+                        <QPM:File>TakeConsole</QPM:File>
+                        <QPM:File>Xaccess</QPM:File>
+                        <QPM:File>Xresources</QPM:File>
+                        <QPM:File>Xservers</QPM:File>
+                        <QPM:File>Xsession</QPM:File>
+                        <QPM:File>Xsetup_0</QPM:File>
+                        <QPM:File>Xwilling</QPM:File>
+                        <QPM:Dir name="pixmaps">
+                           <QPM:File>XFree86.xpm</QPM:File>
+                           <QPM:File>XFree86bw.xpm</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>xdm-config</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="X11R6">
+                     <QPM:Union link="../../$(PROCESSOR)/opt/X11R6/bin">bin</QPM:Union>
+                     <QPM:Dir name="bin">
+                        <QPM:File>bdftruncate.pl</QPM:File>
+                        <QPM:File>ccmakedep</QPM:File>
+                        <QPM:File>cleanlinks</QPM:File>
+                        <QPM:File>freetype-config</QPM:File>
+                        <QPM:File>gccmakedep</QPM:File>
+                        <QPM:File>install</QPM:File>
+                        <QPM:File>makeg</QPM:File>
+                        <QPM:File>mergelib</QPM:File>
+                        <QPM:File>mkdirhier</QPM:File>
+                        <QPM:File>mkhtmlindex</QPM:File>
+                        <QPM:File>rstart</QPM:File>
+                        <QPM:File>rstartd</QPM:File>
+                        <QPM:File>startx</QPM:File>
+                        <QPM:File>ucs2any.pl</QPM:File>
+                        <QPM:File>uxterm</QPM:File>
+                        <QPM:File>x11perfcomp</QPM:File>
+                        <QPM:File>xmkmf</QPM:File>
+                        <QPM:File>xon</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+
+      <QPM:Launch name="XTerm">
+         <QPM:String name="Topic" value="Applications/Utilities"/>
+         <QPM:String name="Command" value="/opt/X11R6/bin/xterm"/>
+         <QPM:String name="Icon" value="/usr/share/icons/topics/computer_x11.gif"/>
+      </QPM:Launch>
+
+      <QPM:Launch name="XLoad">
+         <QPM:String name="Topic" value="Applications/Utilities"/>
+         <QPM:String name="Command" value="/opt/X11R6/bin/xload"/>
+         <QPM:String name="Icon" value="/usr/share/icons/topics/computer_x11.gif"/>
+      </QPM:Launch>
+
+      <QPM:Launch name="XEyes">
+         <QPM:String name="Topic" value="Applications/Games"/>
+         <QPM:String name="Command" value="/opt/X11R6/bin/xeyes"/>
+         <QPM:String name="Icon" value="/usr/share/icons/topics/computer_x11.gif"/>
+      </QPM:Launch>
+   </RDF:Description>
+</RDF:RDF>

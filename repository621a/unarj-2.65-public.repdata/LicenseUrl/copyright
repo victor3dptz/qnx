@@ -1,0 +1,98 @@
+This is the QNX prepackaged version of unarj based
+on the Debian Linux version of modified unarj.
+Unarj was written by Robert Jung <robjung@world.std.com>.
+
+Sources can be obtained from: ftp://ftp.std.com/pub/arj/unarj265.exe
+
+     UNARJ LICENSE POLICY FOR ALL USERS:
+
+The UNARJ program, source code, and the associated documentation
+are copyright (c) 1990-2002 ARJ Software, Inc. all rights reserved.
+
+If you distribute this software to others, you are required to
+distribute the ENTIRE package consisting of the following files:
+
+We strongly prefer that the files be distributed in the format
+originally released:  UNARJ265.EXE with the ARJ-SECURITY envelope as
+created by the author.  If you must distribute the UNARJ archive in
+another archive format, please archive the UNARJ265.EXE as one file
+inside the other archive.  Re-archival of the software as separate
+files means losing the ARJ security envelope.
+
+You may freely use the UNARJ C source code.  If you wish to
+distribute a modified version of UNARJ, you MUST indicate that it
+is a modified version both in the program and source code.
+
+We are holding the copyright on the source code, so please do not
+delete our name from the program files or the documentation.
+
+You may freely use, copy, and distribute UNARJ, provided that no
+fee is charged for such use, copying or distribution.
+
+You may use UNARJ in a commercial software package provided that
+no additional fee is charged for using UNARJ and provided that
+the user fully understands that NO warranty or support is provided
+for UNARJ by ARJ Software.  Moreover, the user must fully
+understand that UNARJ does not have the long usage history that ARJ
+does.
+
+This source code is intended to promote the building of utilities to
+support the use of ARJ and ARJ archives.
+
+The following message is an extract from Rob Jung - the author of
+unarj he was asked if unarj could comply to the addendum;
+
+----- Insert crow bar -----
+
+> > The copyright statement below is addended for the Debian system:
+> >        This program may be sold as a component of the Debian Linux
+> >        distribution or a Linux distribution derived from the Debian
+> >        Linux distribution. If it is distributed in binary form, the
+> >        source code must be included in the distribution as well.
+> > End of addendum.
+
+I have no problem with that license statement.  I encourage distribution of 
+the source and binaries.
+
+Regards,
+
+--------------------------------------------
+Robert Jung, President      ARJ Software
+Fax: 617-769-4893           P.O. Box 249
+robjung@world.std.com       Norwood MA 02062
+CIS: 72077,445              USA
+--------------------------------------------
+
+----- Release crow bar -----
+
+...Karl Ferguson <karl@tower.net.au> - previous Debian `unarj' maintainer.
+
+The current debian source package was created by extracting the
+upstream unarj265.exe using an existing unarj binary and creating a
+tar.gz from it. Not all the files listed above are found in that
+upstream package! I am assuming therefore that the existing list of
+files (below) is an acceptable substitute. I'd rather not include a
+Windows (gack!) binary as part of the upstream "source", but...
+
+    bcc32.cfg
+    bcc32.mak
+    bccunarj.mak
+    decode.c
+    environ.c
+    os2unarj.mak
+    qclunarj.mak
+    readme.txt
+    tccunarj.mak
+    technote.txt
+    turboc.cfg
+    unarj.c
+    unarj.exe
+    unarj.h
+    unarj.txt
+    unarj32.exe
+
+A patch to allow extraction of named files to stdout has been applied,
+as in the previous releases of unarj.
+
+-- Steve McIntyre <93sam@debian.org> -- current Debian unarj maintainer.
+25 Dec 2002

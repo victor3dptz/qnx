@@ -1,0 +1,236 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:PackageName>gtk-dev-1.2.10-bld3-public</QPM:PackageName>
+            <QPM:PackageSize>105718</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/02/17</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:PackageModel>dev</QPM:PackageModel>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>GNU gtk Development</QPM:ProductName>
+            <QPM:ProductSize>610464</QPM:ProductSize>
+            <QPM:ProductIdentifier>gtk-dev</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>GNU</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.gnu.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>gtk is a GUI toolkit.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>gtk is a GUI toolkit, this is the X11 version of gtk.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.gtk.org/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/gtk/dev-1.2.10-bld3</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/02/17</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>1.2.10</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>3</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU Lesser General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://gtk-1.2.10-bld3-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Software Development/Libraries and Extensions/C Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>gtk,gdk,glib</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>X11R6</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>Must include at least one development package targeting a specific processor (Packager-generated dependency).</QPM:Notes>
+               <QPM:Filter>
+                  <QPM:FilterType>StringExpression</QPM:FilterType>
+                  <ProductIdentifier>gtk-dev-target*</ProductIdentifier>
+               </QPM:Filter>
+            </QPM:Dependency>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="include">
+                     <QPM:Dir name="gtk-1.2">
+                        <QPM:Dir name="gdk">
+                           <QPM:File>gdk.h</QPM:File>
+                           <QPM:File>gdkcursors.h</QPM:File>
+                           <QPM:File>gdki18n.h</QPM:File>
+                           <QPM:File>gdkkeysyms.h</QPM:File>
+                           <QPM:File>gdkprivate.h</QPM:File>
+                           <QPM:File>gdkrgb.h</QPM:File>
+                           <QPM:File>gdktypes.h</QPM:File>
+                           <QPM:File>gdkx.h</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="gtk">
+                           <QPM:File>gtk.h</QPM:File>
+                           <QPM:File>gtkaccelgroup.h</QPM:File>
+                           <QPM:File>gtkaccellabel.h</QPM:File>
+                           <QPM:File>gtkadjustment.h</QPM:File>
+                           <QPM:File>gtkalignment.h</QPM:File>
+                           <QPM:File>gtkarg.h</QPM:File>
+                           <QPM:File>gtkarrow.h</QPM:File>
+                           <QPM:File>gtkaspectframe.h</QPM:File>
+                           <QPM:File>gtkbbox.h</QPM:File>
+                           <QPM:File>gtkbin.h</QPM:File>
+                           <QPM:File>gtkbindings.h</QPM:File>
+                           <QPM:File>gtkbox.h</QPM:File>
+                           <QPM:File>gtkbutton.h</QPM:File>
+                           <QPM:File>gtkcalendar.h</QPM:File>
+                           <QPM:File>gtkcheckbutton.h</QPM:File>
+                           <QPM:File>gtkcheckmenuitem.h</QPM:File>
+                           <QPM:File>gtkclist.h</QPM:File>
+                           <QPM:File>gtkcolorsel.h</QPM:File>
+                           <QPM:File>gtkcombo.h</QPM:File>
+                           <QPM:File>gtkcompat.h</QPM:File>
+                           <QPM:File>gtkcontainer.h</QPM:File>
+                           <QPM:File>gtkctree.h</QPM:File>
+                           <QPM:File>gtkcurve.h</QPM:File>
+                           <QPM:File>gtkdata.h</QPM:File>
+                           <QPM:File>gtkdebug.h</QPM:File>
+                           <QPM:File>gtkdialog.h</QPM:File>
+                           <QPM:File>gtkdnd.h</QPM:File>
+                           <QPM:File>gtkdrawingarea.h</QPM:File>
+                           <QPM:File>gtkeditable.h</QPM:File>
+                           <QPM:File>gtkentry.h</QPM:File>
+                           <QPM:File>gtkenums.h</QPM:File>
+                           <QPM:File>gtkeventbox.h</QPM:File>
+                           <QPM:File>gtkfeatures.h</QPM:File>
+                           <QPM:File>gtkfilesel.h</QPM:File>
+                           <QPM:File>gtkfixed.h</QPM:File>
+                           <QPM:File>gtkfontsel.h</QPM:File>
+                           <QPM:File>gtkframe.h</QPM:File>
+                           <QPM:File>gtkgamma.h</QPM:File>
+                           <QPM:File>gtkgc.h</QPM:File>
+                           <QPM:File>gtkhandlebox.h</QPM:File>
+                           <QPM:File>gtkhbbox.h</QPM:File>
+                           <QPM:File>gtkhbox.h</QPM:File>
+                           <QPM:File>gtkhpaned.h</QPM:File>
+                           <QPM:File>gtkhruler.h</QPM:File>
+                           <QPM:File>gtkhscale.h</QPM:File>
+                           <QPM:File>gtkhscrollbar.h</QPM:File>
+                           <QPM:File>gtkhseparator.h</QPM:File>
+                           <QPM:File>gtkimage.h</QPM:File>
+                           <QPM:File>gtkinputdialog.h</QPM:File>
+                           <QPM:File>gtkinvisible.h</QPM:File>
+                           <QPM:File>gtkitem.h</QPM:File>
+                           <QPM:File>gtkitemfactory.h</QPM:File>
+                           <QPM:File>gtklabel.h</QPM:File>
+                           <QPM:File>gtklayout.h</QPM:File>
+                           <QPM:File>gtklist.h</QPM:File>
+                           <QPM:File>gtklistitem.h</QPM:File>
+                           <QPM:File>gtkmain.h</QPM:File>
+                           <QPM:File>gtkmarshal.h</QPM:File>
+                           <QPM:File>gtkmenu.h</QPM:File>
+                           <QPM:File>gtkmenubar.h</QPM:File>
+                           <QPM:File>gtkmenufactory.h</QPM:File>
+                           <QPM:File>gtkmenuitem.h</QPM:File>
+                           <QPM:File>gtkmenushell.h</QPM:File>
+                           <QPM:File>gtkmisc.h</QPM:File>
+                           <QPM:File>gtknotebook.h</QPM:File>
+                           <QPM:File>gtkobject.h</QPM:File>
+                           <QPM:File>gtkoptionmenu.h</QPM:File>
+                           <QPM:File>gtkpacker.h</QPM:File>
+                           <QPM:File>gtkpaned.h</QPM:File>
+                           <QPM:File>gtkpixmap.h</QPM:File>
+                           <QPM:File>gtkplug.h</QPM:File>
+                           <QPM:File>gtkpreview.h</QPM:File>
+                           <QPM:File>gtkprivate.h</QPM:File>
+                           <QPM:File>gtkprogress.h</QPM:File>
+                           <QPM:File>gtkprogressbar.h</QPM:File>
+                           <QPM:File>gtkradiobutton.h</QPM:File>
+                           <QPM:File>gtkradiomenuitem.h</QPM:File>
+                           <QPM:File>gtkrange.h</QPM:File>
+                           <QPM:File>gtkrc.h</QPM:File>
+                           <QPM:File>gtkruler.h</QPM:File>
+                           <QPM:File>gtkscale.h</QPM:File>
+                           <QPM:File>gtkscrollbar.h</QPM:File>
+                           <QPM:File>gtkscrolledwindow.h</QPM:File>
+                           <QPM:File>gtkselection.h</QPM:File>
+                           <QPM:File>gtkseparator.h</QPM:File>
+                           <QPM:File>gtksignal.h</QPM:File>
+                           <QPM:File>gtksocket.h</QPM:File>
+                           <QPM:File>gtkspinbutton.h</QPM:File>
+                           <QPM:File>gtkstatusbar.h</QPM:File>
+                           <QPM:File>gtkstyle.h</QPM:File>
+                           <QPM:File>gtktable.h</QPM:File>
+                           <QPM:File>gtktearoffmenuitem.h</QPM:File>
+                           <QPM:File>gtktext.h</QPM:File>
+                           <QPM:File>gtkthemes.h</QPM:File>
+                           <QPM:File>gtktipsquery.h</QPM:File>
+                           <QPM:File>gtktogglebutton.h</QPM:File>
+                           <QPM:File>gtktoolbar.h</QPM:File>
+                           <QPM:File>gtktooltips.h</QPM:File>
+                           <QPM:File>gtktree.h</QPM:File>
+                           <QPM:File>gtktreeitem.h</QPM:File>
+                           <QPM:File>gtktypebuiltins.h</QPM:File>
+                           <QPM:File>gtktypeutils.h</QPM:File>
+                           <QPM:File>gtkvbbox.h</QPM:File>
+                           <QPM:File>gtkvbox.h</QPM:File>
+                           <QPM:File>gtkviewport.h</QPM:File>
+                           <QPM:File>gtkvpaned.h</QPM:File>
+                           <QPM:File>gtkvruler.h</QPM:File>
+                           <QPM:File>gtkvscale.h</QPM:File>
+                           <QPM:File>gtkvscrollbar.h</QPM:File>
+                           <QPM:File>gtkvseparator.h</QPM:File>
+                           <QPM:File>gtkwidget.h</QPM:File>
+                           <QPM:File>gtkwindow.h</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Dir name="include">
+                     <QPM:Dir name="gtk-1.2">
+                        <QPM:Union link="../../../opt/include/gtk-1.2/gtk">gtk</QPM:Union>
+                        <QPM:Union link="../../../opt/include/gtk-1.2/gdk">gdk</QPM:Union>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

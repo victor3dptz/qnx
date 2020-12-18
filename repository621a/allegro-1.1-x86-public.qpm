@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>allegro-1.1-x86-public</QPM:PackageName>
+            <QPM:PackageSize>14460</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>3</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseNotes/>
+            <QPM:PackageReleaseUrgency>Medium</QPM:PackageReleaseUrgency>
+            <QPM:PackageReleaseDate>2003/03/07</QPM:PackageReleaseDate>
+            <QPM:PackageRepository>http://home.attbi.com/~kovalenko/qnx/ess/allegro-1.0-x86-public.qpr</QPM:PackageRepository>
+            <QPM:FileVersion>1.9</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>ESS Maestro-3/Allegro Driver for x86</QPM:ProductName>
+            <QPM:ProductSize>47971</QPM:ProductSize>
+            <QPM:ProductIdentifier>allegro-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail>kovalenko@attbi.com</QPM:ProductEmail>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://home.attbi.com/~kovalenko/qnx</QPM:VendorURL>
+            <QPM:VendorEmbedURL>http://home.attbi.com/~kovalenko/qnx</QPM:VendorEmbedURL>
+            <QPM:VendorEmail>kovalenko@attbi.com</QPM:VendorEmail>
+            <QPM:AuthorName>Igor Kovalenko</QPM:AuthorName>
+            <QPM:AuthorURL/>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>ESS Maestro-3/Allegro/Canoyn3D-2 driver</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Audio driver for ESS Technology Maestro-3/Allegro/Canyon3D-2 chips (ES1988/1989/1998/1999/199a/199b/1990/1992)</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://home.attbi.com/~kovalenko/qnx</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL>http://home.attbi.com/~kovalenko/qnx/ess</QPM:ProductDescriptionEmbedURL>
+            <QPM:InstallPath>public/allegro/core-1.1/x86</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/02/10</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>1.1</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>High</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Beta</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor>Tested on ES1998 and ES1990</QPM:ReleaseNoteMinor>
+            <QPM:ReleaseNoteMajor>Added support for Canyon3D-2 chips</QPM:ReleaseNoteMajor>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://allegro-1.1-public.repdata/LicenseUrl/LICENSE</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>allegro</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>System/Device Specific/Sound and Multimedia</QPM:ContentTopic>
+            <QPM:ContentKeyword>ESS,Maestro-3,Allegro,Canyon3D-2 driver</QPM:ContentKeyword>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+            <QPM:ContainsLibrary>deva-ctrl-allegro.so</QPM:ContainsLibrary>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements>Maestro-3/Allegro/Canyon3D-2 based soundcard</QPM:ProductRequirements>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure/>
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="lib">
+                  <QPM:Dir name="dll">
+                     <QPM:File>deva-ctrl-allegro.so</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

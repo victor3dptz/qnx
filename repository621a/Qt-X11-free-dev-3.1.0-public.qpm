@@ -1,0 +1,680 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:PackageName>Qt-X11-free-dev-3.1.0-public</QPM:PackageName>
+            <QPM:PackageSize>319478</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>2</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseNotes/>
+            <QPM:PackageReleaseUrgency>Medium</QPM:PackageReleaseUrgency>
+            <QPM:PackageReleaseDate>2002/12/16</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:PackageModel>dev</QPM:PackageModel>
+            <QPM:FileVersion>1.9</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Qt/X11-free Development</QPM:ProductName>
+            <QPM:ProductSize>1918828</QPM:ProductSize>
+            <QPM:ProductIdentifier>Qt-X11-free-dev</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://sourceforge.net/projects/openqnx</QPM:VendorURL>
+            <QPM:VendorEmbedURL>http://sourceforge.net/projects/openqnx</QPM:VendorEmbedURL>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Trolltech</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.trolltech.com</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL>http://www.trolltech.com</QPM:AuthorEmbedURL>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>QNX 6.2 port of Qt/X11-f1.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong/>
+            <QPM:ProductDescriptionURL>http://www.trolltech.com</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL>http://www.trolltech.com</QPM:ProductDescriptionEmbedURL>
+            <QPM:InstallPath>public/Qt-X11-free/dev-3.1.0</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/12/16</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>3.1.0</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>http://www.trolltech.com/developer/licensing/index.html</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Software Development/Libraries and Extensions/C++ Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>GUI, QT, C++, user-interface</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>qnx6</QPM:HostOS>
+            <QPM:DisplayEnvironment>X11R6</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>Must include at least one development package targeting a specific processor (Packager-generated dependency).</QPM:Notes>
+               <QPM:Filter>
+                  <QPM:FilterType>StringExpression</QPM:FilterType>
+                  <ProductIdentifier>Qt-X11-free-dev-target*</ProductIdentifier>
+               </QPM:Filter>
+            </QPM:Dependency>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="X11R6">
+                     <QPM:Dir name="qt3">
+                        <QPM:Dir name="include">
+                           <QPM:Dir name="private">
+                              <QPM:File>qapplication_p.h</QPM:File>
+                              <QPM:File>qcolor_p.h</QPM:File>
+                              <QPM:File>qcom_p.h</QPM:File>
+                              <QPM:File>qcomlibrary_p.h</QPM:File>
+                              <QPM:File>qcomplextext_p.h</QPM:File>
+                              <QPM:File>qcomponentfactory_p.h</QPM:File>
+                              <QPM:File>qcriticalsection_p.h</QPM:File>
+                              <QPM:File>qdir_p.h</QPM:File>
+                              <QPM:File>qeffects_p.h</QPM:File>
+                              <QPM:File>qeventloop_p.h</QPM:File>
+                              <QPM:File>qfiledefs_p.h</QPM:File>
+                              <QPM:File>qfontcodecs_p.h</QPM:File>
+                              <QPM:File>qfontdata_p.h</QPM:File>
+                              <QPM:File>qgfxdriverinterface_p.h</QPM:File>
+                              <QPM:File>qgpluginmanager_p.h</QPM:File>
+                              <QPM:File>qimageformatinterface_p.h</QPM:File>
+                              <QPM:File>qinputcontext_p.h</QPM:File>
+                              <QPM:File>qinternal_p.h</QPM:File>
+                              <QPM:File>qkbddriverinterface_p.h</QPM:File>
+                              <QPM:File>qlayoutengine_p.h</QPM:File>
+                              <QPM:File>qlibrary_p.h</QPM:File>
+                              <QPM:File>qlock_p.h</QPM:File>
+                              <QPM:File>qmousedriverinterface_p.h</QPM:File>
+                              <QPM:File>qmutex_p.h</QPM:File>
+                              <QPM:File>qmutexpool_p.h</QPM:File>
+                              <QPM:File>qpainter_p.h</QPM:File>
+                              <QPM:File>qpluginmanager_p.h</QPM:File>
+                              <QPM:File>qpsprinter_p.h</QPM:File>
+                              <QPM:File>qrichtext_p.h</QPM:File>
+                              <QPM:File>qsettings_p.h</QPM:File>
+                              <QPM:File>qsharedmemory_p.h</QPM:File>
+                              <QPM:File>qsqldriverinterface_p.h</QPM:File>
+                              <QPM:File>qsqlextension_p.h</QPM:File>
+                              <QPM:File>qsqlmanager_p.h</QPM:File>
+                              <QPM:File>qstyleinterface_p.h</QPM:File>
+                              <QPM:File>qsvgdevice_p.h</QPM:File>
+                              <QPM:File>qtextcodecinterface_p.h</QPM:File>
+                              <QPM:File>qtitlebar_p.h</QPM:File>
+                              <QPM:File>qucom_p.h</QPM:File>
+                              <QPM:File>qucomextra_p.h</QPM:File>
+                              <QPM:File>qwidget_p.h</QPM:File>
+                              <QPM:File>qwidgetinterface_p.h</QPM:File>
+                              <QPM:File>qwidgetresizehandler_p.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>q1xcompatibility.h</QPM:File>
+                           <QPM:File>qabstractlayout.h</QPM:File>
+                           <QPM:File>qaccel.h</QPM:File>
+                           <QPM:File>qaccessible.h</QPM:File>
+                           <QPM:File>qaction.h</QPM:File>
+                           <QPM:File>qapp.h</QPM:File>
+                           <QPM:File>qapplication.h</QPM:File>
+                           <QPM:File>qarray.h</QPM:File>
+                           <QPM:File>qasciicache.h</QPM:File>
+                           <QPM:File>qasciidict.h</QPM:File>
+                           <QPM:File>qassistantclient.h</QPM:File>
+                           <QPM:File>qasyncimageio.h</QPM:File>
+                           <QPM:File>qasyncio.h</QPM:File>
+                           <QPM:File>qbig5codec.h</QPM:File>
+                           <QPM:File>qbitarray.h</QPM:File>
+                           <QPM:File>qbitarry.h</QPM:File>
+                           <QPM:File>qbitmap.h</QPM:File>
+                           <QPM:File>qbrush.h</QPM:File>
+                           <QPM:File>qbttngrp.h</QPM:File>
+                           <QPM:File>qbuffer.h</QPM:File>
+                           <QPM:File>qbutton.h</QPM:File>
+                           <QPM:File>qbuttongroup.h</QPM:File>
+                           <QPM:File>qcache.h</QPM:File>
+                           <QPM:File>qcanvas.h</QPM:File>
+                           <QPM:File>qcdestyle.h</QPM:File>
+                           <QPM:File>qcheckbox.h</QPM:File>
+                           <QPM:File>qchkbox.h</QPM:File>
+                           <QPM:File>qcleanuphandler.h</QPM:File>
+                           <QPM:File>qclipboard.h</QPM:File>
+                           <QPM:File>qclipbrd.h</QPM:File>
+                           <QPM:File>qcollect.h</QPM:File>
+                           <QPM:File>qcollection.h</QPM:File>
+                           <QPM:File>qcolor.h</QPM:File>
+                           <QPM:File>qcolordialog.h</QPM:File>
+                           <QPM:File>qcombo.h</QPM:File>
+                           <QPM:File>qcombobox.h</QPM:File>
+                           <QPM:File>qcommonstyle.h</QPM:File>
+                           <QPM:File>qcompactstyle.h</QPM:File>
+                           <QPM:File>qconfig-dist.h</QPM:File>
+                           <QPM:File>qconfig-large.h</QPM:File>
+                           <QPM:File>qconfig-medium.h</QPM:File>
+                           <QPM:File>qconfig-minimal.h</QPM:File>
+                           <QPM:File>qconfig-small.h</QPM:File>
+                           <QPM:File>qconfig.h</QPM:File>
+                           <QPM:File>qconnect.h</QPM:File>
+                           <QPM:File>qconnection.h</QPM:File>
+                           <QPM:File>qcstring.h</QPM:File>
+                           <QPM:File>qcursor.h</QPM:File>
+                           <QPM:File>qdatabrowser.h</QPM:File>
+                           <QPM:File>qdatastream.h</QPM:File>
+                           <QPM:File>qdatatable.h</QPM:File>
+                           <QPM:File>qdataview.h</QPM:File>
+                           <QPM:File>qdatetime.h</QPM:File>
+                           <QPM:File>qdatetimeedit.h</QPM:File>
+                           <QPM:File>qdatetm.h</QPM:File>
+                           <QPM:File>qdeepcopy.h</QPM:File>
+                           <QPM:File>qdesktopwidget.h</QPM:File>
+                           <QPM:File>qdial.h</QPM:File>
+                           <QPM:File>qdialog.h</QPM:File>
+                           <QPM:File>qdict.h</QPM:File>
+                           <QPM:File>qdir.h</QPM:File>
+                           <QPM:File>qdns.h</QPM:File>
+                           <QPM:File>qdockarea.h</QPM:File>
+                           <QPM:File>qdockwindow.h</QPM:File>
+                           <QPM:File>qdom.h</QPM:File>
+                           <QPM:File>qdragobject.h</QPM:File>
+                           <QPM:File>qdrawutil.h</QPM:File>
+                           <QPM:File>qdrawutl.h</QPM:File>
+                           <QPM:File>qdropsite.h</QPM:File>
+                           <QPM:File>qdstream.h</QPM:File>
+                           <QPM:File>qeditorfactory.h</QPM:File>
+                           <QPM:File>qerrormessage.h</QPM:File>
+                           <QPM:File>qeucjpcodec.h</QPM:File>
+                           <QPM:File>qeuckrcodec.h</QPM:File>
+                           <QPM:File>qevent.h</QPM:File>
+                           <QPM:File>qeventloop.h</QPM:File>
+                           <QPM:File>qfeatures.h</QPM:File>
+                           <QPM:File>qfile.h</QPM:File>
+                           <QPM:File>qfiledef.h</QPM:File>
+                           <QPM:File>qfiledialog.h</QPM:File>
+                           <QPM:File>qfiledlg.h</QPM:File>
+                           <QPM:File>qfileinf.h</QPM:File>
+                           <QPM:File>qfileinfo.h</QPM:File>
+                           <QPM:File>qfocusdata.h</QPM:File>
+                           <QPM:File>qfont.h</QPM:File>
+                           <QPM:File>qfontdatabase.h</QPM:File>
+                           <QPM:File>qfontdialog.h</QPM:File>
+                           <QPM:File>qfontinf.h</QPM:File>
+                           <QPM:File>qfontinfo.h</QPM:File>
+                           <QPM:File>qfontmet.h</QPM:File>
+                           <QPM:File>qfontmetrics.h</QPM:File>
+                           <QPM:File>qframe.h</QPM:File>
+                           <QPM:File>qftp.h</QPM:File>
+                           <QPM:File>qgarray.h</QPM:File>
+                           <QPM:File>qgb18030codec.h</QPM:File>
+                           <QPM:File>qgbkcodec.h</QPM:File>
+                           <QPM:File>qgcache.h</QPM:File>
+                           <QPM:File>qgdict.h</QPM:File>
+                           <QPM:File>qgeneric.h</QPM:File>
+                           <QPM:File>qgif.h</QPM:File>
+                           <QPM:File>qgl.h</QPM:File>
+                           <QPM:File>qglcolormap.h</QPM:File>
+                           <QPM:File>qglist.h</QPM:File>
+                           <QPM:File>qglobal.h</QPM:File>
+                           <QPM:File>qgplugin.h</QPM:File>
+                           <QPM:File>qgrid.h</QPM:File>
+                           <QPM:File>qgridview.h</QPM:File>
+                           <QPM:File>qgroupbox.h</QPM:File>
+                           <QPM:File>qgrpbox.h</QPM:File>
+                           <QPM:File>qguardedptr.h</QPM:File>
+                           <QPM:File>qgvector.h</QPM:File>
+                           <QPM:File>qhbox.h</QPM:File>
+                           <QPM:File>qhbuttongroup.h</QPM:File>
+                           <QPM:File>qheader.h</QPM:File>
+                           <QPM:File>qhgroupbox.h</QPM:File>
+                           <QPM:File>qhostaddress.h</QPM:File>
+                           <QPM:File>qhttp.h</QPM:File>
+                           <QPM:File>qiconset.h</QPM:File>
+                           <QPM:File>qiconview.h</QPM:File>
+                           <QPM:File>qimage.h</QPM:File>
+                           <QPM:File>qimageformatplugin.h</QPM:File>
+                           <QPM:File>qinputdialog.h</QPM:File>
+                           <QPM:File>qintcach.h</QPM:File>
+                           <QPM:File>qintcache.h</QPM:File>
+                           <QPM:File>qintdict.h</QPM:File>
+                           <QPM:File>qinterlacestyle.h</QPM:File>
+                           <QPM:File>qiodev.h</QPM:File>
+                           <QPM:File>qiodevice.h</QPM:File>
+                           <QPM:File>qjiscodec.h</QPM:File>
+                           <QPM:File>qjpegio.h</QPM:File>
+                           <QPM:File>qjpunicode.h</QPM:File>
+                           <QPM:File>qkeycode.h</QPM:File>
+                           <QPM:File>qkeysequence.h</QPM:File>
+                           <QPM:File>qlabel.h</QPM:File>
+                           <QPM:File>qlayout.h</QPM:File>
+                           <QPM:File>qlcdnum.h</QPM:File>
+                           <QPM:File>qlcdnumber.h</QPM:File>
+                           <QPM:File>qlibrary.h</QPM:File>
+                           <QPM:File>qlined.h</QPM:File>
+                           <QPM:File>qlineedit.h</QPM:File>
+                           <QPM:File>qlist.h</QPM:File>
+                           <QPM:File>qlistbox.h</QPM:File>
+                           <QPM:File>qlistview.h</QPM:File>
+                           <QPM:File>qlocalfs.h</QPM:File>
+                           <QPM:File>qmainwindow.h</QPM:File>
+                           <QPM:File>qmap.h</QPM:File>
+                           <QPM:File>qmemarray.h</QPM:File>
+                           <QPM:File>qmenubar.h</QPM:File>
+                           <QPM:File>qmenudata.h</QPM:File>
+                           <QPM:File>qmenudta.h</QPM:File>
+                           <QPM:File>qmessagebox.h</QPM:File>
+                           <QPM:File>qmetaobj.h</QPM:File>
+                           <QPM:File>qmetaobject.h</QPM:File>
+                           <QPM:File>qmime.h</QPM:File>
+                           <QPM:File>qmlined.h</QPM:File>
+                           <QPM:File>qmngio.h</QPM:File>
+                           <QPM:File>qmodules.h</QPM:File>
+                           <QPM:File>qmotif.h</QPM:File>
+                           <QPM:File>qmotifdialog.h</QPM:File>
+                           <QPM:File>qmotifplusstyle.h</QPM:File>
+                           <QPM:File>qmotifstyle.h</QPM:File>
+                           <QPM:File>qmotifwidget.h</QPM:File>
+                           <QPM:File>qmovie.h</QPM:File>
+                           <QPM:File>qmsgbox.h</QPM:File>
+                           <QPM:File>qmultilinedit.h</QPM:File>
+                           <QPM:File>qmultilineedit.h</QPM:File>
+                           <QPM:File>qmutex.h</QPM:File>
+                           <QPM:File>qnamespace.h</QPM:File>
+                           <QPM:File>qnetwork.h</QPM:File>
+                           <QPM:File>qnetworkprotocol.h</QPM:File>
+                           <QPM:File>qobjcoll.h</QPM:File>
+                           <QPM:File>qobjdefs.h</QPM:File>
+                           <QPM:File>qobject.h</QPM:File>
+                           <QPM:File>qobjectcleanuphandler.h</QPM:File>
+                           <QPM:File>qobjectdefs.h</QPM:File>
+                           <QPM:File>qobjectdict.h</QPM:File>
+                           <QPM:File>qobjectlist.h</QPM:File>
+                           <QPM:File>qpaintd.h</QPM:File>
+                           <QPM:File>qpaintdc.h</QPM:File>
+                           <QPM:File>qpaintdevice.h</QPM:File>
+                           <QPM:File>qpaintdevicedefs.h</QPM:File>
+                           <QPM:File>qpaintdevicemetrics.h</QPM:File>
+                           <QPM:File>qpainter.h</QPM:File>
+                           <QPM:File>qpair.h</QPM:File>
+                           <QPM:File>qpalette.h</QPM:File>
+                           <QPM:File>qpdevmet.h</QPM:File>
+                           <QPM:File>qpen.h</QPM:File>
+                           <QPM:File>qpicture.h</QPM:File>
+                           <QPM:File>qpixmap.h</QPM:File>
+                           <QPM:File>qpixmapcache.h</QPM:File>
+                           <QPM:File>qplatinumstyle.h</QPM:File>
+                           <QPM:File>qpmcache.h</QPM:File>
+                           <QPM:File>qpngio.h</QPM:File>
+                           <QPM:File>qpntarry.h</QPM:File>
+                           <QPM:File>qpoint.h</QPM:File>
+                           <QPM:File>qpointarray.h</QPM:File>
+                           <QPM:File>qpolygonscanner.h</QPM:File>
+                           <QPM:File>qpopmenu.h</QPM:File>
+                           <QPM:File>qpopupmenu.h</QPM:File>
+                           <QPM:File>qprintdialog.h</QPM:File>
+                           <QPM:File>qprinter.h</QPM:File>
+                           <QPM:File>qprndlg.h</QPM:File>
+                           <QPM:File>qprocess.h</QPM:File>
+                           <QPM:File>qprogbar.h</QPM:File>
+                           <QPM:File>qprogdlg.h</QPM:File>
+                           <QPM:File>qprogressbar.h</QPM:File>
+                           <QPM:File>qprogressdialog.h</QPM:File>
+                           <QPM:File>qpsprn.h</QPM:File>
+                           <QPM:File>qptrcollection.h</QPM:File>
+                           <QPM:File>qptrdict.h</QPM:File>
+                           <QPM:File>qptrlist.h</QPM:File>
+                           <QPM:File>qptrqueue.h</QPM:File>
+                           <QPM:File>qptrstack.h</QPM:File>
+                           <QPM:File>qptrvector.h</QPM:File>
+                           <QPM:File>qpushbt.h</QPM:File>
+                           <QPM:File>qpushbutton.h</QPM:File>
+                           <QPM:File>qqueue.h</QPM:File>
+                           <QPM:File>qradiobt.h</QPM:File>
+                           <QPM:File>qradiobutton.h</QPM:File>
+                           <QPM:File>qrangecontrol.h</QPM:File>
+                           <QPM:File>qrangect.h</QPM:File>
+                           <QPM:File>qrect.h</QPM:File>
+                           <QPM:File>qregexp.h</QPM:File>
+                           <QPM:File>qregion.h</QPM:File>
+                           <QPM:File>qrtlcodec.h</QPM:File>
+                           <QPM:File>qscrbar.h</QPM:File>
+                           <QPM:File>qscrollbar.h</QPM:File>
+                           <QPM:File>qscrollview.h</QPM:File>
+                           <QPM:File>qsemaphore.h</QPM:File>
+                           <QPM:File>qsemimodal.h</QPM:File>
+                           <QPM:File>qserversocket.h</QPM:File>
+                           <QPM:File>qsession.h</QPM:File>
+                           <QPM:File>qsessionmanager.h</QPM:File>
+                           <QPM:File>qsettings.h</QPM:File>
+                           <QPM:File>qsgistyle.h</QPM:File>
+                           <QPM:File>qshared.h</QPM:File>
+                           <QPM:File>qsignal.h</QPM:File>
+                           <QPM:File>qsignalmapper.h</QPM:File>
+                           <QPM:File>qsignalslotimp.h</QPM:File>
+                           <QPM:File>qsimplerichtext.h</QPM:File>
+                           <QPM:File>qsize.h</QPM:File>
+                           <QPM:File>qsizegrip.h</QPM:File>
+                           <QPM:File>qsizepolicy.h</QPM:File>
+                           <QPM:File>qsjiscodec.h</QPM:File>
+                           <QPM:File>qslider.h</QPM:File>
+                           <QPM:File>qsocket.h</QPM:File>
+                           <QPM:File>qsocketdevice.h</QPM:File>
+                           <QPM:File>qsocketnotifier.h</QPM:File>
+                           <QPM:File>qsocknot.h</QPM:File>
+                           <QPM:File>qsortedlist.h</QPM:File>
+                           <QPM:File>qsound.h</QPM:File>
+                           <QPM:File>qspinbox.h</QPM:File>
+                           <QPM:File>qsplitter.h</QPM:File>
+                           <QPM:File>qsql.h</QPM:File>
+                           <QPM:File>qsqlcursor.h</QPM:File>
+                           <QPM:File>qsqldatabase.h</QPM:File>
+                           <QPM:File>qsqldriver.h</QPM:File>
+                           <QPM:File>qsqldriverplugin.h</QPM:File>
+                           <QPM:File>qsqleditorfactory.h</QPM:File>
+                           <QPM:File>qsqlerror.h</QPM:File>
+                           <QPM:File>qsqlfield.h</QPM:File>
+                           <QPM:File>qsqlform.h</QPM:File>
+                           <QPM:File>qsqlindex.h</QPM:File>
+                           <QPM:File>qsqlpropertymap.h</QPM:File>
+                           <QPM:File>qsqlquery.h</QPM:File>
+                           <QPM:File>qsqlrecord.h</QPM:File>
+                           <QPM:File>qsqlresult.h</QPM:File>
+                           <QPM:File>qstack.h</QPM:File>
+                           <QPM:File>qstatusbar.h</QPM:File>
+                           <QPM:File>qstring.h</QPM:File>
+                           <QPM:File>qstringlist.h</QPM:File>
+                           <QPM:File>qstrlist.h</QPM:File>
+                           <QPM:File>qstrvec.h</QPM:File>
+                           <QPM:File>qstyle.h</QPM:File>
+                           <QPM:File>qstylefactory.h</QPM:File>
+                           <QPM:File>qstyleplugin.h</QPM:File>
+                           <QPM:File>qstylesheet.h</QPM:File>
+                           <QPM:File>qsyntaxhighlighter.h</QPM:File>
+                           <QPM:File>qt.h</QPM:File>
+                           <QPM:File>qt_x11.h</QPM:File>
+                           <QPM:File>qtabbar.h</QPM:File>
+                           <QPM:File>qtabdialog.h</QPM:File>
+                           <QPM:File>qtabdlg.h</QPM:File>
+                           <QPM:File>qtable.h</QPM:File>
+                           <QPM:File>qtabwidget.h</QPM:File>
+                           <QPM:File>qtextbrowser.h</QPM:File>
+                           <QPM:File>qtextcodec.h</QPM:File>
+                           <QPM:File>qtextcodecfactory.h</QPM:File>
+                           <QPM:File>qtextcodecplugin.h</QPM:File>
+                           <QPM:File>qtextedit.h</QPM:File>
+                           <QPM:File>qtextstream.h</QPM:File>
+                           <QPM:File>qtextview.h</QPM:File>
+                           <QPM:File>qthread.h</QPM:File>
+                           <QPM:File>qtimer.h</QPM:File>
+                           <QPM:File>qtl.h</QPM:File>
+                           <QPM:File>qtmultilineedit.h</QPM:File>
+                           <QPM:File>qtoolbar.h</QPM:File>
+                           <QPM:File>qtoolbutton.h</QPM:File>
+                           <QPM:File>qtooltip.h</QPM:File>
+                           <QPM:File>qtranslator.h</QPM:File>
+                           <QPM:File>qtsciicodec.h</QPM:File>
+                           <QPM:File>qtstream.h</QPM:File>
+                           <QPM:File>qttableview.h</QPM:File>
+                           <QPM:File>qurl.h</QPM:File>
+                           <QPM:File>qurlinfo.h</QPM:File>
+                           <QPM:File>qurloperator.h</QPM:File>
+                           <QPM:File>qutfcodec.h</QPM:File>
+                           <QPM:File>quuid.h</QPM:File>
+                           <QPM:File>qvalidator.h</QPM:File>
+                           <QPM:File>qvaluelist.h</QPM:File>
+                           <QPM:File>qvaluestack.h</QPM:File>
+                           <QPM:File>qvaluevector.h</QPM:File>
+                           <QPM:File>qvariant.h</QPM:File>
+                           <QPM:File>qvbox.h</QPM:File>
+                           <QPM:File>qvbuttongroup.h</QPM:File>
+                           <QPM:File>qvector.h</QPM:File>
+                           <QPM:File>qvfbhdr.h</QPM:File>
+                           <QPM:File>qvgroupbox.h</QPM:File>
+                           <QPM:File>qwaitcondition.h</QPM:File>
+                           <QPM:File>qwhatsthis.h</QPM:File>
+                           <QPM:File>qwidcoll.h</QPM:File>
+                           <QPM:File>qwidget.h</QPM:File>
+                           <QPM:File>qwidgetfactory.h</QPM:File>
+                           <QPM:File>qwidgetintdict.h</QPM:File>
+                           <QPM:File>qwidgetlist.h</QPM:File>
+                           <QPM:File>qwidgetplugin.h</QPM:File>
+                           <QPM:File>qwidgetstack.h</QPM:File>
+                           <QPM:File>qwindefs.h</QPM:File>
+                           <QPM:File>qwindow.h</QPM:File>
+                           <QPM:File>qwindowdefs.h</QPM:File>
+                           <QPM:File>qwindowsstyle.h</QPM:File>
+                           <QPM:File>qwindowsxpstyle.h</QPM:File>
+                           <QPM:File>qwizard.h</QPM:File>
+                           <QPM:File>qwmatrix.h</QPM:File>
+                           <QPM:File>qworkspace.h</QPM:File>
+                           <QPM:File>qxml.h</QPM:File>
+                           <QPM:File>qxtwidget.h</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="mkspecs">
+                           <QPM:Dir name="aix-g++">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="aix-xlc">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="aix-xlc-64">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="bsdi-g++">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="cygwin-g++">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="darwin-g++">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="dgux-g++">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="freebsd-g++">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="hpux-acc">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="hpux-acc-64">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="hpux-acc-o64">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="hpux-cc">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="hpux-g++">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="hurd-g++">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="irix-cc">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="irix-cc-64">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="irix-cc-o32">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="irix-g++">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="linux-cxx">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="linux-g++">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="linux-icc">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="linux-kcc">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="linux-pgcc">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="mac9-mwerks">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="macx-g++">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="macx-mwerks">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="macx-pbuilder">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="netbsd-g++">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="openbsd-g++">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="qnx-cc">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="qnx-g++">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="reliant-cds">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="reliant-cds-64">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="sco-cc">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="sco-g++">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="solaris-cc">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="solaris-cc-64">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="solaris-g++">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="solaris-g++-64">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="solaris-kcc">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="tru64-cxx">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="tru64-g++">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="unixware-cc">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="unixware-g++">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="win32-borland">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="win32-icc">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="win32-msvc">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="win32-msvc.net">
+                              <QPM:File>qplatformdefs.h</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

@@ -1,0 +1,195 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Development</QPM:PackageType>
+            <QPM:PackageName>autoconf-2.57-public</QPM:PackageName>
+            <QPM:PackageSize>543990</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2002/12/31</QPM:PackageReleaseDate>
+            <QPM:PackageRepository>http://qnx.wox.org/repository/6.2.1/</QPM:PackageRepository>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>GNU autoconf</QPM:ProductName>
+            <QPM:ProductSize>1923244</QPM:ProductSize>
+            <QPM:ProductIdentifier>autoconf</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>GNU</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.gnu.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>autoconf is a build tool.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Autoconf is part of the GNU build toolset.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.gnu.org/projects/autoconf/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/autoconf/core-2.57</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/12/31</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>2.57</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://autoconf-2.57-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Software Development/Build Tools</QPM:ContentTopic>
+            <QPM:ContentKeyword>autoconf,automake,gnu</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>autoconf needs m4.</QPM:Notes>
+               <QPM:Product>m4</QPM:Product>
+               <QPM:Vendor>public</QPM:Vendor>
+               <QPM:ProductHomeRepository/>
+            </QPM:Dependency>
+
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>autoconf needs perl.</QPM:Notes>
+               <QPM:Product>perl</QPM:Product>
+               <QPM:Vendor>public</QPM:Vendor>
+               <QPM:ProductHomeRepository/>
+            </QPM:Dependency>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="bin">
+                     <QPM:File>autoconf</QPM:File>
+                     <QPM:File>autoheader</QPM:File>
+                     <QPM:File>autom4te</QPM:File>
+                     <QPM:File>autoreconf</QPM:File>
+                     <QPM:File>autoscan</QPM:File>
+                     <QPM:File>autoupdate</QPM:File>
+                     <QPM:File>ifnames</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="info">
+                     <QPM:File>autoconf.info</QPM:File>
+                     <QPM:File>standards.info</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="man">
+                     <QPM:Dir name="man1">
+                        <QPM:File>autoconf.1</QPM:File>
+                        <QPM:File>autoheader.1</QPM:File>
+                        <QPM:File>autom4te.1</QPM:File>
+                        <QPM:File>autoreconf.1</QPM:File>
+                        <QPM:File>autoscan.1</QPM:File>
+                        <QPM:File>autoupdate.1</QPM:File>
+                        <QPM:File>config.guess.1</QPM:File>
+                        <QPM:File>config.sub.1</QPM:File>
+                        <QPM:File>ifnames.1</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="autoconf">
+                        <QPM:Dir name="Autom4te">
+                           <QPM:File>General.pm</QPM:File>
+                           <QPM:File>Struct.pm</QPM:File>
+                           <QPM:File>XFile.pm</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>INSTALL</QPM:File>
+                        <QPM:Dir name="autoconf">
+                           <QPM:File>autoconf.m4</QPM:File>
+                           <QPM:File>autoconf.m4f</QPM:File>
+                           <QPM:File>autoheader.m4</QPM:File>
+                           <QPM:File>autoscan.m4</QPM:File>
+                           <QPM:File>autotest.m4</QPM:File>
+                           <QPM:File>autoupdate.m4</QPM:File>
+                           <QPM:File>c.m4</QPM:File>
+                           <QPM:File>fortran.m4</QPM:File>
+                           <QPM:File>functions.m4</QPM:File>
+                           <QPM:File>general.m4</QPM:File>
+                           <QPM:File>headers.m4</QPM:File>
+                           <QPM:File>lang.m4</QPM:File>
+                           <QPM:File>libs.m4</QPM:File>
+                           <QPM:File>oldnames.m4</QPM:File>
+                           <QPM:File>programs.m4</QPM:File>
+                           <QPM:File>specific.m4</QPM:File>
+                           <QPM:File>status.m4</QPM:File>
+                           <QPM:File>types.m4</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>autom4te.cfg</QPM:File>
+                        <QPM:Dir name="autoscan">
+                           <QPM:File>autoscan.list</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="autotest">
+                           <QPM:File>autotest.m4</QPM:File>
+                           <QPM:File>autotest.m4f</QPM:File>
+                           <QPM:File>general.m4</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="m4sugar">
+                           <QPM:File>m4sh.m4</QPM:File>
+                           <QPM:File>m4sh.m4f</QPM:File>
+                           <QPM:File>m4sugar.m4</QPM:File>
+                           <QPM:File>m4sugar.m4f</QPM:File>
+                           <QPM:File>version.m4</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../opt/info">info</QPM:Union>
+                  <QPM:Union link="../opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="man">
+                     <QPM:Union link="../../opt/man/man1">man1</QPM:Union>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Union link="../../opt/share/autoconf">autoconf</QPM:Union>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

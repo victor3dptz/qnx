@@ -1,0 +1,460 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>jed-0.99.11-public</QPM:PackageName>
+            <QPM:PackageSize>587987</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>5</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseNotes/>
+            <QPM:PackageReleaseUrgency>Low</QPM:PackageReleaseUrgency>
+            <QPM:PackageReleaseDate>2002/05/17</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>1.9</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>JED Macro Editor</QPM:ProductName>
+            <QPM:ProductSize>2567723</QPM:ProductSize>
+            <QPM:ProductIdentifier>jed</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL>www.gnu.org</QPM:VendorEmbedURL>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>John E. Davis</QPM:AuthorName>
+            <QPM:AuthorURL>http://space.mit.edu/~davis</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>JED Programmers editor</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong/>
+            <QPM:ProductDescriptionURL>http://space.mit.edu/~davis/jed</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/jed/core-0.99.11</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2000/08/07</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>0.99.11</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Low</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+            <QPM:ReleaseCopyrightURL>rep://LicenseUrl/LICENSE</QPM:ReleaseCopyrightURL>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://jed-0.99.11-public.repdata/LicenseUrl/LICENSE</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Text Editing and Processing/Text Editors</QPM:ContentTopic>
+            <QPM:ContentKeyword>editors, jed</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Use</QPM:ScriptType>
+            </QPM:Script>
+
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Unuse</QPM:ScriptType>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="usr">
+                  <QPM:Dir name="help">
+                     <QPM:Dir name="product">
+                        <QPM:Dir name="JED">
+                           <QPM:File>bookset.html</QPM:File>
+                           <QPM:File>both.toc</QPM:File>
+                           <QPM:Dir name="jed">
+                              <QPM:File>char_index.html</QPM:File>
+                              <QPM:File>index.html</QPM:File>
+                              <QPM:File>jed_abbrev.html</QPM:File>
+                              <QPM:File>jed_blocal.html</QPM:File>
+                              <QPM:File>jed_buffer.html</QPM:File>
+                              <QPM:File>jed_color.html</QPM:File>
+                              <QPM:File>jed_eval.html</QPM:File>
+                              <QPM:File>jed_file.html</QPM:File>
+                              <QPM:File>jed_hidden.html</QPM:File>
+                              <QPM:File>jed_info.html</QPM:File>
+                              <QPM:File>jed_insdel.html</QPM:File>
+                              <QPM:File>jed_keys.html</QPM:File>
+                              <QPM:File>jed_mark.html</QPM:File>
+                              <QPM:File>jed_menu.html</QPM:File>
+                              <QPM:File>jed_message.html</QPM:File>
+                              <QPM:File>jed_mini.html</QPM:File>
+                              <QPM:File>jed_misc.html</QPM:File>
+                              <QPM:File>jed_mouse.html</QPM:File>
+                              <QPM:File>jed_move.html</QPM:File>
+                              <QPM:File>jed_process.html</QPM:File>
+                              <QPM:File>jed_rect.html</QPM:File>
+                              <QPM:File>jed_region.html</QPM:File>
+                              <QPM:File>jed_search.html</QPM:File>
+                              <QPM:File>jed_syntax.html</QPM:File>
+                              <QPM:File>jed_terminal.html</QPM:File>
+                              <QPM:File>jed_window.html</QPM:File>
+                              <QPM:File>stylesheet.css</QPM:File>
+                              <QPM:File>toc_index</QPM:File>
+                              <QPM:File>topic_index.toc</QPM:File>
+                              <QPM:File>topic_index.toc~</QPM:File>
+                              <QPM:File>word_index.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>jed.toc</QPM:File>
+                           <QPM:Dir name="jedslang">
+                              <QPM:File>char_index.html</QPM:File>
+                              <QPM:File>index.html</QPM:File>
+                              <QPM:File>jed_abbrev.html</QPM:File>
+                              <QPM:File>jed_blocal.html</QPM:File>
+                              <QPM:File>jed_buffer.html</QPM:File>
+                              <QPM:File>jed_color.html</QPM:File>
+                              <QPM:File>jed_eval.html</QPM:File>
+                              <QPM:File>jed_file.html</QPM:File>
+                              <QPM:File>jed_hidden.html</QPM:File>
+                              <QPM:File>jed_info.html</QPM:File>
+                              <QPM:File>jed_insdel.html</QPM:File>
+                              <QPM:File>jed_keys.html</QPM:File>
+                              <QPM:File>jed_mark.html</QPM:File>
+                              <QPM:File>jed_menu.html</QPM:File>
+                              <QPM:File>jed_message.html</QPM:File>
+                              <QPM:File>jed_mini.html</QPM:File>
+                              <QPM:File>jed_misc.html</QPM:File>
+                              <QPM:File>jed_mouse.html</QPM:File>
+                              <QPM:File>jed_move.html</QPM:File>
+                              <QPM:File>jed_process.html</QPM:File>
+                              <QPM:File>jed_rect.html</QPM:File>
+                              <QPM:File>jed_region.html</QPM:File>
+                              <QPM:File>jed_search.html</QPM:File>
+                              <QPM:File>jed_syntax.html</QPM:File>
+                              <QPM:File>jed_terminal.html</QPM:File>
+                              <QPM:File>jed_window.html</QPM:File>
+                              <QPM:File>slang_array.html</QPM:File>
+                              <QPM:File>slang_assoc.html</QPM:File>
+                              <QPM:File>slang_bstr.html</QPM:File>
+                              <QPM:File>slang_debug.html</QPM:File>
+                              <QPM:File>slang_dir.html</QPM:File>
+                              <QPM:File>slang_eval.html</QPM:File>
+                              <QPM:File>slang_firstpage.html</QPM:File>
+                              <QPM:File>slang_import.html</QPM:File>
+                              <QPM:File>slang_info.html</QPM:File>
+                              <QPM:File>slang_math.html</QPM:File>
+                              <QPM:File>slang_message.html</QPM:File>
+                              <QPM:File>slang_misc.html</QPM:File>
+                              <QPM:File>slang_ospath.html</QPM:File>
+                              <QPM:File>slang_posio.html</QPM:File>
+                              <QPM:File>slang_posix.html</QPM:File>
+                              <QPM:File>slang_stack.html</QPM:File>
+                              <QPM:File>slang_stdio.html</QPM:File>
+                              <QPM:File>slang_strops.html</QPM:File>
+                              <QPM:File>slang_struct.html</QPM:File>
+                              <QPM:File>slang_time.html</QPM:File>
+                              <QPM:File>slang_type.html</QPM:File>
+                              <QPM:File>stylesheet.css</QPM:File>
+                              <QPM:File>toc_index</QPM:File>
+                              <QPM:File>topic_index.toc</QPM:File>
+                              <QPM:File>topic_index.toc~</QPM:File>
+                              <QPM:File>word_index.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="slang">
+                              <QPM:File>char_index.html</QPM:File>
+                              <QPM:File>index.html</QPM:File>
+                              <QPM:File>slang_array.html</QPM:File>
+                              <QPM:File>slang_assoc.html</QPM:File>
+                              <QPM:File>slang_bstr.html</QPM:File>
+                              <QPM:File>slang_debug.html</QPM:File>
+                              <QPM:File>slang_dir.html</QPM:File>
+                              <QPM:File>slang_eval.html</QPM:File>
+                              <QPM:File>slang_firstpage.html</QPM:File>
+                              <QPM:File>slang_import.html</QPM:File>
+                              <QPM:File>slang_info.html</QPM:File>
+                              <QPM:File>slang_math.html</QPM:File>
+                              <QPM:File>slang_message.html</QPM:File>
+                              <QPM:File>slang_misc.html</QPM:File>
+                              <QPM:File>slang_ospath.html</QPM:File>
+                              <QPM:File>slang_posio.html</QPM:File>
+                              <QPM:File>slang_posix.html</QPM:File>
+                              <QPM:File>slang_stack.html</QPM:File>
+                              <QPM:File>slang_stdio.html</QPM:File>
+                              <QPM:File>slang_strops.html</QPM:File>
+                              <QPM:File>slang_struct.html</QPM:File>
+                              <QPM:File>slang_time.html</QPM:File>
+                              <QPM:File>slang_type.html</QPM:File>
+                              <QPM:File>stylesheet.css</QPM:File>
+                              <QPM:File>toc_index</QPM:File>
+                              <QPM:File>topic_index.toc</QPM:File>
+                              <QPM:File>topic_index.toc~</QPM:File>
+                              <QPM:File>word_index.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>slang.toc</QPM:File>
+                           <QPM:File>toc_index</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>JED.toc</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="local">
+                     <QPM:Union link="../../$(PROCESSOR)/usr/local/bin">bin</QPM:Union>
+                     <QPM:Dir name="jed">
+                        <QPM:Dir name="bin"/>
+                        <QPM:Dir name="doc">
+                           <QPM:File>README</QPM:File>
+                           <QPM:File>abbrev.txt</QPM:File>
+                           <QPM:File>color.txt</QPM:File>
+                           <QPM:File>compile.txt</QPM:File>
+                           <QPM:File>dfa.txt</QPM:File>
+                           <QPM:File>edt.txt</QPM:File>
+                           <QPM:File>emacs.txt</QPM:File>
+                           <QPM:File>filelock.txt</QPM:File>
+                           <QPM:File>fold.txt</QPM:File>
+                           <QPM:File>hooks.txt</QPM:File>
+                           <QPM:File>ide-mode.txt</QPM:File>
+                           <QPM:File>jed.tex</QPM:File>
+                           <QPM:File>jed_faq.txt</QPM:File>
+                           <QPM:File>jedfuns.txt</QPM:File>
+                           <QPM:File>libfuns.txt</QPM:File>
+                           <QPM:File>menus.txt</QPM:File>
+                           <QPM:File>mouse.txt</QPM:File>
+                           <QPM:File>pc-keys.txt</QPM:File>
+                           <QPM:File>program.txt</QPM:File>
+                           <QPM:File>rgrep.txt</QPM:File>
+                           <QPM:File>rmail.txt</QPM:File>
+                           <QPM:File>script.txt</QPM:File>
+                           <QPM:File>slangfun.txt</QPM:File>
+                           <QPM:File>syntax.txt</QPM:File>
+                           <QPM:File>undo.txt</QPM:File>
+                           <QPM:File>wjed.txt</QPM:File>
+                           <QPM:File>wordstar.txt</QPM:File>
+                           <QPM:File>xjed.txt</QPM:File>
+                           <QPM:File>yankpop.txt</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="info">
+                           <QPM:File>dir.info</QPM:File>
+                           <QPM:File>info.info</QPM:File>
+                           <QPM:File>jed.1in</QPM:File>
+                           <QPM:File>jed.2in</QPM:File>
+                           <QPM:File>jed.3in</QPM:File>
+                           <QPM:File>jed.info</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="lib">
+                           <QPM:File>abbrev.sl</QPM:File>
+                           <QPM:File>abbrmisc.sl</QPM:File>
+                           <QPM:File>aboutjed.hlp</QPM:File>
+                           <QPM:File>acompile.sl</QPM:File>
+                           <QPM:File>aprocess.sl</QPM:File>
+                           <QPM:File>ashell.sl</QPM:File>
+                           <QPM:File>backups.sl</QPM:File>
+                           <QPM:File>bibtex.sl</QPM:File>
+                           <QPM:File>binary.sl</QPM:File>
+                           <QPM:File>bookmark.sl</QPM:File>
+                           <QPM:File>brief.sl</QPM:File>
+                           <QPM:File>buf.sl</QPM:File>
+                           <QPM:File>bufed.sl</QPM:File>
+                           <QPM:File>bytecomp.sl</QPM:File>
+                           <QPM:File>cal.sl</QPM:File>
+                           <QPM:File>chglog.sl</QPM:File>
+                           <QPM:File>cmisc.sl</QPM:File>
+                           <QPM:File>cmode.sl</QPM:File>
+                           <QPM:Dir name="colors">
+                              <QPM:File>README</QPM:File>
+                              <QPM:File>black1.sl</QPM:File>
+                              <QPM:File>black2.sl</QPM:File>
+                              <QPM:File>black3.sl</QPM:File>
+                              <QPM:File>blue1.sl</QPM:File>
+                              <QPM:File>blue2.sl</QPM:File>
+                              <QPM:File>default1.sl</QPM:File>
+                              <QPM:File>white1.sl</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>compat.sl</QPM:File>
+                           <QPM:File>compile.sl</QPM:File>
+                           <QPM:File>compress.sl</QPM:File>
+                           <QPM:File>cpright.hlp</QPM:File>
+                           <QPM:File>ctags.sl</QPM:File>
+                           <QPM:File>dabbrev.sl</QPM:File>
+                           <QPM:File>dcl.sl</QPM:File>
+                           <QPM:File>defaults.sl</QPM:File>
+                           <QPM:File>digraph.sl</QPM:File>
+                           <QPM:File>dired.sl</QPM:File>
+                           <QPM:File>dos437.sl</QPM:File>
+                           <QPM:File>dos850.sl</QPM:File>
+                           <QPM:File>edt.hlp</QPM:File>
+                           <QPM:File>edt.sl</QPM:File>
+                           <QPM:File>emacs.hlp</QPM:File>
+                           <QPM:File>emacs.sl</QPM:File>
+                           <QPM:File>emacsmsc.sl</QPM:File>
+                           <QPM:File>emul.sl</QPM:File>
+                           <QPM:File>f90.sl</QPM:File>
+                           <QPM:File>ff90.sl</QPM:File>
+                           <QPM:File>filter.sl</QPM:File>
+                           <QPM:File>folding.sl</QPM:File>
+                           <QPM:File>fortran.sl</QPM:File>
+                           <QPM:File>generic.hlp</QPM:File>
+                           <QPM:File>help.sl</QPM:File>
+                           <QPM:File>history.sl</QPM:File>
+                           <QPM:File>hooks.sl</QPM:File>
+                           <QPM:File>html.sl</QPM:File>
+                           <QPM:File>ide.hlp</QPM:File>
+                           <QPM:File>ide.sl</QPM:File>
+                           <QPM:File>idl.sl</QPM:File>
+                           <QPM:File>info.sl</QPM:File>
+                           <QPM:File>isearch.sl</QPM:File>
+                           <QPM:File>iso-lat2.sl</QPM:File>
+                           <QPM:File>iso-lat3.sl</QPM:File>
+                           <QPM:File>iso-latin.sl</QPM:File>
+                           <QPM:File>iso2xxx.sl</QPM:File>
+                           <QPM:File>ispell.sl</QPM:File>
+                           <QPM:File>javamode.sl</QPM:File>
+                           <QPM:File>jed.hlp</QPM:File>
+                           <QPM:File>jed.rc</QPM:File>
+                           <QPM:File>jedhelp.sl</QPM:File>
+                           <QPM:File>keycode.sl</QPM:File>
+                           <QPM:File>krconv.sl</QPM:File>
+                           <QPM:File>latex.sl</QPM:File>
+                           <QPM:File>latex209.sl</QPM:File>
+                           <QPM:File>linux.sl</QPM:File>
+                           <QPM:File>lisp.sl</QPM:File>
+                           <QPM:File>ltx-comp.dat</QPM:File>
+                           <QPM:File>ltx-math.sl</QPM:File>
+                           <QPM:File>macro.sl</QPM:File>
+                           <QPM:File>mail.sl</QPM:File>
+                           <QPM:File>mailalias.sl</QPM:File>
+                           <QPM:File>man.sl</QPM:File>
+                           <QPM:File>maple.sl</QPM:File>
+                           <QPM:File>matlab.sl</QPM:File>
+                           <QPM:File>menu.sl</QPM:File>
+                           <QPM:File>menus.sl</QPM:File>
+                           <QPM:File>mime.sl</QPM:File>
+                           <QPM:File>mini.sl</QPM:File>
+                           <QPM:File>minued.sl</QPM:File>
+                           <QPM:File>misc.sl</QPM:File>
+                           <QPM:File>mkdoc.sl</QPM:File>
+                           <QPM:File>mktex.sl</QPM:File>
+                           <QPM:File>modehook.sl</QPM:File>
+                           <QPM:File>modeinfo.sl</QPM:File>
+                           <QPM:File>most.sl</QPM:File>
+                           <QPM:File>mouse.sl</QPM:File>
+                           <QPM:File>mousex.sl</QPM:File>
+                           <QPM:File>mswmouse.sl</QPM:File>
+                           <QPM:File>mutekeys.sl</QPM:File>
+                           <QPM:File>nroff.sl</QPM:File>
+                           <QPM:File>occur.sl</QPM:File>
+                           <QPM:File>os.sl</QPM:File>
+                           <QPM:File>perl.sl</QPM:File>
+                           <QPM:File>pipe.sl</QPM:File>
+                           <QPM:File>popups.sl</QPM:File>
+                           <QPM:File>preparse.sl</QPM:File>
+                           <QPM:File>pscript.sl</QPM:File>
+                           <QPM:File>pushmode.sl</QPM:File>
+                           <QPM:File>pymode.sl</QPM:File>
+                           <QPM:File>rcs.sl</QPM:File>
+                           <QPM:File>regexp.sl</QPM:File>
+                           <QPM:File>register.sl</QPM:File>
+                           <QPM:File>replace.sl</QPM:File>
+                           <QPM:File>rmail.sl</QPM:File>
+                           <QPM:File>rot13.sl</QPM:File>
+                           <QPM:File>search.sl</QPM:File>
+                           <QPM:File>seldisp.sl</QPM:File>
+                           <QPM:File>sendmail.sl</QPM:File>
+                           <QPM:File>sgml.sl</QPM:File>
+                           <QPM:File>shell.sl</QPM:File>
+                           <QPM:File>shmode.sl</QPM:File>
+                           <QPM:File>simple.hlp</QPM:File>
+                           <QPM:File>site.sl</QPM:File>
+                           <QPM:File>slmode.sl</QPM:File>
+                           <QPM:File>sort.sl</QPM:File>
+                           <QPM:File>sortmisc.sl</QPM:File>
+                           <QPM:File>spicemod.sl</QPM:File>
+                           <QPM:File>srchmisc.sl</QPM:File>
+                           <QPM:File>syntax.sl</QPM:File>
+                           <QPM:File>tabs.sl</QPM:File>
+                           <QPM:File>tclmode.sl</QPM:File>
+                           <QPM:File>tex.sl</QPM:File>
+                           <QPM:File>texcom.sl</QPM:File>
+                           <QPM:File>textmac.sl</QPM:File>
+                           <QPM:File>textmode.sl</QPM:File>
+                           <QPM:File>tiasm.sl</QPM:File>
+                           <QPM:Dir name="tm">
+                              <QPM:File>linuxdoc.tm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>tm2sgml.sl</QPM:File>
+                           <QPM:File>tmisc.sl</QPM:File>
+                           <QPM:File>tpascal.sl</QPM:File>
+                           <QPM:File>untab.sl</QPM:File>
+                           <QPM:File>util.sl</QPM:File>
+                           <QPM:File>verilog.sl</QPM:File>
+                           <QPM:File>vhdlmode.sl</QPM:File>
+                           <QPM:File>vmshelp.sl</QPM:File>
+                           <QPM:File>wmark.sl</QPM:File>
+                           <QPM:File>wmenu.sl</QPM:File>
+                           <QPM:File>wordstar.hlp</QPM:File>
+                           <QPM:File>wordstar.sl</QPM:File>
+                           <QPM:File>yankpop.sl</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="man">
+                     <QPM:Dir name="man1">
+                        <QPM:File>jed.1</QPM:File>
+                        <QPM:File>rgrep.1</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+
+      <QPM:Launch name="Jed">
+         <QPM:String name="Topic" value="Applications/Editors"/>
+         <QPM:String name="Command" value="pterm /usr/local/bin/jed"/>
+      </QPM:Launch>
+   </RDF:Description>
+</RDF:RDF>

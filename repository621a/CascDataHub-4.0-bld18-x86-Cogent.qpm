@@ -1,0 +1,109 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageName>CascDataHub-4.0-bld18-x86-Cogent</QPM:PackageName>
+            <QPM:PackageSize>269307</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2002/05/27</QPM:PackageReleaseDate>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageRepository>http://developers.cogentrts.com/repository</QPM:PackageRepository>
+            <QPM:PackageModel>dev</QPM:PackageModel>
+            <QPM:FileVersion>1.01</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>815347</QPM:ProductSize>
+            <QPM:InstallPath>Cogent/CascDataHub/core-4.0-bld18/x86</QPM:InstallPath>
+            <QPM:ProductName>Cascade DataHub for x86</QPM:ProductName>
+            <QPM:ProductIdentifier>CascDataHub-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail>support@cogent.ca</QPM:ProductEmail>
+            <QPM:ProductURL>http://www.cogent.ca/Software/DataHub.html</QPM:ProductURL>
+            <QPM:VendorName>Cogent Real-Time Systems Inc.</QPM:VendorName>
+            <QPM:VendorInstallName>Cogent</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.cogent.ca</QPM:VendorURL>
+            <QPM:VendorEmbedURL>http://www.cogent.ca/Software/DataHub.html</QPM:VendorEmbedURL>
+            <QPM:VendorEmail>info@cogent.ca</QPM:VendorEmail>
+            <QPM:AuthorName>Cogent Real-Time Systems Inc.</QPM:AuthorName>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Cascade DataHub</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>This is the Cascade DataHub, a real-time data collection and redistribution mechanism designed to act as the central point of data access in a control or embedded system.  The Cascade DataHub works with Cogent&apos;s tools, including Cascade Connect, Gamma, and the Hilscher CIF fieldbus driver.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.cogent.ca/Software/DataHub.html</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL>http://developers.cogentrts.com/repository/html/rep_datahub.html</QPM:ProductDescriptionEmbedURL>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/05/27</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>4.0</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor>QNX6 Port</QPM:ReleaseNoteMinor>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>18</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>CascDataHub</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:RequiresLibrary>libsocket.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libm.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libph.so.2</QPM:RequiresLibrary>
+            <QPM:ContentTopic>Cogent/Communication and Connectivity</QPM:ContentTopic>
+            <QPM:ContentKeyword>cogent,api,cascade,gamma,driver,datahub</QPM:ContentKeyword>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:LicenseUrl>rep://CascDataHub-4.0-bld18-Cogent.repdata/LicenseUrl/COMBINE_LICENSE</QPM:LicenseUrl>
+         <QPM:ProductInstallationProcedure>
+            <QPM:OrderDependency>
+               <QPM:Order>InstallOver</QPM:Order>
+               <QPM:Product>CogentAPI-dev</QPM:Product>
+            </QPM:OrderDependency>
+         </QPM:ProductInstallationProcedure>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="usr">
+                  <QPM:Dir name="cogent">
+                     <QPM:Dir name="bin">
+                        <QPM:File>datahub</QPM:File>
+                        <QPM:File>dhdump</QPM:File>
+                        <QPM:File>dhview</QPM:File>
+                        <QPM:File>lput</QPM:File>
+                        <QPM:File>lsend</QPM:File>
+                        <QPM:File>nserve</QPM:File>
+                        <QPM:File>nsnames</QPM:File>
+                        <QPM:File>phdhview</QPM:File>
+                        <QPM:File>qserve</QPM:File>
+                        <QPM:File>readpt</QPM:File>
+                        <QPM:File>waiter</QPM:File>
+                        <QPM:File>writept</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

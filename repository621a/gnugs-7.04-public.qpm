@@ -1,0 +1,473 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>gnugs-7.04-public</QPM:PackageName>
+            <QPM:PackageSize>1513314</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>2</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseNotes/>
+            <QPM:PackageReleaseUrgency>Medium</QPM:PackageReleaseUrgency>
+            <QPM:PackageReleaseDate>2003/01/27</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>GNU Ghostscript</QPM:ProductName>
+            <QPM:ProductSize>5095374</QPM:ProductSize>
+            <QPM:ProductIdentifier>gnugs</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>artofcode LLC</QPM:AuthorName>
+            <QPM:AuthorURL/>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Utilities for manipulating and using PDF and PS documents.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Ghostscript is a set of utilities and libraries for manipulating and using Portable Document Format (PDF) and PostScript (PS) documents.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.ghostscript.com</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/gnugs/core-7.04</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/12/27</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>7.04</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://gnugs-7.04-public.repdata/LicenseUrl/COPYING.txt</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Text Editing and Processing/Viewing and Formatting</QPM:ContentTopic>
+            <QPM:ContentKeyword>pdf, ps, gs</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="bin">
+                     <QPM:File>bdftops</QPM:File>
+                     <QPM:File>dvipdf</QPM:File>
+                     <QPM:File>eps2eps</QPM:File>
+                     <QPM:File>fixmswrd.pl</QPM:File>
+                     <QPM:File>font2c</QPM:File>
+                     <QPM:File>gsbj</QPM:File>
+                     <QPM:File>gsdj</QPM:File>
+                     <QPM:File>gsdj500</QPM:File>
+                     <QPM:File>gslj</QPM:File>
+                     <QPM:File>gslp</QPM:File>
+                     <QPM:File>gsnd</QPM:File>
+                     <QPM:File>lprsetup.sh</QPM:File>
+                     <QPM:File>pdf2dsc</QPM:File>
+                     <QPM:File>pdf2ps</QPM:File>
+                     <QPM:File>pdfopt</QPM:File>
+                     <QPM:File>pf2afm</QPM:File>
+                     <QPM:File>pfbtopfa</QPM:File>
+                     <QPM:File>pj-gs.sh</QPM:File>
+                     <QPM:File>printafm</QPM:File>
+                     <QPM:File>ps2ascii</QPM:File>
+                     <QPM:File>ps2epsi</QPM:File>
+                     <QPM:File>ps2pdf</QPM:File>
+                     <QPM:File>ps2pdf12</QPM:File>
+                     <QPM:File>ps2pdf13</QPM:File>
+                     <QPM:File>ps2pdfwr</QPM:File>
+                     <QPM:File>ps2ps</QPM:File>
+                     <QPM:File>pv.sh</QPM:File>
+                     <QPM:File>sysvlp.sh</QPM:File>
+                     <QPM:File>unix-lpr.sh</QPM:File>
+                     <QPM:File>wftopfa</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="man">
+                     <QPM:Dir name="de">
+                        <QPM:Dir name="man1">
+                           <QPM:File>ansi2knr.1</QPM:File>
+                           <QPM:File>dvipdf.1</QPM:File>
+                           <QPM:Link link="ps2ps.1">eps2eps.1</QPM:Link>
+                           <QPM:File>font2c.1</QPM:File>
+                           <QPM:File>gsnd.1</QPM:File>
+                           <QPM:File>pdf2dsc.1</QPM:File>
+                           <QPM:File>pdf2ps.1</QPM:File>
+                           <QPM:File>pdfopt.1</QPM:File>
+                           <QPM:File>printafm.1</QPM:File>
+                           <QPM:File>ps2ascii.1</QPM:File>
+                           <QPM:File>ps2pdf.1</QPM:File>
+                           <QPM:Link link="ps2pdf.1">ps2pdf12.1</QPM:Link>
+                           <QPM:Link link="ps2pdf.1">ps2pdf13.1</QPM:Link>
+                           <QPM:File>ps2ps.1</QPM:File>
+                           <QPM:File>wftopfa.1</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="man1">
+                        <QPM:File>ansi2knr.1</QPM:File>
+                        <QPM:File>dvipdf.1</QPM:File>
+                        <QPM:Link link="ps2ps.1">eps2eps.1</QPM:Link>
+                        <QPM:File>font2c.1</QPM:File>
+                        <QPM:File>gs.1</QPM:File>
+                        <QPM:Link link="gslp.1">gsbj.1</QPM:Link>
+                        <QPM:Link link="gslp.1">gsdj.1</QPM:Link>
+                        <QPM:Link link="gslp.1">gsdj500.1</QPM:Link>
+                        <QPM:Link link="gslp.1">gslj.1</QPM:Link>
+                        <QPM:File>gslp.1</QPM:File>
+                        <QPM:File>gsnd.1</QPM:File>
+                        <QPM:File>pdf2dsc.1</QPM:File>
+                        <QPM:File>pdf2ps.1</QPM:File>
+                        <QPM:File>pdfopt.1</QPM:File>
+                        <QPM:File>pf2afm.1</QPM:File>
+                        <QPM:File>pfbtopfa.1</QPM:File>
+                        <QPM:File>printafm.1</QPM:File>
+                        <QPM:File>ps2ascii.1</QPM:File>
+                        <QPM:File>ps2epsi.1</QPM:File>
+                        <QPM:File>ps2pdf.1</QPM:File>
+                        <QPM:Link link="ps2pdf.1">ps2pdf12.1</QPM:Link>
+                        <QPM:Link link="ps2pdf.1">ps2pdf13.1</QPM:Link>
+                        <QPM:File>ps2pdfwr.1</QPM:File>
+                        <QPM:File>ps2ps.1</QPM:File>
+                        <QPM:File>wftopfa.1</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="ghostscript">
+                        <QPM:Dir name="7.04">
+                           <QPM:Dir name="doc">
+                              <QPM:File>API.htm</QPM:File>
+                              <QPM:File>Bug-form.htm</QPM:File>
+                              <QPM:File>Bug-info.htm</QPM:File>
+                              <QPM:File>C-style.htm</QPM:File>
+                              <QPM:File>Changes.htm</QPM:File>
+                              <QPM:File>Commprod.htm</QPM:File>
+                              <QPM:File>Copying.htm</QPM:File>
+                              <QPM:File>Current.htm</QPM:File>
+                              <QPM:File>DLL.htm</QPM:File>
+                              <QPM:File>Develop.htm</QPM:File>
+                              <QPM:File>Devices.htm</QPM:File>
+                              <QPM:File>Drivers.htm</QPM:File>
+                              <QPM:File>Fonts.htm</QPM:File>
+                              <QPM:File>Helpers.htm</QPM:File>
+                              <QPM:File>Hershey.htm</QPM:File>
+                              <QPM:File>History1.htm</QPM:File>
+                              <QPM:File>History2.htm</QPM:File>
+                              <QPM:File>History3.htm</QPM:File>
+                              <QPM:File>History4.htm</QPM:File>
+                              <QPM:File>History5.htm</QPM:File>
+                              <QPM:File>History6.htm</QPM:File>
+                              <QPM:File>History7.htm</QPM:File>
+                              <QPM:File>Htmstyle.htm</QPM:File>
+                              <QPM:File>Humor.htm</QPM:File>
+                              <QPM:File>Install.htm</QPM:File>
+                              <QPM:File>Issues.htm</QPM:File>
+                              <QPM:File>Language.htm</QPM:File>
+                              <QPM:File>Lib.htm</QPM:File>
+                              <QPM:File>Maintain.htm</QPM:File>
+                              <QPM:File>Make.htm</QPM:File>
+                              <QPM:File>New-user.htm</QPM:File>
+                              <QPM:File>News.htm</QPM:File>
+                              <QPM:File>PUBLIC</QPM:File>
+                              <QPM:File>Projects.htm</QPM:File>
+                              <QPM:File>Ps-style.htm</QPM:File>
+                              <QPM:File>Ps2epsi.htm</QPM:File>
+                              <QPM:File>Ps2pdf.htm</QPM:File>
+                              <QPM:File>Psfiles.htm</QPM:File>
+                              <QPM:File>Public.htm</QPM:File>
+                              <QPM:File>README</QPM:File>
+                              <QPM:File>Readme.htm</QPM:File>
+                              <QPM:File>Release.htm</QPM:File>
+                              <QPM:File>Source.htm</QPM:File>
+                              <QPM:File>Tester.htm</QPM:File>
+                              <QPM:File>Unix-lpr.htm</QPM:File>
+                              <QPM:File>Use.htm</QPM:File>
+                              <QPM:File>Xfonts.htm</QPM:File>
+                              <QPM:File>gs.css</QPM:File>
+                              <QPM:File>index.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="examples">
+                              <QPM:File>alphabet.ps</QPM:File>
+                              <QPM:File>chess.ps</QPM:File>
+                              <QPM:File>colorcir.ps</QPM:File>
+                              <QPM:File>doretree.ps</QPM:File>
+                              <QPM:File>escher.ps</QPM:File>
+                              <QPM:File>golfer.ps</QPM:File>
+                              <QPM:File>grayalph.ps</QPM:File>
+                              <QPM:File>ridt91.eps</QPM:File>
+                              <QPM:File>snowflak.ps</QPM:File>
+                              <QPM:File>tiger.ps</QPM:File>
+                              <QPM:File>vasarely.ps</QPM:File>
+                              <QPM:File>waterfal.ps</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="lib">
+                              <QPM:File>Fontmap</QPM:File>
+                              <QPM:File>Fontmap.GS</QPM:File>
+                              <QPM:File>acctest.ps</QPM:File>
+                              <QPM:File>addxchar.ps</QPM:File>
+                              <QPM:File>align.ps</QPM:File>
+                              <QPM:File>bdftops.ps</QPM:File>
+                              <QPM:File>bj8.rpd</QPM:File>
+                              <QPM:File>bj8gc12f.upp</QPM:File>
+                              <QPM:File>bj8hg12f.upp</QPM:File>
+                              <QPM:File>bj8oh06n.upp</QPM:File>
+                              <QPM:File>bj8pa06n.upp</QPM:File>
+                              <QPM:File>bj8pp12f.upp</QPM:File>
+                              <QPM:File>bj8ts06n.upp</QPM:File>
+                              <QPM:File>bjc610a0.upp</QPM:File>
+                              <QPM:File>bjc610a1.upp</QPM:File>
+                              <QPM:File>bjc610a2.upp</QPM:File>
+                              <QPM:File>bjc610a3.upp</QPM:File>
+                              <QPM:File>bjc610a4.upp</QPM:File>
+                              <QPM:File>bjc610a5.upp</QPM:File>
+                              <QPM:File>bjc610a6.upp</QPM:File>
+                              <QPM:File>bjc610a7.upp</QPM:File>
+                              <QPM:File>bjc610a8.upp</QPM:File>
+                              <QPM:File>bjc610b1.upp</QPM:File>
+                              <QPM:File>bjc610b2.upp</QPM:File>
+                              <QPM:File>bjc610b3.upp</QPM:File>
+                              <QPM:File>bjc610b4.upp</QPM:File>
+                              <QPM:File>bjc610b6.upp</QPM:File>
+                              <QPM:File>bjc610b7.upp</QPM:File>
+                              <QPM:File>bjc610b8.upp</QPM:File>
+                              <QPM:File>caption.ps</QPM:File>
+                              <QPM:File>cbjc600.ppd</QPM:File>
+                              <QPM:File>cbjc800.ppd</QPM:File>
+                              <QPM:File>cdj550.upp</QPM:File>
+                              <QPM:File>cdj690.upp</QPM:File>
+                              <QPM:File>cdj690ec.upp</QPM:File>
+                              <QPM:File>cid2code.ps</QPM:File>
+                              <QPM:File>decrypt.ps</QPM:File>
+                              <QPM:File>dnj750c.upp</QPM:File>
+                              <QPM:File>dnj750m.upp</QPM:File>
+                              <QPM:File>docie.ps</QPM:File>
+                              <QPM:File>errpage.ps</QPM:File>
+                              <QPM:File>font2c.ps</QPM:File>
+                              <QPM:File>font2pcl.ps</QPM:File>
+                              <QPM:File>gs_agl.ps</QPM:File>
+                              <QPM:File>gs_btokn.ps</QPM:File>
+                              <QPM:File>gs_ccfnt.ps</QPM:File>
+                              <QPM:File>gs_ce_e.ps</QPM:File>
+                              <QPM:File>gs_cff.ps</QPM:File>
+                              <QPM:File>gs_cidcm.ps</QPM:File>
+                              <QPM:File>gs_cidfn.ps</QPM:File>
+                              <QPM:File>gs_cmap.ps</QPM:File>
+                              <QPM:File>gs_cmdl.ps</QPM:File>
+                              <QPM:File>gs_css_e.ps</QPM:File>
+                              <QPM:File>gs_dbt_e.ps</QPM:File>
+                              <QPM:File>gs_diskf.ps</QPM:File>
+                              <QPM:File>gs_dpnxt.ps</QPM:File>
+                              <QPM:File>gs_dps.ps</QPM:File>
+                              <QPM:File>gs_dps1.ps</QPM:File>
+                              <QPM:File>gs_dps2.ps</QPM:File>
+                              <QPM:File>gs_dscp.ps</QPM:File>
+                              <QPM:File>gs_epsf.ps</QPM:File>
+                              <QPM:File>gs_fform.ps</QPM:File>
+                              <QPM:File>gs_fonts.ps</QPM:File>
+                              <QPM:File>gs_frsd.ps</QPM:File>
+                              <QPM:File>gs_icc.ps</QPM:File>
+                              <QPM:File>gs_il1_e.ps</QPM:File>
+                              <QPM:File>gs_il2_e.ps</QPM:File>
+                              <QPM:File>gs_init.ps</QPM:File>
+                              <QPM:File>gs_kanji.ps</QPM:File>
+                              <QPM:File>gs_ksb_e.ps</QPM:File>
+                              <QPM:File>gs_l.xbm</QPM:File>
+                              <QPM:File>gs_l.xpm</QPM:File>
+                              <QPM:File>gs_l2img.ps</QPM:File>
+                              <QPM:File>gs_l_m.xbm</QPM:File>
+                              <QPM:File>gs_lev2.ps</QPM:File>
+                              <QPM:File>gs_lgo_e.ps</QPM:File>
+                              <QPM:File>gs_lgx_e.ps</QPM:File>
+                              <QPM:File>gs_ll3.ps</QPM:File>
+                              <QPM:File>gs_m.xbm</QPM:File>
+                              <QPM:File>gs_m.xpm</QPM:File>
+                              <QPM:File>gs_m_m.xbm</QPM:File>
+                              <QPM:File>gs_mex_e.ps</QPM:File>
+                              <QPM:File>gs_mgl_e.ps</QPM:File>
+                              <QPM:File>gs_mro_e.ps</QPM:File>
+                              <QPM:File>gs_pdf_e.ps</QPM:File>
+                              <QPM:File>gs_pdfwr.ps</QPM:File>
+                              <QPM:File>gs_pfile.ps</QPM:File>
+                              <QPM:File>gs_rdlin.ps</QPM:File>
+                              <QPM:File>gs_res.ps</QPM:File>
+                              <QPM:File>gs_s.xbm</QPM:File>
+                              <QPM:File>gs_s.xpm</QPM:File>
+                              <QPM:File>gs_s_m.xbm</QPM:File>
+                              <QPM:File>gs_setpd.ps</QPM:File>
+                              <QPM:File>gs_statd.ps</QPM:File>
+                              <QPM:File>gs_std_e.ps</QPM:File>
+                              <QPM:File>gs_sym_e.ps</QPM:File>
+                              <QPM:File>gs_t.xbm</QPM:File>
+                              <QPM:File>gs_t.xpm</QPM:File>
+                              <QPM:File>gs_t_m.xbm</QPM:File>
+                              <QPM:File>gs_trap.ps</QPM:File>
+                              <QPM:File>gs_ttf.ps</QPM:File>
+                              <QPM:File>gs_typ32.ps</QPM:File>
+                              <QPM:File>gs_typ42.ps</QPM:File>
+                              <QPM:File>gs_type1.ps</QPM:File>
+                              <QPM:File>gs_wan_e.ps</QPM:File>
+                              <QPM:File>gs_wl1_e.ps</QPM:File>
+                              <QPM:File>gs_wl2_e.ps</QPM:File>
+                              <QPM:File>gs_wl5_e.ps</QPM:File>
+                              <QPM:File>gslp.ps</QPM:File>
+                              <QPM:File>gsnup.ps</QPM:File>
+                              <QPM:File>ht_ccsto.ps</QPM:File>
+                              <QPM:File>image-qa.ps</QPM:File>
+                              <QPM:File>impath.ps</QPM:File>
+                              <QPM:File>jispaper.ps</QPM:File>
+                              <QPM:File>landscap.ps</QPM:File>
+                              <QPM:File>level1.ps</QPM:File>
+                              <QPM:File>lines.ps</QPM:File>
+                              <QPM:File>markhint.ps</QPM:File>
+                              <QPM:File>markpath.ps</QPM:File>
+                              <QPM:File>necp2x.upp</QPM:File>
+                              <QPM:File>necp2x6.upp</QPM:File>
+                              <QPM:File>packfile.ps</QPM:File>
+                              <QPM:File>pcharstr.ps</QPM:File>
+                              <QPM:File>pdf2dsc.ps</QPM:File>
+                              <QPM:File>pdf_base.ps</QPM:File>
+                              <QPM:File>pdf_draw.ps</QPM:File>
+                              <QPM:File>pdf_font.ps</QPM:File>
+                              <QPM:File>pdf_main.ps</QPM:File>
+                              <QPM:File>pdf_ops.ps</QPM:File>
+                              <QPM:File>pdf_sec.ps</QPM:File>
+                              <QPM:File>pdfopt.ps</QPM:File>
+                              <QPM:File>pdfwrite.ps</QPM:File>
+                              <QPM:File>pf2afm.ps</QPM:File>
+                              <QPM:File>pfbtopfa.ps</QPM:File>
+                              <QPM:File>ppath.ps</QPM:File>
+                              <QPM:File>prfont.ps</QPM:File>
+                              <QPM:File>printafm.ps</QPM:File>
+                              <QPM:File>ps2ai.ps</QPM:File>
+                              <QPM:File>ps2ascii.ps</QPM:File>
+                              <QPM:File>ps2epsi.ps</QPM:File>
+                              <QPM:File>quit.ps</QPM:File>
+                              <QPM:File>ras1.upp</QPM:File>
+                              <QPM:File>ras24.upp</QPM:File>
+                              <QPM:File>ras3.upp</QPM:File>
+                              <QPM:File>ras32.upp</QPM:File>
+                              <QPM:File>ras4.upp</QPM:File>
+                              <QPM:File>ras8m.upp</QPM:File>
+                              <QPM:File>rollconv.ps</QPM:File>
+                              <QPM:File>showchar.ps</QPM:File>
+                              <QPM:File>showpage.ps</QPM:File>
+                              <QPM:File>st640ih.upp</QPM:File>
+                              <QPM:File>st640ihg.upp</QPM:File>
+                              <QPM:File>st640p.upp</QPM:File>
+                              <QPM:File>st640pg.upp</QPM:File>
+                              <QPM:File>st640pl.upp</QPM:File>
+                              <QPM:File>st640plg.upp</QPM:File>
+                              <QPM:File>stc.upp</QPM:File>
+                              <QPM:File>stc1520h.upp</QPM:File>
+                              <QPM:File>stc2.upp</QPM:File>
+                              <QPM:File>stc200_h.upp</QPM:File>
+                              <QPM:File>stc2_h.upp</QPM:File>
+                              <QPM:File>stc2s_h.upp</QPM:File>
+                              <QPM:File>stc300.upp</QPM:File>
+                              <QPM:File>stc300bl.upp</QPM:File>
+                              <QPM:File>stc300bm.upp</QPM:File>
+                              <QPM:File>stc500p.upp</QPM:File>
+                              <QPM:File>stc500ph.upp</QPM:File>
+                              <QPM:File>stc600ih.upp</QPM:File>
+                              <QPM:File>stc600p.upp</QPM:File>
+                              <QPM:File>stc600pl.upp</QPM:File>
+                              <QPM:File>stc640p.upp</QPM:File>
+                              <QPM:File>stc800ih.upp</QPM:File>
+                              <QPM:File>stc800p.upp</QPM:File>
+                              <QPM:File>stc800pl.upp</QPM:File>
+                              <QPM:File>stc_h.upp</QPM:File>
+                              <QPM:File>stc_l.upp</QPM:File>
+                              <QPM:File>stcany.upp</QPM:File>
+                              <QPM:File>stcany_h.upp</QPM:File>
+                              <QPM:File>stcinfo.ps</QPM:File>
+                              <QPM:File>stcolor.ps</QPM:File>
+                              <QPM:File>stocht.ps</QPM:File>
+                              <QPM:File>traceimg.ps</QPM:File>
+                              <QPM:File>traceop.ps</QPM:File>
+                              <QPM:File>type1enc.ps</QPM:File>
+                              <QPM:File>type1ops.ps</QPM:File>
+                              <QPM:File>uninfo.ps</QPM:File>
+                              <QPM:File>unprot.ps</QPM:File>
+                              <QPM:File>viewcmyk.ps</QPM:File>
+                              <QPM:File>viewgif.ps</QPM:File>
+                              <QPM:File>viewjpeg.ps</QPM:File>
+                              <QPM:File>viewmiff.ps</QPM:File>
+                              <QPM:File>viewpbm.ps</QPM:File>
+                              <QPM:File>viewpcx.ps</QPM:File>
+                              <QPM:File>viewps2a.ps</QPM:File>
+                              <QPM:File>wftopfa.ps</QPM:File>
+                              <QPM:File>winmaps.ps</QPM:File>
+                              <QPM:File>wrfont.ps</QPM:File>
+                              <QPM:File>zeroline.ps</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../opt/bin">bin</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="man">
+                     <QPM:Union link="../../opt/man/man1">man1</QPM:Union>
+                     <QPM:Dir name="de">
+                        <QPM:Union link="../../../opt/man/de/man1">man1</QPM:Union>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="ghostscript">
+                        <QPM:Dir name="7.04">
+                           <QPM:Union link="../../../../opt/share/ghostscript/7.04/lib">lib</QPM:Union>
+                           <QPM:Union link="../../../../opt/share/ghostscript/7.04/examples">examples</QPM:Union>
+                           <QPM:Union link="../../../../opt/share/ghostscript/7.04/doc">doc</QPM:Union>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

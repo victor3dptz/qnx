@@ -1,0 +1,14 @@
+ PGLib - portable games libraries
+ Copyright (C) 2000-2001 John Fehr
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
+ 
+ You are permitted to use and distribute these libraries as long as you include
+ this file unmodified in your distribution, and your application or game is not
+ commercial.  You do not need to include the sourcecode for your application.
+ 
+ If you would like to negotiate alternate licensing terms, you may do
+ so by contacting the author: John Fehr <pglib@altbits.com>
+

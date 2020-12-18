@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageName>gettext-dev-0.13-bld2-public</QPM:PackageName>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2005/01/23</QPM:PackageReleaseDate>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:FileVersion>2.6</QPM:FileVersion>
+            <QPM:PackageModel>dev</QPM:PackageModel>
+            <QPM:DateCode>41f400e5</QPM:DateCode>
+            <QPM:PackageSize>19055</QPM:PackageSize>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>77839</QPM:ProductSize>
+            <QPM:InstallPath>public/gettext/dev-0.13-bld2</QPM:InstallPath>
+            <QPM:ProductName>GNU gettext Development</QPM:ProductName>
+            <QPM:ProductIdentifier>gettext-dev</QPM:ProductIdentifier>
+            <QPM:ProductEmail>bug-gnu-gettext@gnu.org</QPM:ProductEmail>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.gnu.org/software/gettext/</QPM:VendorURL>
+            <QPM:VendorEmail>bug-gnu-gettext@gnu.org</QPM:VendorEmail>
+            <QPM:AuthorName>Gettext Team</QPM:AuthorName>
+            <QPM:ProductDescriptionShort>GNU gettext package.  It is interesting for authors or maintainers of other packages or programs which they want to see internationalized.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>GNU gettext package.  It is interesting for authors or maintainers of other packages or programs which they want to see internationalized. As one step the handling of messages in different languages should be implemented.  For this task GNU gettext provides the needed tools and library functions.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.gnu.org/software/gettext/</QPM:ProductDescriptionURL>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2005/01/23</QPM:ReleaseDate>
+            <QPM:ReleaseBuild>2</QPM:ReleaseBuild>
+            <QPM:ReleaseVersion>0.13</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Software Development/Libraries and Extensions/C Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>GNU,gettext,intl,libintl</QPM:ContentKeyword>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>Must include at least one development package targeting a specific processor (Packager-generated dependency).</QPM:Notes>
+               <QPM:Filter>
+                  <QPM:FilterType>StringExpression</QPM:FilterType>
+                  <ProductIdentifier>gettext-dev-target*</ProductIdentifier>
+               </QPM:Filter>
+            </QPM:Dependency>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:LicenseUrl>rep://gettext-0.13-bld2-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PackageDate>41f400e5</QPM:PackageDate>
+         <QPM:Listing>
+            <QPM:Dir name="" dt="41f400e5">
+               <QPM:Dir name="usr">
+                  <QPM:Dir name="include">
+                     <QPM:File sum="10a52cfe72617bbaa36001b0da34bf39" size="2280">autosprintf.h</QPM:File>
+                     <QPM:File sum="08f62b9d98d2b60c52d498f7242364d5" size="4511">gettext-po.h</QPM:File>
+                     <QPM:File sum="75abdf849c4e324ba8aa6c690da14a8c" size="12843">libintl.h</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="doc">
+                        <QPM:Dir name="gettext">
+                           <QPM:Dir name="examples">
+                              <QPM:Dir name="hello-c++-kde">
+                                 <QPM:File sum="679b2530fc590a6262130959d70fa1d8" size="480">hellowindow.h</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="hello-objc-gnustep">
+                                 <QPM:File sum="467c2342f67e28d14b82fdbf253de0c2" size="721">AppController.h</QPM:File>
+                                 <QPM:File sum="990c6f92ff9f555b86097b4b8b312901" size="445">Hello.h</QPM:File>
+                              </QPM:Dir>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="gettext">
+                        <QPM:File sum="018cb1a68989a2daf5b19a58c7005ebd" size="3049">gettext.h</QPM:File>
+                        <QPM:Dir name="intl">
+                           <QPM:File sum="bc414984fa6f37291beb84e89594e0b7" size="2770">eval-plural.h</QPM:File>
+                           <QPM:File sum="2956e79fb07b6c29e8b34ac76b6b4454" size="6488">gettextP.h</QPM:File>
+                           <QPM:File sum="2bab8edc6f0537704caf3a05e519a2a2" size="4783">gmo.h</QPM:File>
+                           <QPM:File sum="68ffd56cd74973942c0d94f85ca19bb6" size="1633">hash-string.h</QPM:File>
+                           <QPM:File sum="5998f1c412c1bc03b1ce6f180cab5713" size="5842">loadinfo.h</QPM:File>
+                           <QPM:File sum="8e2dcd374a946d562ecbbfbbd0ac2a43" size="1391">localcharset.h</QPM:File>
+                           <QPM:File sum="79bf74941bc89200f4e0c5b989d09d1d" size="1554">os2compat.h</QPM:File>
+                           <QPM:File sum="d9dd11cdfe535aca53743f96303d4f15" size="4059">plural-exp.h</QPM:File>
+                           <QPM:File sum="8333f96c1bba56fc8327f8a1fc7cda3e" size="2882">printf-args.h</QPM:File>
+                           <QPM:File sum="d731c1adc3d269516b513c2c565eb17a" size="2183">printf-parse.h</QPM:File>
+                           <QPM:File sum="b4bbdc00b9024c8511a5454879b28e78" size="2717">relocatable.h</QPM:File>
+                           <QPM:File sum="fe59377d38e8c1f83272fa725353241f" size="2288">vasnprintf.h</QPM:File>
+                           <QPM:File sum="e7c5072ca5bad35992a0ab10a2279be8" size="1730">vasnwprintf.h</QPM:File>
+                           <QPM:File sum="3e79f5709a3a2c9a7dca6a6ddbb7f495" size="2223">wprintf-parse.h</QPM:File>
+                           <QPM:File sum="5f3d9de34d01a2aa4ad34db96ed627a8" size="3538">xsize.h</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

@@ -1,0 +1,311 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>perl-5.8.0-bld2-x86-public</QPM:PackageName>
+            <QPM:PackageSize>2617913</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/01/09</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Perl for x86</QPM:ProductName>
+            <QPM:ProductSize>11518740</QPM:ProductSize>
+            <QPM:ProductIdentifier>perl-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Larry Wall</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.perl.com/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Perl is a scripting language.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Perl is a scripting language.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.perl.com/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/perl/core-5.8.0-bld2/x86</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/01/09</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>5.8.0</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>2</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://perl-5.8.0-bld2-public.repdata/LicenseUrl/README</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>perl</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Software Development/Programming Languages and Parsers/Script and Shell Interpreters</QPM:ContentTopic>
+            <QPM:ContentKeyword>perl,awk,sed</QPM:ContentKeyword>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+            <QPM:RequiresLibrary>libm.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libsocket.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libdb-4.0.so</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+            <QPM:ContainsLibrary>libperl.so.5.8.0</QPM:ContainsLibrary>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure/>
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="bin">
+                     <QPM:File>a2p</QPM:File>
+                     <QPM:File>perl</QPM:File>
+                     <QPM:File>perl5.8.0</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="lib">
+                     <QPM:Link link="perl5/5.8.0/x86pc-nto/CORE/libperl.so.5.8.0">libperl.so</QPM:Link>
+                     <QPM:Dir name="perl5">
+                        <QPM:Dir name="5.8.0">
+                           <QPM:Dir name="x86pc-nto">
+                              <QPM:Dir name="CORE">
+                                 <QPM:File>libperl.so.5.8.0</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="auto">
+                                 <QPM:Dir name="B">
+                                    <QPM:File>B.so</QPM:File>
+                                    <QPM:Dir name="C">
+                                       <QPM:File>C.so</QPM:File>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="ByteLoader">
+                                    <QPM:File>ByteLoader.so</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="Cwd">
+                                    <QPM:File>Cwd.so</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="DB_File">
+                                    <QPM:File>DB_File.so</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="Data">
+                                    <QPM:Dir name="Dumper">
+                                       <QPM:File>Dumper.so</QPM:File>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="Devel">
+                                    <QPM:Dir name="DProf">
+                                       <QPM:File>DProf.so</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="PPPort">
+                                       <QPM:File>PPPort.so</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="Peek">
+                                       <QPM:File>Peek.so</QPM:File>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="Digest">
+                                    <QPM:Dir name="MD5">
+                                       <QPM:File>MD5.so</QPM:File>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="Encode">
+                                    <QPM:Dir name="Byte">
+                                       <QPM:File>Byte.so</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="CN">
+                                       <QPM:File>CN.so</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="EBCDIC">
+                                       <QPM:File>EBCDIC.so</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:File>Encode.so</QPM:File>
+                                    <QPM:Dir name="JP">
+                                       <QPM:File>JP.so</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="KR">
+                                       <QPM:File>KR.so</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="Symbol">
+                                       <QPM:File>Symbol.so</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="TW">
+                                       <QPM:File>TW.so</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="Unicode">
+                                       <QPM:File>Unicode.so</QPM:File>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="Fcntl">
+                                    <QPM:File>Fcntl.so</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="File">
+                                    <QPM:Dir name="Glob">
+                                       <QPM:File>Glob.so</QPM:File>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="Filter">
+                                    <QPM:Dir name="Util">
+                                       <QPM:Dir name="Call">
+                                          <QPM:File>Call.so</QPM:File>
+                                       </QPM:Dir>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="IO">
+                                    <QPM:File>IO.so</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="List">
+                                    <QPM:Dir name="Util">
+                                       <QPM:File>Util.so</QPM:File>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="MIME">
+                                    <QPM:Dir name="Base64">
+                                       <QPM:File>Base64.so</QPM:File>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="Opcode">
+                                    <QPM:File>Opcode.so</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="POSIX">
+                                    <QPM:File>POSIX.so</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="PerlIO">
+                                    <QPM:Dir name="encoding">
+                                       <QPM:File>encoding.so</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="scalar">
+                                       <QPM:File>scalar.so</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="via">
+                                       <QPM:File>via.so</QPM:File>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="SDBM_File">
+                                    <QPM:File>SDBM_File.so</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="Socket">
+                                    <QPM:File>Socket.so</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="Storable">
+                                    <QPM:File>Storable.so</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="Sys">
+                                    <QPM:Dir name="Hostname">
+                                       <QPM:File>Hostname.so</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="Syslog">
+                                       <QPM:File>Syslog.so</QPM:File>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="Time">
+                                    <QPM:Dir name="HiRes">
+                                       <QPM:File>HiRes.so</QPM:File>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="Unicode">
+                                    <QPM:Dir name="Normalize">
+                                       <QPM:File>Normalize.so</QPM:File>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="XS">
+                                    <QPM:Dir name="APItest">
+                                       <QPM:File>APItest.so</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="Typemap">
+                                       <QPM:File>Typemap.so</QPM:File>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="attrs">
+                                    <QPM:File>attrs.so</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="re">
+                                    <QPM:File>re.so</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="threads">
+                                    <QPM:Dir name="shared">
+                                       <QPM:File>shared.so</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:File>threads.so</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

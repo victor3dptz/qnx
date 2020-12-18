@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageName>ipfbin-3.4.27-x86-public</QPM:PackageName>
+            <QPM:PackageSize>153532</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>7</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/01/16</QPM:PackageReleaseDate>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageReleaseNotes>Build on QNX 6.2.1, support both npm-tcpip-v4.so and npm-tcpip-v6.so</QPM:PackageReleaseNotes>
+            <QPM:PackageReleaseUrgency>Medium</QPM:PackageReleaseUrgency>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>370159</QPM:ProductSize>
+            <QPM:InstallPath>public/ipfbin/core-3.4.27/x86</QPM:InstallPath>
+            <QPM:ProductName>IP Filter for x86</QPM:ProductName>
+            <QPM:ProductIdentifier>ipfbin-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail>xtang@canada.com</QPM:ProductEmail>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnxzone.com/~xtang/ipfilter/</QPM:VendorURL>
+            <QPM:VendorEmbedURL>http://coombs.anu.edu.au/ipfilter/</QPM:VendorEmbedURL>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Darren Reed</QPM:AuthorName>
+            <QPM:AuthorURL>http://coombs.anu.edu.au/ipfilter/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL>http://coombs.anu.edu.au/ipfilter/</QPM:AuthorEmbedURL>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Provide filtering and network address translation</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>IPFilter is a software package that can be used to provide network  address translation (NAT) or firewall services.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.qnxzone.com/~xtang/ipfilter/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL>http://www.qnxzone.com/~xtang/ipfilter/</QPM:ProductDescriptionEmbedURL>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/01/16</QPM:ReleaseDate>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ReleaseVersion>3.4.27</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor>rebuild for QNX 6.2.1</QPM:ReleaseNoteMinor>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>ipfbin</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:RequiresLibrary>npm-tcpip-v4.so</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+            <QPM:ContainsLibrary>ipfilter-v4.so</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>ipfilter-v6.so</QPM:ContainsLibrary>
+            <QPM:RequiresLibrary>libsocket.so.2</QPM:RequiresLibrary>
+            <QPM:ContentTopic>System/Network and Data Transmission/Filtering, Tunneling and Redirecting</QPM:ContentTopic>
+            <QPM:ContentKeyword>NAT, IP Filter</QPM:ContentKeyword>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Administrator</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationProcedure/>
+         <QPM:LicenseUrl>rep://ipfbin-3.4.27-public.repdata/LicenseUrl/IPFILTER.LICENCE</QPM:LicenseUrl>
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="lib">
+                  <QPM:Dir name="dll">
+                     <QPM:File>ipfilter-v4.so</QPM:File>
+                     <QPM:File>ipfilter-v6.so</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="sbin">
+                     <QPM:File>ipf</QPM:File>
+                     <QPM:File>ipfs</QPM:File>
+                     <QPM:File>ipfstat</QPM:File>
+                     <QPM:File>ipmon</QPM:File>
+                     <QPM:File>ipnat</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

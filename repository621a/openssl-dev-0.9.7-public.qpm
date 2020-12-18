@@ -1,0 +1,173 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:PackageName>openssl-dev-0.9.7-public</QPM:PackageName>
+            <QPM:PackageSize>200887</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/01/02</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:PackageModel>dev</QPM:PackageModel>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>OpenSSL Development</QPM:ProductName>
+            <QPM:ProductSize>1006827</QPM:ProductSize>
+            <QPM:ProductIdentifier>openssl-dev</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>openssl.org</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.openssl.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>openssl is a free ssl.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>OpenSSL is a free SSL library (secure sockets).</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.openssl.org/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/openssl/dev-0.9.7</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/01/02</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>0.9.7</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://openssl-0.9.7-public.repdata/LicenseUrl/LICENSE</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Software Development/Libraries and Extensions/C Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>ssl,openssl</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>Must include at least one development package targeting a specific processor (Packager-generated dependency).</QPM:Notes>
+               <QPM:Filter>
+                  <QPM:FilterType>StringExpression</QPM:FilterType>
+                  <ProductIdentifier>openssl-dev-target*</ProductIdentifier>
+               </QPM:Filter>
+            </QPM:Dependency>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="include">
+                     <QPM:Dir name="openssl">
+                        <QPM:File>aes.h</QPM:File>
+                        <QPM:File>asn1.h</QPM:File>
+                        <QPM:File>asn1_mac.h</QPM:File>
+                        <QPM:File>asn1t.h</QPM:File>
+                        <QPM:File>bio.h</QPM:File>
+                        <QPM:File>blowfish.h</QPM:File>
+                        <QPM:File>bn.h</QPM:File>
+                        <QPM:File>buffer.h</QPM:File>
+                        <QPM:File>cast.h</QPM:File>
+                        <QPM:File>comp.h</QPM:File>
+                        <QPM:File>conf.h</QPM:File>
+                        <QPM:File>conf_api.h</QPM:File>
+                        <QPM:File>crypto.h</QPM:File>
+                        <QPM:File>des.h</QPM:File>
+                        <QPM:File>des_old.h</QPM:File>
+                        <QPM:File>dh.h</QPM:File>
+                        <QPM:File>dsa.h</QPM:File>
+                        <QPM:File>dso.h</QPM:File>
+                        <QPM:File>e_os2.h</QPM:File>
+                        <QPM:File>ebcdic.h</QPM:File>
+                        <QPM:File>ec.h</QPM:File>
+                        <QPM:File>engine.h</QPM:File>
+                        <QPM:File>err.h</QPM:File>
+                        <QPM:File>evp.h</QPM:File>
+                        <QPM:File>hmac.h</QPM:File>
+                        <QPM:File>idea.h</QPM:File>
+                        <QPM:File>krb5_asn.h</QPM:File>
+                        <QPM:File>kssl.h</QPM:File>
+                        <QPM:File>lhash.h</QPM:File>
+                        <QPM:File>md2.h</QPM:File>
+                        <QPM:File>md4.h</QPM:File>
+                        <QPM:File>md5.h</QPM:File>
+                        <QPM:File>mdc2.h</QPM:File>
+                        <QPM:File>obj_mac.h</QPM:File>
+                        <QPM:File>objects.h</QPM:File>
+                        <QPM:File>ocsp.h</QPM:File>
+                        <QPM:File>opensslconf.h</QPM:File>
+                        <QPM:File>opensslv.h</QPM:File>
+                        <QPM:File>ossl_typ.h</QPM:File>
+                        <QPM:File>pem.h</QPM:File>
+                        <QPM:File>pem2.h</QPM:File>
+                        <QPM:File>pkcs12.h</QPM:File>
+                        <QPM:File>pkcs7.h</QPM:File>
+                        <QPM:File>rand.h</QPM:File>
+                        <QPM:File>rc2.h</QPM:File>
+                        <QPM:File>rc4.h</QPM:File>
+                        <QPM:File>rc5.h</QPM:File>
+                        <QPM:File>ripemd.h</QPM:File>
+                        <QPM:File>rsa.h</QPM:File>
+                        <QPM:File>safestack.h</QPM:File>
+                        <QPM:File>sha.h</QPM:File>
+                        <QPM:File>ssl.h</QPM:File>
+                        <QPM:File>ssl2.h</QPM:File>
+                        <QPM:File>ssl23.h</QPM:File>
+                        <QPM:File>ssl3.h</QPM:File>
+                        <QPM:File>stack.h</QPM:File>
+                        <QPM:File>symhacks.h</QPM:File>
+                        <QPM:File>tls1.h</QPM:File>
+                        <QPM:File>tmdiff.h</QPM:File>
+                        <QPM:File>txt_db.h</QPM:File>
+                        <QPM:File>ui.h</QPM:File>
+                        <QPM:File>ui_compat.h</QPM:File>
+                        <QPM:File>x509.h</QPM:File>
+                        <QPM:File>x509_vfy.h</QPM:File>
+                        <QPM:File>x509v3.h</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Dir name="include">
+                     <QPM:Union link="../../opt/include/openssl">openssl</QPM:Union>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

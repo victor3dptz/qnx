@@ -1,0 +1,453 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageName>mozilla-shared-1.0-bld9-qnx</QPM:PackageName>
+            <QPM:PackageSize>927414</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/02/18</QPM:PackageReleaseDate>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageReleaseNotes/>
+            <QPM:PackageReleaseUrgency>Medium</QPM:PackageReleaseUrgency>
+            <QPM:PackageRepository/>
+            <QPM:PackageModel>shared</QPM:PackageModel>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>1947928</QPM:ProductSize>
+            <QPM:ProductIconSmall/>
+            <QPM:InstallPath>qnx/mozilla/shared-1.0-bld9</QPM:InstallPath>
+            <QPM:AuthorName/>
+            <QPM:AuthorUrl/>
+            <QPM:AuthorEmbedUrl/>
+            <QPM:AuthorEmail/>
+            <QPM:VendorName>QNX Software Systems Ltd.</QPM:VendorName>
+            <QPM:VendorInstallName>qnx</QPM:VendorInstallName>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorURL>www.qnx.com</QPM:VendorURL>
+            <QPM:VendorEmail/>
+            <QPM:ProductName>Mozilla shared</QPM:ProductName>
+            <QPM:ProductIdentifier>mozilla-shared</QPM:ProductIdentifier>
+            <QPM:ProductEmail>support@qnx.com</QPM:ProductEmail>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Mozilla Web Browser</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Mozilla 1.0</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>www.mozilla.org</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/02/18</QPM:ReleaseDate>
+            <QPM:ReleaseBuild>9</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMajor>Nightly Build</QPM:ReleaseNoteMajor>
+            <QPM:ReleaseNoteMinor>Nightly Build</QPM:ReleaseNoteMinor>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseVersion>1.0</QPM:ReleaseVersion>
+            <QPM:Edition>Download</QPM:Edition>
+            <QPM:ReleaseCopyright>QNX Community License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:ContentTopic>QNX Realtime Platform/World Wide Web/Browser</QPM:ContentTopic>
+            <QPM:ContentKeyword>mozilla,web,browser</QPM:ContentKeyword>
+            <QPM:DisplayEnvironment>Photon</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+            <QPM:Contains>binary,library</QPM:Contains>
+            <QPM:ReplacesProduct>mozilla-Static</QPM:ReplacesProduct>
+         </QPM:ContentDescription>
+
+         <QPM:LicenseUrl>rep://mozilla-1.0-bld9-qnx.repdata/LicenseUrl/license.txt</QPM:LicenseUrl>
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements>No additional requirements</QPM:ProductRequirements>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="Mozilla">
+                     <QPM:Union link="../../$(PROCESSOR)/opt/Mozilla/server.shared">server.shared</QPM:Union>
+                     <QPM:Dir name="server.shared">
+                        <QPM:Dir name="chrome">
+                           <QPM:File>embed.jar</QPM:File>
+                           <QPM:File>installed-chrome.txt</QPM:File>
+                           <QPM:File>pipnss.jar</QPM:File>
+                           <QPM:File>pippki.jar</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>component.reg</QPM:File>
+                        <QPM:Dir name="components">
+                           <QPM:File>appshell.xpt</QPM:File>
+                           <QPM:File>caps.xpt</QPM:File>
+                           <QPM:File>chrome.xpt</QPM:File>
+                           <QPM:File>content_base.xpt</QPM:File>
+                           <QPM:File>docshell.xpt</QPM:File>
+                           <QPM:File>dom.xpt</QPM:File>
+                           <QPM:File>dom_base.xpt</QPM:File>
+                           <QPM:File>dom_core.xpt</QPM:File>
+                           <QPM:File>dom_css.xpt</QPM:File>
+                           <QPM:File>dom_events.xpt</QPM:File>
+                           <QPM:File>dom_html.xpt</QPM:File>
+                           <QPM:File>dom_range.xpt</QPM:File>
+                           <QPM:File>dom_stylesheets.xpt</QPM:File>
+                           <QPM:File>dom_traversal.xpt</QPM:File>
+                           <QPM:File>dom_views.xpt</QPM:File>
+                           <QPM:File>dom_xbl.xpt</QPM:File>
+                           <QPM:File>dom_xul.xpt</QPM:File>
+                           <QPM:File>editor.xpt</QPM:File>
+                           <QPM:File>gfx.xpt</QPM:File>
+                           <QPM:File>gfx2.xpt</QPM:File>
+                           <QPM:File>imglib2.xpt</QPM:File>
+                           <QPM:File>intl.xpt</QPM:File>
+                           <QPM:File>jar.xpt</QPM:File>
+                           <QPM:File>jsurl.xpt</QPM:File>
+                           <QPM:File>layout_base.xpt</QPM:File>
+                           <QPM:File>layout_xul.xpt</QPM:File>
+                           <QPM:File>locale.xpt</QPM:File>
+                           <QPM:File>mozbrwsr.xpt</QPM:File>
+                           <QPM:File>necko.xpt</QPM:File>
+                           <QPM:File>necko_about.xpt</QPM:File>
+                           <QPM:File>necko_cache.xpt</QPM:File>
+                           <QPM:File>necko_data.xpt</QPM:File>
+                           <QPM:File>necko_dns.xpt</QPM:File>
+                           <QPM:File>necko_ftp.xpt</QPM:File>
+                           <QPM:File>necko_http.xpt</QPM:File>
+                           <QPM:File>necko_jar.xpt</QPM:File>
+                           <QPM:File>necko_res.xpt</QPM:File>
+                           <QPM:File>necko_strconv.xpt</QPM:File>
+                           <QPM:File>pipboot.xpt</QPM:File>
+                           <QPM:File>pipnss.xpt</QPM:File>
+                           <QPM:File>pippki.xpt</QPM:File>
+                           <QPM:File>pref.xpt</QPM:File>
+                           <QPM:File>profile.xpt</QPM:File>
+                           <QPM:File>rdf.xpt</QPM:File>
+                           <QPM:File>shistory.xpt</QPM:File>
+                           <QPM:File>txtsvc.xpt</QPM:File>
+                           <QPM:File>uconv.xpt</QPM:File>
+                           <QPM:File>unicharutil.xpt</QPM:File>
+                           <QPM:File>uriloader.xpt</QPM:File>
+                           <QPM:File>wallet.xpt</QPM:File>
+                           <QPM:File>webBrowser_core.xpt</QPM:File>
+                           <QPM:File>widget.xpt</QPM:File>
+                           <QPM:File>windowwatcher.xpt</QPM:File>
+                           <QPM:File>xpcom_base.xpt</QPM:File>
+                           <QPM:File>xpcom_components.xpt</QPM:File>
+                           <QPM:File>xpcom_ds.xpt</QPM:File>
+                           <QPM:File>xpcom_io.xpt</QPM:File>
+                           <QPM:File>xpcom_threads.xpt</QPM:File>
+                           <QPM:File>xpcom_xpti.xpt</QPM:File>
+                           <QPM:File>xpconnect.xpt</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="defaults">
+                           <QPM:Dir name="autoconfig">
+                              <QPM:File>prefcalls.js</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="pref">
+                              <QPM:File>all.js</QPM:File>
+                              <QPM:File>config.js</QPM:File>
+                              <QPM:File>editor.js</QPM:File>
+                              <QPM:File>initpref.js</QPM:File>
+                              <QPM:File>inspector.js</QPM:File>
+                              <QPM:File>mailnews.js</QPM:File>
+                              <QPM:File>mdn.js</QPM:File>
+                              <QPM:File>photon.js</QPM:File>
+                              <QPM:File>security-prefs.js</QPM:File>
+                              <QPM:File>smime.js</QPM:File>
+                              <QPM:File>unix.js</QPM:File>
+                              <QPM:File>xpinstall.js</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="profile">
+                              <QPM:Dir name="US">
+                                 <QPM:File>bookmarks.html</QPM:File>
+                                 <QPM:Dir name="chrome">
+                                    <QPM:File>userChrome-example.css</QPM:File>
+                                    <QPM:File>userContent-example.css</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:File>localstore.rdf</QPM:File>
+                                 <QPM:File>mimeTypes.rdf</QPM:File>
+                                 <QPM:File>panels.rdf</QPM:File>
+                                 <QPM:File>search.rdf</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>bookmarks.html</QPM:File>
+                              <QPM:Dir name="chrome">
+                                 <QPM:File>userChrome-example.css</QPM:File>
+                                 <QPM:File>userContent-example.css</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>localstore.rdf</QPM:File>
+                              <QPM:File>mimeTypes.rdf</QPM:File>
+                              <QPM:File>panels.rdf</QPM:File>
+                              <QPM:File>search.rdf</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="wallet">
+                              <QPM:File>DistinguishedSchema.tbl</QPM:File>
+                              <QPM:File>FieldSchema.tbl</QPM:File>
+                              <QPM:File>PositionalSchema.tbl</QPM:File>
+                              <QPM:File>SchemaConcat.tbl</QPM:File>
+                              <QPM:File>SchemaStrings.tbl</QPM:File>
+                              <QPM:File>StateSchema.tbl</QPM:File>
+                              <QPM:File>VcardSchema.tbl</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:File>mozilla</QPM:File>
+                        <QPM:Dir name="plugins"/>
+                        <QPM:File>readme.html</QPM:File>
+                        <QPM:Dir name="res">
+                           <QPM:File>arrow.gif</QPM:File>
+                           <QPM:File>arrowd.gif</QPM:File>
+                           <QPM:File>broken-image.gif</QPM:File>
+                           <QPM:Dir name="builtin">
+                              <QPM:File>htmlBindings.xml</QPM:File>
+                              <QPM:File>platformHTMLBindings.xml</QPM:File>
+                              <QPM:File>xbl-forms.css</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>charsetData.properties</QPM:File>
+                           <QPM:File>charsetalias.properties</QPM:File>
+                           <QPM:File>cmessage.txt</QPM:File>
+                           <QPM:Dir name="dtd">
+                              <QPM:File>mathml.dtd</QPM:File>
+                              <QPM:File>xhtml11.dtd</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="entityTables">
+                              <QPM:File>html40Latin1.properties</QPM:File>
+                              <QPM:File>html40Special.properties</QPM:File>
+                              <QPM:File>html40Symbols.properties</QPM:File>
+                              <QPM:File>htmlEntityVersions.properties</QPM:File>
+                              <QPM:File>transliterate.properties</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="fonts">
+                              <QPM:File>mathfont.properties</QPM:File>
+                              <QPM:File>mathfontCMEX10.properties</QPM:File>
+                              <QPM:File>mathfontCMSY10.properties</QPM:File>
+                              <QPM:File>mathfontMTExtra.properties</QPM:File>
+                              <QPM:File>mathfontMath1.properties</QPM:File>
+                              <QPM:File>mathfontMath2.properties</QPM:File>
+                              <QPM:File>mathfontMath4.properties</QPM:File>
+                              <QPM:File>mathfontPUA.properties</QPM:File>
+                              <QPM:File>mathfontSymbol.properties</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>forms.css</QPM:File>
+                           <QPM:Dir name="gfx">
+                              <QPM:File>icon_0.gif</QPM:File>
+                              <QPM:File>icon_1.gif</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="html">
+                              <QPM:File>gopher-audio.gif</QPM:File>
+                              <QPM:File>gopher-binary.gif</QPM:File>
+                              <QPM:File>gopher-find.gif</QPM:File>
+                              <QPM:File>gopher-image.gif</QPM:File>
+                              <QPM:File>gopher-menu.gif</QPM:File>
+                              <QPM:File>gopher-movie.gif</QPM:File>
+                              <QPM:File>gopher-sound.gif</QPM:File>
+                              <QPM:File>gopher-telnet.gif</QPM:File>
+                              <QPM:File>gopher-text.gif</QPM:File>
+                              <QPM:File>gopher-unknown.gif</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>html.css</QPM:File>
+                           <QPM:Dir name="inspector">
+                              <QPM:File>search-registry.rdf</QPM:File>
+                              <QPM:File>viewer-registry.rdf</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>langGroups.properties</QPM:File>
+                           <QPM:File>language.properties</QPM:File>
+                           <QPM:File>loading-image.gif</QPM:File>
+                           <QPM:File>mathml.css</QPM:File>
+                           <QPM:File>quirk.css</QPM:File>
+                           <QPM:Dir name="rdf">
+                              <QPM:File>article.gif</QPM:File>
+                              <QPM:File>document.gif</QPM:File>
+                              <QPM:File>dom-test-1.xul</QPM:File>
+                              <QPM:File>dom-test-2.xul</QPM:File>
+                              <QPM:File>dom-test-3.xul</QPM:File>
+                              <QPM:File>dom-test-4.css</QPM:File>
+                              <QPM:File>dom-test-4.xul</QPM:File>
+                              <QPM:File>dom-test-5.xul</QPM:File>
+                              <QPM:File>dom-test-6.xul</QPM:File>
+                              <QPM:File>dom-test-7.xul</QPM:File>
+                              <QPM:File>dom-test-8.xul</QPM:File>
+                              <QPM:File>folder-closed.gif</QPM:File>
+                              <QPM:File>folder-open.gif</QPM:File>
+                              <QPM:File>ignore-test.xul</QPM:File>
+                              <QPM:File>loading.gif</QPM:File>
+                              <QPM:File>xpidl-test-1.xul</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>sample.unixpsfonts.properties</QPM:File>
+                           <QPM:Dir name="samples">
+                              <QPM:File>Anieyes.gif</QPM:File>
+                              <QPM:File>aform.css</QPM:File>
+                              <QPM:File>beeptest.html</QPM:File>
+                              <QPM:File>bform.css</QPM:File>
+                              <QPM:File>bg.jpg</QPM:File>
+                              <QPM:File>cform.css</QPM:File>
+                              <QPM:File>checkboxTest.xul</QPM:File>
+                              <QPM:File>colorpicker.xul</QPM:File>
+                              <QPM:File>demoform.css</QPM:File>
+                              <QPM:File>dexopenchrome.xul</QPM:File>
+                              <QPM:File>dexparamdialog.html</QPM:File>
+                              <QPM:File>dexparamdialog.xul</QPM:File>
+                              <QPM:File>find.html</QPM:File>
+                              <QPM:File>gear1.gif</QPM:File>
+                              <QPM:File>hidetoolicon.css</QPM:File>
+                              <QPM:File>hidetoolicon.xul</QPM:File>
+                              <QPM:File>image_props.html</QPM:File>
+                              <QPM:File>mozform.css</QPM:File>
+                              <QPM:File>printsetup.html</QPM:File>
+                              <QPM:File>raptor.jpg</QPM:File>
+                              <QPM:File>rock_gra.gif</QPM:File>
+                              <QPM:Dir name="sampleimages">
+                                 <QPM:File>bongo.gif</QPM:File>
+                                 <QPM:File>down.gif</QPM:File>
+                                 <QPM:File>left.gif</QPM:File>
+                                 <QPM:File>right.gif</QPM:File>
+                                 <QPM:File>up.gif</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>scrollbarTest1.xul</QPM:File>
+                              <QPM:File>scrollbarTest2.xul</QPM:File>
+                              <QPM:File>sliderTest1.xul</QPM:File>
+                              <QPM:File>soundtest.html</QPM:File>
+                              <QPM:File>tab.xul</QPM:File>
+                              <QPM:File>test.wav</QPM:File>
+                              <QPM:File>test0.html</QPM:File>
+                              <QPM:File>test1.html</QPM:File>
+                              <QPM:File>test10.html</QPM:File>
+                              <QPM:File>test11.html</QPM:File>
+                              <QPM:File>test12.html</QPM:File>
+                              <QPM:File>test13.html</QPM:File>
+                              <QPM:File>test14.html</QPM:File>
+                              <QPM:File>test15.html</QPM:File>
+                              <QPM:File>test16.html</QPM:File>
+                              <QPM:File>test2.html</QPM:File>
+                              <QPM:File>test3.html</QPM:File>
+                              <QPM:File>test4.html</QPM:File>
+                              <QPM:File>test5.html</QPM:File>
+                              <QPM:File>test6.html</QPM:File>
+                              <QPM:File>test7.html</QPM:File>
+                              <QPM:File>test8-1.html</QPM:File>
+                              <QPM:File>test8.html</QPM:File>
+                              <QPM:File>test8dom.html</QPM:File>
+                              <QPM:File>test8sca.html</QPM:File>
+                              <QPM:File>test8siz.html</QPM:File>
+                              <QPM:File>test8tab.html</QPM:File>
+                              <QPM:File>test9.html</QPM:File>
+                              <QPM:File>test9a.html</QPM:File>
+                              <QPM:File>test9b.html</QPM:File>
+                              <QPM:File>test_ed.html</QPM:File>
+                              <QPM:File>test_form.html</QPM:File>
+                              <QPM:File>test_gfx.html</QPM:File>
+                              <QPM:File>test_lbox.html</QPM:File>
+                              <QPM:File>test_pr.html</QPM:File>
+                              <QPM:File>test_weight.html</QPM:File>
+                              <QPM:File>toolbarTest1.xul</QPM:File>
+                              <QPM:File>treeTest1.css</QPM:File>
+                              <QPM:File>treeTest1.xul</QPM:File>
+                              <QPM:File>widgets.xul</QPM:File>
+                              <QPM:File>xpmenu.xul</QPM:File>
+                              <QPM:File>xulTest.css</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="throbber">
+                              <QPM:File>anim.gif</QPM:File>
+                              <QPM:File>anims00.gif</QPM:File>
+                              <QPM:File>anims01.gif</QPM:File>
+                              <QPM:File>anims02.gif</QPM:File>
+                              <QPM:File>anims03.gif</QPM:File>
+                              <QPM:File>anims04.gif</QPM:File>
+                              <QPM:File>anims05.gif</QPM:File>
+                              <QPM:File>anims06.gif</QPM:File>
+                              <QPM:File>anims07.gif</QPM:File>
+                              <QPM:File>anims08.gif</QPM:File>
+                              <QPM:File>anims09.gif</QPM:File>
+                              <QPM:File>anims10.gif</QPM:File>
+                              <QPM:File>anims11.gif</QPM:File>
+                              <QPM:File>anims12.gif</QPM:File>
+                              <QPM:File>anims13.gif</QPM:File>
+                              <QPM:File>anims14.gif</QPM:File>
+                              <QPM:File>anims15.gif</QPM:File>
+                              <QPM:File>anims16.gif</QPM:File>
+                              <QPM:File>anims17.gif</QPM:File>
+                              <QPM:File>anims18.gif</QPM:File>
+                              <QPM:File>anims19.gif</QPM:File>
+                              <QPM:File>anims20.gif</QPM:File>
+                              <QPM:File>anims21.gif</QPM:File>
+                              <QPM:File>anims22.gif</QPM:File>
+                              <QPM:File>anims23.gif</QPM:File>
+                              <QPM:File>anims24.gif</QPM:File>
+                              <QPM:File>anims25.gif</QPM:File>
+                              <QPM:File>anims26.gif</QPM:File>
+                              <QPM:File>anims27.gif</QPM:File>
+                              <QPM:File>anims28.gif</QPM:File>
+                              <QPM:File>anims29.gif</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>ua.css</QPM:File>
+                           <QPM:File>unixcharset.properties</QPM:File>
+                           <QPM:File>viewer.properties</QPM:File>
+                           <QPM:File>viewsource.css</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>run-mozilla.sh</QPM:File>
+                        <QPM:Dir name="searchplugins">
+                           <QPM:File>NetscapeSearch.gif</QPM:File>
+                           <QPM:File>NetscapeSearch.src</QPM:File>
+                           <QPM:File>bugzilla.gif</QPM:File>
+                           <QPM:File>bugzilla.src</QPM:File>
+                           <QPM:File>dmoz.gif</QPM:File>
+                           <QPM:File>dmoz.src</QPM:File>
+                           <QPM:File>google.gif</QPM:File>
+                           <QPM:File>google.src</QPM:File>
+                           <QPM:File>lxrmozilla.gif</QPM:File>
+                           <QPM:File>lxrmozilla.src</QPM:File>
+                           <QPM:File>mozilla.gif</QPM:File>
+                           <QPM:File>mozilla.src</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

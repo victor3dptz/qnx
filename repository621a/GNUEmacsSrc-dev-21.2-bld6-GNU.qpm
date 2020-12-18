@@ -1,0 +1,449 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageName>GNUEmacsSrc-dev-21.2-bld6-GNU</QPM:PackageName>
+            <QPM:PackageSize>329199</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2002/05/27</QPM:PackageReleaseDate>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageRepository>ftp://24.112.178.91/pub/qnxrtp/repository</QPM:PackageRepository>
+            <QPM:PackageModel>dev</QPM:PackageModel>
+            <QPM:FileVersion>1.01</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>1348148</QPM:ProductSize>
+            <QPM:InstallPath>GNU/GNUEmacsSrc/dev-21.2-bld6</QPM:InstallPath>
+            <QPM:ProductName>GNU Emacs Source Development</QPM:ProductName>
+            <QPM:ProductIdentifier>GNUEmacsSrc-dev</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:ProductURL>www.gnu.org</QPM:ProductURL>
+            <QPM:VendorName>GNU</QPM:VendorName>
+            <QPM:VendorInstallName>GNU</QPM:VendorInstallName>
+            <QPM:VendorURL>www.gnu.org</QPM:VendorURL>
+            <QPM:VendorEmbedURL>www.gnu.org</QPM:VendorEmbedURL>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>GNU</QPM:AuthorName>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>GNU Emacs Source</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>GNU Emacs 21.2 ported by Andrew Thomas, Cogent Real-Time Systems Inc.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>www.gnu.org</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL>www.gnu.org</QPM:ProductDescriptionEmbedURL>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/05/27</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>21.2</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor>QNX6 Port</QPM:ReleaseNoteMinor>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>6</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>GPL</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:ContentTopic>Text Editing and Processing/Text Editors/Emacs</QPM:ContentTopic>
+            <QPM:ContentKeyword/>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:LicenseUrl/>
+         <QPM:ProductInstallationProcedure/>
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="src">
+                     <QPM:Dir name="emacs-21.2">
+                        <QPM:Dir name="lib-src">
+                           <QPM:File>getopt.h</QPM:File>
+                           <QPM:File>ntlib.h</QPM:File>
+                           <QPM:File>pop.h</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="lwlib">
+                           <QPM:File>dispatch.h</QPM:File>
+                           <QPM:File>lwlib-Xaw.h</QPM:File>
+                           <QPM:File>lwlib-Xlw.h</QPM:File>
+                           <QPM:File>lwlib-Xm.h</QPM:File>
+                           <QPM:File>lwlib-int.h</QPM:File>
+                           <QPM:File>lwlib-utils.h</QPM:File>
+                           <QPM:File>lwlib.h</QPM:File>
+                           <QPM:File>xlwmenu.h</QPM:File>
+                           <QPM:File>xlwmenuP.h</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="mac">
+                           <QPM:Dir name="inc">
+                              <QPM:File>alloca.h</QPM:File>
+                              <QPM:File>config.h</QPM:File>
+                              <QPM:File>defs-cw5.h</QPM:File>
+                              <QPM:File>defs-cw6.h</QPM:File>
+                              <QPM:File>dirent.h</QPM:File>
+                              <QPM:File>epaths.h</QPM:File>
+                              <QPM:File>m-mac.h</QPM:File>
+                              <QPM:File>macgui.h</QPM:File>
+                              <QPM:File>macterm.h</QPM:File>
+                              <QPM:File>pwd.h</QPM:File>
+                              <QPM:File>s-mac.h</QPM:File>
+                              <QPM:Dir name="sys">
+                                 <QPM:File>file.h</QPM:File>
+                                 <QPM:File>ioctl.h</QPM:File>
+                                 <QPM:File>param.h</QPM:File>
+                                 <QPM:File>stat.h</QPM:File>
+                                 <QPM:File>time.h</QPM:File>
+                                 <QPM:File>types.h</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>termio.h</QPM:File>
+                              <QPM:File>utime.h</QPM:File>
+                              <QPM:File>utsname.h</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="nt">
+                           <QPM:Dir name="inc">
+                              <QPM:Dir name="arpa">
+                                 <QPM:File>inet.h</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>netdb.h</QPM:File>
+                              <QPM:Dir name="netinet">
+                                 <QPM:File>in.h</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>pwd.h</QPM:File>
+                              <QPM:Dir name="sys">
+                                 <QPM:File>dir.h</QPM:File>
+                                 <QPM:File>file.h</QPM:File>
+                                 <QPM:File>ioctl.h</QPM:File>
+                                 <QPM:File>param.h</QPM:File>
+                                 <QPM:File>socket.h</QPM:File>
+                                 <QPM:File>time.h</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>unistd.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>paths.h</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="oldXMenu">
+                           <QPM:File>X10.h</QPM:File>
+                           <QPM:File>XMenu.h</QPM:File>
+                           <QPM:File>XMenuInt.h</QPM:File>
+                           <QPM:File>copyright.h</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="src">
+                           <QPM:File>acldef.h</QPM:File>
+                           <QPM:File>atimer.h</QPM:File>
+                           <QPM:File>blockinput.h</QPM:File>
+                           <QPM:File>buffer.h</QPM:File>
+                           <QPM:File>category.h</QPM:File>
+                           <QPM:File>ccl.h</QPM:File>
+                           <QPM:File>charset.h</QPM:File>
+                           <QPM:File>chpdef.h</QPM:File>
+                           <QPM:File>cm.h</QPM:File>
+                           <QPM:File>coding.h</QPM:File>
+                           <QPM:File>commands.h</QPM:File>
+                           <QPM:File>composite.h</QPM:File>
+                           <QPM:File>dispextern.h</QPM:File>
+                           <QPM:File>disptab.h</QPM:File>
+                           <QPM:File>dosfns.h</QPM:File>
+                           <QPM:File>fontset.h</QPM:File>
+                           <QPM:File>frame.h</QPM:File>
+                           <QPM:File>getpagesize.h</QPM:File>
+                           <QPM:File>gnu.h</QPM:File>
+                           <QPM:File>indent.h</QPM:File>
+                           <QPM:File>intervals.h</QPM:File>
+                           <QPM:File>ioctl.h</QPM:File>
+                           <QPM:File>keyboard.h</QPM:File>
+                           <QPM:File>lisp.h</QPM:File>
+                           <QPM:Dir name="m">
+                              <QPM:File>7300.h</QPM:File>
+                              <QPM:File>acorn.h</QPM:File>
+                              <QPM:File>alliant-2800.h</QPM:File>
+                              <QPM:File>alliant.h</QPM:File>
+                              <QPM:File>alliant1.h</QPM:File>
+                              <QPM:File>alliant4.h</QPM:File>
+                              <QPM:File>alpha.h</QPM:File>
+                              <QPM:File>altos.h</QPM:File>
+                              <QPM:File>amdahl.h</QPM:File>
+                              <QPM:File>apollo.h</QPM:File>
+                              <QPM:File>arm.h</QPM:File>
+                              <QPM:File>att3b.h</QPM:File>
+                              <QPM:File>aviion-intel.h</QPM:File>
+                              <QPM:File>aviion.h</QPM:File>
+                              <QPM:File>celerity.h</QPM:File>
+                              <QPM:File>clipper.h</QPM:File>
+                              <QPM:File>cnvrgnt.h</QPM:File>
+                              <QPM:File>convex.h</QPM:File>
+                              <QPM:File>cydra5.h</QPM:File>
+                              <QPM:File>delta.h</QPM:File>
+                              <QPM:File>delta88k.h</QPM:File>
+                              <QPM:File>dpx2.h</QPM:File>
+                              <QPM:File>dual.h</QPM:File>
+                              <QPM:File>elxsi.h</QPM:File>
+                              <QPM:File>ews4800.h</QPM:File>
+                              <QPM:File>f301.h</QPM:File>
+                              <QPM:File>gec63.h</QPM:File>
+                              <QPM:File>gould-np1.h</QPM:File>
+                              <QPM:File>gould.h</QPM:File>
+                              <QPM:File>hp800.h</QPM:File>
+                              <QPM:File>hp9000s300.h</QPM:File>
+                              <QPM:File>i860.h</QPM:File>
+                              <QPM:File>ia64.h</QPM:File>
+                              <QPM:File>ibm370aix.h</QPM:File>
+                              <QPM:File>ibmps2-aix.h</QPM:File>
+                              <QPM:File>ibmrs6000.h</QPM:File>
+                              <QPM:File>ibmrt-aix.h</QPM:File>
+                              <QPM:File>ibmrt.h</QPM:File>
+                              <QPM:File>intel386.h</QPM:File>
+                              <QPM:File>iris4d.h</QPM:File>
+                              <QPM:File>irist.h</QPM:File>
+                              <QPM:File>is386.h</QPM:File>
+                              <QPM:File>isi-ov.h</QPM:File>
+                              <QPM:File>m68k.h</QPM:File>
+                              <QPM:File>macppc.h</QPM:File>
+                              <QPM:File>masscomp.h</QPM:File>
+                              <QPM:File>mega68.h</QPM:File>
+                              <QPM:File>mg1.h</QPM:File>
+                              <QPM:File>mips-siemens.h</QPM:File>
+                              <QPM:File>mips.h</QPM:File>
+                              <QPM:File>mips4.h</QPM:File>
+                              <QPM:File>ncr386.h</QPM:File>
+                              <QPM:File>news-r6.h</QPM:File>
+                              <QPM:File>news-risc.h</QPM:File>
+                              <QPM:File>news.h</QPM:File>
+                              <QPM:File>next.h</QPM:File>
+                              <QPM:File>nh3000.h</QPM:File>
+                              <QPM:File>nh4000.h</QPM:File>
+                              <QPM:File>ns16000.h</QPM:File>
+                              <QPM:File>ns32000.h</QPM:File>
+                              <QPM:File>nu.h</QPM:File>
+                              <QPM:File>orion.h</QPM:File>
+                              <QPM:File>orion105.h</QPM:File>
+                              <QPM:File>paragon.h</QPM:File>
+                              <QPM:File>pfa50.h</QPM:File>
+                              <QPM:File>plexus.h</QPM:File>
+                              <QPM:File>pmax.h</QPM:File>
+                              <QPM:File>powerpcle.h</QPM:File>
+                              <QPM:File>pyramid.h</QPM:File>
+                              <QPM:File>pyrmips.h</QPM:File>
+                              <QPM:File>sequent-ptx.h</QPM:File>
+                              <QPM:File>sequent.h</QPM:File>
+                              <QPM:File>sgi3000.h</QPM:File>
+                              <QPM:File>sparc.h</QPM:File>
+                              <QPM:File>sps7.h</QPM:File>
+                              <QPM:File>sr2k.h</QPM:File>
+                              <QPM:File>stride.h</QPM:File>
+                              <QPM:File>sun1.h</QPM:File>
+                              <QPM:File>sun2.h</QPM:File>
+                              <QPM:File>sun3-68881.h</QPM:File>
+                              <QPM:File>sun3-fpa.h</QPM:File>
+                              <QPM:File>sun3-soft.h</QPM:File>
+                              <QPM:File>sun3.h</QPM:File>
+                              <QPM:File>sun386.h</QPM:File>
+                              <QPM:File>symmetry.h</QPM:File>
+                              <QPM:File>tad68k.h</QPM:File>
+                              <QPM:File>tahoe.h</QPM:File>
+                              <QPM:File>tandem-s2.h</QPM:File>
+                              <QPM:File>targon31.h</QPM:File>
+                              <QPM:File>tek4300.h</QPM:File>
+                              <QPM:File>tekxd88.h</QPM:File>
+                              <QPM:File>template.h</QPM:File>
+                              <QPM:File>tower32.h</QPM:File>
+                              <QPM:File>tower32v3.h</QPM:File>
+                              <QPM:File>ustation.h</QPM:File>
+                              <QPM:File>vax.h</QPM:File>
+                              <QPM:File>wicat.h</QPM:File>
+                              <QPM:File>windowsnt.h</QPM:File>
+                              <QPM:File>xps100.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>macros.h</QPM:File>
+                           <QPM:File>md5.h</QPM:File>
+                           <QPM:File>mem-limits.h</QPM:File>
+                           <QPM:File>mocklisp.h</QPM:File>
+                           <QPM:File>msdos.h</QPM:File>
+                           <QPM:File>ndir.h</QPM:File>
+                           <QPM:File>param.h</QPM:File>
+                           <QPM:File>point.h</QPM:File>
+                           <QPM:File>process.h</QPM:File>
+                           <QPM:File>puresize.h</QPM:File>
+                           <QPM:File>regex.h</QPM:File>
+                           <QPM:File>region-cache.h</QPM:File>
+                           <QPM:Dir name="s">
+                              <QPM:File>386-ix.h</QPM:File>
+                              <QPM:File>386bsd.h</QPM:File>
+                              <QPM:File>aix3-1.h</QPM:File>
+                              <QPM:File>aix3-2-5.h</QPM:File>
+                              <QPM:File>aix3-2.h</QPM:File>
+                              <QPM:File>aix4-1.h</QPM:File>
+                              <QPM:File>aix4-2.h</QPM:File>
+                              <QPM:File>aix4.h</QPM:File>
+                              <QPM:File>bsd386.h</QPM:File>
+                              <QPM:File>bsd4-1.h</QPM:File>
+                              <QPM:File>bsd4-2.h</QPM:File>
+                              <QPM:File>bsd4-3.h</QPM:File>
+                              <QPM:File>bsdos2-1.h</QPM:File>
+                              <QPM:File>bsdos2.h</QPM:File>
+                              <QPM:File>bsdos3.h</QPM:File>
+                              <QPM:File>bsdos4.h</QPM:File>
+                              <QPM:File>cxux.h</QPM:File>
+                              <QPM:File>cxux7.h</QPM:File>
+                              <QPM:File>dgux.h</QPM:File>
+                              <QPM:File>dgux4.h</QPM:File>
+                              <QPM:File>dgux5-4-3.h</QPM:File>
+                              <QPM:File>dgux5-4r2.h</QPM:File>
+                              <QPM:File>domain.h</QPM:File>
+                              <QPM:File>esix.h</QPM:File>
+                              <QPM:File>esix5r4.h</QPM:File>
+                              <QPM:File>freebsd.h</QPM:File>
+                              <QPM:File>gnu-linux.h</QPM:File>
+                              <QPM:File>gnu.h</QPM:File>
+                              <QPM:File>hiuxmpp.h</QPM:File>
+                              <QPM:File>hiuxwe2.h</QPM:File>
+                              <QPM:File>hpux.h</QPM:File>
+                              <QPM:File>hpux10.h</QPM:File>
+                              <QPM:File>hpux11.h</QPM:File>
+                              <QPM:File>hpux8.h</QPM:File>
+                              <QPM:File>hpux9-x11r4.h</QPM:File>
+                              <QPM:File>hpux9.h</QPM:File>
+                              <QPM:File>hpux9shr.h</QPM:File>
+                              <QPM:File>hpux9shxr4.h</QPM:File>
+                              <QPM:File>iris3-5.h</QPM:File>
+                              <QPM:File>iris3-6.h</QPM:File>
+                              <QPM:File>irix3-3.h</QPM:File>
+                              <QPM:File>irix4-0.h</QPM:File>
+                              <QPM:File>irix5-0.h</QPM:File>
+                              <QPM:File>irix5-2.h</QPM:File>
+                              <QPM:File>irix6-0.h</QPM:File>
+                              <QPM:File>irix6-5.h</QPM:File>
+                              <QPM:File>isc2-2.h</QPM:File>
+                              <QPM:File>isc3-0.h</QPM:File>
+                              <QPM:File>isc4-0.h</QPM:File>
+                              <QPM:File>isc4-1.h</QPM:File>
+                              <QPM:File>lynxos.h</QPM:File>
+                              <QPM:File>mach-bsd4-3.h</QPM:File>
+                              <QPM:File>ms-w32.h</QPM:File>
+                              <QPM:File>msdos.h</QPM:File>
+                              <QPM:File>netbsd.h</QPM:File>
+                              <QPM:File>newsos5.h</QPM:File>
+                              <QPM:File>newsos6.h</QPM:File>
+                              <QPM:File>nextstep.h</QPM:File>
+                              <QPM:File>openbsd.h</QPM:File>
+                              <QPM:File>osf1.h</QPM:File>
+                              <QPM:File>osf5-0.h</QPM:File>
+                              <QPM:File>ptx.h</QPM:File>
+                              <QPM:File>ptx4-2.h</QPM:File>
+                              <QPM:File>ptx4.h</QPM:File>
+                              <QPM:File>qnx6.h</QPM:File>
+                              <QPM:File>riscix1-1.h</QPM:File>
+                              <QPM:File>riscix12.h</QPM:File>
+                              <QPM:File>riscos5.h</QPM:File>
+                              <QPM:File>rtu.h</QPM:File>
+                              <QPM:File>sco4.h</QPM:File>
+                              <QPM:File>sco5.h</QPM:File>
+                              <QPM:File>sol2-3.h</QPM:File>
+                              <QPM:File>sol2-4.h</QPM:File>
+                              <QPM:File>sol2-5.h</QPM:File>
+                              <QPM:File>sol2.h</QPM:File>
+                              <QPM:File>sunos4-0.h</QPM:File>
+                              <QPM:File>sunos4-1.h</QPM:File>
+                              <QPM:File>sunos413.h</QPM:File>
+                              <QPM:File>sunos4shr.h</QPM:File>
+                              <QPM:File>template.h</QPM:File>
+                              <QPM:File>ultrix4-3.h</QPM:File>
+                              <QPM:File>umax.h</QPM:File>
+                              <QPM:File>umips.h</QPM:File>
+                              <QPM:File>unipl5-0.h</QPM:File>
+                              <QPM:File>unipl5-2.h</QPM:File>
+                              <QPM:File>unixware.h</QPM:File>
+                              <QPM:File>usg5-0.h</QPM:File>
+                              <QPM:File>usg5-2-2.h</QPM:File>
+                              <QPM:File>usg5-2.h</QPM:File>
+                              <QPM:File>usg5-3.h</QPM:File>
+                              <QPM:File>usg5-4-2.h</QPM:File>
+                              <QPM:File>usg5-4-3.h</QPM:File>
+                              <QPM:File>usg5-4.h</QPM:File>
+                              <QPM:File>ux4800.h</QPM:File>
+                              <QPM:File>uxpds.h</QPM:File>
+                              <QPM:File>uxpv.h</QPM:File>
+                              <QPM:File>vms.h</QPM:File>
+                              <QPM:File>vms4-0.h</QPM:File>
+                              <QPM:File>vms4-2.h</QPM:File>
+                              <QPM:File>vms4-4.h</QPM:File>
+                              <QPM:File>vms5-5.h</QPM:File>
+                              <QPM:File>windows95.h</QPM:File>
+                              <QPM:File>xenix.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>syntax.h</QPM:File>
+                           <QPM:File>sysselect.h</QPM:File>
+                           <QPM:File>syssignal.h</QPM:File>
+                           <QPM:File>systime.h</QPM:File>
+                           <QPM:File>systty.h</QPM:File>
+                           <QPM:File>syswait.h</QPM:File>
+                           <QPM:File>termchar.h</QPM:File>
+                           <QPM:File>termhooks.h</QPM:File>
+                           <QPM:File>termopts.h</QPM:File>
+                           <QPM:File>uaf.h</QPM:File>
+                           <QPM:File>vlimit.h</QPM:File>
+                           <QPM:File>w32.h</QPM:File>
+                           <QPM:File>w32bdf.h</QPM:File>
+                           <QPM:File>w32gui.h</QPM:File>
+                           <QPM:File>w32heap.h</QPM:File>
+                           <QPM:File>w32inevt.h</QPM:File>
+                           <QPM:File>w32term.h</QPM:File>
+                           <QPM:File>widget.h</QPM:File>
+                           <QPM:File>widgetprv.h</QPM:File>
+                           <QPM:File>window.h</QPM:File>
+                           <QPM:File>xterm.h</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Dir name="src">
+                     <QPM:Dir name="emacs-21.2">
+                        <QPM:Union link="../../../opt/src/emacs-21.2/src">src</QPM:Union>
+                        <QPM:Union link="../../../opt/src/emacs-21.2/oldXMenu">oldXMenu</QPM:Union>
+                        <QPM:Union link="../../../opt/src/emacs-21.2/nt">nt</QPM:Union>
+                        <QPM:Union link="../../../opt/src/emacs-21.2/lwlib">lwlib</QPM:Union>
+                        <QPM:Union link="../../../opt/src/emacs-21.2/lib-src">lib-src</QPM:Union>
+                        <QPM:Dir name="mac">
+                           <QPM:Union link="../../../../opt/src/emacs-21.2/mac/inc">inc</QPM:Union>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

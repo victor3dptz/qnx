@@ -1,0 +1,631 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageName>glib2-2.4.8-public</QPM:PackageName>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2005/02/13</QPM:PackageReleaseDate>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:FileVersion>2.6</QPM:FileVersion>
+            <QPM:DateCode>420eedff</QPM:DateCode>
+            <QPM:PackageSize>683999</QPM:PackageSize>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>4838144</QPM:ProductSize>
+            <QPM:InstallPath>public/glib2/core-2.4.8</QPM:InstallPath>
+            <QPM:ProductName>Glib2</QPM:ProductName>
+            <QPM:ProductIdentifier>glib2</QPM:ProductIdentifier>
+            <QPM:ProductEmail>gtk-list-request@gnome.org</QPM:ProductEmail>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.gtk.org</QPM:VendorURL>
+            <QPM:VendorEmail>gtk-list-request@gnome.org</QPM:VendorEmail>
+            <QPM:AuthorName>Glib2 Team</QPM:AuthorName>
+            <QPM:ProductDescriptionShort>GLib is the low-level core library that forms the basis for projects such as GTK+ and GNOME.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>GLib is the low-level core library that forms the basis for projects such as GTK+ and GNOME. It provides data structure handling for C, portability wrappers, and interfaces for such runtime functionality as an event loop, threads, dynamic loading, and an object system.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.gtk.org</QPM:ProductDescriptionURL>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2005/02/13</QPM:ReleaseDate>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ReleaseVersion>2.4.8</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseCopyright>GNU Lesser General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Software Development/Libraries and Extensions/C Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>GNOME,glib,glib2,tree,hash,list</QPM:ContentKeyword>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:LicenseUrl>rep://glib2-2.4.8-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:PackageDate>420eedff</QPM:PackageDate>
+         <QPM:Listing>
+            <QPM:Dir name="" dt="420eedff">
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../$(PROCESSOR)/usr/bin">bin</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/usr/lib">lib</QPM:Union>
+                  <QPM:Dir name="bin">
+                     <QPM:File sum="4962cd10754bc023492dc2163efbc96e" size="5331">glib-gettextize</QPM:File>
+                     <QPM:File sum="ba612ae2e53025b25f6982684b7e8e31" size="14110">glib-mkenums</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="include">
+                     <QPM:Dir name="glib-2.0">
+                        <QPM:Dir name="gobject">
+                           <QPM:File sum="8cce18bb8f6cbb88edd6466572fc7337" size="4722">gobjectnotifyqueue.c</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="aclocal">
+                        <QPM:File sum="d414c2caed0b26bf105634bdc83ed427" size="8178">glib-2.0.m4</QPM:File>
+                        <QPM:File sum="67397917f4bbd79973d78e5e7b76fb4b" size="11943">glib-gettext.m4</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="glib-2.0">
+                        <QPM:Dir name="gettext">
+                           <QPM:File sum="cfbd1f0cc32bb4f6feb804354401e61a" size="3421">mkinstalldirs</QPM:File>
+                           <QPM:Dir name="po">
+                              <QPM:File sum="97e2d529c9fb6ae57ba41a6e96d8cc7e" size="7420">Makefile.in.in</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="gtk-doc">
+                        <QPM:Dir name="html">
+                           <QPM:Dir name="glib">
+                              <QPM:File sum="fa4ec18a806767e124759a09823d6e26" size="30639">file-name-encodings.png</QPM:File>
+                              <QPM:File sum="f742ef89aced58154eb6d047d85a3a8a" size="33766">glib-Arrays.html</QPM:File>
+                              <QPM:File sum="06e4a96c9e8d88d0bd8d1cf2eea35838" size="29502">glib-Asynchronous-Queues.html</QPM:File>
+                              <QPM:File sum="7cab548574fe0519890eb097b341f80b" size="17304">glib-Atomic-Operations.html</QPM:File>
+                              <QPM:File sum="389acda8979947a865aff4d000e6efc6" size="23271">glib-Automatic-String-Completion.html</QPM:File>
+                              <QPM:File sum="bf4a4d9dc008cc78f2086eac131ec632" size="39776">glib-Balanced-Binary-Trees.html</QPM:File>
+                              <QPM:File sum="3bc795a0f6ccc5832e3e0396ddd81b9e" size="17037">glib-Basic-Types.html</QPM:File>
+                              <QPM:File sum="09c9ad9ac9ff65b2c43c3baa8c27ba94" size="23551">glib-Byte-Arrays.html</QPM:File>
+                              <QPM:File sum="85487a4d6df62ca1a5087355630a5c55" size="56188">glib-Byte-Order-Macros.html</QPM:File>
+                              <QPM:File sum="cd25d08cc67055d288a6e86121754f2c" size="20395">glib-Caches.html</QPM:File>
+                              <QPM:File sum="d1d59b7c119df4d6a04bd85774b35b54" size="51532">glib-Character-Set-Conversion.html</QPM:File>
+                              <QPM:File sum="6fc0ab56ac21d271c81000cd83129251" size="22806">glib-Datasets.html</QPM:File>
+                              <QPM:File sum="51647975cbf9005b068f25cf2a510ed1" size="83281">glib-Date-and-Time-Functions.html</QPM:File>
+                              <QPM:File sum="8be8a5216563310f2131659e440c50e8" size="58830">glib-Double-ended-Queues.html</QPM:File>
+                              <QPM:File sum="da622b8f7f24a465c25e33f194760268" size="62156">glib-Doubly-Linked-Lists.html</QPM:File>
+                              <QPM:File sum="f6512bffabfb9214cb1d1c0f0ae0ba2a" size="23367">glib-Dynamic-Loading-of-Modules.html</QPM:File>
+                              <QPM:File sum="2bff5d59959e71afaec46e9f9a0295a0" size="33728">glib-Error-Reporting.html</QPM:File>
+                              <QPM:File sum="2da235626cd040d31acccdcefd1921db" size="33703">glib-File-Utilities.html</QPM:File>
+                              <QPM:File sum="fadf9a279c707a413f3d9757c1f4a3d6" size="15886">glib-Glob-style-pattern-matching.html</QPM:File>
+                              <QPM:File sum="d6c0768cad355a12df55d094cf1335a8" size="55370">glib-Hash-Tables.html</QPM:File>
+                              <QPM:File sum="cccff2a21ca4ccb922b73a6e5fec5be6" size="69352">glib-Hook-Functions.html</QPM:File>
+                              <QPM:File sum="13ab593f04339321a80efdf936e17cf2" size="8438">glib-I18N.html</QPM:File>
+                              <QPM:File sum="75261b55069af6545a7b4ec83ed9cbc4" size="98670">glib-IO-Channels.html</QPM:File>
+                              <QPM:File sum="9a1a5a545e2aa4b52b52c94e20c44432" size="21797">glib-Keyed-Data-Lists.html</QPM:File>
+                              <QPM:File sum="fbc475ce7e6ea2a2f21ada136b061c72" size="58991">glib-Lexical-Scanner.html</QPM:File>
+                              <QPM:File sum="d627a2fb5b15e86faa9499abbb4c5c42" size="14838">glib-Limits-of-Basic-Types.html</QPM:File>
+                              <QPM:File sum="6a7be2bcbbd36989cd8d15e31a1a95ec" size="29195">glib-Memory-Allocation.html</QPM:File>
+                              <QPM:File sum="fe2206ef47626d61ebd3b53c661a9ebe" size="9116">glib-Memory-Allocators.html</QPM:File>
+                              <QPM:File sum="030e469dc74d6d2860b95e6f526ec63e" size="28826">glib-Memory-Chunks.html</QPM:File>
+                              <QPM:File sum="af8c402295fe8b58a8d055d256a469f2" size="25397">glib-Message-Logging.html</QPM:File>
+                              <QPM:File sum="51838c52ba75f46747ddc4a87889e57c" size="30013">glib-Miscellaneous-Macros.html</QPM:File>
+                              <QPM:File sum="9c7ca656cf521d62562bf99f33005a57" size="46410">glib-Miscellaneous-Utility-Functions.html</QPM:File>
+                              <QPM:File sum="353e25cda5d70184a1e2dbb94ddca657" size="69623">glib-N-ary-Trees.html</QPM:File>
+                              <QPM:File sum="fbb65e2a4d1974c1dab1b35c09af4f79" size="10350">glib-Numerical-Definitions.html</QPM:File>
+                              <QPM:File sum="02e76b5479449356108f718bfcb6fcd7" size="26845">glib-Pointer-Arrays.html</QPM:File>
+                              <QPM:File sum="530be15aeb912585cf0fe57c70348a7a" size="9939">glib-Quarks.html</QPM:File>
+                              <QPM:File sum="a35d3e9155528e31a61a01aff3bffabe" size="27563">glib-Random-Numbers.html</QPM:File>
+                              <QPM:File sum="927544967e42fc5c4ace95473cc01764" size="24834">glib-Relations-and-Tuples.html</QPM:File>
+                              <QPM:File sum="b9ec4f77b6f24896c6821fe452846f2f" size="11561">glib-Shell-related-Utilities.html</QPM:File>
+                              <QPM:File sum="081c636c75eb583a70dd25bf158f9b52" size="32244">glib-Simple-XML-Subset-Parser.html</QPM:File>
+                              <QPM:File sum="f3796ca5a174ebc490e1d5ca1a4b73da" size="52348">glib-Singly-Linked-Lists.html</QPM:File>
+                              <QPM:File sum="dc763f31d9b78c2af22a378a49c87dad" size="45321">glib-Spawning-Processes.html</QPM:File>
+                              <QPM:File sum="d895e9ee59ee0b767e2b60a91ca20306" size="18502">glib-Standard-Macros.html</QPM:File>
+                              <QPM:File sum="f7886a248e90190625d09e42c7907b9d" size="14736">glib-String-Chunks.html</QPM:File>
+                              <QPM:File sum="f217251c750bc094d90255763156bb89" size="132027">glib-String-Utility-Functions.html</QPM:File>
+                              <QPM:File sum="afede02570be9bfdd5f3ff47eba2c02a" size="49214">glib-Strings.html</QPM:File>
+                              <QPM:File sum="2b340f57d3c041658e9ea4083fd43994" size="136728">glib-The-Main-Event-Loop.html</QPM:File>
+                              <QPM:File sum="aa1d3ac65dc5c17c2778b07a30ca2ea8" size="26017">glib-Thread-Pools.html</QPM:File>
+                              <QPM:File sum="4f53b9fec40f05e1fe3a707c1aff551d" size="124739">glib-Threads.html</QPM:File>
+                              <QPM:File sum="ad7584816815ee6a6a60d94de4212d02" size="11190">glib-Timers.html</QPM:File>
+                              <QPM:File sum="75cf693a84b3f817a2b065cbfc292317" size="9067">glib-Trash-Stacks.html</QPM:File>
+                              <QPM:File sum="a75feb3d311abe58b0c14516de072277" size="9949">glib-Type-Conversion-Macros.html</QPM:File>
+                              <QPM:File sum="9bd8effa2218c91ce115dba366d54c42" size="104350">glib-Unicode-Manipulation.html</QPM:File>
+                              <QPM:File sum="2f48f2e5330be0259b7017065b7e5425" size="18649">glib-Warnings-and-Assertions.html</QPM:File>
+                              <QPM:File sum="07e9bc640e2c580af6bba4a16ff109e7" size="14234">glib-Windows-Compatability-Functions.html</QPM:File>
+                              <QPM:File sum="199b6da54588a9ae0c6ece9021fbdc6d" size="14502">glib-building.html</QPM:File>
+                              <QPM:File sum="5ae617dc6a175278d680cda51e5e45d7" size="6933">glib-changes.html</QPM:File>
+                              <QPM:File sum="1a93d35f6578beec0b9ad0c42ede6dd2" size="4003">glib-compiling.html</QPM:File>
+                              <QPM:File sum="c7dc336385f04edb1b8d0fe26cd3eeea" size="3509">glib-core.html</QPM:File>
+                              <QPM:File sum="0a77d950f1870522410f35c16589ba91" size="8214">glib-cross-compiling.html</QPM:File>
+                              <QPM:File sum="ca4bc4aff6878a697d1bae01458b28d3" size="4821">glib-data-types.html</QPM:File>
+                              <QPM:File sum="e8eb40cee009c27011af370cba6dfcd4" size="3205">glib-fundamentals.html</QPM:File>
+                              <QPM:File sum="53d23ab37ff81cf6c4ab83c25dc3f7a3" size="4205">glib-gettextize.html</QPM:File>
+                              <QPM:File sum="ef6dff16379db2470e9de214ddef140e" size="5888">glib-resources.html</QPM:File>
+                              <QPM:File sum="5afb25f6bd987f26cf0708f855b47e7a" size="6361">glib-running.html</QPM:File>
+                              <QPM:File sum="6c6ad950888b29be4022e00f0cef9c61" size="4302">glib-utilities.html</QPM:File>
+                              <QPM:File sum="9bd587027d986547123e016f06a67f4a" size="126596">glib.devhelp</QPM:File>
+                              <QPM:File sum="af80f6bff095ade4d794b4d332d9bd6f" size="3478">glib.html</QPM:File>
+                              <QPM:File sum="f6192f4292d744423df690e785d60fdf" size="654">home.png</QPM:File>
+                              <QPM:File sum="1adf8e3f128a88bbd75454cea425f373" size="9780">index.html</QPM:File>
+                              <QPM:File sum="9cb2d6a053af6c32133a0d5d5bba8ad7" size="118037">index.sgml</QPM:File>
+                              <QPM:File sum="c54ecc0872daec2597daaeeafbacf02d" size="126030">ix01.html</QPM:File>
+                              <QPM:File sum="f771308152ab24a69682daed70ce136d" size="459">left.png</QPM:File>
+                              <QPM:File sum="50cb620dd2014ab0a39b9aba698fa573" size="7088">mainloop-states.gif</QPM:File>
+                              <QPM:File sum="ebd7e6d206d73850d77d305ab548f957" size="472">right.png</QPM:File>
+                              <QPM:File sum="97fa6654c4179e40e5431c979074cc93" size="729">style.css</QPM:File>
+                              <QPM:File sum="eef36d29a615135105e42a4915473f80" size="2304">tools.html</QPM:File>
+                              <QPM:File sum="2f07d9272deb4ae870ca6821117877fa" size="406">up.png</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="gobject">
+                              <QPM:File sum="e123940f32d743c69d1e3700cbb94724" size="17406">GTypeModule.html</QPM:File>
+                              <QPM:File sum="c021907f5d25d28990c92b581b0513d2" size="24050">GTypePlugin.html</QPM:File>
+                              <QPM:File sum="07c0b58b4760698b53b938e4b7d1742f" size="11071">glib-genmarshal.html</QPM:File>
+                              <QPM:File sum="7af133b5a883d5eb1bbf0bc6653874c6" size="10110">glib-mkenums.html</QPM:File>
+                              <QPM:File sum="22abd19a9989fbf7cc4c77fceb958a6b" size="13589">gobject-Boxed-Types.html</QPM:File>
+                              <QPM:File sum="7dfbeee05e1a8f15baaf8b6a42214917" size="124360">gobject-Closures.html</QPM:File>
+                              <QPM:File sum="c86cdf196862b457f787d7b0cb34d89e" size="36846">gobject-Enumeration-and-Flag-Types.html</QPM:File>
+                              <QPM:File sum="c72ac0f507d1e462e945fc78f2cfdda4" size="71970">gobject-GParamSpec.html</QPM:File>
+                              <QPM:File sum="e6502e09245ab59b3af9c09edda6641a" size="30810">gobject-Generic-values.html</QPM:File>
+                              <QPM:File sum="812b65bfeb0664ecc6670ceace616b37" size="121500">gobject-Signals.html</QPM:File>
+                              <QPM:File sum="8cbc39f7c29f52e7421b9472b745002d" size="243379">gobject-Standard-Parameter-and-Value-Types.html</QPM:File>
+                              <QPM:File sum="7ed97afd84f6beb2c5958c81e3954380" size="104692">gobject-The-Base-Object-Type.html</QPM:File>
+                              <QPM:File sum="ce2af8de2594728aa9fb1c554c75abe6" size="178185">gobject-Type-Information.html</QPM:File>
+                              <QPM:File sum="1b062a26086a3c40a35effd40b7dd2e9" size="21613">gobject-Value-arrays.html</QPM:File>
+                              <QPM:File sum="596ad50c55cfe4634f480b498b0ac5d1" size="7426">gobject-Varargs-Value-Collection.html</QPM:File>
+                              <QPM:File sum="174e1922e2e9d47a20d9cd3dca5801fc" size="4282">gobject-query.html</QPM:File>
+                              <QPM:File sum="6039bf7b86fcd3c612169dad007478cd" size="66147">gobject.devhelp</QPM:File>
+                              <QPM:File sum="f6192f4292d744423df690e785d60fdf" size="654">home.png</QPM:File>
+                              <QPM:File sum="cda4e34794937fe48c1012abefd23547" size="3445">index.html</QPM:File>
+                              <QPM:File sum="53b3ba580ecd59082b8da85048d99644" size="64199">index.sgml</QPM:File>
+                              <QPM:File sum="5298958189015e228ae40ac573d2a211" size="66448">ix01.html</QPM:File>
+                              <QPM:File sum="f771308152ab24a69682daed70ce136d" size="459">left.png</QPM:File>
+                              <QPM:File sum="1fb89a2686b0023abc9ff91ad180b061" size="3935">pr01.html</QPM:File>
+                              <QPM:File sum="ebd7e6d206d73850d77d305ab548f957" size="472">right.png</QPM:File>
+                              <QPM:File sum="fa44526cbb4e06e47f76f7a45aae5731" size="1934">rn01.html</QPM:File>
+                              <QPM:File sum="fd3d27d91c2bfb66f9ab09fa89dce2b3" size="1964">rn02.html</QPM:File>
+                              <QPM:File sum="97fa6654c4179e40e5431c979074cc93" size="729">style.css</QPM:File>
+                              <QPM:File sum="2f07d9272deb4ae870ca6821117877fa" size="406">up.png</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="locale">
+                        <QPM:Dir name="am">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="3613c6b1e349df12b0c217a3cb40e081" size="739">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ar">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="8433d4b86126f33ce972cfc5a9929c7d" size="14429">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="az">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="0adbcc27482105018bbf33e61732864e" size="13398">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="be">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="34dc294dfe4c43bfe4f62b6156f634aa" size="16910">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="bg">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="920dcfb3b5236fb65ec681c9d441149d" size="16744">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="bn">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="091b6d8291c933dc8eff9e36bd32ab27" size="13377">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="bs">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="d92fd5f2223908b168421d277107ca34" size="12797">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ca">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="c45d12c0a0897d5cf167ab9b21dfc372" size="13799">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="cs">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="6eda7db53a9d30917c100107810fec82" size="12625">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="cy">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="8edb89f1d056243d7c6d651043fa7397" size="12565">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="da">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="07e5f5b8fd70ad57ed80dbd893a486b4" size="12890">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="de">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="a1be95107852e4d6f7e91eb48544506b" size="13441">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="el">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="4978dcf11ca8f2def0da72c1fb24b8d4" size="17979">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="en_CA">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="5cdfae2b3d265a51756c6da7a4e66fe6" size="12500">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="en_GB">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="f4adddf95d158c35d475f2547e82fa5d" size="12467">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="eo">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="a613efa83c3d4ad94cabc00df3265e42" size="12062">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="es">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="6343d3287ec410f3c8e43c1d1a3de823" size="14274">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="et">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="debfbe96b59d6fcc3e5e3608244ff145" size="5839">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="eu">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="f7baffe805d5907fb1efecda5ec138ea" size="13118">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="fa">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="c755448481e8c6ac4d8378809597383d" size="16059">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="fi">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="62e13a832327f89e22ab7be4c8d63531" size="13151">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="fr">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="7e7eb90acbb6c640ece9a749346b5501" size="14353">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ga">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="ad69b0d55cdc1bdbf41f86b5b1f6fac4" size="1580">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="gl">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="cfbfafad3f9bfab467e16a5896b094e3" size="13224">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="gu">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="cea633ea02e9564121fef44ea824c5e6" size="19220">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="he">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="602ac9df8adc37e7cf37d5ee654e086c" size="13727">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="hi">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="782986e600f72370612dcf72092070aa" size="7374">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="hr">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="bfd4573460f0d9ce25d51e5cd5404c99" size="12652">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="id">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="6915225696688404996649ce149180ea" size="13037">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="is">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="c09ede1b6aefc13dee9cb580228e2c1d" size="12260">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="it">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="01ddd64866d3be53eb0d5e1e768a71a8" size="13663">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ja">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="541f06466b7f76d0203ac91e62219248" size="14609">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ko">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="e6a70c8fc8e3edd8419737198570d725" size="14169">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="lt">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="420bb44c69e1c6bcc89a08e78fdd4071" size="12899">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="lv">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="2720e1d3c557cb08a99827097accb332" size="12575">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="mk">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="29ca3c52bd632046928e7ea376539ca5" size="13649">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="mn">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="303ab21f57df9bca06c187d99aafe2d2" size="16493">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ms">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="fca5c3433889695831bb2a9d4fd24494" size="12476">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="nb">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="fa7c9d87489ed21170fb6f688f6cf9ba" size="12844">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ne">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="5dd765e8297d19dcfeb87ee3cf87b6ab" size="18281">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="nl">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="8c2543b0d229f7403224bcf12d8a34ac" size="12969">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="nn">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="d83d355ab927a1801678282c4ca83571" size="12978">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="no">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="fa7c9d87489ed21170fb6f688f6cf9ba" size="12844">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="or">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="39a1826a84bc687720a2aa3c8ec973bf" size="20372">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="pa">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="ba85fc76010d3a15a934e72ae656c18c" size="18264">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="pl">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="5fa5876151790d77bec2c312ea28d947" size="13744">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="pt">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="19bf7b51578f4999089b13851b5b5cb4" size="13167">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="pt_BR">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="6af65cabf8112a7249967bd23dd3887f" size="13128">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ro">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="39ff4cb770cb6528fd5de82d18b788cb" size="13824">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ru">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="cc0098e4beeeb65f10eda6fddefd1018" size="18310">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="sk">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="2df46882a18b94749af4d113a6cd18fb" size="12629">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="sl">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="aba95cbda66561c4ef93f41bbec55816" size="12291">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="sq">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="328ed29ea44a42e9f90f8e5f5e0b0cc9" size="13522">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="sr">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="f7cb12efc88697b22729c6db9b1528cd" size="16550">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="sr@Latn">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="376e113c33315bfedcb41f38f986c579" size="12989">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="sr@ije">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="901c3567b8067556356cc741367edf35" size="16597">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="sv">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="97ad95e993ce0187c8213565bf3c6678" size="13043">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ta">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="a811b78d5d16a183b5b83a09551c74bc" size="20089">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="tr">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="8dc919b085c950d4900b97a1ccda24dd" size="13149">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="uk">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="8880000cce49c80e0ac20e7e12b2b51e" size="17007">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="vi">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="bd23e190112e3419d2edd4f10ab00e34" size="14289">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="wa">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="6e32315a8cfe3a81cef3cd815daedb8e" size="5756">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="yi">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="3827f7ffe720a0bd59cfcf32b059f1f0" size="16893">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="zh_CN">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="746a289761e95466a5ca924ad7f3982f" size="11917">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="zh_TW">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File sum="7e108a1e52b98d5b6043069195415210" size="11873">glib20.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="man">
+                        <QPM:Dir name="man1">
+                           <QPM:File sum="f8e48731816fdc6d71cffbf3a0ec6d7f" size="5219">glib-genmarshal.1</QPM:File>
+                           <QPM:File sum="ab1c603902b137bc95a836e4b579956e" size="1207">glib-gettextize.1</QPM:File>
+                           <QPM:File sum="7f1d373a722497531849e7325ebbe67a" size="5353">glib-mkenums.1</QPM:File>
+                           <QPM:File sum="974a9ff760f17966b3a468722c57bafc" size="1184">gobject-query.1</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="lib">
+                     <QPM:File sum="1760e3ec6b27f9e9908df9620bbf275f" size="989">libglib-2.0.la</QPM:File>
+                     <QPM:File sum="a1164566301447773c232456797389c1" size="1031">libgmodule-2.0.la</QPM:File>
+                     <QPM:File sum="548c7d1ff225bee48f48d63a886d19a4" size="1031">libgobject-2.0.la</QPM:File>
+                     <QPM:File sum="33f920147ab63b8244449f0d6ca54a33" size="1031">libgthread-2.0.la</QPM:File>
+                     <QPM:Dir name="pkgconfig">
+                        <QPM:File sum="7238379327ddabbdf4486f2ae7ab7ce4" size="343">glib-2.0.pc</QPM:File>
+                        <QPM:File sum="703b35e4cd6c893897fc1f0746c76592" size="248">gmodule-2.0.pc</QPM:File>
+                        <QPM:File sum="339b970bfde20f0df7728eba2ae979e4" size="239">gobject-2.0.pc</QPM:File>
+                        <QPM:File sum="287037fac111561a2725ded0259cb336" size="236">gthread-2.0.pc</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>phftp-1.0a-joher</QPM:PackageName>
+            <QPM:PackageSize>195.1K</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2001/04/12</QPM:PackageReleaseDate>
+            <QPM:PackageRepository>http://www.joher.com/repository/</QPM:PackageRepository>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>PhFTP</QPM:ProductName>
+            <QPM:ProductSize>244.5K</QPM:ProductSize>
+            <QPM:ProductIdentifier>phftp</QPM:ProductIdentifier>
+            <QPM:ProductEmail>phftp@joher.com</QPM:ProductEmail>
+            <QPM:VendorName>JoHeR</QPM:VendorName>
+            <QPM:VendorInstallName>joher</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.joher.com/</QPM:VendorURL>
+            <QPM:VendorEmbedURL>http://www.joher.com/pm_embed.shtml</QPM:VendorEmbedURL>
+            <QPM:VendorEmail>info@joher.com</QPM:VendorEmail>
+            <QPM:AuthorName>Jean-Hugues ROYER</QPM:AuthorName>
+            <QPM:ProductIconSmall>http://www.joher.com/phftp/pm_icons.gif</QPM:ProductIconSmall>
+            <QPM:ProductIconLarge>http://www.joher.com/phftp/pm_iconl.gif</QPM:ProductIconLarge>
+            <QPM:ProductDescriptionShort>Full Featured Photon FTP Client</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Full Featured Photon FTP Client</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.joher.com/phftp/pm_desc.shtml</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL>http://www.joher.com/phftp/pm_descembed.shtml</QPM:ProductDescriptionEmbedURL>
+            <QPM:InstallPath>joher/phftp/core-1.0a</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2001/03/01</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>1.0a</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>High</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://phftp-1.0a-joher.repdata/phftp.txt</QPM:LicenseUrl>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Communication and Connectivity/File Sharing/File Transfer Protocol (FTP) Clients</QPM:ContentTopic>
+            <QPM:ContentKeyword>ftp</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:DisplayEnvironment>Photon</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Use</QPM:ScriptType>
+            </QPM:Script>
+
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Unuse</QPM:ScriptType>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+      </QPM:PackageManifest>
+
+      <QPM:Launch name="PhFTP">
+         <QPM:String name="Topic" value="Applications/Internet"/>
+         <QPM:String name="Command" value="/usr/photon/bin/phftp"/>
+      </QPM:Launch>
+   </RDF:Description>
+</RDF:RDF>

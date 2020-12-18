@@ -1,0 +1,6 @@
+This code is postcard-ware.
+(C) 2001, Igor Kovalenko (kovalenko@home.com)
+It is free for any use as long as whatever you do is free too,
+source is available and this copyleft notice is included.
+You're encouraged to send me an e-postcard if it was helpful for you.
+

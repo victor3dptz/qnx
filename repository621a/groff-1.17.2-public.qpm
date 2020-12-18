@@ -1,0 +1,505 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>groff-1.17.2-public</QPM:PackageName>
+            <QPM:PackageSize>528356</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2002/05/25</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>1.9</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>GNU groff</QPM:ProductName>
+            <QPM:ProductSize>2268211</QPM:ProductSize>
+            <QPM:ProductIdentifier>groff</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Free Software Foundation</QPM:AuthorName>
+            <QPM:AuthorURL>www.fsf.org</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>GNU&apos;s document formatter</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>GNU&apos;s groff document formatting system</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>www.gnu.org</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/groff/core-1.17.2</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/05/25</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>1.17.2</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://groff-1.17.2-public.repdata/LicenseUrl/LICENSE</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Text Editing and Processing/Documentation and Typesetting</QPM:ContentTopic>
+            <QPM:ContentKeyword>groff</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="bin">
+                     <QPM:File>afmtodit</QPM:File>
+                     <QPM:File>grog</QPM:File>
+                     <QPM:File>mmroff</QPM:File>
+                     <QPM:File>neqn</QPM:File>
+                     <QPM:File>nroff</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="lib">
+                     <QPM:Dir name="groff">
+                        <QPM:Dir name="site-tmac"/>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="man">
+                     <QPM:Dir name="man1">
+                        <QPM:File>addftinfo.1</QPM:File>
+                        <QPM:File>afmtodit.1</QPM:File>
+                        <QPM:File>eqn.1</QPM:File>
+                        <QPM:File>grn.1</QPM:File>
+                        <QPM:File>grodvi.1</QPM:File>
+                        <QPM:File>groff.1</QPM:File>
+                        <QPM:File>grog.1</QPM:File>
+                        <QPM:File>grohtml.1</QPM:File>
+                        <QPM:File>grolbp.1</QPM:File>
+                        <QPM:File>grolj4.1</QPM:File>
+                        <QPM:File>grops.1</QPM:File>
+                        <QPM:File>grotty.1</QPM:File>
+                        <QPM:File>hpftodit.1</QPM:File>
+                        <QPM:File>indxbib.1</QPM:File>
+                        <QPM:File>lkbib.1</QPM:File>
+                        <QPM:File>lookbib.1</QPM:File>
+                        <QPM:File>neqn.1</QPM:File>
+                        <QPM:File>nroff.1</QPM:File>
+                        <QPM:File>pfbtops.1</QPM:File>
+                        <QPM:File>pic.1</QPM:File>
+                        <QPM:File>refer.1</QPM:File>
+                        <QPM:File>soelim.1</QPM:File>
+                        <QPM:File>tbl.1</QPM:File>
+                        <QPM:File>tfmtodit.1</QPM:File>
+                        <QPM:File>troff.1</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="man5">
+                        <QPM:File>groff_font.5</QPM:File>
+                        <QPM:File>groff_out.5</QPM:File>
+                        <QPM:File>groff_tmac.5</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="man7">
+                        <QPM:File>groff.7</QPM:File>
+                        <QPM:File>groff_char.7</QPM:File>
+                        <QPM:File>groff_man.7</QPM:File>
+                        <QPM:File>groff_mdoc.7</QPM:File>
+                        <QPM:File>groff_me.7</QPM:File>
+                        <QPM:File>groff_mm.7</QPM:File>
+                        <QPM:File>groff_mmse.7</QPM:File>
+                        <QPM:File>groff_ms.7</QPM:File>
+                        <QPM:File>groff_mwww.7</QPM:File>
+                        <QPM:File>mmroff.7</QPM:File>
+                        <QPM:File>roff.7</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="groff">
+                        <QPM:Dir name="1.17.2">
+                           <QPM:File>eign</QPM:File>
+                           <QPM:Dir name="font">
+                              <QPM:Dir name="devX100">
+                                 <QPM:File>CB</QPM:File>
+                                 <QPM:File>CBI</QPM:File>
+                                 <QPM:File>CI</QPM:File>
+                                 <QPM:File>CR</QPM:File>
+                                 <QPM:File>DESC</QPM:File>
+                                 <QPM:File>HB</QPM:File>
+                                 <QPM:File>HBI</QPM:File>
+                                 <QPM:File>HI</QPM:File>
+                                 <QPM:File>HR</QPM:File>
+                                 <QPM:File>NB</QPM:File>
+                                 <QPM:File>NBI</QPM:File>
+                                 <QPM:File>NI</QPM:File>
+                                 <QPM:File>NR</QPM:File>
+                                 <QPM:File>S</QPM:File>
+                                 <QPM:File>TB</QPM:File>
+                                 <QPM:File>TBI</QPM:File>
+                                 <QPM:File>TI</QPM:File>
+                                 <QPM:File>TR</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="devX100-12">
+                                 <QPM:File>CB</QPM:File>
+                                 <QPM:File>CBI</QPM:File>
+                                 <QPM:File>CI</QPM:File>
+                                 <QPM:File>CR</QPM:File>
+                                 <QPM:File>DESC</QPM:File>
+                                 <QPM:File>HB</QPM:File>
+                                 <QPM:File>HBI</QPM:File>
+                                 <QPM:File>HI</QPM:File>
+                                 <QPM:File>HR</QPM:File>
+                                 <QPM:File>NB</QPM:File>
+                                 <QPM:File>NBI</QPM:File>
+                                 <QPM:File>NI</QPM:File>
+                                 <QPM:File>NR</QPM:File>
+                                 <QPM:File>S</QPM:File>
+                                 <QPM:File>TB</QPM:File>
+                                 <QPM:File>TBI</QPM:File>
+                                 <QPM:File>TI</QPM:File>
+                                 <QPM:File>TR</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="devX75">
+                                 <QPM:File>CB</QPM:File>
+                                 <QPM:File>CBI</QPM:File>
+                                 <QPM:File>CI</QPM:File>
+                                 <QPM:File>CR</QPM:File>
+                                 <QPM:File>DESC</QPM:File>
+                                 <QPM:File>HB</QPM:File>
+                                 <QPM:File>HBI</QPM:File>
+                                 <QPM:File>HI</QPM:File>
+                                 <QPM:File>HR</QPM:File>
+                                 <QPM:File>NB</QPM:File>
+                                 <QPM:File>NBI</QPM:File>
+                                 <QPM:File>NI</QPM:File>
+                                 <QPM:File>NR</QPM:File>
+                                 <QPM:File>S</QPM:File>
+                                 <QPM:File>TB</QPM:File>
+                                 <QPM:File>TBI</QPM:File>
+                                 <QPM:File>TI</QPM:File>
+                                 <QPM:File>TR</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="devX75-12">
+                                 <QPM:File>CB</QPM:File>
+                                 <QPM:File>CBI</QPM:File>
+                                 <QPM:File>CI</QPM:File>
+                                 <QPM:File>CR</QPM:File>
+                                 <QPM:File>DESC</QPM:File>
+                                 <QPM:File>HB</QPM:File>
+                                 <QPM:File>HBI</QPM:File>
+                                 <QPM:File>HI</QPM:File>
+                                 <QPM:File>HR</QPM:File>
+                                 <QPM:File>NB</QPM:File>
+                                 <QPM:File>NBI</QPM:File>
+                                 <QPM:File>NI</QPM:File>
+                                 <QPM:File>NR</QPM:File>
+                                 <QPM:File>S</QPM:File>
+                                 <QPM:File>TB</QPM:File>
+                                 <QPM:File>TBI</QPM:File>
+                                 <QPM:File>TI</QPM:File>
+                                 <QPM:File>TR</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="devascii">
+                                 <QPM:File>B</QPM:File>
+                                 <QPM:File>BI</QPM:File>
+                                 <QPM:File>DESC</QPM:File>
+                                 <QPM:File>I</QPM:File>
+                                 <QPM:File>R</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="devdvi">
+                                 <QPM:File>B</QPM:File>
+                                 <QPM:File>BI</QPM:File>
+                                 <QPM:File>CW</QPM:File>
+                                 <QPM:File>CWI</QPM:File>
+                                 <QPM:File>DESC</QPM:File>
+                                 <QPM:File>EX</QPM:File>
+                                 <QPM:File>H</QPM:File>
+                                 <QPM:File>HB</QPM:File>
+                                 <QPM:File>HI</QPM:File>
+                                 <QPM:File>I</QPM:File>
+                                 <QPM:File>MI</QPM:File>
+                                 <QPM:File>R</QPM:File>
+                                 <QPM:File>S</QPM:File>
+                                 <QPM:File>SA</QPM:File>
+                                 <QPM:File>SB</QPM:File>
+                                 <QPM:Dir name="generate">
+                                    <QPM:File>CompileFonts</QPM:File>
+                                    <QPM:File>Makefile</QPM:File>
+                                    <QPM:File>msam.map</QPM:File>
+                                    <QPM:File>msbm.map</QPM:File>
+                                    <QPM:File>texb.map</QPM:File>
+                                    <QPM:File>texex.map</QPM:File>
+                                    <QPM:File>texi.map</QPM:File>
+                                    <QPM:File>texmi.map</QPM:File>
+                                    <QPM:File>texr.map</QPM:File>
+                                    <QPM:File>texsy.map</QPM:File>
+                                    <QPM:File>textt.map</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="devhtml">
+                                 <QPM:File>B</QPM:File>
+                                 <QPM:File>BI</QPM:File>
+                                 <QPM:File>CR</QPM:File>
+                                 <QPM:File>DESC</QPM:File>
+                                 <QPM:File>I</QPM:File>
+                                 <QPM:File>R</QPM:File>
+                                 <QPM:File>S</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="devlatin1">
+                                 <QPM:File>B</QPM:File>
+                                 <QPM:File>BI</QPM:File>
+                                 <QPM:File>DESC</QPM:File>
+                                 <QPM:File>I</QPM:File>
+                                 <QPM:File>R</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="devlbp">
+                                 <QPM:File>DESC</QPM:File>
+                                 <QPM:File>HB</QPM:File>
+                                 <QPM:File>HBI</QPM:File>
+                                 <QPM:File>HI</QPM:File>
+                                 <QPM:File>HR</QPM:File>
+                                 <QPM:File>TB</QPM:File>
+                                 <QPM:File>TBI</QPM:File>
+                                 <QPM:File>TI</QPM:File>
+                                 <QPM:File>TR</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="devlj4">
+                                 <QPM:File>ALBB</QPM:File>
+                                 <QPM:File>ALBR</QPM:File>
+                                 <QPM:File>AOB</QPM:File>
+                                 <QPM:File>AOI</QPM:File>
+                                 <QPM:File>AOR</QPM:File>
+                                 <QPM:File>CB</QPM:File>
+                                 <QPM:File>CBI</QPM:File>
+                                 <QPM:File>CI</QPM:File>
+                                 <QPM:File>CLARENDON</QPM:File>
+                                 <QPM:File>CORONET</QPM:File>
+                                 <QPM:File>CR</QPM:File>
+                                 <QPM:File>DESC</QPM:File>
+                                 <QPM:File>GB</QPM:File>
+                                 <QPM:File>GBI</QPM:File>
+                                 <QPM:File>GI</QPM:File>
+                                 <QPM:File>GR</QPM:File>
+                                 <QPM:File>LGB</QPM:File>
+                                 <QPM:File>LGI</QPM:File>
+                                 <QPM:File>LGR</QPM:File>
+                                 <QPM:File>MARIGOLD</QPM:File>
+                                 <QPM:File>OB</QPM:File>
+                                 <QPM:File>OBI</QPM:File>
+                                 <QPM:File>OI</QPM:File>
+                                 <QPM:File>OR</QPM:File>
+                                 <QPM:File>S</QPM:File>
+                                 <QPM:File>TB</QPM:File>
+                                 <QPM:File>TBI</QPM:File>
+                                 <QPM:File>TI</QPM:File>
+                                 <QPM:File>TR</QPM:File>
+                                 <QPM:File>UB</QPM:File>
+                                 <QPM:File>UBI</QPM:File>
+                                 <QPM:File>UCB</QPM:File>
+                                 <QPM:File>UCBI</QPM:File>
+                                 <QPM:File>UCI</QPM:File>
+                                 <QPM:File>UCR</QPM:File>
+                                 <QPM:File>UI</QPM:File>
+                                 <QPM:File>UR</QPM:File>
+                                 <QPM:Dir name="generate">
+                                    <QPM:File>Makefile</QPM:File>
+                                    <QPM:File>special.map</QPM:File>
+                                    <QPM:File>text.map</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="devps">
+                                 <QPM:File>AB</QPM:File>
+                                 <QPM:File>ABI</QPM:File>
+                                 <QPM:File>AI</QPM:File>
+                                 <QPM:File>AR</QPM:File>
+                                 <QPM:File>BMB</QPM:File>
+                                 <QPM:File>BMBI</QPM:File>
+                                 <QPM:File>BMI</QPM:File>
+                                 <QPM:File>BMR</QPM:File>
+                                 <QPM:File>CB</QPM:File>
+                                 <QPM:File>CBI</QPM:File>
+                                 <QPM:File>CI</QPM:File>
+                                 <QPM:File>CR</QPM:File>
+                                 <QPM:File>DESC</QPM:File>
+                                 <QPM:File>HB</QPM:File>
+                                 <QPM:File>HBI</QPM:File>
+                                 <QPM:File>HI</QPM:File>
+                                 <QPM:File>HNB</QPM:File>
+                                 <QPM:File>HNBI</QPM:File>
+                                 <QPM:File>HNI</QPM:File>
+                                 <QPM:File>HNR</QPM:File>
+                                 <QPM:File>HR</QPM:File>
+                                 <QPM:File>NB</QPM:File>
+                                 <QPM:File>NBI</QPM:File>
+                                 <QPM:File>NI</QPM:File>
+                                 <QPM:File>NR</QPM:File>
+                                 <QPM:File>PB</QPM:File>
+                                 <QPM:File>PBI</QPM:File>
+                                 <QPM:File>PI</QPM:File>
+                                 <QPM:File>PR</QPM:File>
+                                 <QPM:File>S</QPM:File>
+                                 <QPM:File>SS</QPM:File>
+                                 <QPM:File>TB</QPM:File>
+                                 <QPM:File>TBI</QPM:File>
+                                 <QPM:File>TI</QPM:File>
+                                 <QPM:File>TR</QPM:File>
+                                 <QPM:File>ZCMI</QPM:File>
+                                 <QPM:File>ZD</QPM:File>
+                                 <QPM:File>ZDR</QPM:File>
+                                 <QPM:File>download</QPM:File>
+                                 <QPM:Dir name="generate">
+                                    <QPM:File>Makefile</QPM:File>
+                                    <QPM:File>afmname</QPM:File>
+                                    <QPM:File>dingbats.map</QPM:File>
+                                    <QPM:File>dingbats.rmap</QPM:File>
+                                    <QPM:File>lgreekmap</QPM:File>
+                                    <QPM:File>symbol.sed</QPM:File>
+                                    <QPM:File>symbolchars</QPM:File>
+                                    <QPM:File>symbolsl.afm</QPM:File>
+                                    <QPM:File>textmap</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:File>prologue</QPM:File>
+                                 <QPM:File>symbolsl.pfa</QPM:File>
+                                 <QPM:File>text.enc</QPM:File>
+                                 <QPM:File>zapfdr.pfa</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="devutf8">
+                                 <QPM:File>B</QPM:File>
+                                 <QPM:File>BI</QPM:File>
+                                 <QPM:File>DESC</QPM:File>
+                                 <QPM:File>I</QPM:File>
+                                 <QPM:File>R</QPM:File>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="tmac">
+                              <QPM:File>X.tmac</QPM:File>
+                              <QPM:File>Xps.tmac</QPM:File>
+                              <QPM:File>a4.tmac</QPM:File>
+                              <QPM:File>an-old.tmac</QPM:File>
+                              <QPM:File>an.tmac</QPM:File>
+                              <QPM:File>andoc.tmac</QPM:File>
+                              <QPM:File>doc-old.tmac</QPM:File>
+                              <QPM:File>doc.tmac</QPM:File>
+                              <QPM:File>dvi.tmac</QPM:File>
+                              <QPM:File>e.tmac</QPM:File>
+                              <QPM:File>eqnrc</QPM:File>
+                              <QPM:File>html.tmac</QPM:File>
+                              <QPM:File>hyphen.us</QPM:File>
+                              <QPM:File>latin1.tmac</QPM:File>
+                              <QPM:File>lj4.tmac</QPM:File>
+                              <QPM:File>m.tmac</QPM:File>
+                              <QPM:File>man.tmac</QPM:File>
+                              <QPM:File>mandoc.tmac</QPM:File>
+                              <QPM:Dir name="mdoc">
+                                 <QPM:File>doc-common</QPM:File>
+                                 <QPM:File>doc-ditroff</QPM:File>
+                                 <QPM:File>doc-nroff</QPM:File>
+                                 <QPM:File>doc-syms</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>mdoc.tmac</QPM:File>
+                              <QPM:File>me.tmac</QPM:File>
+                              <QPM:Dir name="mm">
+                                 <QPM:File>0.MT</QPM:File>
+                                 <QPM:File>4.MT</QPM:File>
+                                 <QPM:File>5.MT</QPM:File>
+                                 <QPM:File>locale</QPM:File>
+                                 <QPM:File>ms.cov</QPM:File>
+                                 <QPM:File>se_locale</QPM:File>
+                                 <QPM:File>se_ms.cov</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>ms.tmac</QPM:File>
+                              <QPM:File>mse.tmac</QPM:File>
+                              <QPM:File>mwww.tmac</QPM:File>
+                              <QPM:File>pic.tmac</QPM:File>
+                              <QPM:File>ps.tmac</QPM:File>
+                              <QPM:File>psatk.tmac</QPM:File>
+                              <QPM:File>psold.tmac</QPM:File>
+                              <QPM:File>pspic.tmac</QPM:File>
+                              <QPM:File>s.tmac</QPM:File>
+                              <QPM:File>safer.tmac</QPM:File>
+                              <QPM:File>trace.tmac</QPM:File>
+                              <QPM:File>troffrc</QPM:File>
+                              <QPM:File>troffrc-end</QPM:File>
+                              <QPM:File>tty-char.tmac</QPM:File>
+                              <QPM:File>tty.tmac</QPM:File>
+                              <QPM:File>www.tmac</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="site-tmac">
+                           <QPM:File>man.local</QPM:File>
+                           <QPM:File>mdoc.local</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../opt/bin">bin</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="man">
+                     <QPM:Union link="../../opt/man/man7">man7</QPM:Union>
+                     <QPM:Union link="../../opt/man/man5">man5</QPM:Union>
+                     <QPM:Union link="../../opt/man/man1">man1</QPM:Union>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="groff">
+                        <QPM:Union link="../../../opt/share/groff/site-tmac">site-tmac</QPM:Union>
+                        <QPM:Union link="../../../opt/share/groff/1.17.2">1.17.2</QPM:Union>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

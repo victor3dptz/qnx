@@ -1,0 +1,726 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>dia-0.88.1-public</QPM:PackageName>
+            <QPM:PackageSize>123425</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2002/05/20</QPM:PackageReleaseDate>
+            <QPM:PackageRepository>http://www.qnx.com</QPM:PackageRepository>
+            <QPM:FileVersion>1.01</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Dia</QPM:ProductName>
+            <QPM:ProductSize>551013</QPM:ProductSize>
+            <QPM:ProductIdentifier>dia</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Dia</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.lysator.liu.se/~alla/dia/dia.html</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Dia is a drawing program.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Dia is a program for drawing structured diagrams, much like Visio or XFig.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.lysator.liu.se/~alla/dia/dia.html</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/dia/core-0.88.1</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/05/20</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>0.88.1</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Low</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://dia-0.88.1-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Multimedia/Graphics/Graphics Editing/Draw and Vector Editors</QPM:ContentTopic>
+            <QPM:ContentKeyword>dia,visio,xfig</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:DisplayEnvironment>X11R6</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>dia needs libxml2</QPM:Notes>
+               <QPM:Product>libxml2</QPM:Product>
+               <QPM:Vendor>public</QPM:Vendor>
+               <QPM:ProductHomeRepository/>
+            </QPM:Dependency>
+
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>dia needs iconv.</QPM:Notes>
+               <QPM:Product>libiconv</QPM:Product>
+               <QPM:Vendor>public</QPM:Vendor>
+               <QPM:ProductHomeRepository/>
+            </QPM:Dependency>
+
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>dia needs libart.</QPM:Notes>
+               <QPM:Product>libart</QPM:Product>
+               <QPM:Vendor>public</QPM:Vendor>
+               <QPM:ProductHomeRepository/>
+            </QPM:Dependency>
+
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>dia needs gtk.</QPM:Notes>
+               <QPM:Product>gtk</QPM:Product>
+               <QPM:Vendor>public</QPM:Vendor>
+               <QPM:ProductHomeRepository/>
+            </QPM:Dependency>
+
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>dia needs gdk-pixbuf.</QPM:Notes>
+               <QPM:Product>gdk-pixbuf</QPM:Product>
+               <QPM:Vendor>public</QPM:Vendor>
+               <QPM:ProductHomeRepository/>
+            </QPM:Dependency>
+
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>dia needs X11R6</QPM:Notes>
+               <QPM:Product>xfree86</QPM:Product>
+               <QPM:Vendor>public</QPM:Vendor>
+               <QPM:ProductHomeRepository/>
+            </QPM:Dependency>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Use</QPM:ScriptType>
+            </QPM:Script>
+
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Unuse</QPM:ScriptType>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="lib">
+                     <QPM:Union link="../../$(PROCESSOR)/opt/lib/dia">dia</QPM:Union>
+                     <QPM:Dir name="dia">
+                        <QPM:File>libcgm_filter.la</QPM:File>
+                        <QPM:File>libchronogram_objects.la</QPM:File>
+                        <QPM:File>libcustom_objects.la</QPM:File>
+                        <QPM:File>libdxf_filter.la</QPM:File>
+                        <QPM:File>libeml_objects.la</QPM:File>
+                        <QPM:File>liber_objects.la</QPM:File>
+                        <QPM:File>libflowchart_objects.la</QPM:File>
+                        <QPM:File>libfs_objects.la</QPM:File>
+                        <QPM:File>libgrafcet_objects.la</QPM:File>
+                        <QPM:File>libhpgl_filter.la</QPM:File>
+                        <QPM:File>libnetwork_objects.la</QPM:File>
+                        <QPM:File>libpstricks_filter.la</QPM:File>
+                        <QPM:File>libsadt_objects.la</QPM:File>
+                        <QPM:File>libshape_filter.la</QPM:File>
+                        <QPM:File>libstandard_objects.la</QPM:File>
+                        <QPM:File>libsvg_filter.la</QPM:File>
+                        <QPM:File>libsybase_objects.la</QPM:File>
+                        <QPM:File>libuml_objects.la</QPM:File>
+                        <QPM:File>libwpg_filter.la</QPM:File>
+                        <QPM:File>libxfig_filter.la</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="man">
+                     <QPM:Dir name="man1">
+                        <QPM:File>dia.1</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="dia">
+                        <QPM:File>dia_logo.png</QPM:File>
+                        <QPM:Dir name="help">
+                           <QPM:Link link="en">C</QPM:Link>
+                           <QPM:Dir name="en">
+                              <QPM:File>background-color.html</QPM:File>
+                              <QPM:File>canvas-chapter.html</QPM:File>
+                              <QPM:File>colors.html</QPM:File>
+                              <QPM:File>creating-canvas.html</QPM:File>
+                              <QPM:File>docbook.css</QPM:File>
+                              <QPM:Dir name="graphics">
+                                 <QPM:File>greendots.png</QPM:File>
+                                 <QPM:File>home_network.png</QPM:File>
+                                 <QPM:File>line_props.png</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>gridlines.html</QPM:File>
+                              <QPM:File>index.html</QPM:File>
+                              <QPM:File>ln9.html</QPM:File>
+                              <QPM:File>making-diagram.html</QPM:File>
+                              <QPM:File>object-properties.html</QPM:File>
+                              <QPM:File>objects-chapter.html</QPM:File>
+                              <QPM:File>quickstart-chapter.html</QPM:File>
+                              <QPM:File>quickstart-intro.html</QPM:File>
+                              <QPM:File>rulers.html</QPM:File>
+                              <QPM:File>save-print-diagram.html</QPM:File>
+                              <QPM:File>starting-dia.html</QPM:File>
+                              <QPM:Dir name="stylesheet-images">
+                                 <QPM:File>caution.gif</QPM:File>
+                                 <QPM:File>home.gif</QPM:File>
+                                 <QPM:File>important.gif</QPM:File>
+                                 <QPM:File>next.gif</QPM:File>
+                                 <QPM:File>note.gif</QPM:File>
+                                 <QPM:File>prev.gif</QPM:File>
+                                 <QPM:File>tip.gif</QPM:File>
+                                 <QPM:File>toc-blank.gif</QPM:File>
+                                 <QPM:File>toc-minus.gif</QPM:File>
+                                 <QPM:File>toc-plus.gif</QPM:File>
+                                 <QPM:File>up.gif</QPM:File>
+                                 <QPM:File>warning.gif</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>topic.dat</QPM:File>
+                              <QPM:File>using-objects.html</QPM:File>
+                              <QPM:File>who-appeal-too.html</QPM:File>
+                              <QPM:File>zooming.html</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="shapes">
+                           <QPM:Dir name="Circuit">
+                              <QPM:File>ground.shape</QPM:File>
+                              <QPM:File>ground.xpm</QPM:File>
+                              <QPM:File>hcapacitor.shape</QPM:File>
+                              <QPM:File>hcapacitor.xpm</QPM:File>
+                              <QPM:File>hdiode.shape</QPM:File>
+                              <QPM:File>hdiode.xpm</QPM:File>
+                              <QPM:File>hfuse_de.shape</QPM:File>
+                              <QPM:File>hfuse_de.xpm</QPM:File>
+                              <QPM:File>hinductor.shape</QPM:File>
+                              <QPM:File>hinductor.xpm</QPM:File>
+                              <QPM:File>hinductor_de.shape</QPM:File>
+                              <QPM:File>hinductor_de.xpm</QPM:File>
+                              <QPM:File>hjumper.shape</QPM:File>
+                              <QPM:File>hled_de.shape</QPM:File>
+                              <QPM:File>hled_de.xpm</QPM:File>
+                              <QPM:File>hpowersource_de.shape</QPM:File>
+                              <QPM:File>hpowersource_de.xpm</QPM:File>
+                              <QPM:File>hresistor.shape</QPM:File>
+                              <QPM:File>hresistor.xpm</QPM:File>
+                              <QPM:File>hresistor_de.shape</QPM:File>
+                              <QPM:File>hresistor_de.xpm</QPM:File>
+                              <QPM:File>hzener.shape</QPM:File>
+                              <QPM:File>hzener.xpm</QPM:File>
+                              <QPM:File>lamp_de.shape</QPM:File>
+                              <QPM:File>lamp_de.xpm</QPM:File>
+                              <QPM:File>nmos_de.shape</QPM:File>
+                              <QPM:File>nmos_de.xpm</QPM:File>
+                              <QPM:File>npn.shape</QPM:File>
+                              <QPM:File>npn.xpm</QPM:File>
+                              <QPM:File>opamp.shape</QPM:File>
+                              <QPM:File>opamp.xpm</QPM:File>
+                              <QPM:File>pmos_de.shape</QPM:File>
+                              <QPM:File>pmos_de.xpm</QPM:File>
+                              <QPM:File>pnp.shape</QPM:File>
+                              <QPM:File>pnp.xpm</QPM:File>
+                              <QPM:File>speaker_de.shape</QPM:File>
+                              <QPM:File>speaker_de.xpm</QPM:File>
+                              <QPM:File>vcapacitor.shape</QPM:File>
+                              <QPM:File>vcapacitor.xpm</QPM:File>
+                              <QPM:File>vdiode.shape</QPM:File>
+                              <QPM:File>vdiode.xpm</QPM:File>
+                              <QPM:File>vfuse_de.shape</QPM:File>
+                              <QPM:File>vfuse_de.xpm</QPM:File>
+                              <QPM:File>vinductor.shape</QPM:File>
+                              <QPM:File>vinductor.xpm</QPM:File>
+                              <QPM:File>vinductor_de.shape</QPM:File>
+                              <QPM:File>vinductor_de.xpm</QPM:File>
+                              <QPM:File>vled_de.shape</QPM:File>
+                              <QPM:File>vled_de.xpm</QPM:File>
+                              <QPM:File>vpowersource_de.shape</QPM:File>
+                              <QPM:File>vpowersource_de.xpm</QPM:File>
+                              <QPM:File>vresistor.shape</QPM:File>
+                              <QPM:File>vresistor.xpm</QPM:File>
+                              <QPM:File>vresistor_de.shape</QPM:File>
+                              <QPM:File>vresistor_de.xpm</QPM:File>
+                              <QPM:File>vzener.shape</QPM:File>
+                              <QPM:File>vzener.xpm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="Civil">
+                              <QPM:File>bvrest.shape</QPM:File>
+                              <QPM:File>bvrest.xpm</QPM:File>
+                              <QPM:File>civil_aerator.shape</QPM:File>
+                              <QPM:File>civil_aerator.xpm</QPM:File>
+                              <QPM:File>civil_arrow_right.shape</QPM:File>
+                              <QPM:File>civil_arrow_right.xpm</QPM:File>
+                              <QPM:File>civil_arrow_up.shape</QPM:File>
+                              <QPM:File>civil_arrow_up.xpm</QPM:File>
+                              <QPM:File>civil_backflow_preventer.shape</QPM:File>
+                              <QPM:File>civil_backflow_preventer.xpm</QPM:File>
+                              <QPM:File>civil_basin.shape</QPM:File>
+                              <QPM:File>civil_basin.xpm</QPM:File>
+                              <QPM:File>civil_container.shape</QPM:File>
+                              <QPM:File>civil_container.xpm</QPM:File>
+                              <QPM:File>civil_final-settling_basin.shape</QPM:File>
+                              <QPM:File>civil_final-settling_basin.xpm</QPM:File>
+                              <QPM:File>civil_frequency_converter.shape</QPM:File>
+                              <QPM:File>civil_frequency_converter.xpm</QPM:File>
+                              <QPM:File>civil_gas_bottle.shape</QPM:File>
+                              <QPM:File>civil_gas_bottle.xpm</QPM:File>
+                              <QPM:File>civil_horizontal_limiting_line.shape</QPM:File>
+                              <QPM:File>civil_horizontal_limiting_line.xpm</QPM:File>
+                              <QPM:File>civil_horizontal_valve.shape</QPM:File>
+                              <QPM:File>civil_horizontal_valve.xpm</QPM:File>
+                              <QPM:File>civil_motor.shape</QPM:File>
+                              <QPM:File>civil_motor.xpm</QPM:File>
+                              <QPM:File>civil_preliminary_clarification_tank.shape</QPM:File>
+                              <QPM:File>civil_preliminary_clarification_tank.xpm</QPM:File>
+                              <QPM:File>civil_rotor.shape</QPM:File>
+                              <QPM:File>civil_rotor.xpm</QPM:File>
+                              <QPM:File>civil_soil.shape</QPM:File>
+                              <QPM:File>civil_soil.xpm</QPM:File>
+                              <QPM:File>civil_vertical_limiting_line.shape</QPM:File>
+                              <QPM:File>civil_vertical_limiting_line.xpm</QPM:File>
+                              <QPM:File>civil_vertical_propeller.shape</QPM:File>
+                              <QPM:File>civil_vertical_propeller.xpm</QPM:File>
+                              <QPM:File>hcompressor.shape</QPM:File>
+                              <QPM:File>hcompressor.xpm</QPM:File>
+                              <QPM:File>hpump.shape</QPM:File>
+                              <QPM:File>hpump.xpm</QPM:File>
+                              <QPM:File>hrest.shape</QPM:File>
+                              <QPM:File>hrest.xpm</QPM:File>
+                              <QPM:File>line.shape</QPM:File>
+                              <QPM:File>line.xpm</QPM:File>
+                              <QPM:File>vcompressor.shape</QPM:File>
+                              <QPM:File>vcompressor.xpm</QPM:File>
+                              <QPM:File>vpump.shape</QPM:File>
+                              <QPM:File>vpump.xpm</QPM:File>
+                              <QPM:File>vrest.shape</QPM:File>
+                              <QPM:File>vrest.xpm</QPM:File>
+                              <QPM:File>water_level.shape</QPM:File>
+                              <QPM:File>water_level.xpm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="Contact">
+                              <QPM:File>c_if.shape</QPM:File>
+                              <QPM:File>c_if.xpm</QPM:File>
+                              <QPM:File>c_ifnot.shape</QPM:File>
+                              <QPM:File>c_ifnot.xpm</QPM:File>
+                              <QPM:File>c_lamp.shape</QPM:File>
+                              <QPM:File>c_lamp.xpm</QPM:File>
+                              <QPM:File>c_relay.shape</QPM:File>
+                              <QPM:File>c_relay.xpm</QPM:File>
+                              <QPM:File>l_if.shape</QPM:File>
+                              <QPM:File>l_if.xpm</QPM:File>
+                              <QPM:File>l_ifnot.shape</QPM:File>
+                              <QPM:File>l_ifnot.xpm</QPM:File>
+                              <QPM:File>l_out.shape</QPM:File>
+                              <QPM:File>l_out.xpm</QPM:File>
+                              <QPM:File>l_outj.shape</QPM:File>
+                              <QPM:File>l_outj.xpm</QPM:File>
+                              <QPM:File>l_outnot.shape</QPM:File>
+                              <QPM:File>l_outnot.xpm</QPM:File>
+                              <QPM:File>l_outr.shape</QPM:File>
+                              <QPM:File>l_outr.xpm</QPM:File>
+                              <QPM:File>l_outrcep.shape</QPM:File>
+                              <QPM:File>l_outrcep.xpm</QPM:File>
+                              <QPM:File>l_outs.shape</QPM:File>
+                              <QPM:File>l_outs.xpm</QPM:File>
+                              <QPM:File>l_sout.shape</QPM:File>
+                              <QPM:File>l_sout.xpm</QPM:File>
+                              <QPM:File>l_soutnot.shape</QPM:File>
+                              <QPM:File>l_soutnot.xpm</QPM:File>
+                              <QPM:File>l_soutr.shape</QPM:File>
+                              <QPM:File>l_soutr.xpm</QPM:File>
+                              <QPM:File>l_souts.shape</QPM:File>
+                              <QPM:File>l_souts.xpm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="Electric">
+                              <QPM:File>cnx.shape</QPM:File>
+                              <QPM:File>cnx.xpm</QPM:File>
+                              <QPM:File>command.shape</QPM:File>
+                              <QPM:File>command.xpm</QPM:File>
+                              <QPM:File>contact_f.shape</QPM:File>
+                              <QPM:File>contact_f.xpm</QPM:File>
+                              <QPM:File>contact_o.shape</QPM:File>
+                              <QPM:File>contact_o.xpm</QPM:File>
+                              <QPM:File>intpos_f.shape</QPM:File>
+                              <QPM:File>intpos_f.xpm</QPM:File>
+                              <QPM:File>intpos_o.shape</QPM:File>
+                              <QPM:File>intpos_o.xpm</QPM:File>
+                              <QPM:File>lamp.shape</QPM:File>
+                              <QPM:File>lamp.xpm</QPM:File>
+                              <QPM:File>relay.shape</QPM:File>
+                              <QPM:File>relay.xpm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="Flowchart">
+                              <QPM:File>collate.shape</QPM:File>
+                              <QPM:File>collate.xpm</QPM:File>
+                              <QPM:File>delay.shape</QPM:File>
+                              <QPM:File>delay.xpm</QPM:File>
+                              <QPM:File>display.shape</QPM:File>
+                              <QPM:File>display.xpm</QPM:File>
+                              <QPM:File>document.shape</QPM:File>
+                              <QPM:File>document.xpm</QPM:File>
+                              <QPM:File>extract.shape</QPM:File>
+                              <QPM:File>extract.xpm</QPM:File>
+                              <QPM:File>intstorage.shape</QPM:File>
+                              <QPM:File>intstorage.xpm</QPM:File>
+                              <QPM:File>magdisk.shape</QPM:File>
+                              <QPM:File>magdisk.xpm</QPM:File>
+                              <QPM:File>magdrum.shape</QPM:File>
+                              <QPM:File>magdrum.xpm</QPM:File>
+                              <QPM:File>magtape.shape</QPM:File>
+                              <QPM:File>magtape.xpm</QPM:File>
+                              <QPM:File>manualinput.shape</QPM:File>
+                              <QPM:File>manualinput.xpm</QPM:File>
+                              <QPM:File>manualop.shape</QPM:File>
+                              <QPM:File>manualop.xpm</QPM:File>
+                              <QPM:File>merge.shape</QPM:File>
+                              <QPM:File>merge.xpm</QPM:File>
+                              <QPM:File>offlinestore.shape</QPM:File>
+                              <QPM:File>offlinestore.xpm</QPM:File>
+                              <QPM:File>offpageconn.shape</QPM:File>
+                              <QPM:File>offpageconn.xpm</QPM:File>
+                              <QPM:File>or.shape</QPM:File>
+                              <QPM:File>or.xpm</QPM:File>
+                              <QPM:File>predefdproc.shape</QPM:File>
+                              <QPM:File>predefdproc.xpm</QPM:File>
+                              <QPM:File>preparation.shape</QPM:File>
+                              <QPM:File>preparation.xpm</QPM:File>
+                              <QPM:File>punchedcard.shape</QPM:File>
+                              <QPM:File>punchedcard.xpm</QPM:File>
+                              <QPM:File>punchedtape.shape</QPM:File>
+                              <QPM:File>punchedtape.xpm</QPM:File>
+                              <QPM:File>sort.shape</QPM:File>
+                              <QPM:File>sort.xpm</QPM:File>
+                              <QPM:File>sumjunction.shape</QPM:File>
+                              <QPM:File>sumjunction.xpm</QPM:File>
+                              <QPM:File>terminal.shape</QPM:File>
+                              <QPM:File>terminal.xpm</QPM:File>
+                              <QPM:File>transaction.shape</QPM:File>
+                              <QPM:File>transaction.xpm</QPM:File>
+                              <QPM:File>transmittape.shape</QPM:File>
+                              <QPM:File>transmittape.xpm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="Logic">
+                              <QPM:File>and.png</QPM:File>
+                              <QPM:File>and.shape</QPM:File>
+                              <QPM:File>buffer.png</QPM:File>
+                              <QPM:File>buffer.shape</QPM:File>
+                              <QPM:File>connector.png</QPM:File>
+                              <QPM:File>connector.shape</QPM:File>
+                              <QPM:File>inverter.png</QPM:File>
+                              <QPM:File>inverter.shape</QPM:File>
+                              <QPM:File>nand.png</QPM:File>
+                              <QPM:File>nand.shape</QPM:File>
+                              <QPM:File>nor.png</QPM:File>
+                              <QPM:File>nor.shape</QPM:File>
+                              <QPM:File>not.png</QPM:File>
+                              <QPM:File>not.shape</QPM:File>
+                              <QPM:File>or.png</QPM:File>
+                              <QPM:File>or.shape</QPM:File>
+                              <QPM:File>xor.png</QPM:File>
+                              <QPM:File>xor.shape</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="MSE">
+                              <QPM:File>demultiplexer.shape</QPM:File>
+                              <QPM:File>demultiplexer.xpm</QPM:File>
+                              <QPM:File>large_extension_node.shape</QPM:File>
+                              <QPM:File>large_extension_node.xpm</QPM:File>
+                              <QPM:File>multiplexer.shape</QPM:File>
+                              <QPM:File>multiplexer.xpm</QPM:File>
+                              <QPM:File>node_center.shape</QPM:File>
+                              <QPM:File>node_center.xpm</QPM:File>
+                              <QPM:File>small_extension_node.shape</QPM:File>
+                              <QPM:File>small_extension_node.xpm</QPM:File>
+                              <QPM:File>tacsat.shape</QPM:File>
+                              <QPM:File>tacsat.xpm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="Network">
+                              <QPM:File>dat_external.shape</QPM:File>
+                              <QPM:File>dat_external.xpm</QPM:File>
+                              <QPM:File>diskette.shape</QPM:File>
+                              <QPM:File>diskette.xpm</QPM:File>
+                              <QPM:File>mobile_phone.shape</QPM:File>
+                              <QPM:File>mobile_phone.xpm</QPM:File>
+                              <QPM:File>monitor.shape</QPM:File>
+                              <QPM:File>monitor.xpm</QPM:File>
+                              <QPM:File>nwcloud.shape</QPM:File>
+                              <QPM:File>nwcloud.xpm</QPM:File>
+                              <QPM:File>pc_bigtower.shape</QPM:File>
+                              <QPM:File>pc_bigtower.xpm</QPM:File>
+                              <QPM:File>pc_desktop.shape</QPM:File>
+                              <QPM:File>pc_desktop.xpm</QPM:File>
+                              <QPM:File>pc_miditower.shape</QPM:File>
+                              <QPM:File>pc_miditower.xpm</QPM:File>
+                              <QPM:File>pc_minitower.shape</QPM:File>
+                              <QPM:File>pc_minitower.xpm</QPM:File>
+                              <QPM:File>router-symbol.shape</QPM:File>
+                              <QPM:File>router-symbol.xpm</QPM:File>
+                              <QPM:File>speaker.shape</QPM:File>
+                              <QPM:File>speaker.xpm</QPM:File>
+                              <QPM:File>speaker_amp.shape</QPM:File>
+                              <QPM:File>speaker_amp.xpm</QPM:File>
+                              <QPM:File>switch-atm-symbol.shape</QPM:File>
+                              <QPM:File>switch-atm-symbol.xpm</QPM:File>
+                              <QPM:File>switch-symbol.shape</QPM:File>
+                              <QPM:File>switch-symbol.xpm</QPM:File>
+                              <QPM:File>workstation.shape</QPM:File>
+                              <QPM:File>workstation.xpm</QPM:File>
+                              <QPM:File>zip-disk.shape</QPM:File>
+                              <QPM:File>zip-disk.xpm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="Pneumatic">
+                              <QPM:File>cnx.shape</QPM:File>
+                              <QPM:File>cnx.xpm</QPM:File>
+                              <QPM:File>comelec1.shape</QPM:File>
+                              <QPM:File>comelec1.xpm</QPM:File>
+                              <QPM:File>comelec2.shape</QPM:File>
+                              <QPM:File>comelec2.xpm</QPM:File>
+                              <QPM:File>commusc.shape</QPM:File>
+                              <QPM:File>commusc.xpm</QPM:File>
+                              <QPM:File>compb.shape</QPM:File>
+                              <QPM:File>compb.xpm</QPM:File>
+                              <QPM:File>compilh.shape</QPM:File>
+                              <QPM:File>compilh.xpm</QPM:File>
+                              <QPM:File>compilp.shape</QPM:File>
+                              <QPM:File>compilp.xpm</QPM:File>
+                              <QPM:File>comspr.shape</QPM:File>
+                              <QPM:File>comspr.xpm</QPM:File>
+                              <QPM:File>dejack.shape</QPM:File>
+                              <QPM:File>dejack.xpm</QPM:File>
+                              <QPM:File>dist22.shape</QPM:File>
+                              <QPM:File>dist22.xpm</QPM:File>
+                              <QPM:File>dist32.shape</QPM:File>
+                              <QPM:File>dist32.xpm</QPM:File>
+                              <QPM:File>dist42.shape</QPM:File>
+                              <QPM:File>dist42.xpm</QPM:File>
+                              <QPM:File>dist52.shape</QPM:File>
+                              <QPM:File>dist52.xpm</QPM:File>
+                              <QPM:File>drain.shape</QPM:File>
+                              <QPM:File>drain.xpm</QPM:File>
+                              <QPM:File>press.shape</QPM:File>
+                              <QPM:File>press.xpm</QPM:File>
+                              <QPM:File>presshy.shape</QPM:File>
+                              <QPM:File>presshy.xpm</QPM:File>
+                              <QPM:File>presspn.shape</QPM:File>
+                              <QPM:File>presspn.xpm</QPM:File>
+                              <QPM:File>seijack.shape</QPM:File>
+                              <QPM:File>seijack.xpm</QPM:File>
+                              <QPM:File>seojack.shape</QPM:File>
+                              <QPM:File>seojack.xpm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="SDL">
+                              <QPM:File>block.shape</QPM:File>
+                              <QPM:File>block.xpm</QPM:File>
+                              <QPM:File>comment.shape</QPM:File>
+                              <QPM:File>comment.xpm</QPM:File>
+                              <QPM:File>decision.shape</QPM:File>
+                              <QPM:File>decision.xpm</QPM:File>
+                              <QPM:File>function.shape</QPM:File>
+                              <QPM:File>function.xpm</QPM:File>
+                              <QPM:File>header.shape</QPM:File>
+                              <QPM:File>header.xpm</QPM:File>
+                              <QPM:File>inout.shape</QPM:File>
+                              <QPM:File>inout.xpm</QPM:File>
+                              <QPM:File>macro.shape</QPM:File>
+                              <QPM:File>macro.xpm</QPM:File>
+                              <QPM:File>note.shape</QPM:File>
+                              <QPM:File>note.xpm</QPM:File>
+                              <QPM:File>process.shape</QPM:File>
+                              <QPM:File>process.xpm</QPM:File>
+                              <QPM:File>receive.shape</QPM:File>
+                              <QPM:File>receive.xpm</QPM:File>
+                              <QPM:File>return.shape</QPM:File>
+                              <QPM:File>return.xpm</QPM:File>
+                              <QPM:File>save.shape</QPM:File>
+                              <QPM:File>save.xpm</QPM:File>
+                              <QPM:File>send.shape</QPM:File>
+                              <QPM:File>send.xpm</QPM:File>
+                              <QPM:File>service.shape</QPM:File>
+                              <QPM:File>service.xpm</QPM:File>
+                              <QPM:File>state.shape</QPM:File>
+                              <QPM:File>state.xpm</QPM:File>
+                              <QPM:File>stop.shape</QPM:File>
+                              <QPM:File>stop.xpm</QPM:File>
+                              <QPM:File>task.shape</QPM:File>
+                              <QPM:File>task.xpm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="jigsaw">
+                              <QPM:File>part_iiii.shape</QPM:File>
+                              <QPM:File>part_iiii.xpm</QPM:File>
+                              <QPM:File>part_iiio.shape</QPM:File>
+                              <QPM:File>part_iiio.xpm</QPM:File>
+                              <QPM:File>part_iioi.shape</QPM:File>
+                              <QPM:File>part_iioi.xpm</QPM:File>
+                              <QPM:File>part_iioo.shape</QPM:File>
+                              <QPM:File>part_iioo.xpm</QPM:File>
+                              <QPM:File>part_ioii.shape</QPM:File>
+                              <QPM:File>part_ioii.xpm</QPM:File>
+                              <QPM:File>part_ioio.shape</QPM:File>
+                              <QPM:File>part_ioio.xpm</QPM:File>
+                              <QPM:File>part_iooi.shape</QPM:File>
+                              <QPM:File>part_iooi.xpm</QPM:File>
+                              <QPM:File>part_iooo.shape</QPM:File>
+                              <QPM:File>part_iooo.xpm</QPM:File>
+                              <QPM:File>part_oiii.shape</QPM:File>
+                              <QPM:File>part_oiii.xpm</QPM:File>
+                              <QPM:File>part_oiio.shape</QPM:File>
+                              <QPM:File>part_oiio.xpm</QPM:File>
+                              <QPM:File>part_oioi.shape</QPM:File>
+                              <QPM:File>part_oioi.xpm</QPM:File>
+                              <QPM:File>part_oioo.shape</QPM:File>
+                              <QPM:File>part_oioo.xpm</QPM:File>
+                              <QPM:File>part_ooii.shape</QPM:File>
+                              <QPM:File>part_ooii.xpm</QPM:File>
+                              <QPM:File>part_ooio.shape</QPM:File>
+                              <QPM:File>part_ooio.xpm</QPM:File>
+                              <QPM:File>part_oooi.shape</QPM:File>
+                              <QPM:File>part_oooi.xpm</QPM:File>
+                              <QPM:File>part_oooo.shape</QPM:File>
+                              <QPM:File>part_oooo.xpm</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="sheets">
+                           <QPM:File>Circuit.sheet</QPM:File>
+                           <QPM:File>Contact.sheet</QPM:File>
+                           <QPM:File>EML.sheet</QPM:File>
+                           <QPM:Dir name="ER">
+                              <QPM:File>weakentity.xpm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>ER.sheet</QPM:File>
+                           <QPM:File>Electric.sheet</QPM:File>
+                           <QPM:File>FS.sheet</QPM:File>
+                           <QPM:File>Flowchart.sheet</QPM:File>
+                           <QPM:Dir name="GRAFCET">
+                              <QPM:File>etapei.xpm</QPM:File>
+                              <QPM:File>etapemc.xpm</QPM:File>
+                              <QPM:File>etapeme.xpm</QPM:File>
+                              <QPM:File>etapems.xpm</QPM:File>
+                              <QPM:File>etapesp.xpm</QPM:File>
+                              <QPM:File>vergent_and.xpm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>GRAFCET.sheet</QPM:File>
+                           <QPM:File>Logic.sheet</QPM:File>
+                           <QPM:File>MSE.sheet</QPM:File>
+                           <QPM:File>Pneumatic.sheet</QPM:File>
+                           <QPM:File>SADT.sheet</QPM:File>
+                           <QPM:File>SDL.sheet</QPM:File>
+                           <QPM:Dir name="UML">
+                              <QPM:File>aggregation.xpm</QPM:File>
+                              <QPM:File>umlclass_template.xpm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>UML.sheet</QPM:File>
+                           <QPM:File>chronogram.sheet</QPM:File>
+                           <QPM:File>civil.sheet</QPM:File>
+                           <QPM:File>jigsaw.sheet</QPM:File>
+                           <QPM:File>network.sheet</QPM:File>
+                           <QPM:File>sybase.sheet</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="gnome">
+                        <QPM:Dir name="apps">
+                           <QPM:Dir name="Applications">
+                              <QPM:File>dia.desktop</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="mime-info">
+                        <QPM:File>dia.keys</QPM:File>
+                        <QPM:File>dia.mime</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="oaf"/>
+                     <QPM:Dir name="pixmaps">
+                        <QPM:File>dia-diagram.png</QPM:File>
+                        <QPM:File>dia_gnome_icon.png</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="lib">
+                     <QPM:Union link="../../opt/lib/dia">dia</QPM:Union>
+                     <QPM:Union link="../../$(PROCESSOR)/opt/lib/dia">dia</QPM:Union>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="man">
+                     <QPM:Union link="../../opt/man/man1">man1</QPM:Union>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Union link="../../opt/share/pixmaps">pixmaps</QPM:Union>
+                     <QPM:Union link="../../opt/share/mime-info">mime-info</QPM:Union>
+                     <QPM:Union link="../../opt/share/dia">dia</QPM:Union>
+                     <QPM:Dir name="gnome">
+                        <QPM:Dir name="apps">
+                           <QPM:Union link="../../../../opt/share/gnome/apps/Applications">Applications</QPM:Union>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+
+      <QPM:Launch name="Dia">
+         <QPM:String name="Topic" value="Applications/Editors"/>
+         <QPM:String name="Command" value="dia"/>
+         <QPM:String name="Icon" value="/usr/share/icons/topics/graphics_draw_edit.gif"/>
+      </QPM:Launch>
+   </RDF:Description>
+</RDF:RDF>

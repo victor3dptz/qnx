@@ -1,0 +1,130 @@
+<RDF:RDF xmlns:RDF="http://www.w3.org/TR/PR-rdf-syntax" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageName>pine-core-4.21</QPM:PackageName>
+            <QPM:PackageSize>6K</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>2.0</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseNotes/>
+            <QPM:PackageReleaseUrgency>Low</QPM:PackageReleaseUrgency>
+            <QPM:PackageReleaseDate>2000/06/07</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Pine</QPM:ProductName>
+            <QPM:ProductSize>19K</QPM:ProductSize>
+            <QPM:ProductIdentifier>pine_core</QPM:ProductIdentifier>
+            <QPM:ProductHomeURL/>
+            <QPM:VendorName>QNX Software Systems Ltd.</QPM:VendorName>
+            <QPM:VendorInstallName>qssl</QPM:VendorInstallName>
+            <QPM:VendorEmbedURL>www.qnx.com</QPM:VendorEmbedURL>
+            <QPM:VendorURL>www.qnx.com</QPM:VendorURL>
+            <QPM:VendorIdentifier>qssl</QPM:VendorIdentifier>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>A popular full screen email and new reader.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Program for Internet News and Email
+
+. PINE is one of the most popular programs around - both mailer and newsreader.  It supports a wide variety of features including MIME attachments and a full screen user interface.</QPM:ProductDescriptionLong>
+<!--<QPM:ProductDescriptionEmbedURL>rep://html/pine-core-4.21/index.html</QPM:ProductDescriptionEmbedURL>
+            <QPM:ProductDescriptionURL>http://install.qnx.com/html/pine-core-4.21/index.html</QPM:ProductDescriptionURL>
+-->
+            <QPM:InstallPath>public/pine/core-4.21</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseCopyright>Commercial License</QPM:ReleaseCopyright>
+            <QPM:ReleaseCopyrightURL/>
+            <QPM:ReleaseDate>2000/06/07</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>4.21</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Low</QPM:ReleaseUrgency>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseNoteMinor/>
+         </QPM:ReleaseDescription>
+
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:CoreSibling/>
+            <QPM:ComponentType>Recommended</QPM:ComponentType>
+            <QPM:ComponentTypeNotes>Install this if you want/need photon applications</QPM:ComponentTypeNotes>
+            <QPM:ComponentParent/>
+            <QPM:ComponentAuthenticationKey/>
+            <QPM:ComponentSignature/>
+            <QPM:UpgradeParent/>
+            <QPM:UpgradeFromVersion/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentKeyword>email</QPM:ContentKeyword>
+            <QPM:ContentTopic>Communication and Connectivity/Email Clients</QPM:ContentTopic>
+            <QPM:ContentLanguage/>
+            <QPM:Contains>binary,library</QPM:Contains>
+            <QPM:ContainsLibraries/>
+            <QPM:Processor/>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:HardwareRequirement>
+               <QPM:MinimumRAM/>
+               <QPM:RecommendedRAM/>
+               <QPM:MinimumFreeStorage>5M</QPM:MinimumFreeStorage>
+               <QPM:RecommendedFreeStorage>10M</QPM:RecommendedFreeStorage>
+               <QPM:MinimumResolution/>
+               <QPM:RecommendedColorDepth/>
+               <QPM:AudioSupport/>
+               <QPM:PhotonDistribution/>
+            </QPM:HardwareRequirement>
+
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>Requires OS to be installed</QPM:Notes>
+               <QPM:Product>sendmail_core</QPM:Product>
+               <QPM:ProductHomeRepository/>
+               <QPM:Filter>
+                  <QPM:FilterType/>
+               </QPM:Filter>
+            </QPM:Dependency>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName/>
+               <QPM:Timing/>
+               <QPM:Event/>
+               <QPM:Filter>
+                  <QPM:FilterType/>
+               </QPM:Filter>
+            </QPM:Script>
+
+            <QPM:OrderDependency>
+               <QPM:Order>InstallOver</QPM:Order>
+               <QPM:Product>pine_core</QPM:Product>
+               <QPM:Filter>
+                  <QPM:FilterType/>
+               </QPM:Filter>
+            </QPM:OrderDependency>
+         </QPM:ProductInstallationProcedure>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:File>FILES</QPM:File>
+<!--### CHECK: Should this be a UNION? ### -->
+               <QPM:Union link="$(PROCESSOR)/usr">usr</QPM:Union>
+               <QPM:Dir name="usr">
+                  <QPM:Dir name="lib">
+                     <QPM:File>pine.conf.fixed</QPM:File>
+                     <QPM:File>pine.conf</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

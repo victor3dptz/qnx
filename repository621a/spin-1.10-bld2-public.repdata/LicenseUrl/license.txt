@@ -1,0 +1,4 @@
+(C) 2001, Igor Kovalenko (kovalenko@home.com)
+    This software is postcard-ware. You're encouraged to
+    send me an e-postcard if it is useful for you.
+

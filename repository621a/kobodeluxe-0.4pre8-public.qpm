@@ -1,0 +1,260 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>kobodeluxe-0.4pre8-public</QPM:PackageName>
+            <QPM:PackageSize>289698</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>2</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseNotes/>
+            <QPM:PackageReleaseUrgency>Medium</QPM:PackageReleaseUrgency>
+            <QPM:PackageReleaseDate>2003/09/29</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Kobo Deluxe</QPM:ProductName>
+            <QPM:ProductSize>445084</QPM:ProductSize>
+            <QPM:ProductIdentifier>kobodeluxe</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>David Olofson</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.olofson.net</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail>david@olofson.net</QPM:AuthorEmail>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Kobo Deluxe is a 3rd person space shooter</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Kobo Deluxe is an enhanced version of Akira Higuchi&apos;s game XKobo. It adds sound, smoother animation, high resolution support, an intuitive menu driven user interface, and other features.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.olofson.net/kobodl/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/kobodeluxe/core-0.4pre8</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/09/29</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>0.4pre8</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://kobodeluxe-0.4pre8-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Games and Diversions/Arcade Shoot &apos;em Ups</QPM:ContentTopic>
+            <QPM:ContentKeyword>xkobo, sdl, games</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Use</QPM:ScriptType>
+            </QPM:Script>
+
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Unuse</QPM:ScriptType>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="games">
+                     <QPM:Dir name="kobo-deluxe">
+                        <QPM:Dir name="scores"/>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="games">
+                        <QPM:Dir name="kobo-deluxe">
+                           <QPM:Dir name="gfx">
+                              <QPM:File>bigship.pcx</QPM:File>
+                              <QPM:File>brushes.png</QPM:File>
+                              <QPM:File>bullets.pcx</QPM:File>
+                              <QPM:File>counter.png</QPM:File>
+                              <QPM:File>font2b.png</QPM:File>
+                              <QPM:File>font3b.png</QPM:File>
+                              <QPM:File>font4b.png</QPM:File>
+                              <QPM:File>loading.png</QPM:File>
+                              <QPM:File>logo3.png</QPM:File>
+                              <QPM:File>screen.png</QPM:File>
+                              <QPM:File>sprites.pcx</QPM:File>
+                              <QPM:File>tiles.pcx</QPM:File>
+                              <QPM:File>tube1.png</QPM:File>
+                              <QPM:File>tube2.png</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="sfx">
+                              <QPM:File>aguitar1.agw</QPM:File>
+                              <QPM:File>aguitar2.agw</QPM:File>
+                              <QPM:File>ballad1.agw</QPM:File>
+                              <QPM:File>ballad1.mid</QPM:File>
+                              <QPM:File>banjo1.agw</QPM:File>
+                              <QPM:File>bassdrum1.agw</QPM:File>
+                              <QPM:File>bassdrum10.agw</QPM:File>
+                              <QPM:File>bassdrum2.agw</QPM:File>
+                              <QPM:File>bassdrum3.agw</QPM:File>
+                              <QPM:File>bassdrum4.agw</QPM:File>
+                              <QPM:File>bassdrum5.agw</QPM:File>
+                              <QPM:File>bassdrum6.agw</QPM:File>
+                              <QPM:File>bassdrum7.agw</QPM:File>
+                              <QPM:File>bassdrum8.agw</QPM:File>
+                              <QPM:File>bassdrum9.agw</QPM:File>
+                              <QPM:File>beam.raw</QPM:File>
+                              <QPM:File>bomb.raw</QPM:File>
+                              <QPM:File>bongo1.agw</QPM:File>
+                              <QPM:File>brass1.agw</QPM:File>
+                              <QPM:File>brass2.agw</QPM:File>
+                              <QPM:File>bubble.raw</QPM:File>
+                              <QPM:File>claps1.agw</QPM:File>
+                              <QPM:File>claps2.agw</QPM:File>
+                              <QPM:File>crash1.agw</QPM:File>
+                              <QPM:File>cymbal1.agw</QPM:File>
+                              <QPM:File>cymbal2.agw</QPM:File>
+                              <QPM:File>cymbal3.agw</QPM:File>
+                              <QPM:File>cymbal4.agw</QPM:File>
+                              <QPM:File>edge1.agw</QPM:File>
+                              <QPM:File>edge2.agw</QPM:File>
+                              <QPM:File>edit.agw</QPM:File>
+                              <QPM:File>elecbass1.agw</QPM:File>
+                              <QPM:File>elecbass2.agw</QPM:File>
+                              <QPM:File>elecbass3.agw</QPM:File>
+                              <QPM:File>elecbass4.agw</QPM:File>
+                              <QPM:File>elecbass5.agw</QPM:File>
+                              <QPM:File>enemym.raw</QPM:File>
+                              <QPM:File>expl.raw</QPM:File>
+                              <QPM:File>expl2.raw</QPM:File>
+                              <QPM:File>expl3.raw</QPM:File>
+                              <QPM:File>fine.raw</QPM:File>
+                              <QPM:File>fmbass1.agw</QPM:File>
+                              <QPM:File>fmbass2.agw</QPM:File>
+                              <QPM:File>fmknock1.agw</QPM:File>
+                              <QPM:File>fmkoto1.agw</QPM:File>
+                              <QPM:File>gmsclock.agw</QPM:File>
+                              <QPM:File>hardsync1.agw</QPM:File>
+                              <QPM:File>hihat1c.agw</QPM:File>
+                              <QPM:File>hihat1o.agw</QPM:File>
+                              <QPM:File>hihat1p.agw</QPM:File>
+                              <QPM:File>hihat2.agw</QPM:File>
+                              <QPM:File>kettle1.agw</QPM:File>
+                              <QPM:File>kobosfx.h</QPM:File>
+                              <QPM:File>launch.agw</QPM:File>
+                              <QPM:File>launch2.agw</QPM:File>
+                              <QPM:File>marimba1.agw</QPM:File>
+                              <QPM:File>marimba2.agw</QPM:File>
+                              <QPM:File>metallic.raw</QPM:File>
+                              <QPM:File>music.agw</QPM:File>
+                              <QPM:File>noiseburst1.agw</QPM:File>
+                              <QPM:File>noiseburst2.agw</QPM:File>
+                              <QPM:File>noiseburst3.agw</QPM:File>
+                              <QPM:File>noiseflute1.agw</QPM:File>
+                              <QPM:File>oneup.raw</QPM:File>
+                              <QPM:File>phattpad1.agw</QPM:File>
+                              <QPM:File>phattpad2.agw</QPM:File>
+                              <QPM:File>phattpad3.agw</QPM:File>
+                              <QPM:File>ride1.agw</QPM:File>
+                              <QPM:File>ride2.agw</QPM:File>
+                              <QPM:File>ride3.agw</QPM:File>
+                              <QPM:File>ride4.agw</QPM:File>
+                              <QPM:File>rideping1.agw</QPM:File>
+                              <QPM:File>rideping2.agw</QPM:File>
+                              <QPM:File>ring.raw</QPM:File>
+                              <QPM:File>sawsynth1.agw</QPM:File>
+                              <QPM:File>sawsynth2.agw</QPM:File>
+                              <QPM:File>sfx.agw</QPM:File>
+                              <QPM:File>shot.raw</QPM:File>
+                              <QPM:File>sine.agw</QPM:File>
+                              <QPM:File>sineknock1.agw</QPM:File>
+                              <QPM:File>sineknock2.agw</QPM:File>
+                              <QPM:File>snare1.agw</QPM:File>
+                              <QPM:File>snare2.agw</QPM:File>
+                              <QPM:File>snare3.agw</QPM:File>
+                              <QPM:File>snare4.agw</QPM:File>
+                              <QPM:File>snare5.agw</QPM:File>
+                              <QPM:File>speed.agw</QPM:File>
+                              <QPM:File>speed1.agw</QPM:File>
+                              <QPM:File>speed2.agw</QPM:File>
+                              <QPM:File>steelguit1.agw</QPM:File>
+                              <QPM:File>synbass1.agw</QPM:File>
+                              <QPM:File>test2.agw</QPM:File>
+                              <QPM:File>test2.mid</QPM:File>
+                              <QPM:File>thunder1.agw</QPM:File>
+                              <QPM:File>trance1.agw</QPM:File>
+                              <QPM:File>trance1.mid</QPM:File>
+                              <QPM:File>truefm1.agw</QPM:File>
+                              <QPM:File>tububells1.agw</QPM:File>
+                              <QPM:File>tububells2.agw</QPM:File>
+                              <QPM:File>warmpad1.agw</QPM:File>
+                              <QPM:File>xylophone1.agw</QPM:File>
+                              <QPM:File>xylophone2.agw</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="games">
+                        <QPM:Dir name="kobo-deluxe">
+                           <QPM:Union link="../../../../opt/share/games/kobo-deluxe/sfx">sfx</QPM:Union>
+                           <QPM:Union link="../../../../opt/share/games/kobo-deluxe/gfx">gfx</QPM:Union>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+
+      <QPM:Launch name="Kobo Deluxe">
+         <QPM:String name="Topic" value="Applications/Games"/>
+         <QPM:String name="Command" value="/opt/bin/kobodl"/>
+      </QPM:Launch>
+   </RDF:Description>
+</RDF:RDF>

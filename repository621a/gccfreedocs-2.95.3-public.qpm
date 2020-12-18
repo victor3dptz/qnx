@@ -1,0 +1,164 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Documentation</QPM:PackageType>
+            <QPM:PackageName>gccfreedocs-2.95.3-public</QPM:PackageName>
+            <QPM:PackageSize>490918</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/01/25</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Using and Porting the GNU Compiler Collection (GCC)</QPM:ProductName>
+            <QPM:ProductSize>2384005</QPM:ProductSize>
+            <QPM:ProductIdentifier>gccfreedocs</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>The Free Software Foundation</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.fsf.org</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>HTML Version of this book</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>This is the HTML digital version of this book.  It will install to /opt/doc/gcc/gcc-2.95.3 and will also appear in the photon helpviewer</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://gcc.gnu.org/onlinedocs/gcc-2.95.3/gcc.html</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/gccfreedocs/core-2.95.3</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/01/25</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>2.95.3</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Low</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://gccfreedocs-2.95.3-public.repdata/LicenseUrl/LICENSE.TXT</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Reference Material/Documentation</QPM:ContentTopic>
+            <QPM:ContentKeyword>gcc</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>any</QPM:TargetOS>
+            <QPM:HostOS>any</QPM:HostOS>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Use</QPM:ScriptType>
+            </QPM:Script>
+
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Unuse</QPM:ScriptType>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="doc">
+                     <QPM:Dir name="gcc">
+                        <QPM:Dir name="gcc-2.95.3">
+                           <QPM:File>gcc.html</QPM:File>
+                           <QPM:File>gcc_1.html</QPM:File>
+                           <QPM:File>gcc_10.html</QPM:File>
+                           <QPM:File>gcc_11.html</QPM:File>
+                           <QPM:File>gcc_12.html</QPM:File>
+                           <QPM:File>gcc_13.html</QPM:File>
+                           <QPM:File>gcc_14.html</QPM:File>
+                           <QPM:File>gcc_15.html</QPM:File>
+                           <QPM:File>gcc_16.html</QPM:File>
+                           <QPM:File>gcc_17.html</QPM:File>
+                           <QPM:File>gcc_18.html</QPM:File>
+                           <QPM:File>gcc_19.html</QPM:File>
+                           <QPM:File>gcc_2.html</QPM:File>
+                           <QPM:File>gcc_20.html</QPM:File>
+                           <QPM:File>gcc_21.html</QPM:File>
+                           <QPM:File>gcc_22.html</QPM:File>
+                           <QPM:File>gcc_23.html</QPM:File>
+                           <QPM:File>gcc_24.html</QPM:File>
+                           <QPM:File>gcc_25.html</QPM:File>
+                           <QPM:File>gcc_26.html</QPM:File>
+                           <QPM:File>gcc_27.html</QPM:File>
+                           <QPM:File>gcc_28.html</QPM:File>
+                           <QPM:File>gcc_29.html</QPM:File>
+                           <QPM:File>gcc_3.html</QPM:File>
+                           <QPM:File>gcc_30.html</QPM:File>
+                           <QPM:File>gcc_31.html</QPM:File>
+                           <QPM:File>gcc_32.html</QPM:File>
+                           <QPM:File>gcc_33.html</QPM:File>
+                           <QPM:File>gcc_34.html</QPM:File>
+                           <QPM:File>gcc_35.html</QPM:File>
+                           <QPM:File>gcc_36.html</QPM:File>
+                           <QPM:File>gcc_4.html</QPM:File>
+                           <QPM:File>gcc_5.html</QPM:File>
+                           <QPM:File>gcc_6.html</QPM:File>
+                           <QPM:File>gcc_7.html</QPM:File>
+                           <QPM:File>gcc_8.html</QPM:File>
+                           <QPM:File>gcc_9.html</QPM:File>
+                           <QPM:File>gcc_abt.html</QPM:File>
+                           <QPM:File>gcc_fot.html</QPM:File>
+                           <QPM:File>gcc_toc.html</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Dir name="help">
+                     <QPM:Dir name="product">
+                        <QPM:Link link="../../../opt/doc/gcc/gcc-2.95.3">gcc_public_en</QPM:Link>
+                        <QPM:File>gcc_public_en.toc</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+
+      <QPM:Launch name="Using and Porting the GNU Compiler Collection (GCC)">
+         <QPM:String name="Topic" value="Applications/Documentation/Free Software Foundation"/>
+         <QPM:String name="Command" value="helpviewer -r gcc_public_en.toc"/>
+         <QPM:String name="Icon" value="/usr/share/icons/topics/book_help_paper.gif"/>
+      </QPM:Launch>
+   </RDF:Description>
+</RDF:RDF>

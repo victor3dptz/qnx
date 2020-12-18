@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageSize>534262</QPM:PackageSize>
+            <QPM:PackageReleaseDate>2003/09/30</QPM:PackageReleaseDate>
+            <QPM:PackageName>povray</QPM:PackageName>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageRepository>http://qnx.org.ru/repository</QPM:PackageRepository>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>1394209</QPM:ProductSize>
+            <QPM:InstallPath>public/povray/core-3.50c/x86</QPM:InstallPath>
+            <QPM:ProductName>The Persistence of Vision Ray Tracer for x86</QPM:ProductName>
+            <QPM:ProductIdentifier>povray-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail>team-coord@povray.org</QPM:ProductEmail>
+            <QPM:VendorName>POV-Ray Development Team</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.povray.org</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail>team-coord@povray.org</QPM:VendorEmail>
+            <QPM:AuthorName>POV-Ray Development Team</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.povray.org</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail>team-coord@povray.org</QPM:AuthorEmail>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>POV-Ray is a free, full-featured ray tracer, written and maintained by a team of volunteers on the Internet.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>POV-Ray is a free, full-featured ray tracer, written and maintained by a team of volunteers on the Internet. POV-Ray(TM) is short for the Persistence of Vision(TM) Raytracer, a tool for producing high-quality computer graphics.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.povray.org</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/09/30</QPM:ReleaseDate>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseVersion>3.50c</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>High</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor>Added support for the Photon output</QPM:ReleaseNoteMinor>
+            <QPM:ReleaseNoteMajor>Added support for the Photon output</QPM:ReleaseNoteMajor>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>povray</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:RequiresLibrary>libph.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libtiff.so.3</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libjpeg.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libpng.so.3</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libz.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libstdc++.so.2.2.10.0</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libm.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+            <QPM:ContentTopic>Multimedia/Graphics/3D Rendering</QPM:ContentTopic>
+            <QPM:ContentKeyword>POV, Ray, Raytrace, Raytracer, Persistence, Vision, 3D, Rendering</QPM:ContentKeyword>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:DisplayEnvironment>Photon</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationProcedure/>
+         <QPM:LicenseUrl>rep://povray-3.50c-public.repdata/LicenseUrl/povlegal.doc</QPM:LicenseUrl>
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="bin">
+                     <QPM:File>povray</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

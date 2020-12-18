@@ -1,0 +1,126 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>ruby-1.6.7-bld3-x86-public</QPM:PackageName>
+            <QPM:PackageSize>388494</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/01/10</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Ruby for x86</QPM:ProductName>
+            <QPM:ProductSize>2204462</QPM:ProductSize>
+            <QPM:ProductIdentifier>ruby-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Yukihiro Matsumoto</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.ruby-lang.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Ruby is a powerfull, OO scripting language.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Ruby is a powerful, object based scripting language.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.ruby-lang.org/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/ruby/core-1.6.7-bld3/x86</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/01/10</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>1.6.7</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>3</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://ruby-1.6.7-bld3-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>ruby</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Software Development/Programming Languages and Parsers/Script and Shell Interpreters</QPM:ContentTopic>
+            <QPM:ContentKeyword>ruby,perl,python</QPM:ContentKeyword>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+            <QPM:RequiresLibrary>libm.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+            <QPM:ContainsLibrary>libruby.so.1.6.7</QPM:ContainsLibrary>
+            <QPM:RequiresLibrary>libgdbm.so.3</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libsocket.so.2</QPM:RequiresLibrary>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="bin">
+                     <QPM:File>ruby</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="lib">
+                     <QPM:Link link="libruby.so.1.6.7">libruby.so</QPM:Link>
+                     <QPM:File>libruby.so.1.6.7</QPM:File>
+                     <QPM:Dir name="ruby">
+                        <QPM:Dir name="1.6">
+                           <QPM:Dir name="i386-nto-qnx">
+                              <QPM:File>curses.so</QPM:File>
+                              <QPM:Dir name="digest">
+                                 <QPM:File>md5.so</QPM:File>
+                                 <QPM:File>rmd160.so</QPM:File>
+                                 <QPM:File>sha1.so</QPM:File>
+                                 <QPM:File>sha2.so</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>digest.so</QPM:File>
+                              <QPM:File>etc.so</QPM:File>
+                              <QPM:File>fcntl.so</QPM:File>
+                              <QPM:File>gdbm.so</QPM:File>
+                              <QPM:File>nkf.so</QPM:File>
+                              <QPM:File>pty.so</QPM:File>
+                              <QPM:File>sdbm.so</QPM:File>
+                              <QPM:File>socket.so</QPM:File>
+                              <QPM:File>syslog.so</QPM:File>
+                              <QPM:File>tkutil.so</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

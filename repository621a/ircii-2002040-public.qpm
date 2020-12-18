@@ -1,0 +1,856 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>ircii-2002040-public</QPM:PackageName>
+            <QPM:PackageSize>203727</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2002/05/23</QPM:PackageReleaseDate>
+            <QPM:PackageRepository>http://www.qnx.com</QPM:PackageRepository>
+            <QPM:FileVersion>1.01</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>irc-ii</QPM:ProductName>
+            <QPM:ProductSize>698486</QPM:ProductSize>
+            <QPM:ProductIdentifier>ircii</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>irc-ii</QPM:AuthorName>
+            <QPM:AuthorURL/>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>irc-ii is an irc client.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>irc-ii is a text-based irc client.  Scriptable and powerful, but not for the irc newbie.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL/>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/ircii/core-2002040</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/05/23</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>20020403</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Low</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://ircii-2002040-public.repdata/LicenseUrl/LICENSE</QPM:LicenseUrl>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Communication and Connectivity/Chat and Messaging/Internet Relay Chat (IRC) Clients</QPM:ContentTopic>
+            <QPM:ContentKeyword>irc,ircii</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Use</QPM:ScriptType>
+            </QPM:Script>
+
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Unuse</QPM:ScriptType>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="bin">
+                     <QPM:File>ircbug</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="man">
+                     <QPM:Dir name="man1">
+                        <QPM:Link link="ircII.1">irc.1</QPM:Link>
+                        <QPM:File>ircII.1</QPM:File>
+                        <QPM:File>ircbug.1</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="irc">
+                        <QPM:Dir name="help">
+                           <QPM:File>!</QPM:File>
+                           <QPM:File>.date</QPM:File>
+                           <QPM:File>:</QPM:File>
+                           <QPM:Dir name="CVS">
+                              <QPM:File>Entries</QPM:File>
+                              <QPM:File>Repository</QPM:File>
+                              <QPM:File>Root</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>abort</QPM:File>
+                           <QPM:File>admin</QPM:File>
+                           <QPM:Dir name="alias">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>alias</QPM:File>
+                              <QPM:File>functions</QPM:File>
+                              <QPM:File>quote</QPM:File>
+                              <QPM:File>special</QPM:File>
+                              <QPM:File>width</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>assign</QPM:File>
+                           <QPM:File>away</QPM:File>
+                           <QPM:File>basics</QPM:File>
+                           <QPM:File>beep</QPM:File>
+                           <QPM:Dir name="bind">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>backspace</QPM:File>
+                              <QPM:File>backward_character</QPM:File>
+                              <QPM:File>backward_history</QPM:File>
+                              <QPM:File>backward_word</QPM:File>
+                              <QPM:File>beginning_of_line</QPM:File>
+                              <QPM:File>bind</QPM:File>
+                              <QPM:File>clear_screen</QPM:File>
+                              <QPM:File>command_completion</QPM:File>
+                              <QPM:File>delete_character</QPM:File>
+                              <QPM:File>delete_next_word</QPM:File>
+                              <QPM:File>delete_previous_word</QPM:File>
+                              <QPM:File>end_of_line</QPM:File>
+                              <QPM:File>enter_digraph</QPM:File>
+                              <QPM:File>enter_menu</QPM:File>
+                              <QPM:File>erase_line</QPM:File>
+                              <QPM:File>erase_to_beg_of_line</QPM:File>
+                              <QPM:File>erase_to_end_of_line</QPM:File>
+                              <QPM:File>examples</QPM:File>
+                              <QPM:File>forward_character</QPM:File>
+                              <QPM:File>forward_history</QPM:File>
+                              <QPM:File>forward_word</QPM:File>
+                              <QPM:File>help_character</QPM:File>
+                              <QPM:File>keys</QPM:File>
+                              <QPM:File>meta1_character</QPM:File>
+                              <QPM:File>meta2_character</QPM:File>
+                              <QPM:File>meta3_character</QPM:File>
+                              <QPM:File>meta4_character</QPM:File>
+                              <QPM:File>meta5_character</QPM:File>
+                              <QPM:File>meta6_character</QPM:File>
+                              <QPM:File>meta7_character</QPM:File>
+                              <QPM:File>meta8_character</QPM:File>
+                              <QPM:File>next_window</QPM:File>
+                              <QPM:File>nothing</QPM:File>
+                              <QPM:File>parse_command</QPM:File>
+                              <QPM:File>previous_window</QPM:File>
+                              <QPM:File>quit_irc</QPM:File>
+                              <QPM:File>quote_character</QPM:File>
+                              <QPM:File>refresh_inputline</QPM:File>
+                              <QPM:File>refresh_screen</QPM:File>
+                              <QPM:File>scroll_backward</QPM:File>
+                              <QPM:File>scroll_end</QPM:File>
+                              <QPM:File>scroll_forward</QPM:File>
+                              <QPM:File>scroll_start</QPM:File>
+                              <QPM:File>self_insert</QPM:File>
+                              <QPM:File>send_line</QPM:File>
+                              <QPM:File>stop_irc</QPM:File>
+                              <QPM:File>switch_channels</QPM:File>
+                              <QPM:File>toggle_insert_mode</QPM:File>
+                              <QPM:File>toggle_stop_screen</QPM:File>
+                              <QPM:File>transpose_characters</QPM:File>
+                              <QPM:File>type_text</QPM:File>
+                              <QPM:File>unstop_all_windows</QPM:File>
+                              <QPM:File>yank_from_cutbuffer</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>brick</QPM:File>
+                           <QPM:File>bye</QPM:File>
+                           <QPM:File>cat</QPM:File>
+                           <QPM:File>cd</QPM:File>
+                           <QPM:File>channel</QPM:File>
+                           <QPM:File>clear</QPM:File>
+                           <QPM:File>commands</QPM:File>
+                           <QPM:File>comment</QPM:File>
+                           <QPM:File>connect</QPM:File>
+                           <QPM:Dir name="ctcp">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>action</QPM:File>
+                              <QPM:File>clientinfo</QPM:File>
+                              <QPM:File>ctcp</QPM:File>
+                              <QPM:File>echo</QPM:File>
+                              <QPM:File>finger</QPM:File>
+                              <QPM:File>ping</QPM:File>
+                              <QPM:File>time</QPM:File>
+                              <QPM:File>userinfo</QPM:File>
+                              <QPM:File>utc</QPM:File>
+                              <QPM:File>version</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>date</QPM:File>
+                           <QPM:Dir name="dcc">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>chat</QPM:File>
+                              <QPM:File>close</QPM:File>
+                              <QPM:File>dcc</QPM:File>
+                              <QPM:File>get</QPM:File>
+                              <QPM:File>list</QPM:File>
+                              <QPM:File>raw</QPM:File>
+                              <QPM:File>rename</QPM:File>
+                              <QPM:File>send</QPM:File>
+                              <QPM:File>talk</QPM:File>
+                              <QPM:File>tmsg</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>deop</QPM:File>
+                           <QPM:File>describe</QPM:File>
+                           <QPM:File>die</QPM:File>
+                           <QPM:File>digraph</QPM:File>
+                           <QPM:File>disconnect</QPM:File>
+                           <QPM:File>dmsg</QPM:File>
+                           <QPM:File>dquery</QPM:File>
+                           <QPM:File>echo</QPM:File>
+                           <QPM:File>encrypt</QPM:File>
+                           <QPM:File>etiquette</QPM:File>
+                           <QPM:File>eval</QPM:File>
+                           <QPM:File>exec</QPM:File>
+                           <QPM:File>exit</QPM:File>
+                           <QPM:File>expressions</QPM:File>
+                           <QPM:File>flush</QPM:File>
+                           <QPM:File>foreach</QPM:File>
+                           <QPM:File>help</QPM:File>
+                           <QPM:File>history</QPM:File>
+                           <QPM:File>hook</QPM:File>
+                           <QPM:File>icb</QPM:File>
+                           <QPM:File>if</QPM:File>
+                           <QPM:File>ignore</QPM:File>
+                           <QPM:File>info</QPM:File>
+                           <QPM:File>input</QPM:File>
+                           <QPM:File>intro</QPM:File>
+                           <QPM:File>invite</QPM:File>
+                           <QPM:Dir name="ircii">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>copyright</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>ison</QPM:File>
+                           <QPM:File>join</QPM:File>
+                           <QPM:File>kick</QPM:File>
+                           <QPM:File>kill</QPM:File>
+                           <QPM:File>lastlog</QPM:File>
+                           <QPM:File>leave</QPM:File>
+                           <QPM:File>links</QPM:File>
+                           <QPM:File>list</QPM:File>
+                           <QPM:Dir name="load">
+                              <QPM:File>2.9script</QPM:File>
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>action</QPM:File>
+                              <QPM:File>alias</QPM:File>
+                              <QPM:File>autoop</QPM:File>
+                              <QPM:File>autoquery</QPM:File>
+                              <QPM:File>basical</QPM:File>
+                              <QPM:File>bigcheese</QPM:File>
+                              <QPM:File>brc</QPM:File>
+                              <QPM:File>channel</QPM:File>
+                              <QPM:File>columns</QPM:File>
+                              <QPM:File>commander</QPM:File>
+                              <QPM:File>cursor</QPM:File>
+                              <QPM:File>dccchan</QPM:File>
+                              <QPM:File>deutsch</QPM:File>
+                              <QPM:File>disc</QPM:File>
+                              <QPM:File>edit</QPM:File>
+                              <QPM:File>english</QPM:File>
+                              <QPM:File>events</QPM:File>
+                              <QPM:File>extensions</QPM:File>
+                              <QPM:File>finger</QPM:File>
+                              <QPM:File>finger.who</QPM:File>
+                              <QPM:File>flood</QPM:File>
+                              <QPM:File>fnet</QPM:File>
+                              <QPM:File>functions</QPM:File>
+                              <QPM:File>help</QPM:File>
+                              <QPM:File>history</QPM:File>
+                              <QPM:File>icb</QPM:File>
+                              <QPM:File>irciihelp</QPM:File>
+                              <QPM:File>ircprimer</QPM:File>
+                              <QPM:File>kickmenu</QPM:File>
+                              <QPM:File>killpath</QPM:File>
+                              <QPM:File>kpstat</QPM:File>
+                              <QPM:File>list</QPM:File>
+                              <QPM:File>listidle</QPM:File>
+                              <QPM:File>load</QPM:File>
+                              <QPM:File>local</QPM:File>
+                              <QPM:File>lynx_ircrc</QPM:File>
+                              <QPM:File>meta1</QPM:File>
+                              <QPM:File>meta2</QPM:File>
+                              <QPM:File>msg</QPM:File>
+                              <QPM:File>mudlike</QPM:File>
+                              <QPM:File>nemesis</QPM:File>
+                              <QPM:File>netsplit</QPM:File>
+                              <QPM:File>newaway</QPM:File>
+                              <QPM:File>nicks</QPM:File>
+                              <QPM:File>oldping</QPM:File>
+                              <QPM:File>oper</QPM:File>
+                              <QPM:File>prefix</QPM:File>
+                              <QPM:File>recursion</QPM:File>
+                              <QPM:File>repeat</QPM:File>
+                              <QPM:File>screen</QPM:File>
+                              <QPM:File>service</QPM:File>
+                              <QPM:File>shell</QPM:File>
+                              <QPM:File>silent</QPM:File>
+                              <QPM:File>smileys</QPM:File>
+                              <QPM:File>suggestions</QPM:File>
+                              <QPM:File>tabkey</QPM:File>
+                              <QPM:File>time</QPM:File>
+                              <QPM:File>traces</QPM:File>
+                              <QPM:File>troy</QPM:File>
+                              <QPM:File>uhnotify</QPM:File>
+                              <QPM:File>version</QPM:File>
+                              <QPM:File>wallopstat</QPM:File>
+                              <QPM:File>whowas</QPM:File>
+                              <QPM:File>window</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>lusers</QPM:File>
+                           <QPM:File>me</QPM:File>
+                           <QPM:File>menus</QPM:File>
+                           <QPM:File>mload</QPM:File>
+                           <QPM:File>mode</QPM:File>
+                           <QPM:File>motd</QPM:File>
+                           <QPM:File>msg</QPM:File>
+                           <QPM:File>names</QPM:File>
+                           <QPM:File>news</QPM:File>
+                           <QPM:File>newuser</QPM:File>
+                           <QPM:File>nick</QPM:File>
+                           <QPM:Dir name="note">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>antiwall</QPM:File>
+                              <QPM:File>count</QPM:File>
+                              <QPM:File>deny</QPM:File>
+                              <QPM:File>find</QPM:File>
+                              <QPM:File>flag</QPM:File>
+                              <QPM:File>key</QPM:File>
+                              <QPM:File>log</QPM:File>
+                              <QPM:File>ls</QPM:File>
+                              <QPM:File>news</QPM:File>
+                              <QPM:File>note</QPM:File>
+                              <QPM:File>rm</QPM:File>
+                              <QPM:File>save</QPM:File>
+                              <QPM:File>send</QPM:File>
+                              <QPM:File>sent</QPM:File>
+                              <QPM:File>service</QPM:File>
+                              <QPM:File>spy</QPM:File>
+                              <QPM:File>stats</QPM:File>
+                              <QPM:File>user</QPM:File>
+                              <QPM:File>waitfor</QPM:File>
+                              <QPM:File>wall</QPM:File>
+                              <QPM:File>wallops</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>notice</QPM:File>
+                           <QPM:File>notify</QPM:File>
+                           <QPM:Dir name="on">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>action</QPM:File>
+                              <QPM:File>channel_nick</QPM:File>
+                              <QPM:File>channel_signoff</QPM:File>
+                              <QPM:File>connect</QPM:File>
+                              <QPM:File>ctcp</QPM:File>
+                              <QPM:File>ctcp_reply</QPM:File>
+                              <QPM:File>dcc_chat</QPM:File>
+                              <QPM:File>dcc_list</QPM:File>
+                              <QPM:File>dcc_raw</QPM:File>
+                              <QPM:File>disconnect</QPM:File>
+                              <QPM:File>exec</QPM:File>
+                              <QPM:File>exec_errors</QPM:File>
+                              <QPM:File>exec_exit</QPM:File>
+                              <QPM:File>exec_prompt</QPM:File>
+                              <QPM:File>flood</QPM:File>
+                              <QPM:File>help</QPM:File>
+                              <QPM:File>hook</QPM:File>
+                              <QPM:File>icb_error</QPM:File>
+                              <QPM:File>icb_status</QPM:File>
+                              <QPM:File>idle</QPM:File>
+                              <QPM:File>input</QPM:File>
+                              <QPM:File>invite</QPM:File>
+                              <QPM:File>join</QPM:File>
+                              <QPM:File>leave</QPM:File>
+                              <QPM:File>list</QPM:File>
+                              <QPM:File>mail</QPM:File>
+                              <QPM:File>mode</QPM:File>
+                              <QPM:File>msg</QPM:File>
+                              <QPM:File>msg_group</QPM:File>
+                              <QPM:File>names</QPM:File>
+                              <QPM:File>nickname</QPM:File>
+                              <QPM:File>note</QPM:File>
+                              <QPM:File>notice</QPM:File>
+                              <QPM:File>notify_signoff</QPM:File>
+                              <QPM:File>notify_signon</QPM:File>
+                              <QPM:File>numeric</QPM:File>
+                              <QPM:File>on</QPM:File>
+                              <QPM:File>public</QPM:File>
+                              <QPM:File>public_msg</QPM:File>
+                              <QPM:File>public_notice</QPM:File>
+                              <QPM:File>public_other</QPM:File>
+                              <QPM:File>raw_irc</QPM:File>
+                              <QPM:File>raw_send</QPM:File>
+                              <QPM:File>send_action</QPM:File>
+                              <QPM:File>send_dcc_chat</QPM:File>
+                              <QPM:File>send_msg</QPM:File>
+                              <QPM:File>send_notice</QPM:File>
+                              <QPM:File>send_public</QPM:File>
+                              <QPM:File>send_talk</QPM:File>
+                              <QPM:File>serial_numbers</QPM:File>
+                              <QPM:File>server_notice</QPM:File>
+                              <QPM:File>signoff</QPM:File>
+                              <QPM:File>talk</QPM:File>
+                              <QPM:File>timer</QPM:File>
+                              <QPM:File>topic</QPM:File>
+                              <QPM:File>wall</QPM:File>
+                              <QPM:File>wallop</QPM:File>
+                              <QPM:File>who</QPM:File>
+                              <QPM:File>window</QPM:File>
+                              <QPM:File>window_kill</QPM:File>
+                              <QPM:File>window_list</QPM:File>
+                              <QPM:File>window_swap</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>oper</QPM:File>
+                           <QPM:File>parsekey</QPM:File>
+                           <QPM:File>part</QPM:File>
+                           <QPM:File>ping</QPM:File>
+                           <QPM:File>query</QPM:File>
+                           <QPM:File>quit</QPM:File>
+                           <QPM:File>quote</QPM:File>
+                           <QPM:File>rbind</QPM:File>
+                           <QPM:File>redirect</QPM:File>
+                           <QPM:File>rehash</QPM:File>
+                           <QPM:File>restart</QPM:File>
+                           <QPM:File>rules</QPM:File>
+                           <QPM:File>save</QPM:File>
+                           <QPM:File>say</QPM:File>
+                           <QPM:File>send</QPM:File>
+                           <QPM:File>sendline</QPM:File>
+                           <QPM:File>server</QPM:File>
+                           <QPM:File>servlist</QPM:File>
+                           <QPM:Dir name="set">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>always_split_biggest</QPM:File>
+                              <QPM:File>auto_unmark_away</QPM:File>
+                              <QPM:File>auto_whowas</QPM:File>
+                              <QPM:File>background_colour</QPM:File>
+                              <QPM:File>beep</QPM:File>
+                              <QPM:File>beep_max</QPM:File>
+                              <QPM:File>beep_on_msg</QPM:File>
+                              <QPM:File>beep_when_away</QPM:File>
+                              <QPM:File>bold_video</QPM:File>
+                              <QPM:File>channel_name_width</QPM:File>
+                              <QPM:File>client_information</QPM:File>
+                              <QPM:File>clock</QPM:File>
+                              <QPM:File>clock_24hour</QPM:File>
+                              <QPM:File>clock_alarm</QPM:File>
+                              <QPM:File>cmdchars</QPM:File>
+                              <QPM:File>colour</QPM:File>
+                              <QPM:File>command_mode</QPM:File>
+                              <QPM:File>continued_line</QPM:File>
+                              <QPM:File>ctcp_reply_backlog_seconds</QPM:File>
+                              <QPM:File>ctcp_reply_flood_size</QPM:File>
+                              <QPM:File>ctcp_reply_ignore_seconds</QPM:File>
+                              <QPM:File>dcc_block_size</QPM:File>
+                              <QPM:File>debug</QPM:File>
+                              <QPM:File>decrypt_program</QPM:File>
+                              <QPM:File>display</QPM:File>
+                              <QPM:File>eight_bit_characters</QPM:File>
+                              <QPM:File>encrypt_program</QPM:File>
+                              <QPM:File>exec_protection</QPM:File>
+                              <QPM:File>flood_after</QPM:File>
+                              <QPM:File>flood_rate</QPM:File>
+                              <QPM:File>flood_users</QPM:File>
+                              <QPM:File>flood_warning</QPM:File>
+                              <QPM:File>foreground_colour</QPM:File>
+                              <QPM:File>full_status_line</QPM:File>
+                              <QPM:File>help_pager</QPM:File>
+                              <QPM:File>help_path</QPM:File>
+                              <QPM:File>help_prompt</QPM:File>
+                              <QPM:File>help_window</QPM:File>
+                              <QPM:File>hide_channel_keys</QPM:File>
+                              <QPM:File>hide_private_channels</QPM:File>
+                              <QPM:File>highlight_char</QPM:File>
+                              <QPM:File>history</QPM:File>
+                              <QPM:File>history_file</QPM:File>
+                              <QPM:File>hold_mode</QPM:File>
+                              <QPM:File>hold_mode_max</QPM:File>
+                              <QPM:File>indent</QPM:File>
+                              <QPM:File>input_aliases</QPM:File>
+                              <QPM:File>input_prompt</QPM:File>
+                              <QPM:File>input_protection</QPM:File>
+                              <QPM:File>insert_mode</QPM:File>
+                              <QPM:File>inverse_video</QPM:File>
+                              <QPM:File>irchost</QPM:File>
+                              <QPM:File>iso2022_support</QPM:File>
+                              <QPM:File>lastlog</QPM:File>
+                              <QPM:File>lastlog_level</QPM:File>
+                              <QPM:File>load_path</QPM:File>
+                              <QPM:File>log</QPM:File>
+                              <QPM:File>logfile</QPM:File>
+                              <QPM:File>mail</QPM:File>
+                              <QPM:File>make_notice_msg</QPM:File>
+                              <QPM:File>max_recursions</QPM:File>
+                              <QPM:File>menu</QPM:File>
+                              <QPM:File>minimum_servers</QPM:File>
+                              <QPM:File>minimum_users</QPM:File>
+                              <QPM:File>no_ask_nickname</QPM:File>
+                              <QPM:File>no_ctcp_flood</QPM:File>
+                              <QPM:File>notify_handler</QPM:File>
+                              <QPM:File>notify_level</QPM:File>
+                              <QPM:File>notify_on_termination</QPM:File>
+                              <QPM:File>novice</QPM:File>
+                              <QPM:File>old_encrypt_program</QPM:File>
+                              <QPM:File>realname</QPM:File>
+                              <QPM:File>same_window_only</QPM:File>
+                              <QPM:File>scroll</QPM:File>
+                              <QPM:File>scroll_lines</QPM:File>
+                              <QPM:File>send_ignore_msg</QPM:File>
+                              <QPM:File>set</QPM:File>
+                              <QPM:File>shell</QPM:File>
+                              <QPM:File>shell_flags</QPM:File>
+                              <QPM:File>shell_limit</QPM:File>
+                              <QPM:File>show_away_once</QPM:File>
+                              <QPM:File>show_channel_names</QPM:File>
+                              <QPM:File>show_end_of_msgs</QPM:File>
+                              <QPM:File>show_numerics</QPM:File>
+                              <QPM:File>show_stars</QPM:File>
+                              <QPM:File>show_status_all</QPM:File>
+                              <QPM:File>show_who_hopcount</QPM:File>
+                              <QPM:File>star_prefix</QPM:File>
+                              <QPM:File>status_away</QPM:File>
+                              <QPM:File>status_channel</QPM:File>
+                              <QPM:File>status_chanop</QPM:File>
+                              <QPM:File>status_clock</QPM:File>
+                              <QPM:File>status_format</QPM:File>
+                              <QPM:File>status_hold</QPM:File>
+                              <QPM:File>status_hold_lines</QPM:File>
+                              <QPM:File>status_insert</QPM:File>
+                              <QPM:File>status_mail</QPM:File>
+                              <QPM:File>status_mode</QPM:File>
+                              <QPM:File>status_notify</QPM:File>
+                              <QPM:File>status_oper</QPM:File>
+                              <QPM:File>status_overwrite</QPM:File>
+                              <QPM:File>status_query</QPM:File>
+                              <QPM:File>status_server</QPM:File>
+                              <QPM:File>status_umode</QPM:File>
+                              <QPM:File>status_user</QPM:File>
+                              <QPM:File>status_voice</QPM:File>
+                              <QPM:File>status_window</QPM:File>
+                              <QPM:File>suppress_server_motd</QPM:File>
+                              <QPM:File>tab</QPM:File>
+                              <QPM:File>tab_max</QPM:File>
+                              <QPM:File>translation</QPM:File>
+                              <QPM:File>underline_video</QPM:File>
+                              <QPM:File>use_old_msg</QPM:File>
+                              <QPM:File>user_information</QPM:File>
+                              <QPM:File>user_wallops</QPM:File>
+                              <QPM:File>verbose_ctcp</QPM:File>
+                              <QPM:File>warn_of_ignores</QPM:File>
+                              <QPM:File>xterm_geomoptstr</QPM:File>
+                              <QPM:File>xterm_options</QPM:File>
+                              <QPM:File>xterm_path</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>signoff</QPM:File>
+                           <QPM:File>sleep</QPM:File>
+                           <QPM:File>squery</QPM:File>
+                           <QPM:File>squit</QPM:File>
+                           <QPM:File>stats</QPM:File>
+                           <QPM:File>summon</QPM:File>
+                           <QPM:File>time</QPM:File>
+                           <QPM:File>timer</QPM:File>
+                           <QPM:File>topic</QPM:File>
+                           <QPM:File>trace</QPM:File>
+                           <QPM:File>type</QPM:File>
+                           <QPM:File>userhost</QPM:File>
+                           <QPM:File>users</QPM:File>
+                           <QPM:File>version</QPM:File>
+                           <QPM:File>wait</QPM:File>
+                           <QPM:File>wallops</QPM:File>
+                           <QPM:File>which</QPM:File>
+                           <QPM:File>while</QPM:File>
+                           <QPM:File>who</QPM:File>
+                           <QPM:File>whois</QPM:File>
+                           <QPM:File>whowas</QPM:File>
+                           <QPM:Dir name="window">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>add</QPM:File>
+                              <QPM:File>addgroup</QPM:File>
+                              <QPM:File>back</QPM:File>
+                              <QPM:File>balance</QPM:File>
+                              <QPM:File>bind</QPM:File>
+                              <QPM:File>channel</QPM:File>
+                              <QPM:File>create</QPM:File>
+                              <QPM:File>delete</QPM:File>
+                              <QPM:File>delgroup</QPM:File>
+                              <QPM:File>double</QPM:File>
+                              <QPM:File>goto</QPM:File>
+                              <QPM:File>grow</QPM:File>
+                              <QPM:File>hide</QPM:File>
+                              <QPM:File>hide_others</QPM:File>
+                              <QPM:File>hold_mode</QPM:File>
+                              <QPM:File>kill</QPM:File>
+                              <QPM:File>kill_others</QPM:File>
+                              <QPM:File>lastlog_level</QPM:File>
+                              <QPM:File>level</QPM:File>
+                              <QPM:File>list</QPM:File>
+                              <QPM:File>log</QPM:File>
+                              <QPM:File>logfile</QPM:File>
+                              <QPM:File>move</QPM:File>
+                              <QPM:File>name</QPM:File>
+                              <QPM:File>new</QPM:File>
+                              <QPM:File>next</QPM:File>
+                              <QPM:File>nostatus</QPM:File>
+                              <QPM:File>notify</QPM:File>
+                              <QPM:File>notify_level</QPM:File>
+                              <QPM:File>number</QPM:File>
+                              <QPM:File>pop</QPM:File>
+                              <QPM:File>previous</QPM:File>
+                              <QPM:File>prompt</QPM:File>
+                              <QPM:File>push</QPM:File>
+                              <QPM:File>query</QPM:File>
+                              <QPM:File>refnum</QPM:File>
+                              <QPM:File>remove</QPM:File>
+                              <QPM:File>scroll</QPM:File>
+                              <QPM:File>server</QPM:File>
+                              <QPM:File>show</QPM:File>
+                              <QPM:File>shrink</QPM:File>
+                              <QPM:File>stack</QPM:File>
+                              <QPM:File>sticky</QPM:File>
+                              <QPM:File>swap</QPM:File>
+                              <QPM:File>unbind</QPM:File>
+                              <QPM:File>where</QPM:File>
+                              <QPM:File>window</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>xecho</QPM:File>
+                           <QPM:File>xtype</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="script">
+                           <QPM:File>2.8script</QPM:File>
+                           <QPM:File>2.9script</QPM:File>
+                           <QPM:File>action</QPM:File>
+                           <QPM:File>alias</QPM:File>
+                           <QPM:File>autoop</QPM:File>
+                           <QPM:File>autoquery</QPM:File>
+                           <QPM:File>basical</QPM:File>
+                           <QPM:File>bigcheese</QPM:File>
+                           <QPM:File>brc</QPM:File>
+                           <QPM:File>channel</QPM:File>
+                           <QPM:File>columns</QPM:File>
+                           <QPM:File>commander</QPM:File>
+                           <QPM:File>compl.mods</QPM:File>
+                           <QPM:File>complete</QPM:File>
+                           <QPM:File>cursor</QPM:File>
+                           <QPM:File>dccchan</QPM:File>
+                           <QPM:File>default</QPM:File>
+                           <QPM:File>deutsch</QPM:File>
+                           <QPM:File>disc</QPM:File>
+                           <QPM:File>dmsg</QPM:File>
+                           <QPM:File>edit</QPM:File>
+                           <QPM:File>english</QPM:File>
+                           <QPM:File>events</QPM:File>
+                           <QPM:File>extensions</QPM:File>
+                           <QPM:File>finger</QPM:File>
+                           <QPM:File>flood</QPM:File>
+                           <QPM:File>fnet</QPM:File>
+                           <QPM:File>functions</QPM:File>
+                           <QPM:File>global</QPM:File>
+                           <QPM:File>help</QPM:File>
+                           <QPM:File>history</QPM:File>
+                           <QPM:File>history-match</QPM:File>
+                           <QPM:File>icb</QPM:File>
+                           <QPM:File>imap</QPM:File>
+                           <QPM:File>ircIIhelp</QPM:File>
+                           <QPM:File>ircprimer</QPM:File>
+                           <QPM:File>ircrc</QPM:File>
+                           <QPM:File>kickmenu</QPM:File>
+                           <QPM:File>killpath</QPM:File>
+                           <QPM:File>kpstat</QPM:File>
+                           <QPM:File>list</QPM:File>
+                           <QPM:File>listidle</QPM:File>
+                           <QPM:File>log</QPM:File>
+                           <QPM:File>lynx_ircrc</QPM:File>
+                           <QPM:File>meta1</QPM:File>
+                           <QPM:File>meta2</QPM:File>
+                           <QPM:File>msg</QPM:File>
+                           <QPM:File>mudlike</QPM:File>
+                           <QPM:File>nemesis</QPM:File>
+                           <QPM:File>netsplit</QPM:File>
+                           <QPM:File>newaway</QPM:File>
+                           <QPM:File>newformat</QPM:File>
+                           <QPM:File>nicks</QPM:File>
+                           <QPM:File>nocolour</QPM:File>
+                           <QPM:File>oldping</QPM:File>
+                           <QPM:File>oper</QPM:File>
+                           <QPM:File>otherstatus</QPM:File>
+                           <QPM:File>ping</QPM:File>
+                           <QPM:File>prefix</QPM:File>
+                           <QPM:File>recursion</QPM:File>
+                           <QPM:File>repeat</QPM:File>
+                           <QPM:File>screen</QPM:File>
+                           <QPM:File>service</QPM:File>
+                           <QPM:File>shell</QPM:File>
+                           <QPM:File>silent</QPM:File>
+                           <QPM:File>smileys</QPM:File>
+                           <QPM:File>tabkey</QPM:File>
+                           <QPM:File>time</QPM:File>
+                           <QPM:File>times</QPM:File>
+                           <QPM:File>traces</QPM:File>
+                           <QPM:File>troy</QPM:File>
+                           <QPM:File>uhnotify</QPM:File>
+                           <QPM:File>undernet</QPM:File>
+                           <QPM:File>version</QPM:File>
+                           <QPM:File>voice</QPM:File>
+                           <QPM:File>wallopstat</QPM:File>
+                           <QPM:File>whowas</QPM:File>
+                           <QPM:File>window</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="translation">
+                           <QPM:File>ASCII</QPM:File>
+                           <QPM:File>CP437</QPM:File>
+                           <QPM:File>CP850</QPM:File>
+                           <QPM:File>DANISH</QPM:File>
+                           <QPM:File>DEC_MCS</QPM:File>
+                           <QPM:File>DG_MCS</QPM:File>
+                           <QPM:File>DUTCH</QPM:File>
+                           <QPM:File>FINNISH</QPM:File>
+                           <QPM:File>FRENCH</QPM:File>
+                           <QPM:File>FRENCH_CANADIAN</QPM:File>
+                           <QPM:File>GERMAN</QPM:File>
+                           <QPM:File>HP_MCS</QPM:File>
+                           <QPM:File>IRV</QPM:File>
+                           <QPM:File>ITALIAN</QPM:File>
+                           <QPM:File>JIS</QPM:File>
+                           <QPM:File>MACINTOSH</QPM:File>
+                           <QPM:File>NEXT</QPM:File>
+                           <QPM:File>NORWEGIAN_1</QPM:File>
+                           <QPM:File>NORWEGIAN_2</QPM:File>
+                           <QPM:File>POLISH</QPM:File>
+                           <QPM:File>POLISH_NOPL</QPM:File>
+                           <QPM:File>PORTUGUESE</QPM:File>
+                           <QPM:File>PORTUGUESE_COM</QPM:File>
+                           <QPM:File>RUSSIAN</QPM:File>
+                           <QPM:File>RUSSIAN_ALT</QPM:File>
+                           <QPM:File>RUSSIAN_WIN</QPM:File>
+                           <QPM:File>SPANISH</QPM:File>
+                           <QPM:File>SWEDISH</QPM:File>
+                           <QPM:File>SWEDISH_NAMES</QPM:File>
+                           <QPM:File>SWEDISH_NAMES_COM</QPM:File>
+                           <QPM:File>SWISS</QPM:File>
+                           <QPM:File>UNITED_KINGDOM</QPM:File>
+                           <QPM:File>UNITED_KINGDOM_COM</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../opt/bin">bin</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="man">
+                     <QPM:Union link="../../opt/man/man1">man1</QPM:Union>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="irc">
+                        <QPM:Union link="../../../opt/share/irc/translation">translation</QPM:Union>
+                        <QPM:Union link="../../../opt/share/irc/script">script</QPM:Union>
+                        <QPM:Union link="../../../opt/share/irc/help">help</QPM:Union>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+
+      <QPM:Launch name="irc-ii">
+         <QPM:String name="Topic" value="Applications/Internet"/>
+         <QPM:String name="Command" value="pterm irc"/>
+         <QPM:String name="Icon" value="/usr/share/icons/topics/people_ratio_woman_men.gif"/>
+      </QPM:Launch>
+   </RDF:Description>
+</RDF:RDF>

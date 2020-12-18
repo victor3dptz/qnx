@@ -1,0 +1,290 @@
+		  COMMERCIAL AND NON-COMMERCIAL USE
+	    END-USER LICENSE AGREEMENT FOR COGENT SOFTWARE
+
+IMPORTANT - READ CAREFULLY: This End-User License Agreement ("EULA")
+is a legal agreement between you (either an individual or a single
+entity) and Cogent Real-Time Systems Inc. ("Cogent") of 162 Guelph
+Street, Suite 253, Georgetown, Ontario, L7G 5X7, Canada (Tel:
+905-702-7851, Fax: 905-702-7850), from whom you acquired the Cogent
+software product(s) ("SOFTWARE PRODUCT" or "SOFTWARE"), either
+directly from Cogent or through one of Cogent's authorized resellers.
+The SOFTWARE PRODUCT includes computer software, any associated media,
+any printed materials, and any "online" or electronic documentation.
+By installing, copying or otherwise using the SOFTWARE PRODUCT, you
+agree to be bound by the terms of this EULA.  If you do not agree with
+the terms of this EULA, Cogent is unwilling to license the SOFTWARE
+PRODUCT to you.  In such event, you may not use or copy the SOFTWARE
+PRODUCT, and you should promptly contact Cogent for instructions on
+return of the unused product(s) for a refund.
+
+SOFTWARE PRODUCT LICENSE
+
+The SOFTWARE PRODUCT is protected by copyright laws and copyright
+treaties, as well as other intellectual property laws and treaties.
+The SOFTWARE PRODUCT is licensed, not sold.
+
+1. NON-COMMERCIAL USE: This software is distributed as "Free for
+   Non-Commercial Use", and with a per-use royalty for Commercial Use.
+   This EULA intends to make it easy for developers and end users to
+   use Cogent's software Non-Commercial Purposes, where
+   "Non-Commercial Purposes" means:
+  
+   (1) to evaluate Cogent's software and to do exploratory development
+       and "proof of concept" prototyping of software applications
+       (e.g., control systems, graphical interfaces and embedded
+       systems), whether at home for personal use or at work as a
+       prototyping tool, and
+
+   (2) to create applications for personal use,
+
+   and where "Non-Commercial Purposes" specifically excludes without
+   limitation:
+
+   (1) personal use of the SOFTWARE PRODUCT in a business setting or
+       in support of a business activity,
+
+   (2) development of a system to be used for commercial gain, whether
+       to be sold or to be used within a company, partnership,
+       organization or entity that transacts commercial business,
+
+   (3) the use of the SOFTWARE PRODUCT in a commercial business for
+       any reason other than exploratory development and "proof of
+       concept" prototyping, even if the SOFTWARE PRODUCT is not
+       incorporated into an application or product to be sold,
+
+   (4) the use of the SOFTWARE PRODUCT to enable the use of another
+       application that was developed with the SOFTWARE PRODUCT,
+
+   (5) inclusion of the SOFTWARE PRODUCT in a collection of software,
+       whether that collection is sold, given away, or made part of a
+       larger collection.
+
+   (6) inclusion of the SOFTWARE PRODUCT in another product, whether
+       or not that other product is sold, given away, or made part of
+       a larger product.
+
+2. COMMERCIAL USE: COMMERCIAL USE is any use that is not specifically
+   defined in this license as NON-COMMERCIAL USE.
+
+3. GRANT OF LICENSE: This EULA covers both COMMERCIAL and
+   NON-COMMERCIAL USE of the SOFTWARE PRODUCT.  Either clause (A) or
+   (B) of this section will apply to you, depending on your actual use
+   of the SOFTWARE PRODUCT.
+
+   (A) GRANT OF LICENSE (NON-COMMERCIAL USE): This EULA grants you
+       the following non-exclusive rights when used for
+       NON-COMMERCIAL purposes:
+
+       Software: You may use the SOFTWARE PRODUCT on any number of
+       computers, either stand-alone, or on a network, so long as
+       every use of the SOFTWARE PRODUCT is for NON-COMMERCIAL USE.
+       You may reproduce the SOFTWARE PRODUCT, but only as reasonably
+       required to install and use it in accordance with this LICENSE
+       or to follow your normal back-up practices.
+
+       Subject to the license expressly granted above, you obtain no
+       right, title or interest in or to the SOFTWARE PRODUCT or
+       related documentation, including but not limited to any
+       copyright, patent, trade secret or other proprietary rights
+       therein.  All whole or partial copies of the SOFTWARE PRODUCT
+       remain property of Cogent and will be considered part of the
+       SOFTWARE PRODUCT for the purpose of this EULA.
+
+       Unless expressly permitted under this EULA or otherwise by Cogent,
+       you will not:
+
+          i) use, reproduce, modify, adapt, translate or otherwise
+             transmit the SOFTWARE PRODUCT or related components, in
+             whole or in part;
+
+         ii) rent, lease, license, transfer or otherwise provide access
+             to the SOFTWARE PRODUCT or related components;
+
+        iii) alter, remove or cover proprietary notices in or on the
+             SOFTWARE PRODUCT, related documentation or storage media;
+
+         iv) nexport the SOFTWARE PRODUCT from the country in which it was
+             provided to you by Cogent or its authorized reseller;
+
+          v) use a multi-processor version of the SOFTWARE PRODUCT in
+             a network larger than that for which you have paid the
+             corresponding multi-processor fees;
+
+         vi) decompile, disassemble or otherwise attempt or assist others to
+             reverse engineer the SOFTWARE PRODUCT; or
+
+        vii) use the SOFTWARE PRODUCT in any application that is
+             intended to create or could, in the event of malfunction
+             or failure, cause serious personal injury or property
+             damage.
+
+       viii) make use of the SOFTWARE PRODUCT for commercial gain,
+             whether directly, indirectly or incidentally.
+
+   (B) GRANT OF LICENSE (COMMERCIAL USE): This EULA grants you the
+       following non-exclusive rights when used for COMMERCIAL purposes:
+
+       Software: You may use the SOFTWARE PRODUCT on one computer, or
+       if the SOFTWARE PRODUCT is a multi-processor version - on one
+       node of a network, either: (i) as a development systems for the
+       purpose of creating value-added software applications in
+       accordance with related Cogent documentation; or (ii) as a
+       single run-time copy for use as an integral part of such an
+       application.  This includes reproduction and configuration of
+       the SOFTWARE PRODUCT, but only as reasonably required to
+       install and use it in association with your licensed processor
+       or to follow your normal back-up practices.
+
+       Storage/Network Use: You may also store or install a copy of
+       the SOFTWARE PRODUCT on one computer to allow your other
+       computers to use the SOFTWARE PRODUCT over an internal network,
+       and distribute the SOFTWARE PRODUCT to your other computers
+       over an internal network.  However, you must acquire and
+       dedicate a license for the SOFTWARE PRODUCT for each computer
+       on which the SOFTWARE PRODUCT is used or to which it is
+       distributed.  A license for the SOFTWARE PRODUCT may not be
+       shared or used concurrently on different computers.
+
+       Subject to the license expressly granted above, you obtain no
+       right, title or interest in or to the SOFTWARE PRODUCT or
+       related documentation, including but not limited to any
+       copyright, patent, trade secret or other proprietary rights
+       therein.  All whole or partial copies of the SOFTWARE PRODUCT
+       remain property of Cogent and will be considered part of the
+       SOFTWARE PRODUCT for the purpose of this EULA.
+
+       Unless expressly permitted under this EULA or otherwise by Cogent,
+       you will not:
+
+         i) use, reproduce, modify, adapt, translate or otherwise transmit
+            the SOFTWARE PRODUCT or related components, in whole or in part;
+
+        ii) rent, lease, license, transfer or otherwise provide access to
+            the SOFTWARE PRODUCT or related components;
+
+       iii) alter, remove or cover proprietary notices in or on the
+            SOFTWARE PRODUCT, related documentation or storage media;
+
+        iv) export the SOFTWARE PRODUCT from the country in which it was
+            provided to you by Cogent or its authorized reseller;
+
+         v) use a multi-processor version of the SOFTWARE PRODUCT in a
+            network larger than that for which you have paid the
+            corresponding multi-processor fees;
+
+        vi) decompile, disassemble or otherwise attempt or assist others to
+            reverse engineer the SOFTWARE PRODUCT; or
+
+       vii) use the SOFTWARE PRODUCT in any application that is
+            intended to create or could, in the event of malfunction
+            or failure, cause serious personal injury or property
+            damage.
+
+4. WARRANTY: Cogent cannot warrant that the SOFTWARE PRODUCT will
+   function in accordance with related documentation in every
+   combination of hardware platform, software environment and SOFTWARE
+   PRODUCT configuration.  You acknowledge that software bugs are
+   likely to be identified when the SOFTWARE PRODUCT is used in your
+   particular application.  You therefore accept the responsibility of
+   satisfying yourself that the SOFTWARE PRODUCT is suitable for your
+   intended use.  This includes conducting exhaustive testing of your
+   application prior to its initial release and prior to the release
+   of any related hardware or software modifications or enhancements.
+
+   Subject to documentation errors, Cogent warrants to you for a
+   period of ninety (90) days from acceptance of this EULA (as
+   provided above) that the SOFTWARE PRODUCT as delivered by Cogent is
+   capable of performing the functions described in related Cogent
+   user documentation when used on appropriate hardware.  Cogent also
+   warrants that any enclosed disk(s) will be free from defects in
+   material and workmanship under normal use for a period of ninety
+   (90) days from acceptance of this EULA.  Cogent is not responsible
+   for disk defects that result from accident or abuse.  Your sole
+   remedy for any breach of warranty will be either: i) terminate this
+   EULA and receive a refund of any amount paid to Cogent for the
+   SOFTWARE PRODUCT, or ii) to receive a replacement disk.
+
+5. LIMITATIONS: Except as expressly warranted above, the SOFTWARE
+   PRODUCT, any related documentation and disks are provided "as is"
+   without other warranties or conditions of any kind, including but
+   not limited to implied warranties of merchantability, fitness for a
+   particular purpose and non-infringement.  You assume the entire
+   risk as to the results and performance of the SOFTWARE PRODUCT.
+   Nothing stated in this EULA will imply that the operation of the
+   SOFTWARE PRODUCT will be uninterrupted or error free or that any
+   errors will be corrected.  Other written or oral statements by
+   Cogent, its representatives or others do not constitute warranties
+   or conditions of Cogent.
+
+   In no event will Cogent (or its officers, employees, suppliers,
+   distributors, or licensors: collectively "Its Representatives") be
+   liable to you for any indirect, incidental, special or
+   consequential damages whatsoever, including but not limited to loss
+   of revenue, lost or damaged data or other commercial or economic
+   loss, arising out of any breach of this EULA, any use or inability
+   to use the SOFTWARE PRODUCT or any claim made by a third party,
+   even if Cogent (or Its Representatives) have been advised of the
+   possibility of such damage or claim.  In no event will the
+   aggregate liability of Cogent (or that of Its Representatives) for
+   any damages or claim, whether in contract, tort or otherwise,
+   exceed the amount paid by you for the SOFTWARE PRODUCT.
+
+   These limitations shall apply whether or not the alleged breach or
+   default is a breach of a fundamental condition or term, or a
+   fundamental breach.  Some jurisdictions do not allow the exclusion
+   or limitation of liability for consequential or incidental damages,
+   or certain limitations of implied warranties.  Therefore the above
+   limitation may not apply to you.
+
+6. DESCRIPTION OF OTHER RIGHTS AND LIMITATIONS:
+
+   Separation of Components: The SOFTWARE PRODUCT is licensed as a
+   single product.  Its component parts may not be separated for use
+   on more than one computer.
+
+   Termination: Without prejudice to any other rights, Cogent may
+   terminate this EULA if you fail to comply with the terms and
+   conditions of this EULA.  In such an event, you must destroy all
+   copies of the SOFTWARE PRODUCT and all of its component parts.
+
+7. UPGRADES: If the SOFTWARE PRODUCT is an upgrade from another
+   product, whether from Cogent or another supplier, you may use or
+   transfer the SOFTWARE PRODUCT only in conjunction with that upgrade
+   product, unless you destroy the upgraded product.  If the SOFTWARE
+   PRODUCT is an upgrade of a Cogent product, you now may use that
+   upgraded product only in accordance with this EULA.  If the
+   SOFTWARE PRODUCT is an upgrade of a component of a package of
+   software programs which you licensed as a single product, the
+   SOFTWARE PRODUCT may be used and transferred only as part of that
+   single product package and may not be separated for use on more
+   than one computer.
+
+8. COPYRIGHT: All title and copyrights in and to the SOFTWARE PRODUCT
+   (including but not limited to any images, photographs, animations,
+   video, audio, music, text and 'applets", incorporated into the
+   SOFTWARE PRODUCT), any accompanying printed material, and any
+   copies of the SOFTWARE PRODUCT, are owned by Cogent or its
+   suppliers.  You may not copy the printed materials accompanying the
+   SOFTWARE PRODUCT.  All rights not specifically granted under this
+   EULA are reserved by Cogent.
+
+9. PRODUCT SUPPORT: Cogent has no obligation under this EULA to
+   provide maintenance, support or training.
+
+10. RESTRICTED RIGHTS: Use, duplication, or disclosure by the U.S.
+   Government is subject to restrictions as provided in DFARS
+   227.7202-1(a) and 227.7202-3(a) (1995), DFARS
+   252.227-7013(c)(1)(ii) (OCT 1988), FAR 12.212(a)(1995), FAR
+   52.227-19, or FAR 52.227-14 (ALT III), as appropriate.
+   Manufacturer is Cogent Real-Time Systems Inc. 162 Guelph Street,
+   Suite 253, Georgetown, Ontario, L7G 5X7, Canada.
+
+SPECIAL PROVISIONS
+
+If you acquired the SOFTWARE in Canada, this Software License
+Agreement is governed by the laws of the Province of Ontario, Canada.
+Each of the parties hereto irrevocably attorns to the jurisdiction of
+the courts of the Province of Ontario and further agrees to commence
+any litigation that may arise hereunder in the courts located in the
+Judicial District of Mississauga, Province of Ontario.  If you
+acquired the SOFTWARE outside Canada, local law may apply.

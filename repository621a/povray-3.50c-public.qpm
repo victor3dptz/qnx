@@ -1,0 +1,938 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageSize>931121</QPM:PackageSize>
+            <QPM:PackageReleaseDate>2003/09/30</QPM:PackageReleaseDate>
+            <QPM:PackageName>povray</QPM:PackageName>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageRepository>http://qnx.org.ru/repository</QPM:PackageRepository>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>4000235</QPM:ProductSize>
+            <QPM:InstallPath>public/povray/core-3.50c</QPM:InstallPath>
+            <QPM:ProductName>The Persistence of Vision Ray Tracer</QPM:ProductName>
+            <QPM:ProductIdentifier>povray</QPM:ProductIdentifier>
+            <QPM:ProductEmail>team-coord@povray.org</QPM:ProductEmail>
+            <QPM:VendorName>POV-Ray Development Team</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.povray.org</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail>team-coord@povray.org</QPM:VendorEmail>
+            <QPM:AuthorName>POV-Ray Development Team</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.povray.org</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail>team-coord@povray.org</QPM:AuthorEmail>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>POV-Ray is a free, full-featured ray tracer, written and maintained by a team of volunteers on the Internet.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>POV-Ray is a free, full-featured ray tracer, written and maintained by a team of volunteers on the Internet. POV-Ray(TM) is short for the Persistence of Vision(TM) Raytracer, a tool for producing high-quality computer graphics.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.povray.org</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/09/30</QPM:ReleaseDate>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseVersion>3.50c</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>High</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor>Added support for the Photon output</QPM:ReleaseNoteMinor>
+            <QPM:ReleaseNoteMajor>Added support for the Photon output</QPM:ReleaseNoteMajor>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:ContentTopic>Multimedia/Graphics/3D Rendering</QPM:ContentTopic>
+            <QPM:ContentKeyword>POV, Ray, Raytrace, Raytracer, Persistence, Vision, 3D, Rendering</QPM:ContentKeyword>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:DisplayEnvironment>Photon</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:LicenseUrl>rep://povray-3.50c-public.repdata/LicenseUrl/povlegal.doc</QPM:LicenseUrl>
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="doc">
+                     <QPM:Dir name="povray-3.50c">
+                        <QPM:File>AUTHORS</QPM:File>
+                        <QPM:File>ChangeLog</QPM:File>
+                        <QPM:File>README</QPM:File>
+                        <QPM:File>README.unix</QPM:File>
+                        <QPM:File>gamma.gif</QPM:File>
+                        <QPM:File>gamma.gif.txt</QPM:File>
+                        <QPM:File>povwhere.txt</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="man">
+                     <QPM:Union link="../../opt/man/man1">man1</QPM:Union>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="povray-3.5">
+                        <QPM:Union link="../../../opt/share/povray-3.5/tests">tests</QPM:Union>
+                        <QPM:Union link="../../../opt/share/povray-3.5/scripts">scripts</QPM:Union>
+                        <QPM:Union link="../../../opt/share/povray-3.5/ini">ini</QPM:Union>
+                        <QPM:Union link="../../../opt/share/povray-3.5/include">include</QPM:Union>
+                        <QPM:Dir name="scenes">
+                           <QPM:Union link="../../../../opt/share/povray-3.5/scenes/textures">textures</QPM:Union>
+                           <QPM:Union link="../../../../opt/share/povray-3.5/scenes/radiosity">radiosity</QPM:Union>
+                           <QPM:Union link="../../../../opt/share/povray-3.5/scenes/qtvr">qtvr</QPM:Union>
+                           <QPM:Union link="../../../../opt/share/povray-3.5/scenes/portfolio">portfolio</QPM:Union>
+                           <QPM:Union link="../../../../opt/share/povray-3.5/scenes/objects">objects</QPM:Union>
+                           <QPM:Union link="../../../../opt/share/povray-3.5/scenes/objectmods">objectmods</QPM:Union>
+                           <QPM:Union link="../../../../opt/share/povray-3.5/scenes/lights">lights</QPM:Union>
+                           <QPM:Union link="../../../../opt/share/povray-3.5/scenes/language">language</QPM:Union>
+                           <QPM:Union link="../../../../opt/share/povray-3.5/scenes/interior">interior</QPM:Union>
+                           <QPM:Union link="../../../../opt/share/povray-3.5/scenes/incdemo">incdemo</QPM:Union>
+                           <QPM:Union link="../../../../opt/share/povray-3.5/scenes/camera">camera</QPM:Union>
+                           <QPM:Union link="../../../../opt/share/povray-3.5/scenes/advanced">advanced</QPM:Union>
+                           <QPM:Dir name="animations">
+                              <QPM:Union link="../../../../../opt/share/povray-3.5/scenes/animations/vect2">vect2</QPM:Union>
+                              <QPM:Union link="../../../../../opt/share/povray-3.5/scenes/animations/vect1">vect1</QPM:Union>
+                              <QPM:Union link="../../../../../opt/share/povray-3.5/scenes/animations/splinefollow">splinefollow</QPM:Union>
+                              <QPM:Union link="../../../../../opt/share/povray-3.5/scenes/animations/speclr">speclr</QPM:Union>
+                              <QPM:Union link="../../../../../opt/share/povray-3.5/scenes/animations/slinky">slinky</QPM:Union>
+                              <QPM:Union link="../../../../../opt/share/povray-3.5/scenes/animations/reflect">reflect</QPM:Union>
+                              <QPM:Union link="../../../../../opt/share/povray-3.5/scenes/animations/raddem">raddem</QPM:Union>
+                              <QPM:Union link="../../../../../opt/share/povray-3.5/scenes/animations/quilted">quilted</QPM:Union>
+                              <QPM:Union link="../../../../../opt/share/povray-3.5/scenes/animations/pentmap">pentmap</QPM:Union>
+                              <QPM:Union link="../../../../../opt/share/povray-3.5/scenes/animations/life">life</QPM:Union>
+                              <QPM:Union link="../../../../../opt/share/povray-3.5/scenes/animations/l_o">l_o</QPM:Union>
+                              <QPM:Union link="../../../../../opt/share/povray-3.5/scenes/animations/fractalzoom">fractalzoom</QPM:Union>
+                              <QPM:Union link="../../../../../opt/share/povray-3.5/scenes/animations/float4">float4</QPM:Union>
+                              <QPM:Union link="../../../../../opt/share/povray-3.5/scenes/animations/float3">float3</QPM:Union>
+                              <QPM:Union link="../../../../../opt/share/povray-3.5/scenes/animations/float2">float2</QPM:Union>
+                              <QPM:Union link="../../../../../opt/share/povray-3.5/scenes/animations/float1">float1</QPM:Union>
+                              <QPM:Union link="../../../../../opt/share/povray-3.5/scenes/animations/diffuse">diffuse</QPM:Union>
+                              <QPM:Union link="../../../../../opt/share/povray-3.5/scenes/animations/clockd">clockd</QPM:Union>
+                              <QPM:Union link="../../../../../opt/share/povray-3.5/scenes/animations/camera2">camera2</QPM:Union>
+                              <QPM:Union link="../../../../../opt/share/povray-3.5/scenes/animations/boing">boing</QPM:Union>
+                              <QPM:Union link="../../../../../opt/share/povray-3.5/scenes/animations/ambient">ambient</QPM:Union>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="icons">
+                        <QPM:Union link="../../../opt/share/icons/povray">povray</QPM:Union>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="man">
+                     <QPM:Dir name="man1">
+                        <QPM:File>povray.1</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="povray-3.5">
+                        <QPM:Dir name="include">
+                           <QPM:File>arrays.inc</QPM:File>
+                           <QPM:File>chars.inc</QPM:File>
+                           <QPM:File>colors.inc</QPM:File>
+                           <QPM:File>consts.inc</QPM:File>
+                           <QPM:File>debug.inc</QPM:File>
+                           <QPM:File>finish.inc</QPM:File>
+                           <QPM:File>functions.inc</QPM:File>
+                           <QPM:File>glass.inc</QPM:File>
+                           <QPM:File>glass_old.inc</QPM:File>
+                           <QPM:File>golds.inc</QPM:File>
+                           <QPM:File>logo.inc</QPM:File>
+                           <QPM:File>math.inc</QPM:File>
+                           <QPM:File>metals.inc</QPM:File>
+                           <QPM:File>rad_def.inc</QPM:File>
+                           <QPM:File>rand.inc</QPM:File>
+                           <QPM:File>screen.inc</QPM:File>
+                           <QPM:File>shapes.inc</QPM:File>
+                           <QPM:File>shapes2.inc</QPM:File>
+                           <QPM:File>shapes_old.inc</QPM:File>
+                           <QPM:File>shapesq.inc</QPM:File>
+                           <QPM:File>skies.inc</QPM:File>
+                           <QPM:File>stage1.inc</QPM:File>
+                           <QPM:File>stars.inc</QPM:File>
+                           <QPM:File>stdcam.inc</QPM:File>
+                           <QPM:File>stdinc.inc</QPM:File>
+                           <QPM:File>stoneold.inc</QPM:File>
+                           <QPM:File>stones.inc</QPM:File>
+                           <QPM:File>stones1.inc</QPM:File>
+                           <QPM:File>stones2.inc</QPM:File>
+                           <QPM:File>strings.inc</QPM:File>
+                           <QPM:File>sunpos.inc</QPM:File>
+                           <QPM:File>textures.inc</QPM:File>
+                           <QPM:File>transforms.inc</QPM:File>
+                           <QPM:File>woodmaps.inc</QPM:File>
+                           <QPM:File>woods.inc</QPM:File>
+                           <QPM:File>ash.map</QPM:File>
+                           <QPM:File>benediti.map</QPM:File>
+                           <QPM:File>bubinga.map</QPM:File>
+                           <QPM:File>cedar.map</QPM:File>
+                           <QPM:File>marbteal.map</QPM:File>
+                           <QPM:File>orngwood.map</QPM:File>
+                           <QPM:File>pinkmarb.map</QPM:File>
+                           <QPM:File>rdgranit.map</QPM:File>
+                           <QPM:File>teak.map</QPM:File>
+                           <QPM:File>whiteash.map</QPM:File>
+                           <QPM:File>bumpmap_.png</QPM:File>
+                           <QPM:File>fract003.png</QPM:File>
+                           <QPM:File>mtmandj.png</QPM:File>
+                           <QPM:File>plasma2.png</QPM:File>
+                           <QPM:File>plasma3.png</QPM:File>
+                           <QPM:File>povmap.png</QPM:File>
+                           <QPM:File>test.png</QPM:File>
+                           <QPM:File>mtmand.pot</QPM:File>
+                           <QPM:File>crystal.ttf</QPM:File>
+                           <QPM:File>cyrvetic.ttf</QPM:File>
+                           <QPM:File>povlogo.ttf</QPM:File>
+                           <QPM:File>timrom.ttf</QPM:File>
+                           <QPM:File>ttffonts.cat</QPM:File>
+                           <QPM:File>spiral.df3</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ini">
+                           <QPM:File>allanim.ini</QPM:File>
+                           <QPM:File>allstill.ini</QPM:File>
+                           <QPM:File>low.ini</QPM:File>
+                           <QPM:File>pngflc.ini</QPM:File>
+                           <QPM:File>pngfli.ini</QPM:File>
+                           <QPM:File>quickres.ini</QPM:File>
+                           <QPM:File>res120.ini</QPM:File>
+                           <QPM:File>res1k.ini</QPM:File>
+                           <QPM:File>res320.ini</QPM:File>
+                           <QPM:File>res640.ini</QPM:File>
+                           <QPM:File>res800.ini</QPM:File>
+                           <QPM:File>slow.ini</QPM:File>
+                           <QPM:File>tgaflc.ini</QPM:File>
+                           <QPM:File>tgafli.ini</QPM:File>
+                           <QPM:File>zipflc.ini</QPM:File>
+                           <QPM:File>zipfli.ini</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="scripts">
+                           <QPM:File>allscene.sh</QPM:File>
+                           <QPM:File>rerunpov.sh</QPM:File>
+                           <QPM:File>runpov.sh</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="tests">
+                           <QPM:File>test.sh</QPM:File>
+                           <QPM:File>pvdemo.pov</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="scenes">
+                           <QPM:Dir name="advanced">
+                              <QPM:File>desk.ini</QPM:File>
+                              <QPM:File>abyss.pov</QPM:File>
+                              <QPM:File>benchmark.pov</QPM:File>
+                              <QPM:File>bwstripe.pov</QPM:File>
+                              <QPM:File>chess2.pov</QPM:File>
+                              <QPM:File>desk.pov</QPM:File>
+                              <QPM:File>diffract.pov</QPM:File>
+                              <QPM:File>float5.pov</QPM:File>
+                              <QPM:File>gaussianblob.pov</QPM:File>
+                              <QPM:File>grenadine.pov</QPM:File>
+                              <QPM:File>infinitybox.pov</QPM:File>
+                              <QPM:File>isocacti.pov</QPM:File>
+                              <QPM:File>lamppost.pov</QPM:File>
+                              <QPM:File>landscape.pov</QPM:File>
+                              <QPM:File>mediasky.pov</QPM:File>
+                              <QPM:File>mist.pov</QPM:File>
+                              <QPM:File>mtmand.pov</QPM:File>
+                              <QPM:File>newdiffract.pov</QPM:File>
+                              <QPM:File>object_pattern.pov</QPM:File>
+                              <QPM:File>optics.pov</QPM:File>
+                              <QPM:File>quilt1.pov</QPM:File>
+                              <QPM:File>skyvase.pov</QPM:File>
+                              <QPM:File>sombrero.pov</QPM:File>
+                              <QPM:File>sunsethf.pov</QPM:File>
+                              <QPM:File>swirlbox.pov</QPM:File>
+                              <QPM:File>wallstucco.pov</QPM:File>
+                              <QPM:File>whiltile.pov</QPM:File>
+                              <QPM:File>wineglass.pov</QPM:File>
+                              <QPM:File>woodbox.pov</QPM:File>
+                              <QPM:File>mtmand.par</QPM:File>
+                              <QPM:File>lemon.inc</QPM:File>
+                              <QPM:Dir name="balcony">
+                                 <QPM:File>balcony.pov</QPM:File>
+                                 <QPM:File>building.inc</QPM:File>
+                                 <QPM:File>chair.inc</QPM:File>
+                                 <QPM:File>cloth.inc</QPM:File>
+                                 <QPM:File>glass.inc</QPM:File>
+                                 <QPM:File>sky.inc</QPM:File>
+                                 <QPM:File>table.inc</QPM:File>
+                                 <QPM:File>table_cloth.inc</QPM:File>
+                                 <QPM:File>table_stuff.inc</QPM:File>
+                                 <QPM:File>terrain.inc</QPM:File>
+                                 <QPM:File>water.inc</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="blocks">
+                                 <QPM:File>stackerday.pov</QPM:File>
+                                 <QPM:File>stackergold.pov</QPM:File>
+                                 <QPM:File>stackernight.pov</QPM:File>
+                                 <QPM:File>stackertransp.pov</QPM:File>
+                                 <QPM:File>makestacks.inc</QPM:File>
+                                 <QPM:File>stacks.inc</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="cats">
+                                 <QPM:File>povcatray.pov</QPM:File>
+                                 <QPM:File>cattex.inc</QPM:File>
+                                 <QPM:File>cattext.inc</QPM:File>
+                                 <QPM:File>coolcat.inc</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="cliche">
+                                 <QPM:File>cliche.pov</QPM:File>
+                                 <QPM:File>sign.pov</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="drums2">
+                                 <QPM:File>drums.pov</QPM:File>
+                                 <QPM:File>drums.inc</QPM:File>
+                                 <QPM:File>rednewt.png</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="fish13">
+                                 <QPM:File>fish13.pov</QPM:File>
+                                 <QPM:File>fish.inc</QPM:File>
+                                 <QPM:File>stem1.inc</QPM:File>
+                                 <QPM:File>world12.inc</QPM:File>
+                                 <QPM:File>finskin2.png</QPM:File>
+                                 <QPM:File>fisheye.png</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="glasschess">
+                                 <QPM:File>glasschess.pov</QPM:File>
+                                 <QPM:File>chesspiece1.inc</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="ionic5">
+                                 <QPM:File>ionic5.pov</QPM:File>
+                                 <QPM:File>b-snake.inc</QPM:File>
+                                 <QPM:File>lizard.inc</QPM:File>
+                                 <QPM:File>marble.inc</QPM:File>
+                                 <QPM:File>panther.inc</QPM:File>
+                                 <QPM:File>s-head3.inc</QPM:File>
+                                 <QPM:File>turn.inc</QPM:File>
+                                 <QPM:File>congo4.png</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="newltpot">
+                                 <QPM:File>teapot2.pov</QPM:File>
+                                 <QPM:File>teapot3.pov</QPM:File>
+                                 <QPM:File>teapot4.pov</QPM:File>
+                                 <QPM:File>teapot_c1.inc</QPM:File>
+                                 <QPM:File>teapot_c2.inc</QPM:File>
+                                 <QPM:File>teapot_c3.inc</QPM:File>
+                                 <QPM:File>teapot_sph.inc</QPM:File>
+                                 <QPM:File>teapot_tri.inc</QPM:File>
+                                 <QPM:File>teapot.txt</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="ntreal">
+                                 <QPM:File>ntreal.pov</QPM:File>
+                                 <QPM:File>ntreal.inc</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="piece2">
+                                 <QPM:File>piece2.pov</QPM:File>
+                                 <QPM:File>light.inc</QPM:File>
+                                 <QPM:File>spural1.inc</QPM:File>
+                                 <QPM:File>spural2.inc</QPM:File>
+                                 <QPM:File>tori2.inc</QPM:File>
+                                 <QPM:File>ttexture.inc</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="piece3">
+                                 <QPM:File>piece3.pov</QPM:File>
+                                 <QPM:File>curly-q.inc</QPM:File>
+                                 <QPM:File>links.inc</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="teapot">
+                                 <QPM:File>teapot.pov</QPM:File>
+                                 <QPM:File>teapot.inc</QPM:File>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="animations">
+                              <QPM:Dir name="ambient">
+                                 <QPM:File>ambient.ini</QPM:File>
+                                 <QPM:File>ambient.pov</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="boing">
+                                 <QPM:File>boing1.ini</QPM:File>
+                                 <QPM:File>boing1.pov</QPM:File>
+                                 <QPM:File>bounce.ini</QPM:File>
+                                 <QPM:File>bounce.pov</QPM:File>
+                                 <QPM:File>glsbng.ini</QPM:File>
+                                 <QPM:File>glsbng.pov</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="camera2">
+                                 <QPM:File>camera2.ini</QPM:File>
+                                 <QPM:File>camera2.pov</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="clockd">
+                                 <QPM:File>clockd.pov</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="diffuse">
+                                 <QPM:File>diffuse.ini</QPM:File>
+                                 <QPM:File>diffuse.pov</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="float1">
+                                 <QPM:File>float1.ini</QPM:File>
+                                 <QPM:File>float1.pov</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="float2">
+                                 <QPM:File>float2.ini</QPM:File>
+                                 <QPM:File>float2.pov</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="float3">
+                                 <QPM:File>float3.ini</QPM:File>
+                                 <QPM:File>float3.pov</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="float4">
+                                 <QPM:File>float4.ini</QPM:File>
+                                 <QPM:File>float4.pov</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="fractalzoom">
+                                 <QPM:File>fractalzoom.pov</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="l_o">
+                                 <QPM:File>l_o.ini</QPM:File>
+                                 <QPM:File>l_o.pov</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="life">
+                                 <QPM:File>blink4.inc</QPM:File>
+                                 <QPM:File>life.ini</QPM:File>
+                                 <QPM:File>life.pov</QPM:File>
+                                 <QPM:File>walker.inc</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="pentmap">
+                                 <QPM:File>pentmap.ini</QPM:File>
+                                 <QPM:File>pentmap.pov</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="quilted">
+                                 <QPM:File>plotqlt.ini</QPM:File>
+                                 <QPM:File>plotqlt.pov</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="raddem">
+                                 <QPM:File>raddem.ini</QPM:File>
+                                 <QPM:File>raddem.pov</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="reflect">
+                                 <QPM:File>reflect.ini</QPM:File>
+                                 <QPM:File>reflect.pov</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="slinky">
+                                 <QPM:File>slnk.ini</QPM:File>
+                                 <QPM:File>slnk.pov</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="speclr">
+                                 <QPM:File>speclr.ini</QPM:File>
+                                 <QPM:File>speclr.pov</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="splinefollow">
+                                 <QPM:File>splinefollow.pov</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="vect1">
+                                 <QPM:File>vect1.ini</QPM:File>
+                                 <QPM:File>vect1.pov</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="vect2">
+                                 <QPM:File>vect2.ini</QPM:File>
+                                 <QPM:File>vect2.pov</QPM:File>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="camera">
+                              <QPM:File>cylinder1.pov</QPM:File>
+                              <QPM:File>cylinder2.pov</QPM:File>
+                              <QPM:File>cylinder3.pov</QPM:File>
+                              <QPM:File>cylinder4.pov</QPM:File>
+                              <QPM:File>fisheye.pov</QPM:File>
+                              <QPM:File>focalblur.pov</QPM:File>
+                              <QPM:File>normal.pov</QPM:File>
+                              <QPM:File>omnimax.pov</QPM:File>
+                              <QPM:File>orthographic.pov</QPM:File>
+                              <QPM:File>panoramic.pov</QPM:File>
+                              <QPM:File>perspective.pov</QPM:File>
+                              <QPM:File>shear.pov</QPM:File>
+                              <QPM:File>spherical.pov</QPM:File>
+                              <QPM:File>ultra_wide_angle.pov</QPM:File>
+                              <QPM:File>camera-context.inc</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="incdemo">
+                              <QPM:File>chars.pov</QPM:File>
+                              <QPM:File>circletext.pov</QPM:File>
+                              <QPM:File>colors.pov</QPM:File>
+                              <QPM:File>debug.pov</QPM:File>
+                              <QPM:File>finish.pov</QPM:File>
+                              <QPM:File>func_gradient.pov</QPM:File>
+                              <QPM:File>i_internal.pov</QPM:File>
+                              <QPM:File>logo.pov</QPM:File>
+                              <QPM:File>math.pov</QPM:File>
+                              <QPM:File>screen.pov</QPM:File>
+                              <QPM:File>shapes.pov</QPM:File>
+                              <QPM:File>shapes2.pov</QPM:File>
+                              <QPM:File>shapes_old.pov</QPM:File>
+                              <QPM:File>sort.pov</QPM:File>
+                              <QPM:File>strings.pov</QPM:File>
+                              <QPM:File>sundial.pov</QPM:File>
+                              <QPM:File>texture1.pov</QPM:File>
+                              <QPM:File>texture2.pov</QPM:File>
+                              <QPM:File>texture3.pov</QPM:File>
+                              <QPM:File>transforms.pov</QPM:File>
+                              <QPM:File>shotxtr.inc</QPM:File>
+                              <QPM:Dir name="glasses">
+                                 <QPM:File>glass.pov</QPM:File>
+                                 <QPM:File>samp_demo.pov</QPM:File>
+                                 <QPM:File>sample.inc</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="metals">
+                                 <QPM:File>brasses.pov</QPM:File>
+                                 <QPM:File>chromes.pov</QPM:File>
+                                 <QPM:File>coppers.pov</QPM:File>
+                                 <QPM:File>golds.pov</QPM:File>
+                                 <QPM:File>silvers.pov</QPM:File>
+                                 <QPM:File>stage_xy.inc</QPM:File>
+                                 <QPM:File>stage_xz.inc</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="stones">
+                                 <QPM:File>benediti.pov</QPM:File>
+                                 <QPM:File>marbteal.pov</QPM:File>
+                                 <QPM:File>pinkmarb.pov</QPM:File>
+                                 <QPM:File>rdgranit.pov</QPM:File>
+                                 <QPM:File>stones1.pov</QPM:File>
+                                 <QPM:File>stones2.pov</QPM:File>
+                                 <QPM:File>stones.doc</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="woods">
+                                 <QPM:File>ash.pov</QPM:File>
+                                 <QPM:File>bubinga.pov</QPM:File>
+                                 <QPM:File>cedar.pov</QPM:File>
+                                 <QPM:File>orngwood.pov</QPM:File>
+                                 <QPM:File>teak.pov</QPM:File>
+                                 <QPM:File>whiteash.pov</QPM:File>
+                                 <QPM:File>wood_1.pov</QPM:File>
+                                 <QPM:File>wood_10.pov</QPM:File>
+                                 <QPM:File>wood_11.pov</QPM:File>
+                                 <QPM:File>wood_12.pov</QPM:File>
+                                 <QPM:File>wood_13.pov</QPM:File>
+                                 <QPM:File>wood_14.pov</QPM:File>
+                                 <QPM:File>wood_15.pov</QPM:File>
+                                 <QPM:File>wood_16.pov</QPM:File>
+                                 <QPM:File>wood_17.pov</QPM:File>
+                                 <QPM:File>wood_18.pov</QPM:File>
+                                 <QPM:File>wood_19.pov</QPM:File>
+                                 <QPM:File>wood_2.pov</QPM:File>
+                                 <QPM:File>wood_3.pov</QPM:File>
+                                 <QPM:File>wood_4.pov</QPM:File>
+                                 <QPM:File>wood_5.pov</QPM:File>
+                                 <QPM:File>wood_6.pov</QPM:File>
+                                 <QPM:File>wood_7.pov</QPM:File>
+                                 <QPM:File>wood_8.pov</QPM:File>
+                                 <QPM:File>wood_9.pov</QPM:File>
+                                 <QPM:File>woods1.pov</QPM:File>
+                                 <QPM:File>woods2.pov</QPM:File>
+                                 <QPM:File>morewood.doc</QPM:File>
+                                 <QPM:File>woods.doc</QPM:File>
+                                 <QPM:File>testcam.inc</QPM:File>
+                                 <QPM:File>testobjs.inc</QPM:File>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="interior">
+                              <QPM:File>atten1.pov</QPM:File>
+                              <QPM:File>atten2.pov</QPM:File>
+                              <QPM:File>ballbox1.pov</QPM:File>
+                              <QPM:File>caustic2.pov</QPM:File>
+                              <QPM:File>crystal.pov</QPM:File>
+                              <QPM:File>fog_f.pov</QPM:File>
+                              <QPM:File>fog_ft.pov</QPM:File>
+                              <QPM:File>fog_std.pov</QPM:File>
+                              <QPM:File>foglayr.pov</QPM:File>
+                              <QPM:File>foglyr2.pov</QPM:File>
+                              <QPM:File>iortest.pov</QPM:File>
+                              <QPM:File>magglass.pov</QPM:File>
+                              <QPM:File>nufog2.pov</QPM:File>
+                              <QPM:File>rainbow1.pov</QPM:File>
+                              <QPM:File>skysph1.pov</QPM:File>
+                              <QPM:File>skysph2.pov</QPM:File>
+                              <QPM:Dir name="media">
+                                 <QPM:File>galaxy.pov</QPM:File>
+                                 <QPM:File>hollow1.pov</QPM:File>
+                                 <QPM:File>hollow2.pov</QPM:File>
+                                 <QPM:File>hollow3.pov</QPM:File>
+                                 <QPM:File>media1.pov</QPM:File>
+                                 <QPM:File>media2.pov</QPM:File>
+                                 <QPM:File>media3.pov</QPM:File>
+                                 <QPM:File>media4.pov</QPM:File>
+                                 <QPM:File>media5.pov</QPM:File>
+                                 <QPM:File>micro.pov</QPM:File>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="language">
+                              <QPM:File>bounding.pov</QPM:File>
+                              <QPM:File>image_size.pov</QPM:File>
+                              <QPM:File>splinefunction.pov</QPM:File>
+                              <QPM:File>trace-wicker.pov</QPM:File>
+                              <QPM:File>trace.pov</QPM:File>
+                              <QPM:File>trace2.pov</QPM:File>
+                              <QPM:File>tracevines.pov</QPM:File>
+                              <QPM:File>vturbulence.pov</QPM:File>
+                              <QPM:Dir name="arrays">
+                                 <QPM:File>array1.pov</QPM:File>
+                                 <QPM:File>array2.pov</QPM:File>
+                                 <QPM:File>array3.pov</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="fileio">
+                                 <QPM:File>fileio.pov</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="macros">
+                                 <QPM:File>local.pov</QPM:File>
+                                 <QPM:File>macro1.pov</QPM:File>
+                                 <QPM:File>macro2.pov</QPM:File>
+                                 <QPM:File>macro3.pov</QPM:File>
+                                 <QPM:File>macro4.pov</QPM:File>
+                                 <QPM:File>pyramid.pov</QPM:File>
+                                 <QPM:File>pyramid2.pov</QPM:File>
+                                 <QPM:File>local.inc</QPM:File>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="lights">
+                              <QPM:File>arealit1.pov</QPM:File>
+                              <QPM:File>arealit2.pov</QPM:File>
+                              <QPM:File>arealit3.pov</QPM:File>
+                              <QPM:File>circular.pov</QPM:File>
+                              <QPM:File>fillite.pov</QPM:File>
+                              <QPM:File>glassthing.pov</QPM:File>
+                              <QPM:File>laser.pov</QPM:File>
+                              <QPM:File>orient.pov</QPM:File>
+                              <QPM:File>parallel_lights.pov</QPM:File>
+                              <QPM:File>phot_met_glass.pov</QPM:File>
+                              <QPM:File>projected_through.pov</QPM:File>
+                              <QPM:File>shadows.pov</QPM:File>
+                              <QPM:File>soft.pov</QPM:File>
+                              <QPM:File>spotlite.pov</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="objectmods">
+                              <QPM:File>double_illuminate.pov</QPM:File>
+                              <QPM:File>no_image.pov</QPM:File>
+                              <QPM:File>no_reflection.pov</QPM:File>
+                              <QPM:File>thingy.inc</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="objects">
+                              <QPM:File>bezier.pov</QPM:File>
+                              <QPM:File>blob.pov</QPM:File>
+                              <QPM:File>blob1a.pov</QPM:File>
+                              <QPM:File>blob1b.pov</QPM:File>
+                              <QPM:File>blob1c.pov</QPM:File>
+                              <QPM:File>box.pov</QPM:File>
+                              <QPM:File>chesmsh.pov</QPM:File>
+                              <QPM:File>crater.pov</QPM:File>
+                              <QPM:File>crater_dat.pov</QPM:File>
+                              <QPM:File>fractal1.pov</QPM:File>
+                              <QPM:File>fractal2.pov</QPM:File>
+                              <QPM:File>fractal3.pov</QPM:File>
+                              <QPM:File>fractal4.pov</QPM:File>
+                              <QPM:File>isosurfaces.pov</QPM:File>
+                              <QPM:File>lathe1a.pov</QPM:File>
+                              <QPM:File>lathe1b.pov</QPM:File>
+                              <QPM:File>lathe1c.pov</QPM:File>
+                              <QPM:File>lathe2.pov</QPM:File>
+                              <QPM:File>mesh2.pov</QPM:File>
+                              <QPM:File>pawns.pov</QPM:File>
+                              <QPM:File>polygon.pov</QPM:File>
+                              <QPM:File>primitiv.pov</QPM:File>
+                              <QPM:File>prism1.pov</QPM:File>
+                              <QPM:File>prism2.pov</QPM:File>
+                              <QPM:File>prism3a.pov</QPM:File>
+                              <QPM:File>prism3b.pov</QPM:File>
+                              <QPM:File>prism3c.pov</QPM:File>
+                              <QPM:File>sor1.pov</QPM:File>
+                              <QPM:File>superel1.pov</QPM:File>
+                              <QPM:File>superel2.pov</QPM:File>
+                              <QPM:File>superel3.pov</QPM:File>
+                              <QPM:File>torus1.pov</QPM:File>
+                              <QPM:File>ttf1.pov</QPM:File>
+                              <QPM:File>wtorus.pov</QPM:File>
+                              <QPM:File>chess.inc</QPM:File>
+                              <QPM:File>prism3.inc</QPM:File>
+                              <QPM:Dir name="csg">
+                                 <QPM:File>cliptst2.pov</QPM:File>
+                                 <QPM:File>granite.pov</QPM:File>
+                                 <QPM:File>hfclip.pov</QPM:File>
+                                 <QPM:File>intee1.pov</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="quartic">
+                                 <QPM:File>bicube.pov</QPM:File>
+                                 <QPM:File>folium.pov</QPM:File>
+                                 <QPM:File>grafbic.pov</QPM:File>
+                                 <QPM:File>helix.pov</QPM:File>
+                                 <QPM:File>hyptorus.pov</QPM:File>
+                                 <QPM:File>lemnisc2.pov</QPM:File>
+                                 <QPM:File>lemnisca.pov</QPM:File>
+                                 <QPM:File>monkey.pov</QPM:File>
+                                 <QPM:File>partorus.pov</QPM:File>
+                                 <QPM:File>piriform.pov</QPM:File>
+                                 <QPM:File>quarcyl.pov</QPM:File>
+                                 <QPM:File>quarpara.pov</QPM:File>
+                                 <QPM:File>steiner.pov</QPM:File>
+                                 <QPM:File>tcubic.pov</QPM:File>
+                                 <QPM:File>teardrop.pov</QPM:File>
+                                 <QPM:File>torus.pov</QPM:File>
+                                 <QPM:File>trough.pov</QPM:File>
+                                 <QPM:File>witch.pov</QPM:File>
+                                 <QPM:File>axisbox.inc</QPM:File>
+                                 <QPM:File>quartic.cat</QPM:File>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="portfolio">
+                              <QPM:File>__empty.pov</QPM:File>
+                              <QPM:File>allnormals.pov</QPM:File>
+                              <QPM:File>allobjects.pov</QPM:File>
+                              <QPM:File>allpat1iso.pov</QPM:File>
+                              <QPM:File>allpat2iso.pov</QPM:File>
+                              <QPM:File>allpatterns.pov</QPM:File>
+                              <QPM:File>c_colors.pov</QPM:File>
+                              <QPM:File>f_finish.pov</QPM:File>
+                              <QPM:File>m_textures.pov</QPM:File>
+                              <QPM:File>o_2shapes.pov</QPM:File>
+                              <QPM:File>o_shapes.pov</QPM:File>
+                              <QPM:File>o_shapes_old.pov</QPM:File>
+                              <QPM:File>o_shapesq.pov</QPM:File>
+                              <QPM:File>p_skies.pov</QPM:File>
+                              <QPM:File>p_textures.pov</QPM:File>
+                              <QPM:File>p_woods.pov</QPM:File>
+                              <QPM:File>t_1stones.pov</QPM:File>
+                              <QPM:File>t_2stones.pov</QPM:File>
+                              <QPM:File>t_metals.pov</QPM:File>
+                              <QPM:File>t_stars.pov</QPM:File>
+                              <QPM:File>t_textures.pov</QPM:File>
+                              <QPM:File>t_woods.pov</QPM:File>
+                              <QPM:File>html_gen.inc</QPM:File>
+                              <QPM:File>__empty.ini</QPM:File>
+                              <QPM:File>allnormals.ini</QPM:File>
+                              <QPM:File>allobjects.ini</QPM:File>
+                              <QPM:File>allpat1iso.ini</QPM:File>
+                              <QPM:File>allpat2iso.ini</QPM:File>
+                              <QPM:File>allpatterns.ini</QPM:File>
+                              <QPM:File>c_colors.ini</QPM:File>
+                              <QPM:File>f_finish.ini</QPM:File>
+                              <QPM:File>m_textures.ini</QPM:File>
+                              <QPM:File>o_2shapes.ini</QPM:File>
+                              <QPM:File>o_shapes.ini</QPM:File>
+                              <QPM:File>o_shapes_old.ini</QPM:File>
+                              <QPM:File>o_shapesq.ini</QPM:File>
+                              <QPM:File>p_skies.ini</QPM:File>
+                              <QPM:File>p_textures.ini</QPM:File>
+                              <QPM:File>p_woods.ini</QPM:File>
+                              <QPM:File>t_1stones.ini</QPM:File>
+                              <QPM:File>t_2stones.ini</QPM:File>
+                              <QPM:File>t_metals.ini</QPM:File>
+                              <QPM:File>t_stars.ini</QPM:File>
+                              <QPM:File>t_textures.ini</QPM:File>
+                              <QPM:File>t_woods.ini</QPM:File>
+                              <QPM:File>readme.txt</QPM:File>
+                              <QPM:File>index.html</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="qtvr">
+                              <QPM:File>qtvrpanorama.pov</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="radiosity">
+                              <QPM:File>cornell.pov</QPM:File>
+                              <QPM:File>patio-radio.pov</QPM:File>
+                              <QPM:File>rad_def_test.pov</QPM:File>
+                              <QPM:File>radiosity.pov</QPM:File>
+                              <QPM:File>radiosity2.pov</QPM:File>
+                              <QPM:File>radiosity3.pov</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="textures">
+                              <QPM:File>interior_texture.pov</QPM:File>
+                              <QPM:File>noise_generator.pov</QPM:File>
+                              <QPM:Dir name="finishes">
+                                 <QPM:File>arches.pov</QPM:File>
+                                 <QPM:File>cluster.pov</QPM:File>
+                                 <QPM:File>metallicreflection.pov</QPM:File>
+                                 <QPM:File>var_refl.pov</QPM:File>
+                                 <QPM:File>var_reflection.pov</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="normals">
+                                 <QPM:File>bumpmap.pov</QPM:File>
+                                 <QPM:File>norm_acc.pov</QPM:File>
+                                 <QPM:File>normal.pov</QPM:File>
+                                 <QPM:File>normavg.pov</QPM:File>
+                                 <QPM:File>normmap.pov</QPM:File>
+                                 <QPM:File>slopemap.pov</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="patterns">
+                                 <QPM:File>agate.pov</QPM:File>
+                                 <QPM:File>bozo.pov</QPM:File>
+                                 <QPM:File>brick.pov</QPM:File>
+                                 <QPM:File>bumps.pov</QPM:File>
+                                 <QPM:File>crackle1.pov</QPM:File>
+                                 <QPM:File>crackle2.pov</QPM:File>
+                                 <QPM:File>crackle3.pov</QPM:File>
+                                 <QPM:File>crackle_form.pov</QPM:File>
+                                 <QPM:File>crackle_solid.pov</QPM:File>
+                                 <QPM:File>densfile.pov</QPM:File>
+                                 <QPM:File>dents.pov</QPM:File>
+                                 <QPM:File>fractals1.pov</QPM:File>
+                                 <QPM:File>fractals2.pov</QPM:File>
+                                 <QPM:File>fractals3.pov</QPM:File>
+                                 <QPM:File>gradient.pov</QPM:File>
+                                 <QPM:File>granite.pov</QPM:File>
+                                 <QPM:File>hexagon.pov</QPM:File>
+                                 <QPM:File>leopard.pov</QPM:File>
+                                 <QPM:File>mandel.pov</QPM:File>
+                                 <QPM:File>marble.pov</QPM:File>
+                                 <QPM:File>onion.pov</QPM:File>
+                                 <QPM:File>pigment_pattern.pov</QPM:File>
+                                 <QPM:File>quilt2.pov</QPM:File>
+                                 <QPM:File>quilted.pov</QPM:File>
+                                 <QPM:File>radial.pov</QPM:File>
+                                 <QPM:File>ripples.pov</QPM:File>
+                                 <QPM:File>slopemt.pov</QPM:File>
+                                 <QPM:File>slopemt_dat.pov</QPM:File>
+                                 <QPM:File>spiral1.pov</QPM:File>
+                                 <QPM:File>spiral2.pov</QPM:File>
+                                 <QPM:File>spotted.pov</QPM:File>
+                                 <QPM:File>waves.pov</QPM:File>
+                                 <QPM:File>wrinkles.pov</QPM:File>
+                                 <QPM:File>pignorm.inc</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="pigments">
+                                 <QPM:File>blkhole.pov</QPM:File>
+                                 <QPM:File>cantelop.pov</QPM:File>
+                                 <QPM:File>checker2.pov</QPM:File>
+                                 <QPM:File>crack1.pov</QPM:File>
+                                 <QPM:File>dodec2.pov</QPM:File>
+                                 <QPM:File>eight.pov</QPM:File>
+                                 <QPM:File>filtfun.pov</QPM:File>
+                                 <QPM:File>interp.pov</QPM:File>
+                                 <QPM:File>irid.pov</QPM:File>
+                                 <QPM:File>mapper.pov</QPM:File>
+                                 <QPM:File>mappr2.pov</QPM:File>
+                                 <QPM:File>matmap.pov</QPM:File>
+                                 <QPM:File>pigmap.pov</QPM:File>
+                                 <QPM:File>pigment.pov</QPM:File>
+                                 <QPM:File>planet.pov</QPM:File>
+                                 <QPM:File>spiral1a.pov</QPM:File>
+                                 <QPM:File>transmitfx.pov</QPM:File>
+                                 <QPM:File>txtravg.pov</QPM:File>
+                                 <QPM:File>txtrmap.pov</QPM:File>
+                                 <QPM:File>warp1.pov</QPM:File>
+                                 <QPM:File>warp2.pov</QPM:File>
+                                 <QPM:Dir name="skies">
+                                    <QPM:File>s_cloud1.pov</QPM:File>
+                                    <QPM:File>s_cloud2.pov</QPM:File>
+                                    <QPM:File>s_cloud3.pov</QPM:File>
+                                    <QPM:File>s_cloud4.pov</QPM:File>
+                                    <QPM:File>s_cloud5.pov</QPM:File>
+                                    <QPM:File>stars.pov</QPM:File>
+                                    <QPM:File>skies.doc</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="icons">
+                        <QPM:Dir name="povray">
+                           <QPM:File>povray.gif</QPM:File>
+                           <QPM:File>povrayb.gif</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="etc">
+                  <QPM:Dir name="povray">
+                     <QPM:File>povray.ini</QPM:File>
+                     <QPM:File>povray.conf</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

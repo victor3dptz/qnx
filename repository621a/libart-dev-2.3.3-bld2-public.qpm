@@ -1,0 +1,149 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:PackageName>libart-dev-2.3.3-bld2-public</QPM:PackageName>
+            <QPM:PackageSize>11269</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/01/01</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:PackageModel>dev</QPM:PackageModel>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>libart Development</QPM:ProductName>
+            <QPM:ProductSize>72034</QPM:ProductSize>
+            <QPM:ProductIdentifier>libart-dev</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>GNU</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.gnu.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>libart is a canvas library.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>libart is a gtk/gnome canvas support library.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.levien.com/libart/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/libart/dev-2.3.3-bld2</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/01/01</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>2.3.3</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>2</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU Lesser General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://libart-2.3.3-bld2-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Software Development/Libraries and Extensions/C Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>libart,gnome,gtk</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>Must include at least one development package targeting a specific processor (Packager-generated dependency).</QPM:Notes>
+               <QPM:Filter>
+                  <QPM:FilterType>StringExpression</QPM:FilterType>
+                  <ProductIdentifier>libart-dev-target*</ProductIdentifier>
+               </QPM:Filter>
+            </QPM:Dependency>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="include">
+                     <QPM:Dir name="libart_lgpl">
+                        <QPM:File>art_affine.h</QPM:File>
+                        <QPM:File>art_alphagamma.h</QPM:File>
+                        <QPM:File>art_bpath.h</QPM:File>
+                        <QPM:File>art_config.h</QPM:File>
+                        <QPM:File>art_filterlevel.h</QPM:File>
+                        <QPM:File>art_gray_svp.h</QPM:File>
+                        <QPM:File>art_misc.h</QPM:File>
+                        <QPM:File>art_pathcode.h</QPM:File>
+                        <QPM:File>art_pixbuf.h</QPM:File>
+                        <QPM:File>art_point.h</QPM:File>
+                        <QPM:File>art_rect.h</QPM:File>
+                        <QPM:File>art_rect_svp.h</QPM:File>
+                        <QPM:File>art_rect_uta.h</QPM:File>
+                        <QPM:File>art_render.h</QPM:File>
+                        <QPM:File>art_render_gradient.h</QPM:File>
+                        <QPM:File>art_render_svp.h</QPM:File>
+                        <QPM:File>art_rgb.h</QPM:File>
+                        <QPM:File>art_rgb_affine.h</QPM:File>
+                        <QPM:File>art_rgb_bitmap_affine.h</QPM:File>
+                        <QPM:File>art_rgb_pixbuf_affine.h</QPM:File>
+                        <QPM:File>art_rgb_rgba_affine.h</QPM:File>
+                        <QPM:File>art_rgb_svp.h</QPM:File>
+                        <QPM:File>art_rgba.h</QPM:File>
+                        <QPM:File>art_svp.h</QPM:File>
+                        <QPM:File>art_svp_ops.h</QPM:File>
+                        <QPM:File>art_svp_point.h</QPM:File>
+                        <QPM:File>art_svp_render_aa.h</QPM:File>
+                        <QPM:File>art_svp_vpath.h</QPM:File>
+                        <QPM:File>art_svp_vpath_stroke.h</QPM:File>
+                        <QPM:File>art_svp_wind.h</QPM:File>
+                        <QPM:File>art_uta.h</QPM:File>
+                        <QPM:File>art_uta_ops.h</QPM:File>
+                        <QPM:File>art_uta_rect.h</QPM:File>
+                        <QPM:File>art_uta_svp.h</QPM:File>
+                        <QPM:File>art_uta_vpath.h</QPM:File>
+                        <QPM:File>art_vpath.h</QPM:File>
+                        <QPM:File>art_vpath_bpath.h</QPM:File>
+                        <QPM:File>art_vpath_dash.h</QPM:File>
+                        <QPM:File>art_vpath_svp.h</QPM:File>
+                        <QPM:File>libart-features.h</QPM:File>
+                        <QPM:File>libart.h</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Dir name="include">
+                     <QPM:Union link="../../opt/include/libart_lgpl">libart_lgpl</QPM:Union>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

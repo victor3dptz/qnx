@@ -1,0 +1,199 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>owince-jtag-0.4-public</QPM:PackageName>
+            <QPM:PackageSize>43458</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/06/23</QPM:PackageReleaseDate>
+            <QPM:PackageRepository>http://qnx.wox.org/packages/6.2/</QPM:PackageRepository>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>OpenWinCE JTAG</QPM:ProductName>
+            <QPM:ProductSize>186667</QPM:ProductSize>
+            <QPM:ProductIdentifier>owince-jtag</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://qnx.wox.org/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Marcel Telka</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.sf.net/projects/openwince/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>JTAG Tool</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>This packages contains jtag, a tool from the OpenWinCE project.  It allows you to re-program flash without a booting board.  Currently works on a large range of ARM/StrongARM/XScale CPU(s) with a variety of parallel port hardware.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.sf.net/projects/openwince/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/owince-jtag/core-0.4</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/06/23</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>0.4</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://owince-jtag-0.4-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>System/Device Specific/Serial and Parallel Port</QPM:ContentTopic>
+            <QPM:ContentKeyword>jtag,flashing</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Use</QPM:ScriptType>
+            </QPM:Script>
+
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Unuse</QPM:ScriptType>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="jtag">
+                        <QPM:File>MANUFACTURERS</QPM:File>
+                        <QPM:Dir name="atmel">
+                           <QPM:File>PARTS</QPM:File>
+                           <QPM:Dir name="atmega128">
+                              <QPM:File>STEPPINGS</QPM:File>
+                              <QPM:File>atmega128</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="broadcom">
+                           <QPM:File>PARTS</QPM:File>
+                           <QPM:Dir name="bcm1250">
+                              <QPM:File>STEPPINGS</QPM:File>
+                              <QPM:File>bcm1250</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="bcm5421s">
+                              <QPM:File>STEPPINGS</QPM:File>
+                              <QPM:File>bcm5421s</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="dec">
+                           <QPM:File>PARTS</QPM:File>
+                           <QPM:Dir name="sa1100">
+                              <QPM:File>STEPPINGS</QPM:File>
+                              <QPM:File>sa1100</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="hitachi">
+                           <QPM:File>PARTS</QPM:File>
+                           <QPM:Dir name="sh7727">
+                              <QPM:File>STEPPINGS</QPM:File>
+                              <QPM:File>sh7727</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="intel">
+                           <QPM:File>PARTS</QPM:File>
+                           <QPM:Dir name="ixp425">
+                              <QPM:File>STEPPINGS</QPM:File>
+                              <QPM:File>ixp425</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="pxa250">
+                              <QPM:File>STEPPINGS</QPM:File>
+                              <QPM:File>pxa250</QPM:File>
+                              <QPM:File>pxa250c0</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="sa1110">
+                              <QPM:File>STEPPINGS</QPM:File>
+                              <QPM:File>sa1110</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="xilinx">
+                           <QPM:File>PARTS</QPM:File>
+                           <QPM:Dir name="xc2c256-tq144">
+                              <QPM:File>STEPPINGS</QPM:File>
+                              <QPM:File>xc2c256-tq144</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="xcr3128xl-cs144">
+                              <QPM:File>STEPPINGS</QPM:File>
+                              <QPM:File>xcr3128xl-cs144</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="xcr3256xl-ft256">
+                              <QPM:File>STEPPINGS</QPM:File>
+                              <QPM:File>xcr3256xl-ft256</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="share">
+                     <QPM:Union link="../../opt/share/jtag">jtag</QPM:Union>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+
+      <QPM:Launch name="JTAG Shell">
+         <QPM:String name="Topic" value="Applications/Development"/>
+         <QPM:String name="Command" value="pterm -q -t 'JTAG Shell' jtag"/>
+         <QPM:String name="Icon" value="/usr/share/icons/topics/serial.gif"/>
+      </QPM:Launch>
+   </RDF:Description>
+</RDF:RDF>

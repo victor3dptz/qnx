@@ -1,0 +1,306 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>circuslinux-1.0.3-bld2-public</QPM:PackageName>
+            <QPM:PackageSize>1199421</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/09/27</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Circus Linux!</QPM:ProductName>
+            <QPM:ProductSize>1729571</QPM:ProductSize>
+            <QPM:ProductIdentifier>circuslinux</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Bill Kendrick</QPM:AuthorName>
+            <QPM:AuthorURL/>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Bounce your clowns to pop all the balloons!</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Circus Linux is a clone of &quot;Circus Atari&quot;.  The object is to move a teeter-totter back and forth bouncing clowns up into the air, popping any balloons they touch.  Pop all the balloons and move to the next level.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.newbreedsoftware.com/circus-linux/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/circuslinux/core-1.0.3-bld2</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/09/27</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>1.0.3</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>2</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://circuslinux-1.0.3-bld2-public.repdata/LicenseUrl/COPYING.txt</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Games and Diversions</QPM:ContentTopic>
+            <QPM:ContentKeyword>circus, sdl, games</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Use</QPM:ScriptType>
+            </QPM:Script>
+
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Unuse</QPM:ScriptType>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="circuslinux">
+                        <QPM:Dir name="data">
+                           <QPM:Dir name="images">
+                              <QPM:Dir name="acts">
+                                 <QPM:File>beachball-0.png</QPM:File>
+                                 <QPM:File>beachball-1.png</QPM:File>
+                                 <QPM:File>beachball-2.png</QPM:File>
+                                 <QPM:File>bear-left-0.png</QPM:File>
+                                 <QPM:File>bear-left-1.png</QPM:File>
+                                 <QPM:File>bear-right-0.png</QPM:File>
+                                 <QPM:File>bear-right-1.png</QPM:File>
+                                 <QPM:File>seal-0.png</QPM:File>
+                                 <QPM:File>seal-1.png</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="backgrounds">
+                                 <QPM:File>background0.png</QPM:File>
+                                 <QPM:File>background1.png</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="balloons">
+                                 <QPM:File>blue-die-0.png</QPM:File>
+                                 <QPM:File>blue-die-1.png</QPM:File>
+                                 <QPM:File>blue-left-0.png</QPM:File>
+                                 <QPM:File>blue-left-1.png</QPM:File>
+                                 <QPM:File>blue-right-0.png</QPM:File>
+                                 <QPM:File>blue-right-1.png</QPM:File>
+                                 <QPM:File>cyan-die-0.png</QPM:File>
+                                 <QPM:File>cyan-die-1.png</QPM:File>
+                                 <QPM:File>cyan-left-0.png</QPM:File>
+                                 <QPM:File>cyan-left-1.png</QPM:File>
+                                 <QPM:File>cyan-right-0.png</QPM:File>
+                                 <QPM:File>cyan-right-1.png</QPM:File>
+                                 <QPM:File>green-die-0.png</QPM:File>
+                                 <QPM:File>green-die-1.png</QPM:File>
+                                 <QPM:File>green-left-0.png</QPM:File>
+                                 <QPM:File>green-left-1.png</QPM:File>
+                                 <QPM:File>green-right-0.png</QPM:File>
+                                 <QPM:File>green-right-1.png</QPM:File>
+                                 <QPM:File>orange-die-0.png</QPM:File>
+                                 <QPM:File>orange-die-1.png</QPM:File>
+                                 <QPM:File>orange-left-0.png</QPM:File>
+                                 <QPM:File>orange-left-1.png</QPM:File>
+                                 <QPM:File>orange-right-0.png</QPM:File>
+                                 <QPM:File>orange-right-1.png</QPM:File>
+                                 <QPM:File>purple-die-0.png</QPM:File>
+                                 <QPM:File>purple-die-1.png</QPM:File>
+                                 <QPM:File>purple-left-0.png</QPM:File>
+                                 <QPM:File>purple-left-1.png</QPM:File>
+                                 <QPM:File>purple-right-0.png</QPM:File>
+                                 <QPM:File>purple-right-1.png</QPM:File>
+                                 <QPM:File>red-die-0.png</QPM:File>
+                                 <QPM:File>red-die-1.png</QPM:File>
+                                 <QPM:File>red-left-0.png</QPM:File>
+                                 <QPM:File>red-left-1.png</QPM:File>
+                                 <QPM:File>red-right-0.png</QPM:File>
+                                 <QPM:File>red-right-1.png</QPM:File>
+                                 <QPM:File>white-die-0.png</QPM:File>
+                                 <QPM:File>white-die-1.png</QPM:File>
+                                 <QPM:File>white-left-0.png</QPM:File>
+                                 <QPM:File>white-left-1.png</QPM:File>
+                                 <QPM:File>white-right-0.png</QPM:File>
+                                 <QPM:File>white-right-1.png</QPM:File>
+                                 <QPM:File>yellow-die-0.png</QPM:File>
+                                 <QPM:File>yellow-die-1.png</QPM:File>
+                                 <QPM:File>yellow-left-0.png</QPM:File>
+                                 <QPM:File>yellow-left-1.png</QPM:File>
+                                 <QPM:File>yellow-right-0.png</QPM:File>
+                                 <QPM:File>yellow-right-1.png</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="bouncers">
+                                 <QPM:File>barrier.png</QPM:File>
+                                 <QPM:File>bouncer-0.png</QPM:File>
+                                 <QPM:File>bouncer-1.png</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>circuslinux-icon.xpm</QPM:File>
+                              <QPM:Dir name="clowns">
+                                 <QPM:File>body-left.png</QPM:File>
+                                 <QPM:File>body-right.png</QPM:File>
+                                 <QPM:File>body-upside-down.png</QPM:File>
+                                 <QPM:File>left-arm-0.png</QPM:File>
+                                 <QPM:File>left-arm-1.png</QPM:File>
+                                 <QPM:File>left-arm-2.png</QPM:File>
+                                 <QPM:File>left-leg-0-upside-down.png</QPM:File>
+                                 <QPM:File>left-leg-0.png</QPM:File>
+                                 <QPM:File>left-leg-1-upside-down.png</QPM:File>
+                                 <QPM:File>left-leg-1.png</QPM:File>
+                                 <QPM:File>right-arm-0.png</QPM:File>
+                                 <QPM:File>right-arm-1.png</QPM:File>
+                                 <QPM:File>right-arm-2.png</QPM:File>
+                                 <QPM:File>right-leg-0-upside-down.png</QPM:File>
+                                 <QPM:File>right-leg-0.png</QPM:File>
+                                 <QPM:File>right-leg-1-upside-down.png</QPM:File>
+                                 <QPM:File>right-leg-1.png</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="highscore">
+                                 <QPM:File>left.png</QPM:File>
+                                 <QPM:File>top.png</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>icon.png</QPM:File>
+                              <QPM:Dir name="status">
+                                 <QPM:File>clown-head-oh.png</QPM:File>
+                                 <QPM:File>clown-head.png</QPM:File>
+                                 <QPM:File>enter-initials.png</QPM:File>
+                                 <QPM:File>fuzz.png</QPM:File>
+                                 <QPM:File>letters.png</QPM:File>
+                                 <QPM:File>numbers-0.png</QPM:File>
+                                 <QPM:File>numbers-1.png</QPM:File>
+                                 <QPM:File>sadclown-0.png</QPM:File>
+                                 <QPM:File>sadclown-1.png</QPM:File>
+                                 <QPM:File>sadclown-2.png</QPM:File>
+                                 <QPM:File>times.png</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="teeter-totter">
+                                 <QPM:File>left-0.png</QPM:File>
+                                 <QPM:File>left-1.png</QPM:File>
+                                 <QPM:File>left-2.png</QPM:File>
+                                 <QPM:File>left-3.png</QPM:File>
+                                 <QPM:File>right-0.png</QPM:File>
+                                 <QPM:File>right-1.png</QPM:File>
+                                 <QPM:File>right-2.png</QPM:File>
+                                 <QPM:File>right-3.png</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="title">
+                                 <QPM:File>graphics.png</QPM:File>
+                                 <QPM:File>light-off.png</QPM:File>
+                                 <QPM:File>light-on.png</QPM:File>
+                                 <QPM:File>music.png</QPM:File>
+                                 <QPM:File>programming.png</QPM:File>
+                                 <QPM:File>title-highlights.png</QPM:File>
+                                 <QPM:File>title.png</QPM:File>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="music">
+                              <QPM:File>finally.mod</QPM:File>
+                              <QPM:File>hiscore.mod</QPM:File>
+                              <QPM:File>hiscreen.mod</QPM:File>
+                              <QPM:File>kaupunki.mod</QPM:File>
+                              <QPM:File>klovninarki.mod</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="sounds">
+                              <QPM:File>applause.wav</QPM:File>
+                              <QPM:File>bounce.wav</QPM:File>
+                              <QPM:File>cheering.wav</QPM:File>
+                              <QPM:File>keypress.wav</QPM:File>
+                              <QPM:File>pop.wav</QPM:File>
+                              <QPM:File>splat.wav</QPM:File>
+                              <QPM:File>teeter1.wav</QPM:File>
+                              <QPM:File>teeter2.wav</QPM:File>
+                              <QPM:File>wahoo.wav</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="doc">
+                        <QPM:Dir name="circuslinux-1.0.3">
+                           <QPM:File>AUTHORS.txt</QPM:File>
+                           <QPM:File>CHANGES.txt</QPM:File>
+                           <QPM:File>COPYING.txt</QPM:File>
+                           <QPM:File>FAQ.txt</QPM:File>
+                           <QPM:File>INSTALL.txt</QPM:File>
+                           <QPM:File>README-SDL.txt</QPM:File>
+                           <QPM:File>README.txt</QPM:File>
+                           <QPM:File>TODO.txt</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="circuslinux">
+                        <QPM:Dir name="data">
+                           <QPM:Union link="../../../../opt/share/circuslinux/data/sounds">sounds</QPM:Union>
+                           <QPM:Union link="../../../../opt/share/circuslinux/data/music">music</QPM:Union>
+                           <QPM:Union link="../../../../opt/share/circuslinux/data/images">images</QPM:Union>
+                        </QPM:Dir>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="doc">
+                        <QPM:Union link="../../../opt/share/doc/circuslinux-1.0.3">circuslinux-1.0.3</QPM:Union>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+
+      <QPM:Launch name="Circus Linux!">
+         <QPM:String name="Topic" value="Applications/Games"/>
+         <QPM:String name="Command" value="/opt/bin/circuslinux"/>
+      </QPM:Launch>
+   </RDF:Description>
+</RDF:RDF>

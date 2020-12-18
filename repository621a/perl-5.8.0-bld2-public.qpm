@@ -1,0 +1,2180 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>perl-5.8.0-bld2-public</QPM:PackageName>
+            <QPM:PackageSize>6605355</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/01/09</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Perl</QPM:ProductName>
+            <QPM:ProductSize>20139542</QPM:ProductSize>
+            <QPM:ProductIdentifier>perl</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Larry Wall</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.perl.com/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Perl is a scripting language.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Perl is a scripting language.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.perl.com/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/perl/core-5.8.0-bld2</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/01/09</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>5.8.0</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>2</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://perl-5.8.0-bld2-public.repdata/LicenseUrl/README</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Software Development/Programming Languages and Parsers/Script and Shell Interpreters</QPM:ContentTopic>
+            <QPM:ContentKeyword>perl,awk,sed</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/lib">lib</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="bin">
+                     <QPM:File>c2ph</QPM:File>
+                     <QPM:File>dprofpp</QPM:File>
+                     <QPM:File>enc2xs</QPM:File>
+                     <QPM:File>find2perl</QPM:File>
+                     <QPM:File>h2ph</QPM:File>
+                     <QPM:File>h2xs</QPM:File>
+                     <QPM:File>libnetcfg</QPM:File>
+                     <QPM:File>perlbug</QPM:File>
+                     <QPM:File>perlcc</QPM:File>
+                     <QPM:File>perldoc</QPM:File>
+                     <QPM:File>perlivp</QPM:File>
+                     <QPM:File>piconv</QPM:File>
+                     <QPM:File>pl2pm</QPM:File>
+                     <QPM:File>pod2html</QPM:File>
+                     <QPM:File>pod2latex</QPM:File>
+                     <QPM:File>pod2man</QPM:File>
+                     <QPM:File>pod2text</QPM:File>
+                     <QPM:File>pod2usage</QPM:File>
+                     <QPM:File>podchecker</QPM:File>
+                     <QPM:File>podselect</QPM:File>
+                     <QPM:File>psed</QPM:File>
+                     <QPM:File>pstruct</QPM:File>
+                     <QPM:File>s2p</QPM:File>
+                     <QPM:File>splain</QPM:File>
+                     <QPM:File>xsubpp</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="lib">
+                     <QPM:Dir name="perl5">
+                        <QPM:Dir name="5.8.0">
+                           <QPM:File>AnyDBM_File.pm</QPM:File>
+                           <QPM:Dir name="Attribute">
+                              <QPM:Dir name="Handlers">
+                                 <QPM:File>Changes</QPM:File>
+                                 <QPM:File>README</QPM:File>
+                                 <QPM:Dir name="demo">
+                                    <QPM:File>Demo.pm</QPM:File>
+                                    <QPM:File>Descriptions.pm</QPM:File>
+                                    <QPM:File>MyClass.pm</QPM:File>
+                                    <QPM:File>demo.pl</QPM:File>
+                                    <QPM:File>demo2.pl</QPM:File>
+                                    <QPM:File>demo3.pl</QPM:File>
+                                    <QPM:File>demo4.pl</QPM:File>
+                                    <QPM:File>demo_call.pl</QPM:File>
+                                    <QPM:File>demo_chain.pl</QPM:File>
+                                    <QPM:File>demo_cycle.pl</QPM:File>
+                                    <QPM:File>demo_hashdir.pl</QPM:File>
+                                    <QPM:File>demo_phases.pl</QPM:File>
+                                    <QPM:File>demo_range.pl</QPM:File>
+                                    <QPM:File>demo_rawdata.pl</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:File>Handlers.pm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>AutoLoader.pm</QPM:File>
+                           <QPM:File>AutoSplit.pm</QPM:File>
+                           <QPM:Dir name="B">
+                              <QPM:File>assemble</QPM:File>
+                              <QPM:File>cc_harness</QPM:File>
+                              <QPM:File>disassemble</QPM:File>
+                              <QPM:File>makeliblinks</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>Benchmark.pm</QPM:File>
+                           <QPM:Dir name="CGI">
+                              <QPM:File>Apache.pm</QPM:File>
+                              <QPM:File>Carp.pm</QPM:File>
+                              <QPM:File>Cookie.pm</QPM:File>
+                              <QPM:File>Fast.pm</QPM:File>
+                              <QPM:File>Pretty.pm</QPM:File>
+                              <QPM:File>Push.pm</QPM:File>
+                              <QPM:File>Switch.pm</QPM:File>
+                              <QPM:File>Util.pm</QPM:File>
+                              <QPM:Dir name="eg">
+                                 <QPM:File>RunMeFirst</QPM:File>
+                                 <QPM:File>caution.xbm</QPM:File>
+                                 <QPM:File>clickable_image.cgi</QPM:File>
+                                 <QPM:File>cookie.cgi</QPM:File>
+                                 <QPM:File>crash.cgi</QPM:File>
+                                 <QPM:File>customize.cgi</QPM:File>
+                                 <QPM:File>diff_upload.cgi</QPM:File>
+                                 <QPM:File>dna_small_gif.uu</QPM:File>
+                                 <QPM:File>file_upload.cgi</QPM:File>
+                                 <QPM:File>frameset.cgi</QPM:File>
+                                 <QPM:File>index.html</QPM:File>
+                                 <QPM:File>internal_links.cgi</QPM:File>
+                                 <QPM:File>javascript.cgi</QPM:File>
+                                 <QPM:File>make_links.pl</QPM:File>
+                                 <QPM:File>monty.cgi</QPM:File>
+                                 <QPM:File>multiple_forms.cgi</QPM:File>
+                                 <QPM:File>nph-clock.cgi</QPM:File>
+                                 <QPM:File>nph-multipart.cgi</QPM:File>
+                                 <QPM:File>popup.cgi</QPM:File>
+                                 <QPM:File>save_state.cgi</QPM:File>
+                                 <QPM:File>tryit.cgi</QPM:File>
+                                 <QPM:File>wilogo_gif.uu</QPM:File>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:File>CGI.pm</QPM:File>
+                           <QPM:Dir name="CPAN">
+                              <QPM:File>FirstTime.pm</QPM:File>
+                              <QPM:File>Nox.pm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>CPAN.pm</QPM:File>
+                           <QPM:Dir name="Carp">
+                              <QPM:File>Heavy.pm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>Carp.pm</QPM:File>
+                           <QPM:Dir name="Class">
+                              <QPM:Dir name="ISA">
+                                 <QPM:File>test.pl</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>ISA.pm</QPM:File>
+                              <QPM:File>Struct.pm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>DB.pm</QPM:File>
+                           <QPM:Dir name="Devel">
+                              <QPM:File>SelfStubber.pm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>Digest.pm</QPM:File>
+                           <QPM:File>DirHandle.pm</QPM:File>
+                           <QPM:File>Dumpvalue.pm</QPM:File>
+                           <QPM:Dir name="Encode">
+                              <QPM:Dir name="CN">
+                                 <QPM:File>HZ.pm</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>Changes.e2x</QPM:File>
+                              <QPM:File>ConfigLocal_PM.e2x</QPM:File>
+                              <QPM:Dir name="JP">
+                                 <QPM:File>H2Z.pm</QPM:File>
+                                 <QPM:File>JIS7.pm</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="KR">
+                                 <QPM:File>2022_KR.pm</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="MIME">
+                                 <QPM:File>Header.pm</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>Makefile_PL.e2x</QPM:File>
+                              <QPM:File>PerlIO.pod</QPM:File>
+                              <QPM:File>README.e2x</QPM:File>
+                              <QPM:File>Supported.pod</QPM:File>
+                              <QPM:File>_PM.e2x</QPM:File>
+                              <QPM:File>_T.e2x</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>English.pm</QPM:File>
+                           <QPM:File>Env.pm</QPM:File>
+                           <QPM:Dir name="Exporter">
+                              <QPM:File>Heavy.pm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>Exporter.pm</QPM:File>
+                           <QPM:Dir name="ExtUtils">
+                              <QPM:File>Changes</QPM:File>
+                              <QPM:Dir name="Command">
+                                 <QPM:File>MM.pm</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>Command.pm</QPM:File>
+                              <QPM:File>Constant.pm</QPM:File>
+                              <QPM:File>Embed.pm</QPM:File>
+                              <QPM:File>Install.pm</QPM:File>
+                              <QPM:File>Installed.pm</QPM:File>
+                              <QPM:Dir name="Liblist">
+                                 <QPM:File>Kid.pm</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>Liblist.pm</QPM:File>
+                              <QPM:File>MANIFEST.SKIP</QPM:File>
+                              <QPM:File>MM.pm</QPM:File>
+                              <QPM:File>MM_Any.pm</QPM:File>
+                              <QPM:File>MM_BeOS.pm</QPM:File>
+                              <QPM:File>MM_Cygwin.pm</QPM:File>
+                              <QPM:File>MM_DOS.pm</QPM:File>
+                              <QPM:File>MM_MacOS.pm</QPM:File>
+                              <QPM:File>MM_NW5.pm</QPM:File>
+                              <QPM:File>MM_OS2.pm</QPM:File>
+                              <QPM:File>MM_UWIN.pm</QPM:File>
+                              <QPM:File>MM_Unix.pm</QPM:File>
+                              <QPM:File>MM_VMS.pm</QPM:File>
+                              <QPM:File>MM_Win32.pm</QPM:File>
+                              <QPM:File>MM_Win95.pm</QPM:File>
+                              <QPM:File>MY.pm</QPM:File>
+                              <QPM:File>MakeMaker.pm</QPM:File>
+                              <QPM:File>Manifest.pm</QPM:File>
+                              <QPM:File>Miniperl.pm</QPM:File>
+                              <QPM:File>Mkbootstrap.pm</QPM:File>
+                              <QPM:File>Mksymlists.pm</QPM:File>
+                              <QPM:File>Packlist.pm</QPM:File>
+                              <QPM:File>instmodsh</QPM:File>
+                              <QPM:File>testlib.pm</QPM:File>
+                              <QPM:File>typemap</QPM:File>
+                              <QPM:File>xsubpp</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>Fatal.pm</QPM:File>
+                           <QPM:Dir name="File">
+                              <QPM:File>Basename.pm</QPM:File>
+                              <QPM:File>CheckTree.pm</QPM:File>
+                              <QPM:File>Compare.pm</QPM:File>
+                              <QPM:File>Copy.pm</QPM:File>
+                              <QPM:File>DosGlob.pm</QPM:File>
+                              <QPM:File>Find.pm</QPM:File>
+                              <QPM:File>Path.pm</QPM:File>
+                              <QPM:Dir name="Spec">
+                                 <QPM:File>Cygwin.pm</QPM:File>
+                                 <QPM:File>Epoc.pm</QPM:File>
+                                 <QPM:File>Functions.pm</QPM:File>
+                                 <QPM:File>Mac.pm</QPM:File>
+                                 <QPM:File>OS2.pm</QPM:File>
+                                 <QPM:File>Unix.pm</QPM:File>
+                                 <QPM:File>VMS.pm</QPM:File>
+                                 <QPM:File>Win32.pm</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>Spec.pm</QPM:File>
+                              <QPM:File>Temp.pm</QPM:File>
+                              <QPM:File>stat.pm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>FileCache.pm</QPM:File>
+                           <QPM:File>FileHandle.pm</QPM:File>
+                           <QPM:Dir name="Filter">
+                              <QPM:Dir name="Simple">
+                                 <QPM:File>Changes</QPM:File>
+                                 <QPM:File>README</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>Simple.pm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>FindBin.pm</QPM:File>
+                           <QPM:Dir name="Getopt">
+                              <QPM:Dir name="Long">
+                                 <QPM:File>CHANGES</QPM:File>
+                                 <QPM:File>README</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>Long.pm</QPM:File>
+                              <QPM:File>Std.pm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="Hash">
+                              <QPM:File>Util.pm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="I18N">
+                              <QPM:File>Collate.pm</QPM:File>
+                              <QPM:Dir name="LangTags">
+                                 <QPM:File>ChangeLog</QPM:File>
+                                 <QPM:File>List.pm</QPM:File>
+                                 <QPM:File>README</QPM:File>
+                                 <QPM:File>test.pl</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>LangTags.pm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="IO">
+                              <QPM:Dir name="Socket">
+                                 <QPM:File>INET.pm</QPM:File>
+                                 <QPM:File>UNIX.pm</QPM:File>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="IPC">
+                              <QPM:File>Open2.pm</QPM:File>
+                              <QPM:File>Open3.pm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="List">
+                              <QPM:File>Util.pm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="Locale">
+                              <QPM:Dir name="Codes">
+                                 <QPM:File>ChangeLog</QPM:File>
+                                 <QPM:File>README</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>Constants.pm</QPM:File>
+                              <QPM:File>Constants.pod</QPM:File>
+                              <QPM:File>Country.pm</QPM:File>
+                              <QPM:File>Country.pod</QPM:File>
+                              <QPM:File>Currency.pm</QPM:File>
+                              <QPM:File>Currency.pod</QPM:File>
+                              <QPM:File>Language.pm</QPM:File>
+                              <QPM:File>Language.pod</QPM:File>
+                              <QPM:Dir name="Maketext">
+                                 <QPM:File>ChangeLog</QPM:File>
+                                 <QPM:File>README</QPM:File>
+                                 <QPM:File>TPJ13.pod</QPM:File>
+                                 <QPM:File>test.pl</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>Maketext.pm</QPM:File>
+                              <QPM:File>Maketext.pod</QPM:File>
+                              <QPM:File>Script.pm</QPM:File>
+                              <QPM:File>Script.pod</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="Math">
+                              <QPM:Dir name="BigFloat">
+                                 <QPM:File>Trace.pm</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>BigFloat.pm</QPM:File>
+                              <QPM:Dir name="BigInt">
+                                 <QPM:File>Calc.pm</QPM:File>
+                                 <QPM:File>Trace.pm</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>BigInt.pm</QPM:File>
+                              <QPM:File>BigRat.pm</QPM:File>
+                              <QPM:File>Complex.pm</QPM:File>
+                              <QPM:File>Trig.pm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="Memoize">
+                              <QPM:File>AnyDBM_File.pm</QPM:File>
+                              <QPM:File>Expire.pm</QPM:File>
+                              <QPM:File>ExpireFile.pm</QPM:File>
+                              <QPM:File>ExpireTest.pm</QPM:File>
+                              <QPM:File>NDBM_File.pm</QPM:File>
+                              <QPM:File>README</QPM:File>
+                              <QPM:File>SDBM_File.pm</QPM:File>
+                              <QPM:File>Storable.pm</QPM:File>
+                              <QPM:File>TODO</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>Memoize.pm</QPM:File>
+                           <QPM:Dir name="NEXT">
+                              <QPM:File>Changes</QPM:File>
+                              <QPM:File>README</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>NEXT.pm</QPM:File>
+                           <QPM:Dir name="Net">
+                              <QPM:File>ChangeLog.libnet</QPM:File>
+                              <QPM:File>Cmd.pm</QPM:File>
+                              <QPM:File>Config.eg</QPM:File>
+                              <QPM:File>Config.pm</QPM:File>
+                              <QPM:File>Domain.pm</QPM:File>
+                              <QPM:Dir name="FTP">
+                                 <QPM:File>A.pm</QPM:File>
+                                 <QPM:File>E.pm</QPM:File>
+                                 <QPM:File>I.pm</QPM:File>
+                                 <QPM:File>L.pm</QPM:File>
+                                 <QPM:File>dataconn.pm</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>FTP.pm</QPM:File>
+                              <QPM:File>Hostname.eg</QPM:File>
+                              <QPM:File>NNTP.pm</QPM:File>
+                              <QPM:File>Netrc.pm</QPM:File>
+                              <QPM:File>POP3.pm</QPM:File>
+                              <QPM:Dir name="Ping">
+                                 <QPM:File>Changes</QPM:File>
+                                 <QPM:File>README</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>Ping.pm</QPM:File>
+                              <QPM:File>README.libnet</QPM:File>
+                              <QPM:File>SMTP.pm</QPM:File>
+                              <QPM:File>Time.pm</QPM:File>
+                              <QPM:Dir name="demos">
+                                 <QPM:File>ftp</QPM:File>
+                                 <QPM:File>inetd</QPM:File>
+                                 <QPM:File>nntp</QPM:File>
+                                 <QPM:File>nntp.mirror</QPM:File>
+                                 <QPM:File>pop3</QPM:File>
+                                 <QPM:File>smtp.self</QPM:File>
+                                 <QPM:File>time</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>hostent.pm</QPM:File>
+                              <QPM:File>libnetFAQ.pod</QPM:File>
+                              <QPM:File>netent.pm</QPM:File>
+                              <QPM:File>protoent.pm</QPM:File>
+                              <QPM:File>servent.pm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="PerlIO">
+                              <QPM:Dir name="via">
+                                 <QPM:File>QuotedPrint.pm</QPM:File>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:File>PerlIO.pm</QPM:File>
+                           <QPM:Dir name="pod">
+                              <QPM:File>Checker.pm</QPM:File>
+                              <QPM:File>Find.pm</QPM:File>
+                              <QPM:File>Functions.pm</QPM:File>
+                              <QPM:File>Html.pm</QPM:File>
+                              <QPM:File>InputObjects.pm</QPM:File>
+                              <QPM:File>LaTeX.pm</QPM:File>
+                              <QPM:File>Man.pm</QPM:File>
+                              <QPM:File>ParseLink.pm</QPM:File>
+                              <QPM:File>ParseUtils.pm</QPM:File>
+                              <QPM:File>Parser.pm</QPM:File>
+                              <QPM:File>Plainer.pm</QPM:File>
+                              <QPM:File>Select.pm</QPM:File>
+                              <QPM:Dir name="Text">
+                                 <QPM:File>Color.pm</QPM:File>
+                                 <QPM:File>Overstrike.pm</QPM:File>
+                                 <QPM:File>Termcap.pm</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>Text.pm</QPM:File>
+                              <QPM:File>Usage.pm</QPM:File>
+                              <QPM:File>perl.pod</QPM:File>
+                              <QPM:File>perl5004delta.pod</QPM:File>
+                              <QPM:File>perl5005delta.pod</QPM:File>
+                              <QPM:File>perl561delta.pod</QPM:File>
+                              <QPM:File>perl56delta.pod</QPM:File>
+                              <QPM:File>perl570delta.pod</QPM:File>
+                              <QPM:File>perl571delta.pod</QPM:File>
+                              <QPM:File>perl572delta.pod</QPM:File>
+                              <QPM:File>perlaix.pod</QPM:File>
+                              <QPM:File>perlamiga.pod</QPM:File>
+                              <QPM:File>perlapi.pod</QPM:File>
+                              <QPM:File>perlapio.pod</QPM:File>
+                              <QPM:File>perlapollo.pod</QPM:File>
+                              <QPM:File>perlbeos.pod</QPM:File>
+                              <QPM:File>perlbook.pod</QPM:File>
+                              <QPM:File>perlboot.pod</QPM:File>
+                              <QPM:File>perlbot.pod</QPM:File>
+                              <QPM:File>perlbs2000.pod</QPM:File>
+                              <QPM:File>perlcall.pod</QPM:File>
+                              <QPM:File>perlce.pod</QPM:File>
+                              <QPM:File>perlclib.pod</QPM:File>
+                              <QPM:File>perlcn.pod</QPM:File>
+                              <QPM:File>perlcompile.pod</QPM:File>
+                              <QPM:File>perlcygwin.pod</QPM:File>
+                              <QPM:File>perldata.pod</QPM:File>
+                              <QPM:File>perldbmfilter.pod</QPM:File>
+                              <QPM:File>perldebguts.pod</QPM:File>
+                              <QPM:File>perldebtut.pod</QPM:File>
+                              <QPM:File>perldebug.pod</QPM:File>
+                              <QPM:File>perldelta.pod</QPM:File>
+                              <QPM:File>perldgux.pod</QPM:File>
+                              <QPM:File>perldiag.pod</QPM:File>
+                              <QPM:File>perldos.pod</QPM:File>
+                              <QPM:File>perldsc.pod</QPM:File>
+                              <QPM:File>perlebcdic.pod</QPM:File>
+                              <QPM:File>perlembed.pod</QPM:File>
+                              <QPM:File>perlepoc.pod</QPM:File>
+                              <QPM:File>perlfaq.pod</QPM:File>
+                              <QPM:File>perlfaq1.pod</QPM:File>
+                              <QPM:File>perlfaq2.pod</QPM:File>
+                              <QPM:File>perlfaq3.pod</QPM:File>
+                              <QPM:File>perlfaq4.pod</QPM:File>
+                              <QPM:File>perlfaq5.pod</QPM:File>
+                              <QPM:File>perlfaq6.pod</QPM:File>
+                              <QPM:File>perlfaq7.pod</QPM:File>
+                              <QPM:File>perlfaq8.pod</QPM:File>
+                              <QPM:File>perlfaq9.pod</QPM:File>
+                              <QPM:File>perlfilter.pod</QPM:File>
+                              <QPM:File>perlfork.pod</QPM:File>
+                              <QPM:File>perlform.pod</QPM:File>
+                              <QPM:File>perlfreebsd.pod</QPM:File>
+                              <QPM:File>perlfunc.pod</QPM:File>
+                              <QPM:File>perlguts.pod</QPM:File>
+                              <QPM:File>perlhack.pod</QPM:File>
+                              <QPM:File>perlhist.pod</QPM:File>
+                              <QPM:File>perlhpux.pod</QPM:File>
+                              <QPM:File>perlhurd.pod</QPM:File>
+                              <QPM:File>perlintern.pod</QPM:File>
+                              <QPM:File>perlintro.pod</QPM:File>
+                              <QPM:File>perliol.pod</QPM:File>
+                              <QPM:File>perlipc.pod</QPM:File>
+                              <QPM:File>perlirix.pod</QPM:File>
+                              <QPM:File>perljp.pod</QPM:File>
+                              <QPM:File>perlko.pod</QPM:File>
+                              <QPM:File>perllexwarn.pod</QPM:File>
+                              <QPM:File>perllocale.pod</QPM:File>
+                              <QPM:File>perllol.pod</QPM:File>
+                              <QPM:File>perlmachten.pod</QPM:File>
+                              <QPM:File>perlmacos.pod</QPM:File>
+                              <QPM:File>perlmint.pod</QPM:File>
+                              <QPM:File>perlmod.pod</QPM:File>
+                              <QPM:File>perlmodinstall.pod</QPM:File>
+                              <QPM:File>perlmodlib.pod</QPM:File>
+                              <QPM:File>perlmodstyle.pod</QPM:File>
+                              <QPM:File>perlmpeix.pod</QPM:File>
+                              <QPM:File>perlnetware.pod</QPM:File>
+                              <QPM:File>perlnewmod.pod</QPM:File>
+                              <QPM:File>perlnumber.pod</QPM:File>
+                              <QPM:File>perlobj.pod</QPM:File>
+                              <QPM:File>perlop.pod</QPM:File>
+                              <QPM:File>perlopentut.pod</QPM:File>
+                              <QPM:File>perlos2.pod</QPM:File>
+                              <QPM:File>perlos390.pod</QPM:File>
+                              <QPM:File>perlothrtut.pod</QPM:File>
+                              <QPM:File>perlpacktut.pod</QPM:File>
+                              <QPM:File>perlplan9.pod</QPM:File>
+                              <QPM:File>perlpod.pod</QPM:File>
+                              <QPM:File>perlpodspec.pod</QPM:File>
+                              <QPM:File>perlport.pod</QPM:File>
+                              <QPM:File>perlqnx.pod</QPM:File>
+                              <QPM:File>perlre.pod</QPM:File>
+                              <QPM:File>perlref.pod</QPM:File>
+                              <QPM:File>perlreftut.pod</QPM:File>
+                              <QPM:File>perlrequick.pod</QPM:File>
+                              <QPM:File>perlretut.pod</QPM:File>
+                              <QPM:File>perlrun.pod</QPM:File>
+                              <QPM:File>perlsec.pod</QPM:File>
+                              <QPM:File>perlsolaris.pod</QPM:File>
+                              <QPM:File>perlstyle.pod</QPM:File>
+                              <QPM:File>perlsub.pod</QPM:File>
+                              <QPM:File>perlsyn.pod</QPM:File>
+                              <QPM:File>perlthrtut.pod</QPM:File>
+                              <QPM:File>perltie.pod</QPM:File>
+                              <QPM:File>perltoc.pod</QPM:File>
+                              <QPM:File>perltodo.pod</QPM:File>
+                              <QPM:File>perltooc.pod</QPM:File>
+                              <QPM:File>perltoot.pod</QPM:File>
+                              <QPM:File>perltrap.pod</QPM:File>
+                              <QPM:File>perltru64.pod</QPM:File>
+                              <QPM:File>perltw.pod</QPM:File>
+                              <QPM:File>perlunicode.pod</QPM:File>
+                              <QPM:File>perluniintro.pod</QPM:File>
+                              <QPM:File>perlutil.pod</QPM:File>
+                              <QPM:File>perluts.pod</QPM:File>
+                              <QPM:File>perlvar.pod</QPM:File>
+                              <QPM:File>perlvmesa.pod</QPM:File>
+                              <QPM:File>perlvms.pod</QPM:File>
+                              <QPM:File>perlvos.pod</QPM:File>
+                              <QPM:File>perlwin32.pod</QPM:File>
+                              <QPM:File>perlxs.pod</QPM:File>
+                              <QPM:File>perlxstut.pod</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="Scalar">
+                              <QPM:File>Util.pm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="Search">
+                              <QPM:File>Dict.pm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>SelectSaver.pm</QPM:File>
+                           <QPM:File>SelfLoader.pm</QPM:File>
+                           <QPM:File>Shell.pm</QPM:File>
+                           <QPM:Dir name="Switch">
+                              <QPM:File>Changes</QPM:File>
+                              <QPM:File>README</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>Switch.pm</QPM:File>
+                           <QPM:File>Symbol.pm</QPM:File>
+                           <QPM:Dir name="Term">
+                              <QPM:Dir name="ANSIColor">
+                                 <QPM:File>ChangeLog</QPM:File>
+                                 <QPM:File>README</QPM:File>
+                                 <QPM:File>test.pl</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>ANSIColor.pm</QPM:File>
+                              <QPM:File>Cap.pm</QPM:File>
+                              <QPM:File>Complete.pm</QPM:File>
+                              <QPM:File>ReadLine.pm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="Test">
+                              <QPM:File>Builder.pm</QPM:File>
+                              <QPM:Dir name="Harness">
+                                 <QPM:File>Assert.pm</QPM:File>
+                                 <QPM:File>Changes</QPM:File>
+                                 <QPM:File>Iterator.pm</QPM:File>
+                                 <QPM:File>Straps.pm</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>Harness.pm</QPM:File>
+                              <QPM:File>More.pm</QPM:File>
+                              <QPM:Dir name="Simple">
+                                 <QPM:File>Changes</QPM:File>
+                                 <QPM:File>README</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>Simple.pm</QPM:File>
+                              <QPM:File>Tutorial.pod</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>Test.pm</QPM:File>
+                           <QPM:Dir name="Text">
+                              <QPM:File>Abbrev.pm</QPM:File>
+                              <QPM:Dir name="Balanced">
+                                 <QPM:File>Changes</QPM:File>
+                                 <QPM:File>README</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>Balanced.pm</QPM:File>
+                              <QPM:File>ParseWords.pm</QPM:File>
+                              <QPM:File>Soundex.pm</QPM:File>
+                              <QPM:File>Tabs.pm</QPM:File>
+                              <QPM:Dir name="TabsWrap">
+                                 <QPM:File>CHANGELOG</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>Wrap.pm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="Thread">
+                              <QPM:File>Queue.pm</QPM:File>
+                              <QPM:File>Semaphore.pm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>Thread.pm</QPM:File>
+                           <QPM:Dir name="Tie">
+                              <QPM:File>Array.pm</QPM:File>
+                              <QPM:File>File.pm</QPM:File>
+                              <QPM:File>Handle.pm</QPM:File>
+                              <QPM:File>Hash.pm</QPM:File>
+                              <QPM:File>Memoize.pm</QPM:File>
+                              <QPM:File>RefHash.pm</QPM:File>
+                              <QPM:File>Scalar.pm</QPM:File>
+                              <QPM:File>SubstrHash.pm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="Time">
+                              <QPM:File>Local.pm</QPM:File>
+                              <QPM:File>gmtime.pm</QPM:File>
+                              <QPM:File>localtime.pm</QPM:File>
+                              <QPM:File>tm.pm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>UNIVERSAL.pm</QPM:File>
+                           <QPM:Dir name="Unicode">
+                              <QPM:Dir name="Collate">
+                                 <QPM:File>Changes</QPM:File>
+                                 <QPM:File>README</QPM:File>
+                                 <QPM:File>keys.txt</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>Collate.pm</QPM:File>
+                              <QPM:File>README</QPM:File>
+                              <QPM:File>UCD.pm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="User">
+                              <QPM:File>grent.pm</QPM:File>
+                              <QPM:File>pwent.pm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>Win32.pod</QPM:File>
+                           <QPM:File>abbrev.pl</QPM:File>
+                           <QPM:File>assert.pl</QPM:File>
+                           <QPM:File>attributes.pm</QPM:File>
+                           <QPM:File>autouse.pm</QPM:File>
+                           <QPM:File>base.pm</QPM:File>
+                           <QPM:File>bigfloat.pl</QPM:File>
+                           <QPM:File>bigint.pl</QPM:File>
+                           <QPM:File>bigint.pm</QPM:File>
+                           <QPM:File>bignum.pm</QPM:File>
+                           <QPM:File>bigrat.pl</QPM:File>
+                           <QPM:File>bigrat.pm</QPM:File>
+                           <QPM:File>blib.pm</QPM:File>
+                           <QPM:File>bytes.pm</QPM:File>
+                           <QPM:File>bytes_heavy.pl</QPM:File>
+                           <QPM:File>cacheout.pl</QPM:File>
+                           <QPM:File>charnames.pm</QPM:File>
+                           <QPM:File>complete.pl</QPM:File>
+                           <QPM:File>constant.pm</QPM:File>
+                           <QPM:File>ctime.pl</QPM:File>
+                           <QPM:File>diagnostics.pm</QPM:File>
+                           <QPM:File>dotsh.pl</QPM:File>
+                           <QPM:File>dumpvar.pl</QPM:File>
+                           <QPM:File>exceptions.pl</QPM:File>
+                           <QPM:File>fastcwd.pl</QPM:File>
+                           <QPM:File>fields.pm</QPM:File>
+                           <QPM:File>filetest.pm</QPM:File>
+                           <QPM:File>find.pl</QPM:File>
+                           <QPM:File>finddepth.pl</QPM:File>
+                           <QPM:File>flush.pl</QPM:File>
+                           <QPM:File>ftp.pl</QPM:File>
+                           <QPM:File>getcwd.pl</QPM:File>
+                           <QPM:File>getopt.pl</QPM:File>
+                           <QPM:File>getopts.pl</QPM:File>
+                           <QPM:File>hostname.pl</QPM:File>
+                           <QPM:File>if.pm</QPM:File>
+                           <QPM:File>importenv.pl</QPM:File>
+                           <QPM:File>integer.pm</QPM:File>
+                           <QPM:File>less.pm</QPM:File>
+                           <QPM:File>locale.pm</QPM:File>
+                           <QPM:File>look.pl</QPM:File>
+                           <QPM:File>newgetopt.pl</QPM:File>
+                           <QPM:File>open.pm</QPM:File>
+                           <QPM:File>open2.pl</QPM:File>
+                           <QPM:File>open3.pl</QPM:File>
+                           <QPM:File>overload.pm</QPM:File>
+                           <QPM:File>perl5db.pl</QPM:File>
+                           <QPM:File>pwd.pl</QPM:File>
+                           <QPM:File>shellwords.pl</QPM:File>
+                           <QPM:File>sigtrap.pm</QPM:File>
+                           <QPM:File>sort.pm</QPM:File>
+                           <QPM:File>stat.pl</QPM:File>
+                           <QPM:File>strict.pm</QPM:File>
+                           <QPM:File>subs.pm</QPM:File>
+                           <QPM:File>syslog.pl</QPM:File>
+                           <QPM:File>tainted.pl</QPM:File>
+                           <QPM:File>termcap.pl</QPM:File>
+                           <QPM:File>timelocal.pl</QPM:File>
+                           <QPM:Dir name="unicore">
+                              <QPM:File>ArabLink.pl</QPM:File>
+                              <QPM:File>ArabLnkGrp.pl</QPM:File>
+                              <QPM:File>ArabicShaping.txt</QPM:File>
+                              <QPM:File>BidiMirroring.txt</QPM:File>
+                              <QPM:File>Bidirectional.pl</QPM:File>
+                              <QPM:File>Blocks.pl</QPM:File>
+                              <QPM:File>Blocks.txt</QPM:File>
+                              <QPM:File>Canonical.pl</QPM:File>
+                              <QPM:File>CaseFolding.txt</QPM:File>
+                              <QPM:File>Category.pl</QPM:File>
+                              <QPM:File>CombiningClass.pl</QPM:File>
+                              <QPM:File>CompositionExclusions.txt</QPM:File>
+                              <QPM:File>Decomposition.pl</QPM:File>
+                              <QPM:File>EastAsianWidth.txt</QPM:File>
+                              <QPM:File>Exact.pl</QPM:File>
+                              <QPM:File>Index.txt</QPM:File>
+                              <QPM:File>Jamo.txt</QPM:File>
+                              <QPM:File>JamoShort.pl</QPM:File>
+                              <QPM:File>Lbrk.pl</QPM:File>
+                              <QPM:File>LineBreak.txt</QPM:File>
+                              <QPM:File>Makefile</QPM:File>
+                              <QPM:File>Name.pl</QPM:File>
+                              <QPM:File>NamesList.txt</QPM:File>
+                              <QPM:File>Number.pl</QPM:File>
+                              <QPM:File>PropList.txt</QPM:File>
+                              <QPM:File>PropValueAliases.txt</QPM:File>
+                              <QPM:File>Properties</QPM:File>
+                              <QPM:File>PropertyAliases.txt</QPM:File>
+                              <QPM:File>README.perl</QPM:File>
+                              <QPM:File>ReadMe.txt</QPM:File>
+                              <QPM:File>Scripts.pl</QPM:File>
+                              <QPM:File>Scripts.txt</QPM:File>
+                              <QPM:File>SpecialCasing.txt</QPM:File>
+                              <QPM:Dir name="To">
+                                 <QPM:File>Digit.pl</QPM:File>
+                                 <QPM:File>Fold.pl</QPM:File>
+                                 <QPM:File>Lower.pl</QPM:File>
+                                 <QPM:File>Title.pl</QPM:File>
+                                 <QPM:File>Upper.pl</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>UnicodeData.txt</QPM:File>
+                              <QPM:Dir name="lib">
+                                 <QPM:File>ASCII.pl</QPM:File>
+                                 <QPM:File>Alnum.pl</QPM:File>
+                                 <QPM:File>Alpha.pl</QPM:File>
+                                 <QPM:File>Alphabet.pl</QPM:File>
+                                 <QPM:File>Any.pl</QPM:File>
+                                 <QPM:File>Arabic.pl</QPM:File>
+                                 <QPM:File>Armenian.pl</QPM:File>
+                                 <QPM:File>AsciiHex.pl</QPM:File>
+                                 <QPM:File>Assigned.pl</QPM:File>
+                                 <QPM:File>Bengali.pl</QPM:File>
+                                 <QPM:File>BidiAL.pl</QPM:File>
+                                 <QPM:File>BidiAN.pl</QPM:File>
+                                 <QPM:File>BidiB.pl</QPM:File>
+                                 <QPM:File>BidiBN.pl</QPM:File>
+                                 <QPM:File>BidiCS.pl</QPM:File>
+                                 <QPM:File>BidiCont.pl</QPM:File>
+                                 <QPM:File>BidiEN.pl</QPM:File>
+                                 <QPM:File>BidiES.pl</QPM:File>
+                                 <QPM:File>BidiET.pl</QPM:File>
+                                 <QPM:File>BidiL.pl</QPM:File>
+                                 <QPM:File>BidiLRE.pl</QPM:File>
+                                 <QPM:File>BidiLRO.pl</QPM:File>
+                                 <QPM:File>BidiNSM.pl</QPM:File>
+                                 <QPM:File>BidiON.pl</QPM:File>
+                                 <QPM:File>BidiPDF.pl</QPM:File>
+                                 <QPM:File>BidiR.pl</QPM:File>
+                                 <QPM:File>BidiRLE.pl</QPM:File>
+                                 <QPM:File>BidiRLO.pl</QPM:File>
+                                 <QPM:File>BidiS.pl</QPM:File>
+                                 <QPM:File>BidiWS.pl</QPM:File>
+                                 <QPM:File>Blank.pl</QPM:File>
+                                 <QPM:File>Bopomofo.pl</QPM:File>
+                                 <QPM:File>Buhid.pl</QPM:File>
+                                 <QPM:File>C.pl</QPM:File>
+                                 <QPM:File>Canadian.pl</QPM:File>
+                                 <QPM:File>Canon.pl</QPM:File>
+                                 <QPM:File>Cc.pl</QPM:File>
+                                 <QPM:File>Cf.pl</QPM:File>
+                                 <QPM:File>Cherokee.pl</QPM:File>
+                                 <QPM:File>Cn.pl</QPM:File>
+                                 <QPM:File>Cntrl.pl</QPM:File>
+                                 <QPM:File>Co.pl</QPM:File>
+                                 <QPM:File>Common.pl</QPM:File>
+                                 <QPM:File>Compat.pl</QPM:File>
+                                 <QPM:File>Cs.pl</QPM:File>
+                                 <QPM:File>Cyrillic.pl</QPM:File>
+                                 <QPM:File>DCcircle.pl</QPM:File>
+                                 <QPM:File>DCcompat.pl</QPM:File>
+                                 <QPM:File>DCfinal.pl</QPM:File>
+                                 <QPM:File>DCfont.pl</QPM:File>
+                                 <QPM:File>DCfracti.pl</QPM:File>
+                                 <QPM:File>DCinitia.pl</QPM:File>
+                                 <QPM:File>DCisolat.pl</QPM:File>
+                                 <QPM:File>DCmedial.pl</QPM:File>
+                                 <QPM:File>DCnarrow.pl</QPM:File>
+                                 <QPM:File>DCnoBrea.pl</QPM:File>
+                                 <QPM:File>DCsmall.pl</QPM:File>
+                                 <QPM:File>DCsquare.pl</QPM:File>
+                                 <QPM:File>DCsub.pl</QPM:File>
+                                 <QPM:File>DCsuper.pl</QPM:File>
+                                 <QPM:File>DCvertic.pl</QPM:File>
+                                 <QPM:File>DCwide.pl</QPM:File>
+                                 <QPM:File>Dash.pl</QPM:File>
+                                 <QPM:File>Deprecat.pl</QPM:File>
+                                 <QPM:File>Deseret.pl</QPM:File>
+                                 <QPM:File>Devanaga.pl</QPM:File>
+                                 <QPM:File>Diacriti.pl</QPM:File>
+                                 <QPM:File>Digit.pl</QPM:File>
+                                 <QPM:File>Ethiopic.pl</QPM:File>
+                                 <QPM:File>Extender.pl</QPM:File>
+                                 <QPM:File>Georgian.pl</QPM:File>
+                                 <QPM:File>Gothic.pl</QPM:File>
+                                 <QPM:File>Graph.pl</QPM:File>
+                                 <QPM:File>Grapheme.pl</QPM:File>
+                                 <QPM:File>Greek.pl</QPM:File>
+                                 <QPM:File>Gujarati.pl</QPM:File>
+                                 <QPM:File>Gurmukhi.pl</QPM:File>
+                                 <QPM:File>Han.pl</QPM:File>
+                                 <QPM:File>Hangul.pl</QPM:File>
+                                 <QPM:File>Hanunoo.pl</QPM:File>
+                                 <QPM:File>Hebrew.pl</QPM:File>
+                                 <QPM:File>HexDigit.pl</QPM:File>
+                                 <QPM:File>Hiragana.pl</QPM:File>
+                                 <QPM:File>Hyphen.pl</QPM:File>
+                                 <QPM:File>IdContin.pl</QPM:File>
+                                 <QPM:File>IdStart.pl</QPM:File>
+                                 <QPM:File>Ideograp.pl</QPM:File>
+                                 <QPM:File>IdsBinar.pl</QPM:File>
+                                 <QPM:File>IdsTrina.pl</QPM:File>
+                                 <QPM:File>InAlphab.pl</QPM:File>
+                                 <QPM:File>InArabi2.pl</QPM:File>
+                                 <QPM:File>InArabi3.pl</QPM:File>
+                                 <QPM:File>InArabic.pl</QPM:File>
+                                 <QPM:File>InArmeni.pl</QPM:File>
+                                 <QPM:File>InArrows.pl</QPM:File>
+                                 <QPM:File>InBasicL.pl</QPM:File>
+                                 <QPM:File>InBengal.pl</QPM:File>
+                                 <QPM:File>InBlockE.pl</QPM:File>
+                                 <QPM:File>InBopom2.pl</QPM:File>
+                                 <QPM:File>InBopomo.pl</QPM:File>
+                                 <QPM:File>InBoxDra.pl</QPM:File>
+                                 <QPM:File>InBraill.pl</QPM:File>
+                                 <QPM:File>InBuhid.pl</QPM:File>
+                                 <QPM:File>InByzant.pl</QPM:File>
+                                 <QPM:File>InCherok.pl</QPM:File>
+                                 <QPM:File>InCjkCo2.pl</QPM:File>
+                                 <QPM:File>InCjkCo3.pl</QPM:File>
+                                 <QPM:File>InCjkCo4.pl</QPM:File>
+                                 <QPM:File>InCjkCom.pl</QPM:File>
+                                 <QPM:File>InCjkRad.pl</QPM:File>
+                                 <QPM:File>InCjkSym.pl</QPM:File>
+                                 <QPM:File>InCjkUn2.pl</QPM:File>
+                                 <QPM:File>InCjkUn3.pl</QPM:File>
+                                 <QPM:File>InCjkUni.pl</QPM:File>
+                                 <QPM:File>InCombi2.pl</QPM:File>
+                                 <QPM:File>InCombi3.pl</QPM:File>
+                                 <QPM:File>InCombin.pl</QPM:File>
+                                 <QPM:File>InContro.pl</QPM:File>
+                                 <QPM:File>InCurren.pl</QPM:File>
+                                 <QPM:File>InCyril2.pl</QPM:File>
+                                 <QPM:File>InCyrill.pl</QPM:File>
+                                 <QPM:File>InDesere.pl</QPM:File>
+                                 <QPM:File>InDevana.pl</QPM:File>
+                                 <QPM:File>InDingba.pl</QPM:File>
+                                 <QPM:File>InEnclo2.pl</QPM:File>
+                                 <QPM:File>InEnclos.pl</QPM:File>
+                                 <QPM:File>InEthiop.pl</QPM:File>
+                                 <QPM:File>InGenera.pl</QPM:File>
+                                 <QPM:File>InGeomet.pl</QPM:File>
+                                 <QPM:File>InGeorgi.pl</QPM:File>
+                                 <QPM:File>InGothic.pl</QPM:File>
+                                 <QPM:File>InGreek.pl</QPM:File>
+                                 <QPM:File>InGreekA.pl</QPM:File>
+                                 <QPM:File>InGreekE.pl</QPM:File>
+                                 <QPM:File>InGujara.pl</QPM:File>
+                                 <QPM:File>InGurmuk.pl</QPM:File>
+                                 <QPM:File>InHalfwi.pl</QPM:File>
+                                 <QPM:File>InHangu2.pl</QPM:File>
+                                 <QPM:File>InHangu3.pl</QPM:File>
+                                 <QPM:File>InHangul.pl</QPM:File>
+                                 <QPM:File>InHanuno.pl</QPM:File>
+                                 <QPM:File>InHebrew.pl</QPM:File>
+                                 <QPM:File>InHighPr.pl</QPM:File>
+                                 <QPM:File>InHighSu.pl</QPM:File>
+                                 <QPM:File>InHiraga.pl</QPM:File>
+                                 <QPM:File>InIdeogr.pl</QPM:File>
+                                 <QPM:File>InIpaExt.pl</QPM:File>
+                                 <QPM:File>InKanbun.pl</QPM:File>
+                                 <QPM:File>InKangxi.pl</QPM:File>
+                                 <QPM:File>InKannad.pl</QPM:File>
+                                 <QPM:File>InKatak2.pl</QPM:File>
+                                 <QPM:File>InKataka.pl</QPM:File>
+                                 <QPM:File>InKhmer.pl</QPM:File>
+                                 <QPM:File>InLao.pl</QPM:File>
+                                 <QPM:File>InLatin1.pl</QPM:File>
+                                 <QPM:File>InLatin2.pl</QPM:File>
+                                 <QPM:File>InLatin3.pl</QPM:File>
+                                 <QPM:File>InLatinE.pl</QPM:File>
+                                 <QPM:File>InLetter.pl</QPM:File>
+                                 <QPM:File>InLowSur.pl</QPM:File>
+                                 <QPM:File>InMalaya.pl</QPM:File>
+                                 <QPM:File>InMathe2.pl</QPM:File>
+                                 <QPM:File>InMathem.pl</QPM:File>
+                                 <QPM:File>InMisce2.pl</QPM:File>
+                                 <QPM:File>InMisce3.pl</QPM:File>
+                                 <QPM:File>InMisce4.pl</QPM:File>
+                                 <QPM:File>InMiscel.pl</QPM:File>
+                                 <QPM:File>InMongol.pl</QPM:File>
+                                 <QPM:File>InMusica.pl</QPM:File>
+                                 <QPM:File>InMyanma.pl</QPM:File>
+                                 <QPM:File>InNumber.pl</QPM:File>
+                                 <QPM:File>InOgham.pl</QPM:File>
+                                 <QPM:File>InOldIta.pl</QPM:File>
+                                 <QPM:File>InOptica.pl</QPM:File>
+                                 <QPM:File>InOriya.pl</QPM:File>
+                                 <QPM:File>InPrivat.pl</QPM:File>
+                                 <QPM:File>InRunic.pl</QPM:File>
+                                 <QPM:File>InSinhal.pl</QPM:File>
+                                 <QPM:File>InSmallF.pl</QPM:File>
+                                 <QPM:File>InSpacin.pl</QPM:File>
+                                 <QPM:File>InSpecia.pl</QPM:File>
+                                 <QPM:File>InSupers.pl</QPM:File>
+                                 <QPM:File>InSuppl2.pl</QPM:File>
+                                 <QPM:File>InSuppl3.pl</QPM:File>
+                                 <QPM:File>InSuppl4.pl</QPM:File>
+                                 <QPM:File>InSuppl5.pl</QPM:File>
+                                 <QPM:File>InSupple.pl</QPM:File>
+                                 <QPM:File>InSyriac.pl</QPM:File>
+                                 <QPM:File>InTagalo.pl</QPM:File>
+                                 <QPM:File>InTagban.pl</QPM:File>
+                                 <QPM:File>InTags.pl</QPM:File>
+                                 <QPM:File>InTamil.pl</QPM:File>
+                                 <QPM:File>InTelugu.pl</QPM:File>
+                                 <QPM:File>InThaana.pl</QPM:File>
+                                 <QPM:File>InThai.pl</QPM:File>
+                                 <QPM:File>InTibeta.pl</QPM:File>
+                                 <QPM:File>InUnifie.pl</QPM:File>
+                                 <QPM:File>InVariat.pl</QPM:File>
+                                 <QPM:File>InYiRadi.pl</QPM:File>
+                                 <QPM:File>InYiSyll.pl</QPM:File>
+                                 <QPM:File>Inherite.pl</QPM:File>
+                                 <QPM:File>JoinCont.pl</QPM:File>
+                                 <QPM:File>Kannada.pl</QPM:File>
+                                 <QPM:File>Katakana.pl</QPM:File>
+                                 <QPM:File>Khmer.pl</QPM:File>
+                                 <QPM:File>L.pl</QPM:File>
+                                 <QPM:File>L_.pl</QPM:File>
+                                 <QPM:File>Lao.pl</QPM:File>
+                                 <QPM:File>Latin.pl</QPM:File>
+                                 <QPM:File>Ll.pl</QPM:File>
+                                 <QPM:File>Lm.pl</QPM:File>
+                                 <QPM:File>Lo.pl</QPM:File>
+                                 <QPM:File>LogicalO.pl</QPM:File>
+                                 <QPM:File>Lower.pl</QPM:File>
+                                 <QPM:File>Lowercas.pl</QPM:File>
+                                 <QPM:File>Lt.pl</QPM:File>
+                                 <QPM:File>Lu.pl</QPM:File>
+                                 <QPM:File>M.pl</QPM:File>
+                                 <QPM:File>Malayala.pl</QPM:File>
+                                 <QPM:File>Math.pl</QPM:File>
+                                 <QPM:File>Mc.pl</QPM:File>
+                                 <QPM:File>Me.pl</QPM:File>
+                                 <QPM:File>Mirrored.pl</QPM:File>
+                                 <QPM:File>Mn.pl</QPM:File>
+                                 <QPM:File>Mongolia.pl</QPM:File>
+                                 <QPM:File>Myanmar.pl</QPM:File>
+                                 <QPM:File>N.pl</QPM:File>
+                                 <QPM:File>Nd.pl</QPM:File>
+                                 <QPM:File>Nl.pl</QPM:File>
+                                 <QPM:File>No.pl</QPM:File>
+                                 <QPM:File>Nonchara.pl</QPM:File>
+                                 <QPM:File>Ogham.pl</QPM:File>
+                                 <QPM:File>OldItali.pl</QPM:File>
+                                 <QPM:File>Oriya.pl</QPM:File>
+                                 <QPM:File>OtherAlp.pl</QPM:File>
+                                 <QPM:File>OtherDef.pl</QPM:File>
+                                 <QPM:File>OtherGra.pl</QPM:File>
+                                 <QPM:File>OtherLow.pl</QPM:File>
+                                 <QPM:File>OtherMat.pl</QPM:File>
+                                 <QPM:File>OtherUpp.pl</QPM:File>
+                                 <QPM:File>P.pl</QPM:File>
+                                 <QPM:File>Pc.pl</QPM:File>
+                                 <QPM:File>Pd.pl</QPM:File>
+                                 <QPM:File>Pe.pl</QPM:File>
+                                 <QPM:File>Pf.pl</QPM:File>
+                                 <QPM:File>Pi.pl</QPM:File>
+                                 <QPM:File>Po.pl</QPM:File>
+                                 <QPM:File>Print.pl</QPM:File>
+                                 <QPM:File>Ps.pl</QPM:File>
+                                 <QPM:File>Punct.pl</QPM:File>
+                                 <QPM:File>Quotatio.pl</QPM:File>
+                                 <QPM:File>Radical.pl</QPM:File>
+                                 <QPM:File>Runic.pl</QPM:File>
+                                 <QPM:File>S.pl</QPM:File>
+                                 <QPM:File>Sc.pl</QPM:File>
+                                 <QPM:File>Sinhala.pl</QPM:File>
+                                 <QPM:File>Sk.pl</QPM:File>
+                                 <QPM:File>Sm.pl</QPM:File>
+                                 <QPM:File>So.pl</QPM:File>
+                                 <QPM:File>SoftDott.pl</QPM:File>
+                                 <QPM:File>Space.pl</QPM:File>
+                                 <QPM:File>SpacePer.pl</QPM:File>
+                                 <QPM:File>Syriac.pl</QPM:File>
+                                 <QPM:File>Tagalog.pl</QPM:File>
+                                 <QPM:File>Tagbanwa.pl</QPM:File>
+                                 <QPM:File>Tamil.pl</QPM:File>
+                                 <QPM:File>Telugu.pl</QPM:File>
+                                 <QPM:File>Terminal.pl</QPM:File>
+                                 <QPM:File>Thaana.pl</QPM:File>
+                                 <QPM:File>Thai.pl</QPM:File>
+                                 <QPM:File>Tibetan.pl</QPM:File>
+                                 <QPM:File>Title.pl</QPM:File>
+                                 <QPM:File>UnifiedI.pl</QPM:File>
+                                 <QPM:File>Upper.pl</QPM:File>
+                                 <QPM:File>Uppercas.pl</QPM:File>
+                                 <QPM:File>WhiteSpa.pl</QPM:File>
+                                 <QPM:File>Word.pl</QPM:File>
+                                 <QPM:File>XDigit.pl</QPM:File>
+                                 <QPM:File>Yi.pl</QPM:File>
+                                 <QPM:File>Z.pl</QPM:File>
+                                 <QPM:File>Zl.pl</QPM:File>
+                                 <QPM:File>Zp.pl</QPM:File>
+                                 <QPM:File>Zs.pl</QPM:File>
+                                 <QPM:File>_CanonDC.pl</QPM:File>
+                                 <QPM:File>_CaseIgn.pl</QPM:File>
+                                 <QPM:File>_CombAbo.pl</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>mktables</QPM:File>
+                              <QPM:File>version</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>utf8.pm</QPM:File>
+                           <QPM:File>utf8_heavy.pl</QPM:File>
+                           <QPM:File>validate.pl</QPM:File>
+                           <QPM:File>vars.pm</QPM:File>
+                           <QPM:File>vmsish.pm</QPM:File>
+                           <QPM:Dir name="warnings">
+                              <QPM:File>register.pm</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>warnings.pm</QPM:File>
+                           <QPM:Dir name="x86pc-nto">
+                              <QPM:File>.packlist</QPM:File>
+                              <QPM:Dir name="B">
+                                 <QPM:File>Asmdata.pm</QPM:File>
+                                 <QPM:File>Assembler.pm</QPM:File>
+                                 <QPM:File>Bblock.pm</QPM:File>
+                                 <QPM:File>Bytecode.pm</QPM:File>
+                                 <QPM:File>C.pm</QPM:File>
+                                 <QPM:File>CC.pm</QPM:File>
+                                 <QPM:File>Concise.pm</QPM:File>
+                                 <QPM:File>Debug.pm</QPM:File>
+                                 <QPM:File>Deparse.pm</QPM:File>
+                                 <QPM:File>Disassembler.pm</QPM:File>
+                                 <QPM:File>Lint.pm</QPM:File>
+                                 <QPM:File>Showlex.pm</QPM:File>
+                                 <QPM:File>Stackobj.pm</QPM:File>
+                                 <QPM:File>Stash.pm</QPM:File>
+                                 <QPM:File>Terse.pm</QPM:File>
+                                 <QPM:File>Xref.pm</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>B.pm</QPM:File>
+                              <QPM:File>ByteLoader.pm</QPM:File>
+                              <QPM:File>Config.pm</QPM:File>
+                              <QPM:File>Cwd.pm</QPM:File>
+                              <QPM:File>DB_File.pm</QPM:File>
+                              <QPM:Dir name="Data">
+                                 <QPM:File>Dumper.pm</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="Devel">
+                                 <QPM:File>DProf.pm</QPM:File>
+                                 <QPM:File>PPPort.pm</QPM:File>
+                                 <QPM:File>Peek.pm</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="Digest">
+                                 <QPM:File>MD5.pm</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>DynaLoader.pm</QPM:File>
+                              <QPM:Dir name="Encode">
+                                 <QPM:File>Alias.pm</QPM:File>
+                                 <QPM:File>Byte.pm</QPM:File>
+                                 <QPM:File>CJKConstants.pm</QPM:File>
+                                 <QPM:File>CN.pm</QPM:File>
+                                 <QPM:File>Config.pm</QPM:File>
+                                 <QPM:File>EBCDIC.pm</QPM:File>
+                                 <QPM:File>Encoder.pm</QPM:File>
+                                 <QPM:File>Encoding.pm</QPM:File>
+                                 <QPM:File>Guess.pm</QPM:File>
+                                 <QPM:File>JP.pm</QPM:File>
+                                 <QPM:File>KR.pm</QPM:File>
+                                 <QPM:File>Symbol.pm</QPM:File>
+                                 <QPM:File>TW.pm</QPM:File>
+                                 <QPM:File>Unicode.pm</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>Encode.pm</QPM:File>
+                              <QPM:File>Errno.pm</QPM:File>
+                              <QPM:File>Fcntl.pm</QPM:File>
+                              <QPM:Dir name="File">
+                                 <QPM:File>Glob.pm</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="Filter">
+                                 <QPM:Dir name="Util">
+                                    <QPM:File>Call.pm</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="IO">
+                                 <QPM:File>Dir.pm</QPM:File>
+                                 <QPM:File>File.pm</QPM:File>
+                                 <QPM:File>Handle.pm</QPM:File>
+                                 <QPM:File>Pipe.pm</QPM:File>
+                                 <QPM:File>Poll.pm</QPM:File>
+                                 <QPM:File>Seekable.pm</QPM:File>
+                                 <QPM:File>Select.pm</QPM:File>
+                                 <QPM:File>Socket.pm</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>IO.pm</QPM:File>
+                              <QPM:Dir name="MIME">
+                                 <QPM:File>Base64.pm</QPM:File>
+                                 <QPM:File>QuotedPrint.pm</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>O.pm</QPM:File>
+                              <QPM:File>Opcode.pm</QPM:File>
+                              <QPM:File>POSIX.pm</QPM:File>
+                              <QPM:File>POSIX.pod</QPM:File>
+                              <QPM:Dir name="PerlIO">
+                                 <QPM:File>encoding.pm</QPM:File>
+                                 <QPM:File>scalar.pm</QPM:File>
+                                 <QPM:File>via.pm</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>SDBM_File.pm</QPM:File>
+                              <QPM:File>Safe.pm</QPM:File>
+                              <QPM:File>Socket.pm</QPM:File>
+                              <QPM:File>Storable.pm</QPM:File>
+                              <QPM:Dir name="Sys">
+                                 <QPM:File>Hostname.pm</QPM:File>
+                                 <QPM:File>Syslog.pm</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="Time">
+                                 <QPM:File>HiRes.pm</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="Unicode">
+                                 <QPM:File>Normalize.pm</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="XS">
+                                 <QPM:File>APItest.pm</QPM:File>
+                                 <QPM:File>Typemap.pm</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>XSLoader.pm</QPM:File>
+                              <QPM:File>attrs.pm</QPM:File>
+                              <QPM:Dir name="auto">
+                                 <QPM:Dir name="B">
+                                    <QPM:File>B.bs</QPM:File>
+                                    <QPM:Dir name="C">
+                                       <QPM:File>C.bs</QPM:File>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="ByteLoader">
+                                    <QPM:File>ByteLoader.bs</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="Cwd">
+                                    <QPM:File>Cwd.bs</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="DB_File">
+                                    <QPM:File>DB_File.bs</QPM:File>
+                                    <QPM:File>autosplit.ix</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="Data">
+                                    <QPM:Dir name="Dumper">
+                                       <QPM:File>Dumper.bs</QPM:File>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="Devel">
+                                    <QPM:Dir name="DProf">
+                                       <QPM:File>DProf.bs</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="PPPort">
+                                       <QPM:File>PPPort.bs</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="Peek">
+                                       <QPM:File>Peek.bs</QPM:File>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="Digest">
+                                    <QPM:Dir name="MD5">
+                                       <QPM:File>MD5.bs</QPM:File>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="DynaLoader">
+                                    <QPM:File>autosplit.ix</QPM:File>
+                                    <QPM:File>dl_expandspec.al</QPM:File>
+                                    <QPM:File>dl_find_symbol_anywhere.al</QPM:File>
+                                    <QPM:File>dl_findfile.al</QPM:File>
+                                    <QPM:File>extralibs.ld</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="Encode">
+                                    <QPM:Dir name="Byte">
+                                       <QPM:File>Byte.bs</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="CN">
+                                       <QPM:File>CN.bs</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="EBCDIC">
+                                       <QPM:File>EBCDIC.bs</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:File>Encode.bs</QPM:File>
+                                    <QPM:Dir name="JP">
+                                       <QPM:File>JP.bs</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="KR">
+                                       <QPM:File>KR.bs</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="Symbol">
+                                       <QPM:File>Symbol.bs</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="TW">
+                                       <QPM:File>TW.bs</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="Unicode">
+                                       <QPM:File>Unicode.bs</QPM:File>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="Fcntl">
+                                    <QPM:File>Fcntl.bs</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="File">
+                                    <QPM:Dir name="Glob">
+                                       <QPM:File>Glob.bs</QPM:File>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="Filter">
+                                    <QPM:Dir name="Util">
+                                       <QPM:Dir name="Call">
+                                          <QPM:File>Call.bs</QPM:File>
+                                       </QPM:Dir>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="IO">
+                                    <QPM:File>IO.bs</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="List">
+                                    <QPM:Dir name="Util">
+                                       <QPM:File>Util.bs</QPM:File>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="MIME">
+                                    <QPM:Dir name="Base64">
+                                       <QPM:File>Base64.bs</QPM:File>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="Opcode">
+                                    <QPM:File>Opcode.bs</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="POSIX">
+                                    <QPM:File>POSIX.bs</QPM:File>
+                                    <QPM:File>abs.al</QPM:File>
+                                    <QPM:File>alarm.al</QPM:File>
+                                    <QPM:File>assert.al</QPM:File>
+                                    <QPM:File>atan2.al</QPM:File>
+                                    <QPM:File>atexit.al</QPM:File>
+                                    <QPM:File>atof.al</QPM:File>
+                                    <QPM:File>atoi.al</QPM:File>
+                                    <QPM:File>atol.al</QPM:File>
+                                    <QPM:File>autosplit.ix</QPM:File>
+                                    <QPM:File>bsearch.al</QPM:File>
+                                    <QPM:File>calloc.al</QPM:File>
+                                    <QPM:File>chdir.al</QPM:File>
+                                    <QPM:File>chmod.al</QPM:File>
+                                    <QPM:File>chown.al</QPM:File>
+                                    <QPM:File>clearerr.al</QPM:File>
+                                    <QPM:File>closedir.al</QPM:File>
+                                    <QPM:File>cos.al</QPM:File>
+                                    <QPM:File>creat.al</QPM:File>
+                                    <QPM:File>div.al</QPM:File>
+                                    <QPM:File>errno.al</QPM:File>
+                                    <QPM:File>execl.al</QPM:File>
+                                    <QPM:File>execle.al</QPM:File>
+                                    <QPM:File>execlp.al</QPM:File>
+                                    <QPM:File>execv.al</QPM:File>
+                                    <QPM:File>execve.al</QPM:File>
+                                    <QPM:File>execvp.al</QPM:File>
+                                    <QPM:File>exit.al</QPM:File>
+                                    <QPM:File>exp.al</QPM:File>
+                                    <QPM:File>fabs.al</QPM:File>
+                                    <QPM:File>fclose.al</QPM:File>
+                                    <QPM:File>fcntl.al</QPM:File>
+                                    <QPM:File>fdopen.al</QPM:File>
+                                    <QPM:File>feof.al</QPM:File>
+                                    <QPM:File>ferror.al</QPM:File>
+                                    <QPM:File>fflush.al</QPM:File>
+                                    <QPM:File>fgetc.al</QPM:File>
+                                    <QPM:File>fgetpos.al</QPM:File>
+                                    <QPM:File>fgets.al</QPM:File>
+                                    <QPM:File>fileno.al</QPM:File>
+                                    <QPM:File>fopen.al</QPM:File>
+                                    <QPM:File>fork.al</QPM:File>
+                                    <QPM:File>fprintf.al</QPM:File>
+                                    <QPM:File>fputc.al</QPM:File>
+                                    <QPM:File>fputs.al</QPM:File>
+                                    <QPM:File>fread.al</QPM:File>
+                                    <QPM:File>free.al</QPM:File>
+                                    <QPM:File>freopen.al</QPM:File>
+                                    <QPM:File>fscanf.al</QPM:File>
+                                    <QPM:File>fseek.al</QPM:File>
+                                    <QPM:File>fsetpos.al</QPM:File>
+                                    <QPM:File>fstat.al</QPM:File>
+                                    <QPM:File>ftell.al</QPM:File>
+                                    <QPM:File>fwrite.al</QPM:File>
+                                    <QPM:File>getc.al</QPM:File>
+                                    <QPM:File>getchar.al</QPM:File>
+                                    <QPM:File>getegid.al</QPM:File>
+                                    <QPM:File>getenv.al</QPM:File>
+                                    <QPM:File>geteuid.al</QPM:File>
+                                    <QPM:File>getgid.al</QPM:File>
+                                    <QPM:File>getgrgid.al</QPM:File>
+                                    <QPM:File>getgrnam.al</QPM:File>
+                                    <QPM:File>getgroups.al</QPM:File>
+                                    <QPM:File>getlogin.al</QPM:File>
+                                    <QPM:File>getpgrp.al</QPM:File>
+                                    <QPM:File>getpid.al</QPM:File>
+                                    <QPM:File>getppid.al</QPM:File>
+                                    <QPM:File>getpwnam.al</QPM:File>
+                                    <QPM:File>getpwuid.al</QPM:File>
+                                    <QPM:File>gets.al</QPM:File>
+                                    <QPM:File>getuid.al</QPM:File>
+                                    <QPM:File>gmtime.al</QPM:File>
+                                    <QPM:File>isatty.al</QPM:File>
+                                    <QPM:File>kill.al</QPM:File>
+                                    <QPM:File>labs.al</QPM:File>
+                                    <QPM:File>ldiv.al</QPM:File>
+                                    <QPM:File>link.al</QPM:File>
+                                    <QPM:File>load_imports.al</QPM:File>
+                                    <QPM:File>localtime.al</QPM:File>
+                                    <QPM:File>log.al</QPM:File>
+                                    <QPM:File>longjmp.al</QPM:File>
+                                    <QPM:File>malloc.al</QPM:File>
+                                    <QPM:File>memchr.al</QPM:File>
+                                    <QPM:File>memcmp.al</QPM:File>
+                                    <QPM:File>memcpy.al</QPM:File>
+                                    <QPM:File>memmove.al</QPM:File>
+                                    <QPM:File>memset.al</QPM:File>
+                                    <QPM:File>mkdir.al</QPM:File>
+                                    <QPM:File>offsetof.al</QPM:File>
+                                    <QPM:File>opendir.al</QPM:File>
+                                    <QPM:File>perror.al</QPM:File>
+                                    <QPM:File>pow.al</QPM:File>
+                                    <QPM:File>printf.al</QPM:File>
+                                    <QPM:File>putc.al</QPM:File>
+                                    <QPM:File>putchar.al</QPM:File>
+                                    <QPM:File>puts.al</QPM:File>
+                                    <QPM:File>qsort.al</QPM:File>
+                                    <QPM:File>raise.al</QPM:File>
+                                    <QPM:File>rand.al</QPM:File>
+                                    <QPM:File>readdir.al</QPM:File>
+                                    <QPM:File>realloc.al</QPM:File>
+                                    <QPM:File>redef.al</QPM:File>
+                                    <QPM:File>remove.al</QPM:File>
+                                    <QPM:File>rename.al</QPM:File>
+                                    <QPM:File>rewind.al</QPM:File>
+                                    <QPM:File>rewinddir.al</QPM:File>
+                                    <QPM:File>rmdir.al</QPM:File>
+                                    <QPM:File>scanf.al</QPM:File>
+                                    <QPM:File>setbuf.al</QPM:File>
+                                    <QPM:File>setjmp.al</QPM:File>
+                                    <QPM:File>setvbuf.al</QPM:File>
+                                    <QPM:File>siglongjmp.al</QPM:File>
+                                    <QPM:File>sigsetjmp.al</QPM:File>
+                                    <QPM:File>sin.al</QPM:File>
+                                    <QPM:File>sleep.al</QPM:File>
+                                    <QPM:File>sprintf.al</QPM:File>
+                                    <QPM:File>sqrt.al</QPM:File>
+                                    <QPM:File>srand.al</QPM:File>
+                                    <QPM:File>sscanf.al</QPM:File>
+                                    <QPM:File>stat.al</QPM:File>
+                                    <QPM:File>strcat.al</QPM:File>
+                                    <QPM:File>strchr.al</QPM:File>
+                                    <QPM:File>strcmp.al</QPM:File>
+                                    <QPM:File>strcpy.al</QPM:File>
+                                    <QPM:File>strcspn.al</QPM:File>
+                                    <QPM:File>strerror.al</QPM:File>
+                                    <QPM:File>strlen.al</QPM:File>
+                                    <QPM:File>strncat.al</QPM:File>
+                                    <QPM:File>strncmp.al</QPM:File>
+                                    <QPM:File>strncpy.al</QPM:File>
+                                    <QPM:File>strpbrk.al</QPM:File>
+                                    <QPM:File>strrchr.al</QPM:File>
+                                    <QPM:File>strspn.al</QPM:File>
+                                    <QPM:File>strstr.al</QPM:File>
+                                    <QPM:File>strtok.al</QPM:File>
+                                    <QPM:File>system.al</QPM:File>
+                                    <QPM:File>time.al</QPM:File>
+                                    <QPM:File>tmpfile.al</QPM:File>
+                                    <QPM:File>tolower.al</QPM:File>
+                                    <QPM:File>toupper.al</QPM:File>
+                                    <QPM:File>umask.al</QPM:File>
+                                    <QPM:File>ungetc.al</QPM:File>
+                                    <QPM:File>unimpl.al</QPM:File>
+                                    <QPM:File>unlink.al</QPM:File>
+                                    <QPM:File>usage.al</QPM:File>
+                                    <QPM:File>utime.al</QPM:File>
+                                    <QPM:File>vfprintf.al</QPM:File>
+                                    <QPM:File>vprintf.al</QPM:File>
+                                    <QPM:File>vsprintf.al</QPM:File>
+                                    <QPM:File>wait.al</QPM:File>
+                                    <QPM:File>waitpid.al</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="PerlIO">
+                                    <QPM:Dir name="encoding">
+                                       <QPM:File>encoding.bs</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="scalar">
+                                       <QPM:File>scalar.bs</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="via">
+                                       <QPM:File>via.bs</QPM:File>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="SDBM_File">
+                                    <QPM:File>SDBM_File.bs</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="Socket">
+                                    <QPM:File>Socket.bs</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="Storable">
+                                    <QPM:File>CAN_FLOCK.al</QPM:File>
+                                    <QPM:File>Storable.bs</QPM:File>
+                                    <QPM:File>_freeze.al</QPM:File>
+                                    <QPM:File>_retrieve.al</QPM:File>
+                                    <QPM:File>_store.al</QPM:File>
+                                    <QPM:File>_store_fd.al</QPM:File>
+                                    <QPM:File>autosplit.ix</QPM:File>
+                                    <QPM:File>fd_retrieve.al</QPM:File>
+                                    <QPM:File>freeze.al</QPM:File>
+                                    <QPM:File>lock_nstore.al</QPM:File>
+                                    <QPM:File>lock_retrieve.al</QPM:File>
+                                    <QPM:File>lock_store.al</QPM:File>
+                                    <QPM:File>logcarp.al</QPM:File>
+                                    <QPM:File>logcroak.al</QPM:File>
+                                    <QPM:File>nfreeze.al</QPM:File>
+                                    <QPM:File>nstore.al</QPM:File>
+                                    <QPM:File>nstore_fd.al</QPM:File>
+                                    <QPM:File>read_magic.al</QPM:File>
+                                    <QPM:File>retrieve.al</QPM:File>
+                                    <QPM:File>show_file_magic.al</QPM:File>
+                                    <QPM:File>store.al</QPM:File>
+                                    <QPM:File>store_fd.al</QPM:File>
+                                    <QPM:File>thaw.al</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="Sys">
+                                    <QPM:Dir name="Hostname">
+                                       <QPM:File>Hostname.bs</QPM:File>
+                                       <QPM:File>autosplit.ix</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="Syslog">
+                                       <QPM:File>Syslog.bs</QPM:File>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="Time">
+                                    <QPM:Dir name="HiRes">
+                                       <QPM:File>HiRes.bs</QPM:File>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="Unicode">
+                                    <QPM:Dir name="Normalize">
+                                       <QPM:File>Normalize.bs</QPM:File>
+                                       <QPM:File>autosplit.ix</QPM:File>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="XS">
+                                    <QPM:Dir name="APItest">
+                                       <QPM:File>APItest.bs</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:Dir name="Typemap">
+                                       <QPM:File>Typemap.bs</QPM:File>
+                                    </QPM:Dir>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="attrs">
+                                    <QPM:File>attrs.bs</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="re">
+                                    <QPM:File>re.bs</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="sdbm">
+                                    <QPM:File>extralibs.ld</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="threads">
+                                    <QPM:Dir name="shared">
+                                       <QPM:File>shared.bs</QPM:File>
+                                    </QPM:Dir>
+
+                                    <QPM:File>threads.bs</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+
+                              <QPM:File>encoding.pm</QPM:File>
+                              <QPM:File>lib.pm</QPM:File>
+                              <QPM:File>ops.pm</QPM:File>
+                              <QPM:File>re.pm</QPM:File>
+                              <QPM:Dir name="threads">
+                                 <QPM:File>shared.pm</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>threads.pm</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="site_perl">
+                           <QPM:Dir name="5.8.0">
+                              <QPM:Dir name="x86pc-nto"/>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="man">
+                        <QPM:Dir name="man1">
+                           <QPM:File>a2p.1</QPM:File>
+                           <QPM:File>c2ph.1</QPM:File>
+                           <QPM:File>dprofpp.1</QPM:File>
+                           <QPM:File>enc2xs.1</QPM:File>
+                           <QPM:File>find2perl.1</QPM:File>
+                           <QPM:File>h2ph.1</QPM:File>
+                           <QPM:File>h2xs.1</QPM:File>
+                           <QPM:File>libnetcfg.1</QPM:File>
+                           <QPM:File>perl.1</QPM:File>
+                           <QPM:File>perl5004delta.1</QPM:File>
+                           <QPM:File>perl5005delta.1</QPM:File>
+                           <QPM:File>perl561delta.1</QPM:File>
+                           <QPM:File>perl56delta.1</QPM:File>
+                           <QPM:File>perl570delta.1</QPM:File>
+                           <QPM:File>perl571delta.1</QPM:File>
+                           <QPM:File>perl572delta.1</QPM:File>
+                           <QPM:File>perlaix.1</QPM:File>
+                           <QPM:File>perlamiga.1</QPM:File>
+                           <QPM:File>perlapi.1</QPM:File>
+                           <QPM:File>perlapio.1</QPM:File>
+                           <QPM:File>perlapollo.1</QPM:File>
+                           <QPM:File>perlbeos.1</QPM:File>
+                           <QPM:File>perlbook.1</QPM:File>
+                           <QPM:File>perlboot.1</QPM:File>
+                           <QPM:File>perlbot.1</QPM:File>
+                           <QPM:File>perlbs2000.1</QPM:File>
+                           <QPM:File>perlbug.1</QPM:File>
+                           <QPM:File>perlcall.1</QPM:File>
+                           <QPM:File>perlcc.1</QPM:File>
+                           <QPM:File>perlce.1</QPM:File>
+                           <QPM:File>perlclib.1</QPM:File>
+                           <QPM:File>perlcn.1</QPM:File>
+                           <QPM:File>perlcompile.1</QPM:File>
+                           <QPM:File>perlcygwin.1</QPM:File>
+                           <QPM:File>perldata.1</QPM:File>
+                           <QPM:File>perldbmfilter.1</QPM:File>
+                           <QPM:File>perldebguts.1</QPM:File>
+                           <QPM:File>perldebtut.1</QPM:File>
+                           <QPM:File>perldebug.1</QPM:File>
+                           <QPM:File>perldelta.1</QPM:File>
+                           <QPM:File>perldgux.1</QPM:File>
+                           <QPM:File>perldiag.1</QPM:File>
+                           <QPM:File>perldoc.1</QPM:File>
+                           <QPM:File>perldos.1</QPM:File>
+                           <QPM:File>perldsc.1</QPM:File>
+                           <QPM:File>perlebcdic.1</QPM:File>
+                           <QPM:File>perlembed.1</QPM:File>
+                           <QPM:File>perlepoc.1</QPM:File>
+                           <QPM:File>perlfaq.1</QPM:File>
+                           <QPM:File>perlfaq1.1</QPM:File>
+                           <QPM:File>perlfaq2.1</QPM:File>
+                           <QPM:File>perlfaq3.1</QPM:File>
+                           <QPM:File>perlfaq4.1</QPM:File>
+                           <QPM:File>perlfaq5.1</QPM:File>
+                           <QPM:File>perlfaq6.1</QPM:File>
+                           <QPM:File>perlfaq7.1</QPM:File>
+                           <QPM:File>perlfaq8.1</QPM:File>
+                           <QPM:File>perlfaq9.1</QPM:File>
+                           <QPM:File>perlfilter.1</QPM:File>
+                           <QPM:File>perlfork.1</QPM:File>
+                           <QPM:File>perlform.1</QPM:File>
+                           <QPM:File>perlfreebsd.1</QPM:File>
+                           <QPM:File>perlfunc.1</QPM:File>
+                           <QPM:File>perlguts.1</QPM:File>
+                           <QPM:File>perlhack.1</QPM:File>
+                           <QPM:File>perlhist.1</QPM:File>
+                           <QPM:File>perlhpux.1</QPM:File>
+                           <QPM:File>perlhurd.1</QPM:File>
+                           <QPM:File>perlintern.1</QPM:File>
+                           <QPM:File>perlintro.1</QPM:File>
+                           <QPM:File>perliol.1</QPM:File>
+                           <QPM:File>perlipc.1</QPM:File>
+                           <QPM:File>perlirix.1</QPM:File>
+                           <QPM:File>perlivp.1</QPM:File>
+                           <QPM:File>perljp.1</QPM:File>
+                           <QPM:File>perlko.1</QPM:File>
+                           <QPM:File>perllexwarn.1</QPM:File>
+                           <QPM:File>perllocale.1</QPM:File>
+                           <QPM:File>perllol.1</QPM:File>
+                           <QPM:File>perlmachten.1</QPM:File>
+                           <QPM:File>perlmacos.1</QPM:File>
+                           <QPM:File>perlmint.1</QPM:File>
+                           <QPM:File>perlmod.1</QPM:File>
+                           <QPM:File>perlmodinstall.1</QPM:File>
+                           <QPM:File>perlmodlib.1</QPM:File>
+                           <QPM:File>perlmodstyle.1</QPM:File>
+                           <QPM:File>perlmpeix.1</QPM:File>
+                           <QPM:File>perlnetware.1</QPM:File>
+                           <QPM:File>perlnewmod.1</QPM:File>
+                           <QPM:File>perlnumber.1</QPM:File>
+                           <QPM:File>perlobj.1</QPM:File>
+                           <QPM:File>perlop.1</QPM:File>
+                           <QPM:File>perlopentut.1</QPM:File>
+                           <QPM:File>perlos2.1</QPM:File>
+                           <QPM:File>perlos390.1</QPM:File>
+                           <QPM:File>perlothrtut.1</QPM:File>
+                           <QPM:File>perlpacktut.1</QPM:File>
+                           <QPM:File>perlplan9.1</QPM:File>
+                           <QPM:File>perlpod.1</QPM:File>
+                           <QPM:File>perlpodspec.1</QPM:File>
+                           <QPM:File>perlport.1</QPM:File>
+                           <QPM:File>perlqnx.1</QPM:File>
+                           <QPM:File>perlre.1</QPM:File>
+                           <QPM:File>perlref.1</QPM:File>
+                           <QPM:File>perlreftut.1</QPM:File>
+                           <QPM:File>perlrequick.1</QPM:File>
+                           <QPM:File>perlretut.1</QPM:File>
+                           <QPM:File>perlrun.1</QPM:File>
+                           <QPM:File>perlsec.1</QPM:File>
+                           <QPM:File>perlsolaris.1</QPM:File>
+                           <QPM:File>perlstyle.1</QPM:File>
+                           <QPM:File>perlsub.1</QPM:File>
+                           <QPM:File>perlsyn.1</QPM:File>
+                           <QPM:File>perlthrtut.1</QPM:File>
+                           <QPM:File>perltie.1</QPM:File>
+                           <QPM:File>perltoc.1</QPM:File>
+                           <QPM:File>perltodo.1</QPM:File>
+                           <QPM:File>perltooc.1</QPM:File>
+                           <QPM:File>perltoot.1</QPM:File>
+                           <QPM:File>perltrap.1</QPM:File>
+                           <QPM:File>perltru64.1</QPM:File>
+                           <QPM:File>perltw.1</QPM:File>
+                           <QPM:File>perlunicode.1</QPM:File>
+                           <QPM:File>perluniintro.1</QPM:File>
+                           <QPM:File>perlutil.1</QPM:File>
+                           <QPM:File>perluts.1</QPM:File>
+                           <QPM:File>perlvar.1</QPM:File>
+                           <QPM:File>perlvmesa.1</QPM:File>
+                           <QPM:File>perlvms.1</QPM:File>
+                           <QPM:File>perlvos.1</QPM:File>
+                           <QPM:File>perlwin32.1</QPM:File>
+                           <QPM:File>perlxs.1</QPM:File>
+                           <QPM:File>perlxstut.1</QPM:File>
+                           <QPM:File>piconv.1</QPM:File>
+                           <QPM:File>pl2pm.1</QPM:File>
+                           <QPM:File>pod2html.1</QPM:File>
+                           <QPM:File>pod2latex.1</QPM:File>
+                           <QPM:File>pod2man.1</QPM:File>
+                           <QPM:File>pod2text.1</QPM:File>
+                           <QPM:File>pod2usage.1</QPM:File>
+                           <QPM:File>podchecker.1</QPM:File>
+                           <QPM:File>podselect.1</QPM:File>
+                           <QPM:File>psed.1</QPM:File>
+                           <QPM:File>pstruct.1</QPM:File>
+                           <QPM:File>s2p.1</QPM:File>
+                           <QPM:File>splain.1</QPM:File>
+                           <QPM:File>xsubpp.1</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="man3">
+                           <QPM:File>AnyDBM_File.3</QPM:File>
+                           <QPM:File>Attribute::Handlers.3</QPM:File>
+                           <QPM:File>Attribute::Handlers::demo::Demo.3</QPM:File>
+                           <QPM:File>Attribute::Handlers::demo::Descriptions.3</QPM:File>
+                           <QPM:File>Attribute::Handlers::demo::MyClass.3</QPM:File>
+                           <QPM:File>AutoLoader.3</QPM:File>
+                           <QPM:File>AutoSplit.3</QPM:File>
+                           <QPM:File>B.3</QPM:File>
+                           <QPM:File>B::Asmdata.3</QPM:File>
+                           <QPM:File>B::Assembler.3</QPM:File>
+                           <QPM:File>B::Bblock.3</QPM:File>
+                           <QPM:File>B::Bytecode.3</QPM:File>
+                           <QPM:File>B::C.3</QPM:File>
+                           <QPM:File>B::CC.3</QPM:File>
+                           <QPM:File>B::Concise.3</QPM:File>
+                           <QPM:File>B::Debug.3</QPM:File>
+                           <QPM:File>B::Deparse.3</QPM:File>
+                           <QPM:File>B::Disassembler.3</QPM:File>
+                           <QPM:File>B::Lint.3</QPM:File>
+                           <QPM:File>B::Showlex.3</QPM:File>
+                           <QPM:File>B::Stackobj.3</QPM:File>
+                           <QPM:File>B::Stash.3</QPM:File>
+                           <QPM:File>B::Terse.3</QPM:File>
+                           <QPM:File>B::Xref.3</QPM:File>
+                           <QPM:File>Benchmark.3</QPM:File>
+                           <QPM:File>ByteLoader.3</QPM:File>
+                           <QPM:File>CGI.3</QPM:File>
+                           <QPM:File>CGI::Apache.3</QPM:File>
+                           <QPM:File>CGI::Carp.3</QPM:File>
+                           <QPM:File>CGI::Cookie.3</QPM:File>
+                           <QPM:File>CGI::Fast.3</QPM:File>
+                           <QPM:File>CGI::Pretty.3</QPM:File>
+                           <QPM:File>CGI::Push.3</QPM:File>
+                           <QPM:File>CGI::Switch.3</QPM:File>
+                           <QPM:File>CGI::Util.3</QPM:File>
+                           <QPM:File>CPAN.3</QPM:File>
+                           <QPM:File>CPAN::FirstTime.3</QPM:File>
+                           <QPM:File>CPAN::Nox.3</QPM:File>
+                           <QPM:File>Carp.3</QPM:File>
+                           <QPM:File>Carp::Heavy.3</QPM:File>
+                           <QPM:File>Class::ISA.3</QPM:File>
+                           <QPM:File>Class::Struct.3</QPM:File>
+                           <QPM:File>Config.3</QPM:File>
+                           <QPM:File>Cwd.3</QPM:File>
+                           <QPM:File>DB.3</QPM:File>
+                           <QPM:File>DB_File.3</QPM:File>
+                           <QPM:File>Data::Dumper.3</QPM:File>
+                           <QPM:File>Devel::DProf.3</QPM:File>
+                           <QPM:File>Devel::PPPort.3</QPM:File>
+                           <QPM:File>Devel::Peek.3</QPM:File>
+                           <QPM:File>Devel::SelfStubber.3</QPM:File>
+                           <QPM:File>Digest.3</QPM:File>
+                           <QPM:File>Digest::MD5.3</QPM:File>
+                           <QPM:File>DirHandle.3</QPM:File>
+                           <QPM:File>Dumpvalue.3</QPM:File>
+                           <QPM:File>DynaLoader.3</QPM:File>
+                           <QPM:File>Encode.3</QPM:File>
+                           <QPM:File>Encode::Alias.3</QPM:File>
+                           <QPM:File>Encode::Byte.3</QPM:File>
+                           <QPM:File>Encode::CJKConstants.3</QPM:File>
+                           <QPM:File>Encode::CN.3</QPM:File>
+                           <QPM:File>Encode::CN::HZ.3</QPM:File>
+                           <QPM:File>Encode::Config.3</QPM:File>
+                           <QPM:File>Encode::EBCDIC.3</QPM:File>
+                           <QPM:File>Encode::Encoder.3</QPM:File>
+                           <QPM:File>Encode::Encoding.3</QPM:File>
+                           <QPM:File>Encode::Guess.3</QPM:File>
+                           <QPM:File>Encode::JP.3</QPM:File>
+                           <QPM:File>Encode::JP::H2Z.3</QPM:File>
+                           <QPM:File>Encode::JP::JIS7.3</QPM:File>
+                           <QPM:File>Encode::KR.3</QPM:File>
+                           <QPM:File>Encode::KR::2022_KR.3</QPM:File>
+                           <QPM:File>Encode::MIME::Header.3</QPM:File>
+                           <QPM:File>Encode::PerlIO.3</QPM:File>
+                           <QPM:File>Encode::Supported.3</QPM:File>
+                           <QPM:File>Encode::Symbol.3</QPM:File>
+                           <QPM:File>Encode::TW.3</QPM:File>
+                           <QPM:File>Encode::Unicode.3</QPM:File>
+                           <QPM:File>English.3</QPM:File>
+                           <QPM:File>Env.3</QPM:File>
+                           <QPM:File>Errno.3</QPM:File>
+                           <QPM:File>Exporter.3</QPM:File>
+                           <QPM:File>Exporter::Heavy.3</QPM:File>
+                           <QPM:File>ExtUtils::Command.3</QPM:File>
+                           <QPM:File>ExtUtils::Command::MM.3</QPM:File>
+                           <QPM:File>ExtUtils::Constant.3</QPM:File>
+                           <QPM:File>ExtUtils::Embed.3</QPM:File>
+                           <QPM:File>ExtUtils::Install.3</QPM:File>
+                           <QPM:File>ExtUtils::Installed.3</QPM:File>
+                           <QPM:File>ExtUtils::Liblist.3</QPM:File>
+                           <QPM:File>ExtUtils::Liblist::Kid.3</QPM:File>
+                           <QPM:File>ExtUtils::MM.3</QPM:File>
+                           <QPM:File>ExtUtils::MM_Any.3</QPM:File>
+                           <QPM:File>ExtUtils::MM_BeOS.3</QPM:File>
+                           <QPM:File>ExtUtils::MM_Cygwin.3</QPM:File>
+                           <QPM:File>ExtUtils::MM_DOS.3</QPM:File>
+                           <QPM:File>ExtUtils::MM_MacOS.3</QPM:File>
+                           <QPM:File>ExtUtils::MM_NW5.3</QPM:File>
+                           <QPM:File>ExtUtils::MM_OS2.3</QPM:File>
+                           <QPM:File>ExtUtils::MM_UWIN.3</QPM:File>
+                           <QPM:File>ExtUtils::MM_Unix.3</QPM:File>
+                           <QPM:File>ExtUtils::MM_VMS.3</QPM:File>
+                           <QPM:File>ExtUtils::MM_Win32.3</QPM:File>
+                           <QPM:File>ExtUtils::MM_Win95.3</QPM:File>
+                           <QPM:File>ExtUtils::MY.3</QPM:File>
+                           <QPM:File>ExtUtils::MakeMaker.3</QPM:File>
+                           <QPM:File>ExtUtils::Manifest.3</QPM:File>
+                           <QPM:File>ExtUtils::Miniperl.3</QPM:File>
+                           <QPM:File>ExtUtils::Mkbootstrap.3</QPM:File>
+                           <QPM:File>ExtUtils::Mksymlists.3</QPM:File>
+                           <QPM:File>ExtUtils::Packlist.3</QPM:File>
+                           <QPM:File>ExtUtils::testlib.3</QPM:File>
+                           <QPM:File>Fatal.3</QPM:File>
+                           <QPM:File>Fcntl.3</QPM:File>
+                           <QPM:File>File::Basename.3</QPM:File>
+                           <QPM:File>File::CheckTree.3</QPM:File>
+                           <QPM:File>File::Compare.3</QPM:File>
+                           <QPM:File>File::Copy.3</QPM:File>
+                           <QPM:File>File::DosGlob.3</QPM:File>
+                           <QPM:File>File::Find.3</QPM:File>
+                           <QPM:File>File::Glob.3</QPM:File>
+                           <QPM:File>File::Path.3</QPM:File>
+                           <QPM:File>File::Spec.3</QPM:File>
+                           <QPM:File>File::Spec::Cygwin.3</QPM:File>
+                           <QPM:File>File::Spec::Epoc.3</QPM:File>
+                           <QPM:File>File::Spec::Functions.3</QPM:File>
+                           <QPM:File>File::Spec::Mac.3</QPM:File>
+                           <QPM:File>File::Spec::OS2.3</QPM:File>
+                           <QPM:File>File::Spec::Unix.3</QPM:File>
+                           <QPM:File>File::Spec::VMS.3</QPM:File>
+                           <QPM:File>File::Spec::Win32.3</QPM:File>
+                           <QPM:File>File::Temp.3</QPM:File>
+                           <QPM:File>File::stat.3</QPM:File>
+                           <QPM:File>FileCache.3</QPM:File>
+                           <QPM:File>FileHandle.3</QPM:File>
+                           <QPM:File>Filter::Simple.3</QPM:File>
+                           <QPM:File>Filter::Util::Call.3</QPM:File>
+                           <QPM:File>FindBin.3</QPM:File>
+                           <QPM:File>Getopt::Long.3</QPM:File>
+                           <QPM:File>Getopt::Std.3</QPM:File>
+                           <QPM:File>Hash::Util.3</QPM:File>
+                           <QPM:File>I18N::Collate.3</QPM:File>
+                           <QPM:File>I18N::LangTags.3</QPM:File>
+                           <QPM:File>I18N::LangTags::List.3</QPM:File>
+                           <QPM:File>IO.3</QPM:File>
+                           <QPM:File>IO::Dir.3</QPM:File>
+                           <QPM:File>IO::File.3</QPM:File>
+                           <QPM:File>IO::Handle.3</QPM:File>
+                           <QPM:File>IO::Pipe.3</QPM:File>
+                           <QPM:File>IO::Poll.3</QPM:File>
+                           <QPM:File>IO::Seekable.3</QPM:File>
+                           <QPM:File>IO::Select.3</QPM:File>
+                           <QPM:File>IO::Socket.3</QPM:File>
+                           <QPM:File>IO::Socket::INET.3</QPM:File>
+                           <QPM:File>IO::Socket::UNIX.3</QPM:File>
+                           <QPM:File>IPC::Open2.3</QPM:File>
+                           <QPM:File>IPC::Open3.3</QPM:File>
+                           <QPM:File>List::Util.3</QPM:File>
+                           <QPM:File>Locale::Constants.3</QPM:File>
+                           <QPM:File>Locale::Country.3</QPM:File>
+                           <QPM:File>Locale::Currency.3</QPM:File>
+                           <QPM:File>Locale::Language.3</QPM:File>
+                           <QPM:File>Locale::Maketext.3</QPM:File>
+                           <QPM:File>Locale::Maketext::TPJ13.3</QPM:File>
+                           <QPM:File>Locale::Script.3</QPM:File>
+                           <QPM:File>MIME::Base64.3</QPM:File>
+                           <QPM:File>MIME::QuotedPrint.3</QPM:File>
+                           <QPM:File>Math::BigFloat.3</QPM:File>
+                           <QPM:File>Math::BigFloat::Trace.3</QPM:File>
+                           <QPM:File>Math::BigInt.3</QPM:File>
+                           <QPM:File>Math::BigInt::Calc.3</QPM:File>
+                           <QPM:File>Math::BigInt::Trace.3</QPM:File>
+                           <QPM:File>Math::BigRat.3</QPM:File>
+                           <QPM:File>Math::Complex.3</QPM:File>
+                           <QPM:File>Math::Trig.3</QPM:File>
+                           <QPM:File>Memoize.3</QPM:File>
+                           <QPM:File>Memoize::AnyDBM_File.3</QPM:File>
+                           <QPM:File>Memoize::Expire.3</QPM:File>
+                           <QPM:File>Memoize::ExpireFile.3</QPM:File>
+                           <QPM:File>Memoize::ExpireTest.3</QPM:File>
+                           <QPM:File>Memoize::NDBM_File.3</QPM:File>
+                           <QPM:File>Memoize::SDBM_File.3</QPM:File>
+                           <QPM:File>Memoize::Storable.3</QPM:File>
+                           <QPM:File>NEXT.3</QPM:File>
+                           <QPM:File>Net::Cmd.3</QPM:File>
+                           <QPM:File>Net::Config.3</QPM:File>
+                           <QPM:File>Net::Domain.3</QPM:File>
+                           <QPM:File>Net::FTP.3</QPM:File>
+                           <QPM:File>Net::FTP::A.3</QPM:File>
+                           <QPM:File>Net::FTP::E.3</QPM:File>
+                           <QPM:File>Net::FTP::I.3</QPM:File>
+                           <QPM:File>Net::FTP::L.3</QPM:File>
+                           <QPM:File>Net::FTP::dataconn.3</QPM:File>
+                           <QPM:File>Net::NNTP.3</QPM:File>
+                           <QPM:File>Net::Netrc.3</QPM:File>
+                           <QPM:File>Net::POP3.3</QPM:File>
+                           <QPM:File>Net::Ping.3</QPM:File>
+                           <QPM:File>Net::SMTP.3</QPM:File>
+                           <QPM:File>Net::Time.3</QPM:File>
+                           <QPM:File>Net::hostent.3</QPM:File>
+                           <QPM:File>Net::libnetFAQ.3</QPM:File>
+                           <QPM:File>Net::netent.3</QPM:File>
+                           <QPM:File>Net::protoent.3</QPM:File>
+                           <QPM:File>Net::servent.3</QPM:File>
+                           <QPM:File>O.3</QPM:File>
+                           <QPM:File>Opcode.3</QPM:File>
+                           <QPM:File>POSIX.3</QPM:File>
+                           <QPM:File>PerlIO.3</QPM:File>
+                           <QPM:File>PerlIO::encoding.3</QPM:File>
+                           <QPM:File>PerlIO::scalar.3</QPM:File>
+                           <QPM:File>PerlIO::via.3</QPM:File>
+                           <QPM:File>PerlIO::via::QuotedPrint.3</QPM:File>
+                           <QPM:File>Pod::Checker.3</QPM:File>
+                           <QPM:File>Pod::Find.3</QPM:File>
+                           <QPM:File>Pod::Html.3</QPM:File>
+                           <QPM:File>Pod::InputObjects.3</QPM:File>
+                           <QPM:File>Pod::LaTeX.3</QPM:File>
+                           <QPM:File>Pod::Man.3</QPM:File>
+                           <QPM:File>Pod::ParseLink.3</QPM:File>
+                           <QPM:File>Pod::ParseUtils.3</QPM:File>
+                           <QPM:File>Pod::Parser.3</QPM:File>
+                           <QPM:File>Pod::Plainer.3</QPM:File>
+                           <QPM:File>Pod::Select.3</QPM:File>
+                           <QPM:File>Pod::Text.3</QPM:File>
+                           <QPM:File>Pod::Text::Color.3</QPM:File>
+                           <QPM:File>Pod::Text::Overstrike.3</QPM:File>
+                           <QPM:File>Pod::Text::Termcap.3</QPM:File>
+                           <QPM:File>Pod::Usage.3</QPM:File>
+                           <QPM:File>SDBM_File.3</QPM:File>
+                           <QPM:File>Safe.3</QPM:File>
+                           <QPM:File>Scalar::Util.3</QPM:File>
+                           <QPM:File>Search::Dict.3</QPM:File>
+                           <QPM:File>SelectSaver.3</QPM:File>
+                           <QPM:File>SelfLoader.3</QPM:File>
+                           <QPM:File>Shell.3</QPM:File>
+                           <QPM:File>Socket.3</QPM:File>
+                           <QPM:File>Storable.3</QPM:File>
+                           <QPM:File>Switch.3</QPM:File>
+                           <QPM:File>Symbol.3</QPM:File>
+                           <QPM:File>Sys::Hostname.3</QPM:File>
+                           <QPM:File>Sys::Syslog.3</QPM:File>
+                           <QPM:File>Term::ANSIColor.3</QPM:File>
+                           <QPM:File>Term::Cap.3</QPM:File>
+                           <QPM:File>Term::Complete.3</QPM:File>
+                           <QPM:File>Term::ReadLine.3</QPM:File>
+                           <QPM:File>Test.3</QPM:File>
+                           <QPM:File>Test::Builder.3</QPM:File>
+                           <QPM:File>Test::Harness.3</QPM:File>
+                           <QPM:File>Test::Harness::Assert.3</QPM:File>
+                           <QPM:File>Test::Harness::Iterator.3</QPM:File>
+                           <QPM:File>Test::Harness::Straps.3</QPM:File>
+                           <QPM:File>Test::More.3</QPM:File>
+                           <QPM:File>Test::Simple.3</QPM:File>
+                           <QPM:File>Test::Tutorial.3</QPM:File>
+                           <QPM:File>Text::Abbrev.3</QPM:File>
+                           <QPM:File>Text::Balanced.3</QPM:File>
+                           <QPM:File>Text::ParseWords.3</QPM:File>
+                           <QPM:File>Text::Soundex.3</QPM:File>
+                           <QPM:File>Text::Tabs.3</QPM:File>
+                           <QPM:File>Text::Wrap.3</QPM:File>
+                           <QPM:File>Thread.3</QPM:File>
+                           <QPM:File>Thread::Queue.3</QPM:File>
+                           <QPM:File>Thread::Semaphore.3</QPM:File>
+                           <QPM:File>Tie::Array.3</QPM:File>
+                           <QPM:File>Tie::File.3</QPM:File>
+                           <QPM:File>Tie::Handle.3</QPM:File>
+                           <QPM:File>Tie::Hash.3</QPM:File>
+                           <QPM:File>Tie::Memoize.3</QPM:File>
+                           <QPM:File>Tie::RefHash.3</QPM:File>
+                           <QPM:File>Tie::Scalar.3</QPM:File>
+                           <QPM:File>Tie::SubstrHash.3</QPM:File>
+                           <QPM:File>Time::HiRes.3</QPM:File>
+                           <QPM:File>Time::Local.3</QPM:File>
+                           <QPM:File>Time::gmtime.3</QPM:File>
+                           <QPM:File>Time::localtime.3</QPM:File>
+                           <QPM:File>Time::tm.3</QPM:File>
+                           <QPM:File>UNIVERSAL.3</QPM:File>
+                           <QPM:File>Unicode::Collate.3</QPM:File>
+                           <QPM:File>Unicode::Normalize.3</QPM:File>
+                           <QPM:File>Unicode::UCD.3</QPM:File>
+                           <QPM:File>User::grent.3</QPM:File>
+                           <QPM:File>User::pwent.3</QPM:File>
+                           <QPM:File>Win32.3</QPM:File>
+                           <QPM:File>XS::APItest.3</QPM:File>
+                           <QPM:File>XS::Typemap.3</QPM:File>
+                           <QPM:File>XSLoader.3</QPM:File>
+                           <QPM:File>attributes.3</QPM:File>
+                           <QPM:File>attrs.3</QPM:File>
+                           <QPM:File>autouse.3</QPM:File>
+                           <QPM:File>base.3</QPM:File>
+                           <QPM:File>bigint.3</QPM:File>
+                           <QPM:File>bignum.3</QPM:File>
+                           <QPM:File>bigrat.3</QPM:File>
+                           <QPM:File>blib.3</QPM:File>
+                           <QPM:File>bytes.3</QPM:File>
+                           <QPM:File>charnames.3</QPM:File>
+                           <QPM:File>constant.3</QPM:File>
+                           <QPM:File>diagnostics.3</QPM:File>
+                           <QPM:File>encoding.3</QPM:File>
+                           <QPM:File>fields.3</QPM:File>
+                           <QPM:File>filetest.3</QPM:File>
+                           <QPM:File>if.3</QPM:File>
+                           <QPM:File>integer.3</QPM:File>
+                           <QPM:File>less.3</QPM:File>
+                           <QPM:File>lib.3</QPM:File>
+                           <QPM:File>locale.3</QPM:File>
+                           <QPM:File>open.3</QPM:File>
+                           <QPM:File>ops.3</QPM:File>
+                           <QPM:File>overload.3</QPM:File>
+                           <QPM:File>re.3</QPM:File>
+                           <QPM:File>sigtrap.3</QPM:File>
+                           <QPM:File>sort.3</QPM:File>
+                           <QPM:File>strict.3</QPM:File>
+                           <QPM:File>subs.3</QPM:File>
+                           <QPM:File>threads.3</QPM:File>
+                           <QPM:File>threads::shared.3</QPM:File>
+                           <QPM:File>utf8.3</QPM:File>
+                           <QPM:File>vars.3</QPM:File>
+                           <QPM:File>vmsish.3</QPM:File>
+                           <QPM:File>warnings.3</QPM:File>
+                           <QPM:File>warnings::register.3</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../opt/bin">bin</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/lib">lib</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="lib">
+                     <QPM:Dir name="perl5">
+                        <QPM:Union link="../../../opt/lib/perl5/5.8.0">5.8.0</QPM:Union>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="man">
+                        <QPM:Union link="../../../opt/share/man/man3">man3</QPM:Union>
+                        <QPM:Union link="../../../opt/share/man/man1">man1</QPM:Union>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

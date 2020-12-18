@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageName>JFSolitaire-slib-1.0-ppcbe-JF</QPM:PackageName>
+            <QPM:PackageSize>3222</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>26</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseNotes/>
+            <QPM:PackageReleaseUrgency>Medium</QPM:PackageReleaseUrgency>
+            <QPM:PackageReleaseDate>2001/12/18</QPM:PackageReleaseDate>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:PackageRepository>http://www.altbits.com/jfehr/repository</QPM:PackageRepository>
+            <QPM:FileVersion>1.00</QPM:FileVersion>
+            <QPM:PackageDefaultState>hidden</QPM:PackageDefaultState>
+            <QPM:PackageModel>slib</QPM:PackageModel>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>6178</QPM:ProductSize>
+            <QPM:InstallPath>JF/JFSolitaire/slib-1.0/ppcbe</QPM:InstallPath>
+            <QPM:ProductName>Just for Fun Solitaire shared libraries for ppcbe</QPM:ProductName>
+            <QPM:ProductIdentifier>JFSolitaire-slib-host_ppcbe</QPM:ProductIdentifier>
+            <QPM:ProductEmail>jfehr@altbits.com</QPM:ProductEmail>
+            <QPM:VendorName>JF</QPM:VendorName>
+            <QPM:VendorInstallName>JF</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.altbits.com/jfehr/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>JF</QPM:AuthorName>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Just for Fun Solitaire!</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong/>
+            <QPM:ProductDescriptionURL/>
+            <QPM:ProductDescriptionEmbedURL/>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2001/12/10</QPM:ReleaseDate>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ReleaseVersion>1.0</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Low</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Beta</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:QNXLicenseDescription/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>JFSolitaire-slib</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:Processor>ppcbe</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:ProvidesLibrary>libJFS.so.1</QPM:ProvidesLibrary>
+            <QPM:ContentTopic>System/Shared Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>pglib,solitaire,freecell,klondike,yukon</QPM:ContentKeyword>
+            <QPM:DisplayEnvironment>Photon</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:LicenseUrl>rep://JFSolitaire-1.0-JF.repdata/LicenseUrl/JFS_Copyright.txt</QPM:LicenseUrl>
+      </QPM:PackageManifest>
+   </RDF:Description>
+</RDF:RDF>

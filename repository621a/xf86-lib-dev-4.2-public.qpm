@@ -1,0 +1,514 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:PackageName>xf86-lib-dev-4.2-public</QPM:PackageName>
+            <QPM:PackageSize>612911</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/02/16</QPM:PackageReleaseDate>
+            <QPM:PackageRepository>http://qnx.wox.org/qnxpub621/</QPM:PackageRepository>
+            <QPM:PackageModel>dev</QPM:PackageModel>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>XFree86 Libs Development</QPM:ProductName>
+            <QPM:ProductSize>3773476</QPM:ProductSize>
+            <QPM:ProductIdentifier>xf86-lib-dev</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>XFree86</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.xfree86.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>XFree86 libraries.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>This package contains the standard X11R6 and XFree86 runtime and development libraries.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.xfree86.org/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/xf86-lib/dev-4.2</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/02/16</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>4.2</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>MIT License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl/>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>System/Services, Servers and Daemons/X Servers</QPM:ContentTopic>
+            <QPM:ContentKeyword>xfree86,X11R6,X11</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>Needs the base package.</QPM:Notes>
+               <QPM:Product>xf86-base</QPM:Product>
+               <QPM:Vendor>public</QPM:Vendor>
+               <QPM:ProductHomeRepository/>
+            </QPM:Dependency>
+
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>Must include at least one development package targeting a specific processor (Packager-generated dependency).</QPM:Notes>
+               <QPM:Filter>
+                  <QPM:FilterType>StringExpression</QPM:FilterType>
+                  <ProductIdentifier>xf86-lib-dev-target*</ProductIdentifier>
+               </QPM:Filter>
+            </QPM:Dependency>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="X11R6">
+                     <QPM:Dir name="include">
+                        <QPM:Dir name="DPS">
+                           <QPM:File>ColorSB.h</QPM:File>
+                           <QPM:File>ColorSBP.h</QPM:File>
+                           <QPM:File>DPSScrollW.h</QPM:File>
+                           <QPM:File>DPSScrollWP.h</QPM:File>
+                           <QPM:File>FontCreatP.h</QPM:File>
+                           <QPM:File>FontCreato.h</QPM:File>
+                           <QPM:File>FontSB.h</QPM:File>
+                           <QPM:File>FontSBP.h</QPM:File>
+                           <QPM:File>FontSamplP.h</QPM:File>
+                           <QPM:File>FontSample.h</QPM:File>
+                           <QPM:File>PSres.h</QPM:File>
+                           <QPM:File>XDPS.h</QPM:File>
+                           <QPM:File>XDPSlib.h</QPM:File>
+                           <QPM:File>XDPSproto.h</QPM:File>
+                           <QPM:File>dpsNXargs.h</QPM:File>
+                           <QPM:File>dpsXclient.h</QPM:File>
+                           <QPM:File>dpsXcommon.h</QPM:File>
+                           <QPM:File>dpsXpreview.h</QPM:File>
+                           <QPM:File>dpsXshare.h</QPM:File>
+                           <QPM:File>dpsXuserpath.h</QPM:File>
+                           <QPM:File>dpsclient.h</QPM:File>
+                           <QPM:File>dpsconfig.h</QPM:File>
+                           <QPM:File>dpsexcept.h</QPM:File>
+                           <QPM:File>dpsfriends.h</QPM:File>
+                           <QPM:File>dpsops.h</QPM:File>
+                           <QPM:File>psops.h</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="GL">
+                           <QPM:File>GLwDrawA.h</QPM:File>
+                           <QPM:File>GLwDrawAP.h</QPM:File>
+                           <QPM:File>GLwMDrawA.h</QPM:File>
+                           <QPM:File>GLwMDrawAP.h</QPM:File>
+                           <QPM:File>gl.h</QPM:File>
+                           <QPM:File>glext.h</QPM:File>
+                           <QPM:File>glu.h</QPM:File>
+                           <QPM:File>glx.h</QPM:File>
+                           <QPM:File>glxint.h</QPM:File>
+                           <QPM:File>glxmd.h</QPM:File>
+                           <QPM:File>glxproto.h</QPM:File>
+                           <QPM:File>glxtokens.h</QPM:File>
+                           <QPM:File>osmesa.h</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="X11">
+                           <QPM:File>Composite.h</QPM:File>
+                           <QPM:File>CompositeP.h</QPM:File>
+                           <QPM:File>ConstrainP.h</QPM:File>
+                           <QPM:File>Constraint.h</QPM:File>
+                           <QPM:File>Core.h</QPM:File>
+                           <QPM:File>CoreP.h</QPM:File>
+                           <QPM:File>DECkeysym.h</QPM:File>
+                           <QPM:File>HPkeysym.h</QPM:File>
+                           <QPM:Dir name="ICE">
+                              <QPM:File>ICE.h</QPM:File>
+                              <QPM:File>ICEconn.h</QPM:File>
+                              <QPM:File>ICElib.h</QPM:File>
+                              <QPM:File>ICEmsg.h</QPM:File>
+                              <QPM:File>ICEproto.h</QPM:File>
+                              <QPM:File>ICEutil.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>Intrinsic.h</QPM:File>
+                           <QPM:File>IntrinsicP.h</QPM:File>
+                           <QPM:File>Object.h</QPM:File>
+                           <QPM:File>ObjectP.h</QPM:File>
+                           <QPM:Dir name="PM">
+                              <QPM:File>PM.h</QPM:File>
+                              <QPM:File>PMproto.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>RectObj.h</QPM:File>
+                           <QPM:File>RectObjP.h</QPM:File>
+                           <QPM:Dir name="SM">
+                              <QPM:File>SM.h</QPM:File>
+                              <QPM:File>SMlib.h</QPM:File>
+                              <QPM:File>SMproto.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>Shell.h</QPM:File>
+                           <QPM:File>ShellP.h</QPM:File>
+                           <QPM:File>StringDefs.h</QPM:File>
+                           <QPM:File>Sunkeysym.h</QPM:File>
+                           <QPM:File>Vendor.h</QPM:File>
+                           <QPM:File>VendorP.h</QPM:File>
+                           <QPM:File>X.h</QPM:File>
+                           <QPM:File>X10.h</QPM:File>
+                           <QPM:File>XF86keysym.h</QPM:File>
+                           <QPM:File>XKBlib.h</QPM:File>
+                           <QPM:File>XWDFile.h</QPM:File>
+                           <QPM:File>Xalloca.h</QPM:File>
+                           <QPM:File>Xarch.h</QPM:File>
+                           <QPM:File>Xatom.h</QPM:File>
+                           <QPM:File>Xauth.h</QPM:File>
+                           <QPM:Dir name="Xaw">
+                              <QPM:File>AllWidgets.h</QPM:File>
+                              <QPM:File>AsciiSink.h</QPM:File>
+                              <QPM:File>AsciiSinkP.h</QPM:File>
+                              <QPM:File>AsciiSrc.h</QPM:File>
+                              <QPM:File>AsciiSrcP.h</QPM:File>
+                              <QPM:File>AsciiText.h</QPM:File>
+                              <QPM:File>AsciiTextP.h</QPM:File>
+                              <QPM:File>Box.h</QPM:File>
+                              <QPM:File>BoxP.h</QPM:File>
+                              <QPM:File>Cardinals.h</QPM:File>
+                              <QPM:File>Command.h</QPM:File>
+                              <QPM:File>CommandP.h</QPM:File>
+                              <QPM:File>Dialog.h</QPM:File>
+                              <QPM:File>DialogP.h</QPM:File>
+                              <QPM:File>Form.h</QPM:File>
+                              <QPM:File>FormP.h</QPM:File>
+                              <QPM:File>Grip.h</QPM:File>
+                              <QPM:File>GripP.h</QPM:File>
+                              <QPM:File>Label.h</QPM:File>
+                              <QPM:File>LabelP.h</QPM:File>
+                              <QPM:File>List.h</QPM:File>
+                              <QPM:File>ListP.h</QPM:File>
+                              <QPM:File>MenuButtoP.h</QPM:File>
+                              <QPM:File>MenuButton.h</QPM:File>
+                              <QPM:File>MultiSink.h</QPM:File>
+                              <QPM:File>MultiSinkP.h</QPM:File>
+                              <QPM:File>MultiSrc.h</QPM:File>
+                              <QPM:File>MultiSrcP.h</QPM:File>
+                              <QPM:File>Paned.h</QPM:File>
+                              <QPM:File>PanedP.h</QPM:File>
+                              <QPM:File>Panner.h</QPM:File>
+                              <QPM:File>PannerP.h</QPM:File>
+                              <QPM:File>Porthole.h</QPM:File>
+                              <QPM:File>PortholeP.h</QPM:File>
+                              <QPM:File>Repeater.h</QPM:File>
+                              <QPM:File>RepeaterP.h</QPM:File>
+                              <QPM:File>Reports.h</QPM:File>
+                              <QPM:File>Scrollbar.h</QPM:File>
+                              <QPM:File>ScrollbarP.h</QPM:File>
+                              <QPM:File>Simple.h</QPM:File>
+                              <QPM:File>SimpleMenP.h</QPM:File>
+                              <QPM:File>SimpleMenu.h</QPM:File>
+                              <QPM:File>SimpleP.h</QPM:File>
+                              <QPM:File>Sme.h</QPM:File>
+                              <QPM:File>SmeBSB.h</QPM:File>
+                              <QPM:File>SmeBSBP.h</QPM:File>
+                              <QPM:File>SmeLine.h</QPM:File>
+                              <QPM:File>SmeLineP.h</QPM:File>
+                              <QPM:File>SmeP.h</QPM:File>
+                              <QPM:File>StripCharP.h</QPM:File>
+                              <QPM:File>StripChart.h</QPM:File>
+                              <QPM:File>Template.h</QPM:File>
+                              <QPM:File>TemplateP.h</QPM:File>
+                              <QPM:File>Text.h</QPM:File>
+                              <QPM:File>TextP.h</QPM:File>
+                              <QPM:File>TextSink.h</QPM:File>
+                              <QPM:File>TextSinkP.h</QPM:File>
+                              <QPM:File>TextSrc.h</QPM:File>
+                              <QPM:File>TextSrcP.h</QPM:File>
+                              <QPM:File>Tip.h</QPM:File>
+                              <QPM:File>TipP.h</QPM:File>
+                              <QPM:File>Toggle.h</QPM:File>
+                              <QPM:File>ToggleP.h</QPM:File>
+                              <QPM:File>Tree.h</QPM:File>
+                              <QPM:File>TreeP.h</QPM:File>
+                              <QPM:File>VendorEP.h</QPM:File>
+                              <QPM:File>Viewport.h</QPM:File>
+                              <QPM:File>ViewportP.h</QPM:File>
+                              <QPM:File>XawImP.h</QPM:File>
+                              <QPM:File>XawInit.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>Xcms.h</QPM:File>
+                           <QPM:File>Xdefs.h</QPM:File>
+                           <QPM:File>Xdmcp.h</QPM:File>
+                           <QPM:Dir name="Xft">
+                              <QPM:File>Xft.h</QPM:File>
+                              <QPM:File>XftFreetype.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>Xfuncproto.h</QPM:File>
+                           <QPM:File>Xfuncs.h</QPM:File>
+                           <QPM:File>Xlib.h</QPM:File>
+                           <QPM:File>Xlibint.h</QPM:File>
+                           <QPM:File>Xlocale.h</QPM:File>
+                           <QPM:File>Xmd.h</QPM:File>
+                           <QPM:Dir name="Xmu">
+                              <QPM:File>Atoms.h</QPM:File>
+                              <QPM:File>CharSet.h</QPM:File>
+                              <QPM:File>CloseHook.h</QPM:File>
+                              <QPM:File>Converters.h</QPM:File>
+                              <QPM:File>CurUtil.h</QPM:File>
+                              <QPM:File>CvtCache.h</QPM:File>
+                              <QPM:File>DisplayQue.h</QPM:File>
+                              <QPM:File>Drawing.h</QPM:File>
+                              <QPM:File>Editres.h</QPM:File>
+                              <QPM:File>EditresP.h</QPM:File>
+                              <QPM:File>Error.h</QPM:File>
+                              <QPM:File>ExtAgent.h</QPM:File>
+                              <QPM:File>Initer.h</QPM:File>
+                              <QPM:File>Lookup.h</QPM:File>
+                              <QPM:File>Misc.h</QPM:File>
+                              <QPM:File>StdCmap.h</QPM:File>
+                              <QPM:File>StdSel.h</QPM:File>
+                              <QPM:File>SysUtil.h</QPM:File>
+                              <QPM:File>WidgetNode.h</QPM:File>
+                              <QPM:File>WinUtil.h</QPM:File>
+                              <QPM:File>Xct.h</QPM:File>
+                              <QPM:File>Xmu.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>Xos.h</QPM:File>
+                           <QPM:File>Xos_r.h</QPM:File>
+                           <QPM:File>Xosdefs.h</QPM:File>
+                           <QPM:File>Xpoll.h</QPM:File>
+                           <QPM:File>Xproto.h</QPM:File>
+                           <QPM:File>Xprotostr.h</QPM:File>
+                           <QPM:File>Xresource.h</QPM:File>
+                           <QPM:File>Xthreads.h</QPM:File>
+                           <QPM:File>Xutil.h</QPM:File>
+                           <QPM:File>ap_keysym.h</QPM:File>
+                           <QPM:File>cursorfont.h</QPM:File>
+                           <QPM:Dir name="extensions">
+                              <QPM:File>MITMisc.h</QPM:File>
+                              <QPM:File>Print.h</QPM:File>
+                              <QPM:File>Printstr.h</QPM:File>
+                              <QPM:File>XEVI.h</QPM:File>
+                              <QPM:File>XEVIstr.h</QPM:File>
+                              <QPM:File>XI.h</QPM:File>
+                              <QPM:File>XIE.h</QPM:File>
+                              <QPM:File>XIEproto.h</QPM:File>
+                              <QPM:File>XIEprotost.h</QPM:File>
+                              <QPM:File>XInput.h</QPM:File>
+                              <QPM:File>XIproto.h</QPM:File>
+                              <QPM:File>XKB.h</QPM:File>
+                              <QPM:File>XKBbells.h</QPM:File>
+                              <QPM:File>XKBconfig.h</QPM:File>
+                              <QPM:File>XKBfile.h</QPM:File>
+                              <QPM:File>XKBgeom.h</QPM:File>
+                              <QPM:File>XKBproto.h</QPM:File>
+                              <QPM:File>XKBrules.h</QPM:File>
+                              <QPM:File>XKBsrv.h</QPM:File>
+                              <QPM:File>XKBstr.h</QPM:File>
+                              <QPM:File>XKBui.h</QPM:File>
+                              <QPM:File>XKM.h</QPM:File>
+                              <QPM:File>XKMformat.h</QPM:File>
+                              <QPM:File>XLbx.h</QPM:File>
+                              <QPM:File>XShm.h</QPM:File>
+                              <QPM:File>XTest.h</QPM:File>
+                              <QPM:File>Xag.h</QPM:File>
+                              <QPM:File>Xagsrv.h</QPM:File>
+                              <QPM:File>Xagstr.h</QPM:File>
+                              <QPM:File>Xcup.h</QPM:File>
+                              <QPM:File>Xcupstr.h</QPM:File>
+                              <QPM:File>Xdbe.h</QPM:File>
+                              <QPM:File>Xdbeproto.h</QPM:File>
+                              <QPM:File>Xext.h</QPM:File>
+                              <QPM:File>Xinerama.h</QPM:File>
+                              <QPM:File>Xrandr.h</QPM:File>
+                              <QPM:File>Xrender.h</QPM:File>
+                              <QPM:File>Xv.h</QPM:File>
+                              <QPM:File>XvMC.h</QPM:File>
+                              <QPM:File>XvMClib.h</QPM:File>
+                              <QPM:File>XvMCproto.h</QPM:File>
+                              <QPM:File>Xvlib.h</QPM:File>
+                              <QPM:File>Xvproto.h</QPM:File>
+                              <QPM:File>dpms.h</QPM:File>
+                              <QPM:File>dpmsstr.h</QPM:File>
+                              <QPM:File>fontcache.h</QPM:File>
+                              <QPM:File>fontcacheP.h</QPM:File>
+                              <QPM:File>fontcachstr.h</QPM:File>
+                              <QPM:File>lbxbuf.h</QPM:File>
+                              <QPM:File>lbxbufstr.h</QPM:File>
+                              <QPM:File>lbxdeltastr.h</QPM:File>
+                              <QPM:File>lbximage.h</QPM:File>
+                              <QPM:File>lbxopts.h</QPM:File>
+                              <QPM:File>lbxstr.h</QPM:File>
+                              <QPM:File>lbxzlib.h</QPM:File>
+                              <QPM:File>multibuf.h</QPM:File>
+                              <QPM:File>panoramiXext.h</QPM:File>
+                              <QPM:File>panoramiXproto.h</QPM:File>
+                              <QPM:File>randr.h</QPM:File>
+                              <QPM:File>randrproto.h</QPM:File>
+                              <QPM:File>record.h</QPM:File>
+                              <QPM:File>recordstr.h</QPM:File>
+                              <QPM:File>render.h</QPM:File>
+                              <QPM:File>renderproto.h</QPM:File>
+                              <QPM:File>saver.h</QPM:File>
+                              <QPM:File>saverproto.h</QPM:File>
+                              <QPM:File>scrnsaver.h</QPM:File>
+                              <QPM:File>security.h</QPM:File>
+                              <QPM:File>securstr.h</QPM:File>
+                              <QPM:File>shape.h</QPM:File>
+                              <QPM:File>sync.h</QPM:File>
+                              <QPM:File>xf86bigfont.h</QPM:File>
+                              <QPM:File>xf86bigfstr.h</QPM:File>
+                              <QPM:File>xf86dga.h</QPM:File>
+                              <QPM:File>xf86dga1.h</QPM:File>
+                              <QPM:File>xf86dga1str.h</QPM:File>
+                              <QPM:File>xf86dgastr.h</QPM:File>
+                              <QPM:File>xf86misc.h</QPM:File>
+                              <QPM:File>xf86mscstr.h</QPM:File>
+                              <QPM:File>xf86vmode.h</QPM:File>
+                              <QPM:File>xf86vmstr.h</QPM:File>
+                              <QPM:File>xtestext1.h</QPM:File>
+                              <QPM:File>xtrapbits.h</QPM:File>
+                              <QPM:File>xtrapddmi.h</QPM:File>
+                              <QPM:File>xtrapdi.h</QPM:File>
+                              <QPM:File>xtrapemacros.h</QPM:File>
+                              <QPM:File>xtraplib.h</QPM:File>
+                              <QPM:File>xtraplibp.h</QPM:File>
+                              <QPM:File>xtrapproto.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="fonts">
+                              <QPM:File>FS.h</QPM:File>
+                              <QPM:File>FSlib.h</QPM:File>
+                              <QPM:File>FSproto.h</QPM:File>
+                              <QPM:Dir name="codeconv">
+                                 <QPM:File>cconvversion.h</QPM:File>
+                                 <QPM:File>xttcap.h</QPM:File>
+                                 <QPM:File>xttcconv.h</QPM:File>
+                                 <QPM:File>xttcconvP.h</QPM:File>
+                                 <QPM:File>xttcommon.h</QPM:File>
+                                 <QPM:File>xttversion.h</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>fontenc.h</QPM:File>
+                              <QPM:File>fsmasks.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>keysym.h</QPM:File>
+                           <QPM:File>keysymdef.h</QPM:File>
+                           <QPM:File>xpm.h</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="freetype2">
+                           <QPM:Dir name="freetype">
+                              <QPM:Dir name="cache">
+                                 <QPM:File>ftcglyph.h</QPM:File>
+                                 <QPM:File>ftcimage.h</QPM:File>
+                                 <QPM:File>ftcmanag.h</QPM:File>
+                                 <QPM:File>ftcsbits.h</QPM:File>
+                                 <QPM:File>ftlru.h</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="config">
+                                 <QPM:File>ftconfig.h</QPM:File>
+                                 <QPM:File>ftheader.h</QPM:File>
+                                 <QPM:File>ftmodule.h</QPM:File>
+                                 <QPM:File>ftoption.h</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>freetype.h</QPM:File>
+                              <QPM:File>ftbbox.h</QPM:File>
+                              <QPM:File>ftcache.h</QPM:File>
+                              <QPM:File>ftchapters.h</QPM:File>
+                              <QPM:File>fterrors.h</QPM:File>
+                              <QPM:File>ftglyph.h</QPM:File>
+                              <QPM:File>ftimage.h</QPM:File>
+                              <QPM:File>ftlist.h</QPM:File>
+                              <QPM:File>ftmac.h</QPM:File>
+                              <QPM:File>ftmm.h</QPM:File>
+                              <QPM:File>ftmoderr.h</QPM:File>
+                              <QPM:File>ftmodule.h</QPM:File>
+                              <QPM:File>ftoutln.h</QPM:File>
+                              <QPM:File>ftrender.h</QPM:File>
+                              <QPM:File>ftsizes.h</QPM:File>
+                              <QPM:File>ftsnames.h</QPM:File>
+                              <QPM:File>ftsynth.h</QPM:File>
+                              <QPM:File>ftsystem.h</QPM:File>
+                              <QPM:File>fttrigon.h</QPM:File>
+                              <QPM:File>fttypes.h</QPM:File>
+                              <QPM:Dir name="internal">
+                                 <QPM:File>autohint.h</QPM:File>
+                                 <QPM:File>cfftypes.h</QPM:File>
+                                 <QPM:File>fnttypes.h</QPM:File>
+                                 <QPM:File>ftcalc.h</QPM:File>
+                                 <QPM:File>ftdebug.h</QPM:File>
+                                 <QPM:File>ftdriver.h</QPM:File>
+                                 <QPM:File>ftextend.h</QPM:File>
+                                 <QPM:File>ftmemory.h</QPM:File>
+                                 <QPM:File>ftobjs.h</QPM:File>
+                                 <QPM:File>ftstream.h</QPM:File>
+                                 <QPM:File>internal.h</QPM:File>
+                                 <QPM:File>pcftypes.h</QPM:File>
+                                 <QPM:File>psaux.h</QPM:File>
+                                 <QPM:File>psglobal.h</QPM:File>
+                                 <QPM:File>pshints.h</QPM:File>
+                                 <QPM:File>psnames.h</QPM:File>
+                                 <QPM:File>sfnt.h</QPM:File>
+                                 <QPM:File>t1types.h</QPM:File>
+                                 <QPM:File>tttypes.h</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>t1tables.h</QPM:File>
+                              <QPM:File>ttnameid.h</QPM:File>
+                              <QPM:File>tttables.h</QPM:File>
+                              <QPM:File>tttags.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>ft2build.h</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>xf86Optrec.h</QPM:File>
+                        <QPM:File>xf86Parser.h</QPM:File>
+                        <QPM:File>zconf.h</QPM:File>
+                        <QPM:File>zlib.h</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

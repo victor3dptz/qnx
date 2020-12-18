@@ -1,0 +1,210 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>fvwm-2.4.6-public</QPM:PackageName>
+            <QPM:PackageSize>340248</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2002/05/26</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>1.01</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>FVWM (Franks Virtural Window Manager)</QPM:ProductName>
+            <QPM:ProductSize>1271792</QPM:ProductSize>
+            <QPM:ProductIdentifier>fvwm</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Travis S Coady</QPM:AuthorName>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>A Window Manager for X11.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>A Window Manager for X11.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL/>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/fvwm/core-2.4.6</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/05/26</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>2.4.6</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Low</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>No License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Desktop Configuration/Window Managers</QPM:ContentTopic>
+            <QPM:ContentKeyword>Franks,Virtural,Window,Manager,Windowmanager</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:DisplayEnvironment>X11R6</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="X11R6">
+                     <QPM:Union link="../../$(PROCESSOR)/opt/X11R6/bin">bin</QPM:Union>
+                     <QPM:Dir name="bin">
+                        <QPM:File>fvwm-config</QPM:File>
+                        <QPM:File>fvwm-menu-desktop</QPM:File>
+                        <QPM:File>fvwm-menu-directory</QPM:File>
+                        <QPM:File>fvwm-menu-headlines</QPM:File>
+                        <QPM:File>fvwm-menu-xlock</QPM:File>
+                        <QPM:File>fvwm24_convert</QPM:File>
+                        <QPM:File>fvwmbug</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="lib">
+                        <QPM:Dir name="X11">
+                           <QPM:Dir name="fvwm2">
+                              <QPM:Union link="../../../../../$(PROCESSOR)/opt/X11R6/lib/X11/fvwm2/libexec">libexec</QPM:Union>
+                              <QPM:Dir name="libexec">
+                                 <QPM:File>FvwmCascade</QPM:File>
+                                 <QPM:File>FvwmCommand.pm</QPM:File>
+                                 <QPM:File>FvwmCommand.sh</QPM:File>
+                                 <QPM:File>FvwmConsoleC.pl</QPM:File>
+                                 <QPM:File>FvwmTalk</QPM:File>
+                                 <QPM:File>FvwmTile</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="samples">
+                                 <QPM:File>DecorMwm</QPM:File>
+                                 <QPM:File>DecorWin95</QPM:File>
+                                 <QPM:File>Makefile</QPM:File>
+                                 <QPM:File>Makefile.am</QPM:File>
+                                 <QPM:File>Makefile.in</QPM:File>
+                                 <QPM:File>decor_examples</QPM:File>
+                                 <QPM:File>new-features</QPM:File>
+                                 <QPM:File>system.fvwm2rc</QPM:File>
+                                 <QPM:File>system.fvwm2rc-sample-1</QPM:File>
+                                 <QPM:File>system.fvwm2rc-sample-2</QPM:File>
+                                 <QPM:File>system.fvwm2rc-sample-95</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="share">
+                                 <QPM:File>ConfigFvwmBacker</QPM:File>
+                                 <QPM:File>ConfigFvwmButtons</QPM:File>
+                                 <QPM:File>ConfigFvwmDefaults</QPM:File>
+                                 <QPM:File>ConfigFvwmIconBox</QPM:File>
+                                 <QPM:File>ConfigFvwmIconMan</QPM:File>
+                                 <QPM:File>ConfigFvwmIdent</QPM:File>
+                                 <QPM:File>ConfigFvwmPager</QPM:File>
+                                 <QPM:File>ConfigFvwmScroll</QPM:File>
+                                 <QPM:File>ConfigFvwmSetup</QPM:File>
+                                 <QPM:File>ConfigFvwmTaskBar</QPM:File>
+                                 <QPM:File>ConfigFvwmWinList</QPM:File>
+                                 <QPM:File>FvwmForm-Capture</QPM:File>
+                                 <QPM:File>FvwmForm-Form</QPM:File>
+                                 <QPM:File>FvwmForm-QuitVerify</QPM:File>
+                                 <QPM:File>FvwmForm-Rlogin</QPM:File>
+                                 <QPM:File>FvwmForm-RootCursor</QPM:File>
+                                 <QPM:File>FvwmForm-Setup</QPM:File>
+                                 <QPM:File>FvwmForm-Talk</QPM:File>
+                                 <QPM:File>FvwmForm-TalkHelp</QPM:File>
+                                 <QPM:File>FvwmScript-BaseConfig</QPM:File>
+                                 <QPM:File>FvwmScript-BellSetup</QPM:File>
+                                 <QPM:File>FvwmScript-Buttons</QPM:File>
+                                 <QPM:File>FvwmScript-Colorset</QPM:File>
+                                 <QPM:File>FvwmScript-ComExample</QPM:File>
+                                 <QPM:File>FvwmScript-Date</QPM:File>
+                                 <QPM:File>FvwmScript-FileBrowser</QPM:File>
+                                 <QPM:File>FvwmScript-Find</QPM:File>
+                                 <QPM:File>FvwmScript-KeyboardSetup</QPM:File>
+                                 <QPM:File>FvwmScript-PointerSetup</QPM:File>
+                                 <QPM:File>FvwmScript-Quit</QPM:File>
+                                 <QPM:File>FvwmScript-ScreenDump</QPM:File>
+                                 <QPM:File>FvwmScript-ScreenSetup</QPM:File>
+                                 <QPM:File>FvwmScript-Setup95</QPM:File>
+                                 <QPM:File>FvwmScript-WidgetDemo</QPM:File>
+                                 <QPM:File>fvwm-script-ComExample.pl</QPM:File>
+                                 <QPM:File>fvwm-script-setup95.pl</QPM:File>
+                                 <QPM:File>system.fvwm2rc-sample-95</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>system.fvwm2rc</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="man">
+                        <QPM:Dir name="man1">
+                           <QPM:File>FvwmAnimate.1</QPM:File>
+                           <QPM:File>FvwmAuto.1</QPM:File>
+                           <QPM:File>FvwmBacker.1</QPM:File>
+                           <QPM:File>FvwmBanner.1</QPM:File>
+                           <QPM:File>FvwmButtons.1</QPM:File>
+                           <QPM:File>FvwmCommand.1</QPM:File>
+                           <QPM:File>FvwmConsole.1</QPM:File>
+                           <QPM:File>FvwmConsoleC.pl.1</QPM:File>
+                           <QPM:File>FvwmCpp.1</QPM:File>
+                           <QPM:File>FvwmDebug.1</QPM:File>
+                           <QPM:File>FvwmDragWell.1</QPM:File>
+                           <QPM:File>FvwmEvent.1</QPM:File>
+                           <QPM:File>FvwmForm.1</QPM:File>
+                           <QPM:File>FvwmGtk.1</QPM:File>
+                           <QPM:File>FvwmIconBox.1</QPM:File>
+                           <QPM:File>FvwmIconMan.1</QPM:File>
+                           <QPM:File>FvwmIdent.1</QPM:File>
+                           <QPM:File>FvwmM4.1</QPM:File>
+                           <QPM:File>FvwmPager.1</QPM:File>
+                           <QPM:File>FvwmRearrange.1</QPM:File>
+                           <QPM:File>FvwmSave.1</QPM:File>
+                           <QPM:File>FvwmSaveDesk.1</QPM:File>
+                           <QPM:File>FvwmScript.1</QPM:File>
+                           <QPM:File>FvwmScroll.1</QPM:File>
+                           <QPM:File>FvwmTaskBar.1</QPM:File>
+                           <QPM:File>FvwmTheme.1</QPM:File>
+                           <QPM:File>FvwmWharf.1</QPM:File>
+                           <QPM:File>FvwmWinList.1</QPM:File>
+                           <QPM:File>fvwm-config.1</QPM:File>
+                           <QPM:File>fvwm-menu-desktop.1</QPM:File>
+                           <QPM:File>fvwm-menu-directory.1</QPM:File>
+                           <QPM:File>fvwm-menu-headlines.1</QPM:File>
+                           <QPM:File>fvwm-menu-xlock.1</QPM:File>
+                           <QPM:File>fvwm2.1</QPM:File>
+                           <QPM:File>fvwm24_convert.1</QPM:File>
+                           <QPM:File>fvwmbug.1</QPM:File>
+                           <QPM:File>fvwmrc_convert.1</QPM:File>
+                           <QPM:File>xpmroot.1</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

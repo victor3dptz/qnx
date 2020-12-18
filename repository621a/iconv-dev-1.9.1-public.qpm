@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageName>iconv-dev-1.9.1-public</QPM:PackageName>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2005/01/19</QPM:PackageReleaseDate>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:FileVersion>2.6</QPM:FileVersion>
+            <QPM:PackageModel>dev</QPM:PackageModel>
+            <QPM:DateCode>41eec3c8</QPM:DateCode>
+            <QPM:PackageSize>3805</QPM:PackageSize>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>12106</QPM:ProductSize>
+            <QPM:InstallPath>public/iconv/dev-1.9.1</QPM:InstallPath>
+            <QPM:ProductName>GNU iconv Development</QPM:ProductName>
+            <QPM:ProductIdentifier>iconv-dev</QPM:ProductIdentifier>
+            <QPM:ProductEmail>bug-gnu-libiconv@gnu.org</QPM:ProductEmail>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.gnu.org/software/libiconv/</QPM:VendorURL>
+            <QPM:VendorEmail>bug-gnu-libiconv@gnu.org</QPM:VendorEmail>
+            <QPM:AuthorName>Bruno Haible</QPM:AuthorName>
+            <QPM:ProductDescriptionShort>GNU iconv - character set conversion library.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>GNU iconv - character set conversion library. This library provides an iconv() implementation, for use on systems which don&apos;t have one, or whose implementation cannot convert from/to Unicode.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.gnu.org/software/libiconv/</QPM:ProductDescriptionURL>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2005/01/19</QPM:ReleaseDate>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ReleaseVersion>1.9.1</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Software Development/Libraries and Extensions/C Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>GNU,iconv,libiconv,charset,libcharset</QPM:ContentKeyword>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>Must include at least one development package targeting a specific processor (Packager-generated dependency).</QPM:Notes>
+               <QPM:Filter>
+                  <QPM:FilterType>StringExpression</QPM:FilterType>
+                  <ProductIdentifier>iconv-dev-target*</ProductIdentifier>
+               </QPM:Filter>
+            </QPM:Dependency>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:LicenseUrl>rep://iconv-1.9.1-public.repdata/LicenseUrl/COPYING.LIB</QPM:LicenseUrl>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PackageDate>41eec3c8</QPM:PackageDate>
+         <QPM:Listing>
+            <QPM:Dir name="" dt="41eec3c8">
+               <QPM:Dir name="usr">
+                  <QPM:Dir name="include">
+                     <QPM:File sum="8bb7caac894c8858603459fb627cef07" size="4760">iconv.h</QPM:File>
+                     <QPM:File sum="04f4804571719311747aea55abc163ba" size="1546">libcharset.h</QPM:File>
+                     <QPM:File sum="8e2dcd374a946d562ecbbfbbd0ac2a43" size="1391">localcharset.h</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

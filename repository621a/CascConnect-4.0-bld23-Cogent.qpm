@@ -1,0 +1,129 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageName>CascConnect-4.0-bld23-Cogent</QPM:PackageName>
+            <QPM:PackageSize>5654</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2002/05/27</QPM:PackageReleaseDate>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageRepository>http://developers.cogentrts.com/repository</QPM:PackageRepository>
+            <QPM:PackageModel>app</QPM:PackageModel>
+            <QPM:FileVersion>1.01</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>10010</QPM:ProductSize>
+            <QPM:InstallPath>Cogent/CascConnect/core-4.0-bld23</QPM:InstallPath>
+            <QPM:ProductName>Cascade Connect</QPM:ProductName>
+            <QPM:ProductIdentifier>CascConnect</QPM:ProductIdentifier>
+            <QPM:ProductEmail>support@cogent.ca</QPM:ProductEmail>
+            <QPM:VendorName>Cogent Real-Time Systems Inc.</QPM:VendorName>
+            <QPM:VendorInstallName>Cogent</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.cogent.ca</QPM:VendorURL>
+            <QPM:VendorEmbedURL>http://developers.cogentrts.com/repository/html/rep_connect.html</QPM:VendorEmbedURL>
+            <QPM:VendorEmail>info@cogent.ca</QPM:VendorEmail>
+            <QPM:AuthorName>Cogent Real-Time Systems Inc.</QPM:AuthorName>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Cascade Connect</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>This is Cascade Connect, a communication middle-ware program that allows native QNX and UNIX tasks to generate DDE messages to MS-Windows based applications.  Cascade Connect works with Cogent&apos;s tools, including the Cascade DataHub, Gamma, and the Hilscher CIF fieldbus driver.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.cogent.ca/Software/Connect.html</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL>http://developers.cogentrts.com/repository/html/rep_connect.html</QPM:ProductDescriptionEmbedURL>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/05/27</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>4.0</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor>QNX6 Port</QPM:ReleaseNoteMinor>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>23</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:ContentTopic>Cogent/Communication and Connectivity</QPM:ContentTopic>
+            <QPM:ContentKeyword>cogent,api,cascade,gamma,driver,datahub</QPM:ContentKeyword>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:LicenseUrl>rep://CascConnect-4.0-bld23-Cogent.repdata/LicenseUrl/COMBINE_LICENSE</QPM:LicenseUrl>
+         <QPM:ProductInstallationProcedure>
+            <QPM:OrderDependency>
+               <QPM:Order>InstallOver</QPM:Order>
+               <QPM:Product>CogentAPI-dev</QPM:Product>
+            </QPM:OrderDependency>
+
+            <QPM:Script>
+               <QPM:ScriptName>rep://Cogent/CascConnect/core-4.0-bld23/setup.makelinks</QPM:ScriptName>
+               <QPM:ScriptType>Install</QPM:ScriptType>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptBlocking>Yes</QPM:ScriptBlocking>
+               <QPM:ShortDescription>Create Links</QPM:ShortDescription>
+               <QPM:UseBinaries>No</QPM:UseBinaries>
+               <QPM:Priority>Required</QPM:Priority>
+            </QPM:Script>
+
+            <QPM:Script>
+               <QPM:ScriptName>rep://Cogent/CascConnect/core-4.0-bld23/setup.connect.QNX6</QPM:ScriptName>
+               <QPM:ScriptType>Install</QPM:ScriptType>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptBlocking>Yes</QPM:ScriptBlocking>
+               <QPM:ShortDescription>Create Links</QPM:ShortDescription>
+               <QPM:UseBinaries>No</QPM:UseBinaries>
+               <QPM:Priority>Required</QPM:Priority>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Union link="$(PROCESSOR)/usr">usr</QPM:Union>
+               <QPM:Dir name="usr">
+                  <QPM:Dir name="cogent">
+                     <QPM:Dir name="bin">
+                        <QPM:File>cascade</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="src">
+                        <QPM:Dir name="connect">
+                           <QPM:File>cascwait.c</QPM:File>
+                           <QPM:File>demowrite.c</QPM:File>
+                           <QPM:File>inetd.conf.add</QPM:File>
+                           <QPM:File>inetd.conf.qnx6</QPM:File>
+                           <QPM:File>install.txt</QPM:File>
+                           <QPM:File>services.add</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

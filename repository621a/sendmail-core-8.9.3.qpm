@@ -1,0 +1,326 @@
+<RDF:RDF xmlns:RDF="http://www.w3.org/TR/PR-rdf-syntax" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageName>sendmail-core-8.9.3</QPM:PackageName>
+            <QPM:PackageSize>2M</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>2.0</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseNotes/>
+            <QPM:PackageReleaseUrgency>Low</QPM:PackageReleaseUrgency>
+            <QPM:PackageReleaseDate>2000/06/07</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>SendMail</QPM:ProductName>
+            <QPM:ProductSize>5M</QPM:ProductSize>
+            <QPM:ProductIdentifier>sendmail_core</QPM:ProductIdentifier>
+            <QPM:ProductHomeURL/>
+            <QPM:VendorName>QNX Software Systems Ltd.</QPM:VendorName>
+            <QPM:VendorInstallName>qssl</QPM:VendorInstallName>
+            <QPM:VendorEmbedURL>www.qnx.com</QPM:VendorEmbedURL>
+            <QPM:VendorURL>www.qnx.com</QPM:VendorURL>
+            <QPM:VendorIdentifier>qssl</QPM:VendorIdentifier>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>A mail gateway for sending and receiving mail.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Sendmail is the Internet standard mail handling software for mail servers. It manages mail accounts, and sends and receives mail to and from other computers.</QPM:ProductDescriptionLong>
+<!--<QPM:ProductDescriptionEmbedURL>rep://html/sendmail-core-8.9.3/index.html</QPM:ProductDescriptionEmbedURL>
+            <QPM:ProductDescriptionURL>http://install.qnx.com/html/sendmail-core-8.9.3/index.html</QPM:ProductDescriptionURL>
+-->
+            <QPM:InstallPath>public/sendmail/core-8.9.3</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseCopyright>Commercial License</QPM:ReleaseCopyright>
+            <QPM:ReleaseCopyrightURL/>
+            <QPM:ReleaseDate>2000/06/07</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>8.9.3</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Low</QPM:ReleaseUrgency>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseNoteMinor/>
+         </QPM:ReleaseDescription>
+
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:CoreSibling/>
+            <QPM:ComponentType>Recommended</QPM:ComponentType>
+            <QPM:ComponentTypeNotes>Install this if you want/need photon applications</QPM:ComponentTypeNotes>
+            <QPM:ComponentParent/>
+            <QPM:ComponentAuthenticationKey/>
+            <QPM:ComponentSignature/>
+            <QPM:UpgradeParent/>
+            <QPM:UpgradeFromVersion/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentKeyword>email</QPM:ContentKeyword>
+            <QPM:ContentTopic>Communication and Connectivity/Email Clients</QPM:ContentTopic>
+            <QPM:ContentLanguage/>
+            <QPM:Contains>binary,library</QPM:Contains>
+            <QPM:ContainsLibraries/>
+            <QPM:Processor/>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:HardwareRequirement>
+               <QPM:MinimumRAM/>
+               <QPM:RecommendedRAM/>
+               <QPM:MinimumFreeStorage>5M</QPM:MinimumFreeStorage>
+               <QPM:RecommendedFreeStorage>10M</QPM:RecommendedFreeStorage>
+               <QPM:MinimumResolution/>
+               <QPM:RecommendedColorDepth/>
+               <QPM:AudioSupport/>
+               <QPM:PhotonDistribution/>
+            </QPM:HardwareRequirement>
+
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>Requires OS to be installed</QPM:Notes>
+               <QPM:Product>core_nto_2.1</QPM:Product>
+               <QPM:ProductHomeRepository/>
+               <QPM:Filter>
+                  <QPM:FilterType/>
+               </QPM:Filter>
+            </QPM:Dependency>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName/>
+               <QPM:Timing/>
+               <QPM:Event/>
+               <QPM:Filter>
+                  <QPM:FilterType/>
+               </QPM:Filter>
+            </QPM:Script>
+
+            <QPM:OrderDependency>
+               <QPM:Order>InstallOver</QPM:Order>
+               <QPM:Product>sendmail_core</QPM:Product>
+               <QPM:Filter>
+                  <QPM:FilterType/>
+               </QPM:Filter>
+            </QPM:OrderDependency>
+         </QPM:ProductInstallationProcedure>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="usr">
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="man">
+                        <QPM:Dir name="cat8">
+                           <QPM:File>sendmail.8</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="cat5">
+                           <QPM:File>aliases.5</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="cat1">
+                           <QPM:File>newaliases.1</QPM:File>
+                           <QPM:File>mailq.1</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="etc">
+                  <QPM:Dir name="sendmail">
+                     <QPM:Dir name="cf">
+                        <QPM:File>README</QPM:File>
+                        <QPM:Dir name="siteconfig">
+                           <QPM:File>uucp.ucbvax.m4</QPM:File>
+                           <QPM:File>uucp.ucbarpa.m4</QPM:File>
+                           <QPM:File>uucp.old.arpa.m4</QPM:File>
+                           <QPM:File>uucp.cogsci.m4</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="sh">
+                           <QPM:File>makeinfo.sh</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ostype">
+                           <QPM:File>uxpds.m4</QPM:File>
+                           <QPM:File>unknown.m4</QPM:File>
+                           <QPM:File>unixware7.m4</QPM:File>
+                           <QPM:File>ultrix4.m4</QPM:File>
+                           <QPM:File>svr4.m4</QPM:File>
+                           <QPM:File>sunos4.1.m4</QPM:File>
+                           <QPM:File>sunos3.5.m4</QPM:File>
+                           <QPM:File>solaris2.ml.m4</QPM:File>
+                           <QPM:File>solaris2.m4</QPM:File>
+                           <QPM:File>sinix.m4</QPM:File>
+                           <QPM:File>sco-uw-2.1.m4</QPM:File>
+                           <QPM:File>sco3.2.m4</QPM:File>
+                           <QPM:File>riscos4.5.m4</QPM:File>
+                           <QPM:File>qnx.m4</QPM:File>
+                           <QPM:File>nto.m4</QPM:File>
+                           <QPM:File>ptx2.m4</QPM:File>
+                           <QPM:File>powerux.m4</QPM:File>
+                           <QPM:File>osf1.m4</QPM:File>
+                           <QPM:File>nextstep.m4</QPM:File>
+                           <QPM:File>mklinux.m4</QPM:File>
+                           <QPM:File>maxion.m4</QPM:File>
+                           <QPM:File>linux.m4</QPM:File>
+                           <QPM:File>isc4.1.m4</QPM:File>
+                           <QPM:File>irix6.m4</QPM:File>
+                           <QPM:File>irix5.m4</QPM:File>
+                           <QPM:File>irix4.m4</QPM:File>
+                           <QPM:File>hpux9.m4</QPM:File>
+                           <QPM:File>hpux10.m4</QPM:File>
+                           <QPM:File>gnuhurd.m4</QPM:File>
+                           <QPM:File>dynix3.2.m4</QPM:File>
+                           <QPM:File>domainos.m4</QPM:File>
+                           <QPM:File>dgux.m4</QPM:File>
+                           <QPM:File>bsdi2.0.m4</QPM:File>
+                           <QPM:File>bsdi1.0.m4</QPM:File>
+                           <QPM:File>bsd4.4.m4</QPM:File>
+                           <QPM:File>bsd4.3.m4</QPM:File>
+                           <QPM:File>aux.m4</QPM:File>
+                           <QPM:File>amdahl-uts.m4</QPM:File>
+                           <QPM:File>altos.m4</QPM:File>
+                           <QPM:File>aix4.m4</QPM:File>
+                           <QPM:File>aix3.m4</QPM:File>
+                           <QPM:File>aix2.m4</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="mailer">
+                           <QPM:File>uucp.m4</QPM:File>
+                           <QPM:File>usenet.m4</QPM:File>
+                           <QPM:File>smtp.m4</QPM:File>
+                           <QPM:File>procmail.m4</QPM:File>
+                           <QPM:File>pop.m4</QPM:File>
+                           <QPM:File>phquery.m4</QPM:File>
+                           <QPM:File>mail11.m4</QPM:File>
+                           <QPM:File>local.m4</QPM:File>
+                           <QPM:File>fax.m4</QPM:File>
+                           <QPM:File>cyrus.m4</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="m4">
+                           <QPM:File>version.m4</QPM:File>
+                           <QPM:File>proto.m4</QPM:File>
+                           <QPM:File>nullrelay.m4</QPM:File>
+                           <QPM:File>cfhead.m4</QPM:File>
+                           <QPM:File>cf.m4</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="hack">
+                           <QPM:File>cssubdomain.m4</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="feature">
+                           <QPM:File>virtusertable.m4</QPM:File>
+                           <QPM:File>uucpdomain.m4</QPM:File>
+                           <QPM:File>use_cw_file.m4</QPM:File>
+                           <QPM:File>use_ct_file.m4</QPM:File>
+                           <QPM:File>stickyhost.m4</QPM:File>
+                           <QPM:File>smrsh.m4</QPM:File>
+                           <QPM:File>relay_local_from.m4</QPM:File>
+                           <QPM:File>relay_hosts_only.m4</QPM:File>
+                           <QPM:File>relay_entire_domain.m4</QPM:File>
+                           <QPM:File>relay_based_on_MX.m4</QPM:File>
+                           <QPM:File>redirect.m4</QPM:File>
+                           <QPM:File>rbl.m4</QPM:File>
+                           <QPM:File>promiscuous_relay.m4</QPM:File>
+                           <QPM:File>nullclient.m4</QPM:File>
+                           <QPM:File>nouucp.m4</QPM:File>
+                           <QPM:File>notsticky.m4</QPM:File>
+                           <QPM:File>nodns.m4</QPM:File>
+                           <QPM:File>nocanonify.m4</QPM:File>
+                           <QPM:File>masquerade_envelope.m4</QPM:File>
+                           <QPM:File>masquerade_entire_domain.m4</QPM:File>
+                           <QPM:File>mailertable.m4</QPM:File>
+                           <QPM:File>local_procmail.m4</QPM:File>
+                           <QPM:File>local_lmtp.m4</QPM:File>
+                           <QPM:File>limited_masquerade.m4</QPM:File>
+                           <QPM:File>genericstable.m4</QPM:File>
+                           <QPM:File>domaintable.m4</QPM:File>
+                           <QPM:File>loose_relay_check.m4</QPM:File>
+                           <QPM:File>blacklist_recipients.m4</QPM:File>
+                           <QPM:File>bitdomain.m4</QPM:File>
+                           <QPM:File>bestmx_is_local.m4</QPM:File>
+                           <QPM:File>always_add_domain.m4</QPM:File>
+                           <QPM:File>allmasquerade.m4</QPM:File>
+                           <QPM:File>access_db.m4</QPM:File>
+                           <QPM:File>accept_unresolvable_domains.m4</QPM:File>
+                           <QPM:File>accept_unqualified_senders.m4</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="domain">
+                           <QPM:File>qnx.com.m4</QPM:File>
+                           <QPM:File>berkeley-only.m4</QPM:File>
+                           <QPM:File>generic.m4</QPM:File>
+                           <QPM:File>S2K.Berkeley.EDU.m4</QPM:File>
+                           <QPM:File>EECS.Berkeley.EDU.m4</QPM:File>
+                           <QPM:File>CS.Berkeley.EDU.m4</QPM:File>
+                           <QPM:File>Berkeley.EDU.m4</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="cf">
+                           <QPM:File>quics.mf</QPM:File>
+                           <QPM:File>quics.mc</QPM:File>
+                           <QPM:File>nto.cf</QPM:File>
+                           <QPM:File>nto.mc</QPM:File>
+                           <QPM:File>cs-osf1.cf</QPM:File>
+                           <QPM:File>cs-hpux9.cf</QPM:File>
+                           <QPM:File>generic-ultrix4.cf</QPM:File>
+                           <QPM:File>generic-sunos4.1.cf</QPM:File>
+                           <QPM:File>generic-solaris2.cf</QPM:File>
+                           <QPM:File>generic-osf1.cf</QPM:File>
+                           <QPM:File>generic-hpux10.cf</QPM:File>
+                           <QPM:File>generic-hpux9.cf</QPM:File>
+                           <QPM:File>generic-bsd4.4.cf</QPM:File>
+                           <QPM:File>vangogh.cs.mc</QPM:File>
+                           <QPM:File>uucpproto.mc</QPM:File>
+                           <QPM:File>ucbvax.mc</QPM:File>
+                           <QPM:File>ucbarpa.mc</QPM:File>
+                           <QPM:File>tcpproto.mc</QPM:File>
+                           <QPM:File>s2k-ultrix4.mc</QPM:File>
+                           <QPM:File>s2k-osf1.mc</QPM:File>
+                           <QPM:File>python.cs.mc</QPM:File>
+                           <QPM:File>mailspool.cs.mc</QPM:File>
+                           <QPM:File>mail.eecs.mc</QPM:File>
+                           <QPM:File>mail.cs.mc</QPM:File>
+                           <QPM:File>knecht.mc</QPM:File>
+                           <QPM:File>huginn.cs.mc</QPM:File>
+                           <QPM:File>generic-ultrix4.mc</QPM:File>
+                           <QPM:File>generic-sunos4.1.mc</QPM:File>
+                           <QPM:File>generic-solaris2.mc</QPM:File>
+                           <QPM:File>generic-osf1.mc</QPM:File>
+                           <QPM:File>generic-nextstep3.3.mc</QPM:File>
+                           <QPM:File>generic-hpux9.mc</QPM:File>
+                           <QPM:File>generic-hpux10.mc</QPM:File>
+                           <QPM:File>generic-bsd4.4.mc</QPM:File>
+                           <QPM:File>cyrusproto.mc</QPM:File>
+                           <QPM:File>cs-ultrix4.mc</QPM:File>
+                           <QPM:File>cs-sunos4.1.mc</QPM:File>
+                           <QPM:File>cs-solaris2.mc</QPM:File>
+                           <QPM:File>cs-osf1.mc</QPM:File>
+                           <QPM:File>cs-hpux9.mc</QPM:File>
+                           <QPM:File>cs-hpux10.mc</QPM:File>
+                           <QPM:File>clientproto.mc</QPM:File>
+                           <QPM:File>chez.cs.mc</QPM:File>
+                           <QPM:File>Makefile</QPM:File>
+                           <QPM:File>Build</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:File>sendmail.hf</QPM:File>
+                  <QPM:File>sendmail.cf</QPM:File>
+               </QPM:Dir>
+
+               <QPM:Union link="$(PROCESSOR)/usr">usr</QPM:Union>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

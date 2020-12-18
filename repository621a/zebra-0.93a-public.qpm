@@ -1,0 +1,159 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>zebra-0.93a-public</QPM:PackageName>
+            <QPM:PackageSize>58396</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>3</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseNotes>Release for QNX 6.2.1</QPM:PackageReleaseNotes>
+            <QPM:PackageReleaseUrgency>Medium</QPM:PackageReleaseUrgency>
+            <QPM:PackageReleaseDate>2003/01/16</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>zebra</QPM:ProductName>
+            <QPM:ProductSize>246378</QPM:ProductSize>
+            <QPM:ProductIdentifier>zebra</QPM:ProductIdentifier>
+            <QPM:ProductEmail>xtang@qnx.com</QPM:ProductEmail>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>GNU Zebra is free software that manages various IPv4 and IPv6 routing protocols.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>GNU Zebra is free software that manages various IPv4 and IPv6 routing protocols.
+ Currently GNU Zebra supports BGP4, BGP4+, OSPFv2, OSPFv3, RIPv1, RIPv2, and RIPng.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL/>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/zebra/core-0.93a</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/01/16</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>0.93a</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Low</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://zebra-0.93a-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>System/Network and Data Transmission</QPM:ContentTopic>
+            <QPM:ContentKeyword>zebra, routing</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Administrator</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName>cat /opt/doc/zebra/README | popup</QPM:ScriptName>
+               <QPM:ScriptType>Install</QPM:ScriptType>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptBlocking>No</QPM:ScriptBlocking>
+               <QPM:ScriptResult>Ignore</QPM:ScriptResult>
+               <QPM:ShortDescription>ShowReadme</QPM:ShortDescription>
+               <QPM:UseBinaries>No</QPM:UseBinaries>
+               <QPM:Priority>Recommended</QPM:Priority>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="etc">
+                  <QPM:File>bgpd.conf.sample</QPM:File>
+                  <QPM:File>bgpd.conf.sample2</QPM:File>
+                  <QPM:File>ospf6d.conf.sample</QPM:File>
+                  <QPM:File>ospfd.conf.sample</QPM:File>
+                  <QPM:File>ripd.conf.sample</QPM:File>
+                  <QPM:File>ripngd.conf.sample</QPM:File>
+                  <QPM:File>zebra.conf.sample</QPM:File>
+               </QPM:Dir>
+
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/sbin">sbin</QPM:Union>
+                  <QPM:Dir name="doc">
+                     <QPM:Dir name="zebra">
+                        <QPM:File>AUTHORS</QPM:File>
+                        <QPM:File>COPYING</QPM:File>
+                        <QPM:File>COPYING.LIB</QPM:File>
+                        <QPM:File>README</QPM:File>
+                        <QPM:File>REPORTING-BUGS</QPM:File>
+                        <QPM:File>SERVICES</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="info">
+                     <QPM:File>zebra.info</QPM:File>
+                     <QPM:File>zebra.info-1</QPM:File>
+                     <QPM:File>zebra.info-2</QPM:File>
+                     <QPM:File>zebra.info-3</QPM:File>
+                     <QPM:File>zebra.info-4</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="man">
+                     <QPM:Dir name="man1">
+                        <QPM:File>vtysh.1</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="man8">
+                        <QPM:File>bgpd.8</QPM:File>
+                        <QPM:File>ospf6d.8</QPM:File>
+                        <QPM:File>ospfd.8</QPM:File>
+                        <QPM:File>ripd.8</QPM:File>
+                        <QPM:File>ripngd.8</QPM:File>
+                        <QPM:File>zebra.8</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../opt/info">info</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/sbin">sbin</QPM:Union>
+                  <QPM:Dir name="man">
+                     <QPM:Union link="../../opt/man/man8">man8</QPM:Union>
+                     <QPM:Union link="../../opt/man/man1">man1</QPM:Union>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

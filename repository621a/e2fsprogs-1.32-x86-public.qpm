@@ -1,0 +1,115 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>e2fsprogs-1.32-x86-public</QPM:PackageName>
+            <QPM:PackageSize>549358</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/02/19</QPM:PackageReleaseDate>
+            <QPM:PackageRepository>http://qnx.wox.org/</QPM:PackageRepository>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>e2fsprogs for x86</QPM:ProductName>
+            <QPM:ProductSize>1167733</QPM:ProductSize>
+            <QPM:ProductIdentifier>e2fsprogs-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>GNU</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.gnu.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>e2fsprogs for ext2/3 support.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>This package contains the e2fsprogs utilties for creating, updating and maintaining an ext2 (or ext3) filesystem under QNX.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://e2fsprogs.sourceforge.net</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/e2fsprogs/core-1.32/x86</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/02/19</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>1.32</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://e2fsprogs-1.32-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>e2fsprogs</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>System/Filesystem</QPM:ContentTopic>
+            <QPM:ContentKeyword>ext2,ext3</QPM:ContentKeyword>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Administrator</QPM:TargetAudience>
+            <QPM:RequiresLibrary>libsocket.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="bin">
+                     <QPM:File>chattr</QPM:File>
+                     <QPM:File>lsattr</QPM:File>
+                     <QPM:File>uuidgen</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="sbin">
+                     <QPM:File>badblocks</QPM:File>
+                     <QPM:File>debugfs</QPM:File>
+                     <QPM:File>dumpe2fs</QPM:File>
+                     <QPM:File>e2fsck</QPM:File>
+                     <QPM:File>e2image</QPM:File>
+                     <QPM:File>e2label</QPM:File>
+                     <QPM:File>findfs</QPM:File>
+                     <QPM:File>fsck</QPM:File>
+                     <QPM:File>fsck.ext2</QPM:File>
+                     <QPM:File>fsck.ext3</QPM:File>
+                     <QPM:File>mke2fs</QPM:File>
+                     <QPM:File>mkfs.ext2</QPM:File>
+                     <QPM:File>mkfs.ext3</QPM:File>
+                     <QPM:File>mklost+found</QPM:File>
+                     <QPM:File>resize2fs</QPM:File>
+                     <QPM:File>tune2fs</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

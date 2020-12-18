@@ -1,0 +1,880 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Other</QPM:PackageType>
+            <QPM:PackageName>xf86-base-4.2-public</QPM:PackageName>
+            <QPM:PackageSize>720791</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/02/16</QPM:PackageReleaseDate>
+            <QPM:PackageRepository>http://qnx.wox.org/qnxpub621/</QPM:PackageRepository>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>XFree86 Base</QPM:ProductName>
+            <QPM:ProductSize>3469408</QPM:ProductSize>
+            <QPM:ProductIdentifier>xf86-base</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>XFree86</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.xfree86.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>XFree86 base files.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>The base files needed for all the other XFree86 packages.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.xfree86.org/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/xf86-base/core-4.2</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/02/16</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>4.2</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>MIT License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl/>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>System/Services, Servers and Daemons/X Servers</QPM:ContentTopic>
+            <QPM:ContentKeyword>xfree86,X11R6,X11</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="etc">
+                  <QPM:Dir name="X11">
+                     <QPM:File>XftConfig</QPM:File>
+                     <QPM:Dir name="app-defaults">
+                        <QPM:File>Beforelight</QPM:File>
+                        <QPM:File>Bitmap</QPM:File>
+                        <QPM:File>Bitmap-color</QPM:File>
+                        <QPM:File>Chooser</QPM:File>
+                        <QPM:File>Clock-color</QPM:File>
+                        <QPM:File>Editres</QPM:File>
+                        <QPM:File>Editres-color</QPM:File>
+                        <QPM:File>UXTerm</QPM:File>
+                        <QPM:File>Viewres</QPM:File>
+                        <QPM:File>XCalc</QPM:File>
+                        <QPM:File>XCalc-color</QPM:File>
+                        <QPM:File>XClipboard</QPM:File>
+                        <QPM:File>XClock</QPM:File>
+                        <QPM:File>XConsole</QPM:File>
+                        <QPM:File>XF86Cfg</QPM:File>
+                        <QPM:File>XFontSel</QPM:File>
+                        <QPM:File>XLoad</QPM:File>
+                        <QPM:File>XLogo</QPM:File>
+                        <QPM:File>XLogo-color</QPM:File>
+                        <QPM:File>XSm</QPM:File>
+                        <QPM:File>XTerm</QPM:File>
+                        <QPM:File>XTerm-color</QPM:File>
+                        <QPM:File>Xditview</QPM:File>
+                        <QPM:File>Xditview-chrtr</QPM:File>
+                        <QPM:File>Xedit</QPM:File>
+                        <QPM:File>Xedit-color</QPM:File>
+                        <QPM:File>Xfd</QPM:File>
+                        <QPM:File>Xgc</QPM:File>
+                        <QPM:File>Xmag</QPM:File>
+                        <QPM:File>Xman</QPM:File>
+                        <QPM:File>Xmessage</QPM:File>
+                        <QPM:File>Xmh</QPM:File>
+                        <QPM:File>Xvidtune</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="fs">
+                        <QPM:File>config</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="lbxproxy">
+                        <QPM:File>AtomControl</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="proxymngr">
+                        <QPM:File>pmconfig</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="twm">
+                        <QPM:File>system.twmrc</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="xinit">
+                        <QPM:File>xinitrc</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="xkb">
+                        <QPM:File>README</QPM:File>
+                        <QPM:Dir name="compat">
+                           <QPM:File>accessx</QPM:File>
+                           <QPM:File>basic</QPM:File>
+                           <QPM:File>complete</QPM:File>
+                           <QPM:File>default</QPM:File>
+                           <QPM:File>group_led</QPM:File>
+                           <QPM:File>iso9995</QPM:File>
+                           <QPM:File>japan</QPM:File>
+                           <QPM:File>keypad</QPM:File>
+                           <QPM:File>leds</QPM:File>
+                           <QPM:File>misc</QPM:File>
+                           <QPM:File>mousekeys</QPM:File>
+                           <QPM:File>norepeat</QPM:File>
+                           <QPM:File>pc</QPM:File>
+                           <QPM:File>pc98</QPM:File>
+                           <QPM:File>xtest</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>compat.dir</QPM:File>
+                        <QPM:Link link="../../../../../etc/X11/xkb">compiled</QPM:Link>
+                        <QPM:Dir name="geometry">
+                           <QPM:File>amiga</QPM:File>
+                           <QPM:File>ataritt</QPM:File>
+                           <QPM:File>dell</QPM:File>
+                           <QPM:Dir name="digital">
+                              <QPM:File>lk</QPM:File>
+                              <QPM:File>pc</QPM:File>
+                              <QPM:File>unix</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>everex</QPM:File>
+                           <QPM:File>fujitsu</QPM:File>
+                           <QPM:File>hp</QPM:File>
+                           <QPM:File>keytronic</QPM:File>
+                           <QPM:File>kinesis</QPM:File>
+                           <QPM:File>macintosh</QPM:File>
+                           <QPM:File>microsoft</QPM:File>
+                           <QPM:File>nec</QPM:File>
+                           <QPM:File>northgate</QPM:File>
+                           <QPM:File>pc</QPM:File>
+                           <QPM:Dir name="sgi">
+                              <QPM:File>O2</QPM:File>
+                              <QPM:File>indigo</QPM:File>
+                              <QPM:File>indy</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>sony</QPM:File>
+                           <QPM:File>sun</QPM:File>
+                           <QPM:File>winbook</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>geometry.dir</QPM:File>
+                        <QPM:Dir name="keycodes">
+                           <QPM:File>amiga</QPM:File>
+                           <QPM:File>ataritt</QPM:File>
+                           <QPM:Dir name="digital">
+                              <QPM:File>lk</QPM:File>
+                              <QPM:File>pc</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>fujitsu</QPM:File>
+                           <QPM:File>hp</QPM:File>
+                           <QPM:File>ibm</QPM:File>
+                           <QPM:File>macintosh</QPM:File>
+                           <QPM:File>powerpcps2</QPM:File>
+                           <QPM:Dir name="sgi">
+                              <QPM:File>indigo</QPM:File>
+                              <QPM:File>indy</QPM:File>
+                              <QPM:File>iris</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>sony</QPM:File>
+                           <QPM:File>sun</QPM:File>
+                           <QPM:File>xfree86</QPM:File>
+                           <QPM:File>xfree98</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>keycodes.dir</QPM:File>
+                        <QPM:Dir name="keymap">
+                           <QPM:File>amiga</QPM:File>
+                           <QPM:File>ataritt</QPM:File>
+                           <QPM:Dir name="digital">
+                              <QPM:File>us</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>macintosh</QPM:File>
+                           <QPM:Dir name="sgi">
+                              <QPM:File>be</QPM:File>
+                              <QPM:File>bg</QPM:File>
+                              <QPM:File>ca</QPM:File>
+                              <QPM:File>cz</QPM:File>
+                              <QPM:File>cz_qwerty</QPM:File>
+                              <QPM:File>de</QPM:File>
+                              <QPM:File>de_CH</QPM:File>
+                              <QPM:File>dk</QPM:File>
+                              <QPM:File>dvorak</QPM:File>
+                              <QPM:File>en_US</QPM:File>
+                              <QPM:File>es</QPM:File>
+                              <QPM:File>fi</QPM:File>
+                              <QPM:File>fr</QPM:File>
+                              <QPM:File>fr_CH</QPM:File>
+                              <QPM:File>gb</QPM:File>
+                              <QPM:File>hu</QPM:File>
+                              <QPM:File>it</QPM:File>
+                              <QPM:File>jp</QPM:File>
+                              <QPM:File>no</QPM:File>
+                              <QPM:File>pl</QPM:File>
+                              <QPM:File>pt</QPM:File>
+                              <QPM:File>ru</QPM:File>
+                              <QPM:File>se</QPM:File>
+                              <QPM:File>sk</QPM:File>
+                              <QPM:File>sk_qwerty</QPM:File>
+                              <QPM:File>th</QPM:File>
+                              <QPM:File>us</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>sony</QPM:File>
+                           <QPM:Dir name="sun">
+                              <QPM:File>de</QPM:File>
+                              <QPM:File>es</QPM:File>
+                              <QPM:File>fi</QPM:File>
+                              <QPM:File>fr</QPM:File>
+                              <QPM:File>no</QPM:File>
+                              <QPM:File>pl</QPM:File>
+                              <QPM:File>ru</QPM:File>
+                              <QPM:File>se</QPM:File>
+                              <QPM:File>uk</QPM:File>
+                              <QPM:File>us</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>xfree86</QPM:File>
+                           <QPM:File>xfree98</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>keymap.dir</QPM:File>
+                        <QPM:Dir name="rules">
+                           <QPM:File>sgi</QPM:File>
+                           <QPM:File>sgi.lst</QPM:File>
+                           <QPM:File>sun</QPM:File>
+                           <QPM:File>sun.lst</QPM:File>
+                           <QPM:File>xfree86</QPM:File>
+                           <QPM:File>xfree86-it.lst</QPM:File>
+                           <QPM:File>xfree86.lst</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="semantics">
+                           <QPM:File>basic</QPM:File>
+                           <QPM:File>complete</QPM:File>
+                           <QPM:File>default</QPM:File>
+                           <QPM:File>xtest</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="symbols">
+                           <QPM:File>al</QPM:File>
+                           <QPM:File>altwin</QPM:File>
+                           <QPM:File>am</QPM:File>
+                           <QPM:File>ar</QPM:File>
+                           <QPM:File>az</QPM:File>
+                           <QPM:File>be</QPM:File>
+                           <QPM:File>ben</QPM:File>
+                           <QPM:File>bg</QPM:File>
+                           <QPM:File>br</QPM:File>
+                           <QPM:File>by</QPM:File>
+                           <QPM:File>ca</QPM:File>
+                           <QPM:File>ca_enhanced</QPM:File>
+                           <QPM:File>compose</QPM:File>
+                           <QPM:File>ctrl</QPM:File>
+                           <QPM:File>cz</QPM:File>
+                           <QPM:File>cz_qwerty</QPM:File>
+                           <QPM:File>czsk</QPM:File>
+                           <QPM:File>de</QPM:File>
+                           <QPM:File>de_CH</QPM:File>
+                           <QPM:File>dev</QPM:File>
+                           <QPM:Dir name="digital">
+                              <QPM:File>lk</QPM:File>
+                              <QPM:File>pc</QPM:File>
+                              <QPM:File>us</QPM:File>
+                              <QPM:File>vt</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>dk</QPM:File>
+                           <QPM:File>dvorak</QPM:File>
+                           <QPM:File>ee</QPM:File>
+                           <QPM:File>el</QPM:File>
+                           <QPM:File>en_US</QPM:File>
+                           <QPM:File>es</QPM:File>
+                           <QPM:File>fi</QPM:File>
+                           <QPM:File>fr</QPM:File>
+                           <QPM:File>fr_CH</QPM:File>
+                           <QPM:Dir name="fujitsu">
+                              <QPM:File>jp</QPM:File>
+                              <QPM:File>us</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>gb</QPM:File>
+                           <QPM:File>ge_la</QPM:File>
+                           <QPM:File>ge_ru</QPM:File>
+                           <QPM:File>group</QPM:File>
+                           <QPM:File>guj</QPM:File>
+                           <QPM:File>gur</QPM:File>
+                           <QPM:Dir name="hp">
+                              <QPM:File>us</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>hr</QPM:File>
+                           <QPM:File>hu</QPM:File>
+                           <QPM:File>hu_US</QPM:File>
+                           <QPM:File>il</QPM:File>
+                           <QPM:File>il_phonetic</QPM:File>
+                           <QPM:File>inet</QPM:File>
+                           <QPM:File>ir</QPM:File>
+                           <QPM:File>is</QPM:File>
+                           <QPM:File>iso9995-3</QPM:File>
+                           <QPM:File>it</QPM:File>
+                           <QPM:File>iu</QPM:File>
+                           <QPM:File>jp</QPM:File>
+                           <QPM:File>keypad</QPM:File>
+                           <QPM:File>la</QPM:File>
+                           <QPM:File>level3</QPM:File>
+                           <QPM:File>lock</QPM:File>
+                           <QPM:File>lt</QPM:File>
+                           <QPM:File>lt_std</QPM:File>
+                           <QPM:File>lv</QPM:File>
+                           <QPM:Dir name="macintosh">
+                              <QPM:File>de</QPM:File>
+                              <QPM:File>de_CH</QPM:File>
+                              <QPM:File>dk</QPM:File>
+                              <QPM:File>es</QPM:File>
+                              <QPM:File>fi</QPM:File>
+                              <QPM:File>fr</QPM:File>
+                              <QPM:File>fr_CH</QPM:File>
+                              <QPM:File>gb</QPM:File>
+                              <QPM:File>it</QPM:File>
+                              <QPM:File>nl</QPM:File>
+                              <QPM:File>no</QPM:File>
+                              <QPM:File>pt</QPM:File>
+                              <QPM:File>se</QPM:File>
+                              <QPM:File>us</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>mk</QPM:File>
+                           <QPM:File>mm</QPM:File>
+                           <QPM:File>mt</QPM:File>
+                           <QPM:File>mt_us</QPM:File>
+                           <QPM:Dir name="nec">
+                              <QPM:File>jp</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>nl</QPM:File>
+                           <QPM:File>no</QPM:File>
+                           <QPM:File>pc104</QPM:File>
+                           <QPM:File>pl</QPM:File>
+                           <QPM:File>pl2</QPM:File>
+                           <QPM:File>pt</QPM:File>
+                           <QPM:File>ralt</QPM:File>
+                           <QPM:File>ro</QPM:File>
+                           <QPM:File>ru</QPM:File>
+                           <QPM:File>ru_yawerty</QPM:File>
+                           <QPM:File>sapmi</QPM:File>
+                           <QPM:File>se</QPM:File>
+                           <QPM:File>se_FI</QPM:File>
+                           <QPM:File>se_NO</QPM:File>
+                           <QPM:File>se_SE</QPM:File>
+                           <QPM:Dir name="sgi">
+                              <QPM:File>jp</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>si</QPM:File>
+                           <QPM:File>sk</QPM:File>
+                           <QPM:File>sk_qwerty</QPM:File>
+                           <QPM:Dir name="sony">
+                              <QPM:File>us</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>sr</QPM:File>
+                           <QPM:Dir name="sun">
+                              <QPM:File>se</QPM:File>
+                              <QPM:File>us</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>th</QPM:File>
+                           <QPM:File>tj</QPM:File>
+                           <QPM:File>tml</QPM:File>
+                           <QPM:File>tr</QPM:File>
+                           <QPM:File>tr_f</QPM:File>
+                           <QPM:File>ua</QPM:File>
+                           <QPM:File>us</QPM:File>
+                           <QPM:File>us_group2</QPM:File>
+                           <QPM:File>us_group3</QPM:File>
+                           <QPM:File>us_intl</QPM:File>
+                           <QPM:File>vn</QPM:File>
+                           <QPM:Dir name="xfree68">
+                              <QPM:File>amiga</QPM:File>
+                              <QPM:File>ataritt</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>yu</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>symbols.dir</QPM:File>
+                        <QPM:Dir name="types">
+                           <QPM:File>basic</QPM:File>
+                           <QPM:File>cancel</QPM:File>
+                           <QPM:File>complete</QPM:File>
+                           <QPM:File>default</QPM:File>
+                           <QPM:File>extra</QPM:File>
+                           <QPM:File>iso9995</QPM:File>
+                           <QPM:File>mousekeys</QPM:File>
+                           <QPM:File>nocancel</QPM:File>
+                           <QPM:File>pc</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>types.dir</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="xserver">
+                        <QPM:File>SecurityPolicy</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="xsm">
+                        <QPM:File>system.xsm</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="X11R6">
+                     <QPM:Dir name="lib">
+                        <QPM:Dir name="X11">
+                           <QPM:File>Cards</QPM:File>
+                           <QPM:File>Options</QPM:File>
+                           <QPM:File>XErrorDB</QPM:File>
+                           <QPM:File>XF86Config.98</QPM:File>
+                           <QPM:File>XF86Config.eg</QPM:File>
+                           <QPM:File>XKeysymDB</QPM:File>
+                           <QPM:Link link="../../../../etc/X11/XftConfig">XftConfig</QPM:Link>
+                           <QPM:Link link="../../../../etc/X11/app-defaults">app-defaults</QPM:Link>
+                           <QPM:Dir name="config">
+                              <QPM:File>Amoeba.cf</QPM:File>
+                              <QPM:File>DGUX.cf</QPM:File>
+                              <QPM:File>FreeBSD.cf</QPM:File>
+                              <QPM:File>Imake.cf</QPM:File>
+                              <QPM:File>Imake.rules</QPM:File>
+                              <QPM:File>Imake.tmpl</QPM:File>
+                              <QPM:File>Library.tmpl</QPM:File>
+                              <QPM:File>Mips.cf</QPM:File>
+                              <QPM:File>Motif.rules</QPM:File>
+                              <QPM:File>Motif.tmpl</QPM:File>
+                              <QPM:File>NetBSD.cf</QPM:File>
+                              <QPM:File>Oki.cf</QPM:File>
+                              <QPM:File>OpenBSD.cf</QPM:File>
+                              <QPM:File>QNX4.cf</QPM:File>
+                              <QPM:File>QNX4.rules</QPM:File>
+                              <QPM:File>Server.tmpl</QPM:File>
+                              <QPM:File>ServerLib.tmpl</QPM:File>
+                              <QPM:File>Threads.tmpl</QPM:File>
+                              <QPM:File>Win32.cf</QPM:File>
+                              <QPM:File>Win32.rules</QPM:File>
+                              <QPM:File>WinLib.tmpl</QPM:File>
+                              <QPM:File>X11.rules</QPM:File>
+                              <QPM:File>X11.tmpl</QPM:File>
+                              <QPM:File>apollo.cf</QPM:File>
+                              <QPM:File>bsd.cf</QPM:File>
+                              <QPM:File>bsdLib.rules</QPM:File>
+                              <QPM:File>bsdLib.tmpl</QPM:File>
+                              <QPM:File>bsdi.cf</QPM:File>
+                              <QPM:File>cde.rules</QPM:File>
+                              <QPM:File>cde.tmpl</QPM:File>
+                              <QPM:File>convex.cf</QPM:File>
+                              <QPM:File>cray.cf</QPM:File>
+                              <QPM:File>cygwin.cf</QPM:File>
+                              <QPM:File>cygwin.rules</QPM:File>
+                              <QPM:File>cygwin.tmpl</QPM:File>
+                              <QPM:File>darwin.cf</QPM:File>
+                              <QPM:File>fujitsu.cf</QPM:File>
+                              <QPM:File>generic.cf</QPM:File>
+                              <QPM:File>gnu.cf</QPM:File>
+                              <QPM:File>gnuLib.rules</QPM:File>
+                              <QPM:File>gnuLib.tmpl</QPM:File>
+                              <QPM:File>host.def</QPM:File>
+                              <QPM:File>hp.cf</QPM:File>
+                              <QPM:File>hpLib.rules</QPM:File>
+                              <QPM:File>hpLib.tmpl</QPM:File>
+                              <QPM:File>ibm.cf</QPM:File>
+                              <QPM:File>ibmLib.rules</QPM:File>
+                              <QPM:File>ibmLib.tmpl</QPM:File>
+                              <QPM:File>isc.cf</QPM:File>
+                              <QPM:File>linux.cf</QPM:File>
+                              <QPM:File>lnxLib.rules</QPM:File>
+                              <QPM:File>lnxLib.tmpl</QPM:File>
+                              <QPM:File>lnxdoc.rules</QPM:File>
+                              <QPM:File>lnxdoc.tmpl</QPM:File>
+                              <QPM:File>luna.cf</QPM:File>
+                              <QPM:File>lynx.cf</QPM:File>
+                              <QPM:File>macII.cf</QPM:File>
+                              <QPM:File>mach.cf</QPM:File>
+                              <QPM:File>minix.cf</QPM:File>
+                              <QPM:File>moto.cf</QPM:File>
+                              <QPM:File>ncr.cf</QPM:File>
+                              <QPM:File>nec.cf</QPM:File>
+                              <QPM:File>necLib.rules</QPM:File>
+                              <QPM:File>necLib.tmpl</QPM:File>
+                              <QPM:File>noop.rules</QPM:File>
+                              <QPM:File>nto.cf</QPM:File>
+                              <QPM:File>nto.rules</QPM:File>
+                              <QPM:File>ntoLib.tmpl</QPM:File>
+                              <QPM:File>oldlib.rules</QPM:File>
+                              <QPM:File>os2.cf</QPM:File>
+                              <QPM:File>os2.rules</QPM:File>
+                              <QPM:File>os2Lib.rules</QPM:File>
+                              <QPM:File>os2Lib.tmpl</QPM:File>
+                              <QPM:File>osf1.cf</QPM:File>
+                              <QPM:File>osfLib.rules</QPM:File>
+                              <QPM:File>osfLib.tmpl</QPM:File>
+                              <QPM:File>pegasus.cf</QPM:File>
+                              <QPM:File>sco.cf</QPM:File>
+                              <QPM:File>sco5.cf</QPM:File>
+                              <QPM:File>scoLib.rules</QPM:File>
+                              <QPM:File>sequent.cf</QPM:File>
+                              <QPM:File>sgi.cf</QPM:File>
+                              <QPM:File>sgiLib.rules</QPM:File>
+                              <QPM:File>sgiLib.tmpl</QPM:File>
+                              <QPM:File>site.def</QPM:File>
+                              <QPM:File>sony.cf</QPM:File>
+                              <QPM:File>sun.cf</QPM:File>
+                              <QPM:File>sunLib.rules</QPM:File>
+                              <QPM:File>sunLib.tmpl</QPM:File>
+                              <QPM:File>sv3Lib.rules</QPM:File>
+                              <QPM:File>sv3Lib.tmpl</QPM:File>
+                              <QPM:File>sv4Lib.rules</QPM:File>
+                              <QPM:File>sv4Lib.tmpl</QPM:File>
+                              <QPM:File>svr3.cf</QPM:File>
+                              <QPM:File>svr4.cf</QPM:File>
+                              <QPM:File>ultrix.cf</QPM:File>
+                              <QPM:File>usl.cf</QPM:File>
+                              <QPM:File>version.def</QPM:File>
+                              <QPM:File>x386.cf</QPM:File>
+                              <QPM:File>xf86.rules</QPM:File>
+                              <QPM:File>xf86.tmpl</QPM:File>
+                              <QPM:File>xf86site.def</QPM:File>
+                              <QPM:File>xfree86.cf</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="doc">
+                              <QPM:File>BUILD</QPM:File>
+                              <QPM:File>BugReport</QPM:File>
+                              <QPM:File>DESIGN</QPM:File>
+                              <QPM:File>Install</QPM:File>
+                              <QPM:File>LICENSE</QPM:File>
+                              <QPM:File>README</QPM:File>
+                              <QPM:File>README.DECtga</QPM:File>
+                              <QPM:File>README.DGA</QPM:File>
+                              <QPM:File>README.DRI</QPM:File>
+                              <QPM:File>README.DRIcomp</QPM:File>
+                              <QPM:File>README.I128</QPM:File>
+                              <QPM:File>README.SiS</QPM:File>
+                              <QPM:File>README.apm</QPM:File>
+                              <QPM:File>README.ati</QPM:File>
+                              <QPM:File>README.chips</QPM:File>
+                              <QPM:File>README.cyrix</QPM:File>
+                              <QPM:File>README.dps</QPM:File>
+                              <QPM:File>README.fonts</QPM:File>
+                              <QPM:File>README.i740</QPM:File>
+                              <QPM:File>README.i810</QPM:File>
+                              <QPM:File>README.mouse</QPM:File>
+                              <QPM:File>README.newport</QPM:File>
+                              <QPM:File>README.r128</QPM:File>
+                              <QPM:File>README.rapidaccess</QPM:File>
+                              <QPM:File>README.rendition</QPM:File>
+                              <QPM:File>README.s3virge</QPM:File>
+                              <QPM:File>RELNOTES</QPM:File>
+                              <QPM:File>ServersOnly</QPM:File>
+                              <QPM:File>Status</QPM:File>
+                              <QPM:File>Versions</QPM:File>
+                              <QPM:File>VideoBoard98</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="etc">
+                              <QPM:File>Xinstall.sh</QPM:File>
+                              <QPM:File>sun.termcap</QPM:File>
+                              <QPM:File>sun.terminfo</QPM:File>
+                              <QPM:File>xmodmap.std</QPM:File>
+                              <QPM:File>xterm.termcap</QPM:File>
+                              <QPM:File>xterm.terminfo</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Link link="../../../../etc/X11/fs">fs</QPM:Link>
+                           <QPM:Link link="../../../../etc/X11/lbxproxy">lbxproxy</QPM:Link>
+                           <QPM:Dir name="locale">
+                              <QPM:Dir name="C">
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="armscii-8">
+                                 <QPM:File>Compose</QPM:File>
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>compose.dir</QPM:File>
+                              <QPM:Dir name="en_US.UTF-8">
+                                 <QPM:File>Compose</QPM:File>
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="georgian-academy">
+                                 <QPM:File>Compose</QPM:File>
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="georgian-ps">
+                                 <QPM:File>Compose</QPM:File>
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="ibm-cp1133">
+                                 <QPM:File>Compose</QPM:File>
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="iscii-dev">
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="isiri-3342">
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="iso8859-1">
+                                 <QPM:File>Compose</QPM:File>
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="iso8859-10">
+                                 <QPM:File>Compose</QPM:File>
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="iso8859-13">
+                                 <QPM:File>Compose</QPM:File>
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="iso8859-14">
+                                 <QPM:File>Compose</QPM:File>
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="iso8859-15">
+                                 <QPM:File>Compose</QPM:File>
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="iso8859-2">
+                                 <QPM:File>Compose</QPM:File>
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="iso8859-3">
+                                 <QPM:File>Compose</QPM:File>
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="iso8859-4">
+                                 <QPM:File>Compose</QPM:File>
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="iso8859-5">
+                                 <QPM:File>Compose</QPM:File>
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="iso8859-6">
+                                 <QPM:File>Compose</QPM:File>
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="iso8859-7">
+                                 <QPM:File>Compose</QPM:File>
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="iso8859-8">
+                                 <QPM:File>Compose</QPM:File>
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="iso8859-9">
+                                 <QPM:File>Compose</QPM:File>
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="iso8859-9e">
+                                 <QPM:File>Compose</QPM:File>
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="ja">
+                                 <QPM:File>Compose</QPM:File>
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="ja.JIS">
+                                 <QPM:File>Compose</QPM:File>
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="ja.SJIS">
+                                 <QPM:File>Compose</QPM:File>
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="ko">
+                                 <QPM:File>Compose</QPM:File>
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="koi8-c">
+                                 <QPM:File>Compose</QPM:File>
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="koi8-r">
+                                 <QPM:File>Compose</QPM:File>
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="koi8-u">
+                                 <QPM:File>Compose</QPM:File>
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>locale.alias</QPM:File>
+                              <QPM:File>locale.dir</QPM:File>
+                              <QPM:Dir name="microsoft-cp1251">
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="microsoft-cp1255">
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="microsoft-cp1256">
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="mulelao-1">
+                                 <QPM:File>Compose</QPM:File>
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="nokhchi-1">
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="tatar-cyr">
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="th_TH">
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="tscii-0">
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="vi_VN.tcvn">
+                                 <QPM:File>Compose</QPM:File>
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="vi_VN.viscii">
+                                 <QPM:File>Compose</QPM:File>
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="zh_CN">
+                                 <QPM:File>Compose</QPM:File>
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="zh_CN.gbk">
+                                 <QPM:File>Compose</QPM:File>
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="zh_HK.big5">
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="zh_HK.big5hkscs">
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="zh_TW">
+                                 <QPM:File>Compose</QPM:File>
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="zh_TW.big5">
+                                 <QPM:File>Compose</QPM:File>
+                                 <QPM:File>XLC_LOCALE</QPM:File>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:Link link="../../../../etc/X11/proxymngr">proxymngr</QPM:Link>
+                           <QPM:File>rgb.txt</QPM:File>
+                           <QPM:Link link="../../../../etc/X11/rstart">rstart</QPM:Link>
+                           <QPM:Link link="../../../../etc/X11/twm">twm</QPM:Link>
+                           <QPM:Dir name="x11perfcomp">
+                              <QPM:File>fillblnk</QPM:File>
+                              <QPM:File>perfboth</QPM:File>
+                              <QPM:File>perfratio</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Link link="../../../../etc/X11/xdm">xdm</QPM:Link>
+                           <QPM:Dir name="xedit">
+                              <QPM:Dir name="lisp">
+                                 <QPM:File>fun.lsp</QPM:File>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:Link link="../../../../etc/X11/xinit">xinit</QPM:Link>
+                           <QPM:Link link="../../../../etc/X11/xkb">xkb</QPM:Link>
+                           <QPM:File>xman.help</QPM:File>
+                           <QPM:Link link="../../../../etc/X11/xserver">xserver</QPM:Link>
+                           <QPM:Link link="../../../../etc/X11/xsm">xsm</QPM:Link>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

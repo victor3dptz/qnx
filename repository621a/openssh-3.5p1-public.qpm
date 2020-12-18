@@ -1,0 +1,155 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>openssh-3.5p1-public</QPM:PackageName>
+            <QPM:PackageSize>39473</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/01/02</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>OpenSSH</QPM:ProductName>
+            <QPM:ProductSize>151955</QPM:ProductSize>
+            <QPM:ProductIdentifier>openssh</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>OpenSSH</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.openssh.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>OpenSSH is a free ssh.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>OpenSSH is the ssh client and server from the OpenBSD project.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.openssh.org/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/openssh/core-3.5p1</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/01/02</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>3.5p1</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://openssh-3.5p1-public.repdata/LicenseUrl/LICENCE</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>System/Services, Servers and Daemons/Secure Shell (SSH) Servers</QPM:ContentTopic>
+            <QPM:ContentTopic>System/Network and Data Transmission/Telnet</QPM:ContentTopic>
+            <QPM:ContentKeyword>ssh,openssh</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Administrator</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>openssh needs openssl.</QPM:Notes>
+               <QPM:Product>openssl</QPM:Product>
+               <QPM:Vendor>public</QPM:Vendor>
+               <QPM:ProductHomeRepository/>
+            </QPM:Dependency>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="etc">
+                  <QPM:Dir name="openssh">
+                     <QPM:File>genhostkeys.sh</QPM:File>
+                     <QPM:File>ssh_config</QPM:File>
+                     <QPM:File>sshd_config</QPM:File>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/sbin">sbin</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/libexec">libexec</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="bin">
+                     <QPM:Link link="./ssh">slogin</QPM:Link>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="man">
+                     <QPM:Dir name="man1">
+                        <QPM:File>scp.1</QPM:File>
+                        <QPM:File>sftp.1</QPM:File>
+                        <QPM:Link link="./ssh.1">slogin.1</QPM:Link>
+                        <QPM:File>ssh-add.1</QPM:File>
+                        <QPM:File>ssh-agent.1</QPM:File>
+                        <QPM:File>ssh-keygen.1</QPM:File>
+                        <QPM:File>ssh-keyscan.1</QPM:File>
+                        <QPM:File>ssh.1</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="man5">
+                        <QPM:File>ssh_config.5</QPM:File>
+                        <QPM:File>sshd_config.5</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="man8">
+                        <QPM:File>sftp-server.8</QPM:File>
+                        <QPM:File>ssh-keysign.8</QPM:File>
+                        <QPM:File>sshd.8</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="var">
+                  <QPM:Dir name="empty"/>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../opt/bin">bin</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/sbin">sbin</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/libexec">libexec</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="man">
+                     <QPM:Union link="../../opt/man/man8">man8</QPM:Union>
+                     <QPM:Union link="../../opt/man/man5">man5</QPM:Union>
+                     <QPM:Union link="../../opt/man/man1">man1</QPM:Union>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

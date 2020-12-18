@@ -1,0 +1,564 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:PackageName>gettext-0.11.5-public</QPM:PackageName>
+            <QPM:PackageSize>984137</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/01/06</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>GNU gettext</QPM:ProductName>
+            <QPM:ProductSize>3589093</QPM:ProductSize>
+            <QPM:ProductIdentifier>gettext</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>GNU</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.gnu.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Language support utilities and libs.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Language support utilities and libs.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.gnu.org/projects/gettext/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/gettext/core-0.11.5</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/01/06</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>0.11.5</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://gettext-0.11.5-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Software Development/Libraries and Extensions/C Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>gettext,libintl</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/lib">lib</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="bin">
+                     <QPM:File>autopoint</QPM:File>
+                     <QPM:File>gettextize</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="doc">
+                     <QPM:Dir name="gettext">
+                        <QPM:File>autopoint.1.html</QPM:File>
+                        <QPM:File>bind_textdomain_codeset.3.html</QPM:File>
+                        <QPM:File>bindtextdomain.3.html</QPM:File>
+                        <QPM:File>gettext.1.html</QPM:File>
+                        <QPM:File>gettext.3.html</QPM:File>
+                        <QPM:File>gettext_1.html</QPM:File>
+                        <QPM:File>gettext_10.html</QPM:File>
+                        <QPM:File>gettext_11.html</QPM:File>
+                        <QPM:File>gettext_12.html</QPM:File>
+                        <QPM:File>gettext_13.html</QPM:File>
+                        <QPM:File>gettext_14.html</QPM:File>
+                        <QPM:File>gettext_15.html</QPM:File>
+                        <QPM:File>gettext_16.html</QPM:File>
+                        <QPM:File>gettext_17.html</QPM:File>
+                        <QPM:File>gettext_18.html</QPM:File>
+                        <QPM:File>gettext_19.html</QPM:File>
+                        <QPM:File>gettext_2.html</QPM:File>
+                        <QPM:File>gettext_20.html</QPM:File>
+                        <QPM:File>gettext_21.html</QPM:File>
+                        <QPM:File>gettext_22.html</QPM:File>
+                        <QPM:File>gettext_3.html</QPM:File>
+                        <QPM:File>gettext_4.html</QPM:File>
+                        <QPM:File>gettext_5.html</QPM:File>
+                        <QPM:File>gettext_6.html</QPM:File>
+                        <QPM:File>gettext_7.html</QPM:File>
+                        <QPM:File>gettext_8.html</QPM:File>
+                        <QPM:File>gettext_9.html</QPM:File>
+                        <QPM:File>gettext_foot.html</QPM:File>
+                        <QPM:File>gettext_toc.html</QPM:File>
+                        <QPM:File>gettextize.1.html</QPM:File>
+                        <QPM:Dir name="javadoc1">
+                           <QPM:File>AllNames.html</QPM:File>
+                           <QPM:File>gnu.gettext.GettextResource.html</QPM:File>
+                           <QPM:Dir name="images">
+                              <QPM:File>blue-ball-small.gif</QPM:File>
+                              <QPM:File>blue-ball.gif</QPM:File>
+                              <QPM:File>class-index.gif</QPM:File>
+                              <QPM:File>constructor-index.gif</QPM:File>
+                              <QPM:File>constructors.gif</QPM:File>
+                              <QPM:File>cyan-ball-small.gif</QPM:File>
+                              <QPM:File>cyan-ball.gif</QPM:File>
+                              <QPM:File>error-index.gif</QPM:File>
+                              <QPM:File>exception-index.gif</QPM:File>
+                              <QPM:File>green-ball-small.gif</QPM:File>
+                              <QPM:File>green-ball.gif</QPM:File>
+                              <QPM:File>interface-index.gif</QPM:File>
+                              <QPM:File>magenta-ball-small.gif</QPM:File>
+                              <QPM:File>magenta-ball.gif</QPM:File>
+                              <QPM:File>method-index.gif</QPM:File>
+                              <QPM:File>methods.gif</QPM:File>
+                              <QPM:File>package-index.gif</QPM:File>
+                              <QPM:File>red-ball-small.gif</QPM:File>
+                              <QPM:File>red-ball.gif</QPM:File>
+                              <QPM:File>variable-index.gif</QPM:File>
+                              <QPM:File>variables.gif</QPM:File>
+                              <QPM:File>yellow-ball-small.gif</QPM:File>
+                              <QPM:File>yellow-ball.gif</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>packages.html</QPM:File>
+                           <QPM:File>tree.html</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="javadoc2">
+                           <QPM:File>allclasses-frame.html</QPM:File>
+                           <QPM:File>deprecated-list.html</QPM:File>
+                           <QPM:Dir name="gnu">
+                              <QPM:Dir name="gettext">
+                                 <QPM:File>GettextResource.html</QPM:File>
+                                 <QPM:File>package-frame.html</QPM:File>
+                                 <QPM:File>package-summary.html</QPM:File>
+                                 <QPM:File>package-tree.html</QPM:File>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:File>help-doc.html</QPM:File>
+                           <QPM:File>index-all.html</QPM:File>
+                           <QPM:File>index.html</QPM:File>
+                           <QPM:File>overview-tree.html</QPM:File>
+                           <QPM:File>package-list</QPM:File>
+                           <QPM:File>packages.html</QPM:File>
+                           <QPM:File>serialized-form.html</QPM:File>
+                           <QPM:File>stylesheet.css</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>msgattrib.1.html</QPM:File>
+                        <QPM:File>msgcat.1.html</QPM:File>
+                        <QPM:File>msgcmp.1.html</QPM:File>
+                        <QPM:File>msgcomm.1.html</QPM:File>
+                        <QPM:File>msgconv.1.html</QPM:File>
+                        <QPM:File>msgen.1.html</QPM:File>
+                        <QPM:File>msgexec.1.html</QPM:File>
+                        <QPM:File>msgfilter.1.html</QPM:File>
+                        <QPM:File>msgfmt.1.html</QPM:File>
+                        <QPM:File>msggrep.1.html</QPM:File>
+                        <QPM:File>msginit.1.html</QPM:File>
+                        <QPM:File>msgmerge.1.html</QPM:File>
+                        <QPM:File>msgunfmt.1.html</QPM:File>
+                        <QPM:File>msguniq.1.html</QPM:File>
+                        <QPM:File>ngettext.1.html</QPM:File>
+                        <QPM:File>ngettext.3.html</QPM:File>
+                        <QPM:File>textdomain.3.html</QPM:File>
+                        <QPM:File>xgettext.1.html</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="info">
+                     <QPM:File>gettext.info</QPM:File>
+                     <QPM:File>gettext.info-1</QPM:File>
+                     <QPM:File>gettext.info-10</QPM:File>
+                     <QPM:File>gettext.info-2</QPM:File>
+                     <QPM:File>gettext.info-3</QPM:File>
+                     <QPM:File>gettext.info-4</QPM:File>
+                     <QPM:File>gettext.info-5</QPM:File>
+                     <QPM:File>gettext.info-6</QPM:File>
+                     <QPM:File>gettext.info-7</QPM:File>
+                     <QPM:File>gettext.info-8</QPM:File>
+                     <QPM:File>gettext.info-9</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="lib">
+                     <QPM:File>charset.alias</QPM:File>
+                     <QPM:Dir name="gettext">
+                        <QPM:File>project-id</QPM:File>
+                        <QPM:File>user-email</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:File>libgettextsrc.la</QPM:File>
+                     <QPM:File>libintl.la</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="man">
+                     <QPM:Dir name="man1">
+                        <QPM:File>autopoint.1</QPM:File>
+                        <QPM:File>gettext.1</QPM:File>
+                        <QPM:File>gettextize.1</QPM:File>
+                        <QPM:File>msgattrib.1</QPM:File>
+                        <QPM:File>msgcat.1</QPM:File>
+                        <QPM:File>msgcmp.1</QPM:File>
+                        <QPM:File>msgcomm.1</QPM:File>
+                        <QPM:File>msgconv.1</QPM:File>
+                        <QPM:File>msgen.1</QPM:File>
+                        <QPM:File>msgexec.1</QPM:File>
+                        <QPM:File>msgfilter.1</QPM:File>
+                        <QPM:File>msgfmt.1</QPM:File>
+                        <QPM:File>msggrep.1</QPM:File>
+                        <QPM:File>msginit.1</QPM:File>
+                        <QPM:File>msgmerge.1</QPM:File>
+                        <QPM:File>msgunfmt.1</QPM:File>
+                        <QPM:File>msguniq.1</QPM:File>
+                        <QPM:File>ngettext.1</QPM:File>
+                        <QPM:File>xgettext.1</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="man3">
+                        <QPM:File>bind_textdomain_codeset.3</QPM:File>
+                        <QPM:File>bindtextdomain.3</QPM:File>
+                        <QPM:File>dcgettext.3</QPM:File>
+                        <QPM:File>dcngettext.3</QPM:File>
+                        <QPM:File>dgettext.3</QPM:File>
+                        <QPM:File>dngettext.3</QPM:File>
+                        <QPM:File>gettext.3</QPM:File>
+                        <QPM:File>ngettext.3</QPM:File>
+                        <QPM:File>textdomain.3</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="aclocal">
+                        <QPM:File>codeset.m4</QPM:File>
+                        <QPM:File>gettext.m4</QPM:File>
+                        <QPM:File>glibc21.m4</QPM:File>
+                        <QPM:File>iconv.m4</QPM:File>
+                        <QPM:File>intdiv0.m4</QPM:File>
+                        <QPM:File>inttypes-pri.m4</QPM:File>
+                        <QPM:File>inttypes.m4</QPM:File>
+                        <QPM:File>inttypes_h.m4</QPM:File>
+                        <QPM:File>isc-posix.m4</QPM:File>
+                        <QPM:File>lcmessage.m4</QPM:File>
+                        <QPM:File>lib-ld.m4</QPM:File>
+                        <QPM:File>lib-link.m4</QPM:File>
+                        <QPM:File>lib-prefix.m4</QPM:File>
+                        <QPM:File>progtest.m4</QPM:File>
+                        <QPM:File>stdint_h.m4</QPM:File>
+                        <QPM:File>uintmax_t.m4</QPM:File>
+                        <QPM:File>ulonglong.m4</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="gettext">
+                        <QPM:File>ABOUT-NLS</QPM:File>
+                        <QPM:File>archive.tar.gz</QPM:File>
+                        <QPM:File>config.rpath</QPM:File>
+                        <QPM:Dir name="intl">
+                           <QPM:File>COPYING.LIB-2.0</QPM:File>
+                           <QPM:File>COPYING.LIB-2.1</QPM:File>
+                           <QPM:File>ChangeLog</QPM:File>
+                           <QPM:File>Makefile.in</QPM:File>
+                           <QPM:File>VERSION</QPM:File>
+                           <QPM:File>bindtextdom.c</QPM:File>
+                           <QPM:File>config.charset</QPM:File>
+                           <QPM:File>dcgettext.c</QPM:File>
+                           <QPM:File>dcigettext.c</QPM:File>
+                           <QPM:File>dcngettext.c</QPM:File>
+                           <QPM:File>dgettext.c</QPM:File>
+                           <QPM:File>dngettext.c</QPM:File>
+                           <QPM:File>explodename.c</QPM:File>
+                           <QPM:File>finddomain.c</QPM:File>
+                           <QPM:File>gettext.c</QPM:File>
+                           <QPM:File>intl-compat.c</QPM:File>
+                           <QPM:File>l10nflist.c</QPM:File>
+                           <QPM:File>loadmsgcat.c</QPM:File>
+                           <QPM:File>localcharset.c</QPM:File>
+                           <QPM:File>locale.alias</QPM:File>
+                           <QPM:File>localealias.c</QPM:File>
+                           <QPM:File>localename.c</QPM:File>
+                           <QPM:File>ngettext.c</QPM:File>
+                           <QPM:File>os2compat.c</QPM:File>
+                           <QPM:File>osdep.c</QPM:File>
+                           <QPM:File>plural-exp.c</QPM:File>
+                           <QPM:File>plural.c</QPM:File>
+                           <QPM:File>plural.y</QPM:File>
+                           <QPM:File>ref-add.sin</QPM:File>
+                           <QPM:File>ref-del.sin</QPM:File>
+                           <QPM:File>textdomain.c</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>mkinstalldirs</QPM:File>
+                        <QPM:File>msgunfmt.tcl</QPM:File>
+                        <QPM:Dir name="po">
+                           <QPM:File>Makefile.in.in</QPM:File>
+                           <QPM:File>Makevars</QPM:File>
+                           <QPM:File>Rules-quot</QPM:File>
+                           <QPM:File>boldquot.sed</QPM:File>
+                           <QPM:File>en@boldquot.header</QPM:File>
+                           <QPM:File>en@quot.header</QPM:File>
+                           <QPM:File>insert-header.sin</QPM:File>
+                           <QPM:File>quot.sed</QPM:File>
+                           <QPM:File>remove-potcdate.sin</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="projects">
+                           <QPM:Dir name="GNOME">
+                              <QPM:File>team-address</QPM:File>
+                              <QPM:File>teams.html</QPM:File>
+                              <QPM:File>teams.url</QPM:File>
+                              <QPM:File>trigger</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="KDE">
+                              <QPM:File>team-address</QPM:File>
+                              <QPM:File>teams.html</QPM:File>
+                              <QPM:File>teams.url</QPM:File>
+                              <QPM:File>trigger</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="TP">
+                              <QPM:File>team-address</QPM:File>
+                              <QPM:File>teams.html</QPM:File>
+                              <QPM:File>teams.url</QPM:File>
+                              <QPM:File>trigger</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>index</QPM:File>
+                           <QPM:File>team-address</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="locale">
+                        <QPM:Dir name="be">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>gettext.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ca">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>gettext.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="cs">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>gettext.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="da">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>gettext.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="de">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>gettext.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="el">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>gettext.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="en@boldquot">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>gettext.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="en@quot">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>gettext.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="es">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>gettext.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="et">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>gettext.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="fi">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>gettext.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="fr">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>gettext.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="gl">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>gettext.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="id">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>gettext.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="it">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>gettext.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ja">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>gettext.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ko">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>gettext.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:File>locale.alias</QPM:File>
+                        <QPM:Dir name="nl">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>gettext.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="nn">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>gettext.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="no">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>gettext.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="pl">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>gettext.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="pt">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>gettext.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="pt_BR">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>gettext.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="ru">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>gettext.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="sk">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>gettext.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="sl">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>gettext.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="sv">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>gettext.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="tr">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>gettext.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="zh_TW">
+                           <QPM:Dir name="LC_MESSAGES">
+                              <QPM:File>gettext.mo</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../opt/lib">lib</QPM:Union>
+                  <QPM:Union link="../opt/info">info</QPM:Union>
+                  <QPM:Union link="../opt/bin">bin</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/lib">lib</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="man">
+                     <QPM:Union link="../../opt/man/man3">man3</QPM:Union>
+                     <QPM:Union link="../../opt/man/man1">man1</QPM:Union>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Union link="../../opt/share/locale">locale</QPM:Union>
+                     <QPM:Union link="../../opt/share/gettext">gettext</QPM:Union>
+                     <QPM:Union link="../../opt/share/aclocal">aclocal</QPM:Union>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

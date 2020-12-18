@@ -1,0 +1,243 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:PackageName>openh323-1.11.3-public</QPM:PackageName>
+            <QPM:PackageSize>117541</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>3</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseNotes/>
+            <QPM:PackageReleaseUrgency>Medium</QPM:PackageReleaseUrgency>
+            <QPM:PackageReleaseDate>2003/01/27</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>openh323</QPM:ProductName>
+            <QPM:ProductSize>316457</QPM:ProductSize>
+            <QPM:ProductIdentifier>openh323</QPM:ProductIdentifier>
+            <QPM:ProductEmail>xtang@canada.com</QPM:ProductEmail>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.openh323.org/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Equivalence Pty Ltd.</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.equival.com/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail>equival@equival.net</QPM:AuthorEmail>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>ITU H.323 teleconferencing protocol stack</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>The OpenH323 project aims to create a full featured, interoperable, Open  Source implementation of the ITU H.323 teleconferencing protocol that  can be used by personal developers and commercial users without charge.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.openh323.org/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/openh323/core-1.11.3</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/01/16</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>1.11.3</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>Mozilla Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://openh323-1.11.3-public.repdata/LicenseUrl/mpl-1.0.txt</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Communication and Connectivity/Telephony</QPM:ContentTopic>
+            <QPM:ContentKeyword>openh323, h323, netmeeting</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName>cat /opt/doc/openh323/Readme | popup</QPM:ScriptName>
+               <QPM:ScriptType>Install</QPM:ScriptType>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptBlocking>No</QPM:ScriptBlocking>
+               <QPM:ScriptResult>Ignore</QPM:ScriptResult>
+               <QPM:ShortDescription>ShowReadme</QPM:ShortDescription>
+               <QPM:UseBinaries>No</QPM:UseBinaries>
+               <QPM:Priority>Recommended</QPM:Priority>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/lib">lib</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="doc">
+                     <QPM:Dir name="openh323">
+                        <QPM:File>Readme</QPM:File>
+                        <QPM:File>mpl-1.0.htm</QPM:File>
+                        <QPM:File>ohphone.readme</QPM:File>
+                        <QPM:File>openam.readme</QPM:File>
+                        <QPM:File>opengk.readme</QPM:File>
+                        <QPM:File>openh323.readme</QPM:File>
+                        <QPM:File>openmcu.readme</QPM:File>
+                        <QPM:File>pwlib.readme</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="include">
+                     <QPM:Dir name="CVS">
+                        <QPM:File>Entries</QPM:File>
+                        <QPM:File>Repository</QPM:File>
+                        <QPM:File>Root</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="openh323">
+                        <QPM:Dir name="CVS">
+                           <QPM:File>Entries</QPM:File>
+                           <QPM:File>Repository</QPM:File>
+                           <QPM:File>Root</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="ptclib">
+                        <QPM:Dir name="CVS">
+                           <QPM:File>Entries</QPM:File>
+                           <QPM:File>Repository</QPM:File>
+                           <QPM:File>Root</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="ptlib">
+                        <QPM:Dir name="CVS">
+                           <QPM:File>Entries</QPM:File>
+                           <QPM:File>Repository</QPM:File>
+                           <QPM:File>Root</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>contain.inl</QPM:File>
+                        <QPM:File>osutil.inl</QPM:File>
+                        <QPM:Dir name="unix">
+                           <QPM:Dir name="CVS">
+                              <QPM:File>Entries</QPM:File>
+                              <QPM:File>Repository</QPM:File>
+                              <QPM:File>Root</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="ptlib">
+                              <QPM:Dir name="CVS">
+                                 <QPM:File>Entries</QPM:File>
+                                 <QPM:File>Repository</QPM:File>
+                                 <QPM:File>Root</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>ptlib.inl</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="lib">
+                     <QPM:Link link="libh323_QNX_x86_r.so">libopenh323.so</QPM:Link>
+                     <QPM:Link link="libpt_QNX_x86_r.so">libpt.so</QPM:Link>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="man">
+                     <QPM:Dir name="man1">
+                        <QPM:File>ohphone.1</QPM:File>
+                        <QPM:File>openmcu.1</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="openh323">
+                        <QPM:File>openam_sample_message.wav</QPM:File>
+                        <QPM:File>openh323u.mak</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="pwlib">
+                        <QPM:Dir name="make">
+                           <QPM:Dir name="CVS">
+                              <QPM:File>Entries</QPM:File>
+                              <QPM:File>Repository</QPM:File>
+                              <QPM:File>Root</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>common.mak</QPM:File>
+                           <QPM:File>defaultgui.mak</QPM:File>
+                           <QPM:File>gcc_filter</QPM:File>
+                           <QPM:File>gui.mak</QPM:File>
+                           <QPM:File>lib.mak</QPM:File>
+                           <QPM:File>motif.mak</QPM:File>
+                           <QPM:File>ptlib.mak</QPM:File>
+                           <QPM:File>pwlib.mak</QPM:File>
+                           <QPM:File>qt.mak</QPM:File>
+                           <QPM:File>unix.mak</QPM:File>
+                           <QPM:File>xlib.mak</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../opt/lib">lib</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/lib">lib</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="include">
+                     <QPM:Union link="../../opt/include/ptlib">ptlib</QPM:Union>
+                     <QPM:Union link="../../opt/include/CVS">CVS</QPM:Union>
+                     <QPM:Dir name="openh323">
+                        <QPM:Union link="../../../opt/include/openh323/CVS">CVS</QPM:Union>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="ptclib">
+                        <QPM:Union link="../../../opt/include/ptclib/CVS">CVS</QPM:Union>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="man">
+                     <QPM:Union link="../../opt/man/man1">man1</QPM:Union>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Union link="../../opt/share/openh323">openh323</QPM:Union>
+                     <QPM:Dir name="pwlib">
+                        <QPM:Union link="../../../opt/share/pwlib/make">make</QPM:Union>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

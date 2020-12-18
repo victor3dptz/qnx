@@ -1,0 +1,373 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>defendguin-0.0.10-public</QPM:PackageName>
+            <QPM:PackageSize>2215427</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2002/12/27</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Defendguin</QPM:ProductName>
+            <QPM:ProductSize>4309678</QPM:ProductSize>
+            <QPM:ProductIdentifier>defendguin</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Bill Kendrick</QPM:AuthorName>
+            <QPM:AuthorURL/>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Defender clone with a Linux vs Microsoft theme</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Defendguin is a clone of the game &quot;Defender&quot;.  It has a Linux vs Microsoft theme to it, as you are to protect the Penguinoids from being mutated by Borg-like Bill Gates.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.newbreedsoftware.com/defendguin/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/defendguin/core-0.0.10</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/12/27</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>0.0.10</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://defendguin-0.0.10-public.repdata/LicenseUrl/COPYING.txt</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Games and Diversions/Arcade Shoot &apos;em Ups</QPM:ContentTopic>
+            <QPM:ContentKeyword>defender, billg</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Use</QPM:ScriptType>
+            </QPM:Script>
+
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Unuse</QPM:ScriptType>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="man">
+                     <QPM:Dir name="man6">
+                        <QPM:File>defendguin.6</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="defendguin">
+                        <QPM:Dir name="images">
+                           <QPM:Dir name="baiter">
+                              <QPM:File>baiter0.bmp</QPM:File>
+                              <QPM:File>baiter1.bmp</QPM:File>
+                              <QPM:File>baiter2.bmp</QPM:File>
+                              <QPM:File>baiter3.bmp</QPM:File>
+                              <QPM:File>baiter4.bmp</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="bomber">
+                              <QPM:File>bomber-bulge0.bmp</QPM:File>
+                              <QPM:File>bomber-bulge1.bmp</QPM:File>
+                              <QPM:File>bomber.bmp</QPM:File>
+                              <QPM:File>mine-flash.bmp</QPM:File>
+                              <QPM:File>mine-pop.bmp</QPM:File>
+                              <QPM:File>mine.bmp</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="bullet">
+                              <QPM:File>bullet0.bmp</QPM:File>
+                              <QPM:File>bullet1.bmp</QPM:File>
+                              <QPM:File>bullet2.bmp</QPM:File>
+                              <QPM:File>bullet3.bmp</QPM:File>
+                              <QPM:File>bullet4.bmp</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="evilbill">
+                              <QPM:File>evilbill-hurt1.bmp</QPM:File>
+                              <QPM:File>evilbill-hurt2.bmp</QPM:File>
+                              <QPM:File>evilbill-shoot.bmp</QPM:File>
+                              <QPM:File>evilbill1.bmp</QPM:File>
+                              <QPM:File>evilbill2.bmp</QPM:File>
+                              <QPM:File>flame1.bmp</QPM:File>
+                              <QPM:File>flame2.bmp</QPM:File>
+                              <QPM:File>flame3.bmp</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>l2r.sh</QPM:File>
+                           <QPM:Dir name="land">
+                              <QPM:File>center.bmp</QPM:File>
+                              <QPM:File>left.bmp</QPM:File>
+                              <QPM:File>right.bmp</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="loader">
+                              <QPM:File>loading-text.bmp</QPM:File>
+                              <QPM:File>loading.bmp</QPM:File>
+                              <QPM:File>press-a-key.bmp</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="mutant">
+                              <QPM:File>mutant0.bmp</QPM:File>
+                              <QPM:File>mutant1.bmp</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="pod">
+                              <QPM:File>pod.bmp</QPM:File>
+                              <QPM:File>pod0.bmp</QPM:File>
+                              <QPM:File>pod1.bmp</QPM:File>
+                              <QPM:File>pod2.bmp</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="points">
+                              <QPM:File>100.bmp</QPM:File>
+                              <QPM:File>1000.bmp</QPM:File>
+                              <QPM:File>150.bmp</QPM:File>
+                              <QPM:File>200.bmp</QPM:File>
+                              <QPM:File>250.bmp</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="ship">
+                              <QPM:File>disco-1.bmp</QPM:File>
+                              <QPM:File>disco-2.bmp</QPM:File>
+                              <QPM:File>flame-left-0.bmp</QPM:File>
+                              <QPM:File>flame-left-1.bmp</QPM:File>
+                              <QPM:File>flame-right-0.bmp</QPM:File>
+                              <QPM:File>flame-right-1.bmp</QPM:File>
+                              <QPM:File>lasers.bmp</QPM:File>
+                              <QPM:File>ship-left-dying.bmp</QPM:File>
+                              <QPM:File>ship-left.bmp</QPM:File>
+                              <QPM:File>ship-left2.bmp</QPM:File>
+                              <QPM:File>ship-right-dying.bmp</QPM:File>
+                              <QPM:File>ship-right.bmp</QPM:File>
+                              <QPM:File>ship-right2.bmp</QPM:File>
+                              <QPM:File>ship-win-0.bmp</QPM:File>
+                              <QPM:File>ship-win-1.bmp</QPM:File>
+                              <QPM:File>ship-win-2.bmp</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="status">
+                              <QPM:File>catch-the-penguinoid.bmp</QPM:File>
+                              <QPM:File>circle.bmp</QPM:File>
+                              <QPM:File>circle.ppm</QPM:File>
+                              <QPM:File>game-over.bmp</QPM:File>
+                              <QPM:File>get-ready.bmp</QPM:File>
+                              <QPM:File>level-bonus.bmp</QPM:File>
+                              <QPM:File>map-alert.bmp</QPM:File>
+                              <QPM:File>map-baiter.bmp</QPM:File>
+                              <QPM:File>map-bomber.bmp</QPM:File>
+                              <QPM:File>map-evilbill.bmp</QPM:File>
+                              <QPM:File>map-land.bmp</QPM:File>
+                              <QPM:File>map-mine.bmp</QPM:File>
+                              <QPM:File>map-mutant.bmp</QPM:File>
+                              <QPM:File>map-peng.bmp</QPM:File>
+                              <QPM:File>map-pod.bmp</QPM:File>
+                              <QPM:File>map-ship.bmp</QPM:File>
+                              <QPM:File>map-swarmer.bmp</QPM:File>
+                              <QPM:File>map-ufo.bmp</QPM:File>
+                              <QPM:File>no-bonus.bmp</QPM:File>
+                              <QPM:File>numbers.bmp</QPM:File>
+                              <QPM:File>option-text.bmp</QPM:File>
+                              <QPM:File>penguinoid-dropped.bmp</QPM:File>
+                              <QPM:File>penguinoid-in-trouble.bmp</QPM:File>
+                              <QPM:File>penguinoid-mutated.bmp</QPM:File>
+                              <QPM:File>penguinoid-saved.bmp</QPM:File>
+                              <QPM:File>penguinoid-shot.bmp</QPM:File>
+                              <QPM:File>planet-destroyed.bmp</QPM:File>
+                              <QPM:File>ships.bmp</QPM:File>
+                              <QPM:File>smart-bomb.bmp</QPM:File>
+                              <QPM:File>status-area.bmp</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="swarmer">
+                              <QPM:File>swarmer.bmp</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="title">
+                              <QPM:File>arrow0.bmp</QPM:File>
+                              <QPM:File>arrow1.bmp</QPM:File>
+                              <QPM:File>arrow2.bmp</QPM:File>
+                              <QPM:File>one-player.bmp</QPM:File>
+                              <QPM:File>options.bmp</QPM:File>
+                              <QPM:File>quit.bmp</QPM:File>
+                              <QPM:File>starfield.bmp</QPM:File>
+                              <QPM:File>title.bmp</QPM:File>
+                              <QPM:File>two-players.bmp</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="tux">
+                              <QPM:File>fall0.bmp</QPM:File>
+                              <QPM:File>fall1.bmp</QPM:File>
+                              <QPM:File>l0.bmp</QPM:File>
+                              <QPM:File>l1.bmp</QPM:File>
+                              <QPM:File>l2.bmp</QPM:File>
+                              <QPM:File>l3.bmp</QPM:File>
+                              <QPM:File>l4.bmp</QPM:File>
+                              <QPM:File>l5.bmp</QPM:File>
+                              <QPM:File>l6.bmp</QPM:File>
+                              <QPM:File>l7.bmp</QPM:File>
+                              <QPM:File>lflag.bmp</QPM:File>
+                              <QPM:File>r0.bmp</QPM:File>
+                              <QPM:File>r1.bmp</QPM:File>
+                              <QPM:File>r2.bmp</QPM:File>
+                              <QPM:File>r3.bmp</QPM:File>
+                              <QPM:File>r4.bmp</QPM:File>
+                              <QPM:File>r5.bmp</QPM:File>
+                              <QPM:File>r6.bmp</QPM:File>
+                              <QPM:File>r7.bmp</QPM:File>
+                              <QPM:File>rflag.bmp</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="ufo">
+                              <QPM:File>beam0.bmp</QPM:File>
+                              <QPM:File>beam1.bmp</QPM:File>
+                              <QPM:File>beam2.bmp</QPM:File>
+                              <QPM:File>beam3.bmp</QPM:File>
+                              <QPM:File>ufo0.bmp</QPM:File>
+                              <QPM:File>ufo1.bmp</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="music">
+                           <QPM:File>ants.mod</QPM:File>
+                           <QPM:File>blowmind.mod</QPM:File>
+                           <QPM:File>child.mod</QPM:File>
+                           <QPM:File>confusio.mod</QPM:File>
+                           <QPM:File>easytrip.mod</QPM:File>
+                           <QPM:File>no!inhi1.mod</QPM:File>
+                           <QPM:File>summerpa.mod</QPM:File>
+                           <QPM:File>wormhole.mod</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="sounds">
+                           <QPM:File>baiter.wav</QPM:File>
+                           <QPM:File>bullet.wav</QPM:File>
+                           <QPM:Dir name="evilbill">
+                              <QPM:File>die.wav</QPM:File>
+                              <QPM:File>hurt.wav</QPM:File>
+                              <QPM:File>intro.wav</QPM:File>
+                              <QPM:File>low.wav</QPM:File>
+                              <QPM:File>mine.wav</QPM:File>
+                              <QPM:File>shoot.wav</QPM:File>
+                              <QPM:File>success1.wav</QPM:File>
+                              <QPM:File>success2.wav</QPM:File>
+                              <QPM:File>success3.wav</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>explode.wav</QPM:File>
+                           <QPM:Dir name="gameover">
+                              <QPM:File>darn.wav</QPM:File>
+                              <QPM:File>finish.wav</QPM:File>
+                              <QPM:File>lose.wav</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>materialize.wav</QPM:File>
+                           <QPM:File>pause.wav</QPM:File>
+                           <QPM:Dir name="peng">
+                              <QPM:File>capture.wav</QPM:File>
+                              <QPM:File>drop0.wav</QPM:File>
+                              <QPM:File>drop1.wav</QPM:File>
+                              <QPM:File>drop2.wav</QPM:File>
+                              <QPM:File>kill.wav</QPM:File>
+                              <QPM:File>mutate.wav</QPM:File>
+                              <QPM:File>save.wav</QPM:File>
+                              <QPM:File>splat.wav</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>planet_death.wav</QPM:File>
+                           <QPM:Dir name="ship">
+                              <QPM:File>die1.wav</QPM:File>
+                              <QPM:File>die2.wav</QPM:File>
+                              <QPM:File>laser.wav</QPM:File>
+                              <QPM:File>oneup.wav</QPM:File>
+                              <QPM:File>smartbomb.wav</QPM:File>
+                              <QPM:File>thrust.wav</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>swarmers.wav</QPM:File>
+                           <QPM:Dir name="title">
+                              <QPM:File>confirm.wav</QPM:File>
+                              <QPM:File>impatience.wav</QPM:File>
+                              <QPM:File>select.wav</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="man">
+                     <QPM:Union link="../../opt/man/man6">man6</QPM:Union>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="defendguin">
+                        <QPM:Union link="../../../opt/share/defendguin/sounds">sounds</QPM:Union>
+                        <QPM:Union link="../../../opt/share/defendguin/music">music</QPM:Union>
+                        <QPM:Union link="../../../opt/share/defendguin/images">images</QPM:Union>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+
+      <QPM:Launch name="Defendguin">
+         <QPM:String name="Topic" value="Applications/Games"/>
+         <QPM:String name="Command" value="/opt/bin/defendguin"/>
+         <QPM:String name="Icon" value="/usr/share/icons/topics/plane.gif"/>
+      </QPM:Launch>
+   </RDF:Description>
+</RDF:RDF>

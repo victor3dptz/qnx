@@ -1,0 +1,176 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>perl-dev-5.8.0-bld2-public</QPM:PackageName>
+            <QPM:PackageSize>272454</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/01/09</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:PackageModel>dev</QPM:PackageModel>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Perl Development</QPM:ProductName>
+            <QPM:ProductSize>1214528</QPM:ProductSize>
+            <QPM:ProductIdentifier>perl-dev</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Larry Wall</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.perl.com/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Perl is a scripting language.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Perl is a scripting language.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.perl.com/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/perl/dev-5.8.0-bld2</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/01/09</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>5.8.0</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>2</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://perl-5.8.0-bld2-public.repdata/LicenseUrl/README</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Software Development/Programming Languages and Parsers/Script and Shell Interpreters</QPM:ContentTopic>
+            <QPM:ContentKeyword>perl,awk,sed</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>Must include at least one development package targeting a specific processor (Packager-generated dependency).</QPM:Notes>
+               <QPM:Filter>
+                  <QPM:FilterType>StringExpression</QPM:FilterType>
+                  <ProductIdentifier>perl-dev-target*</ProductIdentifier>
+               </QPM:Filter>
+            </QPM:Dependency>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="lib">
+                     <QPM:Dir name="perl5">
+                        <QPM:Dir name="5.8.0">
+                           <QPM:Dir name="Encode">
+                              <QPM:File>encode.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="x86pc-nto">
+                              <QPM:Dir name="CORE">
+                                 <QPM:File>EXTERN.h</QPM:File>
+                                 <QPM:File>INTERN.h</QPM:File>
+                                 <QPM:File>XSUB.h</QPM:File>
+                                 <QPM:File>av.h</QPM:File>
+                                 <QPM:File>cc_runtime.h</QPM:File>
+                                 <QPM:File>config.h</QPM:File>
+                                 <QPM:File>cop.h</QPM:File>
+                                 <QPM:File>cv.h</QPM:File>
+                                 <QPM:File>dosish.h</QPM:File>
+                                 <QPM:File>embed.h</QPM:File>
+                                 <QPM:File>embedvar.h</QPM:File>
+                                 <QPM:File>fakesdio.h</QPM:File>
+                                 <QPM:File>fakethr.h</QPM:File>
+                                 <QPM:File>form.h</QPM:File>
+                                 <QPM:File>gv.h</QPM:File>
+                                 <QPM:File>handy.h</QPM:File>
+                                 <QPM:File>hv.h</QPM:File>
+                                 <QPM:File>intrpvar.h</QPM:File>
+                                 <QPM:File>iperlsys.h</QPM:File>
+                                 <QPM:File>keywords.h</QPM:File>
+                                 <QPM:File>mg.h</QPM:File>
+                                 <QPM:File>nostdio.h</QPM:File>
+                                 <QPM:File>op.h</QPM:File>
+                                 <QPM:File>opcode.h</QPM:File>
+                                 <QPM:File>opnames.h</QPM:File>
+                                 <QPM:File>patchlevel.h</QPM:File>
+                                 <QPM:File>perl.h</QPM:File>
+                                 <QPM:File>perlapi.h</QPM:File>
+                                 <QPM:File>perlio.h</QPM:File>
+                                 <QPM:File>perliol.h</QPM:File>
+                                 <QPM:File>perlsdio.h</QPM:File>
+                                 <QPM:File>perlsfio.h</QPM:File>
+                                 <QPM:File>perlvars.h</QPM:File>
+                                 <QPM:File>perly.h</QPM:File>
+                                 <QPM:File>pp.h</QPM:File>
+                                 <QPM:File>pp_proto.h</QPM:File>
+                                 <QPM:File>proto.h</QPM:File>
+                                 <QPM:File>reentr.h</QPM:File>
+                                 <QPM:File>regcomp.h</QPM:File>
+                                 <QPM:File>regexp.h</QPM:File>
+                                 <QPM:File>regnodes.h</QPM:File>
+                                 <QPM:File>scope.h</QPM:File>
+                                 <QPM:File>sv.h</QPM:File>
+                                 <QPM:File>thrdvar.h</QPM:File>
+                                 <QPM:File>thread.h</QPM:File>
+                                 <QPM:File>uconfig.h</QPM:File>
+                                 <QPM:File>unixish.h</QPM:File>
+                                 <QPM:File>utf8.h</QPM:File>
+                                 <QPM:File>utfebcdic.h</QPM:File>
+                                 <QPM:File>util.h</QPM:File>
+                                 <QPM:File>warnings.h</QPM:File>
+                              </QPM:Dir>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Dir name="lib">
+                     <QPM:Dir name="perl5">
+                        <QPM:Dir name="5.8.0">
+                           <QPM:Union link="../../../../opt/lib/perl5/5.8.0/Encode">Encode</QPM:Union>
+                           <QPM:Dir name="x86pc-nto">
+                              <QPM:Union link="../../../../../opt/lib/perl5/5.8.0/x86pc-nto/CORE">CORE</QPM:Union>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

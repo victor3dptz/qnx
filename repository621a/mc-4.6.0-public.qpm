@@ -1,0 +1,229 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageName>mc-4.6.0-public</QPM:PackageName>
+            <QPM:PackageSize>174368</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/02/28</QPM:PackageReleaseDate>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>1.9</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>644763</QPM:ProductSize>
+            <QPM:InstallPath>public/mc/core-4.6.0</QPM:InstallPath>
+            <QPM:ProductName>Midnight Commander</QPM:ProductName>
+            <QPM:ProductIdentifier>mc</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Console file manager</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong/>
+            <QPM:ProductDescriptionURL>http://www.ibiblio.org/mc/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/02/28</QPM:ReleaseDate>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ReleaseVersion>4.6.0</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:ContentTopic>System/File Utilities/File Management</QPM:ContentTopic>
+            <QPM:ContentKeyword>mc,midnight,commander,mcedit</QPM:ContentKeyword>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:LicenseUrl>rep://mc-4.6.0-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Use</QPM:ScriptType>
+            </QPM:Script>
+
+            <QPM:Script>
+               <QPM:ScriptName>/usr/photon/bin/launchmenu_notify</QPM:ScriptName>
+               <QPM:ScriptTiming>Post</QPM:ScriptTiming>
+               <QPM:ScriptType>Unuse</QPM:ScriptType>
+            </QPM:Script>
+         </QPM:ProductInstallationProcedure>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="man">
+                     <QPM:Dir name="man1">
+                        <QPM:File>mc.1</QPM:File>
+                        <QPM:File>mcedit.1</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="mc">
+                        <QPM:Dir name="bin">
+                           <QPM:File>mc-wrapper.csh</QPM:File>
+                           <QPM:File>mc-wrapper.sh</QPM:File>
+                           <QPM:File>mc.csh</QPM:File>
+                           <QPM:File>mc.sh</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>cedit.menu</QPM:File>
+                        <QPM:File>edit.indent.rc</QPM:File>
+                        <QPM:File>edit.spell.rc</QPM:File>
+                        <QPM:Dir name="extfs">
+                           <QPM:File>README</QPM:File>
+                           <QPM:File>a</QPM:File>
+                           <QPM:File>apt</QPM:File>
+                           <QPM:File>audio</QPM:File>
+                           <QPM:File>bpp</QPM:File>
+                           <QPM:File>deb</QPM:File>
+                           <QPM:File>deba</QPM:File>
+                           <QPM:File>debd</QPM:File>
+                           <QPM:File>dpkg</QPM:File>
+                           <QPM:File>extfs.ini</QPM:File>
+                           <QPM:File>hp48</QPM:File>
+                           <QPM:File>lslR</QPM:File>
+                           <QPM:File>mailfs</QPM:File>
+                           <QPM:File>patchfs</QPM:File>
+                           <QPM:File>rpm</QPM:File>
+                           <QPM:File>rpms</QPM:File>
+                           <QPM:File>sfs.ini</QPM:File>
+                           <QPM:File>trpm</QPM:File>
+                           <QPM:File>uar</QPM:File>
+                           <QPM:File>uarj</QPM:File>
+                           <QPM:File>uha</QPM:File>
+                           <QPM:File>ulha</QPM:File>
+                           <QPM:File>urar</QPM:File>
+                           <QPM:File>uzip</QPM:File>
+                           <QPM:File>uzoo</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>mc.charsets</QPM:File>
+                        <QPM:File>mc.ext</QPM:File>
+                        <QPM:File>mc.hint</QPM:File>
+                        <QPM:File>mc.hint.cs</QPM:File>
+                        <QPM:File>mc.hint.es</QPM:File>
+                        <QPM:File>mc.hint.hu</QPM:File>
+                        <QPM:File>mc.hint.it</QPM:File>
+                        <QPM:File>mc.hint.nl</QPM:File>
+                        <QPM:File>mc.hint.pl</QPM:File>
+                        <QPM:File>mc.hint.ru</QPM:File>
+                        <QPM:File>mc.hint.uk</QPM:File>
+                        <QPM:File>mc.hint.zh</QPM:File>
+                        <QPM:File>mc.hlp</QPM:File>
+                        <QPM:File>mc.lib</QPM:File>
+                        <QPM:File>mc.menu</QPM:File>
+                        <QPM:Dir name="syntax">
+                           <QPM:File>Syntax</QPM:File>
+                           <QPM:File>ada95.syntax</QPM:File>
+                           <QPM:File>c.syntax</QPM:File>
+                           <QPM:File>changelog.syntax</QPM:File>
+                           <QPM:File>diff.syntax</QPM:File>
+                           <QPM:File>dos.syntax</QPM:File>
+                           <QPM:File>fortran.syntax</QPM:File>
+                           <QPM:File>html.syntax</QPM:File>
+                           <QPM:File>java.syntax</QPM:File>
+                           <QPM:File>js.syntax</QPM:File>
+                           <QPM:File>latex.syntax</QPM:File>
+                           <QPM:File>lisp.syntax</QPM:File>
+                           <QPM:File>lsm.syntax</QPM:File>
+                           <QPM:File>m4.syntax</QPM:File>
+                           <QPM:File>mail.syntax</QPM:File>
+                           <QPM:File>makefile.syntax</QPM:File>
+                           <QPM:File>ml.syntax</QPM:File>
+                           <QPM:File>nroff.syntax</QPM:File>
+                           <QPM:File>octave.syntax</QPM:File>
+                           <QPM:File>pascal.syntax</QPM:File>
+                           <QPM:File>perl.syntax</QPM:File>
+                           <QPM:File>php.syntax</QPM:File>
+                           <QPM:File>po.syntax</QPM:File>
+                           <QPM:File>python.syntax</QPM:File>
+                           <QPM:File>sh.syntax</QPM:File>
+                           <QPM:File>slang.syntax</QPM:File>
+                           <QPM:File>smalltalk.syntax</QPM:File>
+                           <QPM:File>spec.syntax</QPM:File>
+                           <QPM:File>sql.syntax</QPM:File>
+                           <QPM:File>swig.syntax</QPM:File>
+                           <QPM:File>syntax.syntax</QPM:File>
+                           <QPM:File>tcl.syntax</QPM:File>
+                           <QPM:File>texinfo.syntax</QPM:File>
+                           <QPM:File>unknown.syntax</QPM:File>
+                           <QPM:File>xml.syntax</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="term">
+                           <QPM:File>README.xterm</QPM:File>
+                           <QPM:File>ansi.ti</QPM:File>
+                           <QPM:File>linux.ti</QPM:File>
+                           <QPM:File>vt100.ti</QPM:File>
+                           <QPM:File>xterm.ad</QPM:File>
+                           <QPM:File>xterm.tcap</QPM:File>
+                           <QPM:File>xterm.ti</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="man">
+                     <QPM:Union link="../../opt/man/man1">man1</QPM:Union>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Union link="../../opt/share/mc">mc</QPM:Union>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+
+      <QPM:Launch name="Midnight Commander">
+         <QPM:String name="Topic" value="Applications/Utilities"/>
+         <QPM:String name="Command" value="pterm mc"/>
+      </QPM:Launch>
+   </RDF:Description>
+</RDF:RDF>

@@ -1,0 +1,226 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>xf86-xservers-dev_x86-4.2-public</QPM:PackageName>
+            <QPM:PackageSize>2854531</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/02/16</QPM:PackageReleaseDate>
+            <QPM:PackageRepository>http://qnx.wox.org/qnxpub621/</QPM:PackageRepository>
+            <QPM:PackageModel>dev</QPM:PackageModel>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>XFree86 Xservers Development</QPM:ProductName>
+            <QPM:ProductSize>8201614</QPM:ProductSize>
+            <QPM:ProductIdentifier>xf86-xservers-dev-target_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>XFree86</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.xfree86.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>XFree86 Xservers</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>This package contains the hardware and software Xservers from XFree86. This does not include XPhoton, that is in it&apos;s own package.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.xfree86.org/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/xf86-xservers/dev_x86-4.2</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/02/16</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>4.2</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>MIT License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl/>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>System/Services, Servers and Daemons/X Servers</QPM:ContentTopic>
+            <QPM:ContentKeyword>xfree86,X11,X11R6,xserver</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor>x86</QPM:TargetProcessor>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Union link="$(PROCESSOR)/opt">opt</QPM:Union>
+               <QPM:Dir name="x86">
+                  <QPM:Dir name="opt">
+                     <QPM:Dir name="X11R6">
+                        <QPM:Dir name="lib">
+                           <QPM:Dir name="modules">
+                              <QPM:Dir name="codeconv">
+                                 <QPM:File>libARABIC.a</QPM:File>
+                                 <QPM:File>libARMSCII8.a</QPM:File>
+                                 <QPM:File>libBIG5.a</QPM:File>
+                                 <QPM:File>libBIG5HKSCS.a</QPM:File>
+                                 <QPM:File>libDOSENCODING.a</QPM:File>
+                                 <QPM:File>libGB2312.a</QPM:File>
+                                 <QPM:File>libGBK.a</QPM:File>
+                                 <QPM:File>libGEORGIAN.a</QPM:File>
+                                 <QPM:File>libISO8859_1.a</QPM:File>
+                                 <QPM:File>libISO8859_10.a</QPM:File>
+                                 <QPM:File>libISO8859_11.a</QPM:File>
+                                 <QPM:File>libISO8859_14.a</QPM:File>
+                                 <QPM:File>libISO8859_15.a</QPM:File>
+                                 <QPM:File>libISO8859_2.a</QPM:File>
+                                 <QPM:File>libISO8859_3.a</QPM:File>
+                                 <QPM:File>libISO8859_4.a</QPM:File>
+                                 <QPM:File>libISO8859_5.a</QPM:File>
+                                 <QPM:File>libISO8859_6.a</QPM:File>
+                                 <QPM:File>libISO8859_7.a</QPM:File>
+                                 <QPM:File>libISO8859_8.a</QPM:File>
+                                 <QPM:File>libISO8859_9.a</QPM:File>
+                                 <QPM:File>libJISX0201.a</QPM:File>
+                                 <QPM:File>libJISX0208.a</QPM:File>
+                                 <QPM:File>libJISX0212.a</QPM:File>
+                                 <QPM:File>libKOI8.a</QPM:File>
+                                 <QPM:File>libKSC5601.a</QPM:File>
+                                 <QPM:File>libKSCJOHAB.a</QPM:File>
+                                 <QPM:File>libMULEENCODING.a</QPM:File>
+                                 <QPM:File>libTCVN.a</QPM:File>
+                                 <QPM:File>libVISCII.a</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="drivers">
+                                 <QPM:File>apm_drv.o</QPM:File>
+                                 <QPM:File>ark_drv.o</QPM:File>
+                                 <QPM:File>ati_drv.o</QPM:File>
+                                 <QPM:File>atimisc_drv.o</QPM:File>
+                                 <QPM:File>chips_drv.o</QPM:File>
+                                 <QPM:File>cirrus_alpine.o</QPM:File>
+                                 <QPM:File>cirrus_drv.o</QPM:File>
+                                 <QPM:File>cirrus_laguna.o</QPM:File>
+                                 <QPM:File>cyrix_drv.o</QPM:File>
+                                 <QPM:File>fbdev_drv.o</QPM:File>
+                                 <QPM:File>glint_drv.o</QPM:File>
+                                 <QPM:File>i128_drv.o</QPM:File>
+                                 <QPM:File>i740_drv.o</QPM:File>
+                                 <QPM:File>mga_drv.o</QPM:File>
+                                 <QPM:File>neomagic_drv.o</QPM:File>
+                                 <QPM:File>nv_drv.o</QPM:File>
+                                 <QPM:File>r128_drv.o</QPM:File>
+                                 <QPM:File>radeon_drv.o</QPM:File>
+                                 <QPM:File>rendition_drv.o</QPM:File>
+                                 <QPM:File>s3_drv.o</QPM:File>
+                                 <QPM:File>s3virge_drv.o</QPM:File>
+                                 <QPM:File>savage_drv.o</QPM:File>
+                                 <QPM:File>siliconmotion_drv.o</QPM:File>
+                                 <QPM:File>sis_drv.o</QPM:File>
+                                 <QPM:File>tdfx_drv.o</QPM:File>
+                                 <QPM:File>tga_drv.o</QPM:File>
+                                 <QPM:File>trident_drv.o</QPM:File>
+                                 <QPM:File>tseng_drv.o</QPM:File>
+                                 <QPM:File>vesa_drv.o</QPM:File>
+                                 <QPM:File>vga_drv.o</QPM:File>
+                                 <QPM:File>vmware_drv.o</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="extensions">
+                                 <QPM:File>libGLcore.a</QPM:File>
+                                 <QPM:File>libdbe.a</QPM:File>
+                                 <QPM:File>libextmod.a</QPM:File>
+                                 <QPM:File>libglx.a</QPM:File>
+                                 <QPM:File>librecord.a</QPM:File>
+                                 <QPM:File>libxtrap.a</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="fonts">
+                                 <QPM:File>libbitmap.a</QPM:File>
+                                 <QPM:File>libfreetype.a</QPM:File>
+                                 <QPM:File>libspeedo.a</QPM:File>
+                                 <QPM:File>libtype1.a</QPM:File>
+                                 <QPM:File>libxtt.a</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:Dir name="input">
+                                 <QPM:File>calcomp_drv.o</QPM:File>
+                                 <QPM:File>citron_drv.o</QPM:File>
+                                 <QPM:File>digitaledge_drv.o</QPM:File>
+                                 <QPM:File>dmc_drv.o</QPM:File>
+                                 <QPM:File>dynapro_drv.o</QPM:File>
+                                 <QPM:File>elographics_drv.o</QPM:File>
+                                 <QPM:File>hyperpen_drv.o</QPM:File>
+                                 <QPM:File>microtouch_drv.o</QPM:File>
+                                 <QPM:File>mouse_drv.o</QPM:File>
+                                 <QPM:File>mutouch_drv.o</QPM:File>
+                                 <QPM:File>penmount_drv.o</QPM:File>
+                                 <QPM:File>spaceorb_drv.o</QPM:File>
+                                 <QPM:File>summa_drv.o</QPM:File>
+                                 <QPM:File>void_drv.o</QPM:File>
+                                 <QPM:File>wacom_drv.o</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>libafb.a</QPM:File>
+                              <QPM:File>libcfb.a</QPM:File>
+                              <QPM:File>libcfb16.a</QPM:File>
+                              <QPM:File>libcfb24.a</QPM:File>
+                              <QPM:File>libcfb32.a</QPM:File>
+                              <QPM:File>libddc.a</QPM:File>
+                              <QPM:File>libfb.a</QPM:File>
+                              <QPM:File>libi2c.a</QPM:File>
+                              <QPM:File>libint10.a</QPM:File>
+                              <QPM:File>liblayer.a</QPM:File>
+                              <QPM:File>libmfb.a</QPM:File>
+                              <QPM:File>libpcidata.a</QPM:File>
+                              <QPM:File>librac.a</QPM:File>
+                              <QPM:File>libramdac.a</QPM:File>
+                              <QPM:File>libscanpci.a</QPM:File>
+                              <QPM:File>libshadow.a</QPM:File>
+                              <QPM:File>libshadowfb.a</QPM:File>
+                              <QPM:File>libvbe.a</QPM:File>
+                              <QPM:File>libvgahw.a</QPM:File>
+                              <QPM:File>libxaa.a</QPM:File>
+                              <QPM:File>libxf1bpp.a</QPM:File>
+                              <QPM:File>libxf24_32bpp.a</QPM:File>
+                              <QPM:File>libxf4bpp.a</QPM:File>
+                              <QPM:File>libxf8_16bpp.a</QPM:File>
+                              <QPM:File>libxf8_32bpp.a</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

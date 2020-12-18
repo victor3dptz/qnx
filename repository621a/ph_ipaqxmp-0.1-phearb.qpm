@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>ph_ipaqxmp-0.1-phearb</QPM:PackageName>
+            <QPM:PackageSize>1192</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>2</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseNotes>-</QPM:PackageReleaseNotes>
+            <QPM:PackageReleaseUrgency>Medium</QPM:PackageReleaseUrgency>
+            <QPM:PackageReleaseDate>2002/05/12</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>1.01</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>iPAQ-XMP</QPM:ProductName>
+            <QPM:ProductSize>0</QPM:ProductSize>
+            <QPM:ProductIdentifier>ph_ipaqxmp</QPM:ProductIdentifier>
+            <QPM:ProductEmail>phearbear@home.se</QPM:ProductEmail>
+            <QPM:VendorName>phearbear</QPM:VendorName>
+            <QPM:VendorInstallName>phearbear</QPM:VendorInstallName>
+            <QPM:VendorURL>http://194.236.217.9/</QPM:VendorURL>
+            <QPM:VendorEmbedURL>http://194.236.217.9/</QPM:VendorEmbedURL>
+            <QPM:VendorEmail>phearbear@home.se</QPM:VendorEmail>
+            <QPM:AuthorName>Johan Bjork</QPM:AuthorName>
+            <QPM:AuthorURL>http://194.236.217.9</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL>http://194.236.217.9</QPM:AuthorEmbedURL>
+            <QPM:AuthorEmail>phearbear@home.se</QPM:AuthorEmail>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>A player of Module formats, .xm .it .669 .mod etc</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong/>
+            <QPM:ProductDescriptionURL>http://194.236.217.9</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL>http://194.236.217.9/</QPM:ProductDescriptionEmbedURL>
+            <QPM:InstallPath>phearb/ph_ipaqxmp/core-0.1</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/05/09</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>0.1</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Low</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>No License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Multimedia/Music and Audio/Audio Media Players</QPM:ContentTopic>
+            <QPM:ContentKeyword>mod,xm,it,669,modules,player,ipaq</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:DisplayEnvironment>Photon</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="rp">
+                     <QPM:Union link="../../$(PROCESSOR)/opt/rp/ipaq">ipaq</QPM:Union>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

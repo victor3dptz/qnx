@@ -1,0 +1,285 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:PackageName>lesstif-dev-0.93.36-public</QPM:PackageName>
+            <QPM:PackageSize>142482</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>3</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseNotes/>
+            <QPM:PackageReleaseUrgency>Medium</QPM:PackageReleaseUrgency>
+            <QPM:PackageReleaseDate>2002/12/26</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:PackageModel>dev</QPM:PackageModel>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Lesstif Development</QPM:ProductName>
+            <QPM:ProductSize>874987</QPM:ProductSize>
+            <QPM:ProductIdentifier>lesstif-dev</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Danny Backx, Rick Scott, Alexander Mai</QPM:AuthorName>
+            <QPM:AuthorURL>www.lesstif.org</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Free implementation of Motif</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong/>
+            <QPM:ProductDescriptionURL>www.lesstif.org</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/lesstif/dev-0.93.36</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/05/15</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>0.93.36</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU Lesser General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://lesstif-0.93.36-public.repdata/LicenseUrl/COPYING.LIB</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>System/Libraries and Extensions/C Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>Motif, Lesstif</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>X11R6</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="include">
+                     <QPM:Dir name="Dt">
+                        <QPM:File>Print.h</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="Mrm">
+                        <QPM:File>MrmAppl.h</QPM:File>
+                        <QPM:File>MrmDecls.h</QPM:File>
+                        <QPM:File>MrmPrivate.h</QPM:File>
+                        <QPM:File>MrmPublic.h</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="Xm">
+                        <QPM:File>AccTextT.h</QPM:File>
+                        <QPM:File>ActivatableT.h</QPM:File>
+                        <QPM:File>ArrowB.h</QPM:File>
+                        <QPM:File>ArrowBG.h</QPM:File>
+                        <QPM:File>ArrowBGP.h</QPM:File>
+                        <QPM:File>ArrowBP.h</QPM:File>
+                        <QPM:File>AtomMgr.h</QPM:File>
+                        <QPM:File>BaseClassP.h</QPM:File>
+                        <QPM:File>BulletinB.h</QPM:File>
+                        <QPM:File>BulletinBP.h</QPM:File>
+                        <QPM:File>CacheP.h</QPM:File>
+                        <QPM:File>CareVisualT.h</QPM:File>
+                        <QPM:File>CascadeB.h</QPM:File>
+                        <QPM:File>CascadeBG.h</QPM:File>
+                        <QPM:File>CascadeBGP.h</QPM:File>
+                        <QPM:File>CascadeBP.h</QPM:File>
+                        <QPM:File>ColorObjP.h</QPM:File>
+                        <QPM:File>ComboBox.h</QPM:File>
+                        <QPM:File>ComboBoxP.h</QPM:File>
+                        <QPM:File>Command.h</QPM:File>
+                        <QPM:File>CommandP.h</QPM:File>
+                        <QPM:File>ContItemT.h</QPM:File>
+                        <QPM:File>Container.h</QPM:File>
+                        <QPM:File>ContainerP.h</QPM:File>
+                        <QPM:File>ContainerT.h</QPM:File>
+                        <QPM:File>CutPaste.h</QPM:File>
+                        <QPM:File>CutPasteP.h</QPM:File>
+                        <QPM:File>DesktopP.h</QPM:File>
+                        <QPM:File>DialogS.h</QPM:File>
+                        <QPM:File>DialogSEP.h</QPM:File>
+                        <QPM:File>DialogSP.h</QPM:File>
+                        <QPM:File>DialogSavvyT.h</QPM:File>
+                        <QPM:File>Display.h</QPM:File>
+                        <QPM:File>DisplayP.h</QPM:File>
+                        <QPM:File>DragC.h</QPM:File>
+                        <QPM:File>DragCP.h</QPM:File>
+                        <QPM:File>DragDrop.h</QPM:File>
+                        <QPM:File>DragIcon.h</QPM:File>
+                        <QPM:File>DragIconP.h</QPM:File>
+                        <QPM:File>DragOverS.h</QPM:File>
+                        <QPM:File>DragOverSP.h</QPM:File>
+                        <QPM:File>DrawP.h</QPM:File>
+                        <QPM:File>DrawingA.h</QPM:File>
+                        <QPM:File>DrawingAP.h</QPM:File>
+                        <QPM:File>DrawnB.h</QPM:File>
+                        <QPM:File>DrawnBP.h</QPM:File>
+                        <QPM:File>DropSMgr.h</QPM:File>
+                        <QPM:File>DropSMgrP.h</QPM:File>
+                        <QPM:File>DropTrans.h</QPM:File>
+                        <QPM:File>DropTransP.h</QPM:File>
+                        <QPM:File>ExtObjectP.h</QPM:File>
+                        <QPM:File>FileSB.h</QPM:File>
+                        <QPM:File>FileSBP.h</QPM:File>
+                        <QPM:File>Form.h</QPM:File>
+                        <QPM:File>FormP.h</QPM:File>
+                        <QPM:File>Frame.h</QPM:File>
+                        <QPM:File>FrameP.h</QPM:File>
+                        <QPM:File>Gadget.h</QPM:File>
+                        <QPM:File>GadgetP.h</QPM:File>
+                        <QPM:File>GrabShell.h</QPM:File>
+                        <QPM:File>GrabShellP.h</QPM:File>
+                        <QPM:File>IconG.h</QPM:File>
+                        <QPM:File>IconGP.h</QPM:File>
+                        <QPM:File>IconH.h</QPM:File>
+                        <QPM:File>JoinSideT.h</QPM:File>
+                        <QPM:File>Label.h</QPM:File>
+                        <QPM:File>LabelG.h</QPM:File>
+                        <QPM:File>LabelGP.h</QPM:File>
+                        <QPM:File>LabelP.h</QPM:File>
+                        <QPM:File>LayoutT.h</QPM:File>
+                        <QPM:File>List.h</QPM:File>
+                        <QPM:File>ListP.h</QPM:File>
+                        <QPM:File>MainW.h</QPM:File>
+                        <QPM:File>MainWP.h</QPM:File>
+                        <QPM:File>Manager.h</QPM:File>
+                        <QPM:File>ManagerP.h</QPM:File>
+                        <QPM:File>MenuShell.h</QPM:File>
+                        <QPM:File>MenuShellP.h</QPM:File>
+                        <QPM:File>MenuT.h</QPM:File>
+                        <QPM:File>MenuUtilP.h</QPM:File>
+                        <QPM:File>MessageB.h</QPM:File>
+                        <QPM:File>MessageBP.h</QPM:File>
+                        <QPM:File>MwmUtil.h</QPM:File>
+                        <QPM:File>NavigatorT.h</QPM:File>
+                        <QPM:File>Notebook.h</QPM:File>
+                        <QPM:File>NotebookP.h</QPM:File>
+                        <QPM:File>PanedW.h</QPM:File>
+                        <QPM:File>PanedWP.h</QPM:File>
+                        <QPM:File>Primitive.h</QPM:File>
+                        <QPM:File>PrimitiveP.h</QPM:File>
+                        <QPM:File>Print.h</QPM:File>
+                        <QPM:File>PrintSP.h</QPM:File>
+                        <QPM:File>Protocols.h</QPM:File>
+                        <QPM:File>ProtocolsP.h</QPM:File>
+                        <QPM:File>PushB.h</QPM:File>
+                        <QPM:File>PushBG.h</QPM:File>
+                        <QPM:File>PushBGP.h</QPM:File>
+                        <QPM:File>PushBP.h</QPM:File>
+                        <QPM:File>RCUtilsP.h</QPM:File>
+                        <QPM:File>RepType.h</QPM:File>
+                        <QPM:File>RowColumn.h</QPM:File>
+                        <QPM:File>RowColumnP.h</QPM:File>
+                        <QPM:File>SSpinB.h</QPM:File>
+                        <QPM:File>SSpinBP.h</QPM:File>
+                        <QPM:File>SashP.h</QPM:File>
+                        <QPM:File>Scale.h</QPM:File>
+                        <QPM:File>ScaleP.h</QPM:File>
+                        <QPM:File>Screen.h</QPM:File>
+                        <QPM:File>ScreenP.h</QPM:File>
+                        <QPM:File>ScrollBar.h</QPM:File>
+                        <QPM:File>ScrollBarP.h</QPM:File>
+                        <QPM:File>ScrollFrameT.h</QPM:File>
+                        <QPM:File>ScrolledW.h</QPM:File>
+                        <QPM:File>ScrolledWP.h</QPM:File>
+                        <QPM:File>SelectioB.h</QPM:File>
+                        <QPM:File>SelectioBP.h</QPM:File>
+                        <QPM:File>SeparatoG.h</QPM:File>
+                        <QPM:File>SeparatoGP.h</QPM:File>
+                        <QPM:File>Separator.h</QPM:File>
+                        <QPM:File>SeparatorP.h</QPM:File>
+                        <QPM:File>ShellEP.h</QPM:File>
+                        <QPM:File>SpecRenderT.h</QPM:File>
+                        <QPM:File>SpinB.h</QPM:File>
+                        <QPM:File>SpinBP.h</QPM:File>
+                        <QPM:File>TakesDefT.h</QPM:File>
+                        <QPM:File>TearOffBP.h</QPM:File>
+                        <QPM:File>TearOffP.h</QPM:File>
+                        <QPM:File>Text.h</QPM:File>
+                        <QPM:File>TextF.h</QPM:File>
+                        <QPM:File>TextFP.h</QPM:File>
+                        <QPM:File>TextFSelP.h</QPM:File>
+                        <QPM:File>TextInP.h</QPM:File>
+                        <QPM:File>TextOutP.h</QPM:File>
+                        <QPM:File>TextP.h</QPM:File>
+                        <QPM:File>TextSelP.h</QPM:File>
+                        <QPM:File>TextStrSoP.h</QPM:File>
+                        <QPM:File>ToggleB.h</QPM:File>
+                        <QPM:File>ToggleBG.h</QPM:File>
+                        <QPM:File>ToggleBGP.h</QPM:File>
+                        <QPM:File>ToggleBP.h</QPM:File>
+                        <QPM:File>TraitP.h</QPM:File>
+                        <QPM:File>Transfer.h</QPM:File>
+                        <QPM:File>TransferP.h</QPM:File>
+                        <QPM:File>TransferT.h</QPM:File>
+                        <QPM:File>TransltnsP.h</QPM:File>
+                        <QPM:File>TxtPropCv.h</QPM:File>
+                        <QPM:File>VaSimpleP.h</QPM:File>
+                        <QPM:File>VendorS.h</QPM:File>
+                        <QPM:File>VendorSEP.h</QPM:File>
+                        <QPM:File>VendorSP.h</QPM:File>
+                        <QPM:File>VirtKeys.h</QPM:File>
+                        <QPM:File>VirtKeysP.h</QPM:File>
+                        <QPM:File>WorldP.h</QPM:File>
+                        <QPM:File>Xm.h</QPM:File>
+                        <QPM:File>XmAll.h</QPM:File>
+                        <QPM:File>XmIm.h</QPM:File>
+                        <QPM:File>XmP.h</QPM:File>
+                        <QPM:File>XmStrDefs.h</QPM:File>
+                        <QPM:File>XmosP.h</QPM:File>
+                        <QPM:File>XpmP.h</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="uil">
+                        <QPM:File>Uil.h</QPM:File>
+                        <QPM:File>UilDBDef.h</QPM:File>
+                        <QPM:File>UilDef.h</QPM:File>
+                        <QPM:File>UilSymDef.h</QPM:File>
+                        <QPM:File>UilSymGl.h</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Dir name="include">
+                     <QPM:Union link="../../opt/include/uil">uil</QPM:Union>
+                     <QPM:Union link="../../opt/include/Xm">Xm</QPM:Union>
+                     <QPM:Union link="../../opt/include/Mrm">Mrm</QPM:Union>
+                     <QPM:Union link="../../opt/include/Dt">Dt</QPM:Union>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

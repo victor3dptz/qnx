@@ -1,0 +1,369 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>php-4.3.1-public</QPM:PackageName>
+            <QPM:PackageSize>210042</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/04/07</QPM:PackageReleaseDate>
+            <QPM:PackageRepository>http://qnx.wox.org/packages/6.2/</QPM:PackageRepository>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>PHP</QPM:ProductName>
+            <QPM:ProductSize>1030305</QPM:ProductSize>
+            <QPM:ProductIdentifier>php</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://qnx.wox.org/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>php.net</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.php.net/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>PHP is a web scripting language.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>PHP is a widely-used general-purpose scripting language that is especially suited for Web development and can be embedded into HTML.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.php.net/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/php/core-4.3.1</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/04/07</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>4.3.1</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://php-4.3.1-public.repdata/LicenseUrl/LICENSE</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>World Wide Web/Web Site Administration/Dynamic Content</QPM:ContentTopic>
+            <QPM:ContentKeyword>php,PHP,mysql</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Administrator</QPM:TargetAudience>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements>PHP requires Apache</QPM:ProductRequirements>
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>Requires Apache.</QPM:Notes>
+               <QPM:Product>apache1</QPM:Product>
+               <QPM:Vendor>public</QPM:Vendor>
+               <QPM:ProductHomeRepository>http://download.qnx.com/contrib/repository621a/</QPM:ProductHomeRepository>
+            </QPM:Dependency>
+
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>Requires PSQL</QPM:Notes>
+               <QPM:Product>postgresql</QPM:Product>
+               <QPM:Vendor>public</QPM:Vendor>
+               <QPM:ProductHomeRepository>http://download.qnx.com/contrib/repository621a/</QPM:ProductHomeRepository>
+            </QPM:Dependency>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="bin">
+                     <QPM:File>pear</QPM:File>
+                     <QPM:File>php-config</QPM:File>
+                     <QPM:File>phpextdist</QPM:File>
+                     <QPM:File>phpize</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="lib">
+                     <QPM:Union link="../../$(PROCESSOR)/opt/lib/apache">apache</QPM:Union>
+                     <QPM:Dir name="php">
+                        <QPM:File>.filemap</QPM:File>
+                        <QPM:File>.lock</QPM:File>
+                        <QPM:Dir name=".registry">
+                           <QPM:File>Archive_Tar.reg</QPM:File>
+                           <QPM:File>Console_Getopt.reg</QPM:File>
+                           <QPM:File>DB.reg</QPM:File>
+                           <QPM:File>HTTP.reg</QPM:File>
+                           <QPM:File>Mail.reg</QPM:File>
+                           <QPM:File>Net_SMTP.reg</QPM:File>
+                           <QPM:File>Net_Socket.reg</QPM:File>
+                           <QPM:File>PEAR.reg</QPM:File>
+                           <QPM:File>XML_Parser.reg</QPM:File>
+                           <QPM:File>XML_RPC.reg</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="Archive">
+                           <QPM:File>Tar.php</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="Console">
+                           <QPM:File>Getopt.php</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="DB">
+                           <QPM:File>common.php</QPM:File>
+                           <QPM:File>dbase.php</QPM:File>
+                           <QPM:File>fbsql.php</QPM:File>
+                           <QPM:File>ibase.php</QPM:File>
+                           <QPM:File>ifx.php</QPM:File>
+                           <QPM:File>msql.php</QPM:File>
+                           <QPM:File>mssql.php</QPM:File>
+                           <QPM:File>mysql.php</QPM:File>
+                           <QPM:File>oci8.php</QPM:File>
+                           <QPM:File>odbc.php</QPM:File>
+                           <QPM:File>pgsql.php</QPM:File>
+                           <QPM:File>storage.php</QPM:File>
+                           <QPM:File>sybase.php</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>DB.php</QPM:File>
+                        <QPM:File>HTTP.php</QPM:File>
+                        <QPM:Dir name="Mail">
+                           <QPM:File>RFC822.php</QPM:File>
+                           <QPM:File>mail.php</QPM:File>
+                           <QPM:File>sendmail.php</QPM:File>
+                           <QPM:File>smtp.php</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>Mail.php</QPM:File>
+                        <QPM:Dir name="Net">
+                           <QPM:File>SMTP.php</QPM:File>
+                           <QPM:File>Socket.php</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="OS">
+                           <QPM:File>Guess.php</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="PEAR">
+                           <QPM:File>Autoloader.php</QPM:File>
+                           <QPM:File>Builder.php</QPM:File>
+                           <QPM:Dir name="Command">
+                              <QPM:File>Auth.php</QPM:File>
+                              <QPM:File>Build.php</QPM:File>
+                              <QPM:File>Common.php</QPM:File>
+                              <QPM:File>Config.php</QPM:File>
+                              <QPM:File>Install.php</QPM:File>
+                              <QPM:File>Package.php</QPM:File>
+                              <QPM:File>Registry.php</QPM:File>
+                              <QPM:File>Remote.php</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>Command.php</QPM:File>
+                           <QPM:File>Common.php</QPM:File>
+                           <QPM:File>Config.php</QPM:File>
+                           <QPM:File>Dependency.php</QPM:File>
+                           <QPM:Dir name="Frontend">
+                              <QPM:File>CLI.php</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>Installer.php</QPM:File>
+                           <QPM:File>Packager.php</QPM:File>
+                           <QPM:File>Registry.php</QPM:File>
+                           <QPM:File>Remote.php</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>PEAR.php</QPM:File>
+                        <QPM:File>System.php</QPM:File>
+                        <QPM:Dir name="XML">
+                           <QPM:File>Parser.php</QPM:File>
+                           <QPM:Dir name="RPC">
+                              <QPM:File>Server.php</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:File>RPC.php</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="build">
+                           <QPM:File>Makefile.global</QPM:File>
+                           <QPM:File>acinclude.m4</QPM:File>
+                           <QPM:File>mkdep.awk</QPM:File>
+                           <QPM:File>pear.m4</QPM:File>
+                           <QPM:File>scan_makefile_in.awk</QPM:File>
+                           <QPM:File>shtool</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="data">
+                           <QPM:Dir name="PEAR">
+                              <QPM:File>package.dtd</QPM:File>
+                              <QPM:File>template.spec</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="docs">
+                           <QPM:Dir name="Archive_Tar">
+                              <QPM:Dir name="docs">
+                                 <QPM:File>Archive_Tar.txt</QPM:File>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="DB">
+                              <QPM:Dir name="DB">
+                                 <QPM:File>IDEAS</QPM:File>
+                                 <QPM:File>MAINTAINERS</QPM:File>
+                                 <QPM:File>STATUS</QPM:File>
+                                 <QPM:File>TESTERS</QPM:File>
+                              </QPM:Dir>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="extensions">
+                           <QPM:Dir name="no-debug-non-zts-20020429"/>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="tests">
+                           <QPM:Dir name="DB">
+                              <QPM:Dir name="tests">
+                                 <QPM:File>db_error.phpt</QPM:File>
+                                 <QPM:File>db_error2.phpt</QPM:File>
+                                 <QPM:File>db_factory.phpt</QPM:File>
+                                 <QPM:File>db_ismanip.phpt</QPM:File>
+                                 <QPM:File>db_parsedsn.phpt</QPM:File>
+                                 <QPM:Dir name="driver">
+                                    <QPM:File>01connect.phpt</QPM:File>
+                                    <QPM:File>02fetch.phpt</QPM:File>
+                                    <QPM:File>03simplequery.phpt</QPM:File>
+                                    <QPM:File>04numcols.phpt</QPM:File>
+                                    <QPM:File>05sequences.phpt</QPM:File>
+                                    <QPM:File>06prepexec.phpt</QPM:File>
+                                    <QPM:File>08affectedrows.phpt</QPM:File>
+                                    <QPM:File>09numrows.phpt</QPM:File>
+                                    <QPM:File>10errormap.phpt</QPM:File>
+                                    <QPM:File>13limit.phpt</QPM:File>
+                                    <QPM:File>14fetchmode_object.phpt</QPM:File>
+                                    <QPM:File>15quote.phpt</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="ibase">
+                                    <QPM:File>01connect.phpt</QPM:File>
+                                    <QPM:File>02fetch.phpt</QPM:File>
+                                    <QPM:File>03simplequery.phpt</QPM:File>
+                                    <QPM:File>04numcols.phpt</QPM:File>
+                                    <QPM:File>05sequences.phpt</QPM:File>
+                                    <QPM:File>06prepexec.phpt</QPM:File>
+                                    <QPM:File>10errormap.phpt</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="mysql">
+                                    <QPM:File>01connect.phpt</QPM:File>
+                                    <QPM:File>02fetch.phpt</QPM:File>
+                                    <QPM:File>03simplequery.phpt</QPM:File>
+                                    <QPM:File>04numcols.phpt</QPM:File>
+                                    <QPM:File>05sequences.phpt</QPM:File>
+                                    <QPM:File>06prepexec.phpt</QPM:File>
+                                    <QPM:File>07errornative.phpt</QPM:File>
+                                    <QPM:File>08affectedrows.phpt</QPM:File>
+                                    <QPM:File>09numrows.phpt</QPM:File>
+                                    <QPM:File>10errormap.phpt</QPM:File>
+                                    <QPM:File>12tableinfo.phpt</QPM:File>
+                                    <QPM:File>13limit.phpt</QPM:File>
+                                    <QPM:File>14fetchmode_object.phpt</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="oci8">
+                                    <QPM:File>01connect.phpt</QPM:File>
+                                    <QPM:File>02fetch.phpt</QPM:File>
+                                    <QPM:File>03simplequery.phpt</QPM:File>
+                                    <QPM:File>04numcols.phpt</QPM:File>
+                                    <QPM:File>05sequences.phpt</QPM:File>
+                                    <QPM:File>06prepexec.phpt</QPM:File>
+                                    <QPM:File>07errornative.phpt</QPM:File>
+                                    <QPM:File>08affectedrows.phpt</QPM:File>
+                                    <QPM:File>09numrows.phpt</QPM:File>
+                                    <QPM:File>10errormap.phpt</QPM:File>
+                                    <QPM:File>13limit.phpt</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="odbc">
+                                    <QPM:File>01connect.phpt</QPM:File>
+                                    <QPM:File>02fetch.phpt</QPM:File>
+                                    <QPM:File>03simplequery.phpt</QPM:File>
+                                    <QPM:File>04numcols.phpt</QPM:File>
+                                    <QPM:File>06prepexec.phpt</QPM:File>
+                                    <QPM:File>07errornative.phpt</QPM:File>
+                                    <QPM:File>09numrows.phpt</QPM:File>
+                                    <QPM:File>10errormap.phpt</QPM:File>
+                                 </QPM:Dir>
+
+                                 <QPM:Dir name="pgsql">
+                                    <QPM:File>01connect.phpt</QPM:File>
+                                    <QPM:File>02fetch.phpt</QPM:File>
+                                    <QPM:File>03simplequery.phpt</QPM:File>
+                                    <QPM:File>04numcols.phpt</QPM:File>
+                                    <QPM:File>05sequences.phpt</QPM:File>
+                                    <QPM:File>06prepexec.phpt</QPM:File>
+                                    <QPM:File>07errornative.phpt</QPM:File>
+                                    <QPM:File>08affectedrows.phpt</QPM:File>
+                                    <QPM:File>09numrows.phpt</QPM:File>
+                                    <QPM:File>10errormap.phpt</QPM:File>
+                                    <QPM:File>11transact.phpt</QPM:File>
+                                    <QPM:File>13limit.phpt</QPM:File>
+                                    <QPM:File>14fetchmode_object.phpt</QPM:File>
+                                 </QPM:Dir>
+                              </QPM:Dir>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="XML_Parser">
+                              <QPM:Dir name="tests">
+                                 <QPM:File>001.phpt</QPM:File>
+                                 <QPM:File>002.phpt</QPM:File>
+                                 <QPM:File>003.phpt</QPM:File>
+                                 <QPM:File>004.phpt</QPM:File>
+                                 <QPM:File>005.phpt</QPM:File>
+                                 <QPM:File>test2.xml</QPM:File>
+                                 <QPM:File>test3.xml</QPM:File>
+                              </QPM:Dir>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../opt/bin">bin</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="lib">
+                     <QPM:Union link="../../opt/lib/php">php</QPM:Union>
+                     <QPM:Union link="../../$(PROCESSOR)/opt/lib/apache">apache</QPM:Union>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

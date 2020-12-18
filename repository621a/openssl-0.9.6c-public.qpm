@@ -1,0 +1,413 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:PackageName>openssl-0.9.6c-public</QPM:PackageName>
+            <QPM:PackageSize>393043</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2002/05/27</QPM:PackageReleaseDate>
+            <QPM:PackageRepository>http://www.qnx.com</QPM:PackageRepository>
+            <QPM:FileVersion>1.01</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>OpenSSL</QPM:ProductName>
+            <QPM:ProductSize>2544977</QPM:ProductSize>
+            <QPM:ProductIdentifier>openssl</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.openssl.org/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>OpenSSL</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.openssl.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>OpenSSL is a free SSL.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>The OpenSSL Project is a collaborative effort to develop a robust, commercial-grade, fully featured, and Open Source toolkit implementing the Secure Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well as a full-strength general purpose cryptography library. The project is managed by a worldwide community of volunteers that use the Internet to communicate, plan, and develop the OpenSSL toolkit and its related documentation.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.openssl.org/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/openssl/core-0.9.6c</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/05/15</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>0.9.6c</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>High</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://openssl-0.9.6c-public.repdata/LicenseUrl/LICENSE</QPM:LicenseUrl>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Software Development/Libraries and Extensions/C Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>ssl,openssl,security</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="bin">
+                     <QPM:File>c_rehash</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="include">
+                     <QPM:Dir name="openssl">
+                        <QPM:File>asn1.h</QPM:File>
+                        <QPM:File>asn1_mac.h</QPM:File>
+                        <QPM:File>bio.h</QPM:File>
+                        <QPM:File>blowfish.h</QPM:File>
+                        <QPM:File>bn.h</QPM:File>
+                        <QPM:File>buffer.h</QPM:File>
+                        <QPM:File>cast.h</QPM:File>
+                        <QPM:File>comp.h</QPM:File>
+                        <QPM:File>conf.h</QPM:File>
+                        <QPM:File>conf_api.h</QPM:File>
+                        <QPM:File>crypto.h</QPM:File>
+                        <QPM:File>des.h</QPM:File>
+                        <QPM:File>dh.h</QPM:File>
+                        <QPM:File>dsa.h</QPM:File>
+                        <QPM:File>dso.h</QPM:File>
+                        <QPM:File>e_os.h</QPM:File>
+                        <QPM:File>e_os2.h</QPM:File>
+                        <QPM:File>ebcdic.h</QPM:File>
+                        <QPM:File>err.h</QPM:File>
+                        <QPM:File>evp.h</QPM:File>
+                        <QPM:File>hmac.h</QPM:File>
+                        <QPM:File>idea.h</QPM:File>
+                        <QPM:File>lhash.h</QPM:File>
+                        <QPM:File>md2.h</QPM:File>
+                        <QPM:File>md4.h</QPM:File>
+                        <QPM:File>md5.h</QPM:File>
+                        <QPM:File>mdc2.h</QPM:File>
+                        <QPM:File>obj_mac.h</QPM:File>
+                        <QPM:File>objects.h</QPM:File>
+                        <QPM:File>opensslconf.h</QPM:File>
+                        <QPM:File>opensslv.h</QPM:File>
+                        <QPM:File>pem.h</QPM:File>
+                        <QPM:File>pem2.h</QPM:File>
+                        <QPM:File>pkcs12.h</QPM:File>
+                        <QPM:File>pkcs7.h</QPM:File>
+                        <QPM:File>rand.h</QPM:File>
+                        <QPM:File>rc2.h</QPM:File>
+                        <QPM:File>rc4.h</QPM:File>
+                        <QPM:File>rc5.h</QPM:File>
+                        <QPM:File>ripemd.h</QPM:File>
+                        <QPM:File>rsa.h</QPM:File>
+                        <QPM:File>safestack.h</QPM:File>
+                        <QPM:File>sha.h</QPM:File>
+                        <QPM:File>ssl.h</QPM:File>
+                        <QPM:File>ssl2.h</QPM:File>
+                        <QPM:File>ssl23.h</QPM:File>
+                        <QPM:File>ssl3.h</QPM:File>
+                        <QPM:File>stack.h</QPM:File>
+                        <QPM:File>symhacks.h</QPM:File>
+                        <QPM:File>tls1.h</QPM:File>
+                        <QPM:File>tmdiff.h</QPM:File>
+                        <QPM:File>txt_db.h</QPM:File>
+                        <QPM:File>x509.h</QPM:File>
+                        <QPM:File>x509_vfy.h</QPM:File>
+                        <QPM:File>x509v3.h</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="ssl">
+                     <QPM:Dir name="certs"/>
+                     <QPM:Dir name="lib"/>
+                     <QPM:Dir name="man">
+                        <QPM:Dir name="man1">
+                           <QPM:File>CA.pl.1</QPM:File>
+                           <QPM:File>asn1parse.1</QPM:File>
+                           <QPM:File>ca.1</QPM:File>
+                           <QPM:File>ciphers.1</QPM:File>
+                           <QPM:File>crl.1</QPM:File>
+                           <QPM:File>crl2pkcs7.1</QPM:File>
+                           <QPM:File>dgst.1</QPM:File>
+                           <QPM:File>dhparam.1</QPM:File>
+                           <QPM:File>dsa.1</QPM:File>
+                           <QPM:File>dsaparam.1</QPM:File>
+                           <QPM:File>enc.1</QPM:File>
+                           <QPM:File>gendsa.1</QPM:File>
+                           <QPM:File>genrsa.1</QPM:File>
+                           <QPM:File>nseq.1</QPM:File>
+                           <QPM:File>openssl.1</QPM:File>
+                           <QPM:File>passwd.1</QPM:File>
+                           <QPM:File>pkcs12.1</QPM:File>
+                           <QPM:File>pkcs7.1</QPM:File>
+                           <QPM:File>pkcs8.1</QPM:File>
+                           <QPM:File>rand.1</QPM:File>
+                           <QPM:File>req.1</QPM:File>
+                           <QPM:File>rsa.1</QPM:File>
+                           <QPM:File>rsautl.1</QPM:File>
+                           <QPM:File>s_client.1</QPM:File>
+                           <QPM:File>s_server.1</QPM:File>
+                           <QPM:File>sess_id.1</QPM:File>
+                           <QPM:File>smime.1</QPM:File>
+                           <QPM:File>speed.1</QPM:File>
+                           <QPM:File>spkac.1</QPM:File>
+                           <QPM:File>verify.1</QPM:File>
+                           <QPM:File>version.1</QPM:File>
+                           <QPM:File>x509.1</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="man3">
+                           <QPM:File>BIO_ctrl.3</QPM:File>
+                           <QPM:File>BIO_f_base64.3</QPM:File>
+                           <QPM:File>BIO_f_buffer.3</QPM:File>
+                           <QPM:File>BIO_f_cipher.3</QPM:File>
+                           <QPM:File>BIO_f_md.3</QPM:File>
+                           <QPM:File>BIO_f_null.3</QPM:File>
+                           <QPM:File>BIO_f_ssl.3</QPM:File>
+                           <QPM:File>BIO_find_type.3</QPM:File>
+                           <QPM:File>BIO_new.3</QPM:File>
+                           <QPM:File>BIO_new_bio_pair.3</QPM:File>
+                           <QPM:File>BIO_push.3</QPM:File>
+                           <QPM:File>BIO_read.3</QPM:File>
+                           <QPM:File>BIO_s_accept.3</QPM:File>
+                           <QPM:File>BIO_s_bio.3</QPM:File>
+                           <QPM:File>BIO_s_connect.3</QPM:File>
+                           <QPM:File>BIO_s_fd.3</QPM:File>
+                           <QPM:File>BIO_s_file.3</QPM:File>
+                           <QPM:File>BIO_s_mem.3</QPM:File>
+                           <QPM:File>BIO_s_null.3</QPM:File>
+                           <QPM:File>BIO_s_socket.3</QPM:File>
+                           <QPM:File>BIO_set_callback.3</QPM:File>
+                           <QPM:File>BIO_should_retry.3</QPM:File>
+                           <QPM:File>BN_CTX_new.3</QPM:File>
+                           <QPM:File>BN_CTX_start.3</QPM:File>
+                           <QPM:File>BN_add.3</QPM:File>
+                           <QPM:File>BN_add_word.3</QPM:File>
+                           <QPM:File>BN_bn2bin.3</QPM:File>
+                           <QPM:File>BN_cmp.3</QPM:File>
+                           <QPM:File>BN_copy.3</QPM:File>
+                           <QPM:File>BN_generate_prime.3</QPM:File>
+                           <QPM:File>BN_mod_inverse.3</QPM:File>
+                           <QPM:File>BN_mod_mul_montgomery.3</QPM:File>
+                           <QPM:File>BN_mod_mul_reciprocal.3</QPM:File>
+                           <QPM:File>BN_new.3</QPM:File>
+                           <QPM:File>BN_num_bytes.3</QPM:File>
+                           <QPM:File>BN_rand.3</QPM:File>
+                           <QPM:File>BN_set_bit.3</QPM:File>
+                           <QPM:File>BN_zero.3</QPM:File>
+                           <QPM:File>CRYPTO_set_ex_data.3</QPM:File>
+                           <QPM:File>DH_generate_key.3</QPM:File>
+                           <QPM:File>DH_generate_parameters.3</QPM:File>
+                           <QPM:File>DH_get_ex_new_index.3</QPM:File>
+                           <QPM:File>DH_new.3</QPM:File>
+                           <QPM:File>DH_set_method.3</QPM:File>
+                           <QPM:File>DH_size.3</QPM:File>
+                           <QPM:File>DSA_SIG_new.3</QPM:File>
+                           <QPM:File>DSA_do_sign.3</QPM:File>
+                           <QPM:File>DSA_dup_DH.3</QPM:File>
+                           <QPM:File>DSA_generate_key.3</QPM:File>
+                           <QPM:File>DSA_generate_parameters.3</QPM:File>
+                           <QPM:File>DSA_get_ex_new_index.3</QPM:File>
+                           <QPM:File>DSA_new.3</QPM:File>
+                           <QPM:File>DSA_set_method.3</QPM:File>
+                           <QPM:File>DSA_sign.3</QPM:File>
+                           <QPM:File>DSA_size.3</QPM:File>
+                           <QPM:File>ERR_GET_LIB.3</QPM:File>
+                           <QPM:File>ERR_clear_error.3</QPM:File>
+                           <QPM:File>ERR_error_string.3</QPM:File>
+                           <QPM:File>ERR_get_error.3</QPM:File>
+                           <QPM:File>ERR_load_crypto_strings.3</QPM:File>
+                           <QPM:File>ERR_load_strings.3</QPM:File>
+                           <QPM:File>ERR_print_errors.3</QPM:File>
+                           <QPM:File>ERR_put_error.3</QPM:File>
+                           <QPM:File>ERR_remove_state.3</QPM:File>
+                           <QPM:File>EVP_DigestInit.3</QPM:File>
+                           <QPM:File>EVP_EncryptInit.3</QPM:File>
+                           <QPM:File>EVP_OpenInit.3</QPM:File>
+                           <QPM:File>EVP_SealInit.3</QPM:File>
+                           <QPM:File>EVP_SignInit.3</QPM:File>
+                           <QPM:File>EVP_VerifyInit.3</QPM:File>
+                           <QPM:File>OPENSSL_VERSION_NUMBER.3</QPM:File>
+                           <QPM:File>OpenSSL_add_all_algorithms.3</QPM:File>
+                           <QPM:File>RAND_add.3</QPM:File>
+                           <QPM:File>RAND_bytes.3</QPM:File>
+                           <QPM:File>RAND_cleanup.3</QPM:File>
+                           <QPM:File>RAND_egd.3</QPM:File>
+                           <QPM:File>RAND_load_file.3</QPM:File>
+                           <QPM:File>RAND_set_rand_method.3</QPM:File>
+                           <QPM:File>RSA_blinding_on.3</QPM:File>
+                           <QPM:File>RSA_check_key.3</QPM:File>
+                           <QPM:File>RSA_generate_key.3</QPM:File>
+                           <QPM:File>RSA_get_ex_new_index.3</QPM:File>
+                           <QPM:File>RSA_new.3</QPM:File>
+                           <QPM:File>RSA_padding_add_PKCS1_type_1.3</QPM:File>
+                           <QPM:File>RSA_print.3</QPM:File>
+                           <QPM:File>RSA_private_encrypt.3</QPM:File>
+                           <QPM:File>RSA_public_encrypt.3</QPM:File>
+                           <QPM:File>RSA_set_method.3</QPM:File>
+                           <QPM:File>RSA_sign.3</QPM:File>
+                           <QPM:File>RSA_sign_ASN1_OCTET_STRING.3</QPM:File>
+                           <QPM:File>RSA_size.3</QPM:File>
+                           <QPM:File>SSL_CIPHER_get_name.3</QPM:File>
+                           <QPM:File>SSL_COMP_add_compression_method.3</QPM:File>
+                           <QPM:File>SSL_CTX_add_extra_chain_cert.3</QPM:File>
+                           <QPM:File>SSL_CTX_add_session.3</QPM:File>
+                           <QPM:File>SSL_CTX_ctrl.3</QPM:File>
+                           <QPM:File>SSL_CTX_flush_sessions.3</QPM:File>
+                           <QPM:File>SSL_CTX_free.3</QPM:File>
+                           <QPM:File>SSL_CTX_get_ex_new_index.3</QPM:File>
+                           <QPM:File>SSL_CTX_get_verify_mode.3</QPM:File>
+                           <QPM:File>SSL_CTX_load_verify_locations.3</QPM:File>
+                           <QPM:File>SSL_CTX_new.3</QPM:File>
+                           <QPM:File>SSL_CTX_sess_number.3</QPM:File>
+                           <QPM:File>SSL_CTX_sess_set_cache_size.3</QPM:File>
+                           <QPM:File>SSL_CTX_sess_set_get_cb.3</QPM:File>
+                           <QPM:File>SSL_CTX_sessions.3</QPM:File>
+                           <QPM:File>SSL_CTX_set_cert_store.3</QPM:File>
+                           <QPM:File>SSL_CTX_set_cert_verify_callback.3</QPM:File>
+                           <QPM:File>SSL_CTX_set_cipher_list.3</QPM:File>
+                           <QPM:File>SSL_CTX_set_client_CA_list.3</QPM:File>
+                           <QPM:File>SSL_CTX_set_default_passwd_cb.3</QPM:File>
+                           <QPM:File>SSL_CTX_set_info_callback.3</QPM:File>
+                           <QPM:File>SSL_CTX_set_mode.3</QPM:File>
+                           <QPM:File>SSL_CTX_set_options.3</QPM:File>
+                           <QPM:File>SSL_CTX_set_quiet_shutdown.3</QPM:File>
+                           <QPM:File>SSL_CTX_set_session_cache_mode.3</QPM:File>
+                           <QPM:File>SSL_CTX_set_session_id_context.3</QPM:File>
+                           <QPM:File>SSL_CTX_set_ssl_version.3</QPM:File>
+                           <QPM:File>SSL_CTX_set_timeout.3</QPM:File>
+                           <QPM:File>SSL_CTX_set_tmp_dh_callback.3</QPM:File>
+                           <QPM:File>SSL_CTX_set_tmp_rsa_callback.3</QPM:File>
+                           <QPM:File>SSL_CTX_set_verify.3</QPM:File>
+                           <QPM:File>SSL_CTX_use_certificate.3</QPM:File>
+                           <QPM:File>SSL_SESSION_free.3</QPM:File>
+                           <QPM:File>SSL_SESSION_get_ex_new_index.3</QPM:File>
+                           <QPM:File>SSL_SESSION_get_time.3</QPM:File>
+                           <QPM:File>SSL_accept.3</QPM:File>
+                           <QPM:File>SSL_alert_type_string.3</QPM:File>
+                           <QPM:File>SSL_clear.3</QPM:File>
+                           <QPM:File>SSL_connect.3</QPM:File>
+                           <QPM:File>SSL_free.3</QPM:File>
+                           <QPM:File>SSL_get_SSL_CTX.3</QPM:File>
+                           <QPM:File>SSL_get_ciphers.3</QPM:File>
+                           <QPM:File>SSL_get_client_CA_list.3</QPM:File>
+                           <QPM:File>SSL_get_current_cipher.3</QPM:File>
+                           <QPM:File>SSL_get_default_timeout.3</QPM:File>
+                           <QPM:File>SSL_get_error.3</QPM:File>
+                           <QPM:File>SSL_get_ex_data_X509_STORE_CTX_idx.3</QPM:File>
+                           <QPM:File>SSL_get_ex_new_index.3</QPM:File>
+                           <QPM:File>SSL_get_fd.3</QPM:File>
+                           <QPM:File>SSL_get_peer_cert_chain.3</QPM:File>
+                           <QPM:File>SSL_get_peer_certificate.3</QPM:File>
+                           <QPM:File>SSL_get_rbio.3</QPM:File>
+                           <QPM:File>SSL_get_session.3</QPM:File>
+                           <QPM:File>SSL_get_verify_result.3</QPM:File>
+                           <QPM:File>SSL_get_version.3</QPM:File>
+                           <QPM:File>SSL_library_init.3</QPM:File>
+                           <QPM:File>SSL_load_client_CA_file.3</QPM:File>
+                           <QPM:File>SSL_new.3</QPM:File>
+                           <QPM:File>SSL_pending.3</QPM:File>
+                           <QPM:File>SSL_read.3</QPM:File>
+                           <QPM:File>SSL_rstate_string.3</QPM:File>
+                           <QPM:File>SSL_session_reused.3</QPM:File>
+                           <QPM:File>SSL_set_bio.3</QPM:File>
+                           <QPM:File>SSL_set_connect_state.3</QPM:File>
+                           <QPM:File>SSL_set_fd.3</QPM:File>
+                           <QPM:File>SSL_set_session.3</QPM:File>
+                           <QPM:File>SSL_set_shutdown.3</QPM:File>
+                           <QPM:File>SSL_set_verify_result.3</QPM:File>
+                           <QPM:File>SSL_shutdown.3</QPM:File>
+                           <QPM:File>SSL_state_string.3</QPM:File>
+                           <QPM:File>SSL_want.3</QPM:File>
+                           <QPM:File>SSL_write.3</QPM:File>
+                           <QPM:File>bio.3</QPM:File>
+                           <QPM:File>blowfish.3</QPM:File>
+                           <QPM:File>bn.3</QPM:File>
+                           <QPM:File>bn_internal.3</QPM:File>
+                           <QPM:File>buffer.3</QPM:File>
+                           <QPM:File>crypto.3</QPM:File>
+                           <QPM:File>d2i_DHparams.3</QPM:File>
+                           <QPM:File>d2i_RSAPublicKey.3</QPM:File>
+                           <QPM:File>d2i_SSL_SESSION.3</QPM:File>
+                           <QPM:File>des.3</QPM:File>
+                           <QPM:File>dh.3</QPM:File>
+                           <QPM:File>dsa.3</QPM:File>
+                           <QPM:File>err.3</QPM:File>
+                           <QPM:File>evp.3</QPM:File>
+                           <QPM:File>hmac.3</QPM:File>
+                           <QPM:File>lh_stats.3</QPM:File>
+                           <QPM:File>lhash.3</QPM:File>
+                           <QPM:File>md5.3</QPM:File>
+                           <QPM:File>mdc2.3</QPM:File>
+                           <QPM:File>rand.3</QPM:File>
+                           <QPM:File>rc4.3</QPM:File>
+                           <QPM:File>ripemd.3</QPM:File>
+                           <QPM:File>rsa.3</QPM:File>
+                           <QPM:File>sha.3</QPM:File>
+                           <QPM:File>ssl.3</QPM:File>
+                           <QPM:File>threads.3</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="man5">
+                           <QPM:File>config.5</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="man7">
+                           <QPM:File>des_modes.7</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="misc">
+                        <QPM:File>CA.pl</QPM:File>
+                        <QPM:File>CA.sh</QPM:File>
+                        <QPM:File>c_hash</QPM:File>
+                        <QPM:File>c_info</QPM:File>
+                        <QPM:File>c_issuer</QPM:File>
+                        <QPM:File>c_name</QPM:File>
+                        <QPM:File>der_chop</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:File>openssl.cnf</QPM:File>
+                     <QPM:Dir name="private"/>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../opt/bin">bin</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="include">
+                     <QPM:Union link="../../opt/include/openssl">openssl</QPM:Union>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

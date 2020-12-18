@@ -1,0 +1,95 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageName>PGLib-dev-1.1-JF</QPM:PackageName>
+            <QPM:PackageSize>7828</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>14</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2002/05/21</QPM:PackageReleaseDate>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:PackageReleaseNotes/>
+            <QPM:PackageReleaseUrgency>Medium</QPM:PackageReleaseUrgency>
+            <QPM:PackageRepository>http://www.altbits.com/PGLib/repository/</QPM:PackageRepository>
+            <QPM:FileVersion>1.01</QPM:FileVersion>
+            <QPM:PackageModel>dev</QPM:PackageModel>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>20845</QPM:ProductSize>
+            <QPM:InstallPath>JF/PGLib/dev-1.1</QPM:InstallPath>
+            <QPM:ProductName>Portable Games Library Development</QPM:ProductName>
+            <QPM:ProductIdentifier>PGLib-dev</QPM:ProductIdentifier>
+            <QPM:ProductEmail>pglib@altbits.com</QPM:ProductEmail>
+            <QPM:VendorName>JF</QPM:VendorName>
+            <QPM:VendorInstallName>JF</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>JF</QPM:AuthorName>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Portable Games Library</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong/>
+            <QPM:ProductDescriptionURL/>
+            <QPM:ProductDescriptionEmbedURL/>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2001/08/02</QPM:ReleaseDate>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ReleaseVersion>1.1</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Low</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:QNXLicenseDescription/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:ContentTopic>System/Libraries and Extensions/C Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>pglib,notsdl,portable,games</QPM:ContentKeyword>
+            <QPM:DisplayEnvironment>Photon</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:LicenseUrl>rep://PGLib-1.1-JF.repdata/LicenseUrl/PGLib_COPYRIGHT.txt</QPM:LicenseUrl>
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="usr">
+                  <QPM:Dir name="include">
+                     <QPM:Dir name="PGLib">
+                        <QPM:File>PGALib.h</QPM:File>
+                        <QPM:File>PGATypes.h</QPM:File>
+                        <QPM:File>PGGLib.h</QPM:File>
+                        <QPM:File>PGILib.h</QPM:File>
+                        <QPM:File>PGI_Keys.h</QPM:File>
+                        <QPM:File>PGSLib.h</QPM:File>
+                        <QPM:File>PGULib.h</QPM:File>
+                        <QPM:File>PG_Platform.h</QPM:File>
+                        <QPM:File>PG_QNX.h</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

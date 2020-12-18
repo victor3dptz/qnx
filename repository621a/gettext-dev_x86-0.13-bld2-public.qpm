@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageName>gettext-dev_x86-0.13-bld2-public</QPM:PackageName>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2005/01/23</QPM:PackageReleaseDate>
+            <QPM:PackageType>Library</QPM:PackageType>
+            <QPM:FileVersion>2.6</QPM:FileVersion>
+            <QPM:PackageModel>dev</QPM:PackageModel>
+            <QPM:DateCode>41f400e5</QPM:DateCode>
+            <QPM:PackageSize>140220</QPM:PackageSize>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>571030</QPM:ProductSize>
+            <QPM:InstallPath>public/gettext/dev_x86-0.13-bld2</QPM:InstallPath>
+            <QPM:ProductName>GNU gettext Development</QPM:ProductName>
+            <QPM:ProductIdentifier>gettext-dev-target_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail>bug-gnu-gettext@gnu.org</QPM:ProductEmail>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.gnu.org/software/gettext/</QPM:VendorURL>
+            <QPM:VendorEmail>bug-gnu-gettext@gnu.org</QPM:VendorEmail>
+            <QPM:AuthorName>Gettext Team</QPM:AuthorName>
+            <QPM:ProductDescriptionShort>GNU gettext package.  It is interesting for authors or maintainers of other packages or programs which they want to see internationalized.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>GNU gettext package.  It is interesting for authors or maintainers of other packages or programs which they want to see internationalized. As one step the handling of messages in different languages should be implemented.  For this task GNU gettext provides the needed tools and library functions.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.gnu.org/software/gettext/</QPM:ProductDescriptionURL>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2005/01/23</QPM:ReleaseDate>
+            <QPM:ReleaseBuild>2</QPM:ReleaseBuild>
+            <QPM:ReleaseVersion>0.13</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:TargetProcessor>x86</QPM:TargetProcessor>
+            <QPM:RequiresLibrary>libasprintf.so.0</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libintl.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libgettextpo.so.1</QPM:RequiresLibrary>
+            <QPM:ContentTopic>Software Development/Libraries and Extensions/C Libraries</QPM:ContentTopic>
+            <QPM:ContentKeyword>GNU,gettext,intl,libintl</QPM:ContentKeyword>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:Dependency>
+               <QPM:DependencyType>Install</QPM:DependencyType>
+               <QPM:Notes>Requires the core development package (Packager-generated dependency).</QPM:Notes>
+               <QPM:Product>gettext-dev</QPM:Product>
+            </QPM:Dependency>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:LicenseUrl>rep://gettext-0.13-bld2-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PackageDate>41f400e5</QPM:PackageDate>
+         <QPM:Listing>
+            <QPM:Dir name="" dt="41f400e5">
+               <QPM:Union link="$(PROCESSOR)/usr">usr</QPM:Union>
+               <QPM:Dir name="x86">
+                  <QPM:Dir name="usr">
+                     <QPM:Dir name="lib">
+                        <QPM:File sum="d36806d8baac7894682e1bf2c60d4641" size="109134">libasprintf.a</QPM:File>
+                        <QPM:File sum="fc696c74392e685c60447cb3082e0a2f" size="430598">libintl.a</QPM:File>
+                        <QPM:File sum="3af68554a41c7c30c6e9dc54e0f94f68" size="26434">libgettextpo.a</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

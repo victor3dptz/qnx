@@ -1,0 +1,110 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageName>CascHist-4.1-bld59-x86-Cogent</QPM:PackageName>
+            <QPM:PackageSize>96325</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/01/14</QPM:PackageReleaseDate>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageRepository>http://developers.cogent/repository</QPM:PackageRepository>
+            <QPM:PackageModel>dev</QPM:PackageModel>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductSize>276403</QPM:ProductSize>
+            <QPM:InstallPath>Cogent/CascHist/core-4.1-bld59/x86</QPM:InstallPath>
+            <QPM:ProductName>Cascade Historian for x86</QPM:ProductName>
+            <QPM:ProductIdentifier>CascHist-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail>support@cogent.ca</QPM:ProductEmail>
+            <QPM:VendorName>Cogent Real-Time Systems Inc.</QPM:VendorName>
+            <QPM:VendorInstallName>Cogent</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.cogent.ca</QPM:VendorURL>
+            <QPM:VendorEmbedURL>http://www.cogent.ca/Software/Historian.html</QPM:VendorEmbedURL>
+            <QPM:VendorEmail>info@cogent.ca</QPM:VendorEmail>
+            <QPM:AuthorName>Cogent Real-Time Systems Inc.</QPM:AuthorName>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Cascade Historian</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>This is the Cascade Historian, a program for maintaining time histories of numerical process data.  These time histories are stored in a fixed-width binary format for maximum speed of storage and query.  The Cascade Historian can service a number of query types, including Y vs. time and Y vs. X plots with precise or interpolated values.  The Cascade Historian works both as a stand-alone module and in conjunction with Cogent&apos;s Cascade DataHub.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.cogent.ca/Software/Historian.html</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL>http://developers.cogentrts.com/repository/html/rep_historian.html</QPM:ProductDescriptionEmbedURL>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/01/14</QPM:ReleaseDate>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseVersion>4.1</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor>QNX6 Port</QPM:ReleaseNoteMinor>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>59</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>CascHist</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:RequiresLibrary>libsocket.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libm.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+            <QPM:ContentTopic>Cogent/Communication and Connectivity</QPM:ContentTopic>
+            <QPM:ContentKeyword>cogent,api,cascade,gamma,driver,datahub</QPM:ContentKeyword>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:ProductInstallationProcedure>
+            <QPM:OrderDependency>
+               <QPM:Order>InstallOver</QPM:Order>
+               <QPM:Product>CogentAPI-dev</QPM:Product>
+            </QPM:OrderDependency>
+         </QPM:ProductInstallationProcedure>
+
+         <QPM:LicenseUrl>rep://CascHist-4.1-bld59-Cogent.repdata/LicenseUrl/COMBINE_LICENSE</QPM:LicenseUrl>
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="usr">
+                  <QPM:Dir name="cogent">
+                     <QPM:Dir name="bin">
+                        <QPM:File>histdb</QPM:File>
+                        <QPM:File>nserve</QPM:File>
+                        <QPM:File>nsnames</QPM:File>
+                        <QPM:File>qserve</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="dll">
+                        <QPM:File>histdb.so</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

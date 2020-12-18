@@ -1,0 +1,424 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>samba-2.2.4-public</QPM:PackageName>
+            <QPM:PackageSize>1983760</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2002/05/17</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>1.01</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Samba</QPM:ProductName>
+            <QPM:ProductSize>7411343</QPM:ProductSize>
+            <QPM:ProductIdentifier>samba</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL/>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Free SMB and CIFS client and server for unix.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Samba is the protocol by which a lot of PC-related machines share files and printers and other information such as lists of available files and printers.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://samba.org/samba/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/samba/core-2.2.4</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2002/05/17</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>2.2.4</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Low</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:CountryExclude/>
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://samba-2.2.4-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>System/Filesystem</QPM:ContentTopic>
+            <QPM:ContentKeyword>samba,cifs</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:PkgInclude>
+            <QPM:Item>$(PROCESSOR)/MANIFEST</QPM:Item>
+         </QPM:PkgInclude>
+
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Union link="../$(PROCESSOR)/opt/sbin">sbin</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="bin">
+                     <QPM:File>smbtar</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="lib">
+                     <QPM:Dir name="codepages">
+                        <QPM:File>codepage.1251</QPM:File>
+                        <QPM:File>codepage.437</QPM:File>
+                        <QPM:File>codepage.737</QPM:File>
+                        <QPM:File>codepage.775</QPM:File>
+                        <QPM:File>codepage.850</QPM:File>
+                        <QPM:File>codepage.852</QPM:File>
+                        <QPM:File>codepage.857</QPM:File>
+                        <QPM:File>codepage.861</QPM:File>
+                        <QPM:File>codepage.866</QPM:File>
+                        <QPM:File>codepage.932</QPM:File>
+                        <QPM:File>codepage.936</QPM:File>
+                        <QPM:File>codepage.949</QPM:File>
+                        <QPM:File>codepage.950</QPM:File>
+                        <QPM:File>unicode_map.1251</QPM:File>
+                        <QPM:File>unicode_map.437</QPM:File>
+                        <QPM:File>unicode_map.737</QPM:File>
+                        <QPM:File>unicode_map.775</QPM:File>
+                        <QPM:File>unicode_map.850</QPM:File>
+                        <QPM:File>unicode_map.852</QPM:File>
+                        <QPM:File>unicode_map.857</QPM:File>
+                        <QPM:File>unicode_map.861</QPM:File>
+                        <QPM:File>unicode_map.866</QPM:File>
+                        <QPM:File>unicode_map.932</QPM:File>
+                        <QPM:File>unicode_map.936</QPM:File>
+                        <QPM:File>unicode_map.949</QPM:File>
+                        <QPM:File>unicode_map.950</QPM:File>
+                        <QPM:File>unicode_map.ISO8859-1</QPM:File>
+                        <QPM:File>unicode_map.ISO8859-13</QPM:File>
+                        <QPM:File>unicode_map.ISO8859-15</QPM:File>
+                        <QPM:File>unicode_map.ISO8859-2</QPM:File>
+                        <QPM:File>unicode_map.ISO8859-5</QPM:File>
+                        <QPM:File>unicode_map.ISO8859-7</QPM:File>
+                        <QPM:File>unicode_map.ISO8859-9</QPM:File>
+                        <QPM:File>unicode_map.KOI8-R</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="man">
+                     <QPM:Dir name="man1">
+                        <QPM:File>findsmb.1</QPM:File>
+                        <QPM:File>make_smbcodepage.1</QPM:File>
+                        <QPM:File>make_unicodemap.1</QPM:File>
+                        <QPM:File>nmblookup.1</QPM:File>
+                        <QPM:File>rpcclient.1</QPM:File>
+                        <QPM:File>smbcacls.1</QPM:File>
+                        <QPM:File>smbclient.1</QPM:File>
+                        <QPM:File>smbcontrol.1</QPM:File>
+                        <QPM:File>smbsh.1</QPM:File>
+                        <QPM:File>smbstatus.1</QPM:File>
+                        <QPM:File>smbtar.1</QPM:File>
+                        <QPM:File>testparm.1</QPM:File>
+                        <QPM:File>testprns.1</QPM:File>
+                        <QPM:File>wbinfo.1</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="man5">
+                        <QPM:File>lmhosts.5</QPM:File>
+                        <QPM:File>smb.conf.5</QPM:File>
+                        <QPM:File>smbpasswd.5</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="man7">
+                        <QPM:File>samba.7</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="man8">
+                        <QPM:File>nmbd.8</QPM:File>
+                        <QPM:File>pdbedit.8</QPM:File>
+                        <QPM:File>smbd.8</QPM:File>
+                        <QPM:File>smbmnt.8</QPM:File>
+                        <QPM:File>smbmount.8</QPM:File>
+                        <QPM:File>smbpasswd.8</QPM:File>
+                        <QPM:File>smbspool.8</QPM:File>
+                        <QPM:File>smbumount.8</QPM:File>
+                        <QPM:File>swat.8</QPM:File>
+                        <QPM:File>winbindd.8</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="private"/>
+                  <QPM:Dir name="swat">
+                     <QPM:Dir name="help">
+                        <QPM:File>CVS-Access.html</QPM:File>
+                        <QPM:File>DOMAIN_MEMBER.html</QPM:File>
+                        <QPM:File>ENCRYPTION.html</QPM:File>
+                        <QPM:File>Integrating-with-Windows.html</QPM:File>
+                        <QPM:File>NT_Security.html</QPM:File>
+                        <QPM:File>OS2-Client-HOWTO.html</QPM:File>
+                        <QPM:File>PAM-Authentication-And-Samba.html</QPM:File>
+                        <QPM:File>Samba-BDC-HOWTO.html</QPM:File>
+                        <QPM:File>Samba-HOWTO-Collection.html</QPM:File>
+                        <QPM:File>Samba-LDAP-HOWTO.html</QPM:File>
+                        <QPM:File>Samba-PDC-HOWTO.html</QPM:File>
+                        <QPM:File>UNIX_INSTALL.html</QPM:File>
+                        <QPM:File>findsmb.1.html</QPM:File>
+                        <QPM:File>lmhosts.5.html</QPM:File>
+                        <QPM:File>make_smbcodepage.1.html</QPM:File>
+                        <QPM:File>make_unicodemap.1.html</QPM:File>
+                        <QPM:File>msdfs_setup.html</QPM:File>
+                        <QPM:File>nmbd.8.html</QPM:File>
+                        <QPM:File>nmblookup.1.html</QPM:File>
+                        <QPM:File>pdbedit.8.html</QPM:File>
+                        <QPM:File>printer_driver2.html</QPM:File>
+                        <QPM:File>rpcclient.1.html</QPM:File>
+                        <QPM:File>samba.7.html</QPM:File>
+                        <QPM:File>smb.conf.5.html</QPM:File>
+                        <QPM:File>smbcacls.1.html</QPM:File>
+                        <QPM:File>smbclient.1.html</QPM:File>
+                        <QPM:File>smbcontrol.1.html</QPM:File>
+                        <QPM:File>smbd.8.html</QPM:File>
+                        <QPM:File>smbmnt.8.html</QPM:File>
+                        <QPM:File>smbmount.8.html</QPM:File>
+                        <QPM:File>smbpasswd.5.html</QPM:File>
+                        <QPM:File>smbpasswd.8.html</QPM:File>
+                        <QPM:File>smbsh.1.html</QPM:File>
+                        <QPM:File>smbspool.8.html</QPM:File>
+                        <QPM:File>smbstatus.1.html</QPM:File>
+                        <QPM:File>smbtar.1.html</QPM:File>
+                        <QPM:File>smbumount.8.html</QPM:File>
+                        <QPM:File>swat.8.html</QPM:File>
+                        <QPM:File>testparm.1.html</QPM:File>
+                        <QPM:File>testprns.1.html</QPM:File>
+                        <QPM:File>wbinfo.1.html</QPM:File>
+                        <QPM:File>welcome.html</QPM:File>
+                        <QPM:File>winbind.html</QPM:File>
+                        <QPM:File>winbindd.8.html</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="images">
+                        <QPM:File>globals.gif</QPM:File>
+                        <QPM:File>home.gif</QPM:File>
+                        <QPM:File>passwd.gif</QPM:File>
+                        <QPM:File>printers.gif</QPM:File>
+                        <QPM:File>samba.gif</QPM:File>
+                        <QPM:File>shares.gif</QPM:File>
+                        <QPM:File>status.gif</QPM:File>
+                        <QPM:File>viewconfig.gif</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="include">
+                        <QPM:File>footer.html</QPM:File>
+                        <QPM:File>header.html</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="using_samba">
+                        <QPM:File>appa_01.html</QPM:File>
+                        <QPM:File>appa_02.html</QPM:File>
+                        <QPM:File>appa_03.html</QPM:File>
+                        <QPM:File>appa_04.html</QPM:File>
+                        <QPM:File>appa_05.html</QPM:File>
+                        <QPM:File>appb_01.html</QPM:File>
+                        <QPM:File>appb_02.html</QPM:File>
+                        <QPM:File>appb_03.html</QPM:File>
+                        <QPM:File>appc_01.html</QPM:File>
+                        <QPM:File>appd_01.html</QPM:File>
+                        <QPM:File>appe_01.html</QPM:File>
+                        <QPM:File>appf_01.html</QPM:File>
+                        <QPM:File>ch01_01.html</QPM:File>
+                        <QPM:File>ch01_02.html</QPM:File>
+                        <QPM:File>ch01_03.html</QPM:File>
+                        <QPM:File>ch01_04.html</QPM:File>
+                        <QPM:File>ch01_05.html</QPM:File>
+                        <QPM:File>ch01_06.html</QPM:File>
+                        <QPM:File>ch01_07.html</QPM:File>
+                        <QPM:File>ch01_08.html</QPM:File>
+                        <QPM:File>ch02_01.html</QPM:File>
+                        <QPM:File>ch02_02.html</QPM:File>
+                        <QPM:File>ch02_03.html</QPM:File>
+                        <QPM:File>ch02_04.html</QPM:File>
+                        <QPM:File>ch02_05.html</QPM:File>
+                        <QPM:File>ch02_06.html</QPM:File>
+                        <QPM:File>ch03_01.html</QPM:File>
+                        <QPM:File>ch03_02.html</QPM:File>
+                        <QPM:File>ch03_03.html</QPM:File>
+                        <QPM:File>ch04_01.html</QPM:File>
+                        <QPM:File>ch04_02.html</QPM:File>
+                        <QPM:File>ch04_03.html</QPM:File>
+                        <QPM:File>ch04_04.html</QPM:File>
+                        <QPM:File>ch04_05.html</QPM:File>
+                        <QPM:File>ch04_06.html</QPM:File>
+                        <QPM:File>ch04_07.html</QPM:File>
+                        <QPM:File>ch04_08.html</QPM:File>
+                        <QPM:File>ch05_01.html</QPM:File>
+                        <QPM:File>ch05_02.html</QPM:File>
+                        <QPM:File>ch05_03.html</QPM:File>
+                        <QPM:File>ch05_04.html</QPM:File>
+                        <QPM:File>ch05_05.html</QPM:File>
+                        <QPM:File>ch06_01.html</QPM:File>
+                        <QPM:File>ch06_02.html</QPM:File>
+                        <QPM:File>ch06_03.html</QPM:File>
+                        <QPM:File>ch06_04.html</QPM:File>
+                        <QPM:File>ch06_05.html</QPM:File>
+                        <QPM:File>ch06_06.html</QPM:File>
+                        <QPM:File>ch07_01.html</QPM:File>
+                        <QPM:File>ch07_02.html</QPM:File>
+                        <QPM:File>ch07_03.html</QPM:File>
+                        <QPM:File>ch08_01.html</QPM:File>
+                        <QPM:File>ch08_02.html</QPM:File>
+                        <QPM:File>ch08_03.html</QPM:File>
+                        <QPM:File>ch08_04.html</QPM:File>
+                        <QPM:File>ch08_05.html</QPM:File>
+                        <QPM:File>ch08_06.html</QPM:File>
+                        <QPM:File>ch08_07.html</QPM:File>
+                        <QPM:File>ch09_01.html</QPM:File>
+                        <QPM:File>ch09_02.html</QPM:File>
+                        <QPM:File>ch09_03.html</QPM:File>
+                        <QPM:Dir name="figs">
+                           <QPM:File>sam.0101.gif</QPM:File>
+                           <QPM:File>sam.0102.gif</QPM:File>
+                           <QPM:File>sam.0103.gif</QPM:File>
+                           <QPM:File>sam.0104.gif</QPM:File>
+                           <QPM:File>sam.0105.gif</QPM:File>
+                           <QPM:File>sam.0106.gif</QPM:File>
+                           <QPM:File>sam.0107.gif</QPM:File>
+                           <QPM:File>sam.0108.gif</QPM:File>
+                           <QPM:File>sam.0109.gif</QPM:File>
+                           <QPM:File>sam.0110.gif</QPM:File>
+                           <QPM:File>sam.0111.gif</QPM:File>
+                           <QPM:File>sam.0112.gif</QPM:File>
+                           <QPM:File>sam.0113.gif</QPM:File>
+                           <QPM:File>sam.0114.gif</QPM:File>
+                           <QPM:File>sam.0201.gif</QPM:File>
+                           <QPM:File>sam.0202.gif</QPM:File>
+                           <QPM:File>sam.0203.gif</QPM:File>
+                           <QPM:File>sam.0204.gif</QPM:File>
+                           <QPM:File>sam.0301.gif</QPM:File>
+                           <QPM:File>sam.0302.gif</QPM:File>
+                           <QPM:File>sam.0303.gif</QPM:File>
+                           <QPM:File>sam.0304.gif</QPM:File>
+                           <QPM:File>sam.0305.gif</QPM:File>
+                           <QPM:File>sam.0306.gif</QPM:File>
+                           <QPM:File>sam.0307.gif</QPM:File>
+                           <QPM:File>sam.0308.gif</QPM:File>
+                           <QPM:File>sam.0309.gif</QPM:File>
+                           <QPM:File>sam.0310.gif</QPM:File>
+                           <QPM:File>sam.0311.gif</QPM:File>
+                           <QPM:File>sam.0312.gif</QPM:File>
+                           <QPM:File>sam.0313.gif</QPM:File>
+                           <QPM:File>sam.0314.gif</QPM:File>
+                           <QPM:File>sam.0315.gif</QPM:File>
+                           <QPM:File>sam.0316.gif</QPM:File>
+                           <QPM:File>sam.0317.gif</QPM:File>
+                           <QPM:File>sam.0318.gif</QPM:File>
+                           <QPM:File>sam.0319.gif</QPM:File>
+                           <QPM:File>sam.0320.gif</QPM:File>
+                           <QPM:File>sam.0321.gif</QPM:File>
+                           <QPM:File>sam.0322.gif</QPM:File>
+                           <QPM:File>sam.0323.gif</QPM:File>
+                           <QPM:File>sam.0324.gif</QPM:File>
+                           <QPM:File>sam.0325.gif</QPM:File>
+                           <QPM:File>sam.0326.gif</QPM:File>
+                           <QPM:File>sam.0327.gif</QPM:File>
+                           <QPM:File>sam.0328.gif</QPM:File>
+                           <QPM:File>sam.0401.gif</QPM:File>
+                           <QPM:File>sam.0402.gif</QPM:File>
+                           <QPM:File>sam.0403.gif</QPM:File>
+                           <QPM:File>sam.0404.gif</QPM:File>
+                           <QPM:File>sam.0405.gif</QPM:File>
+                           <QPM:File>sam.0406.gif</QPM:File>
+                           <QPM:File>sam.0407.gif</QPM:File>
+                           <QPM:File>sam.0501.gif</QPM:File>
+                           <QPM:File>sam.0502.gif</QPM:File>
+                           <QPM:File>sam.0503.gif</QPM:File>
+                           <QPM:File>sam.0504.gif</QPM:File>
+                           <QPM:File>sam.0505.gif</QPM:File>
+                           <QPM:File>sam.0506.gif</QPM:File>
+                           <QPM:File>sam.0507.gif</QPM:File>
+                           <QPM:File>sam.0508.gif</QPM:File>
+                           <QPM:File>sam.0601.gif</QPM:File>
+                           <QPM:File>sam.0602.gif</QPM:File>
+                           <QPM:File>sam.0603.gif</QPM:File>
+                           <QPM:File>sam.0604.gif</QPM:File>
+                           <QPM:File>sam.0605.gif</QPM:File>
+                           <QPM:File>sam.0606.gif</QPM:File>
+                           <QPM:File>sam.0701.gif</QPM:File>
+                           <QPM:File>sam.0702.gif</QPM:File>
+                           <QPM:File>sam.0703.gif</QPM:File>
+                           <QPM:File>sam.0704.gif</QPM:File>
+                           <QPM:File>sam.0705.gif</QPM:File>
+                           <QPM:File>sam.0706.gif</QPM:File>
+                           <QPM:File>sam.0707.gif</QPM:File>
+                           <QPM:File>sam.0708.gif</QPM:File>
+                           <QPM:File>sam.0709.gif</QPM:File>
+                           <QPM:File>sam.0801.gif</QPM:File>
+                           <QPM:File>sam.0802.gif</QPM:File>
+                           <QPM:File>sam.0803.gif</QPM:File>
+                           <QPM:File>sam.0804.gif</QPM:File>
+                           <QPM:File>sam.0805.gif</QPM:File>
+                           <QPM:File>sam.0901.gif</QPM:File>
+                           <QPM:File>sam.0902.gif</QPM:File>
+                           <QPM:File>sam.0903.gif</QPM:File>
+                           <QPM:File>sam.0904.gif</QPM:File>
+                           <QPM:File>sam.0905.gif</QPM:File>
+                           <QPM:File>sam.aa01.gif</QPM:File>
+                           <QPM:File>sam.ab01.gif</QPM:File>
+                           <QPM:File>sam.ab02.gif</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="gifs">
+                           <QPM:File>index.gif</QPM:File>
+                           <QPM:File>samba.s.gif</QPM:File>
+                           <QPM:File>txthome.gif</QPM:File>
+                           <QPM:File>txtnexta.gif</QPM:File>
+                           <QPM:File>txtpreva.gif</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>index.html</QPM:File>
+                        <QPM:File>inx.html</QPM:File>
+                        <QPM:File>licenseinfo.html</QPM:File>
+                        <QPM:File>this_edition.html</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="var">
+                     <QPM:Dir name="locks"/>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../opt/bin">bin</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/sbin">sbin</QPM:Union>
+                  <QPM:Union link="../$(PROCESSOR)/opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="lib">
+                     <QPM:Union link="../../opt/lib/codepages">codepages</QPM:Union>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="man">
+                     <QPM:Union link="../../opt/man/man8">man8</QPM:Union>
+                     <QPM:Union link="../../opt/man/man7">man7</QPM:Union>
+                     <QPM:Union link="../../opt/man/man5">man5</QPM:Union>
+                     <QPM:Union link="../../opt/man/man1">man1</QPM:Union>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

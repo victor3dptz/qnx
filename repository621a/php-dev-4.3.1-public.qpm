@@ -1,0 +1,315 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>php-dev-4.3.1-public</QPM:PackageName>
+            <QPM:PackageSize>679940</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/04/07</QPM:PackageReleaseDate>
+            <QPM:PackageRepository>http://qnx.wox.org/packages/6.2/</QPM:PackageRepository>
+            <QPM:PackageModel>dev</QPM:PackageModel>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>PHP Development</QPM:ProductName>
+            <QPM:ProductSize>2618394</QPM:ProductSize>
+            <QPM:ProductIdentifier>php-dev</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://qnx.wox.org/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>php.net</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.php.net/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>PHP is a web scripting language.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>PHP is a widely-used general-purpose scripting language that is especially suited for Web development and can be embedded into HTML.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.php.net/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/php/dev-4.3.1</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/04/07</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>4.3.1</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>Custom License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://php-4.3.1-public.repdata/LicenseUrl/LICENSE</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>World Wide Web/Web Site Administration/Dynamic Content</QPM:ContentTopic>
+            <QPM:ContentKeyword>php,PHP,mysql</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>None</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Administrator</QPM:TargetAudience>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements>PHP requires Apache</QPM:ProductRequirements>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="include">
+                     <QPM:Dir name="php">
+                        <QPM:Dir name="TSRM">
+                           <QPM:File>TSRM.h</QPM:File>
+                           <QPM:File>acconfig.h</QPM:File>
+                           <QPM:File>readdir.h</QPM:File>
+                           <QPM:File>tsrm_config.h</QPM:File>
+                           <QPM:File>tsrm_config.nw.h</QPM:File>
+                           <QPM:File>tsrm_config.w32.h</QPM:File>
+                           <QPM:File>tsrm_config_common.h</QPM:File>
+                           <QPM:File>tsrm_nw.h</QPM:File>
+                           <QPM:File>tsrm_strtok_r.h</QPM:File>
+                           <QPM:File>tsrm_virtual_cwd.h</QPM:File>
+                           <QPM:File>tsrm_win32.h</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="Zend">
+                           <QPM:File>FlexLexer.h</QPM:File>
+                           <QPM:File>acconfig.h</QPM:File>
+                           <QPM:File>zend.h</QPM:File>
+                           <QPM:File>zend_API.h</QPM:File>
+                           <QPM:File>zend_alloc.h</QPM:File>
+                           <QPM:File>zend_builtin_functions.h</QPM:File>
+                           <QPM:File>zend_compile.h</QPM:File>
+                           <QPM:File>zend_config.h</QPM:File>
+                           <QPM:File>zend_config.w32.h</QPM:File>
+                           <QPM:File>zend_constants.h</QPM:File>
+                           <QPM:File>zend_dynamic_array.h</QPM:File>
+                           <QPM:File>zend_errors.h</QPM:File>
+                           <QPM:File>zend_execute.h</QPM:File>
+                           <QPM:File>zend_execute_globals.h</QPM:File>
+                           <QPM:File>zend_execute_locks.h</QPM:File>
+                           <QPM:File>zend_extensions.h</QPM:File>
+                           <QPM:File>zend_fast_cache.h</QPM:File>
+                           <QPM:File>zend_globals.h</QPM:File>
+                           <QPM:File>zend_globals_macros.h</QPM:File>
+                           <QPM:File>zend_hash.h</QPM:File>
+                           <QPM:File>zend_highlight.h</QPM:File>
+                           <QPM:File>zend_indent.h</QPM:File>
+                           <QPM:File>zend_ini.h</QPM:File>
+                           <QPM:File>zend_ini_parser.h</QPM:File>
+                           <QPM:File>zend_ini_scanner.h</QPM:File>
+                           <QPM:File>zend_istdiostream.h</QPM:File>
+                           <QPM:File>zend_language_parser.h</QPM:File>
+                           <QPM:File>zend_language_scanner.h</QPM:File>
+                           <QPM:File>zend_list.h</QPM:File>
+                           <QPM:File>zend_llist.h</QPM:File>
+                           <QPM:File>zend_modules.h</QPM:File>
+                           <QPM:File>zend_multibyte.h</QPM:File>
+                           <QPM:File>zend_operators.h</QPM:File>
+                           <QPM:File>zend_ptr_stack.h</QPM:File>
+                           <QPM:File>zend_qsort.h</QPM:File>
+                           <QPM:File>zend_stack.h</QPM:File>
+                           <QPM:File>zend_static_allocator.h</QPM:File>
+                           <QPM:File>zend_types.h</QPM:File>
+                           <QPM:File>zend_variables.h</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>acconfig.h</QPM:File>
+                        <QPM:Dir name="ext">
+                           <QPM:Dir name="mbstring">
+                              <QPM:File>cp932_table.h</QPM:File>
+                              <QPM:File>mbfilter.h</QPM:File>
+                              <QPM:File>mbfilter_cn.h</QPM:File>
+                              <QPM:File>mbfilter_ja.h</QPM:File>
+                              <QPM:File>mbfilter_kr.h</QPM:File>
+                              <QPM:File>mbfilter_ru.h</QPM:File>
+                              <QPM:File>mbfilter_tw.h</QPM:File>
+                              <QPM:File>mbregex.h</QPM:File>
+                              <QPM:File>mbstring.h</QPM:File>
+                              <QPM:File>php_mbregex.h</QPM:File>
+                              <QPM:File>php_unicode.h</QPM:File>
+                              <QPM:File>unicode_data.h</QPM:File>
+                              <QPM:File>unicode_table.h</QPM:File>
+                              <QPM:File>unicode_table_cn.h</QPM:File>
+                              <QPM:File>unicode_table_ja.h</QPM:File>
+                              <QPM:File>unicode_table_kr.h</QPM:File>
+                              <QPM:File>unicode_table_ru.h</QPM:File>
+                              <QPM:File>unicode_table_tw.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="pgsql">
+                              <QPM:File>php_pgsql.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="session">
+                              <QPM:File>mod_files.h</QPM:File>
+                              <QPM:File>mod_mm.h</QPM:File>
+                              <QPM:File>mod_user.h</QPM:File>
+                              <QPM:File>php_session.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="standard">
+                              <QPM:File>aggregation.h</QPM:File>
+                              <QPM:File>base64.h</QPM:File>
+                              <QPM:File>basic_functions.h</QPM:File>
+                              <QPM:File>crc32.h</QPM:File>
+                              <QPM:File>credits.h</QPM:File>
+                              <QPM:File>credits_ext.h</QPM:File>
+                              <QPM:File>credits_sapi.h</QPM:File>
+                              <QPM:File>css.h</QPM:File>
+                              <QPM:File>cyr_convert.h</QPM:File>
+                              <QPM:File>datetime.h</QPM:File>
+                              <QPM:File>dl.h</QPM:File>
+                              <QPM:File>dns.h</QPM:File>
+                              <QPM:File>exec.h</QPM:File>
+                              <QPM:File>file.h</QPM:File>
+                              <QPM:File>flock_compat.h</QPM:File>
+                              <QPM:File>fsock.h</QPM:File>
+                              <QPM:File>head.h</QPM:File>
+                              <QPM:File>html.h</QPM:File>
+                              <QPM:File>info.h</QPM:File>
+                              <QPM:File>md5.h</QPM:File>
+                              <QPM:File>microtime.h</QPM:File>
+                              <QPM:File>pack.h</QPM:File>
+                              <QPM:File>pageinfo.h</QPM:File>
+                              <QPM:File>parsedate.h</QPM:File>
+                              <QPM:File>php_array.h</QPM:File>
+                              <QPM:File>php_assert.h</QPM:File>
+                              <QPM:File>php_browscap.h</QPM:File>
+                              <QPM:File>php_crypt.h</QPM:File>
+                              <QPM:File>php_dir.h</QPM:File>
+                              <QPM:File>php_ext_syslog.h</QPM:File>
+                              <QPM:File>php_filestat.h</QPM:File>
+                              <QPM:File>php_fopen_wrappers.h</QPM:File>
+                              <QPM:File>php_ftok.h</QPM:File>
+                              <QPM:File>php_image.h</QPM:File>
+                              <QPM:File>php_incomplete_class.h</QPM:File>
+                              <QPM:File>php_iptc.h</QPM:File>
+                              <QPM:File>php_lcg.h</QPM:File>
+                              <QPM:File>php_link.h</QPM:File>
+                              <QPM:File>php_mail.h</QPM:File>
+                              <QPM:File>php_math.h</QPM:File>
+                              <QPM:File>php_metaphone.h</QPM:File>
+                              <QPM:File>php_parsedate.h</QPM:File>
+                              <QPM:File>php_rand.h</QPM:File>
+                              <QPM:File>php_smart_str.h</QPM:File>
+                              <QPM:File>php_smart_str_public.h</QPM:File>
+                              <QPM:File>php_standard.h</QPM:File>
+                              <QPM:File>php_string.h</QPM:File>
+                              <QPM:File>php_type.h</QPM:File>
+                              <QPM:File>php_var.h</QPM:File>
+                              <QPM:File>php_versioning.h</QPM:File>
+                              <QPM:File>quot_print.h</QPM:File>
+                              <QPM:File>reg.h</QPM:File>
+                              <QPM:File>scanf.h</QPM:File>
+                              <QPM:File>sha1.h</QPM:File>
+                              <QPM:File>uniqid.h</QPM:File>
+                              <QPM:File>url.h</QPM:File>
+                              <QPM:File>url_scanner.h</QPM:File>
+                              <QPM:File>url_scanner_ex.h</QPM:File>
+                           </QPM:Dir>
+
+                           <QPM:Dir name="xml">
+                              <QPM:Dir name="expat">
+                                 <QPM:File>ascii.h</QPM:File>
+                                 <QPM:File>asciitab.h</QPM:File>
+                                 <QPM:File>expat.h</QPM:File>
+                                 <QPM:File>iasciitab.h</QPM:File>
+                                 <QPM:File>latin1tab.h</QPM:File>
+                                 <QPM:File>nametab.h</QPM:File>
+                                 <QPM:File>utf8tab.h</QPM:File>
+                                 <QPM:File>winconfig.h</QPM:File>
+                                 <QPM:File>xmlrole.h</QPM:File>
+                                 <QPM:File>xmltok.h</QPM:File>
+                                 <QPM:File>xmltok_impl.h</QPM:File>
+                              </QPM:Dir>
+
+                              <QPM:File>php_xml.h</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+
+                        <QPM:Dir name="main">
+                           <QPM:File>SAPI.h</QPM:File>
+                           <QPM:File>build-defs.h</QPM:File>
+                           <QPM:File>config.nw.h</QPM:File>
+                           <QPM:File>fopen_wrappers.h</QPM:File>
+                           <QPM:File>internal_functions_registry.h</QPM:File>
+                           <QPM:File>logos.h</QPM:File>
+                           <QPM:File>php.h</QPM:File>
+                           <QPM:File>php3_compat.h</QPM:File>
+                           <QPM:File>php_compat.h</QPM:File>
+                           <QPM:File>php_config.h</QPM:File>
+                           <QPM:File>php_content_types.h</QPM:File>
+                           <QPM:File>php_embed.h</QPM:File>
+                           <QPM:File>php_globals.h</QPM:File>
+                           <QPM:File>php_ini.h</QPM:File>
+                           <QPM:File>php_logos.h</QPM:File>
+                           <QPM:File>php_main.h</QPM:File>
+                           <QPM:File>php_memory_streams.h</QPM:File>
+                           <QPM:File>php_network.h</QPM:File>
+                           <QPM:File>php_open_temporary_file.h</QPM:File>
+                           <QPM:File>php_output.h</QPM:File>
+                           <QPM:File>php_reentrancy.h</QPM:File>
+                           <QPM:File>php_regex.h</QPM:File>
+                           <QPM:File>php_streams.h</QPM:File>
+                           <QPM:File>php_syslog.h</QPM:File>
+                           <QPM:File>php_ticks.h</QPM:File>
+                           <QPM:File>php_variables.h</QPM:File>
+                           <QPM:File>php_version.h</QPM:File>
+                           <QPM:File>rfc1867.h</QPM:File>
+                           <QPM:File>safe_mode.h</QPM:File>
+                           <QPM:File>snprintf.h</QPM:File>
+                           <QPM:File>spprintf.h</QPM:File>
+                           <QPM:File>win95nt.h</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>php_version.h</QPM:File>
+                        <QPM:Dir name="regex">
+                           <QPM:File>cclass.h</QPM:File>
+                           <QPM:File>cname.h</QPM:File>
+                           <QPM:File>regex.h</QPM:File>
+                           <QPM:File>regex2.h</QPM:File>
+                           <QPM:File>regex_extra.h</QPM:File>
+                           <QPM:File>utils.h</QPM:File>
+                        </QPM:Dir>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Dir name="include">
+                     <QPM:Union link="../../opt/include/php">php</QPM:Union>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

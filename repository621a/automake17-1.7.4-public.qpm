@@ -1,0 +1,215 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>automake17-1.7.4-public</QPM:PackageName>
+            <QPM:PackageSize>328235</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/05/12</QPM:PackageReleaseDate>
+            <QPM:PackageRepository>http://qnx.wox.org/packages/6.2/</QPM:PackageRepository>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Automake 1.7</QPM:ProductName>
+            <QPM:ProductSize>1146127</QPM:ProductSize>
+            <QPM:ProductIdentifier>automake17</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>GNU</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.gnu.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Automake is a build toold.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>This package contains automake v1.7.x, part of the GNU build toolchain.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.gnu.org/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/automake17/core-1.7.4</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/05/12</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>1.7.4</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>1</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://automake17-1.7.4-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>core</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent/>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Software Development/Build Tools</QPM:ContentTopic>
+            <QPM:ContentKeyword>automake,autoconf,libtool</QPM:ContentKeyword>
+            <QPM:Processor/>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>Console</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>Developer</QPM:TargetAudience>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="bin">
+                     <QPM:File>aclocal-1.7</QPM:File>
+                     <QPM:File>automake-1.7</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="info">
+                     <QPM:File>automake.info</QPM:File>
+                     <QPM:File>automake.info-1</QPM:File>
+                     <QPM:File>automake.info-2</QPM:File>
+                     <QPM:File>automake.info-3</QPM:File>
+                     <QPM:File>automake.info-4</QPM:File>
+                     <QPM:File>automake.info-5</QPM:File>
+                     <QPM:File>dir</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="share">
+                     <QPM:Dir name="aclocal-1.7">
+                        <QPM:File>amversion.m4</QPM:File>
+                        <QPM:File>as.m4</QPM:File>
+                        <QPM:File>auxdir.m4</QPM:File>
+                        <QPM:File>ccstdc.m4</QPM:File>
+                        <QPM:File>cond.m4</QPM:File>
+                        <QPM:File>depend.m4</QPM:File>
+                        <QPM:File>depout.m4</QPM:File>
+                        <QPM:File>dmalloc.m4</QPM:File>
+                        <QPM:File>gcj.m4</QPM:File>
+                        <QPM:File>header.m4</QPM:File>
+                        <QPM:File>init.m4</QPM:File>
+                        <QPM:File>install-sh.m4</QPM:File>
+                        <QPM:File>lead-dot.m4</QPM:File>
+                        <QPM:File>lex.m4</QPM:File>
+                        <QPM:File>lispdir.m4</QPM:File>
+                        <QPM:File>maintainer.m4</QPM:File>
+                        <QPM:File>make.m4</QPM:File>
+                        <QPM:File>minuso.m4</QPM:File>
+                        <QPM:File>missing.m4</QPM:File>
+                        <QPM:File>multi.m4</QPM:File>
+                        <QPM:File>obsol-gt.m4</QPM:File>
+                        <QPM:File>obsol-lt.m4</QPM:File>
+                        <QPM:File>obsolete.m4</QPM:File>
+                        <QPM:File>options.m4</QPM:File>
+                        <QPM:File>protos.m4</QPM:File>
+                        <QPM:File>python.m4</QPM:File>
+                        <QPM:File>regex.m4</QPM:File>
+                        <QPM:File>runlog.m4</QPM:File>
+                        <QPM:File>sanity.m4</QPM:File>
+                        <QPM:File>strip.m4</QPM:File>
+                     </QPM:Dir>
+
+                     <QPM:Dir name="automake-1.7">
+                        <QPM:Dir name="Automake">
+                           <QPM:File>Channels.pm</QPM:File>
+                           <QPM:File>General.pm</QPM:File>
+                           <QPM:File>Struct.pm</QPM:File>
+                           <QPM:File>XFile.pm</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>COPYING</QPM:File>
+                        <QPM:File>INSTALL</QPM:File>
+                        <QPM:File>acinstall</QPM:File>
+                        <QPM:Dir name="am">
+                           <QPM:File>ansi2knr.am</QPM:File>
+                           <QPM:File>check.am</QPM:File>
+                           <QPM:File>clean-hdr.am</QPM:File>
+                           <QPM:File>clean.am</QPM:File>
+                           <QPM:File>compile.am</QPM:File>
+                           <QPM:File>configure.am</QPM:File>
+                           <QPM:File>data.am</QPM:File>
+                           <QPM:File>dejagnu.am</QPM:File>
+                           <QPM:File>depend.am</QPM:File>
+                           <QPM:File>depend2.am</QPM:File>
+                           <QPM:File>distdir.am</QPM:File>
+                           <QPM:File>footer.am</QPM:File>
+                           <QPM:File>header-vars.am</QPM:File>
+                           <QPM:File>header.am</QPM:File>
+                           <QPM:File>install.am</QPM:File>
+                           <QPM:File>java.am</QPM:File>
+                           <QPM:File>lang-compile.am</QPM:File>
+                           <QPM:File>lex.am</QPM:File>
+                           <QPM:File>library.am</QPM:File>
+                           <QPM:File>libs.am</QPM:File>
+                           <QPM:File>libtool.am</QPM:File>
+                           <QPM:File>lisp.am</QPM:File>
+                           <QPM:File>ltlib.am</QPM:File>
+                           <QPM:File>ltlibrary.am</QPM:File>
+                           <QPM:File>mans-vars.am</QPM:File>
+                           <QPM:File>mans.am</QPM:File>
+                           <QPM:File>multilib.am</QPM:File>
+                           <QPM:File>program.am</QPM:File>
+                           <QPM:File>progs.am</QPM:File>
+                           <QPM:File>python.am</QPM:File>
+                           <QPM:File>remake-hdr.am</QPM:File>
+                           <QPM:File>scripts.am</QPM:File>
+                           <QPM:File>subdirs.am</QPM:File>
+                           <QPM:File>tags.am</QPM:File>
+                           <QPM:File>texi-vers.am</QPM:File>
+                           <QPM:File>texibuild.am</QPM:File>
+                           <QPM:File>texinfos.am</QPM:File>
+                           <QPM:File>yacc.am</QPM:File>
+                        </QPM:Dir>
+
+                        <QPM:File>ansi2knr.1</QPM:File>
+                        <QPM:File>ansi2knr.c</QPM:File>
+                        <QPM:File>compile</QPM:File>
+                        <QPM:File>config.guess</QPM:File>
+                        <QPM:File>config.sub</QPM:File>
+                        <QPM:File>depcomp</QPM:File>
+                        <QPM:File>elisp-comp</QPM:File>
+                        <QPM:File>install-sh</QPM:File>
+                        <QPM:File>mdate-sh</QPM:File>
+                        <QPM:File>missing</QPM:File>
+                        <QPM:File>mkinstalldirs</QPM:File>
+                        <QPM:File>py-compile</QPM:File>
+                        <QPM:File>texinfo.tex</QPM:File>
+                        <QPM:File>ylwrap</QPM:File>
+                     </QPM:Dir>
+                  </QPM:Dir>
+               </QPM:Dir>
+
+               <QPM:Dir name="usr">
+                  <QPM:Union link="../opt/info">info</QPM:Union>
+                  <QPM:Union link="../opt/bin">bin</QPM:Union>
+                  <QPM:Dir name="share">
+                     <QPM:Union link="../../opt/share/automake-1.7">automake-1.7</QPM:Union>
+                     <QPM:Union link="../../opt/share/aclocal-1.7">aclocal-1.7</QPM:Union>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>

@@ -1,0 +1,287 @@
+<?xml version="1.0" ?>
+<RDF:RDF xmlns:RDF="http://www.w3.org" xmlns:QPM="http://www.qnx.com">
+   <RDF:Description about="http://www.qnx.com">
+      <QPM:PackageManifest>
+         <QPM:PackageDescription>
+            <QPM:PackageType>Application</QPM:PackageType>
+            <QPM:PackageName>gimp-1.2.3-bld4-x86-public</QPM:PackageName>
+            <QPM:PackageSize>3105102</QPM:PackageSize>
+            <QPM:PackageReleaseNumber>1</QPM:PackageReleaseNumber>
+            <QPM:PackageReleaseDate>2003/02/17</QPM:PackageReleaseDate>
+            <QPM:PackageRepository/>
+            <QPM:FileVersion>2.0</QPM:FileVersion>
+         </QPM:PackageDescription>
+
+         <QPM:ProductDescription>
+            <QPM:ProductName>Gimp for x86</QPM:ProductName>
+            <QPM:ProductSize>40121135</QPM:ProductSize>
+            <QPM:ProductIdentifier>gimp-host_x86</QPM:ProductIdentifier>
+            <QPM:ProductEmail/>
+            <QPM:VendorName>Public</QPM:VendorName>
+            <QPM:VendorInstallName>public</QPM:VendorInstallName>
+            <QPM:VendorURL>http://www.qnx.com/</QPM:VendorURL>
+            <QPM:VendorEmbedURL/>
+            <QPM:VendorEmail/>
+            <QPM:AuthorName>Gimp</QPM:AuthorName>
+            <QPM:AuthorURL>http://www.gimp.org/</QPM:AuthorURL>
+            <QPM:AuthorEmbedURL/>
+            <QPM:AuthorEmail/>
+            <QPM:ProductIconSmall/>
+            <QPM:ProductIconLarge/>
+            <QPM:ProductDescriptionShort>Gimp is an image editing program.</QPM:ProductDescriptionShort>
+            <QPM:ProductDescriptionLong>Gimp is an image editing program.</QPM:ProductDescriptionLong>
+            <QPM:ProductDescriptionURL>http://www.gimp.org/</QPM:ProductDescriptionURL>
+            <QPM:ProductDescriptionEmbedURL/>
+            <QPM:InstallPath>public/gimp/core-1.2.3-bld4/x86</QPM:InstallPath>
+         </QPM:ProductDescription>
+
+         <QPM:ReleaseDescription>
+            <QPM:ReleaseDate>2003/02/17</QPM:ReleaseDate>
+            <QPM:ReleaseVersion>1.2.3</QPM:ReleaseVersion>
+            <QPM:ReleaseUrgency>Medium</QPM:ReleaseUrgency>
+            <QPM:ReleaseStability>Stable</QPM:ReleaseStability>
+            <QPM:ReleaseNoteMinor/>
+            <QPM:ReleaseNoteMajor/>
+            <QPM:ReleaseBuild>4</QPM:ReleaseBuild>
+            <QPM:ExcludeCountries>
+               <QPM:Country/>
+            </QPM:ExcludeCountries>
+
+            <QPM:ReleaseCopyright>GNU General Public License</QPM:ReleaseCopyright>
+         </QPM:ReleaseDescription>
+
+         <QPM:LicenseUrl>rep://gimp-1.2.3-bld4-public.repdata/LicenseUrl/COPYING</QPM:LicenseUrl>
+         <QPM:ProductKeyUrl/>
+         <QPM:RelationshipDescription>
+            <QPM:RelationshipType>component</QPM:RelationshipType>
+            <QPM:ComponentType>Required</QPM:ComponentType>
+            <QPM:ComponentParent>gimp</QPM:ComponentParent>
+            <QPM:ComponentFilter/>
+         </QPM:RelationshipDescription>
+
+         <QPM:ContentDescription>
+            <QPM:ContentTopic>Multimedia/Graphics/Graphics Editing/Paint and Bitmap Editors</QPM:ContentTopic>
+            <QPM:ContentKeyword>gimp,photoshop</QPM:ContentKeyword>
+            <QPM:Processor>x86</QPM:Processor>
+            <QPM:TargetProcessor/>
+            <QPM:TargetOS>qnx6</QPM:TargetOS>
+            <QPM:HostOS>none</QPM:HostOS>
+            <QPM:DisplayEnvironment>X11R6</QPM:DisplayEnvironment>
+            <QPM:TargetAudience>User</QPM:TargetAudience>
+            <QPM:RequiresLibrary>libc.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libgtk-1.2.so.9</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libgdk-1.2.so.9</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libgmodule-1.2.so.0</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libglib-1.2.so.0</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libm.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libXmu.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libXt.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libSM.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libICE.so.6</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libjpeg.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libpng.so.3</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libz.so.2</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libtiff.so.3</QPM:RequiresLibrary>
+            <QPM:RequiresLibrary>libXpm.so.4</QPM:RequiresLibrary>
+            <QPM:ContainsLibrary>libgck-1.2.so.0</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libgimp-1.2.so.0</QPM:ContainsLibrary>
+            <QPM:ContainsLibrary>libgimpui-1.2.so.0</QPM:ContainsLibrary>
+         </QPM:ContentDescription>
+
+         <QPM:ProductInstallationDependencies>
+            <QPM:ProductRequirements/>
+         </QPM:ProductInstallationDependencies>
+
+         <QPM:QNXLicenseDescription/>
+      </QPM:PackageManifest>
+
+      <QPM:FileManifest>
+         <QPM:Listing>
+            <QPM:Dir name="">
+               <QPM:Dir name="opt">
+                  <QPM:Dir name="bin">
+                     <QPM:Link link="escputil-1.2">escputil</QPM:Link>
+                     <QPM:File>escputil-1.2</QPM:File>
+                     <QPM:Link link="gimp-1.2">gimp</QPM:Link>
+                     <QPM:File>gimp-1.2</QPM:File>
+                     <QPM:Link link="gimp-remote-1.2">gimp-remote</QPM:Link>
+                     <QPM:File>gimp-remote-1.2</QPM:File>
+                  </QPM:Dir>
+
+                  <QPM:Dir name="lib">
+                     <QPM:Dir name="gimp">
+                        <QPM:Dir name="1.2">
+                           <QPM:Dir name="plug-ins">
+                              <QPM:File>AlienMap</QPM:File>
+                              <QPM:File>AlienMap2</QPM:File>
+                              <QPM:File>CEL</QPM:File>
+                              <QPM:File>CML_explorer</QPM:File>
+                              <QPM:File>FractalExplorer</QPM:File>
+                              <QPM:File>Lighting</QPM:File>
+                              <QPM:File>MapObject</QPM:File>
+                              <QPM:File>align_layers</QPM:File>
+                              <QPM:File>animationplay</QPM:File>
+                              <QPM:File>animoptimize</QPM:File>
+                              <QPM:File>apply_lens</QPM:File>
+                              <QPM:File>autocrop</QPM:File>
+                              <QPM:File>autostretch_hsv</QPM:File>
+                              <QPM:File>blinds</QPM:File>
+                              <QPM:File>blur</QPM:File>
+                              <QPM:File>bmp</QPM:File>
+                              <QPM:File>borderaverage</QPM:File>
+                              <QPM:File>bumpmap</QPM:File>
+                              <QPM:File>bz2</QPM:File>
+                              <QPM:File>c_astretch</QPM:File>
+                              <QPM:File>checkerboard</QPM:File>
+                              <QPM:File>color_enhance</QPM:File>
+                              <QPM:File>colorify</QPM:File>
+                              <QPM:File>colortoalpha</QPM:File>
+                              <QPM:File>compose</QPM:File>
+                              <QPM:File>convmatrix</QPM:File>
+                              <QPM:File>csource</QPM:File>
+                              <QPM:File>cubism</QPM:File>
+                              <QPM:File>curve_bend</QPM:File>
+                              <QPM:File>dbbrowser</QPM:File>
+                              <QPM:File>decompose</QPM:File>
+                              <QPM:File>deinterlace</QPM:File>
+                              <QPM:File>depthmerge</QPM:File>
+                              <QPM:File>despeckle</QPM:File>
+                              <QPM:File>destripe</QPM:File>
+                              <QPM:File>diffraction</QPM:File>
+                              <QPM:File>displace</QPM:File>
+                              <QPM:File>edge</QPM:File>
+                              <QPM:File>emboss</QPM:File>
+                              <QPM:File>engrave</QPM:File>
+                              <QPM:File>exchange</QPM:File>
+                              <QPM:File>faxg3</QPM:File>
+                              <QPM:File>film</QPM:File>
+                              <QPM:File>fits</QPM:File>
+                              <QPM:File>flame</QPM:File>
+                              <QPM:File>flarefx</QPM:File>
+                              <QPM:File>fp</QPM:File>
+                              <QPM:File>fractaltrace</QPM:File>
+                              <QPM:File>gap_filter</QPM:File>
+                              <QPM:File>gap_frontends</QPM:File>
+                              <QPM:File>gap_navigator_dialog</QPM:File>
+                              <QPM:File>gap_plugins</QPM:File>
+                              <QPM:File>gauss_iir</QPM:File>
+                              <QPM:File>gauss_rle</QPM:File>
+                              <QPM:File>gbr</QPM:File>
+                              <QPM:File>gdyntext</QPM:File>
+                              <QPM:File>gee</QPM:File>
+                              <QPM:File>gee_zoom</QPM:File>
+                              <QPM:File>gfig</QPM:File>
+                              <QPM:File>gflare</QPM:File>
+                              <QPM:File>gfli</QPM:File>
+                              <QPM:File>gicon</QPM:File>
+                              <QPM:File>gif</QPM:File>
+                              <QPM:File>gifload</QPM:File>
+                              <QPM:File>gih</QPM:File>
+                              <QPM:File>gimpressionist</QPM:File>
+                              <QPM:File>glasstile</QPM:File>
+                              <QPM:File>gqbist</QPM:File>
+                              <QPM:File>gradmap</QPM:File>
+                              <QPM:File>grid</QPM:File>
+                              <QPM:File>gtm</QPM:File>
+                              <QPM:File>guillotine</QPM:File>
+                              <QPM:File>gz</QPM:File>
+                              <QPM:File>header</QPM:File>
+                              <QPM:File>hot</QPM:File>
+                              <QPM:File>hrz</QPM:File>
+                              <QPM:File>ifscompose</QPM:File>
+                              <QPM:File>illusion</QPM:File>
+                              <QPM:File>imagemap</QPM:File>
+                              <QPM:File>iwarp</QPM:File>
+                              <QPM:File>jigsaw</QPM:File>
+                              <QPM:File>jpeg</QPM:File>
+                              <QPM:File>laplace</QPM:File>
+                              <QPM:File>lic</QPM:File>
+                              <QPM:File>mail</QPM:File>
+                              <QPM:File>mapcolor</QPM:File>
+                              <QPM:File>max_rgb</QPM:File>
+                              <QPM:File>maze</QPM:File>
+                              <QPM:File>mblur</QPM:File>
+                              <QPM:File>mosaic</QPM:File>
+                              <QPM:File>newsprint</QPM:File>
+                              <QPM:File>nlfilt</QPM:File>
+                              <QPM:File>noisify</QPM:File>
+                              <QPM:File>normalize</QPM:File>
+                              <QPM:File>nova</QPM:File>
+                              <QPM:File>oilify</QPM:File>
+                              <QPM:File>pagecurl</QPM:File>
+                              <QPM:File>papertile</QPM:File>
+                              <QPM:File>pat</QPM:File>
+                              <QPM:File>pcx</QPM:File>
+                              <QPM:File>pix</QPM:File>
+                              <QPM:File>pixelize</QPM:File>
+                              <QPM:File>plasma</QPM:File>
+                              <QPM:File>plugindetails</QPM:File>
+                              <QPM:File>png</QPM:File>
+                              <QPM:File>pnm</QPM:File>
+                              <QPM:File>polar</QPM:File>
+                              <QPM:File>print</QPM:File>
+                              <QPM:File>ps</QPM:File>
+                              <QPM:File>psd</QPM:File>
+                              <QPM:File>psp</QPM:File>
+                              <QPM:File>randomize</QPM:File>
+                              <QPM:File>rcm</QPM:File>
+                              <QPM:File>ripple</QPM:File>
+                              <QPM:File>rotate</QPM:File>
+                              <QPM:File>sample_colorize</QPM:File>
+                              <QPM:File>scatter_hsv</QPM:File>
+                              <QPM:File>screenshot</QPM:File>
+                              <QPM:File>script-fu</QPM:File>
+                              <QPM:File>sel2path</QPM:File>
+                              <QPM:File>sel_gauss</QPM:File>
+                              <QPM:File>semiflatten</QPM:File>
+                              <QPM:File>sgi</QPM:File>
+                              <QPM:File>sharpen</QPM:File>
+                              <QPM:File>shift</QPM:File>
+                              <QPM:File>sinus</QPM:File>
+                              <QPM:File>smooth_palette</QPM:File>
+                              <QPM:File>snoise</QPM:File>
+                              <QPM:File>sobel</QPM:File>
+                              <QPM:File>sparkle</QPM:File>
+                              <QPM:File>spread</QPM:File>
+                              <QPM:File>struc</QPM:File>
+                              <QPM:File>sunras</QPM:File>
+                              <QPM:File>tga</QPM:File>
+                              <QPM:File>threshold_alpha</QPM:File>
+                              <QPM:File>tiff</QPM:File>
+                              <QPM:File>tile</QPM:File>
+                              <QPM:File>tileit</QPM:File>
+                              <QPM:File>tiler</QPM:File>
+                              <QPM:File>uniteditor</QPM:File>
+                              <QPM:File>unsharp</QPM:File>
+                              <QPM:File>url</QPM:File>
+                              <QPM:File>video</QPM:File>
+                              <QPM:File>vinvert</QPM:File>
+                              <QPM:File>vpropagate</QPM:File>
+                              <QPM:File>warp</QPM:File>
+                              <QPM:File>waves</QPM:File>
+                              <QPM:File>webbrowser</QPM:File>
+                              <QPM:File>whirlpinch</QPM:File>
+                              <QPM:File>wind</QPM:File>
+                              <QPM:File>wmf</QPM:File>
+                              <QPM:File>xbm</QPM:File>
+                              <QPM:File>xjt</QPM:File>
+                              <QPM:File>xpm</QPM:File>
+                              <QPM:File>xwd</QPM:File>
+                              <QPM:File>zealouscrop</QPM:File>
+                           </QPM:Dir>
+                        </QPM:Dir>
+                     </QPM:Dir>
+
+                     <QPM:File>libgck-1.2.so.0</QPM:File>
+                     <QPM:Link link="libgck-1.2.so.0">libgck.so</QPM:Link>
+                     <QPM:File>libgimp-1.2.so.0</QPM:File>
+                     <QPM:Link link="libgimp-1.2.so.0">libgimp.so</QPM:Link>
+                     <QPM:File>libgimpui-1.2.so.0</QPM:File>
+                     <QPM:Link link="libgimpui-1.2.so.0">libgimpui.so</QPM:Link>
+                  </QPM:Dir>
+               </QPM:Dir>
+            </QPM:Dir>
+         </QPM:Listing>
+      </QPM:FileManifest>
+   </RDF:Description>
+</RDF:RDF>
