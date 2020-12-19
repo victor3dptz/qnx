@@ -4,8 +4,8 @@
       <QPM:RepositoryIdentifier>Unsupported</QPM:RepositoryIdentifier>
       <QPM:RepositoryType>Archive Repository</QPM:RepositoryType>
       <QPM:RepositoryContent>
-	 <QPM:PackageCount>969</QPM:PackageCount>
-         <QPM:LastUpdate>20201218144736</QPM:LastUpdate>
+	 <QPM:PackageCount>971</QPM:PackageCount>
+         <QPM:LastUpdate>20201219121754</QPM:LastUpdate>
          <QPM:RemovableMedia>No</QPM:RemovableMedia>
          <QPM:FileVersion>2.00</QPM:FileVersion>
       </QPM:RepositoryContent>
@@ -99,6 +99,8 @@
 	    <QPM:Pkg file="cmpci-0.82b-x86-public.qpk" stability="Stable">public/cmpci/core-0.82b/x86</QPM:Pkg>
 	    <QPM:Pkg file="cmpci-0.83b-public.qpk" stability="Stable">public/cmpci/core-0.83b</QPM:Pkg>
 	    <QPM:Pkg file="cmpci-0.83b-x86-public.qpk" stability="Stable">public/cmpci/core-0.83b/x86</QPM:Pkg>
+	    <QPM:Pkg file="cmpci-0.83c-public.qpk" stability="Stable">public/cmpci/core-0.83c</QPM:Pkg>
+	    <QPM:Pkg file="cmpci-0.83c-x86-public.qpk" stability="Stable">public/cmpci/core-0.83c/x86</QPM:Pkg>
 	    <QPM:Pkg file="CogentAPI-4.0-bld20-Cogent.qpk" stability="Stable">Cogent/CogentAPI/core-4.0-bld20</QPM:Pkg>
 	    <QPM:Pkg file="CogentAPI-4.0-bld20-x86-Cogent.qpk" stability="Stable">Cogent/CogentAPI/core-4.0-bld20/x86</QPM:Pkg>
 	    <QPM:Pkg file="CogentAPI-4.1-bld10-Cogent.qpk" stability="Stable">Cogent/CogentAPI/core-4.1-bld10</QPM:Pkg>
